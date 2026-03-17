@@ -327,3 +327,70 @@ body {
 .accordion-item {
     margin-bottom: 10px;
 }
+@media (max-width: 768px) {
+
+    /* Split screen becomes vertical */
+    .split-screen {
+        flex-direction: column;
+    }
+
+    /* Each section takes half screen */
+    .split {
+        width: 100%;
+        height: 50vh;
+    }
+
+    /* Fix text size */
+    .split h1 {
+        font-size: 2rem;
+        padding: 0 15px;
+    }
+
+    /* Disable hover expansion on mobile */
+    .split:hover {
+        flex: 1;
+    }
+
+    /* App content spacing */
+    #app {
+        padding: 30px 10px;
+    }
+
+    .main-title {
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+    }
+
+    /* Cards */
+    .glass-card {
+        width: 90%;
+        padding: 25px;
+    }
+
+    /* Subject cards */
+    .subject-grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .subject-card {
+        width: 90%;
+    }
+
+    /* Content width */
+    .content-container {
+        width: 90%;
+    }
+
+    /* Chapter layout */
+    .chapter-layout {
+        width: 90%;
+        margin: 40px auto;
+    }
+
+    /* Compare grid becomes vertical */
+    .compare-grid {
+        flex-direction: column;
+    }
+}
