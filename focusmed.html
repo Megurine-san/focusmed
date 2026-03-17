@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0f172a">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>FocusMed</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="home" class="split-screen">
+
+    <div class="split arena" onclick="enterArenaMode()">
+        <h1>Arena Mode</h1>
+    </div>
+
+    <div class="split deep" onclick="enterDeepMode()">
+        <h1>Deep Mode</h1>
+    </div>
+
+</div>
+
+<div id="app" class="hidden"></div>
+
+<script src="database.js" defer></script>
+
+<!-- Courses -->
+<script src="data/anatomia.js" defer></script>
+<script src="data/embriologia.js" defer></script>
+<script src="data/farmacologia.js" defer></script>
+<script src="data/fisiologia.js" defer></script>
+<script src="data/fisiopatologia.js" defer></script>
+<script src="data/microbiologia.js" defer></script>
+<script src="data/patologia.js" defer></script>
+<script src="data/semiologia.js" defer></script>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
