@@ -1,7 +1,8 @@
 {
   "name": "FocusMed",
   "short_name": "FocusMed",
-  "start_url": "focusmed.html",
+  "start_url": "/focusmed/",
+  "scope": "/focusmed/",
   "display": "standalone",
   "background_color": "#0f172a",
   "theme_color": "#0f172a",
