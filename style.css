@@ -329,68 +329,25 @@ body {
 }
 @media (max-width: 768px) {
 
-    /* Split screen becomes vertical */
     .split-screen {
-        flex-direction: column;
+        flex-direction: column !important;
+        height: auto;
     }
 
-    /* Each section takes half screen */
     .split {
-        width: 100%;
+        width: 100% !important;
         height: 50vh;
+        flex: none !important;
     }
 
-    /* Fix text size */
     .split h1 {
         font-size: 2rem;
         padding: 0 15px;
     }
 
-    /* Disable hover expansion on mobile */
+    /* VERY IMPORTANT: remove hover effect on mobile */
     .split:hover {
-        flex: 1;
+        flex: none !important;
     }
 
-    /* App content spacing */
-    #app {
-        padding: 30px 10px;
-    }
-
-    .main-title {
-        font-size: 1.8rem;
-        margin-bottom: 30px;
-    }
-
-    /* Cards */
-    .glass-card {
-        width: 90%;
-        padding: 25px;
-    }
-
-    /* Subject cards */
-    .subject-grid {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .subject-card {
-        width: 90%;
-    }
-
-    /* Content width */
-    .content-container {
-        width: 90%;
-    }
-
-    /* Chapter layout */
-    .chapter-layout {
-        width: 90%;
-        margin: 40px auto;
-    }
-
-    /* Compare grid becomes vertical */
-    .compare-grid {
-        flex-direction: column;
-    }
 }
