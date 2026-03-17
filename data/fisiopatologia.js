@@ -1,6 +1,6 @@
 database.Fisiopatologia = {
     "Porth 10ma Edición": {
-
+"Parte 1 – Conceptos de salud y enfermedad": {
         "Capítulo 1 - Conceptos de salud y enfermedad": {
 
 coreConcepts: {
@@ -209,7 +209,7 @@ arenaSeeds: [
 "La prevención terciaria busca reducir complicaciones."
 
 ]
-
+}
 },
 "Capítulo 2 - Características de células y tejidos": {
 
