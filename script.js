@@ -1,4 +1,5 @@
 let currentChapterData = null;
+let failedQuestions = [];
 
 /* ===================== */
 /* ===== MODE ENTRY ===== */
@@ -49,8 +50,9 @@ function renderCourses() {
 
     Object.keys(database || {}).forEach(course => {
 
-        const card = document.createElement("div");
-        card.className = "glass-card";
+    if (course === "questions") return;
+
+    const card = document.createElement("div");
 
         card.innerHTML = `
             <div class="emoji">${icons[course] || "📘"}</div>
@@ -147,7 +149,10 @@ function renderParts(course, book, chapter) {
 
     const app = document.getElementById("app");
 
-    const parts = database[course][book][chapter];
+    const chapterData = database[course][book][chapter];
+
+    // 🔥 KEY FIX
+    const parts = chapterData.core || chapterData;
 
     app.innerHTML = `
         <button class="back-btn" onclick="renderChapters('${course}','${book}')">← Volver</button>
@@ -174,6 +179,7 @@ function renderParts(course, book, chapter) {
     });
 
 }
+
 /* ===================== */
 /* ===== PART CONTENT ===== */
 /* ===================== */
@@ -182,7 +188,10 @@ function renderPartContent(course, book, chapter, part) {
 
     const app = document.getElementById("app");
 
-    const data = database[course][book][chapter][part];
+    const chapterData = database[course][book][chapter];
+    const parts = chapterData.core || chapterData;
+
+    const data = parts[part];
 
     currentChapterData = data;
 
@@ -195,7 +204,6 @@ function renderPartContent(course, book, chapter, part) {
     const container = document.getElementById("chapter-content");
 
     renderObject(data, container);
-
 }
 
 /* ===================== */
@@ -237,7 +245,7 @@ function renderObject(obj, parent) {
 
         const title = document.createElement("div");
         title.className = "accordion-title";
-        title.textContent = formatTitle(key);
+        title.textContent = value.title || formatTitle(key);
 
         const content = document.createElement("div");
         content.className = "accordion-content";
@@ -270,18 +278,48 @@ function renderObject(obj, parent) {
 
             }
 
-            if (value.text) {
+            // ✅ Support content (string)
+if (value.content) {
 
-                value.text.forEach(paragraph => {
+    const p = document.createElement("p");
+    p.textContent = value.content;
 
-                    const p = document.createElement("p");
-                    p.textContent = paragraph;
+    content.appendChild(p);
+}
 
-                    content.appendChild(p);
+// ✅ Support text array
+if (value.text) {
 
-                });
+    value.text.forEach(paragraph => {
 
-            }
+        const p = document.createElement("p");
+        p.textContent = paragraph;
+
+        content.appendChild(p);
+
+    });
+}
+
+// ✅ Support sections (your new structure)
+if (value.sections) {
+
+    value.sections.forEach(section => {
+
+        if (section.subtitle) {
+            const h4 = document.createElement("h4");
+            h4.textContent = section.subtitle;
+            h4.style.marginTop = "10px";
+            content.appendChild(h4);
+        }
+
+        const p = document.createElement("p");
+        p.textContent = section.text;
+
+        content.appendChild(p);
+
+    });
+
+}
 
             if (value.lists) {
 
@@ -348,7 +386,7 @@ function goHome() {
 }
 
 /* ===================== */
-/* ===== ARENA MODE ENGINE ===== */
+/* ===== ARENA MODE (MCQ ONLY — FINAL) ===== */
 /* ===================== */
 
 let arenaChapter = null;
@@ -356,8 +394,7 @@ let arenaQuestions = [];
 let arenaBook = null;
 let currentArenaIndex = 0;
 let arenaCourse = null;
-let arenaDifficulty = null;
-let failedQuestions = [];
+let arenaPart = null;
 
 /* ===================== */
 /* COURSE SELECTION */
@@ -367,249 +404,268 @@ function renderArena() {
 
     const app = document.getElementById("app");
 
-    let courseCards = "";
+    let html = "";
 
     Object.keys(database).forEach(course => {
 
-        courseCards += `
+        if (course === "questions") return;
+
+        html += `
             <div class="glass-card" onclick="selectArenaCourse('${course}')">
                 <div class="emoji">📚</div>
                 <div class="card-title">${course}</div>
             </div>
         `;
-
     });
-
-    courseCards += `
-        <div class="glass-card" onclick="selectArenaCourse('ALL')">
-            <div class="emoji">🔥</div>
-            <div class="card-title">Hard Mode (All Courses)</div>
-        </div>
-    `;
 
     app.innerHTML = `
         <button class="back-btn" onclick="goHome()">← Volver</button>
         <h1 class="main-title">Arena Mode</h1>
-        <div class="grid">${courseCards}</div>
+        <div class="grid">${html}</div>
     `;
-
 }
+
+/* ===================== */
+/* COURSE → BOOK */
+/* ===================== */
+
 function selectArenaCourse(course) {
 
     arenaCourse = course;
 
     const app = document.getElementById("app");
 
-    if (course === "ALL") {
-        selectArenaDifficulty();
-        return;
-    }
-
-    let booksHTML = "";
+    let html = "";
 
     Object.keys(database[course]).forEach(book => {
 
-        booksHTML += `
+        html += `
             <div class="glass-card" onclick="selectArenaBook('${book}')">
                 <div class="emoji">📚</div>
                 <div class="card-title">${book}</div>
             </div>
         `;
-
     });
 
     app.innerHTML = `
         <button class="back-btn" onclick="renderArena()">← Volver</button>
         <h1 class="main-title">${course}</h1>
-        <div class="grid">${booksHTML}</div>
+        <div class="grid">${html}</div>
     `;
-
 }
+function goBackArena() {
+
+    // From question → back to chapter list
+    if (arenaChapter !== null) {
+        selectArenaPart(arenaBook, arenaPart);
+        arenaChapter = null;
+        return;
+    }
+
+    // From chapter list → back to parts
+    if (arenaPart !== null) {
+        selectArenaBook(arenaBook);
+        return;
+    }
+
+    // From parts → back to books
+    if (arenaBook !== null) {
+        selectArenaCourse(arenaCourse);
+        return;
+    }
+
+    // From books → back to Arena home
+    renderArena();
+}
+/* ===================== */
+/* BOOK → PART */
+/* ===================== */
+
 function selectArenaBook(book) {
 
+    arenaBook = book;
+    arenaPart = null;
+
     const app = document.getElementById("app");
+    const data = database[arenaCourse][book];
 
-    let chapterHTML = "";
+    let html = "";
 
-    Object.keys(database[arenaCourse][book]).forEach(chapter => {
+    Object.keys(data).forEach(item => {
 
-        chapterHTML += `
-            <div class="glass-card" onclick="selectArenaChapter('${book}','${chapter}')">
-                <div class="emoji">📖</div>
-                <div class="card-title">${chapter}</div>
+        html += `
+            <div class="glass-card" onclick="selectArenaPart('${book}','${item}')">
+                <div class="emoji">📂</div>
+                <div class="card-title">${item}</div>
             </div>
         `;
-
     });
 
     app.innerHTML = `
         <button class="back-btn" onclick="selectArenaCourse('${arenaCourse}')">← Volver</button>
         <h1 class="main-title">${book}</h1>
-        <div class="grid">${chapterHTML}</div>
+        <div class="grid">${html}</div>
     `;
-
 }
-function selectArenaChapter(book, chapter) {
 
-    arenaChapter = chapter;
-    arenaBook = book;
-
-    selectArenaDifficulty();
-
-}
 /* ===================== */
-/* DIFFICULTY SELECTION */
+/* PART → CHAPTER */
 /* ===================== */
 
-function selectArenaDifficulty() {
+function selectArenaPart(book, part) {
+
+    arenaPart = part;
 
     const app = document.getElementById("app");
+    const data = database[arenaCourse][book][part];
 
-    app.innerHTML = `
-        <button class="back-btn" onclick="renderArena()">← Volver</button>
+    let html = "";
 
-        <h1 class="main-title">Select Difficulty</h1>
+    Object.keys(data).forEach(chapter => {
 
-        <div class="grid">
-
-            <div class="glass-card" onclick="startArena('easy')">
-                <div class="emoji">🟢</div>
-                <div class="card-title">Easy</div>
+        html += `
+            <div class="glass-card" onclick="selectArenaChapter('${book}','${part}','${chapter}')">
+                <div class="emoji">📖</div>
+                <div class="card-title">${chapter}</div>
             </div>
-
-            <div class="glass-card" onclick="startArena('medium')">
-                <div class="emoji">🟡</div>
-                <div class="card-title">Medium</div>
-            </div>
-
-            <div class="glass-card" onclick="startArena('hard')">
-                <div class="emoji">🔴</div>
-                <div class="card-title">Hard</div>
-            </div>
-
-        </div>
-    `;
-
-}/* ===================== */
-/* COLLECT QUESTIONS */
-/* ===================== */
-
-function collectArenaSeeds() {
-
-    arenaQuestions = [];
-
-    function scan(obj, courseName) {
-
-        if (!obj || typeof obj !== "object") return;
-
-        if (obj.arenaSeeds) {
-
-            obj.arenaSeeds.forEach(seed => {
-
-               if (typeof seed === "string") {
-
-    arenaQuestions.push({
-        type: "open",
-        difficulty: "hard",
-        question: seed,
-        explanation: "",
-        course: courseName
+        `;
     });
 
-    arenaQuestions.push({
-    type: "mcq",
-    difficulty: "easy",
-    question: seed,
-    options: generarOpcionesMCQ(seed),
-    correct: 0,
-    explanation: generarExplicacion(seed),
-    course: courseName
-});
+    app.innerHTML = `
+        <button class="back-btn" onclick="selectArenaBook('${book}')">← Volver</button>
+        <h1 class="main-title">${part}</h1>
+        <div class="grid">${html}</div>
+    `;
 
 }
+function selectArenaChapter(book, part, chapter) {
 
-                else {
+    arenaBook = book;
+    arenaPart = part;
+    arenaChapter = chapter;
 
-                    arenaQuestions.push({
-    type: "open",
-    difficulty: "hard",
-    question: seed,
-    explanation: "",
-    course: courseName
-});
-
-arenaQuestions.push({
-    type: "mcq",
-    difficulty: "easy",
-    question: seed,
-    options: [
-        "Correct statement about this concept",
-        "Incorrect interpretation",
-        "Opposite of the concept",
-        "Unrelated clinical idea"
-    ],
-    correct: 0,
-    explanation: "",
-    course: courseName
-});
-
-                }
-
-            });
-
-        }
-
-        Object.values(obj).forEach(v => scan(v, courseName));
-
-    }
-
-    if (arenaCourse === "ALL") {
-
-        Object.keys(database).forEach(course => {
-            scan(database[course], course);
-        });
-
-    } else {
-
-        scan(database[arenaCourse][arenaBook][arenaChapter], arenaCourse);
-
-    }
-
+    startArena();
 }
 
 /* ===================== */
 /* START ARENA */
 /* ===================== */
 
-function startArena(difficulty) {
+function startArena() {
 
-    arenaDifficulty = difficulty;
+    failedQuestions = []; // 🔥 reset every session
 
-    collectArenaSeeds();
+    arenaQuestions = collectArenaQuestions();
 
-    arenaQuestions = arenaQuestions.filter(q => {
-
-    if (difficulty === "easy") {
-        return q.type === "mcq";
+    if (arenaQuestions.length === 0) {
+        showArenaQuestion();
+        return;
     }
-
-    if (difficulty === "medium") {
-        return q.type === "open";
-    }
-
-    if (difficulty === "hard") {
-        return q.type === "open";
-    }
-
-});
 
     shuffle(arenaQuestions);
 
     currentArenaIndex = 0;
 
     showArenaQuestion();
-
 }
+
+/* ===================== */
+/* COLLECT MCQ ONLY */
+/* ===================== */
+
+function normalize(str) {
+    return str
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/–/g, "-")
+        .replace(/\s+/g, " ")
+        .trim();
+}
+
+function findKey(obj, target) {
+    if (!obj || !target) return null;
+
+    const normTarget = normalize(target);
+
+    let bestMatch = null;
+
+    Object.keys(obj).forEach(k => {
+        const normKey = normalize(k);
+
+        if (
+            normKey.includes(normTarget) ||
+            normTarget.includes(normKey)
+        ) {
+            bestMatch = k;
+        }
+    });
+
+    return bestMatch;
+}
+
+function collectArenaQuestions() {
+
+    let questions = [];
+console.log("Course:", arenaCourse);
+console.log("Book:", arenaBook);
+console.log("Part:", arenaPart);
+console.log("Chapter:", arenaChapter);
+    let courseQ = database.questions && findKey(database.questions, arenaCourse)
+    ? database.questions[findKey(database.questions, arenaCourse)]
+    : null;
+    let bookQ = courseQ && courseQ[findKey(courseQ, arenaBook)];
+    let partQ = bookQ && bookQ[findKey(bookQ, arenaPart)];
+    let chapterQ = null;
+
+if (partQ) {
+    const key = findKey(partQ, arenaChapter);
+
+    console.log("Matched chapter key:", key);
+
+    if (key) {
+        chapterQ = partQ[key];
+    } else {
+        console.log("⚠️ No match found. Available keys:");
+        console.log(Object.keys(partQ));
+    }
+}
+
+    if (!chapterQ || !chapterQ.core) {
+        console.log("❌ Still no MCQs:", chapterQ);
+        return [];
+    }
+
+    Object.entries(chapterQ.core).forEach(([key, arr]) => {
+
+        if (!Array.isArray(arr)) return;
+
+        arr.forEach(item => {
+
+            if (item.question && item.options) {
+
+                questions.push({
+    question: item.question,
+    options: item.options,
+
+    // ✅ support BOTH formats
+    correct: item.correct !== undefined ? item.correct : item.answer,
+
+    correctFeedback: item.correctFeedback || item.explanation || "",
+incorrectFeedback: item.incorrectFeedback || item.explanation || ""
+});
+
+            }
+
+        });
+
+    });
+
+    console.log("✅ MCQs loaded:", questions.length);
+
+    return questions;
+}
+
 
 /* ===================== */
 /* SHOW QUESTION */
@@ -618,84 +674,46 @@ function startArena(difficulty) {
 function showArenaQuestion() {
 
     const q = arenaQuestions[currentArenaIndex];
-
     const app = document.getElementById("app");
 
     if (!q) {
+    app.innerHTML = `
+        <button class="back-btn" onclick="goBackArena()">← Volver</button>
+        <h1 class="main-title">No MCQs available</h1>
+    `;
+    return;
+}
 
-        app.innerHTML = `
-            <button class="back-btn" onclick="selectArenaChapter(arenaBook, arenaChapter)">← Volver</button>
-            <h1 class="main-title">No questions available</h1>
+    let options = "";
+
+    q.options.forEach((opt, i) => {
+
+        options += `
+            <button class="arena-option" onclick="checkAnswer(${i})">
+                ${opt}
+            </button>
         `;
+    });
 
-        return;
+    app.innerHTML = `
+    <button class="back-btn" onclick="goBackArena()">← Volver</button>
 
-    }
+    <h1 class="main-title">Arena Mode</h1>
 
-    if (q.type === "mcq") {
+    <div class="arena-container">
 
-        let optionsHTML = "";
+        <div class="arena-question">
+            ${q.question}
+        </div>
 
-        q.options.forEach((opt, i) => {
+        <div class="arena-options">
+            ${options}
+        </div>
 
-            optionsHTML += `
-                <button class="arena-option" onclick="checkAnswer(${i})">
-                    ${opt}
-                </button>
-            `;
+        <div id="arena-feedback"></div>
 
-        });
-
-        app.innerHTML = `
-            <button class="back-btn" onclick="selectArenaChapter(arenaBook, arenaChapter)">← Volver</button>
-
-            <h1 class="main-title">Arena Mode</h1>
-
-            <div class="concept-block">
-
-                <h2>${q.question}</h2>
-
-                <div class="arena-options">
-                    ${optionsHTML}
-                </div>
-
-                <div id="arena-feedback"></div>
-
-            </div>
-        `;
-
-    }
-
-    else {
-
-        app.innerHTML = `
-            <button class="back-btn" onclick="selectArenaChapter(arenaBook, arenaChapter)">← Volver</button>
-
-            <h1 class="main-title">Arena Mode</h1>
-
-            <div class="concept-block">
-
-                <h2>${q.question}</h2>
-
-                <div style="margin-top:40px; text-align:center;">
-
-                    <button class="arena-btn" onclick="showExplanation()">
-                        Show Explanation
-                    </button>
-
-                    <button class="arena-btn" onclick="nextArenaQuestion()">
-                        Next Question
-                    </button>
-
-                </div>
-
-                <div id="arena-feedback"></div>
-
-            </div>
-        `;
-
-    }
-
+    </div>
+`;
 }
 
 /* ===================== */
@@ -705,173 +723,69 @@ function showArenaQuestion() {
 function checkAnswer(i) {
 
     const q = arenaQuestions[currentArenaIndex];
-
     const feedback = document.getElementById("arena-feedback");
 
-    if (i === q.correct) {
+    const isCorrect = i === q.correct;
 
-        feedback.innerHTML = `
-<p style="color:red;">Incorrecto</p>
+    if (!isCorrect) {
+        failedQuestions.push(q);
+    }
 
-<div style="margin-top:15px;">
-${q.explanation}
-</div>
+    feedback.innerHTML = `
+    <p style="font-weight:600; color:${isCorrect ? "#14b8a6" : "#ef4444"};">
+        ${isCorrect ? "Correcto" : "Incorrecto"}
+    </p>
 
-<button class="arena-btn" onclick="showExplanation()">
-Ver explicación completa
-</button>
+    <div style="margin-top:15px; padding:15px; background:rgba(255,255,255,0.08); border-radius:10px;">
+        <strong>Explicación:</strong><br><br>
+        ${q.correctFeedback}
 
-<button class="arena-btn" onclick="nextArenaQuestion()">
-Siguiente
-</button>
+        ${!isCorrect ? `
+        <br><br>
+        <strong>Tu error:</strong> elegiste "${q.options[i]}"
+        ` : ""}
+
+        <br><br>
+        <strong>Respuesta correcta:</strong> ${q.options[q.correct]}
+    </div>
+
+    <button class="arena-btn" onclick="nextArenaQuestion()">Siguiente</button>
 `;
+const buttons = document.querySelectorAll(".arena-option");
 
+buttons.forEach((btn, index) => {
+    if (index === q.correct) {
+        btn.classList.add("correct");
+    } else if (index === i) {
+        btn.classList.add("incorrect");
     }
-
-    else {
-
-    failedQuestions.push(q);
-
-    feedback.innerHTML = `
-        <p style="color:red;">Incorrect</p>
-        <p>${q.explanation || "Review the concept shown below."}</p>
-        <button class="arena-btn" onclick="nextArenaQuestion()">Next</button>
-    `;
-
-}
-
+    btn.disabled = true;
+});
 }
 
 /* ===================== */
-/* SHOW EXPLANATION */
-/* ===================== */
-
-function showExplanation() {
-
-    const q = arenaQuestions[currentArenaIndex];
-    const feedback = document.getElementById("arena-feedback");
-    const chapterContent = database[arenaCourse][arenaBook][arenaChapter];
-
-    let paragraphs = [];
-
-    function collectText(obj) {
-        if (!obj || typeof obj !== "object") return;
-
-        if (obj.text && Array.isArray(obj.text)) {
-            paragraphs = paragraphs.concat(obj.text);
-        }
-
-        Object.values(obj).forEach(v => collectText(v));
-    }
-
-    collectText(chapterContent);
-
-    const questionText = q.question.toLowerCase().replace(/[.,:;¿?¡!()]/g, " ");
-    const questionWords = questionText
-        .split(/\s+/)
-        .filter(word =>
-            word.length > 3 &&
-            ![
-                "explique", "analice", "compare", "describa", "mencione",
-                "diferencias", "conceptuales", "significado", "impacto",
-                "como", "para", "entre", "sobre", "porque", "cual"
-            ].includes(word)
-        );
-
-    let ranked = paragraphs.map(p => {
-        const text = p.toLowerCase();
-        let score = 0;
-
-        questionWords.forEach(word => {
-            if (text.includes(word)) score += 2;
-        });
-
-        if (questionText.includes("primaria") && text.includes("primaria")) score += 4;
-        if (questionText.includes("secundaria") && text.includes("secundaria")) score += 4;
-        if (questionText.includes("terciaria") && text.includes("terciaria")) score += 4;
-        if (questionText.includes("cuaternaria") && text.includes("cuaternaria")) score += 4;
-
-        if (questionText.includes("maslow") && text.includes("maslow")) score += 6;
-        if (questionText.includes("cif") && text.includes("cif")) score += 6;
-        if (questionText.includes("calidad de vida") && text.includes("calidad de vida")) score += 6;
-        if (questionText.includes("prevalencia") && text.includes("prevalencia")) score += 6;
-        if (questionText.includes("falsos positivos") && text.includes("falsos positivos")) score += 6;
-
-        return { text: p, score };
-    });
-
-    ranked = ranked
-        .filter(item => item.score > 0)
-        .sort((a, b) => b.score - a.score);
-
-    const isComparisonQuestion =
-        questionText.includes("entre") ||
-        questionText.includes("diferencias") ||
-        questionText.includes("compare") ||
-        questionText.includes("tipos") ||
-        questionText.includes("niveles") ||
-        questionText.includes("primaria") ||
-        questionText.includes("secundaria") ||
-        questionText.includes("terciaria") ||
-        questionText.includes("cuaternaria");
-
-    let selectedParagraphs = [];
-
-    if (isComparisonQuestion) {
-        selectedParagraphs = ranked.slice(0, 8).map(item => item.text);
-    } else {
-        selectedParagraphs = ranked.slice(0, 5).map(item => item.text);
-    }
-
-    // Eliminar duplicados
-    selectedParagraphs = [...new Set(selectedParagraphs)];
-
-    let explanationText = "";
-
-    if (selectedParagraphs.length > 0) {
-        explanationText = selectedParagraphs.join("<br><br>");
-    } else if (q.explanation) {
-        explanationText = q.explanation;
-    } else {
-        explanationText = "No se encontró una explicación suficientemente relacionada en este capítulo.";
-    }
-
-    feedback.innerHTML = `
-        <div style="margin-top:20px;padding:20px;background:rgba(255,255,255,0.08);border-radius:12px;">
-            <strong>Concept explanation:</strong><br><br>
-            ${explanationText}
-        </div>
-    `;
-}
-
-/* ===================== */
-/* NEXT QUESTION */
+/* NEXT */
 /* ===================== */
 
 function nextArenaQuestion() {
 
+    // 🎯 20% chance to repeat a failed question
+    if (failedQuestions.length > 0 && Math.random() < 0.2) {
+
+        const randomIndex = Math.floor(Math.random() * failedQuestions.length);
+
+        arenaQuestions.splice(currentArenaIndex + 3, 0, failedQuestions[randomIndex]);
+    }
+
     currentArenaIndex++;
 
     if (currentArenaIndex >= arenaQuestions.length) {
-
-        if (failedQuestions.length > 0) {
-
-            arenaQuestions = arenaQuestions.concat(failedQuestions);
-            failedQuestions = [];
-            shuffle(arenaQuestions);
-            currentArenaIndex = 0;
-
-        } else {
-
-            currentArenaIndex = 0;
-
-        }
-
+        currentArenaIndex = 0;
     }
 
     showArenaQuestion();
-
 }
+
 /* ===================== */
 /* SHUFFLE */
 /* ===================== */
@@ -883,53 +797,5 @@ function shuffle(array) {
         const j = Math.floor(Math.random() * (i + 1));
 
         [array[i], array[j]] = [array[j], array[i]];
-
     }
-
-}
-function generarOpcionesMCQ(pregunta) {
-
-    const palabras = pregunta
-        .toLowerCase()
-        .replace(/[.,:;¿?¡!]/g, "")
-        .split(" ")
-        .filter(p => p.length > 4);
-
-    const concepto = palabras.slice(-2).join(" ");
-
-    const correcta = `Porque ${concepto} influye directamente en la comprensión del proceso de salud y enfermedad.`;
-
-    const distractores = [
-        `Porque ${concepto} solo describe procesos biológicos aislados.`,
-        `Porque ${concepto} reemplaza completamente el juicio clínico.`,
-        `Porque ${concepto} elimina la necesidad de evaluación médica integral.`
-    ];
-
-    return shuffleArray([correcta, ...distractores]);
-}
-
-function generarExplicacion(pregunta) {
-
-    return "La opción correcta representa la interpretación adecuada del concepto evaluado en la pregunta. Revise el capítulo correspondiente en Deep Mode para reforzar la comprensión completa.";
-
-}
-
-function shuffleArray(array) {
-
-    const arr = [...array];
-
-    for (let i = arr.length - 1; i > 0; i--) {
-
-        const j = Math.floor(Math.random() * (i + 1));
-
-        [arr[i], arr[j]] = [arr[j], arr[i]];
-
-    }
-
-    return arr;
-
-}
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("service-worker.js")
-    .then(() => console.log("Service Worker registered"));
 }
