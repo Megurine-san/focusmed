@@ -351,3 +351,150 @@ body {
     }
 
 }
+/* ========================= */
+/* 🎮 ARENA — FINAL CLEAN SYSTEM */
+/* ========================= */
+
+/* ===== CONTAINER (THE BUBBLE) ===== */
+.arena-container {
+    max-width: 850px;
+    width: 90%;
+    margin: 80px auto;
+
+    padding: 45px;
+    border-radius: 25px;
+
+    background: rgba(10, 15, 25, 0.85);
+    backdrop-filter: blur(20px);
+
+    border: 1px solid rgba(59,130,246,0.15);
+
+    box-shadow:
+        0 20px 60px rgba(0,0,0,0.8),
+        0 0 25px rgba(59,130,246,0.08),
+        inset 0 0 20px rgba(255,255,255,0.03);
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    text-align: center;
+}
+
+/* ===== QUESTION ===== */
+.arena-question {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* ===== OPTIONS GRID (DESKTOP 2x2) ===== */
+.arena-options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 🔥 2x2 layout */
+    gap: 25px;
+
+    max-width: 700px;
+    margin: 0 auto;
+
+    width: 100%;
+}
+
+/* ===== BUTTONS ===== */
+.arena-option {
+    width: 100%;
+    min-height: 85px;
+
+    padding: 22px;
+    border-radius: 16px;
+    border: 1px solid rgba(59,130,246,0.15);
+
+    font-size: 1rem;
+    cursor: pointer;
+
+    background: rgba(30, 64, 175, 0.18); /* 🔵 deep blue */
+    color: #dbeafe;
+
+    transition: all 0.25s ease;
+
+    box-shadow: 
+        0 4px 12px rgba(0,0,0,0.5),
+        inset 0 0 10px rgba(59,130,246,0.08);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Hover */
+.arena-option:hover {
+    background: rgba(59,130,246,0.28);
+    transform: translateY(-2px);
+}
+
+/* ✅ CORRECT */
+.correct {
+    background: rgba(20, 184, 166, 0.35) !important;
+    color: #ccfbf1;
+
+    border: 1px solid rgba(20,184,166,0.5);
+
+    box-shadow:
+        0 0 12px rgba(20,184,166,0.35),
+        0 4px 12px rgba(0,0,0,0.5);
+}
+
+/* ❌ INCORRECT */
+.incorrect {
+    background: rgba(185, 28, 28, 0.35) !important;
+    color: #fecaca;
+
+    border: 1px solid rgba(239,68,68,0.4);
+
+    box-shadow:
+        0 0 10px rgba(239,68,68,0.25);
+}
+
+/* ===== MOBILE (STACKED) ===== */
+@media (max-width: 768px) {
+
+    .arena-container {
+        width: 92%;
+        padding: 30px;
+    }
+
+    .arena-question {
+        font-size: 1.05rem;
+    }
+
+    .arena-options {
+        grid-template-columns: 1fr; /* 🔥 only here stack */
+    }
+
+    .arena-option {
+        min-height: 70px;
+        font-size: 0.9rem;
+        padding: 16px;
+    }
+}
+.back-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    padding: 8px 14px;
+    border-radius: 10px;
+    border: none;
+
+    background: rgba(59,130,246,0.2);
+    color: #dbeafe;
+
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.back-btn:hover {
+    background: rgba(59,130,246,0.4);
+}
