@@ -108358,7 +108358,1707 @@ advancedClinicalCVRS_v8: [
     }
 
 ],
+advancedClinicalCVRS_v9: [
 
+    {
+        question: "Un paciente con enfermedad pulmonar crónica presenta estabilidad funcional, pero refiere mala calidad de vida porque ya no puede realizar actividades que le daban sentido a su vida. ¿Cuál es la interpretación más precisa?",
+        options: [
+            "Existe deterioro funcional relevante",
+            "La limitación física condiciona la CVRS",
+            "El significado personal de las actividades es el principal determinante de la CVRS",
+            "La estabilidad clínica no refleja el estado real del paciente"
+        ],
+        answer: 2,
+        explanation: "Aunque varias opciones son válidas, la más precisa es la centralidad del significado personal."
+    },
+
+    {
+        question: "Una paciente con enfermedad oncológica controlada presenta ansiedad persistente por recaída que deteriora su CVRS. ¿Cuál es el determinante más específico?",
+        options: [
+            "Ansiedad generalizada",
+            "Incertidumbre sobre el pronóstico",
+            "Percepción subjetiva de vulnerabilidad futura",
+            "Falta de información clínica"
+        ],
+        answer: 2,
+        explanation: "La percepción de vulnerabilidad futura es el concepto más fino."
+    },
+
+    {
+        question: "Un paciente con enfermedad crónica rechaza tratamiento óptimo por impacto en su autonomía. ¿Cuál es la interpretación más precisa?",
+        options: [
+            "Priorización de la autonomía",
+            "Conflicto entre calidad y cantidad de vida",
+            "Valoración subjetiva del bienestar",
+            "Jerarquización personal de valores sobre resultados clínicos"
+        ],
+        answer: 3,
+        explanation: "La jerarquización de valores integra todas las demás opciones."
+    },
+
+    {
+        question: "Una paciente presenta deterioro en su CVRS tras recibir múltiples recomendaciones médicas restrictivas. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Sobremedicalización",
+            "Intervención excesiva",
+            "Iatrogenia conductual",
+            "Impacto negativo del sistema de salud"
+        ],
+        answer: 2,
+        explanation: "Iatrogenia conductual describe con mayor precisión el efecto en la vida diaria."
+    },
+
+    {
+        question: "Un paciente con enfermedad avanzada presenta buena CVRS por coherencia entre valores y decisiones terapéuticas. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Aceptación de la enfermedad",
+            "Adaptación psicológica",
+            "Alineación valorativa",
+            "Resiliencia"
+        ],
+        answer: 2,
+        explanation: "La alineación valorativa es el concepto más específico."
+    },
+
+    {
+        question: "Una paciente con enfermedad crónica presenta deterioro en su CVRS al compararse con su estado previo. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Comparación interna",
+            "Comparación temporal",
+            "Comparación intrapersonal temporal",
+            "Evaluación retrospectiva"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico dentro de la CVRS."
+    },
+
+    {
+        question: "Un paciente con enfermedad terminal presenta alta CVRS por fuerte sentido de propósito. ¿Cuál es la explicación más precisa?",
+        options: [
+            "Resiliencia",
+            "Adaptación existencial",
+            "Predominio del significado vital",
+            "Reinterpretación cognitiva"
+        ],
+        answer: 2,
+        explanation: "El significado vital es el concepto central."
+    },
+
+    {
+        question: "Una paciente presenta deterioro en CVRS por cambios físicos que afectan su identidad. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Psicológica",
+            "Social",
+            "Identitaria",
+            "Emocional"
+        ],
+        answer: 2,
+        explanation: "La dimensión identitaria es la más específica."
+    },
+
+    {
+        question: "Un paciente opta por tratamiento menos eficaz pero más compatible con su vida. ¿Cuál es la interpretación más precisa?",
+        options: [
+            "Priorización del bienestar",
+            "Elección racional del paciente",
+            "Maximización del bienestar global",
+            "Optimización de la CVRS sobre eficacia clínica"
+        ],
+        answer: 3,
+        explanation: "Integra todas las dimensiones en un solo concepto."
+    },
+
+    {
+        question: "Una paciente presenta deterioro en CVRS tras perder su rol familiar. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Social",
+            "Psicológica",
+            "Identitaria",
+            "Funcional"
+        ],
+        answer: 2,
+        explanation: "El rol está ligado a la identidad."
+    },
+
+    {
+        question: "Un paciente con enfermedad grave presenta mejor CVRS por reinterpretar su situación. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Adaptación",
+            "Resiliencia",
+            "Reinterpretación cognitiva",
+            "Ajuste psicológico"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico."
+    },
+
+    {
+        question: "Una paciente mejora su CVRS al modificar su entorno para adaptarse. ¿Cuál es el concepto más preciso según Sen?",
+        options: [
+            "Adaptación",
+            "Capacidades",
+            "Expansión de capacidades mediante modificación del entorno",
+            "Ajuste funcional"
+        ],
+        answer: 2,
+        explanation: "Integra el núcleo del modelo de Sen."
+    },
+
+    {
+        question: "Un paciente presenta baja CVRS por ausencia de relaciones significativas. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Social",
+            "Emocional",
+            "Relacional",
+            "Psicosocial"
+        ],
+        answer: 2,
+        explanation: "Relacional es más específica."
+    },
+
+    {
+        question: "Una paciente mejora su CVRS al reducir expectativas irreales. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Adaptación",
+            "Aceptación",
+            "Ajuste de expectativas",
+            "Reevaluación cognitiva"
+        ],
+        answer: 2,
+        explanation: "Es el concepto central en el modelo de Calman."
+    },
+
+    {
+        question: "Un paciente presenta deterioro en CVRS por falta de control sobre su futuro. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Ansiedad",
+            "Incertidumbre",
+            "Control percibido",
+            "Ansiedad anticipatoria"
+        ],
+        answer: 2,
+        explanation: "Control percibido es el concepto más específico."
+    },
+
+    {
+        question: "Una paciente redefine metas y mejora su CVRS. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Adaptación",
+            "Aceptación",
+            "Reorientación adaptativa",
+            "Ajuste psicológico"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico."
+    },
+
+    {
+        question: "Un paciente presenta deterioro en CVRS por exceso de recomendaciones médicas. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Sobremedicalización",
+            "Intervención excesiva",
+            "Iatrogenia conductual",
+            "Impacto médico negativo"
+        ],
+        answer: 2,
+        explanation: "Es el término más preciso en CVRS."
+    },
+
+    {
+        question: "Una paciente mantiene buena CVRS gracias a apoyo emocional constante. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Social",
+            "Psicosocial",
+            "Relacional",
+            "Emocional"
+        ],
+        answer: 2,
+        explanation: "Relacional es más específica."
+    },
+
+    {
+        question: "Un paciente presenta deterioro en CVRS por conflicto entre valores y decisiones médicas. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Ética",
+            "Psicológica",
+            "Valorativa",
+            "Social"
+        ],
+        answer: 2,
+        explanation: "Valorativa describe mejor el conflicto."
+    },
+
+    {
+        question: "Una paciente mejora su CVRS al recuperar control sobre pequeñas decisiones diarias. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Autonomía",
+            "Independencia",
+            "Control personal",
+            "Microautonomía funcional"
+        ],
+        answer: 3,
+        explanation: "Es el término más fino y específico."
+    }
+
+],
+advancedClinicalCVRS_v10: [
+
+    {
+        question: "Un paciente con EPOC moderado mantiene capacidad funcional aceptable, pero refiere mala calidad de vida porque ha dejado de realizar actividades recreativas que daban sentido a su vida. ¿Cuál es la interpretación más precisa?",
+        options: [
+            "Existe limitación funcional relevante",
+            "La enfermedad impacta la calidad de vida",
+            "La pérdida de actividades con significado personal determina la CVRS",
+            "La estabilidad clínica no refleja el bienestar del paciente"
+        ],
+        answer: 2,
+        explanation: "La clave es el significado personal de las actividades, más allá de la función objetiva."
+    },
+
+    {
+        question: "Una paciente con cáncer en remisión presenta ansiedad persistente por recaída que limita su vida diaria. ¿Cuál es el determinante más específico de su deterioro en la CVRS?",
+        options: [
+            "Ansiedad clínica",
+            "Incertidumbre pronóstica",
+            "Percepción de vulnerabilidad futura",
+            "Impacto emocional del diagnóstico"
+        ],
+        answer: 2,
+        explanation: "La percepción de vulnerabilidad futura es el concepto más fino."
+    },
+
+    {
+        question: "Un paciente con insuficiencia renal decide no optar por trasplante pese a ser candidato ideal, ya que valora su estabilidad actual en diálisis. ¿Cuál es la interpretación más precisa?",
+        options: [
+            "Falta de adherencia",
+            "Preferencia por estabilidad actual",
+            "Priorización del bienestar percibido sobre el beneficio potencial",
+            "Negación del riesgo futuro"
+        ],
+        answer: 2,
+        explanation: "Integra la decisión basada en bienestar actual vs beneficio futuro."
+    },
+
+    {
+        question: "Una paciente con enfermedad leve experimenta deterioro en su CVRS tras adoptar múltiples restricciones innecesarias. ¿Qué concepto es más preciso?",
+        options: [
+            "Sobremedicalización",
+            "Conducta evitativa",
+            "Iatrogenia conductual",
+            "Impacto negativo del sistema de salud"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico para el efecto conductual."
+    },
+
+    {
+        question: "Un paciente con enfermedad avanzada presenta buena CVRS al mantener coherencia entre sus valores y sus decisiones clínicas. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Aceptación",
+            "Resiliencia",
+            "Alineación valorativa",
+            "Adaptación emocional"
+        ],
+        answer: 2,
+        explanation: "Describe específicamente la coherencia entre valores y acciones."
+    },
+
+    {
+        question: "Una paciente presenta deterioro en CVRS al compararse constantemente con su estado previo de salud. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Comparación interna",
+            "Comparación temporal",
+            "Comparación intrapersonal temporal",
+            "Evaluación retrospectiva negativa"
+        ],
+        answer: 2,
+        explanation: "Es la forma más específica del fenómeno."
+    },
+
+    {
+        question: "Un paciente con enfermedad terminal presenta alta CVRS por mantener sentido de propósito en su vida. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Resiliencia",
+            "Adaptación existencial",
+            "Significado vital",
+            "Reinterpretación cognitiva"
+        ],
+        answer: 2,
+        explanation: "El significado vital es el eje principal."
+    },
+
+    {
+        question: "Una paciente presenta deterioro en CVRS por cambios físicos que afectan su autoimagen. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Psicológica",
+            "Emocional",
+            "Identitaria",
+            "Social"
+        ],
+        answer: 2,
+        explanation: "La dimensión identitaria es la más específica."
+    },
+
+    {
+        question: "Un paciente opta por tratamiento menos eficaz pero más compatible con su estilo de vida. ¿Cuál es la interpretación más precisa?",
+        options: [
+            "Elección racional",
+            "Priorización del bienestar",
+            "Optimización de la CVRS sobre la eficacia clínica",
+            "Falta de adherencia"
+        ],
+        answer: 2,
+        explanation: "Es la formulación más completa del fenómeno."
+    },
+
+    {
+        question: "Una paciente presenta deterioro en CVRS tras perder su rol familiar principal. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Social",
+            "Psicológica",
+            "Identitaria",
+            "Funcional"
+        ],
+        answer: 2,
+        explanation: "El rol forma parte de la identidad."
+    },
+
+    {
+        question: "Un paciente con enfermedad grave presenta mejor CVRS que otro con enfermedad leve debido a su capacidad de reinterpretar su situación. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Resiliencia",
+            "Adaptación",
+            "Reinterpretación cognitiva",
+            "Ajuste psicológico"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico."
+    },
+
+    {
+        question: "Una paciente mejora su CVRS tras adaptar su entorno laboral a sus limitaciones. ¿Cuál es el concepto más preciso según Sen?",
+        options: [
+            "Capacidad funcional",
+            "Adaptación ambiental",
+            "Expansión de capacidades mediante ajuste del entorno",
+            "Ajuste ocupacional"
+        ],
+        answer: 2,
+        explanation: "Integra completamente el modelo de Sen."
+    },
+
+    {
+        question: "Un paciente presenta baja CVRS por falta de relaciones significativas, pese a buen control clínico. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Social",
+            "Emocional",
+            "Relacional",
+            "Psicosocial"
+        ],
+        answer: 2,
+        explanation: "Relacional es el término más específico."
+    },
+
+    {
+        question: "Una paciente mejora su CVRS al reducir expectativas irreales sobre su desempeño. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Adaptación",
+            "Aceptación",
+            "Ajuste de expectativas",
+            "Reevaluación cognitiva"
+        ],
+        answer: 2,
+        explanation: "Concepto central del modelo de Calman."
+    },
+
+    {
+        question: "Un paciente presenta deterioro en CVRS por falta de control sobre su futuro. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Ansiedad anticipatoria",
+            "Incertidumbre",
+            "Control percibido",
+            "Falta de previsibilidad"
+        ],
+        answer: 2,
+        explanation: "El control percibido es el concepto clave."
+    },
+
+    {
+        question: "Una paciente redefine metas hacia objetivos alcanzables y mejora su CVRS. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Aceptación",
+            "Adaptación",
+            "Reorientación adaptativa",
+            "Ajuste psicológico"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico."
+    },
+
+    {
+        question: "Un paciente presenta deterioro en CVRS por exceso de recomendaciones médicas restrictivas. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Sobremedicalización",
+            "Intervención excesiva",
+            "Iatrogenia conductual",
+            "Impacto médico negativo"
+        ],
+        answer: 2,
+        explanation: "Describe mejor el efecto conductual en la vida diaria."
+    },
+
+    {
+        question: "Una paciente mantiene buena CVRS gracias a apoyo emocional constante. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Social",
+            "Psicosocial",
+            "Relacional",
+            "Emocional"
+        ],
+        answer: 2,
+        explanation: "Relacional es el término más específico."
+    },
+
+    {
+        question: "Un paciente presenta deterioro en CVRS por conflicto entre valores personales y decisiones médicas. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Ética",
+            "Psicológica",
+            "Valorativa",
+            "Social"
+        ],
+        answer: 2,
+        explanation: "Valorativa describe mejor el conflicto."
+    },
+
+    {
+        question: "Una paciente mejora su CVRS al recuperar control sobre pequeñas decisiones cotidianas. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Autonomía",
+            "Independencia",
+            "Control personal",
+            "Microautonomía funcional"
+        ],
+        answer: 3,
+        explanation: "Es el término más fino y específico."
+    }
+
+],
+advancedClinicalCVRS_v11: [
+
+    {
+        question: "Un paciente con enfermedad pulmonar crónica leve presenta deterioro marcado en su CVRS tras abandonar actividades que consideraba centrales para su identidad, pese a capacidad física residual. ¿Cuál es la interpretación más precisa?",
+        options: [
+            "Existe limitación funcional significativa",
+            "La enfermedad afecta la calidad de vida",
+            "La pérdida de actividades con significado personal determina la CVRS",
+            "La percepción del paciente no se correlaciona con la función"
+        ],
+        answer: 2,
+        explanation: "El significado personal de las actividades es el factor dominante."
+    },
+
+    {
+        question: "Una paciente con cáncer en remisión presenta deterioro en CVRS debido a vigilancia constante de síntomas menores que interpreta como recaída. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Ansiedad generalizada",
+            "Incertidumbre clínica",
+            "Hipervigilancia somática",
+            "Percepción de vulnerabilidad"
+        ],
+        answer: 2,
+        explanation: "La hipervigilancia somática describe mejor el fenómeno."
+    },
+
+    {
+        question: "Un paciente con enfermedad crónica decide no intensificar tratamiento porque considera que el beneficio clínico no compensa la pérdida de libertad personal. ¿Cuál es la interpretación más precisa?",
+        options: [
+            "Falta de adherencia",
+            "Preferencia por calidad de vida",
+            "Evaluación subjetiva del riesgo-beneficio",
+            "Jerarquización personal de valores frente a resultados clínicos"
+        ],
+        answer: 3,
+        explanation: "Integra la valoración individual como eje de decisión."
+    },
+
+    {
+        question: "Una paciente con enfermedad leve presenta deterioro en CVRS tras recibir múltiples recomendaciones restrictivas médicas. ¿Cuál es el término más preciso?",
+        options: [
+            "Sobremedicalización",
+            "Conducta evitativa",
+            "Iatrogenia conductual",
+            "Intervención excesiva"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico en CVRS."
+    },
+
+    {
+        question: "Un paciente con enfermedad avanzada presenta buena CVRS al vivir en coherencia con sus valores personales, pese a mal pronóstico. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Aceptación",
+            "Resiliencia",
+            "Alineación valorativa",
+            "Adaptación existencial"
+        ],
+        answer: 2,
+        explanation: "Describe con mayor precisión la coherencia entre valores y decisiones."
+    },
+
+    {
+        question: "Una paciente experimenta deterioro en CVRS al compararse con su estado previo de salud, más que con otros pacientes. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Comparación interna",
+            "Comparación temporal",
+            "Comparación intrapersonal temporal",
+            "Evaluación retrospectiva"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico."
+    },
+
+    {
+        question: "Un paciente con enfermedad terminal mantiene alta CVRS al encontrar sentido en actividades pequeñas y cotidianas. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Resiliencia",
+            "Adaptación emocional",
+            "Significado vital",
+            "Reinterpretación cognitiva"
+        ],
+        answer: 2,
+        explanation: "El significado vital es el eje central."
+    },
+
+    {
+        question: "Una paciente presenta deterioro en CVRS por cambios físicos que afectan su percepción de identidad, sin afectar su funcionalidad. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Psicológica",
+            "Emocional",
+            "Identitaria",
+            "Social"
+        ],
+        answer: 2,
+        explanation: "La identidad es el componente clave."
+    },
+
+    {
+        question: "Un paciente opta por un tratamiento menos eficaz pero que preserva su estilo de vida. ¿Cuál es la interpretación más precisa?",
+        options: [
+            "Elección racional",
+            "Priorización del bienestar",
+            "Optimización de la CVRS sobre eficacia clínica",
+            "Preferencia subjetiva"
+        ],
+        answer: 2,
+        explanation: "Es la formulación más completa."
+    },
+
+    {
+        question: "Una paciente presenta deterioro en CVRS tras perder su rol familiar principal. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Social",
+            "Psicológica",
+            "Identitaria",
+            "Funcional"
+        ],
+        answer: 2,
+        explanation: "El rol se integra dentro de la identidad."
+    },
+
+    {
+        question: "Un paciente con enfermedad grave presenta mejor CVRS que otro con enfermedad leve debido a su capacidad de reinterpretar su situación. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Resiliencia",
+            "Adaptación",
+            "Reinterpretación cognitiva",
+            "Ajuste psicológico"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico."
+    },
+
+    {
+        question: "Una paciente mejora su CVRS tras adaptar su entorno para compensar sus limitaciones físicas. ¿Cuál es el concepto más preciso según Sen?",
+        options: [
+            "Adaptación funcional",
+            "Capacidades",
+            "Expansión de capacidades mediante modificación del entorno",
+            "Ajuste ambiental"
+        ],
+        answer: 2,
+        explanation: "Integra completamente el modelo de Sen."
+    },
+
+    {
+        question: "Un paciente presenta baja CVRS por ausencia de vínculos significativos, pese a estabilidad clínica. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Social",
+            "Emocional",
+            "Relacional",
+            "Psicosocial"
+        ],
+        answer: 2,
+        explanation: "Relacional es más específico."
+    },
+
+    {
+        question: "Una paciente mejora su CVRS al reducir expectativas irreales sobre su rendimiento. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Adaptación",
+            "Aceptación",
+            "Ajuste de expectativas",
+            "Reevaluación cognitiva"
+        ],
+        answer: 2,
+        explanation: "Concepto central del modelo de Calman."
+    },
+
+    {
+        question: "Un paciente presenta deterioro en CVRS por percepción de falta de control sobre su evolución futura. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Ansiedad anticipatoria",
+            "Incertidumbre",
+            "Control percibido",
+            "Falta de previsibilidad"
+        ],
+        answer: 2,
+        explanation: "El control percibido es el concepto clave."
+    },
+
+    {
+        question: "Una paciente redefine sus metas hacia objetivos alcanzables y mejora su CVRS. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Adaptación",
+            "Aceptación",
+            "Reorientación adaptativa",
+            "Ajuste psicológico"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico."
+    },
+
+    {
+        question: "Un paciente presenta deterioro en CVRS por exceso de recomendaciones médicas restrictivas no necesarias. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Sobremedicalización",
+            "Intervención excesiva",
+            "Iatrogenia conductual",
+            "Impacto médico negativo"
+        ],
+        answer: 2,
+        explanation: "Describe mejor el efecto en la vida diaria."
+    },
+
+    {
+        question: "Una paciente mantiene buena CVRS gracias a apoyo emocional constante. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Social",
+            "Psicosocial",
+            "Relacional",
+            "Emocional"
+        ],
+        answer: 2,
+        explanation: "Relacional es más específica."
+    },
+
+    {
+        question: "Un paciente presenta deterioro en CVRS por conflicto entre sus valores personales y las decisiones médicas recomendadas. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Ética",
+            "Psicológica",
+            "Valorativa",
+            "Social"
+        ],
+        answer: 2,
+        explanation: "Valorativa describe mejor el conflicto."
+    },
+
+    {
+        question: "Una paciente mejora su CVRS al recuperar control sobre pequeñas decisiones cotidianas. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Autonomía",
+            "Independencia",
+            "Control personal",
+            "Microautonomía funcional"
+        ],
+        answer: 3,
+        explanation: "Es el término más específico y fino."
+    }
+
+],
+advancedClinicalCVRS_v12: [
+
+    {
+        question: "Un paciente con cardiopatía crónica estable presenta deterioro en su CVRS porque ya no puede participar en actividades que definían su identidad, pese a mantener independencia funcional. ¿Cuál es la interpretación más precisa?",
+        options: [
+            "Existe limitación funcional relevante",
+            "La enfermedad afecta la calidad de vida",
+            "La pérdida de actividades con valor identitario es el principal determinante de la CVRS",
+            "La percepción del paciente no se correlaciona con la función"
+        ],
+        answer: 2,
+        explanation: "El componente identitario domina sobre la función objetiva."
+    },
+
+    {
+        question: "Una paciente con cáncer en remisión presenta deterioro en su CVRS por interpretación constante de síntomas benignos como recaída. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Ansiedad anticipatoria",
+            "Incertidumbre pronóstica",
+            "Hipervigilancia somática",
+            "Distorsión cognitiva"
+        ],
+        answer: 2,
+        explanation: "La hipervigilancia somática describe mejor la interpretación excesiva de síntomas."
+    },
+
+    {
+        question: "Un paciente con enfermedad crónica rechaza tratamiento eficaz porque considera que altera su forma de vida de manera inaceptable. ¿Cuál es la interpretación más precisa?",
+        options: [
+            "Falta de adherencia",
+            "Preferencia subjetiva",
+            "Evaluación personal del balance riesgo-beneficio",
+            "Jerarquización de valores personales sobre resultados clínicos"
+        ],
+        answer: 3,
+        explanation: "Integra el proceso completo de toma de decisiones basada en valores."
+    },
+
+    {
+        question: "Una paciente con enfermedad leve presenta deterioro en su CVRS tras adoptar múltiples restricciones no necesarias indicadas de forma generalizada. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Sobremedicalización",
+            "Conducta evitativa",
+            "Iatrogenia conductual",
+            "Exceso de recomendaciones"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico en CVRS."
+    },
+
+    {
+        question: "Un paciente con enfermedad avanzada presenta buena CVRS al actuar en coherencia con sus valores personales, incluso frente a decisiones que limitan su supervivencia. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Aceptación",
+            "Resiliencia",
+            "Alineación valorativa",
+            "Adaptación psicológica"
+        ],
+        answer: 2,
+        explanation: "Describe específicamente la coherencia entre valores y decisiones."
+    },
+
+    {
+        question: "Una paciente experimenta deterioro en CVRS al compararse con su estado previo ideal, más que con su situación actual objetiva. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Comparación interna",
+            "Comparación temporal",
+            "Comparación intrapersonal temporal",
+            "Evaluación retrospectiva negativa"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico dentro de CVRS."
+    },
+
+    {
+        question: "Un paciente con enfermedad terminal mantiene alta CVRS al encontrar sentido en actividades pequeñas y cotidianas. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Resiliencia",
+            "Adaptación emocional",
+            "Significado vital",
+            "Reinterpretación cognitiva"
+        ],
+        answer: 2,
+        explanation: "El significado vital es el eje central."
+    },
+
+    {
+        question: "Una paciente presenta deterioro en CVRS por cambios físicos que afectan su autoimagen sin comprometer su funcionalidad. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Psicológica",
+            "Emocional",
+            "Identitaria",
+            "Social"
+        ],
+        answer: 2,
+        explanation: "La identidad es el componente más específico."
+    },
+
+    {
+        question: "Un paciente elige un tratamiento menos eficaz pero más compatible con su vida diaria. ¿Cuál es la interpretación más precisa?",
+        options: [
+            "Elección racional",
+            "Priorización del bienestar",
+            "Optimización de la CVRS sobre eficacia clínica",
+            "Preferencia subjetiva"
+        ],
+        answer: 2,
+        explanation: "Es la formulación más completa."
+    },
+
+    {
+        question: "Una paciente presenta deterioro en CVRS tras perder su rol principal dentro de su familia. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Social",
+            "Psicológica",
+            "Identitaria",
+            "Funcional"
+        ],
+        answer: 2,
+        explanation: "El rol está ligado a la identidad."
+    },
+
+    {
+        question: "Un paciente con enfermedad grave presenta mejor CVRS que otro con enfermedad leve debido a su capacidad de reinterpretar su situación. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Resiliencia",
+            "Adaptación",
+            "Reinterpretación cognitiva",
+            "Ajuste psicológico"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico."
+    },
+
+    {
+        question: "Una paciente mejora su CVRS al modificar su entorno para adaptarse a sus limitaciones físicas. ¿Cuál es el concepto más preciso según Sen?",
+        options: [
+            "Capacidad funcional",
+            "Adaptación ambiental",
+            "Expansión de capacidades mediante ajuste del entorno",
+            "Ajuste ocupacional"
+        ],
+        answer: 2,
+        explanation: "Integra el núcleo del modelo de Sen."
+    },
+
+    {
+        question: "Un paciente presenta baja CVRS por ausencia de vínculos significativos, pese a estabilidad clínica. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Social",
+            "Emocional",
+            "Relacional",
+            "Psicosocial"
+        ],
+        answer: 2,
+        explanation: "Relacional es más específico."
+    },
+
+    {
+        question: "Una paciente mejora su CVRS al reducir expectativas irreales sobre su desempeño. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Adaptación",
+            "Aceptación",
+            "Ajuste de expectativas",
+            "Reevaluación cognitiva"
+        ],
+        answer: 2,
+        explanation: "Concepto central de Calman."
+    },
+
+    {
+        question: "Un paciente presenta deterioro en CVRS por percepción de falta de control sobre su evolución futura. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Ansiedad anticipatoria",
+            "Incertidumbre",
+            "Control percibido",
+            "Falta de previsibilidad"
+        ],
+        answer: 2,
+        explanation: "El control percibido es el concepto clave."
+    },
+
+    {
+        question: "Una paciente redefine metas hacia objetivos alcanzables y mejora su CVRS. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Aceptación",
+            "Adaptación",
+            "Reorientación adaptativa",
+            "Ajuste psicológico"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico."
+    },
+
+    {
+        question: "Un paciente presenta deterioro en CVRS por exceso de recomendaciones médicas restrictivas no individualizadas. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Sobremedicalización",
+            "Intervención excesiva",
+            "Iatrogenia conductual",
+            "Impacto médico negativo"
+        ],
+        answer: 2,
+        explanation: "Describe mejor el efecto en la vida diaria."
+    },
+
+    {
+        question: "Una paciente mantiene buena CVRS gracias a apoyo emocional constante. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Social",
+            "Psicosocial",
+            "Relacional",
+            "Emocional"
+        ],
+        answer: 2,
+        explanation: "Relacional es más específica."
+    },
+
+    {
+        question: "Un paciente presenta deterioro en CVRS por conflicto entre sus valores personales y decisiones médicas recomendadas. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Ética",
+            "Psicológica",
+            "Valorativa",
+            "Social"
+        ],
+        answer: 2,
+        explanation: "Valorativa describe mejor el conflicto."
+    },
+
+    {
+        question: "Una paciente mejora su CVRS al recuperar control sobre pequeñas decisiones cotidianas. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Autonomía",
+            "Independencia",
+            "Control personal",
+            "Microautonomía funcional"
+        ],
+        answer: 3,
+        explanation: "Es el término más fino y específico."
+    }
+
+],
+advancedClinicalCVRS_v13: [
+
+    {
+        question: "Un paciente con enfermedad pulmonar crónica estable refiere mala calidad de vida porque ha dejado de realizar actividades que considera esenciales para su identidad personal, pese a mantener independencia funcional. ¿Cuál es la interpretación más precisa?",
+        options: [
+            "Existe deterioro funcional significativo",
+            "La enfermedad afecta la calidad de vida",
+            "La pérdida de actividades con valor identitario predomina en la determinación de la CVRS",
+            "La percepción del paciente no se correlaciona con su estado clínico"
+        ],
+        answer: 2,
+        explanation: "El componente identitario domina sobre la función objetiva en la CVRS."
+    },
+
+    {
+        question: "Una paciente con cáncer en remisión presenta deterioro en su CVRS por interpretar constantemente síntomas benignos como recaída. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Ansiedad anticipatoria",
+            "Incertidumbre clínica",
+            "Hipervigilancia somática",
+            "Distorsión cognitiva"
+        ],
+        answer: 2,
+        explanation: "La hipervigilancia somática describe mejor el fenómeno."
+    },
+
+    {
+        question: "Un paciente con enfermedad crónica rechaza tratamiento eficaz porque considera que afecta negativamente su forma de vida. ¿Cuál es la interpretación más precisa?",
+        options: [
+            "Falta de adherencia",
+            "Preferencia subjetiva",
+            "Evaluación individual del balance riesgo-beneficio",
+            "Jerarquización de valores personales sobre resultados clínicos"
+        ],
+        answer: 3,
+        explanation: "Integra la toma de decisiones basada en valores."
+    },
+
+    {
+        question: "Una paciente con enfermedad leve presenta deterioro en su CVRS tras adoptar múltiples restricciones innecesarias. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Sobremedicalización",
+            "Conducta evitativa",
+            "Iatrogenia conductual",
+            "Intervención excesiva"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico para este fenómeno."
+    },
+
+    {
+        question: "Un paciente con enfermedad avanzada presenta buena CVRS al actuar en coherencia con sus valores personales, incluso frente a decisiones que limitan su supervivencia. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Aceptación",
+            "Resiliencia",
+            "Alineación valorativa",
+            "Adaptación emocional"
+        ],
+        answer: 2,
+        explanation: "Describe la coherencia entre valores y decisiones."
+    },
+
+    {
+        question: "Una paciente experimenta deterioro en CVRS al compararse con su estado previo ideal. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Comparación interna",
+            "Comparación temporal",
+            "Comparación intrapersonal temporal",
+            "Evaluación retrospectiva negativa"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico dentro de CVRS."
+    },
+
+    {
+        question: "Un paciente con enfermedad terminal mantiene alta CVRS al encontrar sentido en actividades cotidianas simples. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Resiliencia",
+            "Adaptación emocional",
+            "Significado vital",
+            "Reinterpretación cognitiva"
+        ],
+        answer: 2,
+        explanation: "El significado vital es el eje central."
+    },
+
+    {
+        question: "Una paciente presenta deterioro en CVRS por cambios físicos que afectan su autoimagen sin comprometer su funcionalidad. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Psicológica",
+            "Emocional",
+            "Identitaria",
+            "Social"
+        ],
+        answer: 2,
+        explanation: "La identidad es el componente clave."
+    },
+
+    {
+        question: "Un paciente opta por un tratamiento menos eficaz pero más compatible con su estilo de vida. ¿Cuál es la interpretación más precisa?",
+        options: [
+            "Elección racional",
+            "Priorización del bienestar",
+            "Optimización de la CVRS sobre eficacia clínica",
+            "Preferencia subjetiva"
+        ],
+        answer: 2,
+        explanation: "Es la formulación más completa."
+    },
+
+    {
+        question: "Una paciente presenta deterioro en CVRS tras perder su rol principal en su familia. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Social",
+            "Psicológica",
+            "Identitaria",
+            "Funcional"
+        ],
+        answer: 2,
+        explanation: "El rol forma parte de la identidad."
+    },
+
+    {
+        question: "Un paciente con enfermedad grave presenta mejor CVRS que otro con enfermedad leve debido a su capacidad de reinterpretar su situación. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Resiliencia",
+            "Adaptación",
+            "Reinterpretación cognitiva",
+            "Ajuste psicológico"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico."
+    },
+
+    {
+        question: "Una paciente mejora su CVRS al modificar su entorno para adaptarse a sus limitaciones físicas. ¿Cuál es el concepto más preciso según Sen?",
+        options: [
+            "Capacidad funcional",
+            "Adaptación ambiental",
+            "Expansión de capacidades mediante ajuste del entorno",
+            "Ajuste ocupacional"
+        ],
+        answer: 2,
+        explanation: "Integra el modelo de Sen."
+    },
+
+    {
+        question: "Un paciente presenta baja CVRS por ausencia de vínculos significativos, pese a estabilidad clínica. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Social",
+            "Emocional",
+            "Relacional",
+            "Psicosocial"
+        ],
+        answer: 2,
+        explanation: "Relacional es más específico."
+    },
+
+    {
+        question: "Una paciente mejora su CVRS al reducir expectativas irreales sobre su desempeño. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Adaptación",
+            "Aceptación",
+            "Ajuste de expectativas",
+            "Reevaluación cognitiva"
+        ],
+        answer: 2,
+        explanation: "Concepto central de Calman."
+    },
+
+    {
+        question: "Un paciente presenta deterioro en CVRS por percepción de falta de control sobre su evolución futura. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Ansiedad anticipatoria",
+            "Incertidumbre",
+            "Control percibido",
+            "Falta de previsibilidad"
+        ],
+        answer: 2,
+        explanation: "El control percibido es el concepto clave."
+    },
+
+    {
+        question: "Una paciente redefine metas hacia objetivos alcanzables y mejora su CVRS. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Aceptación",
+            "Adaptación",
+            "Reorientación adaptativa",
+            "Ajuste psicológico"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico."
+    },
+
+    {
+        question: "Un paciente presenta deterioro en CVRS por exceso de recomendaciones médicas restrictivas no individualizadas. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Sobremedicalización",
+            "Intervención excesiva",
+            "Iatrogenia conductual",
+            "Impacto médico negativo"
+        ],
+        answer: 2,
+        explanation: "Describe mejor el impacto en la vida diaria."
+    },
+
+    {
+        question: "Una paciente mantiene buena CVRS gracias a apoyo emocional constante. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Social",
+            "Psicosocial",
+            "Relacional",
+            "Emocional"
+        ],
+        answer: 2,
+        explanation: "Relacional es más específica."
+    },
+
+    {
+        question: "Un paciente presenta deterioro en CVRS por conflicto entre sus valores personales y decisiones médicas recomendadas. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Ética",
+            "Psicológica",
+            "Valorativa",
+            "Social"
+        ],
+        answer: 2,
+        explanation: "Valorativa describe mejor el conflicto."
+    },
+
+    {
+        question: "Una paciente mejora su CVRS al recuperar control sobre pequeñas decisiones cotidianas. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Autonomía",
+            "Independencia",
+            "Control personal",
+            "Microautonomía funcional"
+        ],
+        answer: 3,
+        explanation: "Es el término más fino y específico."
+    }
+
+],
+advancedClinicalCVRS_v14: [
+
+    {
+        question: "Un paciente con EPOC leve mantiene independencia funcional, pero refiere mala calidad de vida porque ha dejado de realizar actividades recreativas que definían su identidad personal. ¿Cuál es la interpretación más precisa?",
+        options: [
+            "Existe deterioro funcional significativo",
+            "La enfermedad condiciona la calidad de vida",
+            "La pérdida de actividades con valor identitario predomina como determinante de la CVRS",
+            "La percepción del paciente no se correlaciona con la función pulmonar"
+        ],
+        answer: 2,
+        explanation: "El factor identitario domina sobre la función objetiva."
+    },
+
+    {
+        question: "Una paciente con cáncer en remisión presenta deterioro en su CVRS por interpretación constante de sensaciones corporales como signos de recaída. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Ansiedad anticipatoria",
+            "Incertidumbre pronóstica",
+            "Hipervigilancia somática",
+            "Distorsión cognitiva"
+        ],
+        answer: 2,
+        explanation: "La hipervigilancia somática describe mejor el fenómeno."
+    },
+
+    {
+        question: "Un paciente con enfermedad crónica decide no iniciar tratamiento eficaz porque considera que interferiría con su estilo de vida. ¿Cuál es la interpretación más precisa?",
+        options: [
+            "Falta de adherencia",
+            "Preferencia subjetiva",
+            "Evaluación individual del balance riesgo-beneficio",
+            "Jerarquización de valores personales sobre resultados clínicos"
+        ],
+        answer: 3,
+        explanation: "Integra el proceso completo de decisión basado en valores."
+    },
+
+    {
+        question: "Una paciente con enfermedad leve presenta deterioro en su CVRS tras adoptar múltiples restricciones no individualizadas. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Sobremedicalización",
+            "Conducta evitativa",
+            "Iatrogenia conductual",
+            "Intervención excesiva"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico."
+    },
+
+    {
+        question: "Un paciente con enfermedad avanzada presenta buena CVRS al vivir en coherencia con sus valores personales, incluso si esto reduce su supervivencia. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Aceptación",
+            "Resiliencia",
+            "Alineación valorativa",
+            "Adaptación emocional"
+        ],
+        answer: 2,
+        explanation: "Describe la coherencia entre valores y decisiones."
+    },
+
+    {
+        question: "Una paciente presenta deterioro en CVRS al compararse constantemente con su estado previo ideal. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Comparación interna",
+            "Comparación temporal",
+            "Comparación intrapersonal temporal",
+            "Evaluación retrospectiva negativa"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico."
+    },
+
+    {
+        question: "Un paciente con enfermedad terminal mantiene alta CVRS al encontrar sentido en actividades simples. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Resiliencia",
+            "Adaptación emocional",
+            "Significado vital",
+            "Reinterpretación cognitiva"
+        ],
+        answer: 2,
+        explanation: "El significado vital es el eje central."
+    },
+
+    {
+        question: "Una paciente presenta deterioro en CVRS por cambios físicos que afectan su autoimagen sin alterar su funcionalidad. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Psicológica",
+            "Emocional",
+            "Identitaria",
+            "Social"
+        ],
+        answer: 2,
+        explanation: "La identidad es el componente clave."
+    },
+
+    {
+        question: "Un paciente opta por un tratamiento menos eficaz pero más compatible con su vida cotidiana. ¿Cuál es la interpretación más precisa?",
+        options: [
+            "Elección racional",
+            "Priorización del bienestar",
+            "Optimización de la CVRS sobre la eficacia clínica",
+            "Preferencia subjetiva"
+        ],
+        answer: 2,
+        explanation: "Es la formulación más completa."
+    },
+
+    {
+        question: "Una paciente presenta deterioro en CVRS tras perder su rol principal en su familia. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Social",
+            "Psicológica",
+            "Identitaria",
+            "Funcional"
+        ],
+        answer: 2,
+        explanation: "El rol forma parte de la identidad."
+    },
+
+    {
+        question: "Un paciente con enfermedad grave presenta mejor CVRS que otro con enfermedad leve debido a su capacidad de reinterpretar su situación. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Resiliencia",
+            "Adaptación",
+            "Reinterpretación cognitiva",
+            "Ajuste psicológico"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico."
+    },
+
+    {
+        question: "Una paciente mejora su CVRS al modificar su entorno para adaptarse a sus limitaciones. ¿Cuál es el concepto más preciso según Sen?",
+        options: [
+            "Capacidad funcional",
+            "Adaptación ambiental",
+            "Expansión de capacidades mediante ajuste del entorno",
+            "Ajuste ocupacional"
+        ],
+        answer: 2,
+        explanation: "Integra el modelo de Sen."
+    },
+
+    {
+        question: "Un paciente presenta baja CVRS por ausencia de vínculos significativos, pese a estabilidad clínica. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Social",
+            "Emocional",
+            "Relacional",
+            "Psicosocial"
+        ],
+        answer: 2,
+        explanation: "Relacional es más específico."
+    },
+
+    {
+        question: "Una paciente mejora su CVRS al reducir expectativas irreales sobre su desempeño. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Adaptación",
+            "Aceptación",
+            "Ajuste de expectativas",
+            "Reevaluación cognitiva"
+        ],
+        answer: 2,
+        explanation: "Concepto central de Calman."
+    },
+
+    {
+        question: "Un paciente presenta deterioro en CVRS por percepción de falta de control sobre su evolución futura. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Ansiedad anticipatoria",
+            "Incertidumbre",
+            "Control percibido",
+            "Falta de previsibilidad"
+        ],
+        answer: 2,
+        explanation: "El control percibido es el concepto clave."
+    },
+
+    {
+        question: "Una paciente redefine metas hacia objetivos alcanzables y mejora su CVRS. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Aceptación",
+            "Adaptación",
+            "Reorientación adaptativa",
+            "Ajuste psicológico"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico."
+    },
+
+    {
+        question: "Un paciente presenta deterioro en CVRS por exceso de recomendaciones médicas restrictivas no individualizadas. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Sobremedicalización",
+            "Intervención excesiva",
+            "Iatrogenia conductual",
+            "Impacto médico negativo"
+        ],
+        answer: 2,
+        explanation: "Describe mejor el impacto en la vida diaria."
+    },
+
+    {
+        question: "Una paciente mantiene buena CVRS gracias a apoyo emocional constante. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Social",
+            "Psicosocial",
+            "Relacional",
+            "Emocional"
+        ],
+        answer: 2,
+        explanation: "Relacional es más específica."
+    },
+
+    {
+        question: "Un paciente presenta deterioro en CVRS por conflicto entre sus valores personales y decisiones médicas recomendadas. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Ética",
+            "Psicológica",
+            "Valorativa",
+            "Social"
+        ],
+        answer: 2,
+        explanation: "Valorativa describe mejor el conflicto."
+    },
+
+    {
+        question: "Una paciente mejora su CVRS al recuperar control sobre pequeñas decisiones cotidianas. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Autonomía",
+            "Independencia",
+            "Control personal",
+            "Microautonomía funcional"
+        ],
+        answer: 3,
+        explanation: "Es el término más fino y específico."
+    }
+
+],
+advancedClinicalCVRS_v15: [
+
+    {
+        question: "Un paciente con cardiopatía crónica estable mantiene independencia funcional, pero refiere mala calidad de vida porque no puede participar en actividades que definían su identidad. ¿Cuál es la interpretación más precisa?",
+        options: [
+            "Existe deterioro funcional relevante",
+            "La enfermedad impacta la calidad de vida",
+            "La pérdida de actividades con valor identitario es el determinante principal de la CVRS",
+            "La percepción del paciente no se correlaciona con su estado clínico"
+        ],
+        answer: 2,
+        explanation: "El componente identitario predomina sobre la función objetiva."
+    },
+
+    {
+        question: "Una paciente con cáncer en remisión presenta deterioro en su CVRS por interpretar sensaciones corporales normales como signos de recaída. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Ansiedad anticipatoria",
+            "Incertidumbre clínica",
+            "Hipervigilancia somática",
+            "Distorsión cognitiva"
+        ],
+        answer: 2,
+        explanation: "Describe mejor la interpretación excesiva de síntomas."
+    },
+
+    {
+        question: "Un paciente con enfermedad crónica decide no iniciar tratamiento eficaz porque considera que afecta negativamente su estilo de vida. ¿Cuál es la interpretación más precisa?",
+        options: [
+            "Falta de adherencia",
+            "Preferencia subjetiva",
+            "Evaluación individual del balance riesgo-beneficio",
+            "Jerarquización de valores personales sobre resultados clínicos"
+        ],
+        answer: 3,
+        explanation: "Integra la toma de decisiones basada en valores."
+    },
+
+    {
+        question: "Una paciente con enfermedad leve presenta deterioro en su CVRS tras adoptar múltiples restricciones no individualizadas. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Sobremedicalización",
+            "Conducta evitativa",
+            "Iatrogenia conductual",
+            "Intervención excesiva"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico."
+    },
+
+    {
+        question: "Un paciente con enfermedad avanzada presenta buena CVRS al actuar en coherencia con sus valores personales, incluso si esto reduce su supervivencia. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Aceptación",
+            "Resiliencia",
+            "Alineación valorativa",
+            "Adaptación emocional"
+        ],
+        answer: 2,
+        explanation: "Describe la coherencia entre valores y decisiones."
+    },
+
+    {
+        question: "Una paciente presenta deterioro en CVRS al compararse con su estado previo ideal. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Comparación interna",
+            "Comparación temporal",
+            "Comparación intrapersonal temporal",
+            "Evaluación retrospectiva negativa"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico."
+    },
+
+    {
+        question: "Un paciente con enfermedad terminal mantiene alta CVRS al encontrar sentido en actividades simples. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Resiliencia",
+            "Adaptación emocional",
+            "Significado vital",
+            "Reinterpretación cognitiva"
+        ],
+        answer: 2,
+        explanation: "El significado vital es el eje central."
+    },
+
+    {
+        question: "Una paciente presenta deterioro en CVRS por cambios físicos que afectan su autoimagen sin alterar su funcionalidad. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Psicológica",
+            "Emocional",
+            "Identitaria",
+            "Social"
+        ],
+        answer: 2,
+        explanation: "La identidad es el componente clave."
+    },
+
+    {
+        question: "Un paciente opta por un tratamiento menos eficaz pero más compatible con su vida cotidiana. ¿Cuál es la interpretación más precisa?",
+        options: [
+            "Elección racional",
+            "Priorización del bienestar",
+            "Optimización de la CVRS sobre la eficacia clínica",
+            "Preferencia subjetiva"
+        ],
+        answer: 2,
+        explanation: "Es la formulación más completa."
+    },
+
+    {
+        question: "Una paciente presenta deterioro en CVRS tras perder su rol principal en su familia. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Social",
+            "Psicológica",
+            "Identitaria",
+            "Funcional"
+        ],
+        answer: 2,
+        explanation: "El rol forma parte de la identidad."
+    },
+
+    {
+        question: "Un paciente con enfermedad grave presenta mejor CVRS que otro con enfermedad leve debido a su capacidad de reinterpretar su situación. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Resiliencia",
+            "Adaptación",
+            "Reinterpretación cognitiva",
+            "Ajuste psicológico"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico."
+    },
+
+    {
+        question: "Una paciente mejora su CVRS al modificar su entorno para adaptarse a sus limitaciones. ¿Cuál es el concepto más preciso según Sen?",
+        options: [
+            "Capacidad funcional",
+            "Adaptación ambiental",
+            "Expansión de capacidades mediante ajuste del entorno",
+            "Ajuste ocupacional"
+        ],
+        answer: 2,
+        explanation: "Integra el modelo de Sen."
+    },
+
+    {
+        question: "Un paciente presenta baja CVRS por ausencia de vínculos significativos, pese a estabilidad clínica. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Social",
+            "Emocional",
+            "Relacional",
+            "Psicosocial"
+        ],
+        answer: 2,
+        explanation: "Relacional es más específico."
+    },
+
+    {
+        question: "Una paciente mejora su CVRS al reducir expectativas irreales sobre su desempeño. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Adaptación",
+            "Aceptación",
+            "Ajuste de expectativas",
+            "Reevaluación cognitiva"
+        ],
+        answer: 2,
+        explanation: "Concepto central de Calman."
+    },
+
+    {
+        question: "Un paciente presenta deterioro en CVRS por percepción de falta de control sobre su evolución futura. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Ansiedad anticipatoria",
+            "Incertidumbre",
+            "Control percibido",
+            "Falta de previsibilidad"
+        ],
+        answer: 2,
+        explanation: "El control percibido es el concepto clave."
+    },
+
+    {
+        question: "Una paciente redefine metas hacia objetivos alcanzables y mejora su CVRS. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Aceptación",
+            "Adaptación",
+            "Reorientación adaptativa",
+            "Ajuste psicológico"
+        ],
+        answer: 2,
+        explanation: "Es el término más específico."
+    },
+
+    {
+        question: "Un paciente presenta deterioro en CVRS por exceso de recomendaciones médicas restrictivas no individualizadas. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Sobremedicalización",
+            "Intervención excesiva",
+            "Iatrogenia conductual",
+            "Impacto médico negativo"
+        ],
+        answer: 2,
+        explanation: "Describe mejor el impacto en la vida diaria."
+    },
+
+    {
+        question: "Una paciente mantiene buena CVRS gracias a apoyo emocional constante. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Social",
+            "Psicosocial",
+            "Relacional",
+            "Emocional"
+        ],
+        answer: 2,
+        explanation: "Relacional es más específica."
+    },
+
+    {
+        question: "Un paciente presenta deterioro en CVRS por conflicto entre sus valores personales y decisiones médicas recomendadas. ¿Cuál es la dimensión más precisa?",
+        options: [
+            "Ética",
+            "Psicológica",
+            "Valorativa",
+            "Social"
+        ],
+        answer: 2,
+        explanation: "Valorativa describe mejor el conflicto."
+    },
+
+    {
+        question: "Una paciente mejora su CVRS al recuperar control sobre pequeñas decisiones cotidianas. ¿Cuál es el concepto más preciso?",
+        options: [
+            "Autonomía",
+            "Independencia",
+            "Control personal",
+            "Microautonomía funcional"
+        ],
+        answer: 3,
+        explanation: "Es el término más fino y específico."
+    }
+
+]
 
     }
 
