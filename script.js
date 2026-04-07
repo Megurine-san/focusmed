@@ -82,7 +82,7 @@ function renderBooks(course) {
 
     const grid = document.getElementById("book-grid");
 
-    Object.keys(database[course]).forEach(book => {
+    Object.keys(database.questions[course] || {}).forEach(book => {
 
         const card = document.createElement("div");
         card.className = "glass-card";
@@ -106,7 +106,7 @@ function renderBooks(course) {
 function renderChapters(course, book) {
 
     const app = document.getElementById("app");
-    const chapters = database[course][book];
+    const chapters = database.questions[course][book];
 
     app.innerHTML = `
         <button class="back-btn" onclick="renderBooks('${course}')">← Volver</button>
@@ -437,7 +437,7 @@ function selectArenaCourse(course) {
 
     let html = "";
 
-    Object.keys(database[course]).forEach(book => {
+    Object.keys(database.questions[course] || {}).forEach(book => {
 
         html += `
             <div class="glass-card" onclick="selectArenaBook('${book}')">
@@ -487,7 +487,7 @@ function selectArenaBook(book) {
     arenaPart = null;
 
     const app = document.getElementById("app");
-    const data = database[arenaCourse][book];
+   const data = database.questions[arenaCourse][book];
 
     let html = "";
 
@@ -517,7 +517,7 @@ function selectArenaPart(book, part) {
     arenaPart = part;
 
     const app = document.getElementById("app");
-    const data = database[arenaCourse][book][part];
+    const data = database.questions[arenaCourse][book][part];
 
     let html = "";
 
