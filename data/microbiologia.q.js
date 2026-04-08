@@ -1,7 +1,7 @@
 database.questions.Microbiologia = {
     "Laboratorio ppts": {
          "Laboratorio": {
-"Semana 1 - Hematimetría": {
+"Semana 1 mixto - Hematimetría": {
 
     core: {
 
@@ -6084,6 +6084,4427 @@ theoreticalExamTribunal: [
     }
 
 },
+
+
+"Semana 1 - Casos Clínicos": {
+
+    core: {
+
+        clinicalCVRSSet1: [
+
+{
+    question: "Un varón de 58 años con antecedente de artritis reumatoide de 15 años consulta por fatiga progresiva, intolerancia al ejercicio y palidez. Laboratorio: Hb 10.2 g/dL, hematocrito 30%, VCM 88 fL, CHCM normal, reticulocitos 0.6%. No hay evidencia de sangrado activo. ¿Cuál es el mecanismo fisiopatológico más probable de su anemia?",
+    options: [
+        "Pérdida sanguínea aguda secundaria a enfermedad inflamatoria",
+        "Disminución de producción eritrocitaria mediada por inflamación crónica",
+        "Hemólisis intravascular secundaria a autoinmunidad",
+        "Deficiencia nutricional severa de vitamina B12"
+    ],
+    answer: 1,
+    explanation: "El cuadro corresponde a anemia normocítica normocrómica con bajo índice reticulocitario en contexto de enfermedad crónica (AR). Según el PPT, la anemia crónica se debe a disminución de producción eritrocitaria mediada por inflamación persistente."
+},
+
+{
+    question: "Paciente masculino de 67 años ingresa por dolor torácico súbito diagnosticado como infarto agudo de miocardio. A las 24 horas presenta leucocitosis de 15,000/mm³ con neutrófilos 82%. No hay evidencia de infección. ¿Cuál es la causa más probable de esta alteración hematológica?",
+    options: [
+        "Infección bacteriana subclínica",
+        "Respuesta inflamatoria secundaria a necrosis tisular",
+        "Liberación tumoral de citoquinas",
+        "Respuesta alérgica sistémica"
+    ],
+    answer: 1,
+    explanation: "El PPT indica que el infarto de miocardio produce leucocitosis neutrofílica por inflamación estéril secundaria a necrosis tisular, no por infección."
+},
+
+{
+    question: "Mujer de 35 años con lupus eritematoso sistémico en tratamiento con corticoides consulta por fiebre y malestar general. Hemograma: leucocitos 2,400/mm³, neutrófilos 900/mm³. ¿Cuál es la causa más probable de su neutropenia?",
+    options: [
+        "Infección bacteriana aguda",
+        "Supresión medular por respuesta autoinmune y tratamiento",
+        "Activación inmune excesiva",
+        "Reacción leucemoide"
+    ],
+    answer: 1,
+    explanation: "El PPT menciona que el LES y los glucocorticoides pueden causar neutropenia por mecanismos autoinmunes y supresión de la médula ósea."
+},
+
+{
+    question: "Paciente de 22 años con antecedente de asma bronquial presenta disnea, prurito cutáneo y eosinofilia persistente (9%). No hay infección parasitaria documentada. ¿Cuál es el mecanismo principal de la eosinofilia?",
+    options: [
+        "Activación de respuesta inmune alérgica mediada por IgE",
+        "Infección bacteriana crónica",
+        "Supresión de linfocitos T",
+        "Estimulación tumoral de médula ósea"
+    ],
+    answer: 0,
+    explanation: "El PPT señala que las alergias y el asma son causas frecuentes de eosinofilia debido a activación inmunológica tipo alérgica."
+},
+
+{
+    question: "Varón de 40 años con diagnóstico reciente de enfermedad de Hodgkin presenta eosinofilia persistente. ¿Cuál es la explicación fisiopatológica más adecuada?",
+    options: [
+        "Infección parasitaria asociada",
+        "Respuesta inflamatoria inespecífica",
+        "Producción de citoquinas por células tumorales",
+        "Supresión medular selectiva"
+    ],
+    answer: 2,
+    explanation: "El PPT incluye enfermedad de Hodgkin como causa de eosinofilia, relacionada con producción de mediadores inflamatorios por células tumorales."
+},
+
+{
+    question: "Paciente con cirrosis hepática avanzada presenta aumento de basófilos en sangre periférica. ¿Cuál es la interpretación más adecuada?",
+    options: [
+        "Respuesta fisiológica normal",
+        "Asociación con enfermedad hepática crónica",
+        "Infección viral aguda",
+        "Indicador de hemólisis"
+    ],
+    answer: 1,
+    explanation: "El PPT menciona la cirrosis como una de las causas de basofilia."
+},
+
+{
+    question: "Varón de 50 años con tuberculosis pulmonar presenta monocitosis (12%). ¿Cuál es el mecanismo más probable?",
+    options: [
+        "Respuesta inmune frente a infección crónica",
+        "Inhibición de neutrófilos",
+        "Estimulación por alergia",
+        "Destrucción esplénica"
+    ],
+    answer: 0,
+    explanation: "El PPT indica que la tuberculosis es causa clásica de monocitosis por respuesta inmune crónica."
+},
+
+{
+    question: "Paciente con infección por VIH presenta leucopenia y neutropenia progresiva. ¿Cuál es el mecanismo principal?",
+    options: [
+        "Aumento de destrucción periférica exclusivamente",
+        "Disminución de producción medular",
+        "Redistribución vascular de neutrófilos",
+        "Aumento de consumo en tejidos"
+    ],
+    answer: 1,
+    explanation: "El PPT menciona infecciones como VIH que afectan la producción medular generando neutropenia."
+},
+
+{
+    question: "Paciente en quimioterapia presenta neutrófilos 600/mm³. ¿Cuál es la principal complicación esperada?",
+    options: [
+        "Trombosis venosa profunda",
+        "Hemorragia espontánea",
+        "Infecciones graves potencialmente mortales",
+        "Hipoxia tisular"
+    ],
+    answer: 2,
+    explanation: "La neutropenia severa predispone a infecciones graves por incapacidad de respuesta inmune."
+},
+
+{
+    question: "Niño de 6 años con fiebre, adenopatías y linfocitos 10,500/mm³. ¿Cuál es la causa más probable?",
+    options: [
+        "Infección viral",
+        "Anemia crónica",
+        "Reacción leucemoide",
+        "Deficiencia inmunológica"
+    ],
+    answer: 0,
+    explanation: "El PPT señala infecciones virales como causa principal de linfocitosis en niños."
+},
+
+{
+    question: "Paciente con síndrome de Cushing presenta linfocitopenia. ¿Cuál es el mecanismo?",
+    options: [
+        "Estimulación linfocitaria",
+        "Efecto inmunosupresor de glucocorticoides",
+        "Infección bacteriana",
+        "Producción tumoral"
+    ],
+    answer: 1,
+    explanation: "El PPT indica que los corticoides inducen linfocitopenia."
+},
+
+{
+    question: "Paciente con anemia, leucopenia y trombocitopenia presenta pancitopenia. Aspirado medular: hipocelular. ¿Cuál es el diagnóstico más probable?",
+    options: [
+        "Leucemia aguda",
+        "Aplasia medular",
+        "Infección viral leve",
+        "Reacción inflamatoria"
+    ],
+    answer: 1,
+    explanation: "El PPT menciona la aplasia medular como causa principal de pancitopenia con médula hipocelular."
+},
+
+{
+    question: "Paciente expuesto a radiación ionizante desarrolla pancitopenia. ¿Cuál es el mecanismo?",
+    options: [
+        "Estimulación eritropoyética",
+        "Destrucción de células madre hematopoyéticas",
+        "Aumento de producción leucocitaria",
+        "Activación inmune"
+    ],
+    answer: 1,
+    explanation: "El PPT indica que la radiación afecta la médula ósea causando pancitopenia."
+},
+
+{
+    question: "Paciente con hemorragia digestiva masiva presenta Hb 6.5 g/dL. ¿Qué tipo de anemia presenta?",
+    options: [
+        "Crónica",
+        "Hemolítica",
+        "Aguda",
+        "Megaloblástica"
+    ],
+    answer: 2,
+    explanation: "El PPT identifica la hemorragia como causa de anemia aguda."
+},
+
+{
+    question: "Paciente con traumatismo severo presenta descenso rápido de hemoglobina. ¿Cuál es la causa?",
+    options: [
+        "Déficit nutricional",
+        "Pérdida sanguínea aguda",
+        "Supresión medular",
+        "Inflamación crónica"
+    ],
+    answer: 1,
+    explanation: "El PPT menciona traumatismo como causa de anemia aguda por pérdida sanguínea."
+},
+
+{
+    question: "Paciente con mieloma múltiple presenta aumento de células plasmáticas en sangre. ¿Qué hallazgo apoya este diagnóstico?",
+    options: [
+        "Disminución de linfocitos",
+        "Aumento de células plasmáticas",
+        "Neutropenia aislada",
+        "Basofilia"
+    ],
+    answer: 1,
+    explanation: "El PPT indica aumento de células plasmáticas en mieloma múltiple."
+},
+
+{
+    question: "Paciente con mononucleosis presenta linfocitos atípicos. ¿Cuál es la explicación?",
+    options: [
+        "Infección bacteriana",
+        "Activación linfocitaria por infección viral",
+        "Supresión inmunológica",
+        "Déficit nutricional"
+    ],
+    answer: 1,
+    explanation: "El PPT menciona infecciones virales como causa de linfocitos atípicos."
+},
+
+{
+    question: "Paciente con VCM de 102 fL. ¿Qué indica este hallazgo?",
+    options: [
+        "Microcitosis",
+        "Normocitosis",
+        "Macrocitosis",
+        "Hipocromía"
+    ],
+    answer: 2,
+    explanation: "VCM elevado indica macrocitosis según los valores normales del PPT."
+},
+
+{
+    question: "Paciente con CHCM de 28%. ¿Cuál es la interpretación?",
+    options: [
+        "Eritrocitos hipercrómicos",
+        "Disminución de concentración de hemoglobina",
+        "Aumento del tamaño celular",
+        "Policitemia"
+    ],
+    answer: 1,
+    explanation: "CHCM baja indica menor concentración de hemoglobina en eritrocitos."
+},
+
+{
+    question: "Paciente con anemia y reticulocitos 0.3%. ¿Qué indica este hallazgo?",
+    options: [
+        "Producción aumentada de eritrocitos",
+        "Producción eritrocitaria disminuida",
+        "Hemorragia aguda",
+        "Hemólisis activa"
+    ],
+    answer: 1,
+    explanation: "El PPT indica que un índice reticulocitario bajo refleja disminución de producción medular."
+}
+
+],
+clinicalCVRSSet2: [
+
+{
+    question: "Varón de 72 años con antecedente de infarto de miocardio reciente (48 h) presenta fiebre leve y leucocitos 16,200/mm³ con neutrófilos 85%. No hay foco infeccioso identificado. ¿Cuál es la causa más probable de esta alteración?",
+    options: [
+        "Sepsis bacteriana oculta",
+        "Respuesta inflamatoria estéril secundaria a necrosis miocárdica",
+        "Reacción leucemoide por neoplasia",
+        "Respuesta alérgica sistémica"
+    ],
+    answer: 1,
+    explanation: "El PPT menciona el infarto de miocardio como causa de neutrofilia por inflamación estéril secundaria a necrosis tisular."
+},
+
+{
+    question: "Paciente de 34 años con quemaduras extensas en el 40% de superficie corporal presenta leucocitosis de 18,000/mm³ con predominio neutrofílico. No hay infección documentada. ¿Cuál es el mecanismo más probable?",
+    options: [
+        "Respuesta inflamatoria secundaria a daño tisular",
+        "Infección bacteriana temprana",
+        "Activación alérgica",
+        "Producción tumoral de leucocitos"
+    ],
+    answer: 0,
+    explanation: "El PPT indica que las quemaduras generan neutrofilia por inflamación estéril."
+},
+
+{
+    question: "Varón de 28 años con antecedentes de asma y dermatitis atópica presenta eosinófilos 11% en sangre periférica, con IgE elevada. No hay parásitos. ¿Cuál es la causa principal?",
+    options: [
+        "Respuesta inmunológica alérgica",
+        "Infección bacteriana crónica",
+        "Neoplasia hematológica",
+        "Deficiencia inmunológica"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona alergias y asma como causas frecuentes de eosinofilia."
+},
+
+{
+    question: "Paciente con diagnóstico de parasitosis intestinal presenta eosinofilia persistente. ¿Cuál es el mecanismo fisiopatológico?",
+    options: [
+        "Respuesta inmune dirigida contra parásitos",
+        "Supresión medular",
+        "Infección viral concomitante",
+        "Deficiencia nutricional"
+    ],
+    answer: 0,
+    explanation: "El PPT incluye parasitosis como causa clásica de eosinofilia."
+},
+
+{
+    question: "Paciente con leucemia mieloide crónica presenta basofilia marcada. ¿Qué explica este hallazgo?",
+    options: [
+        "Respuesta inflamatoria inespecífica",
+        "Proliferación clonal de células mieloides",
+        "Infección bacteriana crónica",
+        "Reacción alérgica"
+    ],
+    answer: 1,
+    explanation: "El PPT menciona la leucemia mieloide crónica como causa de basofilia."
+},
+
+{
+    question: "Paciente con cirrosis hepática avanzada y artritis reumatoide presenta basofilia leve. ¿Cuál es la interpretación más adecuada?",
+    options: [
+        "Hallazgo inespecífico sin importancia",
+        "Asociación con enfermedades crónicas inflamatorias y hepáticas",
+        "Indicador de infección viral aguda",
+        "Signo de anemia hemolítica"
+    ],
+    answer: 1,
+    explanation: "El PPT menciona cirrosis y AR como causas de basofilia."
+},
+
+{
+    question: "Paciente con tuberculosis pulmonar crónica presenta monocitosis persistente de 13%. ¿Cuál es el mecanismo?",
+    options: [
+        "Respuesta inmune frente a infección crónica",
+        "Supresión de neutrófilos",
+        "Producción tumoral",
+        "Deficiencia nutricional"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona tuberculosis como causa de monocitosis."
+},
+
+{
+    question: "Paciente con endocarditis bacteriana subaguda presenta monocitosis significativa. ¿Qué explica este hallazgo?",
+    options: [
+        "Respuesta inflamatoria crónica",
+        "Infección viral",
+        "Supresión medular",
+        "Reacción alérgica"
+    ],
+    answer: 0,
+    explanation: "El PPT incluye endocarditis bacteriana como causa de monocitosis."
+},
+
+{
+    question: "Paciente con VIH presenta leucopenia con neutropenia marcada. ¿Cuál es el principal mecanismo?",
+    options: [
+        "Aumento de destrucción periférica",
+        "Disminución de producción medular",
+        "Redistribución vascular",
+        "Activación inmune excesiva"
+    ],
+    answer: 1,
+    explanation: "El PPT menciona VIH como causa de neutropenia por alteración medular."
+},
+
+{
+    question: "Paciente con fiebre tifoidea presenta leucopenia con neutropenia. ¿Cuál es la causa?",
+    options: [
+        "Estimulación medular",
+        "Inhibición de la producción de neutrófilos",
+        "Respuesta alérgica",
+        "Reacción leucemoide"
+    ],
+    answer: 1,
+    explanation: "El PPT menciona fiebre tifoidea como causa de neutropenia."
+},
+
+{
+    question: "Paciente tratado con sulfonamidas desarrolla neutropenia severa. ¿Cuál es el mecanismo?",
+    options: [
+        "Supresión medular por fármacos",
+        "Infección viral",
+        "Respuesta autoinmune primaria",
+        "Déficit nutricional"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona fármacos como causa de neutropenia."
+},
+
+{
+    question: "Paciente con malaria presenta leucopenia. ¿Cuál es la explicación?",
+    options: [
+        "Respuesta inflamatoria exagerada",
+        "Infección parasitaria con supresión medular",
+        "Reacción alérgica",
+        "Deficiencia inmunológica"
+    ],
+    answer: 1,
+    explanation: "El PPT incluye malaria como causa de leucopenia."
+},
+
+{
+    question: "Paciente con mononucleosis infecciosa presenta linfocitosis y linfocitos atípicos. ¿Cuál es el mecanismo?",
+    options: [
+        "Activación linfocitaria por infección viral",
+        "Infección bacteriana",
+        "Supresión medular",
+        "Deficiencia inmunológica"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona mononucleosis como causa de linfocitosis y linfocitos atípicos."
+},
+
+{
+    question: "Paciente con enfermedad de Addison presenta linfocitosis relativa. ¿Cuál es la explicación?",
+    options: [
+        "Disminución de neutrófilos relativa",
+        "Infección viral",
+        "Producción tumoral",
+        "Reacción alérgica"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona Addison como causa de linfocitosis relativa."
+},
+
+{
+    question: "Paciente con síndrome de Cushing presenta linfocitopenia. ¿Cuál es el mecanismo?",
+    options: [
+        "Activación inmune",
+        "Efecto inmunosupresor de glucocorticoides",
+        "Infección viral",
+        "Producción tumoral"
+    ],
+    answer: 1,
+    explanation: "El PPT menciona corticoides como causa de linfocitopenia."
+},
+
+{
+    question: "Paciente con desnutrición severa presenta linfocitopenia. ¿Cuál es la causa?",
+    options: [
+        "Aumento de producción linfocitaria",
+        "Disminución de producción y pérdida de linfocitos",
+        "Reacción alérgica",
+        "Infección bacteriana"
+    ],
+    answer: 1,
+    explanation: "El PPT menciona desnutrición como causa de linfocitopenia."
+},
+
+{
+    question: "Paciente con anemia, leucopenia y trombocitopenia presenta médula ósea infiltrada por metástasis. ¿Cuál es el diagnóstico?",
+    options: [
+        "Anemia aguda",
+        "Pancitopenia por infiltración medular",
+        "Reacción leucemoide",
+        "Infección viral"
+    ],
+    answer: 1,
+    explanation: "El PPT menciona invasión de médula ósea como causa de pancitopenia."
+},
+
+{
+    question: "Paciente con exposición a benceno presenta pancitopenia. ¿Cuál es el mecanismo?",
+    options: [
+        "Estimulación medular",
+        "Toxicidad directa sobre células madre hematopoyéticas",
+        "Infección viral",
+        "Reacción alérgica"
+    ],
+    answer: 1,
+    explanation: "El PPT menciona benceno como causa de pancitopenia."
+},
+
+{
+    question: "Paciente con hemorragia masiva post cirugía presenta Hb 6 g/dL, reticulocitos elevados. ¿Qué indica este hallazgo?",
+    options: [
+        "Disminución de producción eritrocitaria",
+        "Respuesta compensatoria medular",
+        "Supresión medular",
+        "Anemia crónica"
+    ],
+    answer: 1,
+    explanation: "En anemia aguda, la médula responde aumentando reticulocitos."
+},
+
+{
+    question: "Paciente con enfermedad inflamatoria intestinal crónica presenta anemia persistente normocítica. ¿Cuál es la causa?",
+    options: [
+        "Hemorragia aguda",
+        "Anemia secundaria a enfermedad crónica",
+        "Hemólisis",
+        "Déficit de hierro severo"
+    ],
+    answer: 1,
+    explanation: "El PPT menciona enfermedad de Crohn y colitis ulcerosa como causas de anemia crónica."
+}
+
+],
+clinicalCVRSSet3: [
+
+{
+    question: "Una mujer de 46 años acude por fatiga intensa, fiebre intermitente y pérdida de peso de dos meses de evolución. Refiere antecedente de valvulopatía y en la evaluación actual se documenta un soplo nuevo compatible con endocarditis bacteriana subaguda. El hemograma muestra leucocitos 11,200/mm³ con 14% de monocitos, hemoglobina discretamente disminuida y neutrófilos dentro de rango. No presenta eosinofilia ni linfocitosis. Considerando el patrón hematológico y el contexto clínico, ¿cuál es la alteración leucocitaria más directamente explicada por el proceso de base?",
+    options: [
+        "Basofilia secundaria a inflamación crónica",
+        "Monocitosis asociada a infección bacteriana persistente",
+        "Linfocitosis relativa por respuesta humoral tardía",
+        "Neutropenia secundaria a consumo periférico"
+    ],
+    answer: 1,
+    explanation: "El PPT menciona de forma específica a la endocarditis bacteriana como causa de monocitosis. En este caso no solo hay fiebre prolongada y un cuadro infeccioso crónico, sino además un recuento diferencial con monocitos por encima del rango esperado, lo que encaja mejor con monocitosis asociada a infección persistente. No hay datos que orienten a basofilia, linfocitosis o neutropenia."
+},
+
+{
+    question: "Un varón de 61 años consulta por astenia, febrícula, sudoración nocturna y pérdida de peso. Refiere además prurito y sensación de plenitud abdominal. El hemograma muestra leucocitosis importante con desviación mieloide y aumento de basófilos. En la evaluación posterior se confirma una neoplasia mieloproliferativa crónica. ¿Qué hallazgo del recuento diferencial resulta más orientador al diagnóstico planteado?",
+    options: [
+        "Basofilia en el contexto de proliferación clonal mieloide",
+        "Eosinofilia reactiva por hipersensibilidad",
+        "Monocitosis por infección oportunista asociada",
+        "Linfocitopenia por consumo periférico"
+    ],
+    answer: 0,
+    explanation: "El PPT señala a la leucemia mieloide crónica como una causa clásica de basofilia. En un paciente con síntomas constitucionales, leucocitosis y proliferación mieloide, la basofilia adquiere alto valor orientador. Las otras alteraciones pueden verse en otros contextos, pero no son las más características del cuadro."
+},
+
+{
+    question: "Una paciente de 29 años con antecedente de lupus eritematoso sistémico consulta por fiebre, odinofagia y úlceras orales. Ha recibido tratamiento irregular y recientemente presentó empeoramiento articular. En el hemograma se observa leucocitos 2,100/mm³ y un recuento absoluto de neutrófilos de 950/mm³. No hay evidencia de blastos ni datos de leucemia. ¿Cuál es la mejor interpretación del trastorno hematológico observado?",
+    options: [
+        "Neutrofilia por inflamación sistémica del brote lúpico",
+        "Neutropenia asociada a enfermedad autoinmune",
+        "Linfopenia aislada por efecto exclusivo de corticoides",
+        "Monocitosis compensadora por infección viral"
+    ],
+    answer: 1,
+    explanation: "El PPT incluye al LES entre las causas de neutropenia autoinmune. El dato clave es el recuento absoluto de neutrófilos bajo en un contexto compatible con enfermedad autoinmune, sin evidencia de neoplasia ni de un patrón de neutrofilia. Aunque los corticoides pueden alterar otras series, aquí el hallazgo central es neutropenia."
+},
+
+{
+    question: "Un niño de 8 años es llevado a consulta por episodios repetidos de infecciones cutáneas y respiratorias desde los primeros meses de vida. En la actualidad presenta fiebre, gingivitis y múltiples lesiones pustulosas. Los exámenes muestran neutropenia profunda persistente desde controles previos, sin recuperación entre episodios. Entre las causas pediátricas descritas para este patrón, ¿cuál es la entidad congénita que mejor explica una neutropenia grave mantenida desde la infancia temprana?",
+    options: [
+        "Granulocitopenia crónica benigna de la infancia",
+        "Agranulocitosis de Kostmann",
+        "Neutropenia secundaria a infección viral pasajera",
+        "Neutropenia por hiperesplenismo"
+    ],
+    answer: 1,
+    explanation: "Dentro de las causas neonatales e infantiles señaladas en el PPT, la agranulocitosis de Kostmann destaca por producir neutropenia moderada o grave de inicio temprano, con infecciones recurrentes. La granulocitopenia benigna suele tener un curso menos severo. Las opciones infecciosas o por hiperesplenismo no explican bien un patrón persistente desde el inicio de la vida."
+},
+
+{
+    question: "Una mujer de 33 años con antecedente de embarazo reciente consulta por prurito, sibilancias y lesiones dérmicas eccematosas de repetición. No ha viajado, no tiene síntomas digestivos y el estudio parasitológico seriado es negativo. El hemograma muestra eosinófilos 10%. ¿Cuál es la causa más probable del patrón leucocitario observado?",
+    options: [
+        "Enfermedad mieloproliferativa oculta",
+        "Proceso alérgico sistémico",
+        "Reacción leucemoide de origen bacteriano",
+        "Tuberculosis extrapulmonar"
+    ],
+    answer: 1,
+    explanation: "El PPT menciona alergias, asma y dermopatía alérgica como causas típicas de eosinofilia. En este caso, la combinación de sibilancias, prurito, eccema y ausencia de evidencia de parasitosis apoya claramente una causa alérgica. No hay datos que orienten a reacción leucemoide o tuberculosis."
+},
+
+{
+    question: "Un varón de 24 años proveniente de una zona rural consulta por dolor abdominal, diarrea intermitente y pérdida ponderal. Refiere exposición frecuente a agua no tratada y alimentos de riesgo. En el hemograma presenta eosinofilia persistente sin neutrofilia. No existen signos de enfermedad hematológica maligna. ¿Cuál es la explicación más probable para el hallazgo del recuento diferencial?",
+    options: [
+        "Respuesta alérgica primaria no infecciosa",
+        "Parasitosis como causa de eosinofilia",
+        "Basofilia reactiva por infección crónica",
+        "Monocitosis secundaria a colagenosis"
+    ],
+    answer: 1,
+    explanation: "El PPT identifica a las parasitosis como una causa mayor de eosinofilia. El contexto epidemiológico, los síntomas digestivos y la persistencia del aumento de eosinófilos apoyan esta interpretación. No hay elementos predominantes de alergia, basofilia ni colagenosis."
+},
+
+{
+    question: "Una mujer de 57 años con diagnóstico de cirrosis hepática y artritis reumatoide de larga data acude por control. El hemograma muestra un incremento leve pero persistente de basófilos, con resto de leucocitos sin alteraciones relevantes. No hay datos clínicos de leucemia. ¿Cuál es la interpretación más adecuada de este hallazgo?",
+    options: [
+        "La basofilia puede relacionarse con enfermedades crónicas como cirrosis y artritis reumatoide",
+        "La basofilia obliga necesariamente a pensar en leucemia aguda",
+        "La basofilia es típica de hemorragia aguda severa",
+        "La basofilia explica por sí sola una aplasia medular"
+    ],
+    answer: 0,
+    explanation: "El PPT incluye tanto cirrosis como artritis reumatoide entre las causas de basofilia. Aunque una basofilia marcada puede hacer pensar en enfermedades mieloproliferativas, en este contexto clínico una elevación leve y persistente puede relacionarse con procesos crónicos ya conocidos."
+},
+
+{
+    question: "Un varón de 43 años consulta por fiebre prolongada, tos y pérdida de peso. En la tomografía se aprecian lesiones compatibles con tuberculosis diseminada. El hemograma muestra leucopenia con descenso del recuento absoluto de neutrófilos. ¿Cuál es la mejor explicación del hallazgo hematológico?",
+    options: [
+        "Neutropenia asociada a infecciones diseminadas como tuberculosis miliar",
+        "Neutrofilia fisiológica por infección crónica",
+        "Basofilia secundaria a micobacterias",
+        "Linfocitosis aislada sin afectación de neutrófilos"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona a las infecciones diseminadas, como la tuberculosis miliar, entre las causas de neutropenia/leucopenia. En este caso, el patrón descrito encaja con supresión o alteración del sistema hematopoyético en el contexto de una infección sistémica grave."
+},
+
+{
+    question: "Una adolescente de 16 años consulta por fiebre, odinofagia, malestar intenso y adenopatías cervicales dolorosas. El hemograma muestra leucocitosis con predominio linfocitario y presencia de linfocitos atípicos. La función hepática está discretamente alterada. ¿Cuál es el diagnóstico que mejor explica este patrón hematológico?",
+    options: [
+        "Tifoidea con neutropenia severa",
+        "Mononucleosis infecciosa con linfocitosis y linfocitos atípicos",
+        "Leucemia mieloide crónica con basofilia",
+        "Agranulocitosis inducida por fármacos"
+    ],
+    answer: 1,
+    explanation: "El PPT menciona la mononucleosis infecciosa tanto dentro de las causas de linfocitosis como de linfocitos atípicos. La combinación de fiebre, odinofagia, adenopatías y alteración hepática leve es muy compatible con este cuadro. No corresponde a tifoidea ni a un síndrome mieloproliferativo."
+},
+
+{
+    question: "Un hombre de 48 años con pérdida de peso, hipotensión, hiperpigmentación y debilidad presenta en sus análisis linfocitosis relativa, sin datos de infección aguda ni de proceso linfoproliferativo. ¿Cuál de las siguientes condiciones descritas en el PPT puede asociarse a este hallazgo?",
+    options: [
+        "Enfermedad de Addison",
+        "Síndrome de Cushing",
+        "Hemorragia digestiva aguda",
+        "Aplasia medular hipocelular"
+    ],
+    answer: 0,
+    explanation: "El PPT incluye a la enfermedad de Addison como causa de linfocitosis relativa. En este caso, los hallazgos clínicos clásicos de insuficiencia suprarrenal primaria orientan fuertemente a esa etiología. El síndrome de Cushing, por el contrario, se relaciona con linfocitopenia."
+},
+
+{
+    question: "Una mujer de 52 años con síndrome de Cushing endógeno consulta por debilidad muscular, aumento de peso central y múltiples infecciones cutáneas recientes. El hemograma muestra linfocitos por debajo del rango normal. ¿Cuál es la explicación más probable?",
+    options: [
+        "Linfocitopenia por efecto de glucocorticoides",
+        "Monocitosis por infección tropical",
+        "Basofilia por enfermedad autoinmune asociada",
+        "Eosinofilia por respuesta paradójica"
+    ],
+    answer: 0,
+    explanation: "El PPT señala a los corticoides y al síndrome de Cushing como causas de linfocitopenia. El exceso de glucocorticoides genera inmunosupresión y disminución de linfocitos, lo cual también ayuda a explicar la mayor susceptibilidad a infecciones."
+},
+
+{
+    question: "Un niño de 5 años con diarrea crónica, edema, baja ganancia ponderal y signos de malnutrición presenta linfocitopenia en controles seriados. No hay evidencia de leucemia ni de inmunodeficiencia congénita documentada. ¿Cuál es la explicación más probable según las causas descritas en el PPT?",
+    options: [
+        "Aumento aislado del consumo de neutrófilos",
+        "Disminución de la producción y/o aumento de pérdidas asociadas a desnutrición",
+        "Basofilia reactiva por enfermedad digestiva",
+        "Monocitosis secundaria a brucelosis"
+    ],
+    answer: 1,
+    explanation: "El PPT menciona la desnutrición y también las pérdidas a través del tubo digestivo como causas de linfocitopenia. Un niño con diarrea crónica y malnutrición puede presentar disminución linfocitaria por compromiso nutricional y pérdida proteica o linfática."
+},
+
+{
+    question: "Un varón de 64 años consulta por fatiga progresiva, disnea a pequeños esfuerzos, tendencia al sangrado gingival y episodios infecciosos recurrentes. El hemograma muestra anemia, leucopenia y trombocitopenia; el estudio medular revela hipocelularidad marcada. ¿Cuál es el diagnóstico sindrómico más probable?",
+    options: [
+        "Reacción leucemoide",
+        "Pancitopenia por aplasia medular",
+        "Linfocitosis infecciosa",
+        "Anemia aguda posthemorrágica"
+    ],
+    answer: 1,
+    explanation: "El PPT describe la pancitopenia por aplasia medular con hipocelularidad de médula ósea. La presencia simultánea de anemia, leucopenia y trombocitopenia, junto con una médula hipocelular, encaja directamente con esta entidad."
+},
+
+{
+    question: "Una trabajadora industrial de 41 años con exposición crónica a solventes consulta por fatiga, palidez, infecciones recurrentes y moretones espontáneos. El hemograma revela pancitopenia. La historia ocupacional sugiere contacto prolongado con un compuesto hematotóxico clásico. ¿Cuál de las siguientes sustancias mencionadas en el PPT se asocia de forma dosis dependiente con este cuadro?",
+    options: [
+        "Benceno",
+        "Warfarina",
+        "Tetracloroetano en intoxicación monocítica aislada",
+        "Ácido fólico"
+    ],
+    answer: 0,
+    explanation: "El PPT incluye al benceno entre los agentes físicos y químicos capaces de producir pancitopenia por toxicidad medular dosis dependiente. La clínica global y el antecedente ocupacional hacen esta opción la más consistente."
+},
+
+{
+    question: "Un paciente de 59 años con antecedente de cáncer avanzado presenta dolor óseo difuso, anemia progresiva, infecciones de repetición y trombocitopenia. El aspirado medular muestra desplazamiento del tejido hematopoyético por infiltración tumoral. ¿Cómo se clasifica mejor este mecanismo de pancitopenia?",
+    options: [
+        "Pancitopenia por invasión de médula ósea",
+        "Pancitopenia por hiperesplenismo aislado",
+        "Neutropenia autoinmune selectiva",
+        "Anemia crónica sin compromiso leucoplaquetario"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona la invasión de médula ósea por neoplasias hematológicas o metástasis no hematológicas como causa de pancitopenia. La infiltración tumoral compromete la producción de las tres series hematológicas."
+},
+
+{
+    question: "Una mujer de 38 años con colitis ulcerativa de varios años de evolución consulta por cansancio, debilidad y disminución de su tolerancia al esfuerzo. El hemograma muestra hemoglobina baja, VCM dentro de rango y sin datos de hemorragia aguda. ¿Cuál es la interpretación más adecuada de esta anemia en el contexto del PPT?",
+    options: [
+        "Anemia aguda por sangrado masivo oculto",
+        "Anemia crónica secundaria a enfermedad inflamatoria persistente",
+        "Anemia por hemólisis intravascular fulminante",
+        "Anemia por reacción leucemoide"
+    ],
+    answer: 1,
+    explanation: "El PPT menciona a la colitis ulcerativa y a la enfermedad de Crohn como causas de anemia crónica. En ausencia de un cuadro agudo hemorrágico, una anemia de patrón crónico en una enfermedad inflamatoria intestinal prolongada se interpreta mejor como secundaria a enfermedad crónica."
+},
+
+{
+    question: "Un varón de 70 años con antecedente de fibrilación auricular en tratamiento anticoagulante es traído por melena, hipotensión y taquicardia. Refiere consumo irregular de su medicación y al ingreso presenta descenso marcado de hemoglobina. ¿Cuál de las siguientes opciones explica mejor el tipo de anemia descrito en el PPT para este escenario?",
+    options: [
+        "Anemia crónica por enfermedad sistémica",
+        "Anemia aguda por hemorragia digestiva y posible sobreanticoagulación con warfarina",
+        "Pancitopenia por invasión medular",
+        "Linfocitopenia secundaria a estrés"
+    ],
+    answer: 1,
+    explanation: "El PPT menciona la hemorragia digestiva y el envenenamiento por warfarina entre las causas de anemia aguda. El cuadro clínico es claramente de pérdida sanguínea aguda, con inestabilidad hemodinámica y caída rápida de hemoglobina."
+},
+
+{
+    question: "Una puérpera de 26 años es admitida por hemorragia obstétrica severa. Durante las horas siguientes desarrolla sangrado persistente de múltiples sitios y alteración de pruebas de coagulación. El hemograma evidencia disminución progresiva de la hemoglobina. Según el PPT, ¿qué mecanismo integra mejor el cuadro hematológico?",
+    options: [
+        "Anemia aguda asociada a hemorragia con coagulopatía como CID",
+        "Anemia crónica por deficiencia de vitamina B12",
+        "Monocitosis aislada por infección puerperal",
+        "Basofilia secundaria a necrosis tisular"
+    ],
+    answer: 0,
+    explanation: "El PPT incluye a la CID y a los defectos de coagulación entre las causas de anemia aguda. En una hemorragia obstétrica con sangrado persistente y alteración de la coagulación, la interpretación más adecuada es anemia aguda por pérdida sanguínea asociada a coagulopatía."
+},
+
+{
+    question: "Un paciente de 47 años con tos ferina confirmada presenta en el hemograma leucocitosis a predominio linfocitario. No hay linfocitos atípicos marcados y el resto de series es normal. Considerando el PPT, ¿qué alteración del recuento diferencial es la más esperable en esta infección?",
+    options: [
+        "Linfocitosis",
+        "Basofilia",
+        "Monocitopenia",
+        "Neutropenia profunda obligatoria"
+    ],
+    answer: 0,
+    explanation: "La tos ferina aparece en el PPT entre las causas de linfocitosis y también entre causas de linfocitos atípicos en algunos contextos. En este caso, el hallazgo más característico y directamente esperable es linfocitosis."
+},
+
+{
+    question: "Un varón de 36 años consulta por fiebre ondulante, sudoración y artralgias tras exposición ocupacional a ganado. El hemograma muestra leucopenia con neutropenia moderada. Los cultivos y la evaluación epidemiológica orientan a brucelosis. ¿Cuál es la mejor interpretación del hemograma?",
+    options: [
+        "La brucelosis puede asociarse a neutropenia dentro de las causas infecciosas descritas",
+        "La brucelosis produce obligatoriamente basofilia severa",
+        "El hallazgo esperado sería siempre eosinofilia marcada",
+        "La neutropenia excluye etiología infecciosa"
+    ],
+    answer: 0,
+    explanation: "El PPT incluye a la brucelosis entre las causas infecciosas de neutropenia/leucopenia. Por ello, en un contexto clínico y epidemiológico compatible, un descenso del recuento neutrofílico no solo no excluye infección, sino que puede formar parte del patrón hematológico esperado."
+}
+
+],
+clinicalCVRSSet4: [
+
+{
+    question: "Un varón de 68 años acude por dolor torácico súbito, diaforesis y disnea. Se confirma infarto agudo de miocardio. A las 48 horas presenta leucocitosis de 17,500/mm³ con neutrófilos 88%, sin fiebre ni foco infeccioso. Los hemocultivos son negativos. ¿Cuál es la interpretación más adecuada del hallazgo hematológico?",
+    options: [
+        "Infección bacteriana nosocomial no detectada",
+        "Respuesta inflamatoria estéril secundaria a necrosis miocárdica",
+        "Reacción leucemoide por neoplasia subyacente",
+        "Respuesta alérgica al tratamiento farmacológico"
+    ],
+    answer: 1,
+    explanation: "El PPT señala que el infarto de miocardio genera neutrofilia por inflamación estéril secundaria a necrosis tisular. La ausencia de fiebre y cultivos negativos refuerza esta interpretación."
+},
+
+{
+    question: "Paciente de 45 años con quemaduras extensas (35% SCQ) presenta leucocitos 19,000/mm³ con predominio neutrofílico, sin signos clínicos de infección. ¿Cuál es el mecanismo predominante?",
+    options: [
+        "Respuesta inflamatoria sistémica por daño tisular",
+        "Infección bacteriana temprana",
+        "Reacción autoinmune",
+        "Producción tumoral de leucocitos"
+    ],
+    answer: 0,
+    explanation: "Las quemaduras son causa de neutrofilia por inflamación estéril según el PPT."
+},
+
+{
+    question: "Una mujer de 31 años con antecedentes de asma bronquial severa presenta disnea, sibilancias y eosinófilos 12% en hemograma. No hay evidencia de parasitosis. ¿Cuál es el mecanismo fisiopatológico predominante?",
+    options: [
+        "Respuesta inmunológica alérgica mediada por IgE",
+        "Infección bacteriana crónica",
+        "Supresión medular",
+        "Neoplasia hematológica"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona alergias y asma como causas clásicas de eosinofilia."
+},
+
+{
+    question: "Varón de 52 años con diagnóstico reciente de enfermedad de Hodgkin presenta eosinofilia persistente. ¿Cuál es la explicación más probable?",
+    options: [
+        "Respuesta alérgica secundaria",
+        "Producción de citoquinas por células tumorales",
+        "Infección parasitaria oculta",
+        "Supresión inmunológica"
+    ],
+    answer: 1,
+    explanation: "El PPT incluye enfermedad de Hodgkin como causa de eosinofilia, asociada a mediadores tumorales."
+},
+
+{
+    question: "Paciente con leucemia mieloide crónica presenta basofilia marcada en hemograma. ¿Cuál es la mejor explicación?",
+    options: [
+        "Proliferación clonal mieloide",
+        "Respuesta inflamatoria inespecífica",
+        "Infección viral crónica",
+        "Reacción alérgica sistémica"
+    ],
+    answer: 0,
+    explanation: "La LMC es causa típica de basofilia según el PPT."
+},
+
+{
+    question: "Mujer de 60 años con cirrosis hepática y artritis reumatoide presenta basofilia leve persistente. ¿Cuál es la interpretación más adecuada?",
+    options: [
+        "Hallazgo compatible con enfermedades crónicas",
+        "Indicador de infección bacteriana aguda",
+        "Signo de anemia hemolítica",
+        "Reacción leucemoide"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona cirrosis y AR como causas de basofilia."
+},
+
+{
+    question: "Paciente con tuberculosis pulmonar activa presenta monocitos 13% en hemograma. ¿Cuál es el mecanismo?",
+    options: [
+        "Respuesta inmune frente a infección crónica",
+        "Supresión medular",
+        "Reacción alérgica",
+        "Infección viral concomitante"
+    ],
+    answer: 0,
+    explanation: "El PPT incluye tuberculosis como causa de monocitosis."
+},
+
+{
+    question: "Paciente con endocarditis bacteriana presenta monocitosis persistente. ¿Qué indica este hallazgo?",
+    options: [
+        "Respuesta inflamatoria crónica",
+        "Infección viral",
+        "Supresión medular",
+        "Reacción alérgica"
+    ],
+    answer: 0,
+    explanation: "La endocarditis bacteriana es causa de monocitosis según el PPT."
+},
+
+{
+    question: "Paciente con VIH presenta leucopenia con neutropenia progresiva. ¿Cuál es el mecanismo principal?",
+    options: [
+        "Aumento de destrucción periférica",
+        "Disminución de producción medular",
+        "Redistribución vascular",
+        "Activación inmune excesiva"
+    ],
+    answer: 1,
+    explanation: "El PPT menciona VIH como causa de neutropenia por alteración medular."
+},
+
+{
+    question: "Paciente con fiebre tifoidea presenta leucopenia y neutropenia. ¿Cuál es la causa?",
+    options: [
+        "Inhibición de la producción medular",
+        "Reacción alérgica",
+        "Producción tumoral",
+        "Estimulación inmune"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona fiebre tifoidea como causa de neutropenia."
+},
+
+{
+    question: "Paciente tratado con antibióticos desarrolla neutropenia. ¿Cuál es el mecanismo más probable?",
+    options: [
+        "Supresión medular inducida por fármacos",
+        "Infección viral",
+        "Respuesta alérgica",
+        "Déficit nutricional"
+    ],
+    answer: 0,
+    explanation: "El PPT incluye fármacos como causa de neutropenia."
+},
+
+{
+    question: "Paciente con malaria presenta leucopenia. ¿Cuál es la explicación?",
+    options: [
+        "Supresión medular por infección parasitaria",
+        "Reacción alérgica",
+        "Producción tumoral",
+        "Inflamación crónica"
+    ],
+    answer: 0,
+    explanation: "El PPT incluye malaria como causa de leucopenia."
+},
+
+{
+    question: "Paciente con mononucleosis presenta linfocitosis y linfocitos atípicos. ¿Cuál es el mecanismo?",
+    options: [
+        "Activación linfocitaria por infección viral",
+        "Infección bacteriana",
+        "Supresión medular",
+        "Déficit inmunológico"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona mononucleosis como causa de linfocitosis y linfocitos atípicos."
+},
+
+{
+    question: "Paciente con enfermedad de Addison presenta linfocitosis relativa. ¿Cuál es la causa?",
+    options: [
+        "Disminución relativa de neutrófilos",
+        "Infección viral",
+        "Neoplasia",
+        "Alergia"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona Addison como causa de linfocitosis relativa."
+},
+
+{
+    question: "Paciente con síndrome de Cushing presenta linfocitopenia. ¿Cuál es el mecanismo?",
+    options: [
+        "Efecto inmunosupresor de glucocorticoides",
+        "Infección viral",
+        "Producción tumoral",
+        "Activación inmune"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona corticoides como causa de linfocitopenia."
+},
+
+{
+    question: "Paciente con desnutrición severa presenta linfocitopenia. ¿Cuál es la causa?",
+    options: [
+        "Disminución de producción y pérdida linfocitaria",
+        "Reacción alérgica",
+        "Infección bacteriana",
+        "Producción tumoral"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona desnutrición como causa de linfocitopenia."
+},
+
+{
+    question: "Paciente con anemia, leucopenia y trombocitopenia presenta médula hipocelular. ¿Cuál es el diagnóstico?",
+    options: [
+        "Aplasia medular",
+        "Leucemia aguda",
+        "Infección viral",
+        "Reacción leucemoide"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona aplasia medular como causa de pancitopenia."
+},
+
+{
+    question: "Paciente con exposición a radiación presenta pancitopenia. ¿Cuál es el mecanismo?",
+    options: [
+        "Destrucción de células madre hematopoyéticas",
+        "Infección viral",
+        "Reacción alérgica",
+        "Producción tumoral"
+    ],
+    answer: 0,
+    explanation: "La radiación afecta la médula ósea según el PPT."
+},
+
+{
+    question: "Paciente con hemorragia digestiva masiva presenta Hb 6 g/dL. ¿Qué tipo de anemia presenta?",
+    options: [
+        "Anemia aguda",
+        "Anemia crónica",
+        "Anemia hemolítica",
+        "Anemia aplásica"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona hemorragia digestiva como causa de anemia aguda."
+},
+
+{
+    question: "Paciente con colitis ulcerosa presenta anemia normocítica persistente sin sangrado activo. ¿Cuál es la causa?",
+    options: [
+        "Anemia de enfermedad crónica",
+        "Hemorragia aguda",
+        "Hemólisis",
+        "Deficiencia nutricional severa"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona colitis ulcerosa como causa de anemia crónica."
+}
+
+],
+clinicalCVRSSet5: [
+
+{
+    question: "Un varón de 57 años consulta por fiebre de 39.2 °C, escalofríos, tos productiva con esputo purulento y dolor pleurítico de inicio agudo. En la radiografía de tórax se observa consolidación lobar derecha. El hemograma muestra leucocitos 18,600/mm³ con neutrófilos 84%, sin eosinofilia ni linfocitosis. El paciente pregunta por qué su fórmula diferencial está alterada si todavía no ha empezado antibióticos. ¿Cuál es la explicación más probable del hallazgo hematológico dominante?",
+    options: [
+        "Respuesta medular típica de una infección bacteriana aguda con neutrofilia",
+        "Linfocitosis secundaria a infección viral respiratoria concomitante",
+        "Basofilia reactiva por inflamación pulmonar localizada",
+        "Monocitosis propia de procesos infecciosos exclusivamente crónicos"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona a las infecciones bacterianas agudas como una de las causas principales de neutrofilia. En este caso, la consolidación lobar, el esputo purulento y la fiebre alta orientan a neumonía bacteriana, y el predominio de neutrófilos es el patrón esperado. No hay datos que sugieran infección viral, basofilia o un proceso crónico que explique monocitosis como hallazgo principal."
+},
+
+{
+    question: "Una mujer de 49 años consulta por prurito generalizado, rinorrea estacional, crisis repetidas de broncoespasmo y lesiones cutáneas eccematosas que empeoran con la exposición a polvo doméstico. En el hemograma presenta leucocitos normales con eosinófilos en 9%. No ha viajado recientemente, no tiene diarrea y los exámenes parasitológicos seriados son negativos. ¿Cuál es la causa más probable de la alteración del recuento diferencial?",
+    options: [
+        "Proceso alérgico con eosinofilia secundaria a hipersensibilidad",
+        "Infección bacteriana subaguda con respuesta eosinofílica",
+        "Leucemia mieloide crónica en fase inicial",
+        "Aplasia medular parcial con conservación de eosinófilos"
+    ],
+    answer: 0,
+    explanation: "El PPT señala que las alergias, el asma y la dermopatía alérgica son causas frecuentes de eosinofilia. El caso reúne exactamente ese patrón clínico: broncoespasmo, rinitis, eccema y ausencia de evidencia de parasitosis. No hay datos orientadores a una neoplasia mieloproliferativa ni a falla medular."
+},
+
+{
+    question: "Un agricultor de 35 años procedente de una zona endémica consulta por dolor abdominal crónico, pérdida de peso, náuseas intermitentes y sensación de distensión. Refiere consumo de agua no hervida y exposición frecuente a suelos contaminados. El hemograma revela eosinofilia persistente del 12%, con resto de líneas hematológicas conservadas. ¿Cuál es la interpretación más adecuada?",
+    options: [
+        "Eosinofilia por parasitosis",
+        "Basofilia secundaria a infección tropical",
+        "Monocitosis por inflamación granulomatosa",
+        "Linfocitosis relativa por insuficiencia suprarrenal"
+    ],
+    answer: 0,
+    explanation: "Según el PPT, las parasitosis constituyen una causa clásica de eosinofilia. El contexto epidemiológico, los síntomas digestivos y la persistencia del aumento de eosinófilos hacen esta opción la más coherente. No hay elementos clínicos para sospechar basofilia, monocitosis o Addison."
+},
+
+{
+    question: "Un paciente de 63 años consulta por pérdida de peso, plenitud abdominal, prurito y fatiga. El hemograma muestra leucocitosis marcada con predominio de células de la serie mieloide y aumento de basófilos. El médico considera una neoplasia mieloproliferativa. ¿Qué hallazgo del recuento diferencial apoya con mayor fuerza esta sospecha de acuerdo con el PPT?",
+    options: [
+        "Basofilia asociada a leucemia mieloide crónica",
+        "Eosinofilia reactiva por fenómeno paraneoplásico universal",
+        "Linfocitopenia por inmunosupresión tumoral",
+        "Monocitosis propia de todas las leucemias"
+    ],
+    answer: 0,
+    explanation: "El PPT identifica a la leucemia mieloide crónica como una causa destacada de basofilia. En un contexto de leucocitosis con proliferación mieloide, el aumento de basófilos es especialmente orientador. Las otras alteraciones pueden aparecer en otros cuadros, pero no tienen el mismo peso diagnóstico aquí."
+},
+
+{
+    question: "Una mujer de 58 años con cirrosis hepática por larga data y artritis reumatoide acude a control sin síntomas infecciosos agudos. El hemograma muestra discreta elevación persistente de basófilos, sin leucocitosis marcada ni blastos. ¿Cuál es la mejor interpretación del hallazgo?",
+    options: [
+        "Puede explicarse por enfermedades crónicas como cirrosis y artritis reumatoide",
+        "Obliga a diagnosticar leucemia aguda de inmediato",
+        "Corresponde a un patrón típico de hemorragia digestiva reciente",
+        "Sugiere aplasia medular selectiva de serie roja"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona tanto la cirrosis como la artritis reumatoide entre las causas de basofilia. En ausencia de datos de transformación neoplásica, una basofilia leve persistente puede interpretarse en relación con estos procesos crónicos."
+},
+
+{
+    question: "Un varón de 44 años consulta por fiebre prolongada, pérdida de peso, tos crónica y sudoración nocturna. La baciloscopia resulta positiva para tuberculosis pulmonar. En el hemograma destaca monocitosis del 11%, con neutrófilos dentro de límites y sin eosinofilia. ¿Cuál es la explicación más adecuada del hallazgo hematológico?",
+    options: [
+        "Respuesta inmune asociada a una infección crónica como tuberculosis",
+        "Respuesta característica de infección bacteriana aguda piógena",
+        "Fenómeno alérgico sistémico por sensibilización tuberculínica",
+        "Supresión selectiva de linfocitos con monocitosis compensadora obligatoria"
+    ],
+    answer: 0,
+    explanation: "El PPT incluye a la tuberculosis entre las causas de monocitosis. Este aumento se entiende mejor en el contexto de una respuesta inmune sostenida frente a un proceso infeccioso crónico. No es el patrón típico de una infección bacteriana aguda común, ni de alergia."
+},
+
+{
+    question: "Una mujer de 51 años con antecedente de reemplazo valvular consulta por fiebre intermitente, astenia, soplo nuevo y pérdida de peso. Se confirma endocarditis bacteriana subaguda. El hemograma evidencia monocitosis persistente superior al 10%, con anemia leve asociada. ¿Qué alteración del leucograma descrita en el PPT se relaciona directamente con este proceso?",
+    options: [
+        "Monocitosis propia de infecciones bacterianas persistentes como endocarditis",
+        "Basofilia secundaria a destrucción valvular",
+        "Linfocitosis típica de infección bacteriana valvular",
+        "Neutropenia por consumo periférico exclusivo"
+    ],
+    answer: 0,
+    explanation: "El PPT señala de manera explícita a la endocarditis bacteriana como causa de monocitosis. La persistencia del proceso infeccioso y la respuesta inflamatoria crónica justifican el aumento monocitario. Las otras opciones no representan el patrón más característico."
+},
+
+{
+    question: "Un varón de 39 años con infección por VIH sin tratamiento regular consulta por fiebre, diarrea crónica y pérdida ponderal. El hemograma muestra leucocitos 2,900/mm³ con neutrófilos absolutos en 1,100/mm³. No recibe quimioterapia ni tiene antecedentes de exposición a radiación. ¿Cuál es la causa más probable del trastorno hematológico?",
+    options: [
+        "Neutropenia/leucopenia asociada a infección por VIH",
+        "Neutrofilia por respuesta inflamatoria crónica",
+        "Basofilia por inmunodeficiencia avanzada",
+        "Eosinofilia obligatoria por deterioro inmunológico"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona al VIH entre las causas de leucopenia y neutropenia. En este caso, el recuento total bajo y la disminución del recuento absoluto de neutrófilos son compatibles con ese patrón. No hay datos que indiquen neutrofilia, basofilia o eosinofilia como hallazgo principal."
+},
+
+{
+    question: "Una mujer de 28 años consulta por fiebre alta, malestar general, dolor abdominal y diarrea tras un viaje reciente. Los estudios luego confirman fiebre tifoidea. El hemograma muestra leucopenia con neutropenia moderada. ¿Cuál es la mejor interpretación según las causas mencionadas en el PPT?",
+    options: [
+        "La fiebre tifoidea puede producir neutropenia/leucopenia",
+        "La fiebre tifoidea debe producir siempre neutrofilia intensa",
+        "La fiebre tifoidea se asocia sobre todo a basofilia severa",
+        "La fiebre tifoidea solo altera la serie roja y no la blanca"
+    ],
+    answer: 0,
+    explanation: "El PPT incluye de manera específica a la fiebre tifoidea dentro de las causas de neutropenia/leucopenia. Por eso, en este caso, el descenso del recuento leucocitario no contradice el diagnóstico sino que lo acompaña."
+},
+
+{
+    question: "Un hombre de 62 años tratado recientemente con sulfonamidas por una infección urinaria consulta por odinofagia intensa, úlceras orales y fiebre. El hemograma revela leucopenia con neutrófilos absolutos de 800/mm³. No hay blastos ni antecedentes de enfermedad hematológica. ¿Cuál es la etiología más probable de la alteración encontrada?",
+    options: [
+        "Neutropenia secundaria a fármacos",
+        "Monocitosis por infección bacteriana persistente",
+        "Basofilia por reacción al medicamento",
+        "Linfocitosis relativa por estrés agudo"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona a las sulfonamidas y otros fármacos como causa de neutropenia. El cuadro clínico de fiebre, úlceras y neutropenia marcada tras la exposición farmacológica encaja muy bien con este mecanismo."
+},
+
+{
+    question: "Un varón de 33 años procedente de zona selvática consulta por fiebre intermitente, escalofríos, diaforesis y anemia leve. El estudio posterior confirma malaria. En el hemograma se encuentra leucopenia, sin datos de aplasia medular ni uso de fármacos mielotóxicos. ¿Cuál es la explicación más probable para la alteración de la serie blanca?",
+    options: [
+        "Leucopenia asociada a malaria",
+        "Basofilia característica de plasmodiosis",
+        "Neutrofilia obligatoria por toda parasitosis",
+        "Linfocitosis exclusiva sin leucopenia"
+    ],
+    answer: 0,
+    explanation: "El PPT incluye al paludismo o malaria entre las causas de leucopenia/neutropenia. Por ello, en este contexto epidemiológico y clínico, el descenso de leucocitos resulta coherente con el proceso infeccioso."
+},
+
+{
+    question: "Una adolescente de 17 años consulta por fiebre, odinofagia intensa, adenopatías cervicales y astenia marcada. El hemograma muestra leucocitosis con predominio de linfocitos y presencia de linfocitos atípicos; además, las transaminasas están discretamente elevadas. ¿Qué entidad del PPT explica mejor el cuadro?",
+    options: [
+        "Mononucleosis infecciosa con linfocitosis y linfocitos atípicos",
+        "Fiebre tifoidea con neutropenia y monocitosis",
+        "Leucemia mieloide crónica con basofilia reactiva",
+        "Aplasia medular con linfocitosis compensadora"
+    ],
+    answer: 0,
+    explanation: "El PPT incluye a la mononucleosis infecciosa entre las causas de linfocitosis y también de linfocitos atípicos. La combinación clínica de adenopatías, odinofagia, fiebre y elevación leve de enzimas hepáticas es muy sugestiva de este cuadro."
+},
+
+{
+    question: "Un hombre de 46 años consulta por debilidad progresiva, hipotensión, pérdida de peso e hiperpigmentación cutánea. El hemograma no muestra leucocitosis total, pero sí un predominio relativo de linfocitos. No hay datos de infección viral aguda ni leucemia. ¿Cuál es la causa más probable de esa alteración relativa del diferencial?",
+    options: [
+        "Enfermedad de Addison",
+        "Síndrome de Cushing",
+        "Aplasia medular hipocelular",
+        "Hemorragia aguda no evidente"
+    ],
+    answer: 0,
+    explanation: "El PPT señala a la enfermedad de Addison como causa de linfocitosis relativa. El contexto clínico clásico de insuficiencia suprarrenal primaria apoya fuertemente esta opción."
+},
+
+{
+    question: "Una paciente de 54 años con síndrome de Cushing presenta infecciones cutáneas recurrentes, debilidad muscular proximal y equimosis fáciles. El hemograma muestra descenso de linfocitos por debajo del rango normal. ¿Cuál es la interpretación más adecuada?",
+    options: [
+        "Linfocitopenia por efecto de glucocorticoides",
+        "Monocitosis por infección crónica asociada",
+        "Basofilia secundaria a endocrinopatía",
+        "Eosinofilia paradójica por hipercortisolismo"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona a los corticoides y al síndrome de Cushing como causas de linfocitopenia. El exceso de glucocorticoides se asocia a inmunosupresión y disminución del recuento linfocitario."
+},
+
+{
+    question: "Un niño de 6 años con diarrea crónica, edema, pérdida de peso y signos de desnutrición acude por infecciones respiratorias repetidas. El hemograma muestra linfocitopenia persistente. No se han documentado defectos congénitos de inmunoglobulinas. ¿Cuál es la mejor explicación según el PPT?",
+    options: [
+        "Linfocitopenia asociada a desnutrición y pérdidas digestivas",
+        "Neutrofilia reactiva por mala absorción",
+        "Basofilia secundaria a enteropatía crónica",
+        "Monocitosis obligatoria en todo síndrome diarreico"
+    ],
+    answer: 0,
+    explanation: "El PPT refiere la desnutrición y las pérdidas a través del tubo digestivo como causas de linfocitopenia. En un niño con diarrea crónica y deterioro nutricional, esta explicación resulta la más consistente."
+},
+
+{
+    question: "Un varón de 66 años consulta por palidez progresiva, infecciones respiratorias frecuentes y aparición de petequias espontáneas. El hemograma revela anemia, leucopenia y trombocitopenia. El aspirado de médula ósea muestra hipocelularidad marcada sin infiltración tumoral. ¿Qué síndrome hematológico explica mejor el caso?",
+    options: [
+        "Pancitopenia por aplasia medular",
+        "Reacción leucemoide con consumo plaquetario",
+        "Linfocitosis infecciosa con anemia secundaria",
+        "Anemia aguda por hemorragia oculta"
+    ],
+    answer: 0,
+    explanation: "El PPT describe la aplasia medular hipocelular como una causa central de pancitopenia. La afectación simultánea de las tres series hematológicas y la médula hipocelular apuntan directamente a ese mecanismo."
+},
+
+{
+    question: "Una trabajadora de industria química de 43 años consulta por astenia intensa, infecciones repetidas y sangrado gingival. En los últimos años ha estado expuesta de forma crónica a solventes. El hemograma muestra pancitopenia. ¿Cuál de los agentes mencionados en el PPT se asocia de forma dosis dependiente a este patrón?",
+    options: [
+        "Benceno",
+        "Warfarina",
+        "Tetracloroetano como causa principal de pancitopenia clásica",
+        "Vitamina B12"
+    ],
+    answer: 0,
+    explanation: "El PPT identifica al benceno como un agente físico-químico que puede producir pancitopenia por toxicidad medular dosis dependiente. La exposición laboral crónica y la afectación de las tres series hematológicas hacen esta opción la más adecuada."
+},
+
+{
+    question: "Un paciente de 61 años con cáncer metastásico consulta por fatiga severa, infecciones de repetición y sangrado mucoso. El estudio medular demuestra reemplazo del tejido hematopoyético por células tumorales. El hemograma revela disminución de eritrocitos, leucocitos y plaquetas. ¿Cómo debe interpretarse este cuadro?",
+    options: [
+        "Pancitopenia por invasión de médula ósea",
+        "Anemia aguda con leucopenia reactiva",
+        "Linfocitopenia aislada con trombocitopatía",
+        "Reacción leucemoide con trombocitopenia funcional"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona la invasión de médula ósea por neoplasias hematológicas o metástasis no hematológicas como causa de pancitopenia. La infiltración tumoral impide la producción adecuada de las tres series."
+},
+
+{
+    question: "Una mujer de 42 años con enfermedad de Crohn de varios años de evolución consulta por cansancio crónico, menor tolerancia al esfuerzo y palidez. No refiere un episodio reciente de sangrado masivo y su hemograma muestra hemoglobina baja con VCM dentro de rango. ¿Cuál es la explicación más probable del tipo de anemia descrita en el PPT?",
+    options: [
+        "Anemia crónica secundaria a enfermedad inflamatoria persistente",
+        "Anemia aguda por hemorragia digestiva masiva oculta",
+        "Anemia por reacción leucemoide",
+        "Anemia exclusivamente por consumo intravascular"
+    ],
+    answer: 0,
+    explanation: "El PPT incluye a la enfermedad de Crohn y la colitis ulcerosa entre las causas de anemia crónica. En ausencia de un sangrado agudo evidente, una anemia persistente en el contexto de inflamación de larga data se interpreta mejor como anemia de enfermedad crónica."
+},
+
+{
+    question: "Un hombre de 73 años en tratamiento anticoagulante con warfarina es llevado a emergencia por melena, hipotensión, taquicardia y confusión. El laboratorio muestra descenso importante de hemoglobina respecto a controles previos. ¿Qué tipo de alteración hematológica encaja mejor con las causas descritas en el PPT?",
+    options: [
+        "Anemia aguda por hemorragia digestiva asociada a anticoagulación",
+        "Anemia crónica secundaria a enfermedad sistémica",
+        "Pancitopenia por aplasia medular",
+        "Linfocitopenia aguda por estrés"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona la hemorragia digestiva y el envenenamiento por warfarina entre las causas de anemia aguda. El cuadro clínico de inestabilidad hemodinámica con caída rápida de hemoglobina es claramente compatible con pérdida sanguínea aguda."
+}
+
+],
+clinicalCVRSSet7: [
+
+{
+    question: "Un varón de 62 años con antecedentes de diabetes mal controlada consulta por fiebre alta, dolor torácico, tos purulenta y deterioro del estado general. La radiografía muestra neumonía multilobar. El hemograma revela leucocitos 21,000/mm³ con neutrófilos 89%, desviación a la izquierda y ausencia de eosinofilia o linfocitosis. ¿Cuál es la interpretación más adecuada del patrón leucocitario en este contexto clínico?",
+    options: [
+        "Neutrofilia secundaria a infección bacteriana aguda severa",
+        "Linfocitosis típica de infección respiratoria",
+        "Basofilia como respuesta inflamatoria principal",
+        "Monocitosis característica de infección pulmonar aguda"
+    ],
+    answer: 0,
+    explanation: "El PPT indica que las infecciones bacterianas agudas son causa principal de neutrofilia. La neumonía severa con compromiso sistémico genera una respuesta medular intensa con predominio neutrofílico. Las otras líneas celulares no representan la respuesta dominante en este escenario."
+},
+
+{
+    question: "Una mujer de 42 años con antecedentes de asma severa presenta disnea, sibilancias, prurito generalizado y empeoramiento nocturno de síntomas. El hemograma muestra eosinofilia persistente del 11%, con leucocitos totales normales y ausencia de datos infecciosos. ¿Cuál es el mecanismo fisiopatológico más probable?",
+    options: [
+        "Respuesta inmunológica alérgica sostenida",
+        "Infección bacteriana subclínica",
+        "Supresión medular selectiva",
+        "Neoplasia hematológica incipiente"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona alergias y asma como causas frecuentes de eosinofilia. El contexto clínico y la persistencia del hallazgo apoyan un mecanismo alérgico mediado por respuesta inmunológica."
+},
+
+{
+    question: "Un agricultor de 39 años presenta dolor abdominal crónico, diarrea intermitente, pérdida de peso y malestar general. Vive en condiciones sanitarias precarias. El hemograma evidencia eosinofilia del 13% persistente. No hay signos de alergia sistémica. ¿Cuál es la causa más probable del hallazgo?",
+    options: [
+        "Parasitosis intestinal",
+        "Leucemia mieloide crónica",
+        "Tuberculosis extrapulmonar",
+        "Insuficiencia suprarrenal primaria"
+    ],
+    answer: 0,
+    explanation: "El PPT incluye a las parasitosis como causa principal de eosinofilia. El contexto epidemiológico y los síntomas digestivos apoyan claramente esta etiología."
+},
+
+{
+    question: "Paciente de 66 años con pérdida de peso, prurito y sudoración nocturna presenta leucocitosis con basofilia marcada. No hay evidencia de infección ni alergia. ¿Cuál es la interpretación más adecuada?",
+    options: [
+        "Basofilia asociada a leucemia mieloide crónica",
+        "Respuesta inflamatoria inespecífica",
+        "Eosinofilia reactiva",
+        "Linfocitosis viral"
+    ],
+    answer: 0,
+    explanation: "El PPT señala a la leucemia mieloide crónica como causa típica de basofilia. El contexto clínico sugiere enfermedad mieloproliferativa."
+},
+
+{
+    question: "Mujer de 58 años con cirrosis y artritis reumatoide presenta basofilia leve persistente en controles seriados, sin leucocitosis significativa ni blastos. ¿Cuál es la mejor interpretación?",
+    options: [
+        "Basofilia asociada a enfermedades crónicas",
+        "Leucemia aguda en fase inicial",
+        "Reacción leucemoide",
+        "Hemorragia aguda reciente"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona cirrosis y AR como causas de basofilia. En ausencia de otros hallazgos, se interpreta como fenómeno asociado a enfermedad crónica."
+},
+
+{
+    question: "Paciente de 50 años con tuberculosis pulmonar presenta monocitosis del 14%, anemia leve y fiebre prolongada. ¿Cuál es el mecanismo principal?",
+    options: [
+        "Respuesta inmune frente a infección crónica",
+        "Infección bacteriana aguda",
+        "Supresión medular",
+        "Reacción alérgica"
+    ],
+    answer: 0,
+    explanation: "El PPT incluye tuberculosis como causa de monocitosis, asociada a inflamación crónica."
+},
+
+{
+    question: "Varón con endocarditis bacteriana subaguda presenta monocitosis persistente y anemia leve. ¿Qué indica este hallazgo?",
+    options: [
+        "Inflamación crónica persistente",
+        "Infección viral",
+        "Reacción alérgica",
+        "Supresión inmunológica"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona endocarditis bacteriana como causa de monocitosis."
+},
+
+{
+    question: "Paciente con VIH presenta leucocitos 2,800/mm³ y neutrófilos absolutos de 900/mm³. No hay uso de quimioterapia. ¿Cuál es la causa más probable?",
+    options: [
+        "Disminución de producción medular por infección viral",
+        "Aumento de destrucción periférica aislada",
+        "Redistribución vascular",
+        "Activación inmune excesiva"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona VIH como causa de neutropenia por alteración medular."
+},
+
+{
+    question: "Paciente con fiebre tifoidea presenta leucopenia con neutropenia. ¿Cuál es la explicación?",
+    options: [
+        "Supresión medular por infección bacteriana específica",
+        "Reacción alérgica",
+        "Producción tumoral",
+        "Respuesta viral concomitante"
+    ],
+    answer: 0,
+    explanation: "El PPT incluye fiebre tifoidea como causa de neutropenia."
+},
+
+{
+    question: "Paciente tratado con antibióticos desarrolla neutropenia severa. Presenta fiebre y úlceras orales. ¿Cuál es la causa más probable?",
+    options: [
+        "Neutropenia inducida por fármacos",
+        "Infección viral",
+        "Basofilia reactiva",
+        "Monocitosis compensadora"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona fármacos como causa de neutropenia."
+},
+
+{
+    question: "Paciente con malaria confirmada presenta leucopenia sin otras causas aparentes. ¿Cuál es el mecanismo?",
+    options: [
+        "Supresión hematopoyética por infección parasitaria",
+        "Reacción alérgica",
+        "Producción tumoral",
+        "Inflamación estéril"
+    ],
+    answer: 0,
+    explanation: "El PPT incluye malaria como causa de leucopenia."
+},
+
+{
+    question: "Paciente con mononucleosis presenta linfocitosis y linfocitos atípicos. ¿Cuál es el mecanismo principal?",
+    options: [
+        "Activación linfocitaria por infección viral",
+        "Infección bacteriana",
+        "Supresión medular",
+        "Déficit nutricional"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona mononucleosis como causa de linfocitosis y linfocitos atípicos."
+},
+
+{
+    question: "Paciente con enfermedad de Addison presenta linfocitosis relativa sin leucocitosis. ¿Cuál es la causa?",
+    options: [
+        "Disminución relativa de neutrófilos",
+        "Infección viral",
+        "Neoplasia",
+        "Alergia"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona Addison como causa de linfocitosis relativa."
+},
+
+{
+    question: "Paciente con síndrome de Cushing presenta linfocitopenia. ¿Cuál es el mecanismo?",
+    options: [
+        "Efecto inmunosupresor de glucocorticoides",
+        "Infección viral",
+        "Producción tumoral",
+        "Activación inmune"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona corticoides como causa de linfocitopenia."
+},
+
+{
+    question: "Niño con desnutrición severa presenta linfocitopenia persistente y múltiples infecciones. ¿Cuál es la causa?",
+    options: [
+        "Disminución de producción linfocitaria",
+        "Reacción alérgica",
+        "Producción tumoral",
+        "Infección bacteriana"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona desnutrición como causa de linfocitopenia."
+},
+
+{
+    question: "Paciente con anemia, leucopenia y trombocitopenia presenta médula hipocelular. ¿Cuál es el diagnóstico?",
+    options: [
+        "Aplasia medular",
+        "Leucemia aguda",
+        "Infección viral",
+        "Reacción leucemoide"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona aplasia medular como causa de pancitopenia."
+},
+
+{
+    question: "Paciente expuesto a radiación ionizante presenta pancitopenia. ¿Cuál es el mecanismo?",
+    options: [
+        "Destrucción de células madre hematopoyéticas",
+        "Infección viral",
+        "Producción tumoral",
+        "Reacción alérgica"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona radiación como causa de pancitopenia."
+},
+
+{
+    question: "Paciente con hemorragia digestiva presenta descenso brusco de hemoglobina. ¿Qué tipo de anemia presenta?",
+    options: [
+        "Anemia aguda",
+        "Anemia crónica",
+        "Hemólisis",
+        "Aplasia"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona hemorragia digestiva como causa de anemia aguda."
+},
+
+{
+    question: "Paciente con enfermedad de Crohn presenta anemia persistente normocítica. ¿Cuál es la causa?",
+    options: [
+        "Anemia de enfermedad crónica",
+        "Hemorragia aguda",
+        "Hemólisis",
+        "Déficit nutricional agudo"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona Crohn como causa de anemia crónica."
+},
+
+{
+    question: "Paciente anticoagulado con warfarina presenta hemorragia digestiva y caída brusca de hemoglobina. ¿Cuál es la causa?",
+    options: [
+        "Anemia aguda por sangrado",
+        "Anemia crónica",
+        "Pancitopenia",
+        "Linfocitopenia"
+    ],
+    answer: 0,
+    explanation: "El PPT menciona hemorragia y warfarina como causa de anemia aguda."
+}
+
+],
+clinicalCVRSSet8: [
+
+{
+    question: "Un varón de 64 años acude a emergencia por fiebre alta, tos productiva con esputo purulento, dolor torácico pleurítico y disnea progresiva de tres días de evolución. En la exploración presenta taquipnea, crepitantes en base pulmonar derecha y saturación de oxígeno disminuida. La radiografía de tórax muestra consolidación lobar. El hemograma evidencia leucocitos 19,800/mm³ con neutrófilos 87%, linfocitos disminuidos en porcentaje relativo y ausencia de eosinofilia. ¿Cuál es la interpretación más adecuada del patrón leucocitario observado?",
+    options: [
+        "Linfocitosis secundaria a infección viral respiratoria severa",
+        "Neutrofilia reactiva compatible con infección bacteriana aguda",
+        "Basofilia asociada a inflamación pulmonar localizada",
+        "Monocitosis propia de infecciones crónicas granulomatosas"
+    ],
+    answer: 1,
+    explanation: "El patrón dominante es una neutrofilia marcada en un contexto clínico claramente compatible con neumonía bacteriana aguda. Los neutrófilos constituyen la primera línea de defensa frente a bacterias piógenas, por lo que su aumento refleja liberación medular y movilización periférica en respuesta a mediadores inflamatorios. La disminución relativa de linfocitos no significa que el problema principal sea linfático, sino que el predominio neutrofílico desplaza proporcionalmente a otras subpoblaciones. No se trata de un cuadro viral, porque en las infecciones virales suelen predominar linfocitosis o linfocitos atípicos, dependiendo del agente."
+},
+
+{
+    question: "Una mujer de 36 años con antecedente de asma bronquial de difícil control consulta por disnea sibilante, tos seca nocturna, prurito generalizado y empeoramiento de lesiones eccematosas en pliegues. Niega fiebre, diarrea o viajes recientes. En el hemograma presenta eosinófilos 11% con leucocitos totales en rango normal. ¿Cuál es el mecanismo fisiopatológico más probable que explica esta alteración?",
+    options: [
+        "Respuesta de hipersensibilidad con activación eosinofílica",
+        "Supresión medular selectiva de neutrófilos",
+        "Infección bacteriana crónica subclínica",
+        "Transformación mieloproliferativa incipiente"
+    ],
+    answer: 0,
+    explanation: "La eosinofilia en este contexto se explica mejor por activación inmunológica asociada a fenómenos alérgicos. Los eosinófilos participan en respuestas mediadas por citocinas como IL-5 y suelen elevarse en asma, dermatitis atópica y otras enfermedades de hipersensibilidad. El caso ofrece varios datos que apuntan en esa dirección: broncoespasmo, prurito y eccema, sin elementos que sugieran infección bacteriana o neoplasia hematológica. La importancia clínica no está solo en reconocer el número elevado de eosinófilos, sino en entender que representan un marcador de inflamación alérgica sistémica."
+},
+
+{
+    question: "Un varón de 28 años procedente de una comunidad rural consulta por dolor abdominal intermitente, distensión, pérdida de peso, diarrea episódica y sensación de debilidad de varias semanas. Refiere consumo habitual de agua sin hervir y saneamiento deficiente. El hemograma muestra eosinofilia persistente del 13%, con hemoglobina ligeramente disminuida y sin neutrofilia significativa. ¿Cuál es la causa más probable de la alteración leucocitaria?",
+    options: [
+        "Parasitosis intestinal con respuesta eosinofílica",
+        "Infección bacteriana entérica aguda",
+        "Insuficiencia suprarrenal primaria",
+        "Leucemia mieloide crónica"
+    ],
+    answer: 0,
+    explanation: "La combinación de síntomas digestivos crónicos, contexto epidemiológico sugestivo y eosinofilia persistente orienta fuertemente a parasitosis. Los eosinófilos son particularmente relevantes en infecciones helmínticas y en otros parásitos con fase tisular, porque participan en la respuesta inmune contra organismos demasiado grandes para ser fagocitados con facilidad. El leve descenso de hemoglobina puede ser secundario a inflamación crónica, mala absorción o incluso pérdidas intestinales dependiendo del parásito implicado. No es el patrón típico de infección bacteriana entérica aguda, donde sería más esperable neutrofilia."
+},
+
+{
+    question: "Un hombre de 67 años consulta por pérdida de peso, plenitud abdominal precoz, sudoración nocturna y prurito. En el examen se detecta esplenomegalia. El hemograma muestra leucocitosis marcada, desviación a la izquierda y basofilia persistente. No hay datos clínicos de alergia grave ni infestación parasitaria. ¿Cuál es la interpretación más adecuada del hallazgo diferencial?",
+    options: [
+        "Basofilia reactiva inespecífica por estrés fisiológico",
+        "Patrón sugestivo de proceso mieloproliferativo como leucemia mieloide crónica",
+        "Respuesta habitual de toda infección viral prolongada",
+        "Monocitosis encubierta mal cuantificada"
+    ],
+    answer: 1,
+    explanation: "La basofilia sostenida en el contexto de leucocitosis, esplenomegalia y síntomas constitucionales obliga a pensar en una neoplasia mieloproliferativa, especialmente leucemia mieloide crónica. Los basófilos normalmente son escasos en sangre periférica, por lo que su elevación persistente tiene mucho peso clínico cuando se acompaña de otras alteraciones de la serie mieloide. No es simplemente una reacción inespecífica; en este contexto tiene valor orientador porque su aumento sugiere proliferación clonal más que respuesta inflamatoria transitoria."
+},
+
+{
+    question: "Una mujer de 54 años con cirrosis hepática y artritis reumatoide de larga evolución acude a consulta por astenia leve, sin fiebre ni síntomas infecciosos actuales. En controles seriados se observa basofilia leve persistente, con resto de la fórmula diferencial relativamente estable y sin blastos circulantes. ¿Cuál es la mejor interpretación clínica?",
+    options: [
+        "La basofilia puede aparecer asociada a enfermedades crónicas inflamatorias y hepáticas",
+        "El hallazgo obliga a diagnosticar leucemia aguda hasta demostrar lo contrario",
+        "Corresponde al patrón típico de anemia aguda por sangrado digestivo",
+        "Indica destrucción periférica masiva de eritrocitos"
+    ],
+    answer: 0,
+    explanation: "Aunque la basofilia importante puede hacer sospechar enfermedad mieloproliferativa, una elevación leve y persistente también puede verse en contextos inflamatorios crónicos o hepatopatía avanzada. En esta paciente, la cirrosis y la artritis reumatoide ofrecen una base fisiopatológica razonable para una estimulación crónica del sistema inmune. La clave clínica es interpretar el dato dentro del contexto global: al no haber leucocitosis marcada, blastos, esplenomegalia progresiva ni síndrome constitucional dominante, la lectura más prudente no es una leucemia aguda."
+},
+
+{
+    question: "Un varón de 47 años consulta por fiebre vespertina, tos crónica, sudoración nocturna y pérdida de peso de tres meses de evolución. Se confirma tuberculosis pulmonar. El hemograma revela monocitosis del 12%, anemia leve y neutrófilos sin ascenso marcado. ¿Qué explica mejor la alteración leucocitaria observada?",
+    options: [
+        "Respuesta inmunológica frente a una infección crónica persistente",
+        "Respuesta típica de infección bacteriana piógena aguda",
+        "Supresión medular selectiva de la serie granulocítica",
+        "Proceso alérgico con activación monocitaria secundaria"
+    ],
+    answer: 0,
+    explanation: "La monocitosis tiene mucho sentido en infecciones crónicas, especialmente cuando hay activación sostenida del sistema fagocítico-mononuclear. En tuberculosis, los monocitos y macrófagos son esenciales porque participan en la contención del bacilo, la formación de granulomas y la modulación de la respuesta inflamatoria. Por eso, a diferencia de las infecciones bacterianas agudas típicas, donde dominan los neutrófilos, aquí el aumento monocitario refleja una respuesta más crónica y organizada."
+},
+
+{
+    question: "Una paciente de 49 años con antecedente de valvulopatía consulta por fiebre prolongada, anorexia, pérdida de peso, soplo nuevo y petequias en extremidades. Se diagnostica endocarditis bacteriana subaguda. El hemograma muestra monocitosis persistente superior al 10% y anemia moderada. ¿Cuál es la mejor interpretación del hemograma?",
+    options: [
+        "Monocitosis vinculada a un proceso infeccioso de evolución prolongada",
+        "Linfocitosis por respuesta viral secundaria",
+        "Basofilia como marcador principal de infección endovascular",
+        "Neutropenia por agotamiento total de la médula ósea"
+    ],
+    answer: 0,
+    explanation: "La endocarditis subaguda es un ejemplo clásico de infección persistente que puede acompañarse de monocitosis. El aumento de monocitos refleja activación inmune mantenida, más consistente con procesos prolongados que con agresiones agudas de corta duración. La anemia asociada también es esperable por inflamación crónica. El dato importante no es solo que hay infección, sino qué tipo de infección: una bacteriemia sostenida y un foco endovascular prolongado favorecen este patrón."
+},
+
+{
+    question: "Un hombre de 40 años con infección por VIH sin tratamiento regular consulta por fiebre, diarrea crónica, candidiasis oral y pérdida de peso. En el hemograma presenta leucocitos 2,600/mm³ y neutrófilos absolutos de 850/mm³. No usa quimioterapia ni tiene exposición reciente a radiación. ¿Cuál es la interpretación más adecuada?",
+    options: [
+        "Neutropenia/leucopenia relacionada con enfermedad viral sistémica e insuficiencia medular funcional",
+        "Neutrofilia relativa por infección oportunista incipiente",
+        "Basofilia secundaria a inmunosupresión avanzada",
+        "Monocitosis compensadora que excluye neutropenia"
+    ],
+    answer: 0,
+    explanation: "Aquí hay una neutropenia verdadera, no solo una disminución porcentual. En VIH avanzado pueden coexistir múltiples mecanismos: supresión medular, infecciones intercurrentes, infiltración medular, desnutrición y efectos de medicamentos cuando los hay. El recuento absoluto de neutrófilos es clínicamente relevante porque por debajo de ciertos umbrales aumenta mucho el riesgo de infecciones graves. Por ello, la interpretación correcta no es solo describir leucopenia, sino reconocer su impacto pronóstico."
+},
+
+{
+    question: "Una mujer de 30 años consulta por fiebre alta, cefalea, dolor abdominal difuso y malestar general tras un viaje reciente. Se confirma fiebre tifoidea. El hemograma revela leucopenia con neutropenia moderada. ¿Cuál es la mejor explicación del patrón observado?",
+    options: [
+        "Algunas infecciones bacterianas específicas pueden cursar con neutropenia en lugar de neutrofilia",
+        "Toda infección bacteriana debe causar neutrofilia, por lo que el hemograma descarta el diagnóstico",
+        "La neutropenia indica obligatoriamente origen viral",
+        "La serie blanca no tiene utilidad en infecciones entéricas"
+    ],
+    answer: 0,
+    explanation: "Un error común es asumir que toda infección bacteriana produce neutrofilia. Algunas infecciones, como la fiebre tifoidea, pueden cursar con leucopenia y neutropenia. Esto se relaciona con mecanismos particulares del agente infeccioso y con la interacción entre médula ósea, endotoxinas y consumo periférico. Por eso, interpretar el hemograma exige integrar el microorganismo específico y no aplicar reglas simplificadas."
+},
+
+{
+    question: "Un varón de 61 años en tratamiento reciente con sulfonamidas consulta por odinofagia intensa, fiebre y múltiples úlceras orales. El hemograma muestra leucocitos 1,900/mm³ con neutrófilos absolutos de 700/mm³, mientras que hemoglobina y plaquetas permanecen conservadas. ¿Cuál es la etiología más probable del trastorno hematológico?",
+    options: [
+        "Neutropenia inducida por fármacos",
+        "Pancitopenia aplásica completa",
+        "Linfocitosis reactiva con neutropenia aparente",
+        "Basofilia compensadora por infección faríngea"
+    ],
+    answer: 0,
+    explanation: "La preservación relativa de otras series y la temporalidad con el uso de sulfonamidas hacen pensar en neutropenia medicamentosa. Este tipo de cuadro es clínicamente peligroso porque la fiebre y las lesiones mucosas pueden ser manifestaciones de infección sobre un huésped con defensa neutrofílica muy comprometida. No hace falta que toda la médula esté afectada para que el riesgo sea alto: una neutropenia aislada profunda ya tiene gran relevancia."
+},
+
+{
+    question: "Un hombre de 32 años procedente de zona endémica consulta por accesos febriles intermitentes, escalofríos, sudoración profusa y cefalea. La gota gruesa confirma malaria. En el hemograma se detecta leucopenia sin exposición a fármacos mielotóxicos. ¿Cuál es la interpretación más adecuada?",
+    options: [
+        "La malaria puede asociarse a leucopenia, por lo que el hallazgo es compatible con la infección",
+        "Todo parásito produce eosinofilia intensa como patrón dominante",
+        "La leucopenia excluye etiología parasitaria",
+        "El hallazgo sugiere obligatoriamente aplasia medular"
+    ],
+    answer: 0,
+    explanation: "No todas las parasitosis se comportan igual en el hemograma. Aunque muchas infecciones parasitarias tisulares se asocian a eosinofilia, la malaria con frecuencia se relaciona con otros patrones, entre ellos leucopenia. Esto recuerda que el valor del laboratorio está en su interpretación contextual: no basta con reconocer una categoría amplia de 'parasitosis', sino entender el comportamiento hematológico del agente específico."
+},
+
+{
+    question: "Una adolescente de 17 años consulta por fiebre, odinofagia intensa, adenopatías cervicales dolorosas y malestar general de una semana. Presenta leve hepatomegalia y en el laboratorio destacan transaminasas discretamente elevadas. El hemograma muestra leucocitosis con predominio linfocitario y presencia de linfocitos atípicos. ¿Cuál es el mecanismo principal detrás de esta alteración?",
+    options: [
+        "Activación y expansión linfocitaria en respuesta a infección viral",
+        "Invasión medular con liberación de blastos inmaduros",
+        "Supresión de neutrófilos que simula linfocitosis",
+        "Reacción alérgica sistémica con atipia linfocitaria"
+    ],
+    answer: 0,
+    explanation: "La linfocitosis con linfocitos atípicos en este contexto refleja activación inmune frente a infección viral, especialmente cuando se acompaña de adenopatías, faringitis y compromiso hepático leve. Los linfocitos atípicos no son necesariamente malignos; con frecuencia representan linfocitos reactivos grandes y activados. Distinguir entre reactividad y neoplasia es fundamental, y aquí el contexto clínico favorece claramente un proceso infeccioso."
+},
+
+{
+    question: "Un hombre de 44 años consulta por debilidad progresiva, pérdida de peso, náuseas, vómitos ocasionales, hipotensión y aumento de la pigmentación cutánea. El hemograma no muestra leucocitosis, pero sí linfocitosis relativa. No hay fiebre ni datos de infección viral. ¿Qué condición explica mejor este patrón?",
+    options: [
+        "Enfermedad de Addison",
+        "Síndrome de Cushing",
+        "Hemorragia aguda digestiva",
+        "Leucemia monocítica crónica"
+    ],
+    answer: 0,
+    explanation: "La insuficiencia suprarrenal primaria puede asociarse a linfocitosis relativa. En este caso, la clínica es prácticamente clásica: hipotensión, hiperpigmentación, pérdida de peso y síntomas digestivos. El dato hematológico no es el centro del diagnóstico, pero sirve como apoyo. Esto ilustra cómo el hemograma puede aportar pistas endocrinológicas y no solo infecciosas o hematológicas."
+},
+
+{
+    question: "Una mujer de 55 años con síndrome de Cushing presenta debilidad muscular proximal, fragilidad capilar, obesidad centrípeta e infecciones cutáneas de repetición. El hemograma muestra linfocitopenia sostenida. ¿Cuál es la explicación más apropiada?",
+    options: [
+        "Efecto inmunosupresor de los glucocorticoides sobre la población linfocitaria",
+        "Transformación maligna de la serie linfoide",
+        "Compensación fisiológica ante neutrofilia inexistente",
+        "Secuestro esplénico exclusivo de linfocitos"
+    ],
+    answer: 0,
+    explanation: "Los glucocorticoides reducen los linfocitos circulantes mediante redistribución, apoptosis y efectos sobre la respuesta inmune. Por eso, la linfocitopenia en el síndrome de Cushing no es un hallazgo casual, sino una manifestación coherente de hipercortisolismo. Además, tiene consecuencias funcionales: ayuda a explicar la susceptibilidad a infecciones. La clave aquí es entender que el dato numérico refleja una alteración fisiológica sistémica."
+},
+
+{
+    question: "Un niño de 6 años con diarrea crónica, edema, baja talla para la edad y pérdida de peso presenta infecciones respiratorias frecuentes. En controles seriados se documenta linfocitopenia persistente. No se ha demostrado inmunodeficiencia congénita específica. ¿Cuál es la explicación más probable?",
+    options: [
+        "Desnutrición y pérdidas digestivas con compromiso de la inmunidad celular",
+        "Leucemia aguda linfoblástica en fase oculta",
+        "Proceso alérgico intestinal con consumo de linfocitos",
+        "Basofilia crónica con descenso compensatorio de linfocitos"
+    ],
+    answer: 0,
+    explanation: "La desnutrición y las pérdidas digestivas crónicas pueden deteriorar de forma importante la función inmunológica, incluyendo reducción de linfocitos. En niños, esto tiene enorme relevancia porque se traduce en susceptibilidad a infecciones, peor recuperación y mayor vulnerabilidad global. El laboratorio, por tanto, no solo describe un recuento bajo, sino que evidencia una inmunocompetencia disminuida en un paciente nutricionalmente comprometido."
+},
+
+{
+    question: "Un hombre de 69 años consulta por palidez, infecciones recurrentes y aparición progresiva de petequias y equimosis. El hemograma muestra anemia, leucopenia y trombocitopenia. El estudio de médula ósea evidencia hipocelularidad marcada, sin infiltración tumoral. ¿Cuál es el diagnóstico sindrómico más probable?",
+    options: [
+        "Pancitopenia por aplasia medular",
+        "Reacción leucemoide grave",
+        "Anemia aguda con leucopenia secundaria",
+        "Mononucleosis con depresión transitoria de plaquetas"
+    ],
+    answer: 0,
+    explanation: "La combinación de descenso de las tres series celulares constituye una pancitopenia, y la médula hipocelular orienta con fuerza a aplasia medular. La relevancia clínica está en que el paciente no solo tiene anemia, sino también riesgo infeccioso por leucopenia y riesgo hemorrágico por trombocitopenia. Es un síndrome global de insuficiencia hematopoyética, no un problema aislado de una sola línea."
+},
+
+{
+    question: "Una trabajadora industrial de 42 años con exposición crónica a solventes consulta por astenia, fiebre recurrente, gingivorragia y moretones fáciles. El hemograma revela pancitopenia. No hay datos de metástasis ni de enfermedad autoinmune activa. ¿Cuál es el agente tóxico más clásicamente asociado a este cuadro?",
+    options: [
+        "Benceno",
+        "Warfarina",
+        "Paracetamol",
+        "Hierro intravenoso"
+    ],
+    answer: 0,
+    explanation: "El benceno es un tóxico hematológico clásico por su capacidad de dañar la médula ósea y comprometer simultáneamente la producción de eritrocitos, leucocitos y plaquetas. Este caso ilustra por qué la historia ocupacional es tan importante: sin ella, la pancitopenia podría atribuirse erróneamente a otros procesos. Aquí el laboratorio y la exposición ambiental encajan de forma muy convincente."
+},
+
+{
+    question: "Un paciente de 63 años con cáncer avanzado presenta dolor óseo, fatiga intensa, sangrado mucoso e infecciones frecuentes. El aspirado medular demuestra reemplazo del tejido hematopoyético por infiltración tumoral. En el hemograma hay anemia, leucopenia y trombocitopenia. ¿Cómo debe interpretarse este hallazgo?",
+    options: [
+        "Pancitopenia por invasión de médula ósea",
+        "Anemia aguda por hemorragia interna aislada",
+        "Linfocitopenia endocrina con trombocitopenia funcional",
+        "Neutropenia medicamentosa con anemia ferropénica"
+    ],
+    answer: 0,
+    explanation: "Cuando la médula ósea es invadida por células tumorales, el problema no es solo local: se afecta la producción global de las tres series hematológicas. Por eso aparece pancitopenia. Este caso muestra cómo un proceso oncológico sólido puede tener consecuencias hematológicas profundas al desplazar el tejido hematopoyético normal. La clínica de infección, sangrado y fatiga se entiende precisamente por esa afectación simultánea."
+},
+
+{
+    question: "Una mujer de 45 años con colitis ulcerativa de varios años de evolución consulta por fatiga progresiva, palidez y menor tolerancia al esfuerzo. Niega un episodio reciente de hemorragia masiva. El hemograma muestra hemoglobina baja, VCM dentro de límites normales y ausencia de reticulocitosis marcada. ¿Cuál es la interpretación más adecuada?",
+    options: [
+        "Anemia crónica asociada a enfermedad inflamatoria persistente",
+        "Anemia aguda por pérdida de sangre reciente",
+        "Hemólisis intravascular brusca",
+        "Aplasia medular con predominio de serie roja"
+    ],
+    answer: 0,
+    explanation: "En enfermedades inflamatorias crónicas, la anemia suele ser normocítica o discretamente alterada y responde a una producción eritroide ineficaz mediada por inflamación, cambios en el metabolismo del hierro y menor respuesta eritropoyética. La ausencia de una hemorragia reciente importante y de una respuesta reticulocitaria intensa favorece una anemia de enfermedad crónica. El contexto clínico es esencial para no confundirla con pérdida aguda de sangre."
+},
+
+{
+    question: "Un varón de 75 años anticoagulado con warfarina ingresa por melena, hipotensión, taquicardia y confusión. La hemoglobina ha descendido bruscamente respecto a un control reciente. Las plaquetas y leucocitos no muestran alteraciones relevantes. ¿Cuál es la mejor clasificación del problema hematológico principal?",
+    options: [
+        "Anemia aguda por hemorragia digestiva favorecida por anticoagulación",
+        "Anemia crónica por enfermedad sistémica",
+        "Pancitopenia tóxica de instauración súbita",
+        "Linfocitopenia severa con inestabilidad hemodinámica"
+    ],
+    answer: 0,
+    explanation: "La clave aquí es la rapidez del descenso de hemoglobina y la presencia de signos de hipovolemia: hipotensión, taquicardia y compromiso del sensorio. Eso define una anemia aguda por pérdida sanguínea, no una anemia crónica. La warfarina no causa directamente todas las alteraciones hematológicas, pero sí aumenta el riesgo de sangrado importante, y en este caso es un factor favorecedor decisivo."
+}
+
+],
+clinicalCVRSSet9: [
+
+{
+    question: "Un varón de 70 años con antecedente de hipertensión y tabaquismo consulta por dolor torácico opresivo de inicio súbito, irradiado a brazo izquierdo, acompañado de diaforesis y náuseas. Se confirma infarto agudo de miocardio con elevación del ST. A las 24–48 horas, el hemograma muestra leucocitos 15,800/mm³ con neutrófilos 85%, sin fiebre ni signos de infección. ¿Cuál es la explicación más adecuada de este cambio hematológico?",
+    options: [
+        "Infección bacteriana secundaria al evento isquémico",
+        "Respuesta inflamatoria sistémica por necrosis tisular",
+        "Reacción alérgica al tratamiento farmacológico",
+        "Inicio de una neoplasia hematológica aguda"
+    ],
+    answer: 1,
+    explanation: "Después de un infarto, el tejido necrótico libera mediadores inflamatorios que activan la médula ósea y movilizan neutrófilos al torrente sanguíneo. Esta leucocitosis no implica infección, sino inflamación estéril. Es importante reconocerlo para evitar el error clínico de iniciar antibióticos innecesarios. Además, los neutrófilos participan en la respuesta inicial de limpieza del tejido necrótico, lo cual forma parte del proceso normal de reparación."
+},
+
+{
+    question: "Una mujer de 45 años con quemaduras en el 40% de superficie corporal presenta, a las 24 horas del evento, leucocitos 20,000/mm³ con neutrófilos predominantes. No presenta foco infeccioso ni cultivos positivos. ¿Cuál es el mecanismo fisiopatológico más probable de esta alteración?",
+    options: [
+        "Infección bacteriana temprana inevitable",
+        "Respuesta inflamatoria sistémica por daño tisular extenso",
+        "Reacción inmunológica mediada por IgE",
+        "Inhibición de la médula ósea"
+    ],
+    answer: 1,
+    explanation: "Las quemaduras extensas desencadenan una respuesta inflamatoria sistémica (SIRS) caracterizada por liberación masiva de citocinas. Esto estimula la médula ósea a liberar neutrófilos. Es crucial entender que este patrón puede preceder a la infección, pero no la confirma. Diferenciar inflamación estéril de infección es clave en el manejo de estos pacientes."
+},
+
+{
+    question: "Un hombre de 30 años con antecedentes de asma severa consulta por disnea, sibilancias y prurito generalizado. El hemograma muestra eosinofilia persistente del 12%. No hay evidencia de infección parasitaria. ¿Qué papel cumplen los eosinófilos en este contexto?",
+    options: [
+        "Destrucción directa de bacterias",
+        "Regulación de la respuesta alérgica y liberación de mediadores inflamatorios",
+        "Producción de anticuerpos específicos",
+        "Inhibición de la respuesta inmune"
+    ],
+    answer: 1,
+    explanation: "Los eosinófilos participan activamente en reacciones alérgicas, liberando mediadores como proteínas citotóxicas y leucotrienos. En asma, contribuyen al daño epitelial y a la inflamación bronquial. No son células especializadas en combatir bacterias, sino en modular respuestas inmunes frente a alérgenos y parásitos."
+},
+
+{
+    question: "Un agricultor de 38 años consulta por dolor abdominal crónico, diarrea, pérdida de peso y debilidad. El hemograma muestra eosinofilia del 14%. Vive en zona rural con saneamiento deficiente. ¿Por qué los eosinófilos están elevados en este paciente?",
+    options: [
+        "Activación contra bacterias intestinales",
+        "Respuesta inmune frente a parásitos multicelulares",
+        "Producción tumoral de eosinófilos",
+        "Respuesta viral sistémica"
+    ],
+    answer: 1,
+    explanation: "Los eosinófilos son particularmente eficaces contra parásitos grandes, como helmintos, mediante liberación de sustancias citotóxicas. A diferencia de bacterias o virus, estos organismos no pueden ser fagocitados fácilmente, por lo que el sistema inmune utiliza mecanismos distintos, en los que los eosinófilos tienen un rol central."
+},
+
+{
+    question: "Paciente de 65 años con pérdida de peso, esplenomegalia y leucocitosis presenta basofilia persistente. ¿Por qué la basofilia es un hallazgo importante en este contexto?",
+    options: [
+        "Indica infección bacteriana aguda",
+        "Sugiere proliferación clonal de la serie mieloide",
+        "Refleja alergia crónica",
+        "Es un hallazgo sin valor clínico"
+    ],
+    answer: 1,
+    explanation: "La basofilia sostenida es poco común en condiciones benignas y, cuando aparece junto con leucocitosis y esplenomegalia, sugiere un trastorno mieloproliferativo. Los basófilos aumentan por expansión clonal, no por simple inflamación. Este dato tiene valor diagnóstico importante."
+},
+
+{
+    question: "Un paciente con tuberculosis crónica presenta monocitosis persistente. ¿Por qué los monocitos aumentan en este tipo de infección?",
+    options: [
+        "Porque destruyen bacterias extracelulares rápidamente",
+        "Porque se diferencian en macrófagos y participan en la respuesta granulomatosa",
+        "Porque producen anticuerpos",
+        "Porque inhiben la inflamación"
+    ],
+    answer: 1,
+    explanation: "Los monocitos migran a tejidos y se convierten en macrófagos, esenciales en infecciones crónicas como tuberculosis. Participan en la formación de granulomas y en la contención del patógeno. Este tipo de respuesta es diferente a la neutrofílica aguda."
+},
+
+{
+    question: "Un paciente con VIH avanzado presenta neutropenia significativa. ¿Por qué esto aumenta el riesgo de infecciones graves?",
+    options: [
+        "Porque disminuyen los anticuerpos",
+        "Porque los neutrófilos son la primera línea contra bacterias",
+        "Porque aumenta la inflamación",
+        "Porque mejora la respuesta viral"
+    ],
+    answer: 1,
+    explanation: "Los neutrófilos son esenciales para la defensa contra bacterias y hongos. Su disminución compromete la capacidad de respuesta rápida del sistema inmune, lo que aumenta el riesgo de infecciones graves, incluso con microorganismos oportunistas."
+},
+
+{
+    question: "Paciente con fiebre tifoidea presenta leucopenia. ¿Por qué algunas infecciones bacterianas producen leucopenia en lugar de leucocitosis?",
+    options: [
+        "Porque siempre destruyen neutrófilos directamente",
+        "Porque pueden inhibir la médula ósea o alterar la distribución leucocitaria",
+        "Porque activan eosinófilos exclusivamente",
+        "Porque eliminan linfocitos selectivamente"
+    ],
+    answer: 1,
+    explanation: "No todas las infecciones bacterianas generan neutrofilia. Algunas, como la fiebre tifoidea, pueden afectar la médula ósea o alterar la dinámica de los leucocitos, produciendo leucopenia. Esto demuestra que el hemograma debe interpretarse según el contexto clínico."
+},
+
+{
+    question: "Paciente con mononucleosis presenta linfocitos atípicos. ¿Qué representan estos linfocitos?",
+    options: [
+        "Células tumorales",
+        "Linfocitos activados por estimulación antigénica",
+        "Neutrófilos inmaduros",
+        "Células apoptóticas"
+    ],
+    answer: 1,
+    explanation: "Los linfocitos atípicos son linfocitos T activados que responden a células infectadas por virus. No son malignos, sino reactivos. Su presencia indica una respuesta inmune intensa."
+},
+
+{
+    question: "Paciente con síndrome de Cushing presenta linfocitopenia. ¿Cuál es el mecanismo?",
+    options: [
+        "Aumento de producción linfocitaria",
+        "Redistribución y apoptosis inducida por glucocorticoides",
+        "Infección viral",
+        "Producción tumoral"
+    ],
+    answer: 1,
+    explanation: "Los glucocorticoides inducen apoptosis de linfocitos y su redistribución fuera del torrente sanguíneo. Esto reduce su número circulante y contribuye a inmunosupresión."
+},
+
+{
+    question: "Paciente con pancitopenia presenta médula hipocelular. ¿Qué implica esto?",
+    options: [
+        "Aumento de producción celular",
+        "Fallo global de la hematopoyesis",
+        "Infección viral leve",
+        "Respuesta inflamatoria"
+    ],
+    answer: 1,
+    explanation: "Una médula hipocelular indica incapacidad para producir células sanguíneas, afectando todas las líneas. Esto tiene consecuencias graves: anemia, infecciones y sangrado."
+},
+
+{
+    question: "Paciente expuesto a radiación desarrolla pancitopenia. ¿Por qué?",
+    options: [
+        "Destrucción de células madre hematopoyéticas",
+        "Infección secundaria",
+        "Alergia sistémica",
+        "Producción tumoral"
+    ],
+    answer: 0,
+    explanation: "La radiación afecta células de rápida división, como las hematopoyéticas, provocando fallo medular. Esto explica la pancitopenia."
+},
+
+{
+    question: "Paciente con anemia aguda presenta reticulocitos elevados. ¿Qué indica esto?",
+    options: [
+        "Fallo medular",
+        "Respuesta compensatoria de la médula",
+        "Infección",
+        "Inflamación"
+    ],
+    answer: 1,
+    explanation: "Los reticulocitos aumentan cuando la médula responde a la pérdida de sangre o hemólisis. Es un indicador de función medular activa."
+},
+
+{
+    question: "Paciente con anemia crónica presenta VCM normal. ¿Qué sugiere esto?",
+    options: [
+        "Anemia normocítica de enfermedad crónica",
+        "Deficiencia de hierro aguda",
+        "Hemólisis",
+        "Aplasia"
+    ],
+    answer: 0,
+    explanation: "Las anemias de enfermedad crónica suelen ser normocíticas, debido a alteraciones en el metabolismo del hierro y la eritropoyesis."
+},
+
+{
+    question: "Paciente con neutropenia presenta fiebre. ¿Por qué esto es una urgencia?",
+    options: [
+        "Porque siempre es viral",
+        "Porque indica alto riesgo de infección grave",
+        "Porque no tiene importancia",
+        "Porque mejora la inmunidad"
+    ],
+    answer: 1,
+    explanation: "La neutropenia febril es una urgencia médica porque el paciente no puede responder adecuadamente a infecciones. Incluso infecciones leves pueden progresar rápidamente."
+},
+
+{
+    question: "Paciente con monocitosis presenta enfermedad inflamatoria crónica. ¿Qué rol cumplen los monocitos?",
+    options: [
+        "Producción de anticuerpos",
+        "Diferenciación a macrófagos y regulación inflamatoria",
+        "Destrucción de eritrocitos",
+        "Producción de plaquetas"
+    ],
+    answer: 1,
+    explanation: "Los monocitos se transforman en macrófagos, fundamentales en la inflamación crónica y reparación tisular."
+},
+
+{
+    question: "Paciente con linfocitosis presenta infección viral. ¿Por qué predominan los linfocitos?",
+    options: [
+        "Porque destruyen bacterias",
+        "Porque coordinan la respuesta inmune adaptativa",
+        "Porque producen hemoglobina",
+        "Porque inhiben neutrófilos"
+    ],
+    answer: 1,
+    explanation: "Los linfocitos son clave en la respuesta adaptativa, especialmente contra virus, coordinando inmunidad celular y humoral."
+},
+
+{
+    question: "Paciente con anemia por enfermedad crónica presenta fatiga. ¿Por qué ocurre la anemia?",
+    options: [
+        "Destrucción de eritrocitos",
+        "Alteración en uso del hierro y eritropoyesis",
+        "Falta de vitamina B12",
+        "Hemorragia"
+    ],
+    answer: 1,
+    explanation: "La inflamación crónica altera el metabolismo del hierro y la producción de eritrocitos, generando anemia funcional."
+},
+
+{
+    question: "Paciente con basofilia presenta prurito. ¿Qué mediador liberan los basófilos?",
+    options: [
+        "Hemoglobina",
+        "Histamina",
+        "Insulina",
+        "Cortisol"
+    ],
+    answer: 1,
+    explanation: "Los basófilos liberan histamina, lo que explica síntomas como prurito en ciertas condiciones."
+},
+
+{
+    question: "Paciente con eosinofilia presenta daño tisular. ¿Por qué?",
+    options: [
+        "Producción de anticuerpos",
+        "Liberación de proteínas citotóxicas",
+        "Producción de hemoglobina",
+        "Inhibición inmune"
+    ],
+    answer: 1,
+    explanation: "Los eosinófilos liberan sustancias que pueden dañar tejidos, especialmente en respuestas alérgicas."
+}
+
+],
+clinicalCVRSSet10: [
+
+{
+    question: "Un varón de 68 años acude a emergencia por dolor torácico opresivo de dos horas de evolución, irradiado a brazo izquierdo, acompañado de diaforesis y náuseas. Se confirma un infarto agudo de miocardio. Cuarenta y ocho horas después, el hemograma muestra leucocitos 16,400/mm³ con neutrófilos 86%, sin fiebre, sin foco infeccioso y con cultivos negativos. El familiar pregunta por qué 'subieron tanto los glóbulos blancos' si el problema no es una infección. ¿Cuál es la explicación más adecuada del hallazgo hematológico?",
+    options: [
+        "Es una infección bacteriana oculta que acompaña a casi todos los infartos",
+        "Es una respuesta inflamatoria sistémica secundaria a necrosis tisular",
+        "Es consecuencia directa de una deficiencia de vitamina B12",
+        "Es un hallazgo propio de leucemia aguda desencadenada por el estrés"
+    ],
+    answer: 1,
+    explanation: "El infarto agudo de miocardio produce muerte celular y liberación de mediadores inflamatorios, como interleucinas y otras señales de daño tisular, que activan la médula ósea y favorecen la movilización de neutrófilos. Por eso puede aparecer leucocitosis neutrofílica aun sin infección. Desde el punto de vista clínico, esto es importante porque evita interpretar erróneamente toda leucocitosis como sepsis. En un paciente con necrosis tisular importante, el sistema inmune innato responde de forma parecida a como lo haría frente a una agresión infecciosa, pero el desencadenante aquí es inflamación estéril."
+},
+
+{
+    question: "Una mujer de 41 años sufre quemaduras térmicas extensas en tronco y extremidades superiores. Durante las primeras 24 horas desarrolla taquicardia, fiebre moderada y leucocitosis de 19,700/mm³ con predominio neutrofílico. Los cultivos iniciales son negativos y no hay supuración en las lesiones. ¿Cuál es la mejor interpretación del hemograma en este momento clínico?",
+    options: [
+        "Corresponde obligatoriamente a una infección bacteriana establecida",
+        "Es compatible con una respuesta inflamatoria sistémica por daño tisular severo",
+        "Sugiere una parasitosis concomitante no diagnosticada",
+        "Indica una insuficiencia medular aguda inducida por estrés"
+    ],
+    answer: 1,
+    explanation: "Las quemaduras extensas generan una respuesta inflamatoria sistémica intensa. El tejido lesionado libera mediadores que activan el endotelio, aumentan la permeabilidad vascular y estimulan la médula ósea para producir y liberar neutrófilos. Esta respuesta puede acompañarse incluso de fiebre, por lo que en las primeras horas no siempre significa infección. El razonamiento clínico correcto consiste en integrar tiempo de evolución, estado local de las heridas, cultivos y signos sistémicos, porque el paciente quemado puede tener primero inflamación estéril y luego, más adelante, infección verdadera."
+},
+
+{
+    question: "Un hombre de 33 años con antecedente de asma bronquial persistente consulta por empeoramiento progresivo de la disnea, tos nocturna, sibilancias y sensación de opresión torácica. Refiere además rinitis alérgica y lesiones cutáneas pruriginosas recurrentes. El hemograma muestra eosinófilos 10.8%, con leucocitos totales normales. ¿Cuál es la causa más probable de esta alteración?",
+    options: [
+        "Activación eosinofílica secundaria a una respuesta alérgica crónica",
+        "Respuesta neutrofílica propia de una infección bacteriana crónica",
+        "Producción tumoral de eosinófilos por leucemia aguda",
+        "Supresión medular selectiva de otras líneas celulares"
+    ],
+    answer: 0,
+    explanation: "La eosinofilia encaja con una enfermedad de base alérgica. Los eosinófilos tienen un papel central en procesos de hipersensibilidad, sobre todo en asma alérgica, dermatitis atópica y rinitis. Estas células liberan proteínas citotóxicas, leucotrienos y otros mediadores que contribuyen a la inflamación tisular. En el asma, su participación no es solo un dato de laboratorio: se relaciona con hiperreactividad bronquial, daño epitelial y persistencia de síntomas. La combinación de eosinofilia con clínica atópica hace mucho más probable una causa inmunoalérgica que una neoplásica."
+},
+
+{
+    question: "Un agricultor de 37 años consulta por dolor abdominal intermitente, diarrea crónica, pérdida de peso, anorexia y distensión abdominal. Vive en una zona rural sin acceso regular a agua potable. En el hemograma presenta eosinofilia persistente del 14%, sin neutrofilia llamativa. ¿Qué mecanismo explica mejor este hallazgo?",
+    options: [
+        "Producción de eosinófilos en respuesta a invasión por parásitos, especialmente helmintos",
+        "Liberación de eosinófilos por necrosis tisular aguda",
+        "Transformación clonal basofílica de la médula ósea",
+        "Consumo periférico de neutrófilos con elevación compensadora de eosinófilos"
+    ],
+    answer: 0,
+    explanation: "En el contexto de exposición epidemiológica compatible y síntomas digestivos prolongados, la eosinofilia sugiere una parasitosis, especialmente por helmintos. A diferencia de bacterias o virus, estos organismos son demasiado grandes para ser eliminados por fagocitosis convencional, por lo que el sistema inmune utiliza mecanismos en los que los eosinófilos tienen un rol importante. Estas células liberan proteínas tóxicas que lesionan la superficie del parásito. El caso clínico importa tanto como el laboratorio: la eosinofilia aislada puede verse en alergias, pero con este contexto rural y síntomas intestinales la sospecha parasitaria es mucho más fuerte."
+},
+
+{
+    question: "Un varón de 64 años consulta por plenitud abdominal, pérdida de peso, sudoración nocturna, prurito y fatiga progresiva. En el examen físico se detecta esplenomegalia. El hemograma muestra leucocitosis marcada con desviación a la izquierda y basofilia persistente. ¿Por qué la basofilia es particularmente relevante en este caso?",
+    options: [
+        "Porque suele ser un marcador orientador de proliferación mieloide clonal",
+        "Porque indica que el paciente tiene necesariamente una infección viral",
+        "Porque es el patrón más típico de hemorragia digestiva aguda",
+        "Porque confirma por sí sola una reacción alérgica sistémica"
+    ],
+    answer: 0,
+    explanation: "La basofilia persistente no es un hallazgo frecuente en personas sanas ni en procesos reactivos comunes. Cuando aparece junto con leucocitosis, esplenomegalia y síntomas constitucionales, obliga a pensar en una neoplasia mieloproliferativa, sobre todo leucemia mieloide crónica. Los basófilos son una subpoblación pequeña en condiciones normales, por lo que su aumento tiene mayor peso interpretativo que otras alteraciones más inespecíficas. Clínicamente, reconocer esto permite distinguir una respuesta reactiva de una proliferación clonal que requiere estudio hematológico específico."
+},
+
+{
+    question: "Una mujer de 57 años con antecedentes de cirrosis hepática y artritis reumatoide consulta por fatiga leve, sin fiebre ni datos de infección activa. En controles repetidos se observa una basofilia leve persistente, sin blastos y sin leucocitosis marcada. ¿Cuál es la interpretación más adecuada?",
+    options: [
+        "Puede tratarse de una alteración reactiva asociada a enfermedad crónica inflamatoria y hepática",
+        "Demuestra obligatoriamente una leucemia aguda oculta",
+        "Indica pérdida masiva de sangre reciente",
+        "Es típica de aplasia medular con recuperación parcial"
+    ],
+    answer: 0,
+    explanation: "No toda basofilia implica una neoplasia. Cuando el aumento es leve, estable y aparece en un paciente con enfermedades inflamatorias crónicas o hepatopatía, puede interpretarse como fenómeno reactivo. La clave está en el contexto: ausencia de leucocitosis extrema, falta de blastos, ausencia de rápida progresión clínica y presencia de enfermedades conocidas que justifican activación inmunológica crónica. El razonamiento clínico siempre debe valorar intensidad, persistencia y acompañantes del hallazgo."
+},
+
+{
+    question: "Un hombre de 46 años consulta por fiebre vespertina, tos crónica, hemoptisis escasa, sudoración nocturna y pérdida de peso de tres meses de evolución. La baciloscopía confirma tuberculosis pulmonar. El hemograma muestra monocitosis del 12%, anemia leve y neutrófilos sin aumento significativo. ¿Qué explica mejor la monocitosis en este cuadro?",
+    options: [
+        "Respuesta del sistema mononuclear-fagocítico en el contexto de infección crónica granulomatosa",
+        "Fracaso completo de la médula ósea con liberación de monocitos inmaduros",
+        "Reacción alérgica sistémica frente al bacilo",
+        "Compensación por déficit absoluto de plaquetas"
+    ],
+    answer: 0,
+    explanation: "Los monocitos aumentan en muchas infecciones crónicas porque, al pasar a tejidos, se diferencian en macrófagos, que son fundamentales en la contención de patógenos intracelulares y en la formación de granulomas. En tuberculosis, esta vía es central en la fisiopatología. Por eso el patrón hematológico puede diferir del de una infección bacteriana aguda típica, donde predomina la neutrofilia. Aquí la monocitosis tiene sentido porque refleja una respuesta inmune de larga evolución, organizada y celularmente distinta."
+},
+
+{
+    question: "Una mujer de 50 años con antecedente de valvulopatía reumática consulta por fiebre prolongada, malestar general, anorexia, pérdida de peso y aparición de un nuevo soplo cardíaco. Se confirma endocarditis bacteriana subaguda. En el hemograma presenta monocitosis sostenida, anemia normocítica y reactantes inflamatorios elevados. ¿Cuál es la mejor interpretación del patrón hematológico?",
+    options: [
+        "Es compatible con una infección persistente que mantiene activada la respuesta inflamatoria crónica",
+        "Es típico de una infección viral autolimitada",
+        "Corresponde a una alergia farmacológica por antibióticos previos",
+        "Indica infiltración medular tumoral"
+    ],
+    answer: 0,
+    explanation: "La endocarditis subaguda no suele comportarse como una infección bacteriana aguda explosiva, sino como un foco persistente con bacteriemia prolongada. Esto favorece anemia de inflamación crónica y, en algunos casos, monocitosis. El sistema inmune permanece estimulado durante semanas o meses, y el hemograma refleja esa cronificación. Por eso el laboratorio no debe interpretarse solo como un número aislado, sino como parte de un proceso infeccioso sostenido."
+},
+
+{
+    question: "Un varón de 39 años con infección por VIH avanzada acude por diarrea crónica, candidiasis oral, fiebre y pérdida importante de peso. El hemograma muestra leucocitos 2,700/mm³ y un recuento absoluto de neutrófilos de 900/mm³. No recibe quimioterapia. ¿Por qué esta alteración es clínicamente tan relevante?",
+    options: [
+        "Porque la neutropenia compromete la defensa inmediata frente a bacterias y hongos",
+        "Porque la neutropenia implica necesariamente leucemia aguda",
+        "Porque la neutropenia aumenta exclusivamente el riesgo de infecciones virales",
+        "Porque indica una reacción inflamatoria benigna transitoria sin consecuencias"
+    ],
+    answer: 0,
+    explanation: "La neutropenia es importante porque los neutrófilos son esenciales en la respuesta innata inicial frente a bacterias y hongos. Cuando su número cae por debajo de ciertos umbrales, el paciente pierde una parte crítica de sus defensas y puede desarrollar infecciones graves con rapidez. En VIH pueden coexistir varios mecanismos: supresión medular, desnutrición, infecciones oportunistas y medicamentos. El dato no es solo descriptivo; tiene valor pronóstico y modifica la urgencia y el enfoque terapéutico."
+},
+
+{
+    question: "Una mujer de 27 años consulta por fiebre alta, cefalea, dolor abdominal y compromiso del estado general. Se confirma fiebre tifoidea. En el hemograma presenta leucopenia con neutropenia moderada. El estudiante interpreta que 'como es una bacteria, debería haber neutrofilia'. ¿Cuál es la mejor corrección a ese razonamiento?",
+    options: [
+        "No todas las infecciones bacterianas producen neutrofilia; algunas pueden generar leucopenia por mecanismos particulares",
+        "La fiebre tifoidea en realidad es una infección viral",
+        "La neutropenia solo ocurre cuando hay hemorragia aguda",
+        "El hemograma no tiene ninguna utilidad en enfermedades infecciosas"
+    ],
+    answer: 0,
+    explanation: "Pensar que toda infección bacteriana genera neutrofilia es una simplificación incorrecta. Algunas bacterias, como Salmonella typhi, pueden asociarse a leucopenia y neutropenia. Esto puede deberse a redistribución, consumo periférico o alteración de la producción medular. El valor del hemograma está precisamente en enseñar que la respuesta del huésped depende del microorganismo, del tiempo de evolución y del estado inmunológico del paciente."
+},
+
+{
+    question: "Un varón de 62 años recibe sulfonamidas por una infección urinaria y, una semana después, consulta por odinofagia intensa, fiebre y úlceras dolorosas en la mucosa oral. El hemograma muestra leucocitos 1,800/mm³, neutrófilos absolutos 650/mm³, con hemoglobina y plaquetas normales. ¿Cuál es el diagnóstico hematológico más probable?",
+    options: [
+        "Neutropenia farmacológica aislada",
+        "Pancitopenia por aplasia medular completa",
+        "Leucocitosis con desviación a la izquierda",
+        "Linfocitosis reactiva aguda"
+    ],
+    answer: 0,
+    explanation: "La cronología con el fármaco, la neutropenia marcada y la conservación de otras series orientan a una neutropenia inducida por medicamentos. Esto tiene gran importancia clínica porque la fiebre en un paciente con neutrófilos tan bajos es potencialmente grave. Aunque no exista pancitopenia, el compromiso selectivo de la serie neutrofílica basta para aumentar mucho el riesgo infeccioso. Las lesiones mucosas son frecuentes porque las barreras naturales quedan expuestas en un huésped inmunológicamente vulnerable."
+},
+
+{
+    question: "Un hombre de 31 años procedente de zona selvática consulta por accesos febriles intermitentes, escalofríos, diaforesis y cefalea intensa. La gota gruesa confirma malaria. El hemograma muestra leucopenia, sin eosinofilia marcada. ¿Cuál es la mejor interpretación clínica de este resultado?",
+    options: [
+        "La malaria puede cursar con leucopenia y no toda parasitosis obliga a eosinofilia dominante",
+        "El resultado excluye parasitosis porque todas elevan eosinófilos",
+        "La leucopenia demuestra aplasia medular irreversible",
+        "La malaria se asocia casi exclusivamente a basofilia"
+    ],
+    answer: 0,
+    explanation: "Es un error pensar que todas las parasitosis se manifiestan con eosinofilia. Ese patrón es típico sobre todo de helmintos con fase tisular. La malaria tiene una fisiopatología diferente y puede asociarse a leucopenia, anemia y trombocitopenia según el caso. La interpretación correcta del hemograma exige entender el comportamiento del agente específico, no aplicar una regla general a todas las infecciones parasitarias."
+},
+
+{
+    question: "Una adolescente de 18 años consulta por fiebre, odinofagia intensa, adenopatías cervicales dolorosas, gran astenia y leve hepatomegalia. En el hemograma se observa leucocitosis con predominio linfocitario y presencia de linfocitos atípicos. ¿Qué representan más probablemente esas células atípicas?",
+    options: [
+        "Linfocitos reactivos activados frente a una infección viral",
+        "Blastos mieloides circulantes de una leucemia aguda",
+        "Basófilos maduros con cambios tóxicos",
+        "Reticulocitos liberados por estrés"
+    ],
+    answer: 0,
+    explanation: "Los linfocitos atípicos, en este contexto clínico, suelen ser linfocitos reactivos, no malignos. Corresponden a células activadas que responden a una infección viral y adquieren cambios morfológicos visibles en el frotis. La clave está en no confundir 'atípico' con 'neoplásico'. El contexto de adenopatías, faringitis y hepatomegalia orienta claramente a una respuesta inmune infecciosa, no a una leucemia aguda."
+},
+
+{
+    question: "Un hombre de 45 años consulta por pérdida de peso, hipotensión, náuseas, hiperpigmentación cutánea y fatiga marcada. El hemograma no muestra leucocitosis, pero sí linfocitosis relativa. No hay fiebre ni síntomas respiratorios. ¿Cuál es la explicación más probable?",
+    options: [
+        "Insuficiencia suprarrenal primaria con alteración del patrón leucocitario",
+        "Síndrome mieloproliferativo oculto",
+        "Reacción viral subclínica obligatoria",
+        "Hemorragia digestiva aguda compensada"
+    ],
+    answer: 0,
+    explanation: "La insuficiencia suprarrenal primaria puede acompañarse de linfocitosis relativa. Esto no significa que el problema principal sea hematológico, sino que el hemograma refleja el entorno endocrino alterado. La ausencia de cortisol modifica el equilibrio habitual de leucocitos circulantes. Este caso ilustra cómo el laboratorio puede ofrecer pistas útiles más allá de infecciones y enfermedades hematológicas propiamente dichas."
+},
+
+{
+    question: "Una mujer de 54 años con síndrome de Cushing presenta debilidad muscular proximal, obesidad centrípeta, equimosis fáciles e infecciones cutáneas de repetición. El hemograma muestra linfocitopenia sostenida. ¿Cuál es el mecanismo más importante detrás de esta alteración?",
+    options: [
+        "Redistribución y apoptosis linfocitaria inducidas por glucocorticoides",
+        "Expansión clonal de la serie mieloide",
+        "Hemólisis inmunológica con secuestro linfático",
+        "Producción deficiente de eritropoyetina"
+    ],
+    answer: 0,
+    explanation: "Los glucocorticoides disminuyen los linfocitos circulantes mediante varios mecanismos, entre ellos redistribución hacia otros compartimentos y aumento de apoptosis de algunas subpoblaciones. Por eso la linfocitopenia en Cushing no es un hallazgo accidental; forma parte de un estado de inmunosupresión relativa. Esto explica en parte por qué estos pacientes tienen mayor riesgo de ciertas infecciones y peor respuesta inflamatoria adaptativa."
+},
+
+{
+    question: "Un niño de 7 años con diarrea crónica, edema, retraso en el crecimiento y pérdida de peso presenta infecciones respiratorias frecuentes. Los controles de laboratorio muestran linfocitopenia persistente. ¿Cuál es la mejor interpretación fisiopatológica?",
+    options: [
+        "La desnutrición y las pérdidas digestivas pueden comprometer la inmunidad celular y reducir linfocitos",
+        "La diarrea crónica siempre produce neutrofilia y la linfocitopenia es irrelevante",
+        "El hallazgo demuestra necesariamente una leucemia linfática",
+        "Los linfocitos disminuyen solo cuando hay radiación ionizante"
+    ],
+    answer: 0,
+    explanation: "La desnutrición afecta profundamente la inmunidad, especialmente en niños. Disminuye la capacidad de producir y mantener poblaciones linfocitarias adecuadas, y si además existen pérdidas digestivas crónicas, el deterioro inmunológico puede ser mayor. La linfocitopenia aquí no es solo un número: ayuda a explicar por qué el niño se infecta con frecuencia y por qué su recuperación puede ser más lenta."
+},
+
+{
+    question: "Un hombre de 67 años consulta por palidez progresiva, infecciones respiratorias frecuentes, gingivorragia y aparición de petequias. El hemograma muestra anemia, leucopenia y trombocitopenia. El aspirado medular revela hipocelularidad marcada sin infiltración tumoral. ¿Cuál es el diagnóstico sindrómico más apropiado?",
+    options: [
+        "Pancitopenia por falla global de la médula ósea",
+        "Anemia aguda con infección viral concomitante",
+        "Reacción leucemoide prolongada",
+        "Eosinofilia con supresión plaquetaria secundaria"
+    ],
+    answer: 0,
+    explanation: "Cuando disminuyen simultáneamente eritrocitos, leucocitos y plaquetas, el problema es una pancitopenia. Si además la médula es hipocelular, eso indica que la hematopoyesis está globalmente deprimida. Las consecuencias clínicas son triples: fatiga y disnea por anemia, infecciones por leucopenia y sangrado por trombocitopenia. Entenderlo como un síndrome global es esencial, porque el enfoque no puede limitarse a corregir una sola línea celular."
+},
+
+{
+    question: "Una trabajadora industrial de 43 años con exposición crónica a solventes consulta por cansancio intenso, moretones espontáneos, gingivorragia e infecciones repetidas. El hemograma revela pancitopenia. ¿Por qué el antecedente ocupacional tiene tanto peso en este caso?",
+    options: [
+        "Porque algunos tóxicos, como el benceno, pueden dañar directamente la médula ósea",
+        "Porque las exposiciones industriales producen siempre hemorragia aguda",
+        "Porque los solventes elevan selectivamente los basófilos",
+        "Porque el ambiente laboral descarta enfermedades hematológicas verdaderas"
+    ],
+    answer: 0,
+    explanation: "El antecedente ocupacional es clave porque algunos tóxicos tienen afinidad por la médula ósea y pueden lesionar las células madre hematopoyéticas. El benceno es el ejemplo clásico. Eso explica por qué el paciente desarrolla anemia, leucopenia y trombocitopenia al mismo tiempo. Sin una buena historia laboral, la causa podría pasar desapercibida y retrasarse el diagnóstico."
+},
+
+{
+    question: "Un paciente de 62 años con cáncer metastásico presenta dolor óseo, fatiga intensa, infecciones frecuentes y sangrado mucoso. El estudio medular muestra reemplazo del tejido hematopoyético por infiltración tumoral. En el hemograma se observa anemia, leucopenia y trombocitopenia. ¿Cómo se explica mejor este patrón?",
+    options: [
+        "La invasión tumoral de la médula desplaza la hematopoyesis normal y produce pancitopenia",
+        "La neoplasia aumenta exclusivamente el consumo de neutrófilos",
+        "Se trata de una anemia aguda pura con leucopenia incidental",
+        "El sangrado es la causa primaria de todas las alteraciones hematológicas"
+    ],
+    answer: 0,
+    explanation: "Cuando la médula ósea es infiltrada por células tumorales, disminuye el espacio disponible para la producción normal de las tres series hematológicas. El resultado es pancitopenia. Este mecanismo muestra que un tumor no hematológico también puede provocar un cuadro hematológico grave si invade la médula. El laboratorio y la clínica se entienden juntos: fatiga, sangrado e infecciones derivan de la falla combinada de eritrocitos, plaquetas y leucocitos."
+},
+
+{
+    question: "Una mujer de 44 años con enfermedad de Crohn de larga data consulta por cansancio progresivo, palidez y menor tolerancia al esfuerzo. No refiere una hemorragia aguda reciente. El hemograma muestra hemoglobina baja, VCM normal y reticulocitos no aumentados de forma importante. ¿Cuál es la explicación más probable de su anemia?",
+    options: [
+        "Anemia de enfermedad crónica por inflamación persistente y alteración de la eritropoyesis",
+        "Hemorragia aguda masiva con respuesta medular plena",
+        "Hemólisis intravascular fulminante",
+        "Neutropenia aislada con falsa disminución de hemoglobina"
+    ],
+    answer: 0,
+    explanation: "En las enfermedades inflamatorias crónicas, la anemia suele aparecer por alteración del metabolismo del hierro, aumento de mediadores inflamatorios y menor respuesta eritropoyética. No siempre hay una pérdida sanguínea masiva, y el patrón puede ser normocítico con reticulocitos bajos o normales, lo que sugiere producción insuficiente más que destrucción o pérdida aguda. La fisiopatología no depende solo de 'falta de hierro', sino del modo en que la inflamación reorganiza la utilización del hierro y la producción eritroide."
+},
+
+{
+    question: "Un varón de 74 años anticoagulado con warfarina acude a emergencia por melena, hipotensión, taquicardia y confusión. Su hemoglobina ha descendido rápidamente respecto a controles previos, mientras que leucocitos y plaquetas se mantienen sin grandes cambios. ¿Cuál es la clasificación más adecuada del problema hematológico actual?",
+    options: [
+        "Anemia aguda por pérdida sanguínea digestiva favorecida por anticoagulación",
+        "Anemia crónica por enfermedad sistémica",
+        "Pancitopenia tóxica inducida por warfarina",
+        "Linfocitopenia severa con hipovolemia"
+    ],
+    answer: 0,
+    explanation: "La clave aquí es la rapidez de instalación: el paciente tiene datos de hipovolemia y descenso brusco de hemoglobina, lo que corresponde a una anemia aguda por sangrado. La warfarina no produce pancitopenia como mecanismo principal en este escenario, sino que facilita la hemorragia. Distinguir anemia aguda de anemia crónica es esencial, porque cambia por completo la urgencia del manejo y las prioridades terapéuticas."
+}
+
+],
+clinicalCVRSSet11: [
+
+{
+    question: "Un varón de 66 años acude a emergencia por dolor retroesternal opresivo de inicio súbito, irradiado a mandíbula y brazo izquierdo, acompañado de náuseas, diaforesis y sensación de muerte inminente. Se confirma un infarto agudo de miocardio con elevación del ST y se realiza reperfusión. Treinta y seis horas después, el hemograma muestra leucocitos 17,200/mm³ con 84% de neutrófilos, sin fiebre persistente, sin signos de consolidación pulmonar y con cultivos negativos. El residente propone iniciar antibióticos solo por la leucocitosis. ¿Cuál es la interpretación más adecuada del hemograma?",
+    options: [
+        "La leucocitosis neutrofílica puede explicarse por inflamación estéril secundaria a necrosis tisular",
+        "El aumento de neutrófilos demuestra una neumonía nosocomial temprana",
+        "La leucocitosis es diagnóstica de reacción leucemoide",
+        "Se trata probablemente de una fase inicial de leucemia mieloide crónica"
+    ],
+    answer: 0,
+    explanation: "En un infarto agudo de miocardio, el tejido necrótico libera señales de daño que activan una respuesta inflamatoria intensa, aunque no exista infección. Esa respuesta incluye liberación de citocinas, activación endotelial y movilización de neutrófilos desde médula ósea y compartimentos marginales. Por eso puede aparecer leucocitosis neutrofílica en las primeras 24 a 72 horas. El error clínico sería asumir que toda leucocitosis equivale a infección. Para hablar de infección harían falta datos adicionales, como un foco claro, hallazgos clínicos compatibles o cultivos positivos. En este caso, el laboratorio es coherente con inflamación estéril postisquémica."
+},
+
+{
+    question: "Una mujer de 39 años es ingresada por quemaduras de segundo y tercer grado que comprometen aproximadamente el 35% de la superficie corporal. En las primeras 18 horas desarrolla taquicardia, febrícula y leucocitosis de 21,000/mm³ con predominio neutrofílico. El cirujano en formación se preocupa porque cree que ya hay sepsis. Sin embargo, la paciente no tiene secreción purulenta, los bordes de las lesiones no muestran celulitis y los cultivos iniciales son negativos. ¿Cuál es la explicación más probable de la alteración hematológica?",
+    options: [
+        "Respuesta inflamatoria sistémica por daño tisular severo",
+        "Producción tumoral aguda de neutrófilos",
+        "Supresión medular con liberación compensadora de células inmaduras",
+        "Respuesta alérgica generalizada con neutrofilia secundaria"
+    ],
+    answer: 0,
+    explanation: "Las quemaduras extensas son un estímulo inflamatorio masivo. El cuerpo responde como si estuviera frente a una agresión sistémica grave: se liberan mediadores inflamatorios, se activa el endotelio y la médula incrementa la salida de neutrófilos. Ese patrón puede parecerse al de una infección, pero no la confirma. La clave clínica es el momento evolutivo y el contexto. Las quemaduras pueden desencadenar primero inflamación estéril y luego, si aparecen colonización o invasión bacteriana, una infección real. Por tanto, el hemograma debe interpretarse junto con el examen de las heridas, la evolución térmica, el estado hemodinámico y los cultivos."
+},
+
+{
+    question: "Un varón de 31 años con antecedente de asma desde la adolescencia consulta por varios meses de disnea episódica, sibilancias nocturnas, opresión torácica, rinorrea acuosa y prurito generalizado. Refiere además eccema recurrente en flexuras. El hemograma muestra 11% de eosinófilos, con leucocitos totales normales y sin datos de infección aguda. ¿Cuál es la mejor interpretación de esta eosinofilia?",
+    options: [
+        "Es compatible con una respuesta inmunológica alérgica sostenida",
+        "Es típica de infección bacteriana pulmonar crónica",
+        "Obliga a pensar primero en leucemia aguda",
+        "Se explica mejor por insuficiencia medular parcial"
+    ],
+    answer: 0,
+    explanation: "La eosinofilia, en este contexto, refleja activación inmunológica relacionada con enfermedad atópica. Los eosinófilos son células efectoras importantes en asma alérgica, rinitis y dermatitis atópica. Liberan proteínas citotóxicas, leucotrienos y otros mediadores que perpetúan la inflamación y el daño tisular. En asma, una eosinofilia sostenida puede correlacionarse con mayor actividad inflamatoria bronquial. El valor del hallazgo no es solo 'contar eosinófilos', sino entender que el hemograma está apoyando una fisiopatología alérgica sistémica, no una infección bacteriana."
+},
+
+{
+    question: "Un hombre de 35 años procedente de zona rural consulta por seis semanas de dolor abdominal intermitente, distensión, diarrea episódica, pérdida de peso y cansancio progresivo. Consume agua de pozo no tratada y trabaja descalzo en terrenos húmedos. El hemograma revela eosinofilia persistente del 15%, con hemoglobina ligeramente baja. No tiene antecedentes alérgicos. ¿Cuál es la causa más probable de la alteración leucocitaria?",
+    options: [
+        "Respuesta inmunitaria frente a parasitosis, especialmente helmintiasis",
+        "Infección bacteriana crónica del colon",
+        "Reacción leucemoide por pérdida de peso",
+        "Liberación de eosinófilos por necrosis intestinal aguda"
+    ],
+    answer: 0,
+    explanation: "La combinación de síntomas digestivos crónicos, exposición epidemiológica de riesgo y eosinofilia sostenida sugiere fuertemente una parasitosis, especialmente por helmintos. Los eosinófilos son particularmente relevantes en infecciones por parásitos multicelulares porque estas estructuras no pueden ser eliminadas de forma eficiente por fagocitosis simple. La respuesta inmune entonces utiliza mecanismos que incluyen eosinófilos y anticuerpos. La anemia leve puede coexistir por inflamación crónica, pérdidas intestinales, malabsorción o incluso por el tipo de parásito. Aquí el contexto clínico pesa tanto como el laboratorio."
+},
+
+{
+    question: "Un paciente de 63 años consulta por sudoración nocturna, prurito, pérdida de peso no intencional y plenitud abdominal precoz. Al examen físico presenta esplenomegalia. El hemograma muestra leucocitosis importante con células mieloides en distintos estadios de maduración y basofilia persistente. No tiene antecedentes de alergias graves ni signos de infección parasitaria. ¿Por qué la basofilia tiene un valor especialmente orientador en este caso?",
+    options: [
+        "Porque sugiere una proliferación clonal de la serie mieloide",
+        "Porque es el hallazgo más común en infecciones virales crónicas",
+        "Porque demuestra hemorragia digestiva oculta",
+        "Porque excluye patología hematológica maligna"
+    ],
+    answer: 0,
+    explanation: "La basofilia persistente es poco frecuente en contextos benignos. Cuando se asocia con leucocitosis, esplenomegalia y síntomas constitucionales, orienta hacia una neoplasia mieloproliferativa, especialmente leucemia mieloide crónica. Los basófilos, aunque numéricamente escasos en condiciones normales, adquieren gran valor interpretativo cuando aumentan de manera sostenida. No es un hallazgo que deba ignorarse como mera inflamación inespecífica, porque su presencia en este contexto cambia de manera importante la sospecha diagnóstica y la urgencia del estudio hematológico."
+},
+
+{
+    question: "Una mujer de 58 años con artritis reumatoide de larga evolución y cirrosis hepática en seguimiento ambulatorio presenta basofilia leve persistente en controles seriados. No tiene leucocitosis marcada, no hay blastos en periferia, y clínicamente está estable, sin síndrome constitucional ni infecciones activas. ¿Cuál es la interpretación más prudente de este hallazgo?",
+    options: [
+        "Puede corresponder a una basofilia reactiva asociada a enfermedad crónica",
+        "Equivale a diagnosticar leucemia aguda",
+        "Es un marcador específico de hemorragia digestiva reciente",
+        "Se explica por destrucción masiva de eritrocitos"
+    ],
+    answer: 0,
+    explanation: "Aunque la basofilia intensa y acompañada de otros hallazgos puede sugerir una enfermedad mieloproliferativa, una basofilia leve y estable puede verse en contextos inflamatorios o crónicos. La artritis reumatoide y la cirrosis ofrecen una base de activación inmune sostenida que puede justificar cambios discretos del diferencial. Lo importante es no sobrediagnosticar ni infravalorar: el hallazgo debe vigilarse, pero en ausencia de leucocitosis importante, blastos, esplenomegalia progresiva o síntomas sistémicos marcados, una interpretación reactiva es razonable."
+},
+
+{
+    question: "Un varón de 48 años presenta fiebre vespertina, sudoración nocturna, tos crónica productiva y pérdida de peso de tres meses. Se confirma tuberculosis pulmonar por estudios microbiológicos. El hemograma muestra monocitosis del 13%, anemia normocítica leve y neutrófilos en rango alto-normal, sin neutrofilia marcada. ¿Qué explica mejor la monocitosis en este contexto?",
+    options: [
+        "Activación del sistema mononuclear-fagocítico en una infección crónica granulomatosa",
+        "Producción excesiva de anticuerpos por monocitos",
+        "Transformación aguda de la médula hacia leucemia monocítica",
+        "Respuesta alérgica sistémica frente al bacilo"
+    ],
+    answer: 0,
+    explanation: "Los monocitos aumentan con frecuencia en procesos infecciosos crónicos, especialmente cuando la respuesta inmune requiere macrófagos tisulares y formación de granulomas. En tuberculosis, los monocitos migran a tejidos y se diferencian en macrófagos, que son esenciales para contener al bacilo. Por eso el patrón hematológico difiere del de infecciones piógenas agudas, donde suele dominar la neutrofilia. La anemia asociada también puede entenderse como anemia de inflamación crónica, lo cual refuerza la naturaleza prolongada del proceso."
+},
+
+{
+    question: "Una mujer de 52 años con antecedente de prolapso valvular mitral consulta por fiebre intermitente, astenia intensa, pérdida de peso, anorexia y aparición de un nuevo soplo cardíaco. Se confirma endocarditis bacteriana subaguda. En el hemograma hay monocitosis persistente, anemia moderada y elevación de reactantes inflamatorios. ¿Cuál es la mejor interpretación del patrón hematológico?",
+    options: [
+        "Corresponde a una respuesta inflamatoria mantenida por un foco infeccioso persistente",
+        "Es un patrón propio de una infección viral aguda autolimitada",
+        "Sugiere hipersensibilidad medicamentosa por antibióticos",
+        "Se explica mejor por una hemorragia digestiva crónica"
+    ],
+    answer: 0,
+    explanation: "La endocarditis bacteriana subaguda genera una estimulación inflamatoria sostenida. No suele comportarse como una infección explosiva de pocas horas, sino como una bacteriemia persistente que activa el sistema inmune durante un periodo prolongado. Eso puede explicar monocitosis y anemia de enfermedad crónica. Entender el hemograma en función de la duración del proceso es clave: aquí el laboratorio apoya la idea de infección crónica más que la de agresión aguda."
+},
+
+{
+    question: "Un varón de 40 años con VIH avanzado, sin tratamiento antirretroviral regular, consulta por candidiasis oral, diarrea crónica, fiebre y pérdida significativa de peso. El hemograma muestra leucocitos 2,500/mm³ con neutrófilos absolutos en 850/mm³. No hay datos de quimioterapia, ni exposición a radiación. ¿Por qué esta neutropenia es clínicamente importante?",
+    options: [
+        "Porque compromete de manera crítica la defensa inicial frente a bacterias y hongos",
+        "Porque indica de forma específica leucemia mieloide aguda",
+        "Porque protege frente a sepsis al disminuir la inflamación",
+        "Porque solo aumenta la susceptibilidad a infecciones virales"
+    ],
+    answer: 0,
+    explanation: "Los neutrófilos son fundamentales en la respuesta innata inmediata frente a bacterias y hongos. Cuando el recuento absoluto disminuye de forma importante, el riesgo de infecciones graves crece, incluso con microorganismos oportunistas o flora habitual. En un paciente con VIH, además, esta neutropenia puede coexistir con otros problemas inmunológicos, por lo que el riesgo global es mayor. No es solo un dato de laboratorio: modifica el pronóstico y obliga a una vigilancia más estrecha del estado infeccioso."
+},
+
+{
+    question: "Una mujer de 28 años consulta por fiebre alta, cefalea, dolor abdominal y compromiso del estado general. Luego del estudio se confirma fiebre tifoidea. El hemograma evidencia leucopenia con neutropenia moderada. Un interno afirma que el diagnóstico debe ser incorrecto porque 'si es bacteria debería haber neutrofilia'. ¿Cuál es la mejor respuesta?",
+    options: [
+        "No todas las infecciones bacterianas producen neutrofilia; algunas pueden cursar con leucopenia o neutropenia",
+        "La fiebre tifoidea en realidad es causada por un virus",
+        "La neutropenia solo se observa en enfermedades hematológicas malignas",
+        "El hemograma carece de utilidad en las infecciones entéricas"
+    ],
+    answer: 0,
+    explanation: "Asumir que toda infección bacteriana produce neutrofilia es un error. Algunas bacterias, como Salmonella typhi, pueden asociarse a leucopenia y neutropenia. Esto depende del microorganismo, de su interacción con la médula ósea, del estado inmunológico del paciente y del momento evolutivo. El hemograma no invalida el diagnóstico; al contrario, puede ser compatible con él. La enseñanza clínica aquí es evitar reglas simplistas y leer el laboratorio dentro de un contexto específico."
+},
+
+{
+    question: "Un hombre de 61 años inició tratamiento con sulfonamidas por una infección urinaria. Ocho días después consulta por fiebre, odinofagia intensa y úlceras dolorosas en mucosa oral. El hemograma revela leucocitos 1,700/mm³ con neutrófilos absolutos de 600/mm³, pero hemoglobina y plaquetas normales. ¿Cuál es la explicación más probable?",
+    options: [
+        "Neutropenia farmacológica con alto riesgo infeccioso",
+        "Pancitopenia aplásica completa",
+        "Leucocitosis reactiva oculta",
+        "Linfocitosis por estrés agudo"
+    ],
+    answer: 0,
+    explanation: "La temporalidad con el fármaco, la severidad de la neutropenia y la preservación de otras series orientan a neutropenia medicamentosa. Este cuadro es clínicamente urgente porque la fiebre en contexto de neutropenia marcada puede indicar una infección potencialmente grave en un huésped que ha perdido una parte esencial de su respuesta innata. No hace falta que exista pancitopenia para que el problema sea serio; el compromiso aislado de neutrófilos ya tiene gran trascendencia clínica."
+},
+
+{
+    question: "Un paciente de 32 años procedente de la selva consulta por accesos febriles intermitentes, escalofríos, sudoración y cefalea intensa. La gota gruesa confirma malaria. El hemograma muestra leucopenia sin eosinofilia marcada. ¿Cuál es la mejor interpretación de este patrón?",
+    options: [
+        "La malaria puede cursar con leucopenia y no toda parasitosis se manifiesta con eosinofilia dominante",
+        "El resultado descarta parasitosis porque todas producen eosinofilia",
+        "La leucopenia obliga a diagnosticar aplasia medular",
+        "La malaria típicamente se acompaña de basofilia persistente"
+    ],
+    answer: 0,
+    explanation: "No todas las parasitosis generan el mismo patrón hematológico. La eosinofilia es especialmente típica de helmintos y ciertos parásitos con fase tisular, pero no es una regla universal. En malaria, pueden observarse otros hallazgos, como leucopenia, anemia o trombocitopenia. La enseñanza aquí es que clasificar una enfermedad solo como 'parasitaria' no basta; el comportamiento hematológico depende del agente concreto y de su fisiopatología."
+},
+
+{
+    question: "Una adolescente de 17 años consulta por fiebre, odinofagia severa, adenopatías cervicales, intenso malestar general y hepatomegalia leve. El hemograma muestra leucocitosis con predominio linfocitario y linfocitos atípicos. ¿Qué representan con más probabilidad esos linfocitos atípicos?",
+    options: [
+        "Linfocitos reactivos activados en respuesta a una infección viral",
+        "Basófilos maduros con alteraciones morfológicas",
+        "Blastos neoplásicos equivalentes a leucemia aguda",
+        "Reticulocitos circulantes mal identificados"
+    ],
+    answer: 0,
+    explanation: "En este contexto, los linfocitos atípicos suelen ser linfocitos reactivos, no malignos. Se trata de células activadas por intensa estimulación antigénica, clásicamente en infecciones virales como la mononucleosis. Su aspecto puede impresionar al observador inexperto, pero no equivale automáticamente a leucemia. El contexto clínico es crucial para distinguir entre reactividad infecciosa y patología hematológica maligna."
+},
+
+{
+    question: "Un hombre de 46 años consulta por pérdida de peso, hipotensión, fatiga, náuseas y oscurecimiento progresivo de piel y mucosas. El hemograma no muestra leucocitosis total, pero sí linfocitosis relativa. No hay datos de infección respiratoria ni gastrointestinal. ¿Qué condición explica mejor este hallazgo?",
+    options: [
+        "Insuficiencia suprarrenal primaria con alteración del patrón leucocitario",
+        "Leucemia linfoide crónica incipiente",
+        "Hemorragia digestiva subaguda",
+        "Reacción leucemoide por estrés"
+    ],
+    answer: 0,
+    explanation: "La insuficiencia suprarrenal primaria puede acompañarse de linfocitosis relativa. Este dato no es específico, pero en el contexto adecuado apoya el diagnóstico. El punto importante es que el hemograma puede reflejar alteraciones endocrinas sistémicas, no solo infecciones o enfermedades hematológicas. En este paciente, la clínica sugiere Addison, y el patrón leucocitario es congruente con ese entorno hormonal alterado."
+},
+
+{
+    question: "Una mujer de 55 años con síndrome de Cushing presenta obesidad centrípeta, debilidad muscular proximal, piel frágil e infecciones cutáneas recurrentes. El hemograma muestra linfocitopenia sostenida. ¿Cuál es el mecanismo más relevante para explicar esa alteración?",
+    options: [
+        "Redistribución y apoptosis de linfocitos inducidas por glucocorticoides",
+        "Producción insuficiente de eritropoyetina",
+        "Destrucción esplénica selectiva de plaquetas",
+        "Expansión clonal mieloide secundaria al hipercortisolismo"
+    ],
+    answer: 0,
+    explanation: "Los glucocorticoides reducen los linfocitos circulantes a través de redistribución hacia otros compartimentos y por efectos proapoptóticos sobre ciertas subpoblaciones. Por eso la linfocitopenia en Cushing es parte de una inmunosupresión fisiopatológicamente coherente. No es un hallazgo trivial, porque ayuda a entender por qué estos pacientes tienen mayor susceptibilidad a infecciones y peor respuesta inmune adaptativa."
+},
+
+{
+    question: "Un niño de 6 años con diarrea crónica, edema, bajo peso y retraso en el crecimiento consulta por infecciones respiratorias de repetición. En controles seriados se documenta linfocitopenia persistente. No hay evidencia de leucemia ni de inmunodeficiencia primaria conocida. ¿Cuál es la mejor explicación?",
+    options: [
+        "La desnutrición y las pérdidas digestivas crónicas pueden deteriorar la inmunidad celular y reducir el recuento linfocitario",
+        "La diarrea siempre produce monocitosis, no linfocitopenia",
+        "La linfocitopenia solo ocurre con radiación ionizante",
+        "El hallazgo demuestra necesariamente una leucemia linfoide"
+    ],
+    answer: 0,
+    explanation: "La desnutrición, especialmente en niños, compromete de manera importante la función inmunológica. La producción y mantenimiento de linfocitos depende de un estado nutricional adecuado. Si a ello se suman pérdidas digestivas prolongadas y absorción deficiente, la inmunidad puede deteriorarse de forma significativa. El hemograma, entonces, no solo muestra un número bajo: explica en parte por qué el niño se infecta con tanta frecuencia."
+},
+
+{
+    question: "Un varón de 68 años consulta por palidez progresiva, petequias, equimosis e infecciones respiratorias repetidas. El hemograma muestra anemia, leucopenia y trombocitopenia. El aspirado medular demuestra hipocelularidad marcada sin infiltración tumoral. ¿Cuál es la interpretación sindrómica más adecuada?",
+    options: [
+        "Pancitopenia por falla global de la hematopoyesis",
+        "Anemia aguda con trombocitosis reactiva",
+        "Reacción leucemoide con consumo plaquetario",
+        "Linfocitosis infecciosa complicada"
+    ],
+    answer: 0,
+    explanation: "La disminución simultánea de eritrocitos, leucocitos y plaquetas define una pancitopenia. Si la médula ósea está hipocelular, el mecanismo más lógico es falla global de la hematopoyesis, como ocurre en aplasia medular. Clínicamente, esto explica la suma de problemas del paciente: síntomas anémicos, susceptibilidad a infecciones y sangrado. Interpretarlo como un síndrome global es esencial, porque tratar solo una línea celular sería insuficiente."
+},
+
+{
+    question: "Una trabajadora de 44 años de una fábrica de solventes consulta por astenia intensa, sangrado gingival, moretones espontáneos e infecciones frecuentes. El hemograma revela pancitopenia. ¿Por qué el antecedente ocupacional es tan importante en este caso?",
+    options: [
+        "Porque ciertos tóxicos, como el benceno, pueden lesionar directamente las células madre hematopoyéticas",
+        "Porque los solventes producen exclusivamente anemia aguda por hemorragia",
+        "Porque la exposición industrial eleva selectivamente eosinófilos",
+        "Porque el ambiente laboral excluye enfermedades medulares verdaderas"
+    ],
+    answer: 0,
+    explanation: "Algunos tóxicos ambientales y ocupacionales, especialmente el benceno, tienen afinidad por la médula ósea y pueden producir insuficiencia hematopoyética. Eso lleva a pancitopenia. El antecedente laboral es clave porque puede orientar hacia una causa tóxica que de otro modo pasaría inadvertida. En medicina, una buena historia ocupacional puede ser tan importante como el hemograma mismo."
+},
+
+{
+    question: "Un paciente de 63 años con cáncer metastásico presenta fatiga severa, infecciones frecuentes, sangrado mucoso y dolor óseo. El estudio medular muestra infiltración tumoral que reemplaza el tejido hematopoyético. En el hemograma hay anemia, leucopenia y trombocitopenia. ¿Cómo se explica mejor este patrón?",
+    options: [
+        "La invasión tumoral desplaza la hematopoyesis normal y causa pancitopenia",
+        "El cáncer produce siempre neutrofilia, por lo que el hemograma es discordante",
+        "La anemia por sí sola justifica todas las demás alteraciones",
+        "El sangrado es el único mecanismo responsable del cuadro"
+    ],
+    answer: 0,
+    explanation: "Cuando la médula ósea es infiltrada por tumor, disminuye el espacio funcional para producir células sanguíneas normales. El resultado es pancitopenia. Esto demuestra que un tumor no hematológico puede tener consecuencias hematológicas profundas si invade la médula. La clínica del paciente —fatiga, infecciones y sangrado— se entiende precisamente por el compromiso simultáneo de las tres series."
+},
+
+{
+    question: "Una mujer de 43 años con colitis ulcerativa de larga evolución consulta por cansancio progresivo, palidez y menor tolerancia al esfuerzo. No ha presentado un episodio reciente de hemorragia importante. El hemograma muestra hemoglobina baja, VCM normal y ausencia de reticulocitosis marcada. ¿Cuál es la explicación más probable de la anemia?",
+    options: [
+        "Anemia de enfermedad crónica por inflamación persistente y alteración de la eritropoyesis",
+        "Hemorragia aguda masiva con respuesta medular intensa",
+        "Hemólisis intravascular fulminante",
+        "Neutropenia con falsa reducción de hemoglobina"
+    ],
+    answer: 0,
+    explanation: "En la inflamación crónica, la eritropoyesis se vuelve menos eficiente por acción de mediadores inflamatorios y por alteraciones en el metabolismo del hierro. La médula no responde con una reticulocitosis importante, porque el problema no es solo pérdida de sangre sino producción inadecuada en un entorno inflamatorio. Por eso muchas de estas anemias son normocíticas o discretamente alteradas y se interpretan mejor como anemias de enfermedad crónica."
+},
+
+{
+    question: "Un hombre de 75 años tratado con warfarina acude a emergencia por melena, taquicardia, hipotensión y confusión. La hemoglobina ha descendido bruscamente respecto a controles recientes, mientras que leucocitos y plaquetas no presentan cambios importantes. ¿Cuál es la clasificación más adecuada del problema hematológico principal?",
+    options: [
+        "Anemia aguda por pérdida sanguínea digestiva facilitada por anticoagulación",
+        "Anemia crónica de enfermedad sistémica",
+        "Pancitopenia tóxica inducida por warfarina",
+        "Linfocitopenia grave con hipovolemia secundaria"
+    ],
+    answer: 0,
+    explanation: "La rapidez del descenso de hemoglobina, junto con signos de hipovolemia como taquicardia, hipotensión y alteración del estado mental, define un cuadro de anemia aguda por sangrado. La warfarina no produce aquí una falla global medular, sino que facilita la hemorragia. Distinguir una anemia aguda de una crónica es fundamental porque cambia por completo la urgencia, el enfoque diagnóstico y el tratamiento inmediato."
+}
+
+],
+clinicalCVRSSet12: [
+
+{
+    question: "Un varón de 72 años con antecedentes de hipertensión y dislipidemia consulta por fiebre de 5 días, tos productiva con esputo purulento, disnea progresiva y dolor torácico pleurítico. En la exploración presenta taquipnea, crepitantes en base pulmonar derecha y saturación de oxígeno de 89%. El hemograma revela leucocitos 18,900/mm³ con neutrófilos 88%, desviación a la izquierda y presencia de formas inmaduras. ¿Qué indica específicamente la desviación a la izquierda en este contexto?",
+    options: [
+        "Liberación acelerada de precursores neutrofílicos por estimulación medular intensa",
+        "Transformación maligna de la médula ósea",
+        "Inhibición de la producción de neutrófilos",
+        "Predominio de linfocitos inmaduros"
+    ],
+    answer: 0,
+    explanation: "La desviación a la izquierda implica la presencia de formas inmaduras de neutrófilos (como bandas) en sangre periférica, lo que indica que la médula ósea está siendo estimulada de forma intensa y rápida, generalmente por infección bacteriana aguda. Cuando la demanda supera la producción madura habitual, la médula libera células antes de completar su maduración. Esto es un marcador de respuesta aguda, no de malignidad en este contexto clínico."
+},
+
+{
+    question: "Una mujer de 46 años con antecedente de lupus eritematoso sistémico en tratamiento con corticoides consulta por fiebre, tos seca y disnea leve. El hemograma muestra leucocitos 13,500/mm³ con neutrofilia y linfocitopenia marcada. No hay desviación a la izquierda ni signos claros de infección bacteriana. ¿Cuál es la explicación más probable del patrón hematológico?",
+    options: [
+        "Efecto de los glucocorticoides sobre redistribución leucocitaria",
+        "Infección bacteriana grave no detectada",
+        "Reacción alérgica sistémica",
+        "Producción excesiva de linfocitos"
+    ],
+    answer: 0,
+    explanation: "Los glucocorticoides producen neutrofilia relativa por redistribución (desmarginación) de neutrófilos hacia la circulación y, simultáneamente, linfocitopenia por redistribución y apoptosis. Este patrón puede confundirse con infección, pero la ausencia de desviación a la izquierda y la clínica no tan sugestiva ayudan a diferenciarlo. Es un ejemplo clásico de cómo los fármacos pueden alterar el hemograma sin que exista infección real."
+},
+
+{
+    question: "Un hombre de 34 años presenta fiebre, cefalea, mialgias intensas y dolor retroocular. Se sospecha dengue. El hemograma muestra leucopenia progresiva con neutropenia y plaquetas descendiendo. ¿Cuál es el mecanismo más importante detrás de la leucopenia en este caso?",
+    options: [
+        "Supresión transitoria de la médula ósea por infección viral",
+        "Consumo periférico exclusivo de neutrófilos",
+        "Destrucción autoinmune selectiva",
+        "Producción excesiva de monocitos"
+    ],
+    answer: 0,
+    explanation: "En infecciones virales como el dengue, el virus puede afectar directamente la médula ósea, reduciendo la producción de leucocitos. Además, puede haber destrucción periférica y redistribución. La leucopenia en este contexto es un marcador típico y no debe interpretarse como ausencia de infección, sino como característica de ciertas infecciones virales."
+},
+
+{
+    question: "Paciente de 60 años con antecedentes de tabaquismo presenta tos crónica, pérdida de peso y hemoptisis. El hemograma muestra leucocitos normales, pero con monocitosis persistente. ¿Por qué este hallazgo puede ser relevante?",
+    options: [
+        "Puede reflejar un proceso inflamatorio crónico o neoplásico",
+        "Es un hallazgo siempre benigno",
+        "Indica infección viral aguda",
+        "Descarta enfermedad grave"
+    ],
+    answer: 0,
+    explanation: "La monocitosis puede aparecer en procesos inflamatorios crónicos, infecciones prolongadas y también en ciertos contextos neoplásicos. En un paciente con síntomas constitucionales y sospecha de cáncer pulmonar, este hallazgo puede reflejar activación del sistema mononuclear-fagocítico frente a un proceso persistente. No es diagnóstico por sí solo, pero sí orientador."
+},
+
+{
+    question: "Un niño de 8 años consulta por prurito intenso, lesiones cutáneas y episodios recurrentes de broncoespasmo. El hemograma muestra eosinofilia marcada del 16%. ¿Por qué la eosinofilia puede contribuir directamente a los síntomas del paciente?",
+    options: [
+        "Porque los eosinófilos liberan mediadores inflamatorios que dañan tejidos",
+        "Porque producen hemoglobina",
+        "Porque inhiben la respuesta inmune",
+        "Porque destruyen bacterias"
+    ],
+    answer: 0,
+    explanation: "Los eosinófilos liberan proteínas citotóxicas, enzimas y mediadores inflamatorios que pueden dañar tejidos, especialmente en piel y vías respiratorias. En enfermedades alérgicas, no solo son un marcador, sino participantes activos en la patología."
+},
+
+{
+    question: "Un paciente con anemia presenta aumento de reticulocitos. ¿Qué interpretación es la más adecuada en el contexto de hemorragia reciente?",
+    options: [
+        "La médula está respondiendo activamente a la pérdida de sangre",
+        "Existe falla medular",
+        "Hay destrucción de leucocitos",
+        "Indica infección"
+    ],
+    answer: 0,
+    explanation: "Los reticulocitos son eritrocitos jóvenes. Su aumento indica que la médula está respondiendo adecuadamente a la pérdida de sangre, intentando compensar la anemia. Es un dato clave para diferenciar entre anemia por producción insuficiente y por pérdida o destrucción."
+},
+
+{
+    question: "Un paciente con insuficiencia renal crónica presenta anemia normocítica. ¿Cuál es el mecanismo principal?",
+    options: [
+        "Disminución de eritropoyetina",
+        "Hemorragia aguda",
+        "Destrucción inmunológica",
+        "Infección crónica"
+    ],
+    answer: 0,
+    explanation: "La eritropoyetina, producida por el riñón, estimula la producción de eritrocitos. En insuficiencia renal, su disminución lleva a anemia normocítica por producción insuficiente."
+},
+
+{
+    question: "Paciente con leucemia presenta leucocitos elevados pero infecciones frecuentes. ¿Por qué ocurre esto?",
+    options: [
+        "Los leucocitos son funcionalmente anormales",
+        "Hay exceso de anticuerpos",
+        "Los eritrocitos están disminuidos",
+        "Hay exceso de plaquetas"
+    ],
+    answer: 0,
+    explanation: "En leucemia, aunque el número de leucocitos puede ser alto, muchas células son inmaduras o disfuncionales, lo que compromete la respuesta inmune efectiva."
+},
+
+{
+    question: "Un paciente con neutropenia desarrolla fiebre. ¿Cuál es la conducta clínica más importante?",
+    options: [
+        "Iniciar tratamiento antibiótico empírico inmediato",
+        "Esperar resultados de cultivo",
+        "Administrar antihistamínicos",
+        "No hacer nada"
+    ],
+    answer: 0,
+    explanation: "La neutropenia febril es una urgencia médica. La falta de neutrófilos impide una respuesta adecuada, por lo que se deben iniciar antibióticos de inmediato."
+},
+
+{
+    question: "Paciente con anemia hemolítica presenta ictericia. ¿Por qué?",
+    options: [
+        "Aumento de bilirrubina por destrucción de eritrocitos",
+        "Disminución de plaquetas",
+        "Infección",
+        "Producción de eosinófilos"
+    ],
+    answer: 0,
+    explanation: "La hemólisis libera hemoglobina, que se metaboliza a bilirrubina, produciendo ictericia."
+},
+
+{
+    question: "Paciente con inflamación crónica presenta anemia. ¿Cuál es el mecanismo clave?",
+    options: [
+        "Secuestro de hierro y disminución de eritropoyesis",
+        "Hemorragia aguda",
+        "Producción excesiva de eritrocitos",
+        "Destrucción de plaquetas"
+    ],
+    answer: 0,
+    explanation: "La inflamación crónica altera el metabolismo del hierro y reduce la producción de eritrocitos."
+},
+
+{
+    question: "Paciente con esplenomegalia presenta trombocitopenia. ¿Por qué?",
+    options: [
+        "Secuestro esplénico de plaquetas",
+        "Producción excesiva",
+        "Infección viral",
+        "Alergia"
+    ],
+    answer: 0,
+    explanation: "El bazo agrandado puede secuestrar plaquetas, reduciendo su número en circulación."
+},
+
+{
+    question: "Paciente con infección viral presenta linfocitosis. ¿Por qué?",
+    options: [
+        "Activación del sistema inmune adaptativo",
+        "Destrucción bacteriana",
+        "Producción de neutrófilos",
+        "Inhibición medular"
+    ],
+    answer: 0,
+    explanation: "Los linfocitos son clave en la respuesta frente a virus, por lo que aumentan en infecciones virales."
+},
+
+{
+    question: "Paciente con anemia severa presenta taquicardia. ¿Por qué?",
+    options: [
+        "Compensación para mantener el aporte de oxígeno",
+        "Infección",
+        "Inflamación",
+        "Producción de eosinófilos"
+    ],
+    answer: 0,
+    explanation: "El cuerpo aumenta la frecuencia cardíaca para compensar la disminución de oxígeno transportado por la sangre."
+},
+
+{
+    question: "Paciente con leucopenia presenta infecciones recurrentes. ¿Por qué?",
+    options: [
+        "Disminución de la defensa inmunológica",
+        "Exceso de anticuerpos",
+        "Producción de eritrocitos",
+        "Aumento de plaquetas"
+    ],
+    answer: 0,
+    explanation: "Los leucocitos son esenciales para la defensa contra infecciones, por lo que su disminución aumenta el riesgo."
+},
+
+{
+    question: "Paciente con basofilia presenta prurito. ¿Cuál es la causa?",
+    options: [
+        "Liberación de histamina",
+        "Producción de eritrocitos",
+        "Infección",
+        "Hemorragia"
+    ],
+    answer: 0,
+    explanation: "Los basófilos liberan histamina, que causa prurito."
+},
+
+{
+    question: "Paciente con trombocitopenia presenta sangrado. ¿Por qué?",
+    options: [
+        "Disminución de la coagulación primaria",
+        "Aumento de eritrocitos",
+        "Infección",
+        "Producción de neutrófilos"
+    ],
+    answer: 0,
+    explanation: "Las plaquetas son esenciales para la coagulación inicial, por lo que su disminución causa sangrado."
+},
+
+{
+    question: "Paciente con infección bacteriana presenta fiebre. ¿Cuál es el mecanismo?",
+    options: [
+        "Liberación de pirógenos que actúan en el hipotálamo",
+        "Producción de eritrocitos",
+        "Inhibición inmune",
+        "Producción de histamina"
+    ],
+    answer: 0,
+    explanation: "Las citocinas actúan en el hipotálamo elevando el punto de regulación térmica."
+},
+
+{
+    question: "Paciente con hipoxia presenta aumento de eritrocitos. ¿Por qué?",
+    options: [
+        "Estimulación de eritropoyetina",
+        "Infección",
+        "Inflamación",
+        "Producción de eosinófilos"
+    ],
+    answer: 0,
+    explanation: "La hipoxia estimula la producción de eritropoyetina, aumentando eritrocitos."
+},
+
+{
+    question: "Paciente con enfermedad crónica presenta fatiga. ¿Por qué?",
+    options: [
+        "Anemia y alteración metabólica",
+        "Infección",
+        "Producción de plaquetas",
+        "Aumento de neutrófilos"
+    ],
+    answer: 0,
+    explanation: "La fatiga se explica por anemia y cambios metabólicos en enfermedades crónicas."
+}
+
+],
+clinicalCVRSSet13: [
+
+{
+    question: "Un varón de 69 años consulta por fiebre alta, escalofríos, tos productiva con abundante esputo purulento y dolor torácico que empeora con la inspiración. Refiere que desde hace dos días se siente progresivamente más disneico y débil. En la exploración se documenta taquipnea, saturación de oxígeno disminuida y estertores localizados en base pulmonar izquierda. La radiografía confirma consolidación lobar. El hemograma muestra leucocitos 20,300/mm³ con 87% de neutrófilos y bandas aumentadas. ¿Cuál es la interpretación más adecuada del patrón hematológico?",
+    options: [
+        "Respuesta medular intensa compatible con infección bacteriana aguda",
+        "Patrón típico de infección viral con activación linfoide",
+        "Hallazgo sugestivo de aplasia medular parcial",
+        "Reacción propia de insuficiencia suprarrenal primaria"
+    ],
+    answer: 0,
+    explanation: "El cuadro clínico es altamente sugestivo de neumonía bacteriana aguda, y el hemograma es concordante con ello. La neutrofilia marcada, junto con el aumento de bandas, indica que la médula ósea está respondiendo con rapidez a una agresión infecciosa importante y está liberando neutrófilos maduros e inmaduros a la circulación. Esto no significa por sí solo sepsis, pero sí una respuesta inflamatoria aguda del sistema inmune innato. En infecciones bacterianas piógenas, los neutrófilos son las células predominantes porque participan en la fagocitosis, liberación de enzimas y contención inicial del proceso."
+},
+
+{
+    question: "Una mujer de 43 años con antecedente de dermatitis atópica, rinitis alérgica y asma bronquial consulta por varios meses de tos nocturna, sibilancias, opresión torácica y prurito cutáneo generalizado. No ha tenido fiebre ni pérdida de peso, y el coproparasitario seriado es negativo. En el hemograma presenta eosinófilos 12%, con leucocitos totales dentro de límites normales. ¿Cuál es la explicación más probable de esta alteración?",
+    options: [
+        "Respuesta inmunológica de hipersensibilidad con activación eosinofílica",
+        "Infección bacteriana crónica con consumo de neutrófilos",
+        "Supresión de médula ósea con preservación selectiva eosinofílica",
+        "Fase inicial de neoplasia mieloproliferativa"
+    ],
+    answer: 0,
+    explanation: "La eosinofilia aquí encaja muy bien con un terreno atópico. Los eosinófilos se elevan en enfermedades alérgicas porque participan activamente en la inflamación mediada por citocinas como IL-5 y por mecanismos de hipersensibilidad. Además de ser un marcador, también contribuyen al daño tisular, sobre todo en vía aérea y piel, liberando proteínas citotóxicas y mediadores inflamatorios. El hecho de que no haya fiebre, pérdida de peso, parasitosis ni otros signos sistémicos fuertes refuerza que se trata de un fenómeno alérgico más que infeccioso o maligno."
+},
+
+{
+    question: "Un agricultor de 36 años acude por dolor abdominal crónico, episodios de diarrea, pérdida de peso, disminución del apetito y sensación de distensión posterior a las comidas. Vive en una zona sin red de agua potable y trabaja frecuentemente en campos húmedos sin protección adecuada. El hemograma muestra eosinofilia persistente del 13%, hemoglobina discretamente disminuida y ausencia de neutrofilia. ¿Cuál es la causa más probable de la eosinofilia?",
+    options: [
+        "Respuesta inmunitaria frente a una helmintiasis u otra parasitosis tisular",
+        "Infección bacteriana intestinal invasiva aguda",
+        "Leucemia mieloide crónica con predominio eosinofílico",
+        "Reacción leucemoide secundaria a deshidratación"
+    ],
+    answer: 0,
+    explanation: "La eosinofilia en un paciente con exposición epidemiológica de riesgo y síntomas digestivos crónicos sugiere fuertemente parasitosis, sobre todo por helmintos. Estas infecciones estimulan una respuesta inmune en la que los eosinófilos son particularmente relevantes, ya que ayudan a dañar organismos grandes que no pueden ser eliminados fácilmente por fagocitosis. La anemia leve puede acompañar este cuadro por pérdidas digestivas, inflamación crónica, malabsorción o incluso por el mismo parásito. En este caso, el contexto pesa mucho: no basta ver eosinofilia, hay que integrarla con la clínica y la exposición."
+},
+
+{
+    question: "Un varón de 61 años consulta por sudoración nocturna, prurito, pérdida de peso de varios meses y sensación de llenura precoz. En el examen físico destaca esplenomegalia. El hemograma muestra leucocitosis importante, presencia de células de la serie mieloide en distintos estadios de maduración y basofilia persistente. ¿Por qué la basofilia es especialmente importante en este caso?",
+    options: [
+        "Porque apoya la posibilidad de una proliferación mieloide clonal",
+        "Porque es el patrón más habitual de una infección viral",
+        "Porque confirma anemia aguda por sangrado oculto",
+        "Porque descarta enfermedad hematológica maligna"
+    ],
+    answer: 0,
+    explanation: "La basofilia persistente tiene mucho valor cuando se presenta junto con leucocitosis, síntomas constitucionales y esplenomegalia. Aunque los basófilos son escasos normalmente, su aumento sostenido puede ser una pista importante de una neoplasia mieloproliferativa, especialmente cuando el resto del cuadro también apunta a proliferación de la serie mieloide. No debe interpretarse como un dato aislado sin importancia. En clínica, los hallazgos pequeños del diferencial pueden adquirir gran peso cuando se insertan en un contexto compatible."
+},
+
+{
+    question: "Una mujer de 56 años con cirrosis hepática y artritis reumatoide de larga evolución acude a control. No tiene fiebre, ni baja de peso reciente, ni adenopatías, ni esplenomegalia progresiva. El hemograma muestra basofilia leve persistente en controles repetidos, sin leucocitosis marcada y sin blastos. ¿Cuál es la interpretación más razonable?",
+    options: [
+        "Basofilia reactiva asociada a enfermedades crónicas inflamatorias",
+        "Manifestación definitiva de leucemia aguda",
+        "Prueba de hemorragia digestiva activa",
+        "Signo de aplasia medular en recuperación"
+    ],
+    answer: 0,
+    explanation: "La basofilia no siempre implica malignidad. Cuando es leve, estable y aparece en un paciente con enfermedades inflamatorias o hepáticas crónicas, puede interpretarse como un hallazgo reactivo. La clave es valorar el conjunto: intensidad del aumento, persistencia, síntomas acompañantes y demás líneas celulares. Aquí faltan los elementos de alarma más fuertes para pensar en una hemopatía agresiva, por lo que una interpretación reactiva es más prudente."
+},
+
+{
+    question: "Un varón de 45 años consulta por fiebre vespertina, tos de larga evolución, sudoración nocturna y pérdida de peso de varios meses. La evaluación confirma tuberculosis pulmonar. El hemograma muestra monocitosis del 12%, anemia normocítica leve y ausencia de neutrofilia marcada. ¿Qué explica mejor el aumento de monocitos?",
+    options: [
+        "Activación de la respuesta inflamatoria crónica y del sistema mononuclear-fagocítico",
+        "Producción compensatoria de anticuerpos por monocitos",
+        "Falla medular con liberación indiscriminada de células inmaduras",
+        "Respuesta específica de alergia respiratoria"
+    ],
+    answer: 0,
+    explanation: "Los monocitos suelen aumentar en procesos crónicos, especialmente cuando la respuesta inmunitaria depende mucho de macrófagos tisulares, como ocurre en la tuberculosis. Los monocitos circulantes migran a tejidos y se convierten en macrófagos, células esenciales para la formación de granulomas y para la contención de patógenos intracelulares. Por eso, la monocitosis tiene sentido fisiopatológico en este contexto y es distinta del patrón de infecciones bacterianas agudas, donde predomina la neutrofilia."
+},
+
+{
+    question: "Una paciente de 51 años con antecedente de valvulopatía consulta por fiebre prolongada, anorexia, cansancio progresivo, pérdida de peso y un nuevo soplo cardíaco. Se diagnostica endocarditis bacteriana subaguda. En el hemograma presenta monocitosis persistente, hemoglobina disminuida y reactantes inflamatorios elevados. ¿Cuál es la mejor interpretación del hemograma?",
+    options: [
+        "Corresponde a una infección persistente con inflamación crónica sostenida",
+        "Sugiere una virosis autolimitada con anemia transitoria",
+        "Indica reacción alérgica a antibióticos recientes",
+        "Equivale a una pancitopenia oculta"
+    ],
+    answer: 0,
+    explanation: "La endocarditis bacteriana subaguda es un buen ejemplo de proceso infeccioso sostenido, no explosivo. La médula y el sistema inmune responden de manera distinta a como lo harían en una infección aguda de corta evolución. La monocitosis y la anemia normocítica encajan con inflamación crónica. El valor del hemograma aquí no está en señalar simplemente 'infección', sino en sugerir que se trata de un proceso mantenido en el tiempo."
+},
+
+{
+    question: "Un hombre de 38 años con infección por VIH avanzada, sin tratamiento regular, consulta por fiebre, diarrea crónica, candidiasis oral y pérdida de peso significativa. El hemograma muestra leucocitos 2,400/mm³ con neutrófilos absolutos de 800/mm³. No ha recibido quimioterapia. ¿Cuál es la relevancia clínica principal de este hallazgo?",
+    options: [
+        "Aumenta el riesgo de infecciones bacterianas y fúngicas graves por déficit de defensa innata",
+        "Confirma por sí solo leucemia mieloide aguda",
+        "Disminuye la inflamación y reduce el riesgo séptico",
+        "Afecta solo la respuesta frente a virus, sin impacto sobre bacterias"
+    ],
+    answer: 0,
+    explanation: "La neutropenia es clínicamente muy importante porque los neutrófilos son una de las principales barreras contra bacterias y hongos. Cuando el recuento absoluto cae significativamente, el riesgo de infecciones graves aumenta. En un paciente con VIH avanzado, ese riesgo es aún mayor, ya que puede coexistir con otros defectos inmunológicos. El hemograma no solo describe una citopenia: ayuda a estratificar riesgo y a entender la vulnerabilidad del paciente."
+},
+
+{
+    question: "Una mujer de 29 años consulta por fiebre alta, cefalea, dolor abdominal y malestar general. El hemocultivo confirma fiebre tifoidea. En el hemograma se observa leucopenia con neutropenia moderada. Un estudiante considera que el diagnóstico debe ser incorrecto porque 'si es infección bacteriana debería tener neutrofilia'. ¿Cuál es la respuesta más adecuada?",
+    options: [
+        "No todas las infecciones bacterianas producen neutrofilia; algunas pueden cursar con leucopenia",
+        "La fiebre tifoidea es en realidad una infección viral",
+        "La neutropenia solo se ve en pacientes con cáncer hematológico",
+        "Las bacterias nunca afectan la médula ósea"
+    ],
+    answer: 0,
+    explanation: "Ese razonamiento es demasiado simplista. Aunque muchas infecciones bacterianas agudas producen neutrofilia, algunas bacterias, como Salmonella typhi, pueden asociarse a leucopenia o neutropenia. Esto depende del microorganismo, del tiempo de evolución y de los mecanismos por los que el agente interactúa con la médula y el sistema inmune. El hemograma, correctamente interpretado, no contradice el diagnóstico; al contrario, puede ser completamente compatible con él."
+},
+
+{
+    question: "Un varón de 60 años recibe sulfonamidas por una infección urinaria. Una semana después consulta por fiebre, odinofagia intensa y úlceras en mucosa oral. El hemograma muestra leucocitos 1,900/mm³ con neutrófilos absolutos de 650/mm³, mientras que hemoglobina y plaquetas permanecen normales. ¿Cuál es el problema hematológico más probable?",
+    options: [
+        "Neutropenia inducida por fármacos",
+        "Pancitopenia aplásica completa",
+        "Leucocitosis reactiva en resolución",
+        "Linfocitosis con falso descenso neutrofílico"
+    ],
+    answer: 0,
+    explanation: "La cronología con el fármaco y la afectación predominante de neutrófilos, con preservación de otras series, orientan claramente a neutropenia farmacológica. Esto es clínicamente peligroso porque la fiebre en un paciente con neutropenia importante puede ser la primera y única pista de una infección grave. No es necesario que haya pancitopenia para que el cuadro sea serio. El compromiso aislado de la serie neutrofílica ya cambia de forma importante el riesgo y la conducta."
+},
+
+{
+    question: "Un hombre de 30 años proveniente de zona selvática consulta por episodios cíclicos de fiebre, escalofríos, cefalea y sudoración profusa. La gota gruesa confirma malaria. El hemograma muestra leucopenia y trombocitopenia leves, sin eosinofilia importante. ¿Cuál es la mejor interpretación de la ausencia de eosinofilia marcada?",
+    options: [
+        "No todas las infecciones parasitarias producen eosinofilia dominante",
+        "La ausencia de eosinofilia excluye cualquier parasitosis",
+        "La malaria es necesariamente una infección bacteriana mixta",
+        "La eosinofilia solo desaparece si hay leucemia"
+    ],
+    answer: 0,
+    explanation: "Es un error generalizar que toda parasitosis produce eosinofilia. Ese patrón es mucho más típico de helmintos y de ciertos parásitos con fase tisular. La malaria tiene una fisiopatología diferente, y el hemograma puede mostrar leucopenia, trombocitopenia o anemia sin eosinofilia destacada. Lo importante es interpretar el hallazgo según el agente específico, no solo según la categoría amplia de 'parasitarias'."
+},
+
+{
+    question: "Una adolescente de 17 años consulta por fiebre, odinofagia intensa, adenopatías cervicales, gran astenia y leve hepatomegalia. El hemograma revela leucocitosis con predominio linfocitario y linfocitos atípicos. ¿Qué representan más probablemente esas células atípicas?",
+    options: [
+        "Linfocitos reactivos activados por estimulación antigénica viral",
+        "Blastos mieloides de una leucemia aguda",
+        "Basófilos grandes con vacuolización",
+        "Plaquetas gigantes mal identificadas"
+    ],
+    answer: 0,
+    explanation: "En este contexto, los linfocitos atípicos suelen ser linfocitos reactivos, no células malignas. Corresponden a una respuesta inmune intensa frente a infección viral. La morfología alterada refleja activación funcional, no necesariamente transformación neoplásica. Esta distinción es crucial, porque la palabra 'atípico' puede inducir a error si no se interpreta en el contexto clínico adecuado."
+},
+
+{
+    question: "Un hombre de 44 años consulta por pérdida de peso, hipotensión, fatiga, náuseas y oscurecimiento de piel y mucosas. El hemograma muestra linfocitosis relativa sin leucocitosis total, y no hay datos de infección. ¿Qué explicación integra mejor el cuadro?",
+    options: [
+        "Insuficiencia suprarrenal primaria con alteración del patrón leucocitario",
+        "Leucemia linfoide crónica en fase inicial",
+        "Reacción leucemoide por estrés",
+        "Hemorragia digestiva crónica"
+    ],
+    answer: 0,
+    explanation: "La clínica es muy sugerente de insuficiencia suprarrenal primaria. En ese contexto, la linfocitosis relativa puede formar parte del patrón hematológico. El hemograma aquí no es diagnóstico por sí solo, pero acompaña de manera coherente a una alteración endocrina sistémica. Esto demuestra que las variaciones del diferencial no pertenecen exclusivamente al campo de infecciones o neoplasias hematológicas."
+},
+
+{
+    question: "Una mujer de 53 años con síndrome de Cushing presenta infecciones cutáneas de repetición, debilidad muscular proximal, obesidad centrípeta y piel frágil. El hemograma muestra linfocitopenia sostenida. ¿Cuál es el mecanismo más importante?",
+    options: [
+        "Redistribución y apoptosis de linfocitos inducidas por glucocorticoides",
+        "Expansión clonal mieloide secundaria",
+        "Destrucción esplénica selectiva de linfocitos",
+        "Pérdida digestiva de linfocitos por enteropatía"
+    ],
+    answer: 0,
+    explanation: "Los glucocorticoides alteran la distribución de linfocitos y favorecen la disminución de ciertas poblaciones circulantes, además de inducir apoptosis en algunas de ellas. Por eso, la linfocitopenia es coherente con hipercortisolismo. Este dato también ayuda a entender por qué estos pacientes tienen mayor vulnerabilidad a infecciones: no es solo una cuestión metabólica, sino también inmunológica."
+},
+
+{
+    question: "Un niño de 6 años con diarrea crónica, edema, bajo peso y retraso en el crecimiento consulta por infecciones respiratorias repetidas. En controles seriados se documenta linfocitopenia persistente. No se han encontrado datos de leucemia ni de inmunodeficiencia congénita. ¿Cuál es la mejor explicación fisiopatológica?",
+    options: [
+        "Desnutrición y pérdidas digestivas crónicas con deterioro de la inmunidad celular",
+        "Respuesta típica de cualquier diarrea aguda autolimitada",
+        "Secuestro esplénico selectivo de linfocitos por hipertensión portal",
+        "Producción exagerada de monocitos con desplazamiento relativo"
+    ],
+    answer: 0,
+    explanation: "La desnutrición afecta de forma importante el sistema inmune, especialmente en niños. Si además hay pérdidas digestivas prolongadas, la capacidad de sostener una respuesta inmunológica adecuada disminuye. La linfocitopenia no es solo un hallazgo de laboratorio: ayuda a explicar la frecuencia de infecciones y el pobre estado general del paciente. El cuerpo necesita un sustrato nutricional suficiente para mantener la hematopoyesis y la función inmune."
+},
+
+{
+    question: "Un varón de 67 años consulta por palidez progresiva, petequias, gingivorragia e infecciones de repetición. El hemograma muestra anemia, leucopenia y trombocitopenia. El aspirado medular evidencia hipocelularidad marcada sin infiltración tumoral. ¿Cuál es la interpretación sindrómica más adecuada?",
+    options: [
+        "Pancitopenia por falla global de la médula ósea",
+        "Reacción leucemoide prolongada con consumo plaquetario",
+        "Anemia aguda con leucopenia transitoria",
+        "Linfocitosis infecciosa con trombocitopenia reactiva"
+    ],
+    answer: 0,
+    explanation: "La disminución simultánea de las tres series hematológicas define una pancitopenia. Si la médula es hipocelular, el mecanismo más lógico es una falla global de la hematopoyesis, como en aplasia medular. La clínica es congruente: anemia produce fatiga y palidez; leucopenia favorece infecciones; trombocitopenia causa sangrado mucocutáneo. Entender el problema como un síndrome global evita abordar cada alteración como si fuera independiente."
+},
+
+{
+    question: "Una trabajadora de 42 años de una industria química consulta por cansancio severo, equimosis espontáneas, gingivorragia e infecciones frecuentes. En el hemograma presenta pancitopenia. Refiere exposición laboral crónica a solventes. ¿Por qué el antecedente ocupacional es especialmente importante?",
+    options: [
+        "Porque algunos tóxicos como el benceno pueden lesionar directamente la médula ósea",
+        "Porque los solventes producen solo neutrofilia reactiva",
+        "Porque descarta por completo una causa hematológica primaria",
+        "Porque las exposiciones laborales no tienen relevancia clínica real"
+    ],
+    answer: 0,
+    explanation: "La historia ocupacional puede ser decisiva. Ciertos solventes, especialmente el benceno, tienen toxicidad medular y pueden producir insuficiencia hematopoyética. Esto se traduce en pancitopenia. Sin preguntar por exposiciones, el origen tóxico del cuadro podría pasar desapercibido. En medicina, el hemograma orienta, pero la anamnesis bien hecha muchas veces revela la causa."
+},
+
+{
+    question: "Un paciente de 64 años con cáncer metastásico presenta fatiga intensa, dolor óseo, sangrado mucoso e infecciones repetidas. El estudio medular muestra infiltración tumoral extensa del tejido hematopoyético. En el hemograma hay anemia, leucopenia y trombocitopenia. ¿Cuál es la mejor explicación de este patrón?",
+    options: [
+        "Desplazamiento de la hematopoyesis normal por invasión tumoral de médula ósea",
+        "Hemorragia digestiva crónica como único mecanismo",
+        "Respuesta inflamatoria con consumo selectivo de neutrófilos",
+        "Linfocitosis relativa con falsa trombocitopenia"
+    ],
+    answer: 0,
+    explanation: "Cuando la médula ósea es infiltrada por tumor, disminuye el espacio funcional para producir células sanguíneas normales. El resultado puede ser pancitopenia. Esto explica por qué un paciente oncológico puede presentar simultáneamente síntomas de anemia, sangrado e infecciones. No es necesario que el tumor sea primariamente hematológico para producir un cuadro hematológico severo si invade la médula."
+},
+
+{
+    question: "Una mujer de 45 años con colitis ulcerativa de larga evolución consulta por cansancio progresivo, palidez y menor tolerancia al ejercicio. No refiere episodios recientes de sangrado abundante. El hemograma muestra hemoglobina baja, VCM normal y ausencia de reticulocitosis importante. ¿Cuál es la explicación más probable de la anemia?",
+    options: [
+        "Anemia de enfermedad crónica por inflamación persistente y eritropoyesis ineficiente",
+        "Hemorragia aguda con respuesta medular máxima",
+        "Hemólisis intravascular severa",
+        "Deficiencia absoluta de neutrófilos con falsa anemia"
+    ],
+    answer: 0,
+    explanation: "La anemia de enfermedad crónica aparece cuando la inflamación persistente altera la utilización del hierro, reduce la respuesta eritropoyética y modifica la producción medular. Por eso el VCM puede ser normal y los reticulocitos no estar elevados. El problema no es una pérdida masiva aguda, sino una producción subóptima en un entorno inflamatorio sostenido. Esto encaja muy bien con enfermedades inflamatorias intestinales crónicas."
+},
+
+{
+    question: "Un varón de 74 años anticoagulado con warfarina llega a emergencia por melena, taquicardia, hipotensión y compromiso del estado mental. La hemoglobina ha caído de manera brusca en comparación con controles recientes, mientras que leucocitos y plaquetas permanecen relativamente conservados. ¿Cuál es la clasificación más adecuada del problema hematológico principal?",
+    options: [
+        "Anemia aguda por pérdida sanguínea digestiva favorecida por anticoagulación",
+        "Anemia crónica por enfermedad sistémica",
+        "Pancitopenia tóxica inducida por warfarina",
+        "Linfocitopenia con hipovolemia secundaria"
+    ],
+    answer: 0,
+    explanation: "La rapidez del descenso de hemoglobina y la presencia de signos de inestabilidad hemodinámica indican una anemia aguda por hemorragia. La warfarina no está causando aquí una falla medular, sino facilitando el sangrado. Diferenciar anemia aguda de crónica es esencial, porque la conducta cambia radicalmente: en la aguda el problema inmediato es la perfusión y la pérdida rápida de capacidad de transporte de oxígeno."
+}
+
+],
+clinicalCVRSSet14: [
+
+{
+    question: "Un varón de 67 años acude a emergencia por dolor torácico opresivo de inicio súbito, irradiado a hombro izquierdo, acompañado de diaforesis, náuseas y sensación de falta de aire. Se confirma un infarto agudo de miocardio. Cuarenta horas después, el hemograma muestra leucocitos 16,800/mm³ con 86% de neutrófilos, sin escalofríos, sin foco infeccioso evidente y con radiografía de tórax sin consolidaciones. El médico interno plantea que probablemente se trata de una infección bacteriana hospitalaria temprana. ¿Cuál es la mejor interpretación del hemograma en este contexto?",
+    options: [
+        "La neutrofilia puede explicarse por inflamación estéril secundaria a necrosis miocárdica",
+        "La leucocitosis confirma necesariamente una neumonía intrahospitalaria",
+        "El patrón obliga a sospechar leucemia mieloide aguda",
+        "La elevación de neutrófilos indica una reacción alérgica medicamentosa"
+    ],
+    answer: 0,
+    explanation: "El infarto agudo de miocardio no solo produce isquemia, sino muerte celular, y el tejido necrótico desencadena una respuesta inflamatoria potente. Esa inflamación es estéril, es decir, no causada por microorganismos, pero genera liberación de citocinas y señales de daño que estimulan la médula ósea y movilizan neutrófilos a la circulación. Por eso puede aparecer leucocitosis neutrofílica en ausencia de infección. El error clínico sería interpretar automáticamente toda leucocitosis como sepsis o neumonía. Para hablar de infección, se necesita un foco clínico, hallazgos radiológicos o microbiológicos, y no solo un número elevado de leucocitos."
+},
+
+{
+    question: "Una mujer de 44 años sufre quemaduras extensas en tórax, abdomen y ambos miembros superiores tras un accidente doméstico. Durante las primeras 24 horas presenta fiebre de 38 °C, taquicardia y leucocitos 22,100/mm³ con marcado predominio de neutrófilos. No hay secreción purulenta, los bordes de las lesiones no muestran celulitis y los cultivos iniciales son negativos. ¿Qué interpretación es la más adecuada?",
+    options: [
+        "Respuesta inflamatoria sistémica secundaria a daño tisular extenso",
+        "Sepsis bacteriana confirmada por hemograma",
+        "Aplasia medular con liberación compensadora de neutrófilos",
+        "Parasitosis cutánea con respuesta granulocítica"
+    ],
+    answer: 0,
+    explanation: "Las quemaduras extensas pueden desencadenar un síndrome de respuesta inflamatoria sistémica incluso sin infección. El daño tisular masivo libera mediadores proinflamatorios que activan el endotelio, aumentan la permeabilidad vascular y estimulan la salida de neutrófilos desde la médula. En esta fase temprana, el hemograma puede parecer el de una infección grave, pero por sí solo no la demuestra. La evolución clínica, el estado de las heridas, los cultivos y los cambios hemodinámicos son fundamentales para distinguir inflamación estéril de infección verdadera."
+},
+
+{
+    question: "Un hombre de 29 años con antecedentes de asma persistente moderada y dermatitis atópica consulta por disnea sibilante, tos nocturna, prurito cutáneo y congestión nasal casi diaria. No tiene fiebre ni ha viajado recientemente. El hemograma muestra eosinófilos 11.5%, con resto del recuento leucocitario sin alteraciones significativas. ¿Cuál es la mejor explicación fisiopatológica para este hallazgo?",
+    options: [
+        "Respuesta inmunológica alérgica con activación y reclutamiento eosinofílico",
+        "Supresión selectiva de la serie neutrofílica por infección bacteriana crónica",
+        "Producción monoclonal de eosinófilos por mielofibrosis",
+        "Consumo periférico de linfocitos con aumento compensatorio de eosinófilos"
+    ],
+    answer: 0,
+    explanation: "Los eosinófilos son células efectoras importantes en enfermedades alérgicas. En asma, dermatitis atópica y rinitis, se activan por mediadores inmunológicos y contribuyen al daño tisular mediante liberación de proteínas citotóxicas, citoquinas y leucotrienos. La eosinofilia aquí no es un hallazgo casual: refleja una inflamación alérgica de base. Además, en el asma, una mayor actividad eosinofílica puede asociarse con peor control clínico y mayor hiperreactividad bronquial."
+},
+
+{
+    question: "Un agricultor de 40 años consulta por dolor abdominal crónico, distensión, diarrea intermitente, pérdida de peso y sensación de cansancio desde hace dos meses. Vive en una zona rural con saneamiento deficiente y trabaja frecuentemente en suelos húmedos sin protección. El hemograma muestra eosinofilia persistente del 14% y hemoglobina discretamente disminuida. ¿Cuál es la causa más probable de la alteración del recuento diferencial?",
+    options: [
+        "Respuesta inmune frente a helmintos u otras parasitosis con fase tisular",
+        "Infección bacteriana aguda invasiva del colon",
+        "Síndrome mielodisplásico con desviación eosinofílica",
+        "Insuficiencia suprarrenal primaria"
+    ],
+    answer: 0,
+    explanation: "La eosinofilia en un paciente con exposición epidemiológica compatible y síntomas digestivos crónicos sugiere con fuerza parasitosis, sobre todo helmintiasis. Estas infecciones activan una respuesta inmune distinta a la de bacterias y virus, porque los parásitos grandes no pueden ser eliminados fácilmente por fagocitosis. Los eosinófilos participan liberando sustancias que dañan la superficie del parásito. La anemia leve puede coexistir por inflamación crónica, malabsorción, pérdidas digestivas o por el mismo efecto del parásito."
+},
+
+{
+    question: "Un varón de 64 años acude por pérdida de peso no intencional, sudoración nocturna, prurito generalizado y sensación de plenitud precoz. En el examen físico se detecta esplenomegalia. El hemograma revela leucocitosis marcada con células mieloides en diferentes etapas de maduración y basofilia persistente. ¿Por qué la basofilia adquiere especial importancia diagnóstica en este caso?",
+    options: [
+        "Porque sugiere una proliferación clonal de la serie mieloide",
+        "Porque es un hallazgo típico de infección viral respiratoria",
+        "Porque indica hemorragia digestiva crónica",
+        "Porque confirma alergia sistémica como causa de la esplenomegalia"
+    ],
+    answer: 0,
+    explanation: "La basofilia persistente es poco común en situaciones benignas. Cuando aparece junto con leucocitosis importante, síntomas constitucionales y esplenomegalia, sugiere fuertemente un trastorno mieloproliferativo. En clínica, no basta con ver un leucocito total alto; el diferencial ayuda a orientar hacia el tipo de proceso. Los basófilos, aunque son pocos en condiciones normales, pueden ser una pista diagnóstica muy útil cuando aumentan de forma sostenida y acompañan otros signos de proliferación mieloide."
+},
+
+{
+    question: "Una mujer de 55 años con antecedente de cirrosis hepática y artritis reumatoide de larga evolución acude a control de rutina. No presenta fiebre, ni pérdida de peso reciente, ni adenopatías, ni síntomas de progresión sistémica. El hemograma muestra basofilia leve persistente, sin blastos ni leucocitosis marcada. ¿Cuál es la interpretación más prudente?",
+    options: [
+        "Puede tratarse de una basofilia reactiva asociada a enfermedades crónicas",
+        "Debe considerarse leucemia aguda hasta demostrar lo contrario",
+        "Es un marcador específico de sangrado digestivo activo",
+        "Refleja necesariamente necrosis tisular reciente"
+    ],
+    answer: 0,
+    explanation: "No toda basofilia implica malignidad. Si el aumento es leve, persistente y aparece en un contexto de inflamación crónica o hepatopatía, puede ser un hallazgo reactivo. La interpretación correcta depende del contexto: intensidad de la basofilia, presencia o no de blastos, leucocitosis marcada, esplenomegalia progresiva y síntomas constitucionales. En esta paciente, la estabilidad clínica y la ausencia de otros signos de alarma apoyan una lectura más conservadora."
+},
+
+{
+    question: "Un varón de 47 años consulta por fiebre vespertina, tos crónica, expectoración ocasional con estrías hemáticas y pérdida de peso progresiva. La evaluación microbiológica confirma tuberculosis pulmonar. El hemograma muestra monocitosis del 12%, anemia normocítica leve y neutrófilos en rango alto-normal, sin neutrofilia franca. ¿Qué explica mejor el aumento de monocitos?",
+    options: [
+        "Activación del sistema mononuclear-fagocítico en una infección crónica",
+        "Liberación masiva de anticuerpos por monocitos circulantes",
+        "Producción medular desorganizada propia de leucemia aguda",
+        "Respuesta alérgica pulmonar de larga evolución"
+    ],
+    answer: 0,
+    explanation: "La monocitosis es coherente con una infección crónica como la tuberculosis, donde los monocitos migran a los tejidos y se diferencian en macrófagos, células fundamentales para contener al bacilo y formar granulomas. A diferencia de las infecciones piógenas agudas, en las que predominan los neutrófilos, aquí el patrón refleja un proceso persistente, más organizado inmunológicamente y sostenido en el tiempo. La anemia asociada también encaja con inflamación crónica."
+},
+
+{
+    question: "Una mujer de 49 años con antecedente de enfermedad valvular consulta por fiebre intermitente, astenia progresiva, pérdida de peso, anorexia y aparición de un nuevo soplo cardíaco. Se confirma endocarditis bacteriana subaguda. En el hemograma se documenta monocitosis persistente y anemia moderada. ¿Cuál es la mejor interpretación del patrón hematológico?",
+    options: [
+        "Refleja una infección sostenida con inflamación crónica mantenida",
+        "Es el patrón típico de una virosis autolimitada",
+        "Corresponde a una alergia medicamentosa subclínica",
+        "Indica hemorragia aguda con consumo leucocitario"
+    ],
+    answer: 0,
+    explanation: "La endocarditis subaguda es un ejemplo clásico de infección prolongada. El sistema inmune no responde como en una infección bacteriana explosiva de inicio brusco, sino con activación sostenida. Esto puede reflejarse en monocitosis y en una anemia inflamatoria. El hemograma, en este caso, ayuda a reforzar la idea de un proceso persistente más que de una agresión aguda única."
+},
+
+{
+    question: "Un hombre de 39 años con infección por VIH avanzada, sin tratamiento regular, consulta por fiebre, candidiasis oral, diarrea crónica y pérdida de peso importante. El hemograma muestra leucocitos 2,600/mm³ con neutrófilos absolutos de 850/mm³. ¿Por qué este hallazgo cambia de forma importante la evaluación clínica del paciente?",
+    options: [
+        "Porque aumenta mucho el riesgo de infecciones bacterianas y fúngicas invasivas",
+        "Porque confirma por sí solo una leucemia mieloide",
+        "Porque reduce el riesgo de sepsis al limitar la inflamación",
+        "Porque solo tiene relevancia si también hay eosinofilia"
+    ],
+    answer: 0,
+    explanation: "La neutropenia significativa implica una disminución de una de las líneas de defensa más importantes contra bacterias y hongos. En un paciente con VIH, este problema se suma a otros defectos inmunológicos, por lo que el riesgo de infecciones graves es aún mayor. El valor del hallazgo no es meramente descriptivo: obliga a interpretar fiebre e infecciones con un umbral de alarma más alto y a considerar un enfoque más agresivo en el estudio y manejo."
+},
+
+{
+    question: "Una mujer de 28 años consulta por fiebre alta, cefalea, dolor abdominal y malestar general. El hemocultivo confirma fiebre tifoidea. En el hemograma se encuentra leucopenia con neutropenia moderada. Un estudiante sostiene que el diagnóstico no puede ser correcto porque las bacterias producen neutrofilia. ¿Cuál es la mejor respuesta?",
+    options: [
+        "Algunas infecciones bacterianas pueden cursar con leucopenia o neutropenia, según el agente y el contexto",
+        "La fiebre tifoidea es una infección viral mal clasificada",
+        "La neutropenia solo aparece en pacientes con quimioterapia",
+        "Si hay bacterias, la médula nunca puede disminuir leucocitos"
+    ],
+    answer: 0,
+    explanation: "La idea de que toda infección bacteriana genera neutrofilia es una simplificación incorrecta. Algunas bacterias, como Salmonella typhi, pueden asociarse a leucopenia y neutropenia. Esto depende de cómo interactúe el microorganismo con el sistema inmune, del estado del huésped y del momento evolutivo. En medicina, el hemograma debe leerse de forma contextual, no como una regla rígida."
+},
+
+{
+    question: "Un varón de 62 años recibe sulfonamidas por infección urinaria. Una semana después consulta por fiebre, odinofagia intensa y úlceras dolorosas en la mucosa oral. El hemograma revela leucocitos 1,800/mm³ con neutrófilos absolutos de 600/mm³, mientras que hemoglobina y plaquetas permanecen normales. ¿Cuál es el diagnóstico hematológico más probable?",
+    options: [
+        "Neutropenia farmacológica aislada",
+        "Pancitopenia aplásica completa",
+        "Leucocitosis reactiva en resolución",
+        "Linfocitosis con error de laboratorio"
+    ],
+    answer: 0,
+    explanation: "La asociación temporal con el fármaco y la afectación selectiva de los neutrófilos orientan a neutropenia inducida por medicamentos. La presencia de fiebre y úlceras mucosas la vuelve especialmente relevante, porque un paciente con neutropenia profunda puede deteriorarse rápido frente a infecciones. El hecho de que hemoglobina y plaquetas estén conservadas ayuda a diferenciarla de una pancitopenia global."
+},
+
+{
+    question: "Un hombre de 31 años procedente de zona selvática consulta por fiebre intermitente, escalofríos, cefalea intensa y sudoración profusa. La gota gruesa confirma malaria. El hemograma muestra leucopenia y trombocitopenia leves, sin eosinofilia marcada. ¿Qué enseñanza clínica deja este patrón?",
+    options: [
+        "No todas las parasitosis producen eosinofilia dominante",
+        "La ausencia de eosinofilia descarta cualquier infección parasitaria",
+        "La malaria se comporta como infección bacteriana típica",
+        "La trombocitopenia excluye etiología infecciosa"
+    ],
+    answer: 0,
+    explanation: "Es un error pensar que toda enfermedad parasitaria debe dar eosinofilia. Ese patrón es más típico de helmintos y de ciertos parásitos con fase tisular. La malaria tiene otra fisiopatología y puede dar leucopenia, trombocitopenia o anemia. Esto recuerda que el laboratorio debe interpretarse según el agente específico y no solo según una categoría amplia como 'parásitos'."
+},
+
+{
+    question: "Una adolescente de 18 años consulta por fiebre, odinofagia intensa, adenopatías cervicales dolorosas, astenia marcada y hepatomegalia leve. El hemograma muestra leucocitosis con predominio linfocitario y linfocitos atípicos. ¿Qué representan con mayor probabilidad esos linfocitos atípicos?",
+    options: [
+        "Linfocitos reactivos activados por una respuesta viral intensa",
+        "Blastos malignos equivalentes a leucemia aguda",
+        "Basófilos con cambios degenerativos",
+        "Neutrófilos inmaduros mal clasificados"
+    ],
+    answer: 0,
+    explanation: "En este contexto, los linfocitos atípicos suelen ser células reactivas, no malignas. Su morfología cambia porque han sido fuertemente estimulados por antígenos virales. La clave diagnóstica no es solo la célula, sino la combinación con clínica compatible: fiebre, faringitis, adenopatías y hepatomegalia leve. El error común es interpretar 'atípico' como sinónimo de cáncer, cuando en realidad muchas veces significa simplemente 'reactivo'."
+},
+
+{
+    question: "Un hombre de 45 años consulta por pérdida de peso, hipotensión, náuseas, fatiga intensa y oscurecimiento progresivo de piel y mucosas. El hemograma muestra linfocitosis relativa sin leucocitosis total, y no hay datos de infección aguda. ¿Qué interpretación integra mejor el cuadro clínico y hematológico?",
+    options: [
+        "Insuficiencia suprarrenal primaria con alteración del diferencial leucocitario",
+        "Leucemia linfoide crónica en fase inicial",
+        "Reacción leucemoide por estrés físico",
+        "Hemorragia digestiva oculta"
+    ],
+    answer: 0,
+    explanation: "La insuficiencia suprarrenal primaria puede acompañarse de linfocitosis relativa. Aquí el hemograma no es diagnóstico por sí solo, pero es coherente con el contexto endocrino. La clínica de hipotensión, hiperpigmentación, fatiga y síntomas digestivos orienta más a Addison que a una hemopatía. Esto demuestra que el hemograma también puede reflejar alteraciones hormonales sistémicas."
+},
+
+{
+    question: "Una mujer de 54 años con síndrome de Cushing presenta obesidad centrípeta, debilidad muscular proximal, piel frágil e infecciones cutáneas de repetición. En el hemograma se observa linfocitopenia sostenida. ¿Cuál es el mecanismo más importante para explicar ese hallazgo?",
+    options: [
+        "Redistribución y apoptosis linfocitaria inducidas por glucocorticoides",
+        "Pérdida digestiva selectiva de linfocitos",
+        "Expansión clonal mieloide por hipercortisolismo",
+        "Secuestro esplénico exclusivo de linfocitos"
+    ],
+    answer: 0,
+    explanation: "Los glucocorticoides disminuyen el número de linfocitos circulantes por redistribución hacia otros compartimentos y por efectos sobre la supervivencia de algunas subpoblaciones. Por eso la linfocitopenia es una consecuencia lógica del hipercortisolismo. Clínicamente, este hallazgo ayuda a explicar parte de la inmunosupresión y la susceptibilidad a infecciones en estos pacientes."
+},
+
+{
+    question: "Un niño de 7 años con diarrea crónica, edema, bajo peso y retraso del crecimiento es llevado a consulta por infecciones respiratorias repetidas. Los controles de laboratorio muestran linfocitopenia persistente. No hay evidencia de leucemia ni de inmunodeficiencia congénita documentada. ¿Cuál es la mejor explicación fisiopatológica?",
+    options: [
+        "Desnutrición y pérdidas digestivas crónicas con deterioro de la inmunidad celular",
+        "Respuesta típica de cualquier gastroenteritis viral aguda",
+        "Producción excesiva de monocitos con desplazamiento porcentual",
+        "Secuestro esplénico secundario a cirrosis"
+    ],
+    answer: 0,
+    explanation: "La desnutrición afecta de manera profunda el sistema inmune, especialmente en niños. Si además existe enteropatía o pérdida digestiva prolongada, la capacidad para mantener poblaciones linfocitarias adecuadas disminuye aún más. Por eso la linfocitopenia aquí no es un dato aislado: ayuda a explicar la susceptibilidad a infecciones y el deterioro clínico global del niño."
+},
+
+{
+    question: "Un varón de 68 años consulta por palidez progresiva, petequias, gingivorragia e infecciones respiratorias recurrentes. El hemograma muestra anemia, leucopenia y trombocitopenia. El aspirado medular evidencia hipocelularidad marcada sin infiltración tumoral. ¿Cuál es la mejor interpretación sindrómica?",
+    options: [
+        "Pancitopenia por falla global de la médula ósea",
+        "Anemia aguda con trombocitopenia reactiva",
+        "Reacción leucemoide con consumo periférico",
+        "Linfocitosis infecciosa complicada"
+    ],
+    answer: 0,
+    explanation: "Cuando están disminuidas simultáneamente las tres series sanguíneas, el cuadro corresponde a una pancitopenia. Si además la médula está hipocelular, el mecanismo más razonable es una falla global de la hematopoyesis, como en aplasia medular. La clínica se entiende perfectamente desde ahí: anemia produce fatiga y palidez, leucopenia favorece infecciones, y trombocitopenia causa sangrado mucocutáneo."
+},
+
+{
+    question: "Una trabajadora de 43 años de una industria química consulta por cansancio severo, equimosis espontáneas, gingivorragia e infecciones frecuentes. El hemograma revela pancitopenia. Refiere exposición laboral crónica a solventes. ¿Por qué este dato ocupacional tiene tanto valor?",
+    options: [
+        "Porque algunos solventes, especialmente el benceno, pueden lesionar directamente la médula ósea",
+        "Porque descarta enfermedades hematológicas primarias",
+        "Porque explica solo la trombocitopenia, no las otras citopenias",
+        "Porque la exposición industrial causa exclusivamente hemorragia digestiva"
+    ],
+    answer: 0,
+    explanation: "Algunos tóxicos ocupacionales tienen afinidad por la médula ósea y pueden producir insuficiencia hematopoyética. El benceno es un ejemplo clásico. Por eso una buena historia laboral puede ser decisiva para explicar una pancitopenia. El hemograma orienta al síndrome, pero la anamnesis ocupacional puede acercar a la etiología."
+},
+
+{
+    question: "Un paciente de 63 años con cáncer metastásico presenta fatiga extrema, sangrado mucoso, infecciones repetidas y dolor óseo. El estudio medular muestra infiltración tumoral extensa que desplaza el tejido hematopoyético normal. En el hemograma hay anemia, leucopenia y trombocitopenia. ¿Cuál es la mejor explicación de este patrón?",
+    options: [
+        "Pancitopenia por invasión de médula ósea y desplazamiento de la hematopoyesis normal",
+        "Hemorragia aguda como mecanismo único",
+        "Neutropenia farmacológica con anemia incidental",
+        "Linfocitosis relativa con falsa trombocitopenia"
+    ],
+    answer: 0,
+    explanation: "La invasión tumoral de la médula ósea reduce el espacio funcional disponible para la producción normal de eritrocitos, leucocitos y plaquetas. Por eso puede aparecer pancitopenia. Este mecanismo no requiere que el tumor sea hematológico; una neoplasia sólida también puede producirlo si infiltra la médula. La clínica del paciente refleja justamente el fracaso simultáneo de las tres líneas celulares."
+},
+
+{
+    question: "Una mujer de 44 años con enfermedad de Crohn de larga evolución consulta por cansancio progresivo, disnea de esfuerzo y palidez. No refiere un episodio reciente de sangrado masivo. El hemograma muestra hemoglobina baja, VCM normal y ausencia de reticulocitosis importante. ¿Cuál es la explicación más probable de la anemia?",
+    options: [
+        "Anemia de enfermedad crónica por inflamación persistente y eritropoyesis ineficiente",
+        "Hemorragia aguda con respuesta medular plena",
+        "Hemólisis intravascular fulminante",
+        "Pancitopenia por aplasia medular"
+    ],
+    answer: 0,
+    explanation: "La anemia de enfermedad crónica aparece cuando la inflamación sostenida altera la utilización del hierro y reduce la eficacia de la eritropoyesis. El VCM puede ser normal y los reticulocitos no aumentan de forma importante, porque la médula no está respondiendo como lo haría en una hemorragia aguda. En este contexto, la enfermedad inflamatoria intestinal de larga evolución da una explicación fisiopatológica muy sólida."
+},
+
+{
+    question: "Un varón de 75 años tratado con warfarina llega a emergencia por melena, taquicardia, hipotensión y alteración del estado mental. La hemoglobina ha descendido bruscamente en comparación con controles recientes, mientras que leucocitos y plaquetas se mantienen relativamente conservados. ¿Cuál es la clasificación más adecuada del problema hematológico principal?",
+    options: [
+        "Anemia aguda por pérdida sanguínea digestiva favorecida por anticoagulación",
+        "Anemia crónica por enfermedad sistémica",
+        "Pancitopenia tóxica inducida por warfarina",
+        "Linfocitopenia con hipovolemia secundaria"
+    ],
+    answer: 0,
+    explanation: "La caída rápida de hemoglobina, junto con signos de hipoperfusión como hipotensión, taquicardia y confusión, define una anemia aguda por sangrado. La warfarina no está causando una falla global de la médula, sino favoreciendo la hemorragia. Diferenciar anemia aguda de crónica es esencial, porque en la aguda el problema inmediato es la pérdida de volumen y la disminución brusca de la capacidad de transporte de oxígeno."
+}
+
+],
+clinicalCVRSSet15: [
+
+{
+    question: "Un varón de 71 años acude por fiebre de 3 días, disnea progresiva, tos productiva con esputo purulento y dolor torácico pleurítico. En la exploración presenta taquipnea, crepitantes en base derecha y saturación de 88%. La radiografía muestra consolidación lobar. El hemograma revela leucocitos 19,800/mm³ con neutrófilos 89% y desviación a la izquierda. Sin embargo, también presenta linfocitos muy bajos. ¿Qué explica mejor la combinación de neutrofilia con linfocitopenia en este contexto?",
+    options: [
+        "Respuesta inflamatoria aguda con redistribución linfocitaria y predominio de inmunidad innata",
+        "Falla medular selectiva de linfocitos",
+        "Transformación neoplásica de la serie mieloide",
+        "Infección viral primaria con respuesta neutrofílica secundaria"
+    ],
+    answer: 0,
+    explanation: "En infecciones bacterianas agudas, el sistema inmune innato domina la respuesta, lo que genera neutrofilia. Simultáneamente, puede observarse linfocitopenia relativa debido a redistribución de linfocitos hacia tejidos y efectos hormonales del estrés (cortisol). Este patrón no indica falla medular ni neoplasia, sino una reorganización funcional del sistema inmune ante una agresión aguda."
+},
+
+{
+    question: "Una mujer de 52 años con artritis reumatoide de larga evolución consulta por fatiga progresiva. No refiere sangrado ni síntomas agudos. El hemograma muestra hemoglobina baja, VCM normal, ferritina elevada y reticulocitos no aumentados. ¿Cuál es el mecanismo fisiopatológico predominante?",
+    options: [
+        "Secuestro de hierro y disminución de la eritropoyesis por inflamación crónica",
+        "Hemorragia digestiva oculta",
+        "Deficiencia de vitamina B12",
+        "Hemólisis autoinmune activa"
+    ],
+    answer: 0,
+    explanation: "La anemia de enfermedad crónica se produce por alteraciones en el metabolismo del hierro mediadas por inflamación, especialmente por hepcidina, que reduce la disponibilidad de hierro para la eritropoyesis. Además, la médula responde menos eficientemente. Esto explica la ferritina elevada (como reactante de fase aguda) y la ausencia de reticulocitosis significativa."
+},
+
+{
+    question: "Un varón de 36 años consulta por fiebre, dolor lumbar y disuria. Se confirma pielonefritis aguda. El hemograma muestra leucocitos 17,500/mm³ con neutrófilos elevados y presencia de granulaciones tóxicas. ¿Qué indica la presencia de granulaciones tóxicas?",
+    options: [
+        "Activación intensa de neutrófilos en respuesta a infección bacteriana severa",
+        "Transformación maligna de neutrófilos",
+        "Deficiencia de producción medular",
+        "Respuesta alérgica sistémica"
+    ],
+    answer: 0,
+    explanation: "Las granulaciones tóxicas en neutrófilos son un signo morfológico de activación intensa del sistema inmune frente a infecciones bacterianas graves. Indican que los neutrófilos están altamente estimulados y funcionalmente activos, lo que refuerza el diagnóstico de infección significativa."
+},
+
+{
+    question: "Un paciente con cirrosis hepática presenta esplenomegalia y pancitopenia leve. No hay evidencia de infiltración tumoral ni aplasia medular. ¿Cuál es el mecanismo más probable?",
+    options: [
+        "Hiperesplenismo con secuestro de células sanguíneas",
+        "Falla global de médula ósea",
+        "Producción excesiva de células sanguíneas",
+        "Destrucción autoinmune selectiva"
+    ],
+    answer: 0,
+    explanation: "El hiperesplenismo implica secuestro y destrucción aumentada de células sanguíneas en un bazo agrandado. Esto puede causar anemia, leucopenia y trombocitopenia sin que exista un problema primario en la médula ósea."
+},
+
+{
+    question: "Un hombre de 42 años consulta por fiebre, odinofagia intensa y adenopatías. El hemograma muestra leucocitosis con linfocitos atípicos. ¿Qué error diagnóstico es más común en este escenario?",
+    options: [
+        "Confundir linfocitos reactivos con leucemia aguda",
+        "Diagnosticar anemia hemolítica",
+        "Interpretar como neutropenia",
+        "Considerar infección bacteriana grave"
+    ],
+    answer: 0,
+    explanation: "Los linfocitos atípicos pueden parecer anormales, pero en infecciones virales representan células activadas, no malignas. El error común es asumir que toda célula 'atípica' es cancerosa."
+},
+
+{
+    question: "Un paciente con anemia severa presenta taquicardia, disnea y mareo. ¿Cuál es el mecanismo compensatorio principal?",
+    options: [
+        "Aumento del gasto cardíaco para mantener la entrega de oxígeno",
+        "Producción de neutrófilos",
+        "Disminución de la frecuencia cardíaca",
+        "Inhibición de eritropoyesis"
+    ],
+    answer: 0,
+    explanation: "En anemia, el cuerpo intenta compensar la disminución de transporte de oxígeno aumentando el gasto cardíaco, lo que explica la taquicardia."
+},
+
+{
+    question: "Paciente con infección viral presenta leucopenia. ¿Por qué?",
+    options: [
+        "Supresión medular transitoria y redistribución leucocitaria",
+        "Producción excesiva de neutrófilos",
+        "Aumento de eritrocitos",
+        "Activación plaquetaria"
+    ],
+    answer: 0,
+    explanation: "Muchos virus afectan la médula ósea o redistribuyen leucocitos hacia tejidos, produciendo leucopenia."
+},
+
+{
+    question: "Paciente con hemólisis presenta aumento de bilirrubina indirecta. ¿Por qué?",
+    options: [
+        "Liberación de hemoglobina por destrucción de eritrocitos",
+        "Producción de plaquetas",
+        "Infección viral",
+        "Disminución de neutrófilos"
+    ],
+    answer: 0,
+    explanation: "La destrucción de eritrocitos libera hemoglobina, que se metaboliza a bilirrubina."
+},
+
+{
+    question: "Paciente con neutropenia presenta fiebre. ¿Por qué es urgente?",
+    options: [
+        "Porque no puede montar una respuesta inmune adecuada",
+        "Porque es viral siempre",
+        "Porque no hay riesgo",
+        "Porque mejora la inmunidad"
+    ],
+    answer: 0,
+    explanation: "La neutropenia reduce la defensa contra bacterias, aumentando riesgo de infecciones graves."
+},
+
+{
+    question: "Paciente con hipoxia crónica presenta policitemia. ¿Por qué?",
+    options: [
+        "Estimulación de eritropoyetina",
+        "Infección",
+        "Inflamación",
+        "Destrucción de eritrocitos"
+    ],
+    answer: 0,
+    explanation: "La hipoxia estimula la producción de eritropoyetina, aumentando eritrocitos."
+},
+
+{
+    question: "Paciente con trombocitopenia presenta petequias. ¿Por qué?",
+    options: [
+        "Alteración de la hemostasia primaria",
+        "Producción de neutrófilos",
+        "Aumento de eritrocitos",
+        "Infección viral"
+    ],
+    answer: 0,
+    explanation: "Las plaquetas son esenciales para la coagulación inicial."
+},
+
+{
+    question: "Paciente con infección bacteriana presenta fiebre. ¿Qué la causa?",
+    options: [
+        "Pirógenos que actúan en el hipotálamo",
+        "Producción de eritrocitos",
+        "Disminución de plaquetas",
+        "Aumento de eosinófilos"
+    ],
+    answer: 0,
+    explanation: "Las citocinas elevan el punto de regulación térmica."
+},
+
+{
+    question: "Paciente con enfermedad crónica presenta fatiga. ¿Por qué?",
+    options: [
+        "Anemia y alteración metabólica",
+        "Infección",
+        "Aumento de neutrófilos",
+        "Producción de plaquetas"
+    ],
+    answer: 0,
+    explanation: "La anemia reduce el aporte de oxígeno."
+},
+
+{
+    question: "Paciente con basofilia presenta prurito. ¿Por qué?",
+    options: [
+        "Liberación de histamina",
+        "Producción de eritrocitos",
+        "Infección",
+        "Hemorragia"
+    ],
+    answer: 0,
+    explanation: "Los basófilos liberan histamina."
+},
+
+{
+    question: "Paciente con linfocitosis presenta infección viral. ¿Por qué?",
+    options: [
+        "Activación del sistema inmune adaptativo",
+        "Producción de eritrocitos",
+        "Infección bacteriana",
+        "Destrucción de neutrófilos"
+    ],
+    answer: 0,
+    explanation: "Los linfocitos responden a virus."
+},
+
+{
+    question: "Paciente con anemia presenta palidez. ¿Por qué?",
+    options: [
+        "Disminución de hemoglobina",
+        "Aumento de plaquetas",
+        "Infección",
+        "Producción de eosinófilos"
+    ],
+    answer: 0,
+    explanation: "Menos hemoglobina reduce coloración."
+},
+
+{
+    question: "Paciente con leucocitosis presenta infección. ¿Por qué?",
+    options: [
+        "Respuesta inmune activa",
+        "Producción de eritrocitos",
+        "Disminución de plaquetas",
+        "Inhibición medular"
+    ],
+    answer: 0,
+    explanation: "Leucocitos aumentan en infección."
+},
+
+{
+    question: "Paciente con anemia presenta disnea. ¿Por qué?",
+    options: [
+        "Menor transporte de oxígeno",
+        "Infección",
+        "Aumento de plaquetas",
+        "Producción de neutrófilos"
+    ],
+    answer: 0,
+    explanation: "Menos oxígeno disponible."
+},
+
+{
+    question: "Paciente con infección crónica presenta monocitosis. ¿Por qué?",
+    options: [
+        "Respuesta inflamatoria sostenida",
+        "Producción de eritrocitos",
+        "Alergia",
+        "Hemorragia"
+    ],
+    answer: 0,
+    explanation: "Monocitos participan en inflamación crónica."
+},
+
+{
+    question: "Paciente con hipoxia presenta fatiga. ¿Por qué?",
+    options: [
+        "Disminución de oxígeno tisular",
+        "Infección",
+        "Producción de plaquetas",
+        "Aumento de neutrófilos"
+    ],
+    answer: 0,
+    explanation: "El oxígeno es esencial para metabolismo."
+}
+
+],
+clinicalCVRSSet16: [
+
+{
+    question: "Un varón de 68 años acude por fiebre, hipotensión, taquicardia y confusión de inicio reciente. Presenta antecedente de infección urinaria tratada parcialmente. En la evaluación se documenta piel fría, llenado capilar lento y signos de hipoperfusión. El hemograma muestra leucocitos 21,500/mm³ con neutrófilos 90%, bandas elevadas y lactato sérico elevado. Sin embargo, horas después, el recuento leucocitario desciende a 3,200/mm³. ¿Cómo se explica este cambio brusco?",
+    options: [
+        "Evolución hacia sepsis grave con agotamiento o redistribución de leucocitos",
+        "Error de laboratorio sin relevancia clínica",
+        "Resolución espontánea de la infección",
+        "Inicio de leucemia aguda"
+    ],
+    answer: 0,
+    explanation: "En sepsis severa, puede observarse inicialmente leucocitosis por respuesta inflamatoria intensa, seguida de leucopenia cuando el sistema inmune se desregula o se produce consumo y redistribución masiva de leucocitos. Este cambio es un marcador de gravedad y mal pronóstico, no de mejoría. Refleja que el organismo está perdiendo la capacidad de montar una respuesta efectiva."
+},
+
+{
+    question: "Una mujer de 50 años con antecedente de cáncer de mama tratado con quimioterapia consulta por fiebre sin foco claro. El hemograma muestra leucocitos 1,200/mm³ con neutrófilos absolutos de 400/mm³. No presenta signos inflamatorios evidentes. ¿Por qué puede haber infecciones graves sin signos clásicos en este paciente?",
+    options: [
+        "Porque la neutropenia impide generar respuesta inflamatoria evidente",
+        "Porque los virus siempre causan síntomas leves",
+        "Porque los antibióticos previos enmascaran la infección",
+        "Porque la fiebre no es un signo confiable"
+    ],
+    answer: 0,
+    explanation: "Los neutrófilos son fundamentales para la respuesta inflamatoria visible. En neutropenia severa, los signos clásicos como pus o eritema pueden estar ausentes. Por eso, la fiebre en estos pacientes es muchas veces el único indicador de infección grave y debe considerarse una urgencia médica."
+},
+
+{
+    question: "Un hombre de 34 años consulta por palidez, ictericia leve, fatiga y orina oscura. El hemograma muestra anemia con reticulocitos elevados, bilirrubina indirecta aumentada y LDH elevada. ¿Cuál es el mecanismo fisiopatológico principal?",
+    options: [
+        "Hemólisis con destrucción aumentada de eritrocitos",
+        "Producción insuficiente de eritrocitos",
+        "Hemorragia aguda",
+        "Infección bacteriana sistémica"
+    ],
+    answer: 0,
+    explanation: "La combinación de anemia, reticulocitosis y bilirrubina indirecta elevada indica hemólisis. La médula responde aumentando la producción, pero la destrucción supera la compensación. La orina oscura sugiere hemoglobinuria."
+},
+
+{
+    question: "Paciente de 62 años con insuficiencia renal crónica presenta anemia persistente. No hay sangrado ni hemólisis. El VCM es normal. ¿Cuál es el mecanismo principal?",
+    options: [
+        "Disminución de eritropoyetina renal",
+        "Pérdida de hierro",
+        "Hemólisis",
+        "Inflamación aguda"
+    ],
+    answer: 0,
+    explanation: "El riñón produce eritropoyetina. En insuficiencia renal, su disminución reduce la producción de eritrocitos, causando anemia normocítica."
+},
+
+{
+    question: "Un paciente con cirrosis presenta pancitopenia leve y esplenomegalia. ¿Cuál es el mecanismo predominante?",
+    options: [
+        "Secuestro esplénico de células sanguíneas",
+        "Producción excesiva de células",
+        "Infección viral",
+        "Aplasia medular"
+    ],
+    answer: 0,
+    explanation: "El bazo agrandado retiene y destruye células sanguíneas, causando pancitopenia funcional."
+},
+
+{
+    question: "Un paciente con infección viral presenta leucopenia. ¿Cuál es el mecanismo más importante?",
+    options: [
+        "Supresión medular y redistribución leucocitaria",
+        "Producción excesiva de neutrófilos",
+        "Aumento de eritrocitos",
+        "Destrucción de plaquetas"
+    ],
+    answer: 0,
+    explanation: "Los virus pueden afectar la médula ósea y redistribuir leucocitos hacia tejidos."
+},
+
+{
+    question: "Paciente con trombocitopenia presenta sangrado mucoso. ¿Por qué?",
+    options: [
+        "Alteración de la hemostasia primaria",
+        "Defecto en eritrocitos",
+        "Infección viral",
+        "Producción de neutrófilos"
+    ],
+    answer: 0,
+    explanation: "Las plaquetas son clave para la coagulación inicial."
+},
+
+{
+    question: "Paciente con hipoxia crónica presenta policitemia. ¿Por qué?",
+    options: [
+        "Aumento de eritropoyetina",
+        "Infección",
+        "Inflamación",
+        "Destrucción celular"
+    ],
+    answer: 0,
+    explanation: "La hipoxia estimula la producción de eritropoyetina."
+},
+
+{
+    question: "Paciente con leucemia presenta infecciones frecuentes pese a leucocitos elevados. ¿Por qué?",
+    options: [
+        "Los leucocitos son disfuncionales",
+        "Hay exceso de anticuerpos",
+        "Hay anemia",
+        "Hay trombocitosis"
+    ],
+    answer: 0,
+    explanation: "Las células leucémicas no funcionan correctamente."
+},
+
+{
+    question: "Paciente con anemia presenta disnea. ¿Cuál es la causa principal?",
+    options: [
+        "Disminución del transporte de oxígeno",
+        "Infección",
+        "Inflamación",
+        "Producción de neutrófilos"
+    ],
+    answer: 0,
+    explanation: "Menos hemoglobina reduce la oxigenación tisular."
+},
+
+{
+    question: "Paciente con infección bacteriana presenta fiebre. ¿Cuál es el mecanismo?",
+    options: [
+        "Pirógenos que actúan en el hipotálamo",
+        "Producción de eritrocitos",
+        "Aumento de plaquetas",
+        "Disminución de neutrófilos"
+    ],
+    answer: 0,
+    explanation: "Las citocinas elevan el punto térmico."
+},
+
+{
+    question: "Paciente con monocitosis presenta infección crónica. ¿Por qué?",
+    options: [
+        "Activación del sistema mononuclear-fagocítico",
+        "Producción de eritrocitos",
+        "Alergia",
+        "Hemorragia"
+    ],
+    answer: 0,
+    explanation: "Los monocitos participan en inflamación crónica."
+},
+
+{
+    question: "Paciente con eosinofilia presenta daño tisular. ¿Por qué?",
+    options: [
+        "Liberación de proteínas citotóxicas",
+        "Producción de hemoglobina",
+        "Infección viral",
+        "Aumento de plaquetas"
+    ],
+    answer: 0,
+    explanation: "Los eosinófilos pueden dañar tejidos."
+},
+
+{
+    question: "Paciente con basofilia presenta prurito. ¿Por qué?",
+    options: [
+        "Liberación de histamina",
+        "Producción de eritrocitos",
+        "Infección",
+        "Hemorragia"
+    ],
+    answer: 0,
+    explanation: "La histamina produce prurito."
+},
+
+{
+    question: "Paciente con anemia presenta fatiga. ¿Por qué?",
+    options: [
+        "Disminución de oxígeno tisular",
+        "Infección",
+        "Inflamación",
+        "Aumento de neutrófilos"
+    ],
+    answer: 0,
+    explanation: "El oxígeno es esencial para metabolismo."
+},
+
+{
+    question: "Paciente con leucopenia presenta infecciones. ¿Por qué?",
+    options: [
+        "Déficit de defensa inmune",
+        "Aumento de anticuerpos",
+        "Producción de eritrocitos",
+        "Aumento de plaquetas"
+    ],
+    answer: 0,
+    explanation: "Los leucocitos combaten infecciones."
+},
+
+{
+    question: "Paciente con hipoxia presenta taquicardia. ¿Por qué?",
+    options: [
+        "Compensación para aumentar entrega de oxígeno",
+        "Infección",
+        "Inflamación",
+        "Producción de eosinófilos"
+    ],
+    answer: 0,
+    explanation: "El corazón compensa la hipoxia."
+},
+
+{
+    question: "Paciente con infección presenta leucocitosis. ¿Por qué?",
+    options: [
+        "Activación inmune",
+        "Producción de eritrocitos",
+        "Disminución de plaquetas",
+        "Inhibición medular"
+    ],
+    answer: 0,
+    explanation: "Respuesta inmune activa."
+},
+
+{
+    question: "Paciente con anemia presenta palidez. ¿Por qué?",
+    options: [
+        "Menor hemoglobina",
+        "Infección",
+        "Inflamación",
+        "Producción de plaquetas"
+    ],
+    answer: 0,
+    explanation: "Menos coloración sanguínea."
+},
+
+{
+    question: "Paciente con enfermedad crónica presenta anemia. ¿Por qué?",
+    options: [
+        "Alteración del metabolismo del hierro",
+        "Hemorragia",
+        "Infección",
+        "Producción de neutrófilos"
+    ],
+    answer: 0,
+    explanation: "Inflamación altera eritropoyesis."
+}
+
+],
+clinicalCVRSSet17: [
+
+{
+    question: "Un varón de 63 años, fumador de larga data y con diabetes mellitus mal controlada, acude a emergencia por fiebre alta, escalofríos, tos productiva con esputo verdoso, dolor torácico pleurítico y disnea progresiva de cuatro días de evolución. Al examen presenta taquipnea, saturación de oxígeno de 87%, uso de músculos accesorios y crepitantes en el hemitórax derecho. La radiografía muestra consolidación extensa en lóbulo inferior derecho. El hemograma evidencia leucocitos 22,400/mm³, neutrófilos 89% y aumento de bandas. En este contexto, ¿cuál es la mejor interpretación del patrón hematológico encontrado?",
+    options: [
+        "Respuesta aguda de la inmunidad innata frente a una infección bacteriana importante, con liberación acelerada de neutrófilos maduros e inmaduros",
+        "Patrón característico de infección viral respiratoria con linfocitosis relativa oculta",
+        "Hallazgo que sugiere principalmente una neoplasia mieloproliferativa no diagnosticada",
+        "Respuesta típica de una reacción alérgica pulmonar con consumo secundario de linfocitos"
+    ],
+    answer: 0,
+    explanation: "El cuadro clínico es altamente compatible con una neumonía bacteriana aguda grave. La neutrofilia marcada y la presencia de bandas reflejan una respuesta medular intensa ante un estímulo infeccioso importante. Cuando la demanda periférica de neutrófilos aumenta de forma rápida, la médula ósea acelera su liberación y puede enviar formas menos maduras a la circulación. Esto no significa automáticamente sepsis irreversible ni neoplasia hematológica, sino activación intensa de la defensa innata. La correlación entre clínica, radiología y hemograma es lo que le da valor al hallazgo."
+},
+
+{
+    question: "Una mujer de 37 años con antecedente de asma bronquial desde la infancia, dermatitis atópica y rinitis alérgica persistente consulta por exacerbación progresiva de tos seca, sibilancias, opresión torácica y prurito difuso. Refiere además despertares nocturnos frecuentes por disnea y empeoramiento de lesiones eccematosas en antebrazos y cuello. El hemograma muestra leucocitos totales normales, con eosinófilos de 13%. No hay fiebre ni hallazgos que sugieran infección. ¿Cuál es la explicación más adecuada del aumento de eosinófilos?",
+    options: [
+        "Activación mantenida de una respuesta inflamatoria alérgica en la que los eosinófilos participan como células efectoras del daño tisular",
+        "Supresión selectiva de neutrófilos por una infección bacteriana subclínica prolongada",
+        "Producción medular desorganizada propia de una leucemia eosinofílica",
+        "Compensación hematológica por una hemorragia crónica no detectada"
+    ],
+    answer: 0,
+    explanation: "Los eosinófilos no solo son un marcador de alergia, sino que forman parte activa del proceso inflamatorio. En el asma y en la dermatitis atópica liberan proteínas citotóxicas, citoquinas y mediadores que amplifican la inflamación, aumentan la reactividad bronquial y contribuyen al daño epitelial. Por eso la eosinofilia tiene sentido fisiopatológico en este caso. La ausencia de fiebre, la historia atópica y el patrón clínico hacen mucho más probable una explicación alérgica que una infección oculta o una neoplasia."
+},
+
+{
+    question: "Un hombre de 41 años, agricultor, consulta por diarrea intermitente, dolor abdominal cólico, pérdida de peso de dos meses y marcada disminución del apetito. Vive en una zona rural con saneamiento deficiente, consume agua de pozo y trabaja con frecuencia descalzo en suelos húmedos. En el hemograma se encuentra hemoglobina discretamente baja y eosinofilia persistente del 15%. No hay neutrofilia ni síntomas respiratorios. ¿Cuál es la causa más probable del hallazgo hematológico principal?",
+    options: [
+        "Respuesta inmunitaria frente a una parasitosis, especialmente helmintos con invasión tisular o intestinal",
+        "Infección bacteriana gastrointestinal aguda con transición a fase crónica",
+        "Insuficiencia suprarrenal primaria con desviación eosinofílica del diferencial",
+        "Falla medular selectiva de otras series con preservación relativa eosinofílica"
+    ],
+    answer: 0,
+    explanation: "La eosinofilia sostenida en un paciente con exposición epidemiológica de riesgo y síntomas digestivos crónicos orienta con fuerza a parasitosis, particularmente helmintiasis. Los eosinófilos son relevantes porque ayudan a enfrentar organismos grandes que no pueden ser eliminados con facilidad por fagocitosis. Además, algunos parásitos pueden contribuir a anemia por pérdida crónica de sangre, malabsorción o inflamación intestinal. El valor del hemograma aquí no está solo en la cifra, sino en cómo encaja con el contexto."
+},
+
+{
+    question: "Un varón de 66 años consulta por plenitud abdominal precoz, prurito, pérdida de peso progresiva, sudoración nocturna y fatiga. En la exploración se documenta bazo palpable varios centímetros por debajo del reborde costal. El hemograma muestra leucocitosis marcada, presencia de mielocitos y metamielocitos en sangre periférica y basofilia persistente. No hay datos clínicos de alergia importante ni parasitosis. ¿Cuál es la mejor interpretación del hallazgo de basofilia en este contexto?",
+    options: [
+        "Es un dato que apoya fuertemente un proceso mieloproliferativo clonal de la serie mieloide",
+        "Es una respuesta inespecífica habitual en toda infección respiratoria prolongada",
+        "Indica una reacción farmacológica por antihipertensivos",
+        "Es un hallazgo secundario sin relevancia diagnóstica real"
+    ],
+    answer: 0,
+    explanation: "La basofilia sostenida es poco frecuente en situaciones benignas y adquiere gran valor cuando se acompaña de leucocitosis, esplenomegalia y síntomas constitucionales. En este contexto, debe hacer pensar en una neoplasia mieloproliferativa, especialmente si el resto del hemograma muestra expansión de la serie mieloide. No se trata de interpretar la basofilia aislada, sino de integrarla con el patrón general. En medicina interna, muchas veces son estos detalles del diferencial los que orientan el diagnóstico correcto."
+},
+
+{
+    question: "Una mujer de 58 años con artritis reumatoide de larga evolución y cirrosis hepática compensada acude a control por cansancio leve, sin fiebre ni pérdida de peso reciente. En varios hemogramas consecutivos se aprecia basofilia leve persistente, con leucocitos totales normales y sin blastos circulantes. ¿Cuál es la interpretación clínica más razonable?",
+    options: [
+        "Puede corresponder a una basofilia reactiva asociada a inflamación crónica y hepatopatía, siempre que no existan otros signos de enfermedad mieloproliferativa",
+        "Equivale a diagnóstico de leucemia aguda hasta demostrar lo contrario",
+        "Es un marcador específico de sangrado digestivo crónico por hipertensión portal",
+        "Indica obligatoriamente necrosis tisular activa en algún órgano"
+    ],
+    answer: 0,
+    explanation: "No toda basofilia significa malignidad. Cuando el aumento es leve, estable y aparece en un paciente con enfermedades crónicas que ya de por sí mantienen activación inmune o inflamatoria, puede tratarse de un fenómeno reactivo. Lo importante es evaluar intensidad, persistencia, acompañamiento de otras líneas celulares y síntomas sistémicos. En ausencia de leucocitosis importante, blastos o esplenomegalia progresiva, una interpretación reactiva es más prudente."
+},
+
+{
+    question: "Un hombre de 48 años consulta por tos crónica, fiebre vespertina, pérdida de peso, sudoración nocturna y cansancio progresivo. La baciloscopía de esputo confirma tuberculosis pulmonar. El hemograma muestra monocitosis del 13%, anemia normocítica leve y neutrófilos dentro de rango alto, pero sin neutrofilia marcada. ¿Qué explica mejor la monocitosis en este paciente?",
+    options: [
+        "Activación sostenida del sistema mononuclear-fagocítico en una infección crónica granulomatosa",
+        "Producción excesiva de anticuerpos por monocitos circulantes",
+        "Falla medular con salida indiscriminada de todas las líneas blancas",
+        "Desarrollo temprano de leucemia monocítica aguda"
+    ],
+    answer: 0,
+    explanation: "Los monocitos son especialmente importantes en infecciones crónicas donde los macrófagos cumplen un papel central, como ocurre en la tuberculosis. Estas células migran a los tejidos, se diferencian en macrófagos y participan en la formación y mantenimiento de granulomas. Por eso el patrón hematológico no necesariamente será una neutrofilia intensa, como ocurre en infecciones piógenas agudas. La monocitosis aquí es una pista coherente con la fisiopatología del proceso."
+},
+
+{
+    question: "Una mujer de 53 años con antecedente de valvulopatía mitral consulta por fiebre intermitente, anorexia, pérdida de peso y astenia intensa de varias semanas. En la auscultación se detecta un nuevo soplo, y posteriormente se confirma endocarditis bacteriana subaguda. El hemograma muestra anemia normocítica y monocitosis persistente. ¿Cuál es la mejor interpretación de este patrón?",
+    options: [
+        "Corresponde a un proceso infeccioso prolongado con inflamación sostenida y activación de la respuesta monocitaria",
+        "Es una presentación típica de infección viral autolimitada",
+        "Se explica mejor por reacción alérgica a antibióticos previos",
+        "Indica primariamente insuficiencia medular por tóxicos"
+    ],
+    answer: 0,
+    explanation: "La endocarditis subaguda es un ejemplo clásico de infección persistente. En lugar de una respuesta explosiva de corta duración, el organismo mantiene una inflamación sostenida, lo que puede reflejarse como monocitosis y anemia de enfermedad crónica. El laboratorio no solo indica que hay infección, sino que ayuda a entender su naturaleza prolongada. Esa diferencia entre agudo y crónico es esencial al interpretar un hemograma."
+},
+
+{
+    question: "Un varón de 40 años con infección por VIH avanzada, sin adherencia al tratamiento, consulta por fiebre, diarrea crónica, pérdida de peso y candidiasis oral extensa. El hemograma muestra leucocitos 2,300/mm³ con neutrófilos absolutos de 780/mm³. ¿Por qué esta neutropenia es particularmente preocupante en este paciente?",
+    options: [
+        "Porque reduce una de las principales barreras contra bacterias y hongos, aumentando el riesgo de infecciones graves y oportunistas",
+        "Porque demuestra de forma específica leucemia mieloide aguda",
+        "Porque solo afecta la respuesta contra virus y no tiene implicancia sobre bacterias",
+        "Porque implica que la fiebre no debe considerarse relevante"
+    ],
+    answer: 0,
+    explanation: "Los neutrófilos son esenciales para la defensa inicial contra bacterias y hongos. En un paciente con VIH, la neutropenia se suma a otras alteraciones inmunológicas, por lo que el riesgo infeccioso se multiplica. Además, la neutropenia puede hacer que las infecciones evolucionen con mayor rapidez y menos signos inflamatorios visibles. El hallazgo cambia la manera de valorar la fiebre y obliga a un umbral de alerta más alto."
+},
+
+{
+    question: "Una mujer de 27 años consulta por fiebre alta, cefalea, malestar general y dolor abdominal. Se confirma fiebre tifoidea mediante hemocultivo. El hemograma evidencia leucopenia con neutropenia moderada. Un alumno afirma que el laboratorio contradice el diagnóstico porque, tratándose de una bacteria, debería existir neutrofilia. ¿Cuál es la mejor corrección?",
+    options: [
+        "No todas las infecciones bacterianas producen neutrofilia; algunas pueden cursar con leucopenia por mecanismos propios del agente y del huésped",
+        "La fiebre tifoidea es realmente una infección viral",
+        "La neutropenia solo ocurre en pacientes con quimioterapia",
+        "Las bacterias no modifican el hemograma en enfermedades sistémicas"
+    ],
+    answer: 0,
+    explanation: "Es un error de razonamiento muy frecuente asumir que toda bacteria produce neutrofilia. Algunas infecciones bacterianas, como la fiebre tifoidea, pueden generar leucopenia y neutropenia. Esto depende de la interacción entre el patógeno, la médula ósea, la redistribución de células y la respuesta del huésped. El hemograma debe interpretarse desde la fisiopatología, no desde reglas rígidas."
+},
+
+{
+    question: "Un hombre de 61 años recibe sulfonamidas por una infección urinaria. Ocho días después consulta por fiebre, odinofagia severa y úlceras dolorosas en la mucosa oral. El hemograma muestra leucocitos 1,600/mm³ con neutrófilos absolutos de 550/mm³; hemoglobina y plaquetas son normales. ¿Cuál es la explicación más probable del cuadro?",
+    options: [
+        "Neutropenia farmacológica con alto riesgo de infección grave",
+        "Pancitopenia aplásica global en fase inicial",
+        "Respuesta medular normal frente a infección persistente",
+        "Linfocitosis reactiva con neutropenia aparente"
+    ],
+    answer: 0,
+    explanation: "La temporalidad con el uso del fármaco y el compromiso selectivo de neutrófilos, con preservación de otras series, apoyan el diagnóstico de neutropenia farmacológica. Este cuadro es clínicamente muy relevante porque la fiebre en este contexto puede ser la expresión inicial de una infección potencialmente grave. Las lesiones orales son frecuentes por alteración de las barreras y déficit de defensa local."
+},
+
+{
+    question: "Un hombre de 32 años procedente de zona selvática consulta por fiebre intermitente, escalofríos, cefalea intensa y diaforesis profusa. La gota gruesa confirma malaria. El hemograma muestra leucopenia y trombocitopenia leves, sin eosinofilia relevante. ¿Qué conclusión clínica es la más adecuada?",
+    options: [
+        "No todas las enfermedades parasitarias se acompañan de eosinofilia; el patrón hematológico depende del agente específico",
+        "La ausencia de eosinofilia descarta completamente una infección parasitaria",
+        "La malaria debe comportarse como una helmintiasis y producir eosinofilia marcada",
+        "La leucopenia obliga a sospechar leucemia aguda más que infección"
+    ],
+    answer: 0,
+    explanation: "La eosinofilia es más típica de helmintos y de parásitos con fase tisular, pero no es una regla universal para todas las enfermedades parasitarias. En malaria pueden verse leucopenia, anemia y trombocitopenia. Este caso ilustra por qué no conviene generalizar patrones hematológicos por categorías amplias sin considerar la fisiopatología del agente concreto."
+},
+
+{
+    question: "Una adolescente de 18 años consulta por fiebre, odinofagia intensa, adenopatías cervicales, debilidad marcada y dolor en hipocondrio derecho. El hemograma revela leucocitosis con predominio linfocitario y linfocitos atípicos. ¿Qué representan con mayor probabilidad esas células atípicas?",
+    options: [
+        "Linfocitos reactivos activados frente a una estimulación antigénica intensa, habitualmente viral",
+        "Blastos malignos equivalentes a una leucemia aguda",
+        "Basófilos reactivos aumentados de tamaño",
+        "Plaquetas gigantes mal clasificadas por el analizador"
+    ],
+    answer: 0,
+    explanation: "Los linfocitos atípicos en este contexto suelen ser células reactivas. Cambian su morfología porque están intensamente activadas, no porque sean malignas. El contexto clínico es fundamental para la interpretación: fiebre, faringitis, adenopatías y compromiso hepático leve orientan a infección viral. Confundir 'atípico' con 'neoplásico' es un error frecuente."
+},
+
+{
+    question: "Un hombre de 46 años consulta por fatiga intensa, hipotensión, pérdida de peso, náuseas y oscurecimiento progresivo de piel y mucosas. El hemograma muestra linfocitosis relativa, sin leucocitosis total ni signos de infección aguda. ¿Cuál es la explicación más probable?",
+    options: [
+        "Insuficiencia suprarrenal primaria con alteración del patrón leucocitario",
+        "Leucemia linfoide crónica en etapa inicial",
+        "Reacción leucemoide secundaria al estrés",
+        "Hemorragia digestiva crónica no detectada"
+    ],
+    answer: 0,
+    explanation: "La clínica es muy sugestiva de insuficiencia suprarrenal primaria. En ese contexto, puede observarse linfocitosis relativa. El hemograma no hace el diagnóstico por sí solo, pero acompaña de manera coherente una alteración endocrina sistémica. Esto demuestra que el diferencial leucocitario también puede ofrecer pistas fuera del ámbito infeccioso y hematológico estricto."
+},
+
+{
+    question: "Una mujer de 54 años con síndrome de Cushing presenta obesidad centrípeta, debilidad muscular proximal, equimosis fáciles e infecciones cutáneas recurrentes. El hemograma muestra linfocitopenia sostenida. ¿Cuál es el mecanismo más importante para explicar esta alteración?",
+    options: [
+        "Redistribución y apoptosis de linfocitos inducidas por glucocorticoides",
+        "Infiltración tumoral de médula ósea",
+        "Pérdidas digestivas selectivas de linfocitos",
+        "Secuestro esplénico aislado de la serie linfoide"
+    ],
+    answer: 0,
+    explanation: "Los glucocorticoides disminuyen los linfocitos circulantes mediante varios mecanismos, entre ellos redistribución hacia otros compartimentos y apoptosis de algunas subpoblaciones. Esta linfocitopenia ayuda a entender por qué los pacientes con hipercortisolismo pueden ser más vulnerables a infecciones. El hallazgo es coherente con la fisiopatología del síndrome de Cushing y no necesariamente implica una patología medular."
+},
+
+{
+    question: "Un niño de 7 años con diarrea crónica, edema, retraso del crecimiento y bajo peso presenta infecciones respiratorias repetidas. En controles sucesivos se documenta linfocitopenia persistente. No hay datos de leucemia ni inmunodeficiencia primaria conocida. ¿Qué mecanismo explica mejor este hallazgo?",
+    options: [
+        "Desnutrición y pérdidas digestivas crónicas con afectación de la inmunidad celular",
+        "Respuesta habitual de una gastroenteritis viral autolimitada",
+        "Secuestro esplénico por hipertensión portal infantil",
+        "Destrucción selectiva de linfocitos por una anemia carencial simple"
+    ],
+    answer: 0,
+    explanation: "La desnutrición compromete la producción y el mantenimiento de una respuesta inmune adecuada, especialmente en niños. Si además hay pérdidas digestivas crónicas, la inmunidad puede deteriorarse aún más. La linfocitopenia, por tanto, no es un hallazgo aislado: ayuda a explicar la susceptibilidad del niño a infecciones y la mala evolución clínica. El estado nutricional y el sistema inmune están estrechamente conectados."
+},
+
+{
+    question: "Un varón de 69 años consulta por palidez, disnea de esfuerzo, petequias, gingivorragia e infecciones respiratorias repetidas. El hemograma muestra anemia, leucopenia y trombocitopenia. El estudio medular revela hipocelularidad marcada sin infiltración tumoral. ¿Cuál es la interpretación sindrómica más adecuada?",
+    options: [
+        "Pancitopenia por falla global de la hematopoyesis",
+        "Anemia aguda con trombocitopenia reactiva",
+        "Leucocitosis en resolución con consumo plaquetario",
+        "Monocitosis crónica complicada con anemia secundaria"
+    ],
+    answer: 0,
+    explanation: "La disminución simultánea de eritrocitos, leucocitos y plaquetas define una pancitopenia. Si la médula es hipocelular, el mecanismo más probable es una falla global de la hematopoyesis, como ocurre en la aplasia medular. La clínica es perfectamente coherente: anemia causa disnea y fatiga, trombocitopenia produce sangrado y leucopenia favorece infecciones. Es importante reconocer el cuadro como un síndrome global y no como tres problemas aislados."
+},
+
+{
+    question: "Una trabajadora de 42 años de una industria química consulta por fatiga intensa, equimosis espontáneas, gingivorragia e infecciones frecuentes. El hemograma evidencia pancitopenia. Refiere exposición laboral prolongada a solventes. ¿Por qué este antecedente tiene gran valor etiológico?",
+    options: [
+        "Porque ciertos tóxicos, como el benceno, pueden lesionar directamente las células madre hematopoyéticas",
+        "Porque la exposición química produce solo anemia por pérdida de hierro",
+        "Porque descarta una causa medular primaria",
+        "Porque explica exclusivamente la trombocitopenia y no las otras citopenias"
+    ],
+    answer: 0,
+    explanation: "El benceno es un tóxico clásico para la médula ósea y puede producir insuficiencia hematopoyética. En medicina interna, la historia ocupacional es fundamental porque algunas etiologías no se encuentran en el laboratorio, sino en la exposición. Si se pasa por alto ese dato, el origen del cuadro puede no identificarse. La pancitopenia aquí encaja bien con un daño medular tóxico."
+},
+
+{
+    question: "Un paciente de 64 años con cáncer metastásico presenta dolor óseo, fatiga severa, sangrado mucoso e infecciones frecuentes. El estudio medular demuestra infiltración tumoral que reemplaza gran parte del tejido hematopoyético. El hemograma muestra anemia, leucopenia y trombocitopenia. ¿Cuál es la mejor explicación de este patrón?",
+    options: [
+        "Invasión de médula ósea con desplazamiento de la hematopoyesis normal, produciendo pancitopenia",
+        "Hemorragia digestiva crónica como mecanismo único",
+        "Reacción inflamatoria con consumo neutrofílico aislado",
+        "Linfocitosis relativa con falsa trombocitopenia"
+    ],
+    answer: 0,
+    explanation: "Cuando un tumor infiltra la médula, reduce el espacio funcional para producir células sanguíneas normales. Por eso pueden disminuir simultáneamente eritrocitos, leucocitos y plaquetas. El cuadro clínico del paciente refleja precisamente esa falla de producción: fatiga por anemia, infecciones por leucopenia y sangrado por trombocitopenia. No se necesita que el cáncer sea hematológico para que aparezca este mecanismo."
+},
+
+{
+    question: "Una mujer de 45 años con enfermedad de Crohn de larga evolución consulta por cansancio progresivo, palidez y disnea de esfuerzo. No ha tenido un episodio reciente de sangrado importante. El hemograma muestra hemoglobina baja, VCM normal y reticulocitos no elevados. ¿Cuál es la explicación más probable?",
+    options: [
+        "Anemia de enfermedad crónica por inflamación persistente y respuesta eritropoyética ineficiente",
+        "Hemorragia aguda con recuperación medular máxima",
+        "Hemólisis intravascular severa",
+        "Aplasia medular con neutrofilia reactiva"
+    ],
+    answer: 0,
+    explanation: "En la inflamación crónica, la producción de eritrocitos se vuelve menos eficiente y la disponibilidad de hierro funcional disminuye por acción de mediadores inflamatorios. Por eso el VCM puede ser normal y los reticulocitos no aumentar, a diferencia de lo que ocurriría en una hemorragia aguda. La anemia en este caso no depende tanto de pérdida brusca de sangre como de una alteración sostenida de la eritropoyesis."
+},
+
+{
+    question: "Un varón de 76 años tratado con warfarina llega a emergencia por melena, taquicardia, hipotensión y somnolencia. La hemoglobina ha descendido bruscamente en comparación con controles recientes; leucocitos y plaquetas están relativamente conservados. ¿Cuál es la clasificación más adecuada del problema hematológico principal?",
+    options: [
+        "Anemia aguda por pérdida sanguínea digestiva facilitada por anticoagulación",
+        "Anemia crónica por enfermedad inflamatoria",
+        "Pancitopenia inducida por warfarina",
+        "Linfocitopenia con hipoperfusión secundaria"
+    ],
+    answer: 0,
+    explanation: "La caída rápida de hemoglobina, junto con signos de hipovolemia y compromiso del sensorio, define una anemia aguda por sangrado. La warfarina no está causando aquí una falla de médula, sino favoreciendo la hemorragia. Es crucial diferenciarla de una anemia crónica, porque en la aguda el problema inmediato es la pérdida de volumen y la disminución brusca de la capacidad de transporte de oxígeno, lo que exige intervención urgente."
+}
+
+],
+clinicalCVRSSet18: [
+
+{
+    question: "Un varón de 65 años consulta por fiebre alta, escalofríos, dolor en el flanco derecho, náuseas y malestar general de 48 horas de evolución. Refiere disuria y polaquiuria desde hace varios días. En la exploración presenta puñopercusión lumbar dolorosa, taquicardia y temperatura de 39.1 °C. El hemograma muestra leucocitos 18,700/mm³ con 86% de neutrófilos y aumento de bandas. La creatinina es normal y no hay datos de inmunosupresión. ¿Cuál es la mejor interpretación del patrón hematológico encontrado?",
+    options: [
+        "Respuesta neutrofílica intensa compatible con infección bacteriana aguda del tracto urinario superior",
+        "Patrón típico de infección viral con movilización secundaria de granulocitos",
+        "Hallazgo sugestivo de insuficiencia medular con liberación paradójica de neutrófilos",
+        "Reacción predominantemente alérgica desencadenada por inflamación renal"
+    ],
+    answer: 0,
+    explanation: "El cuadro clínico sugiere pielonefritis aguda, una infección bacteriana importante del tracto urinario superior. La neutrofilia con bandas elevadas refleja una respuesta del sistema inmune innato ante un proceso bacteriano agudo, con estimulación medular suficiente para liberar formas menos maduras a la circulación. Esa combinación no indica necesariamente malignidad ni fallo medular; por el contrario, suele ser signo de una médula que está respondiendo activamente. El hemograma, integrado con la clínica, apoya la presencia de una infección piógena significativa."
+},
+
+{
+    question: "Una mujer de 34 años con antecedente de asma alérgica mal controlada consulta por crisis repetidas de broncoespasmo, tos nocturna, disnea al esfuerzo mínimo, rinorrea acuosa y prurito cutáneo. Refiere que en las últimas semanas ha usado su inhalador con más frecuencia y que los síntomas empeoran al exponerse al polvo. En el hemograma presenta eosinófilos 12.7%, con leucocitos totales normales y ausencia de fiebre. ¿Cuál es la mejor explicación para la eosinofilia en esta paciente?",
+    options: [
+        "Los eosinófilos participan activamente en la inflamación alérgica y contribuyen al daño tisular de la vía aérea",
+        "La eosinofilia indica una infección bacteriana oculta de larga evolución",
+        "Se trata de una respuesta típica de hipoxia crónica",
+        "El hallazgo sugiere primariamente infiltración tumoral de médula ósea"
+    ],
+    answer: 0,
+    explanation: "En el asma alérgica y otras enfermedades atópicas, los eosinófilos no son solo un dato de laboratorio: son células efectoras que liberan mediadores inflamatorios, proteínas citotóxicas y citoquinas que perpetúan la inflamación bronquial. Eso favorece hiperreactividad de la vía aérea, edema y síntomas persistentes. La eosinofilia, por tanto, encaja fisiopatológicamente con una enfermedad alérgica activa. La ausencia de fiebre y la clara relación con desencadenantes ambientales alejan mucho la posibilidad de infección bacteriana."
+},
+
+{
+    question: "Un hombre de 38 años, obrero agrícola, consulta por dolor abdominal recurrente, distensión, diarrea intermitente, disminución de peso y anorexia de varias semanas. Refiere que en su comunidad no hay agua potable y suele caminar descalzo en terrenos húmedos. El hemograma muestra hemoglobina discretamente baja y eosinófilos de 14.5%. ¿Cuál es la causa más probable del patrón hematológico?",
+    options: [
+        "Parasitosis con respuesta eosinofílica, probablemente por helmintos con fase tisular o intestinal",
+        "Infección bacteriana crónica del intestino delgado con neutropenia secundaria",
+        "Insuficiencia suprarrenal con eosinofilia reactiva predominante",
+        "Basofilia mal identificada por el analizador hematológico"
+    ],
+    answer: 0,
+    explanation: "La eosinofilia persistente en un paciente con factores epidemiológicos tan claros orienta fuertemente a parasitosis, especialmente por helmintos. A diferencia de bacterias y virus, estos parásitos suelen inducir respuestas inmunes donde los eosinófilos tienen un rol central. La anemia leve puede explicarse por inflamación crónica, malabsorción, pérdidas digestivas o consumo nutricional asociado a la infección. El contexto es esencial: no se interpreta igual una eosinofilia aislada en un paciente urbano sin síntomas digestivos que en este caso."
+},
+
+{
+    question: "Un varón de 62 años consulta por pérdida de peso, sudoración nocturna, sensación de plenitud precoz y prurito generalizado. En la exploración física destaca esplenomegalia importante. El hemograma evidencia leucocitosis marcada, presencia de mielocitos y metamielocitos en sangre periférica y basofilia persistente. No hay eosinofilia relevante ni antecedentes recientes de reacción alérgica. ¿Qué importancia diagnóstica tiene la basofilia en este contexto?",
+    options: [
+        "Es un hallazgo que apoya una proliferación mieloide clonal más que una respuesta inflamatoria banal",
+        "Es el patrón hematológico más típico de una neumonía viral",
+        "Confirma una reacción medicamentosa como causa del cuadro general",
+        "Indica una hemorragia digestiva crónica no detectada"
+    ],
+    answer: 0,
+    explanation: "La basofilia sostenida es un hallazgo poco frecuente en procesos comunes y, cuando aparece junto con leucocitosis y esplenomegalia, adquiere gran valor orientador hacia una enfermedad mieloproliferativa. No significa por sí sola un diagnóstico definitivo, pero ayuda a diferenciar un proceso reactivo de una proliferación clonal. En clínica, el diferencial leucocitario puede aportar pistas muy potentes cuando se interpreta dentro de un síndrome mayor, como aquí ocurre."
+},
+
+{
+    question: "Una mujer de 57 años con cirrosis hepática y artritis reumatoide de larga evolución acude a control por fatiga leve. No tiene fiebre, ni pérdida ponderal reciente, ni adenopatías. En tres hemogramas consecutivos se observa una basofilia discreta y estable, con leucocitos totales dentro de rango y sin blastos en sangre periférica. ¿Cuál es la mejor interpretación clínica?",
+    options: [
+        "Es razonable pensar en una basofilia reactiva asociada a enfermedad crónica, siempre que no existan otros signos de alarma hematológica",
+        "La basofilia leve demuestra de manera obligatoria leucemia mieloide crónica",
+        "La ausencia de leucocitosis descarta cualquier relevancia del hallazgo",
+        "Es una consecuencia típica de una anemia ferropénica grave"
+    ],
+    answer: 0,
+    explanation: "La basofilia no siempre es sinónimo de neoplasia. Cuando es leve, estable y aparece en un contexto de inflamación crónica o hepatopatía, puede tratarse de una alteración reactiva. Lo importante es valorar el patrón completo: intensidad de la basofilia, evolución en el tiempo, síntomas constitucionales, esplenomegalia, blastos y demás series hematológicas. En esta paciente, la falta de otros datos de alarma hace más prudente una interpretación reactiva con seguimiento."
+},
+
+{
+    question: "Un hombre de 49 años consulta por fiebre vespertina, tos crónica, sudoración nocturna y pérdida de peso de tres meses de evolución. La evaluación microbiológica confirma tuberculosis pulmonar. El hemograma muestra monocitosis del 12%, anemia normocítica leve y neutrófilos en rango alto-normal, sin franca neutrofilia. ¿Por qué la monocitosis tiene sentido fisiopatológico en este escenario?",
+    options: [
+        "Porque los monocitos forman parte de la respuesta crónica y se diferencian en macrófagos esenciales para el control granulomatoso",
+        "Porque son las principales células productoras de inmunoglobulinas frente a micobacterias",
+        "Porque la tuberculosis destruye selectivamente neutrófilos y obliga a compensación monocítica",
+        "Porque toda neumonía crónica debe manifestarse con monocitosis aislada"
+    ],
+    answer: 0,
+    explanation: "La tuberculosis es una infección crónica donde los macrófagos cumplen un papel central, tanto en la contención del patógeno como en la formación de granulomas. Los monocitos circulantes son los precursores de esos macrófagos tisulares, por lo que su aumento resulta coherente. Este patrón es distinto al de infecciones bacterianas piógenas agudas, donde suele predominar la neutrofilia marcada. Por eso el hemograma ayuda no solo a detectar inflamación, sino a sugerir su naturaleza."
+},
+
+{
+    question: "Una mujer de 50 años con antecedente de prolapso valvular consulta por fiebre intermitente, astenia intensa, anorexia y pérdida de peso. En el examen se detecta un nuevo soplo sistólico y lesiones hemorrágicas puntiformes en lechos ungueales. El ecocardiograma confirma endocarditis infecciosa subaguda. El hemograma muestra monocitosis persistente y anemia normocítica. ¿Qué interpretación es la más adecuada?",
+    options: [
+        "Es un patrón compatible con un foco infeccioso prolongado que mantiene una respuesta inflamatoria crónica",
+        "Corresponde a una reacción típica de enfermedad alérgica sistémica",
+        "Indica principalmente hemorragia aguda con consumo leucocitario",
+        "Sugiere un cuadro viral autolimitado no relacionado con la válvula"
+    ],
+    answer: 0,
+    explanation: "La endocarditis subaguda genera una estimulación inmunológica sostenida, a diferencia de infecciones agudas de corta duración. Esa persistencia favorece anemia inflamatoria y, en algunos casos, monocitosis. El patrón hematológico, por tanto, no solo informa que hay inflamación, sino que es congruente con la cronicidad del proceso. Integrado con el soplo nuevo y los hallazgos periféricos, el cuadro adquiere mucha coherencia clínica."
+},
+
+{
+    question: "Un varón de 41 años con infección por VIH avanzada, sin adecuada adherencia terapéutica, consulta por fiebre, diarrea crónica, candidiasis oral y pérdida de peso marcada. El hemograma muestra leucocitos 2,400/mm³ con neutrófilos absolutos de 760/mm³. ¿Cuál es la implicancia clínica más importante de este resultado?",
+    options: [
+        "La neutropenia reduce gravemente la defensa frente a bacterias y hongos, elevando el riesgo de infección invasiva",
+        "La neutropenia descarta que la fiebre tenga origen infeccioso",
+        "El hallazgo solo tiene valor si coexistiera eosinofilia",
+        "El principal riesgo es exclusivamente hemorragia espontánea"
+    ],
+    answer: 0,
+    explanation: "Los neutrófilos son una pieza crítica de la defensa inmediata frente a bacterias y hongos. Un recuento absoluto bajo, especialmente por debajo de 1,000/mm³, aumenta notablemente el riesgo de infecciones graves. En un paciente con VIH, este problema se suma a otras alteraciones inmunológicas, por lo que la vulnerabilidad es aún mayor. El hemograma aquí tiene valor pronóstico y práctico: obliga a valorar la fiebre con mucha mayor preocupación."
+},
+
+{
+    question: "Una mujer de 30 años consulta por fiebre alta, cefalea, dolor abdominal y compromiso del estado general. Los hemocultivos confirman fiebre tifoidea. El hemograma revela leucopenia con neutropenia moderada. Un estudiante comenta que el laboratorio no encaja porque las infecciones bacterianas deberían dar neutrofilia. ¿Cuál es la mejor corrección?",
+    options: [
+        "No todas las infecciones bacterianas generan neutrofilia; algunas pueden producir leucopenia según su fisiopatología",
+        "La fiebre tifoidea es una infección viral y por eso no hay neutrofilia",
+        "La neutropenia solo ocurre si el paciente recibió quimioterapia",
+        "Las bacterias no modifican el diferencial leucocitario de forma significativa"
+    ],
+    answer: 0,
+    explanation: "Ese razonamiento simplifica demasiado el hemograma. Aunque muchas infecciones bacterianas agudas generan neutrofilia, otras, como la fiebre tifoidea, pueden producir leucopenia o neutropenia. Esto depende de la interacción del microorganismo con la médula, de mecanismos de redistribución y del contexto del huésped. La interpretación correcta requiere entender el comportamiento específico de cada patógeno, no aplicar reglas universales."
+},
+
+{
+    question: "Un hombre de 60 años inicia tratamiento con sulfonamidas por una infección urinaria. Siete días después consulta por fiebre, odinofagia severa, aftas dolorosas y malestar general. El hemograma muestra leucocitos 1,700/mm³ con neutrófilos absolutos de 580/mm³, mientras hemoglobina y plaquetas permanecen normales. ¿Cuál es el diagnóstico hematológico más probable?",
+    options: [
+        "Neutropenia farmacológica aislada",
+        "Pancitopenia por aplasia medular completa",
+        "Leucocitosis con predominio de formas inmaduras",
+        "Monocitosis reactiva con neutropenia relativa"
+    ],
+    answer: 0,
+    explanation: "La afectación selectiva de neutrófilos, la cronología con el fármaco y la conservación de otras líneas sugieren neutropenia inducida por medicamentos. Es un hallazgo clínicamente importante porque la fiebre en ese contexto puede representar una infección grave con pocos signos inflamatorios periféricos. El hecho de que la hemoglobina y las plaquetas estén preservadas ayuda a distinguir este cuadro de una insuficiencia medular global."
+},
+
+{
+    question: "Un hombre de 33 años procedente de zona selvática consulta por accesos febriles intermitentes, escalofríos, cefalea intensa y sudoración profusa. La gota gruesa confirma malaria. El hemograma muestra leucopenia y trombocitopenia leves, sin eosinofilia significativa. ¿Cuál es la mejor interpretación de la ausencia de eosinofilia?",
+    options: [
+        "La eosinofilia no es un requisito para todas las parasitosis; depende del tipo de parásito y su interacción con el huésped",
+        "La ausencia de eosinofilia descarta cualquier infección parasitaria",
+        "La malaria debe producir obligatoriamente eosinofilia marcada si el diagnóstico es correcto",
+        "Sin eosinofilia, la trombocitopenia carece de valor clínico"
+    ],
+    answer: 0,
+    explanation: "No todas las enfermedades parasitarias se comportan igual. La eosinofilia es más típica de helmintos y de parásitos con fases tisulares. En malaria, lo habitual puede ser encontrar anemia, leucopenia o trombocitopenia, sin que exista necesariamente eosinofilia importante. Este caso muestra por qué no conviene convertir patrones de laboratorio en dogmas: la fisiopatología específica del agente es la que manda."
+},
+
+{
+    question: "Una adolescente de 17 años consulta por fiebre, odinofagia intensa, adenopatías cervicales dolorosas, astenia marcada y hepatomegalia leve. En el hemograma se observa leucocitosis con predominio linfocitario y presencia de linfocitos atípicos. ¿Qué representan con mayor probabilidad esas células atípicas?",
+    options: [
+        "Linfocitos reactivos activados frente a una estimulación antigénica intensa, habitualmente viral",
+        "Blastos leucémicos circulantes propios de una hemopatía maligna aguda",
+        "Neutrófilos degenerados mal interpretados en el frotis",
+        "Basófilos inmaduros liberados por la médula"
+    ],
+    answer: 0,
+    explanation: "Los linfocitos atípicos, en este contexto, son muy probablemente células reactivas. Cambian su aspecto morfológico porque están activadas frente a una agresión antigénica intensa, típicamente viral. La clave es no confundir 'atípico' con 'maligno'. El contexto clínico, sumado al resto del hemograma, suele orientar de manera clara hacia una respuesta inmunitaria reactiva más que a una leucemia."
+},
+
+{
+    question: "Un hombre de 45 años consulta por pérdida de peso, fatiga intensa, náuseas, hipotensión y pigmentación aumentada en piel y mucosas. El hemograma muestra linfocitosis relativa, sin leucocitosis total ni signos clínicos de infección. ¿Cuál es la explicación más probable?",
+    options: [
+        "Insuficiencia suprarrenal primaria con alteración del patrón leucocitario",
+        "Leucemia linfoide crónica en etapa inicial",
+        "Reacción leucemoide secundaria al estrés",
+        "Hemorragia digestiva crónica con linfocitosis compensadora"
+    ],
+    answer: 0,
+    explanation: "La insuficiencia suprarrenal primaria puede acompañarse de cambios en el diferencial leucocitario, incluida linfocitosis relativa. El hallazgo, aislado, no hace diagnóstico, pero cobra valor al integrarse con una clínica muy sugestiva de Addison. Este es un buen ejemplo de cómo el hemograma puede ofrecer pistas endocrinológicas, no solo infecciosas o hematológicas."
+},
+
+{
+    question: "Una mujer de 55 años con síndrome de Cushing consulta por debilidad muscular proximal, obesidad centrípeta, equimosis fáciles y múltiples infecciones cutáneas recientes. El hemograma muestra linfocitopenia sostenida. ¿Cuál es el mecanismo más importante detrás de esta alteración?",
+    options: [
+        "Redistribución y apoptosis de linfocitos inducidas por exceso de glucocorticoides",
+        "Infiltración neoplásica selectiva de la serie linfoide",
+        "Pérdida intestinal de linfocitos secundaria a colitis",
+        "Secuestro esplénico exclusivo de linfocitos"
+    ],
+    answer: 0,
+    explanation: "Los glucocorticoides alteran profundamente el recuento leucocitario. Favorecen la desmarginación de neutrófilos, pero disminuyen los linfocitos circulantes por redistribución y por efectos sobre la supervivencia de ciertas subpoblaciones. Por eso la linfocitopenia es coherente con el hipercortisolismo y ayuda a entender la susceptibilidad a infecciones en estos pacientes. No todo descenso linfocitario implica enfermedad medular."
+},
+
+{
+    question: "Un niño de 6 años con diarrea crónica, edema, bajo peso y retraso del crecimiento presenta infecciones respiratorias de repetición. En controles seriados se documenta linfocitopenia persistente. No hay evidencia de neoplasia hematológica ni inmunodeficiencia primaria específica. ¿Cuál es la mejor explicación fisiopatológica?",
+    options: [
+        "Desnutrición y pérdidas digestivas crónicas con compromiso de la inmunidad celular",
+        "Respuesta normal e inofensiva a cualquier diarrea viral",
+        "Aumento compensatorio de neutrófilos con descenso porcentual sin importancia clínica",
+        "Secuestro de linfocitos por hiperesplenismo aislado"
+    ],
+    answer: 0,
+    explanation: "La desnutrición afecta de forma profunda el sistema inmune, especialmente en niños. Si además hay enfermedad intestinal crónica o pérdidas digestivas, el mantenimiento de poblaciones linfocitarias se compromete aún más. La linfocitopenia en este contexto ayuda a explicar la susceptibilidad a infecciones. No es solo un dato analítico: forma parte del deterioro funcional global del paciente."
+},
+
+{
+    question: "Un varón de 68 años consulta por palidez, disnea de esfuerzo, petequias, gingivorragia e infecciones respiratorias recurrentes. El hemograma muestra anemia, leucopenia y trombocitopenia. El aspirado medular revela hipocelularidad marcada sin infiltración tumoral. ¿Cuál es la interpretación sindrómica correcta?",
+    options: [
+        "Pancitopenia por falla global de la hematopoyesis",
+        "Anemia aguda con trombocitopenia reactiva y leucopenia transitoria",
+        "Monocitosis crónica con consumo plaquetario secundario",
+        "Leucocitosis en resolución con aplasia selectiva de eritrocitos"
+    ],
+    answer: 0,
+    explanation: "Cuando disminuyen las tres series celulares, el cuadro corresponde a pancitopenia. Si además la médula es hipocelular, la interpretación más lógica es una falla global de la hematopoyesis, como en aplasia medular. La clínica es completamente coherente con ello: anemia produce disnea y fatiga, trombocitopenia causa petequias y sangrado, y leucopenia favorece infecciones. Pensarlo como síndrome global es esencial para no fragmentar el problema."
+},
+
+{
+    question: "Una trabajadora de 43 años de una planta de solventes consulta por fatiga intensa, infecciones frecuentes, sangrado gingival y aparición de equimosis espontáneas. El hemograma revela pancitopenia. Refiere exposición ocupacional prolongada y poco uso de protección. ¿Por qué este antecedente es tan importante?",
+    options: [
+        "Porque algunos tóxicos ocupacionales, como el benceno, pueden causar daño medular directo y pancitopenia",
+        "Porque la exposición laboral explica solo la anemia y no las otras citopenias",
+        "Porque ese antecedente descarta causas hematológicas primarias",
+        "Porque los solventes solo provocan basofilia, no pancitopenia"
+    ],
+    answer: 0,
+    explanation: "La historia ocupacional es clave porque ciertos tóxicos tienen afinidad por la médula ósea y pueden lesionar las células madre hematopoyéticas. El benceno es un ejemplo clásico. Eso permite explicar por qué disminuyen simultáneamente eritrocitos, leucocitos y plaquetas. En muchos pacientes, la etiología no se descubre mirando solo el hemograma, sino preguntando adecuadamente por exposiciones."
+},
+
+{
+    question: "Un paciente de 63 años con cáncer metastásico presenta dolor óseo, fatiga intensa, sangrado mucoso e infecciones de repetición. El estudio medular demuestra infiltración tumoral extensa que desplaza el tejido hematopoyético normal. El hemograma muestra anemia, leucopenia y trombocitopenia. ¿Cuál es la mejor explicación de este patrón?",
+    options: [
+        "Invasión de médula ósea con desplazamiento de la hematopoyesis normal, produciendo pancitopenia",
+        "Hemorragia digestiva crónica como único mecanismo causal",
+        "Producción excesiva de células inmaduras con consumo periférico posterior",
+        "Respuesta inflamatoria aislada con falsa trombocitopenia"
+    ],
+    answer: 0,
+    explanation: "Cuando el tumor invade la médula, ocupa el espacio y altera el microambiente necesarios para producir células sanguíneas normales. Por eso pueden disminuir simultáneamente eritrocitos, leucocitos y plaquetas. La clínica del paciente —fatiga, infecciones y sangrado— es justamente la traducción funcional de esa falla global de producción. No hace falta que el tumor sea primariamente hematológico para producir este tipo de cuadro."
+},
+
+{
+    question: "Una mujer de 44 años con enfermedad de Crohn de varios años de evolución consulta por cansancio progresivo, palidez y menor tolerancia al esfuerzo. No refiere un episodio reciente de hemorragia importante. El hemograma muestra hemoglobina baja, VCM normal y reticulocitos no aumentados. ¿Cuál es la explicación más probable?",
+    options: [
+        "Anemia de enfermedad crónica por inflamación sostenida y respuesta eritropoyética ineficiente",
+        "Hemorragia aguda con compensación medular completa",
+        "Hemólisis intravascular severa en fase temprana",
+        "Neutropenia con falsa disminución de hemoglobina"
+    ],
+    answer: 0,
+    explanation: "En las enfermedades inflamatorias crónicas, la eritropoyesis se vuelve menos eficiente por acción de mediadores inflamatorios y por alteraciones en la disponibilidad funcional del hierro. Esto puede dar una anemia normocítica o discretamente alterada, sin reticulocitosis importante. El mecanismo es distinto al de una hemorragia aguda, donde se esperaría una respuesta medular más activa una vez transcurrido el tiempo suficiente. La inflamación crónica, por sí misma, puede sostener la anemia."
+},
+
+{
+    question: "Un varón de 75 años en tratamiento con warfarina consulta por melena, taquicardia, hipotensión y somnolencia. Su hemoglobina ha descendido bruscamente respecto a controles previos, mientras leucocitos y plaquetas se mantienen relativamente conservados. ¿Cuál es la clasificación más adecuada del problema hematológico principal?",
+    options: [
+        "Anemia aguda por pérdida sanguínea digestiva favorecida por anticoagulación",
+        "Anemia crónica de enfermedad inflamatoria",
+        "Pancitopenia tóxica inducida por anticoagulantes",
+        "Linfocitopenia con hipoperfusión secundaria"
+    ],
+    answer: 0,
+    explanation: "La caída rápida de la hemoglobina, junto con signos de hipovolemia e hipoperfusión, define una anemia aguda por sangrado. La warfarina no está causando una falla de médula, sino facilitando la hemorragia. Es fundamental diferenciar una anemia aguda de una crónica, porque en la aguda la urgencia está dada por la pérdida rápida de volumen y la caída brusca del transporte de oxígeno. Ese contexto determina el enfoque terapéutico inmediato."
+}
+
+],
+clinicalCVRSSet19: [
+
+{
+    question: "Un varón de 70 años con antecedentes de diabetes mellitus y enfermedad renal crónica consulta por fiebre, confusión, disnea y oliguria de 24 horas de evolución. En la exploración presenta hipotensión, taquicardia y piel moteada. El hemograma inicial muestra leucocitos 18,200/mm³ con neutrófilos 88%. Sin embargo, 12 horas después, el recuento desciende a 2,900/mm³. ¿Cuál es la mejor interpretación de esta evolución?",
+    options: [
+        "Progresión a sepsis grave con desregulación inmune y posible consumo o redistribución leucocitaria",
+        "Resolución rápida de la infección gracias a antibióticos",
+        "Error preanalítico sin correlación clínica",
+        "Inicio de una leucemia aguda"
+    ],
+    answer: 0,
+    explanation: "En sepsis grave, el sistema inmune puede pasar de una fase hiperinflamatoria a una fase de inmunoparálisis. La leucopenia en este contexto no indica mejoría, sino deterioro. Puede reflejar consumo, migración masiva a tejidos o disfunción medular. Es un marcador de mal pronóstico, especialmente cuando se acompaña de inestabilidad hemodinámica."
+},
+
+{
+    question: "Una mujer de 48 años en tratamiento con quimioterapia por cáncer de ovario consulta por fiebre de 38.5 °C sin foco evidente. No presenta tos, disuria ni lesiones cutáneas visibles. El hemograma muestra neutrófilos absolutos de 450/mm³. ¿Por qué la ausencia de signos inflamatorios locales no descarta infección grave?",
+    options: [
+        "Porque la neutropenia limita la capacidad de generar inflamación visible",
+        "Porque las infecciones virales no producen inflamación",
+        "Porque la fiebre es un hallazgo inespecífico sin valor",
+        "Porque los antibióticos previos siempre enmascaran síntomas"
+    ],
+    answer: 0,
+    explanation: "Los neutrófilos son fundamentales para generar signos clásicos de inflamación como pus, eritema o calor. En neutropenia severa, estos signos pueden no aparecer, lo que hace que la fiebre sea muchas veces el único indicio de infección. Esto convierte la neutropenia febril en una urgencia médica."
+},
+
+{
+    question: "Un hombre de 36 años consulta por ictericia, fatiga intensa y orina oscura. El hemograma muestra anemia con reticulocitos elevados, LDH alta y bilirrubina indirecta aumentada. ¿Qué mecanismo explica mejor el cuadro?",
+    options: [
+        "Destrucción acelerada de eritrocitos con respuesta medular compensatoria",
+        "Producción insuficiente de eritrocitos",
+        "Hemorragia aguda",
+        "Infección bacteriana"
+    ],
+    answer: 0,
+    explanation: "La combinación de anemia, reticulocitosis y aumento de bilirrubina indirecta es típica de hemólisis. La médula intenta compensar produciendo más eritrocitos, pero la destrucción supera la producción."
+},
+
+{
+    question: "Paciente de 61 años con insuficiencia renal crónica presenta anemia persistente normocítica. No hay sangrado ni hemólisis. ¿Cuál es el mecanismo principal?",
+    options: [
+        "Disminución de eritropoyetina",
+        "Deficiencia de hierro",
+        "Hemorragia crónica",
+        "Aumento de destrucción eritrocitaria"
+    ],
+    answer: 0,
+    explanation: "La eritropoyetina, producida por el riñón, estimula la eritropoyesis. Su disminución en enfermedad renal crónica produce anemia normocítica."
+},
+
+{
+    question: "Un paciente con cirrosis avanzada presenta esplenomegalia, anemia leve, leucopenia y trombocitopenia. No hay infiltración tumoral. ¿Cuál es el mecanismo?",
+    options: [
+        "Hiperesplenismo con secuestro de células sanguíneas",
+        "Falla medular primaria",
+        "Infección viral sistémica",
+        "Producción excesiva de células"
+    ],
+    answer: 0,
+    explanation: "El bazo agrandado retiene y destruye células sanguíneas, generando pancitopenia funcional."
+},
+
+{
+    question: "Un paciente con dengue presenta leucopenia progresiva. ¿Cuál es el mecanismo más relevante?",
+    options: [
+        "Supresión transitoria de médula ósea por el virus",
+        "Producción excesiva de neutrófilos",
+        "Destrucción de eritrocitos",
+        "Aumento de plaquetas"
+    ],
+    answer: 0,
+    explanation: "El dengue puede afectar directamente la médula ósea y causar leucopenia."
+},
+
+{
+    question: "Un paciente con trombocitopenia presenta epistaxis y petequias. ¿Cuál es la explicación?",
+    options: [
+        "Alteración de la hemostasia primaria",
+        "Defecto en hemoglobina",
+        "Infección bacteriana",
+        "Aumento de neutrófilos"
+    ],
+    answer: 0,
+    explanation: "Las plaquetas son esenciales para la coagulación inicial."
+},
+
+{
+    question: "Un paciente con hipoxia crónica presenta aumento de hematocrito. ¿Cuál es el mecanismo?",
+    options: [
+        "Estimulación de eritropoyetina por hipoxia",
+        "Infección",
+        "Inflamación",
+        "Hemólisis"
+    ],
+    answer: 0,
+    explanation: "La hipoxia estimula la producción de eritropoyetina."
+},
+
+{
+    question: "Un paciente con leucemia tiene leucocitos elevados pero infecciones frecuentes. ¿Por qué?",
+    options: [
+        "Los leucocitos son funcionalmente ineficaces",
+        "Hay exceso de anticuerpos",
+        "Hay anemia",
+        "Hay trombocitosis"
+    ],
+    answer: 0,
+    explanation: "Las células leucémicas no funcionan adecuadamente."
+},
+
+{
+    question: "Paciente con anemia presenta disnea y fatiga. ¿Cuál es el mecanismo?",
+    options: [
+        "Disminución del transporte de oxígeno",
+        "Infección",
+        "Inflamación",
+        "Aumento de plaquetas"
+    ],
+    answer: 0,
+    explanation: "Menos hemoglobina reduce el aporte de oxígeno."
+},
+
+{
+    question: "Paciente con infección bacteriana presenta fiebre. ¿Qué la causa?",
+    options: [
+        "Citocinas pirógenas que actúan en el hipotálamo",
+        "Producción de eritrocitos",
+        "Disminución de plaquetas",
+        "Aumento de eosinófilos"
+    ],
+    answer: 0,
+    explanation: "Las citocinas elevan el punto de regulación térmica."
+},
+
+{
+    question: "Paciente con monocitosis presenta infección crónica. ¿Por qué?",
+    options: [
+        "Activación del sistema mononuclear-fagocítico",
+        "Producción de eritrocitos",
+        "Alergia",
+        "Hemorragia"
+    ],
+    answer: 0,
+    explanation: "Los monocitos participan en procesos crónicos."
+},
+
+{
+    question: "Paciente con eosinofilia presenta daño tisular. ¿Por qué?",
+    options: [
+        "Liberación de proteínas citotóxicas",
+        "Producción de hemoglobina",
+        "Infección viral",
+        "Aumento de plaquetas"
+    ],
+    answer: 0,
+    explanation: "Los eosinófilos liberan mediadores dañinos."
+},
+
+{
+    question: "Paciente con basofilia presenta prurito. ¿Cuál es la causa?",
+    options: [
+        "Liberación de histamina",
+        "Producción de eritrocitos",
+        "Infección",
+        "Hemorragia"
+    ],
+    answer: 0,
+    explanation: "La histamina causa prurito."
+},
+
+{
+    question: "Paciente con anemia presenta palidez. ¿Por qué?",
+    options: [
+        "Menor hemoglobina",
+        "Infección",
+        "Inflamación",
+        "Producción de plaquetas"
+    ],
+    answer: 0,
+    explanation: "Menos hemoglobina reduce la coloración."
+},
+
+{
+    question: "Paciente con leucopenia presenta infecciones. ¿Por qué?",
+    options: [
+        "Déficit de defensa inmune",
+        "Exceso de anticuerpos",
+        "Producción de eritrocitos",
+        "Aumento de plaquetas"
+    ],
+    answer: 0,
+    explanation: "Los leucocitos son clave en defensa."
+},
+
+{
+    question: "Paciente con hipoxia presenta taquicardia. ¿Por qué?",
+    options: [
+        "Compensación para aumentar oxígeno",
+        "Infección",
+        "Inflamación",
+        "Producción de eosinófilos"
+    ],
+    answer: 0,
+    explanation: "El corazón compensa la hipoxia."
+},
+
+{
+    question: "Paciente con infección presenta leucocitosis. ¿Por qué?",
+    options: [
+        "Respuesta inmune activa",
+        "Producción de eritrocitos",
+        "Disminución de plaquetas",
+        "Inhibición medular"
+    ],
+    answer: 0,
+    explanation: "Los leucocitos aumentan ante infección."
+},
+
+{
+    question: "Paciente con enfermedad crónica presenta anemia. ¿Por qué?",
+    options: [
+        "Alteración del metabolismo del hierro",
+        "Hemorragia",
+        "Infección",
+        "Producción de neutrófilos"
+    ],
+    answer: 0,
+    explanation: "La inflamación altera la eritropoyesis."
+},
+
+{
+    question: "Paciente con anemia presenta mareo. ¿Por qué?",
+    options: [
+        "Disminución de oxígeno cerebral",
+        "Infección",
+        "Inflamación",
+        "Producción de plaquetas"
+    ],
+    answer: 0,
+    explanation: "Menos oxígeno afecta el cerebro."
+}
+
+]
+
+    }
+
+},
+
 
 "Semana 2 - Uroanálisis": {
 
@@ -13064,6 +17485,9890 @@ ultraFinal21: [
     explanation: "Datos específicos pesan más."
 }
 ]
+
+    }
+
+},
+
+"Semana 2 -  Casos clínicos": {
+
+    core: {
+
+        advancedClinicalUroanalysis: [
+
+    {
+        question: "Un hombre de 58 años con antecedentes de diabetes mellitus tipo 2 acude por poliuria, polidipsia y pérdida de peso. En el uroanálisis se detecta glucosuria significativa sin proteinuria ni hematuria. ¿Cuál es el mecanismo fisiopatológico más probable que explica este hallazgo?",
+        options: [
+            "Disminución de la filtración glomerular de glucosa",
+            "Aumento de la capacidad de reabsorción tubular de glucosa",
+            "Saturación de los transportadores tubulares de glucosa por exceso de carga filtrada",
+            "Aumento de la secreción tubular activa de glucosa"
+        ],
+        answer: 2,
+        explanation: "La glucosuria ocurre cuando la carga filtrada de glucosa excede la capacidad de reabsorción del túbulo renal. Esto sucede en hiperglucemia (como en DM), donde los transportadores se saturan y la glucosa se elimina en orina, produciendo diuresis osmótica."
+    },
+
+    {
+        question: "Una mujer de 45 años presenta edema generalizado. El uroanálisis revela proteinuria de 4.5 g/día. No hay hematuria. ¿Qué alteración estructural explica mejor este hallazgo?",
+        options: [
+            "Aumento de la secreción tubular de proteínas",
+            "Daño en la membrana de filtración glomerular que altera tamaño y carga",
+            "Obstrucción de la vía urinaria",
+            "Producción excesiva de proteínas por el hígado"
+        ],
+        answer: 1,
+        explanation: "La membrana de filtración glomerular normalmente impide el paso de proteínas por su tamaño y carga. Cuando se altera su integridad, las proteínas (principalmente albúmina) atraviesan el filtro, produciendo proteinuria en rango nefrótico."
+    },
+
+    {
+        question: "Un paciente de 30 años presenta orina turbia tras ser refrigerada, sin síntomas urinarios. El sedimento no muestra leucocitos ni bacterias. ¿Cuál es la causa más probable?",
+        options: [
+            "Infección urinaria subclínica",
+            "Precipitación de cristales en condiciones de baja temperatura",
+            "Hematuria microscópica",
+            "Presencia de proteínas plasmáticas"
+        ],
+        answer: 1,
+        explanation: "La turbidez de la orina puede deberse a la precipitación de cristales tras refrigeración. Este fenómeno es frecuente y no necesariamente patológico si no hay otros hallazgos como leucocitos o bacterias."
+    },
+
+    {
+        question: "Un paciente con deshidratación severa presenta densidad urinaria elevada. ¿Qué indica este resultado en términos fisiológicos?",
+        options: [
+            "Orina diluida por exceso de agua",
+            "Disminución de la concentración de solutos",
+            "Aumento de la concentración de solutos por conservación de agua",
+            "Pérdida de capacidad de concentración renal"
+        ],
+        answer: 2,
+        explanation: "La densidad urinaria elevada refleja una mayor concentración de solutos. En la deshidratación, el riñón conserva agua, concentrando la orina para mantener el equilibrio hídrico."
+    },
+
+    {
+        question: "Una paciente con consumo excesivo de agua presenta densidad urinaria baja persistente. ¿Cuál es la explicación más probable?",
+        options: [
+            "Aumento de proteínas en orina",
+            "Disminución de la filtración glomerular",
+            "Dilución urinaria por ingesta excesiva de líquidos",
+            "Aumento de la secreción de ADH"
+        ],
+        answer: 2,
+        explanation: "La ingesta excesiva de líquidos produce orina diluida, lo que disminuye la densidad urinaria. Esto se observa en polidipsia psicógena."
+    },
+
+    {
+        question: "Un paciente con cetoacidosis diabética presenta cetonuria. ¿Cuál es el mecanismo principal de este hallazgo?",
+        options: [
+            "Aumento del metabolismo de proteínas",
+            "Uso de grasas como fuente principal de energía",
+            "Disminución de la filtración renal",
+            "Aumento de la síntesis de glucosa"
+        ],
+        answer: 1,
+        explanation: "En la cetoacidosis diabética, el organismo utiliza grasas como fuente energética debido a la falta de glucosa utilizable, produciendo cuerpos cetónicos que se eliminan en la orina."
+    },
+
+    {
+        question: "Un paciente presenta ictericia y orina oscura. El uroanálisis revela bilirrubina positiva. ¿Qué indica este hallazgo?",
+        options: [
+            "Aumento de bilirrubina no conjugada",
+            "Presencia de bilirrubina conjugada en sangre que se excreta en orina",
+            "Hemólisis masiva sin compromiso hepático",
+            "Aumento de urobilinógeno exclusivamente"
+        ],
+        answer: 1,
+        explanation: "La bilirrubina en orina corresponde a la forma conjugada, ya que es soluble en agua. Su presencia indica patología hepática o colestásica."
+    },
+
+    {
+        question: "Un paciente con anemia hemolítica presenta aumento de urobilinógeno urinario. ¿Cuál es la causa?",
+        options: [
+            "Disminución de producción de bilirrubina",
+            "Aumento de degradación de eritrocitos",
+            "Falla renal",
+            "Obstrucción biliar"
+        ],
+        answer: 1,
+        explanation: "La hemólisis aumenta la producción de bilirrubina, que se convierte en urobilinógeno en el intestino, aumentando su excreción urinaria."
+    },
+
+    {
+        question: "Un paciente presenta hematuria con eritrocitos dismórficos en el sedimento urinario. ¿Cuál es el origen más probable?",
+        options: [
+            "Vejiga urinaria",
+            "Uréter",
+            "Glomérulo renal",
+            "Uretra"
+        ],
+        answer: 2,
+        explanation: "Los eritrocitos dismórficos indican origen glomerular debido al daño en la barrera de filtración, que altera su morfología."
+    },
+
+    {
+        question: "Un paciente presenta hematuria con eritrocitos de morfología normal. ¿Cuál es el origen más probable?",
+        options: [
+            "Glomerular",
+            "Urológico",
+            "Tubular",
+            "Intersticial"
+        ],
+        answer: 1,
+        explanation: "Los eritrocitos normales sugieren origen urológico (vías urinarias bajas), ya que no han sufrido deformación al atravesar el glomérulo."
+    },
+
+    {
+        question: "Una paciente presenta leucocituria significativa sin bacterias. ¿Cuál es la explicación más probable?",
+        options: [
+            "Infección bacteriana",
+            "Contaminación urinaria",
+            "Inflamación no infecciosa del tracto urinario",
+            "Error de laboratorio"
+        ],
+        answer: 2,
+        explanation: "La leucocituria puede presentarse en procesos inflamatorios no infecciosos como nefritis intersticial o litiasis."
+    },
+
+    {
+        question: "Un paciente presenta cilindros hialinos en el sedimento urinario tras ejercicio intenso. ¿Cómo se interpreta este hallazgo?",
+        options: [
+            "Daño renal severo",
+            "Hallazgo patológico grave",
+            "Hallazgo inespecífico que puede ser fisiológico",
+            "Indicador de infección urinaria"
+        ],
+        answer: 2,
+        explanation: "Los cilindros hialinos son frecuentes y pueden aparecer en condiciones normales como ejercicio, fiebre o deshidratación."
+    },
+
+    {
+        question: "Una muestra de orina muestra células epiteliales escamosas abundantes. ¿Qué indica este hallazgo?",
+        options: [
+            "Daño renal",
+            "Infección urinaria",
+            "Contaminación de la muestra",
+            "Glomerulonefritis"
+        ],
+        answer: 2,
+        explanation: "Las células escamosas suelen provenir de la vagina o uretra distal, indicando contaminación de la muestra."
+    },
+
+    {
+        question: "Un paciente presenta cristales de oxalato en orina. ¿Qué condición se asocia con este hallazgo?",
+        options: [
+            "Infección urinaria",
+            "Litiasis renal",
+            "Cirrosis hepática",
+            "Insuficiencia cardíaca"
+        ],
+        answer: 1,
+        explanation: "Los cristales de oxalato están asociados a litiasis renal y trastornos metabólicos como oxaluria."
+    },
+
+    {
+        question: "Un paciente presenta cristales de fosfato en orina alcalina. ¿Cuál es su significado clínico?",
+        options: [
+            "Siempre patológico",
+            "Indicador de daño renal severo",
+            "Puede ser un hallazgo sin significado clínico",
+            "Indicador de hematuria"
+        ],
+        answer: 2,
+        explanation: "Los fosfatos pueden precipitar en orina alcalina sin implicar patología."
+    },
+
+    {
+        question: "Un paciente con nefropatía presenta microalbuminuria. ¿Qué indica este hallazgo?",
+        options: [
+            "Daño renal avanzado",
+            "Falla renal terminal",
+            "Enfermedad renal incipiente",
+            "Normalidad"
+        ],
+        answer: 2,
+        explanation: "La microalbuminuria es un marcador temprano de daño renal, especialmente en diabetes e hipertensión."
+    },
+
+    {
+        question: "Un paciente presenta densidad urinaria de 1.010 persistente. ¿Qué indica este hallazgo?",
+        options: [
+            "Orina concentrada",
+            "Orina diluida",
+            "Isostenuria",
+            "Proteinuria"
+        ],
+        answer: 2,
+        explanation: "Una densidad de 1.010 indica isotonicidad (isostenuria), sugiriendo incapacidad del riñón para concentrar o diluir la orina."
+    },
+
+    {
+        question: "Un paciente presenta sodio urinario bajo en el contexto de hiponatremia. ¿Qué indica esto?",
+        options: [
+            "Exceso de eliminación renal de sodio",
+            "Retención renal de sodio",
+            "Daño tubular",
+            "Hiperkalemia"
+        ],
+        answer: 1,
+        explanation: "Un sodio urinario bajo sugiere que el riñón está reteniendo sodio, como ocurre en estados de hipovolemia."
+    },
+
+    {
+        question: "Un paciente presenta urocultivo con >100,000 UFC/ml. ¿Cómo se interpreta?",
+        options: [
+            "Contaminación",
+            "Colonización",
+            "Infección urinaria significativa",
+            "Normal"
+        ],
+        answer: 2,
+        explanation: "Un conteo >100,000 UFC/ml es altamente indicativo de infección urinaria bacteriana."
+    },
+
+    {
+        question: "Un paciente con dieta rica en proteínas presenta pH urinario ácido. ¿Cuál es la explicación?",
+        options: [
+            "Disminución del metabolismo",
+            "Aumento de producción de ácidos",
+            "Aumento de alcalinidad plasmática",
+            "Disminución de función renal"
+        ],
+        answer: 1,
+        explanation: "Las dietas ricas en proteínas generan ácidos metabólicos, lo que acidifica la orina."
+    }
+
+],
+advancedClinicalUroanalysis2: [
+
+    {
+        question: "Un varón de 62 años con antecedentes de diabetes mellitus tipo 2 mal controlada acude por fatiga, poliuria y pérdida de peso. El uroanálisis revela glucosuria, cetonuria y densidad urinaria elevada. En gases arteriales presenta acidosis metabólica. ¿Cuál es la explicación más integradora de estos hallazgos?",
+        options: [
+            "Aumento de la filtración glomerular con pérdida de bicarbonato",
+            "Uso de proteínas como fuente energética primaria",
+            "Déficit de insulina que induce lipólisis, producción de cetonas y diuresis osmótica",
+            "Aumento de la secreción tubular de glucosa y cuerpos cetónicos"
+        ],
+        answer: 2,
+        explanation: "En la cetoacidosis diabética, el déficit de insulina impide el uso de glucosa, promoviendo lipólisis y producción de cuerpos cetónicos. La glucosa filtrada excede la capacidad tubular → glucosuria → diuresis osmótica → deshidratación → aumento de densidad urinaria. Todo esto explica el cuadro clínico completo."
+    },
+
+    {
+        question: "Una mujer de 48 años con edema periorbitario y en miembros inferiores presenta proteinuria de 5 g/día, hipoalbuminemia y cilindros grasos en el sedimento urinario. ¿Qué mecanismo explica principalmente la proteinuria masiva?",
+        options: [
+            "Aumento de la presión hidrostática en el túbulo proximal",
+            "Alteración de la barrera de filtración glomerular que permite paso de macromoléculas",
+            "Disminución de la reabsorción tubular de proteínas",
+            "Aumento de la secreción activa de proteínas"
+        ],
+        answer: 1,
+        explanation: "La proteinuria en rango nefrótico se debe a daño de la membrana de filtración glomerular (alteración de tamaño y carga), permitiendo el paso de proteínas como la albúmina. Los cilindros grasos reflejan la sobrecarga tubular por lípidos."
+    },
+
+    {
+        question: "Un paciente de 35 años consulta por dolor lumbar intenso tipo cólico. El uroanálisis muestra cristales de oxalato de calcio y hematuria microscópica con eritrocitos normales. ¿Cuál es la interpretación más probable?",
+        options: [
+            "Glomerulonefritis aguda",
+            "Litiasis renal con origen urológico del sangrado",
+            "Nefritis intersticial aguda",
+            "Síndrome nefrótico"
+        ],
+        answer: 1,
+        explanation: "Los cristales de oxalato se asocian a litiasis renal. La hematuria con eritrocitos normales sugiere origen urológico (no glomerular), típico de trauma por cálculo en vías urinarias."
+    },
+
+    {
+        question: "Un paciente hospitalizado presenta sodio urinario bajo en el contexto de hiponatremia e hipotensión. ¿Qué indica este hallazgo respecto a la función renal?",
+        options: [
+            "El riñón está perdiendo sodio activamente",
+            "Existe daño tubular severo",
+            "El riñón está conservando sodio por hipovolemia",
+            "Existe exceso de ADH sin relación con volumen"
+        ],
+        answer: 2,
+        explanation: "El sodio urinario bajo indica que el riñón está reteniendo sodio para compensar hipovolemia. Es un mecanismo fisiológico de conservación de volumen."
+    },
+
+    {
+        question: "Una paciente presenta fiebre, disuria y dolor lumbar. El uroanálisis muestra leucocituria, nitritos positivos y bacteriuria significativa. ¿Qué hallazgo apoya con mayor especificidad el diagnóstico de infección bacteriana?",
+        options: [
+            "Leucocituria",
+            "Nitritos positivos",
+            "Hematuria",
+            "pH ácido"
+        ],
+        answer: 1,
+        explanation: "Los nitritos positivos son altamente sugestivos de bacterias reductoras de nitratos (principalmente Gram negativas). Aunque la leucocituria indica inflamación, no es específica de infección bacteriana."
+    },
+
+    {
+        question: "Un paciente con cirrosis hepática presenta orina oscura y el uroanálisis muestra bilirrubina positiva. ¿Cuál es el mecanismo fisiopatológico?",
+        options: [
+            "Aumento de bilirrubina no conjugada",
+            "Paso de bilirrubina conjugada al plasma y excreción renal",
+            "Aumento de urobilinógeno intestinal exclusivamente",
+            "Disminución del metabolismo hepático sin aumento plasmático"
+        ],
+        answer: 1,
+        explanation: "La bilirrubina en orina corresponde a la forma conjugada (hidrosoluble), que aumenta en enfermedades hepáticas o colestásicas y se excreta por el riñón."
+    },
+
+    {
+        question: "Un paciente presenta hematuria con eritrocitos dismórficos y proteinuria leve. ¿Cuál es la localización más probable del daño?",
+        options: [
+            "Vejiga",
+            "Uréter",
+            "Glomérulo renal",
+            "Uretra"
+        ],
+        answer: 2,
+        explanation: "Los eritrocitos dismórficos indican paso a través del glomérulo dañado. La proteinuria asociada refuerza el origen glomerular."
+    },
+
+    {
+        question: "Una paciente con nefritis intersticial aguda presenta leucocituria con eosinófilos en orina. ¿Qué indica este hallazgo?",
+        options: [
+            "Infección bacteriana severa",
+            "Proceso inflamatorio no infeccioso de origen inmunológico",
+            "Hemorragia glomerular",
+            "Litiasis renal"
+        ],
+        answer: 1,
+        explanation: "La presencia de eosinófilos en orina es característica de nefritis intersticial aguda, generalmente de origen inmunológico (por fármacos, por ejemplo)."
+    },
+
+    {
+        question: "Un paciente presenta densidad urinaria fija en 1.010 a pesar de cambios en la ingesta hídrica. ¿Qué indica este hallazgo?",
+        options: [
+            "Capacidad normal de concentración",
+            "Isostenuria por pérdida de función tubular",
+            "Deshidratación severa",
+            "Hipervolemia"
+        ],
+        answer: 1,
+        explanation: "La densidad fija en 1.010 indica isostenuria, lo que sugiere incapacidad del riñón para concentrar o diluir la orina, típico de daño renal."
+    },
+
+    {
+        question: "Un paciente con ejercicio intenso presenta cilindros hialinos en orina sin otros hallazgos. ¿Cuál es la interpretación correcta?",
+        options: [
+            "Daño renal estructural",
+            "Infección urinaria",
+            "Hallazgo fisiológico transitorio",
+            "Síndrome nefrótico"
+        ],
+        answer: 2,
+        explanation: "Los cilindros hialinos pueden aparecer en condiciones normales como ejercicio, fiebre o deshidratación, sin indicar patología."
+    },
+
+    {
+        question: "Un paciente con anemia hemolítica presenta aumento de urobilinógeno urinario. ¿Cuál es la explicación fisiopatológica?",
+        options: [
+            "Disminución de producción de bilirrubina",
+            "Aumento de destrucción de eritrocitos y producción de bilirrubina",
+            "Obstrucción biliar",
+            "Disminución del metabolismo intestinal"
+        ],
+        answer: 1,
+        explanation: "La hemólisis aumenta la producción de bilirrubina, que se convierte en urobilinógeno en el intestino y aumenta su excreción urinaria."
+    },
+
+    {
+        question: "Un paciente con poliuria presenta densidad urinaria baja y ausencia de glucosuria. ¿Cuál es la causa más probable?",
+        options: [
+            "Diabetes mellitus",
+            "Diabetes insípida",
+            "Síndrome nefrótico",
+            "Infección urinaria"
+        ],
+        answer: 1,
+        explanation: "La diabetes insípida produce poliuria con orina diluida (densidad baja) sin glucosuria, debido a déficit o resistencia a ADH."
+    },
+
+    {
+        question: "Una muestra de orina presenta abundantes células epiteliales escamosas y bacterias, pero el paciente está asintomático. ¿Cuál es la mejor interpretación?",
+        options: [
+            "Infección urinaria",
+            "Contaminación de la muestra",
+            "Nefritis intersticial",
+            "Hematuria"
+        ],
+        answer: 1,
+        explanation: "Las células escamosas indican contaminación, lo que puede arrastrar bacterias externas y simular infección."
+    },
+
+    {
+        question: "Un paciente con dieta rica en proteínas presenta pH urinario persistentemente ácido. ¿Cuál es el mecanismo?",
+        options: [
+            "Disminución del metabolismo",
+            "Producción aumentada de ácidos metabólicos",
+            "Aumento de bicarbonato urinario",
+            "Disminución de función renal"
+        ],
+        answer: 1,
+        explanation: "Las proteínas generan ácidos metabólicos, lo que acidifica la orina."
+    },
+
+    {
+        question: "Un paciente presenta proteinuria leve (<0.5 g/día) sin otros hallazgos. ¿Cómo se clasifica?",
+        options: [
+            "Nefrótica",
+            "Moderada",
+            "Mínima",
+            "Patológica severa"
+        ],
+        answer: 2,
+        explanation: "La proteinuria <0.5 g/día se clasifica como mínima."
+    },
+
+    {
+        question: "Un paciente presenta urocultivo con 120,000 UFC/ml y síntomas urinarios. ¿Qué conducta es adecuada?",
+        options: [
+            "Considerar contaminación",
+            "Iniciar tratamiento antibiótico",
+            "Repetir examen sin tratamiento",
+            "Ignorar resultado"
+        ],
+        answer: 1,
+        explanation: "Un conteo >100,000 UFC/ml con síntomas confirma infección urinaria significativa."
+    },
+
+    {
+        question: "Un paciente con deshidratación presenta oliguria. ¿Cuál es el volumen esperado?",
+        options: [
+            ">3000 ml/día",
+            "<500 ml/día",
+            ">2000 ml/día",
+            "1000 ml/día"
+        ],
+        answer: 1,
+        explanation: "La oliguria se define como producción <500 ml/día."
+    },
+
+    {
+        question: "Un paciente presenta orina alcalina con cristales de fosfato. ¿Cuál es la interpretación?",
+        options: [
+            "Siempre patológico",
+            "Compatible con condiciones normales",
+            "Indicador de daño renal severo",
+            "Indicador de hematuria"
+        ],
+        answer: 1,
+        explanation: "Los cristales de fosfato pueden aparecer en orina alcalina sin significado clínico."
+    },
+
+    {
+        question: "Un paciente con infección urinaria presenta leucocituria. ¿Qué define este hallazgo?",
+        options: [
+            "Presencia de eritrocitos",
+            "Presencia de leucocitos en orina",
+            "Presencia de proteínas",
+            "Presencia de bacterias exclusivamente"
+        ],
+        answer: 1,
+        explanation: "La leucocituria es la presencia aumentada de leucocitos en orina, indicativa de inflamación o infección."
+    },
+
+    {
+        question: "Un paciente con enfermedad renal crónica presenta albuminuria persistente. ¿Por qué es clínicamente relevante?",
+        options: [
+            "No tiene importancia",
+            "Indica infección urinaria",
+            "Permite evaluar progresión del daño renal junto con TFG",
+            "Solo indica deshidratación"
+        ],
+        answer: 2,
+        explanation: "La albuminuria es un marcador clave de daño renal y se utiliza junto con la TFG para evaluar la progresión de la enfermedad renal crónica."
+    }
+
+],
+advancedClinicalUroanalysis3: [
+
+    {
+        question: "Un varón de 67 años con antecedente de hipertensión y diabetes de larga evolución consulta por edema progresivo y disminución del volumen urinario. El uroanálisis muestra proteinuria de 3.8 g/día, cilindros grasos y densidad urinaria normal-alta. La creatinina está elevada. ¿Cuál es la explicación fisiopatológica más probable de estos hallazgos?",
+        options: [
+            "Aumento de la secreción tubular de proteínas",
+            "Daño glomerular que altera la selectividad de filtración y sobrecarga tubular",
+            "Obstrucción de la vía urinaria con reflujo de proteínas",
+            "Aumento de la reabsorción tubular de proteínas"
+        ],
+        answer: 1,
+        explanation: "El cuadro corresponde a síndrome nefrótico. El daño glomerular permite el paso masivo de proteínas (principalmente albúmina), lo que genera proteinuria en rango nefrótico. Los cilindros grasos reflejan la reabsorción tubular de lípidos derivados de lipoproteínas filtradas."
+    },
+
+    {
+        question: "Una mujer de 32 años consulta por fiebre, dolor lumbar y disuria. El uroanálisis muestra leucocituria, bacteriuria, nitritos positivos y pH urinario alcalino. ¿Qué mecanismo explica el pH urinario elevado en este contexto?",
+        options: [
+            "Aumento de la filtración de bicarbonato",
+            "Producción de ureasa por bacterias que alcalinizan la orina",
+            "Disminución de la función tubular distal",
+            "Aumento de la secreción de protones"
+        ],
+        answer: 1,
+        explanation: "Algunas bacterias (como Proteus) producen ureasa, que convierte la urea en amoníaco, alcalinizando la orina. Esto favorece infecciones y formación de cálculos."
+    },
+
+    {
+        question: "Un paciente de 45 años con historia de alcoholismo presenta orina oscura. El uroanálisis revela bilirrubina positiva y urobilinógeno elevado. ¿Cuál es la interpretación más adecuada?",
+        options: [
+            "Obstrucción biliar completa",
+            "Enfermedad hepática con alteración en el metabolismo de bilirrubina",
+            "Hemólisis aislada",
+            "Insuficiencia renal"
+        ],
+        answer: 1,
+        explanation: "La presencia de bilirrubina (conjugada) y aumento de urobilinógeno sugiere daño hepático, donde hay alteración en procesamiento y excreción de bilirrubina."
+    },
+
+    {
+        question: "Un paciente joven presenta hematuria microscópica persistente. El sedimento muestra eritrocitos dismórficos y cilindros hemáticos. ¿Cuál es el diagnóstico más probable?",
+        options: [
+            "Litiasis renal",
+            "Infección urinaria",
+            "Glomerulonefritis",
+            "Trauma uretral"
+        ],
+        answer: 2,
+        explanation: "Los eritrocitos dismórficos y los cilindros hemáticos son altamente sugestivos de origen glomerular, típicos de glomerulonefritis."
+    },
+
+    {
+        question: "Un paciente con insuficiencia renal crónica presenta densidad urinaria fija cercana a 1.010. ¿Qué implica este hallazgo?",
+        options: [
+            "Orina muy concentrada",
+            "Orina muy diluida",
+            "Pérdida de la capacidad de concentración y dilución renal",
+            "Aumento de la filtración glomerular"
+        ],
+        answer: 2,
+        explanation: "La isostenuria indica que el riñón ha perdido la capacidad de modificar la concentración de la orina, típico de daño renal crónico."
+    },
+
+    {
+        question: "Una paciente con lupus eritematoso sistémico presenta proteinuria, hematuria y cilindros celulares en el sedimento urinario. ¿Qué estructura está primariamente afectada?",
+        options: [
+            "Túbulo proximal",
+            "Intersticio renal",
+            "Glomérulo",
+            "Vejiga urinaria"
+        ],
+        answer: 2,
+        explanation: "El lupus afecta el glomérulo (nefritis lúpica), generando proteinuria, hematuria y cilindros celulares."
+    },
+
+    {
+        question: "Un paciente con poliuria severa presenta densidad urinaria muy baja (<1.005), sin glucosuria ni proteinuria. ¿Cuál es el diagnóstico más probable?",
+        options: [
+            "Diabetes mellitus",
+            "Diabetes insípida",
+            "Síndrome nefrótico",
+            "Infección urinaria"
+        ],
+        answer: 1,
+        explanation: "La diabetes insípida se caracteriza por incapacidad de concentrar la orina debido a déficit o resistencia a ADH, produciendo orina diluida."
+    },
+
+    {
+        question: "Un paciente con litiasis renal presenta dolor cólico y hematuria. El sedimento urinario muestra cristales de oxalato de calcio. ¿Qué factor favorece la formación de estos cristales?",
+        options: [
+            "Orina alcalina",
+            "Infección bacteriana",
+            "Sobresaturación de oxalato y calcio en orina",
+            "Disminución del flujo urinario exclusivamente"
+        ],
+        answer: 2,
+        explanation: "La formación de cristales de oxalato depende de la sobresaturación urinaria de oxalato y calcio, favoreciendo la litiasis."
+    },
+
+    {
+        question: "Un paciente presenta leucocituria sin bacteriuria ni síntomas infecciosos. ¿Cuál es la causa más probable?",
+        options: [
+            "Infección urinaria",
+            "Contaminación",
+            "Inflamación no infecciosa (ej. nefritis intersticial)",
+            "Glomerulonefritis"
+        ],
+        answer: 2,
+        explanation: "La leucocituria no siempre implica infección. Puede deberse a inflamación no infecciosa, como nefritis intersticial."
+    },
+
+    {
+        question: "Un paciente con deshidratación severa presenta oliguria y densidad urinaria elevada. ¿Cuál es la respuesta renal esperada?",
+        options: [
+            "Aumento de eliminación de agua",
+            "Disminución de reabsorción de sodio",
+            "Conservación de agua y concentración de orina",
+            "Aumento de filtración glomerular"
+        ],
+        answer: 2,
+        explanation: "En deshidratación, el riñón conserva agua, produciendo orina concentrada con alta densidad."
+    },
+
+    {
+        question: "Una paciente con infección urinaria recurrente presenta nitritos negativos pero leucocituria persistente. ¿Qué explicación es más probable?",
+        options: [
+            "Error de laboratorio",
+            "Infección por bacterias que no reducen nitratos",
+            "Ausencia de infección",
+            "Glomerulonefritis"
+        ],
+        answer: 1,
+        explanation: "No todas las bacterias producen nitritos. Algunas infecciones pueden tener nitritos negativos."
+    },
+
+    {
+        question: "Un paciente con insuficiencia hepática presenta coluria. ¿Qué característica permite diferenciar este hallazgo de hematuria?",
+        options: [
+            "Presencia de eritrocitos",
+            "Color oscuro por bilirrubina conjugada",
+            "Presencia de leucocitos",
+            "pH urinario"
+        ],
+        answer: 1,
+        explanation: "La coluria se debe a bilirrubina conjugada en orina, mientras que la hematuria implica eritrocitos."
+    },
+
+    {
+        question: "Un paciente con síndrome nefrótico presenta edema generalizado. ¿Cuál es el mecanismo principal?",
+        options: [
+            "Aumento de presión oncótica plasmática",
+            "Disminución de albúmina plasmática por pérdida urinaria",
+            "Aumento de presión arterial",
+            "Disminución de filtración glomerular"
+        ],
+        answer: 1,
+        explanation: "La pérdida de albúmina en orina disminuye la presión oncótica plasmática, favoreciendo la formación de edema."
+    },
+
+    {
+        question: "Un paciente con infección urinaria presenta cilindros leucocitarios. ¿Qué indica este hallazgo?",
+        options: [
+            "Infección baja",
+            "Compromiso renal (pielonefritis)",
+            "Contaminación",
+            "Litiasis renal"
+        ],
+        answer: 1,
+        explanation: "Los cilindros leucocitarios indican origen renal, sugiriendo pielonefritis."
+    },
+
+    {
+        question: "Un paciente presenta microalbuminuria persistente en el contexto de diabetes. ¿Qué indica este hallazgo?",
+        options: [
+            "Daño renal avanzado",
+            "Daño renal temprano",
+            "Normalidad",
+            "Infección urinaria"
+        ],
+        answer: 1,
+        explanation: "La microalbuminuria es un marcador temprano de nefropatía diabética."
+    },
+
+    {
+        question: "Un paciente presenta anuria. ¿Cuál es el volumen urinario esperado?",
+        options: [
+            "<100 ml/día",
+            "<500 ml/día",
+            ">2000 ml/día",
+            "1000 ml/día"
+        ],
+        answer: 0,
+        explanation: "La anuria se define como producción de orina menor a 100 ml/día."
+    },
+
+    {
+        question: "Un paciente con acidosis metabólica presenta pH urinario ácido. ¿Qué indica este hallazgo?",
+        options: [
+            "Falla renal",
+            "Respuesta renal compensatoria adecuada",
+            "Infección urinaria",
+            "Alcalosis metabólica"
+        ],
+        answer: 1,
+        explanation: "El riñón excreta protones en acidosis, produciendo orina ácida como mecanismo compensatorio."
+    },
+
+    {
+        question: "Un paciente con urocultivo positivo recibe antibiograma. ¿Cuál es su utilidad principal?",
+        options: [
+            "Diagnóstico inicial",
+            "Identificación del agente y sensibilidad antibiótica",
+            "Medición de proteinuria",
+            "Evaluación de pH urinario"
+        ],
+        answer: 1,
+        explanation: "El antibiograma permite seleccionar el antibiótico más efectivo según la sensibilidad del microorganismo."
+    },
+
+    {
+        question: "Un paciente presenta hipercalciuria y litiasis recurrente. ¿Qué se espera encontrar en el uroanálisis?",
+        options: [
+            "Cristales de cistina",
+            "Cristales de oxalato o calcio",
+            "Cilindros grasos",
+            "Proteinuria masiva"
+        ],
+        answer: 1,
+        explanation: "La hipercalciuria favorece la formación de cristales de calcio, especialmente oxalato de calcio."
+    },
+
+    {
+        question: "Un paciente presenta hematuria, pero el sedimento no muestra eritrocitos. ¿Qué explicación es más probable?",
+        options: [
+            "Error diagnóstico",
+            "Presencia de hemoglobina libre (hemoglobinuria)",
+            "Contaminación",
+            "Infección urinaria"
+        ],
+        answer: 1,
+        explanation: "La hemoglobinuria puede dar color rojo a la orina sin eritrocitos visibles en el sedimento."
+    }
+
+],
+advancedClinicalUroanalysis4: [
+
+    {
+        question: "Una mujer de 26 años consulta por edema facial matutino, orina espumosa y aumento progresivo de peso en las últimas tres semanas. Refiere que dos semanas antes tuvo una infección faríngea autolimitada. En el examen físico presenta presión arterial de 150/95 mmHg y edema en miembros inferiores. El uroanálisis muestra proteinuria moderada, hematuria microscópica con eritrocitos dismórficos y cilindros hemáticos. La creatinina sérica está discretamente elevada. ¿Cuál es la localización primaria del daño renal en este cuadro?",
+        options: [
+            "Epitelio transicional de la vejiga",
+            "Intersticio renal",
+            "Glomérulo renal",
+            "Túbulo colector"
+        ],
+        answer: 2,
+        explanation: "La combinación de hematuria con eritrocitos dismórficos, cilindros hemáticos, hipertensión, edema y proteinuria orienta claramente a un síndrome nefrítico de origen glomerular. Los eritrocitos dismórficos aparecen cuando los glóbulos rojos atraviesan una barrera de filtración glomerular alterada, y los cilindros hemáticos se forman dentro de los túbulos a partir de sangre proveniente del glomérulo. Todo esto localiza el problema primariamente en el glomérulo."
+    },
+
+    {
+        question: "Un varón de 61 años con diabetes mellitus tipo 2 de 15 años de evolución consulta por edema maleolar, disminución del apetito y cansancio progresivo. Refiere que desde hace meses nota la orina más espumosa. El uroanálisis muestra albuminuria persistente y proteinuria subnefrótica, sin hematuria. En controles sucesivos, la tasa de filtrado glomerular muestra descenso lento pero progresivo. ¿Por qué la albuminuria en este contexto es un hallazgo clínicamente tan importante?",
+        options: [
+            "Porque confirma de manera específica infección urinaria bacteriana",
+            "Porque indica daño renal temprano y permite correlacionarlo con el deterioro progresivo de la filtración glomerular",
+            "Porque demuestra necesariamente obstrucción urinaria baja",
+            "Porque solo aparece cuando ya existe insuficiencia renal terminal"
+        ],
+        answer: 1,
+        explanation: "En pacientes diabéticos, la albuminuria persistente es uno de los marcadores más importantes de daño renal temprano. No solo indica alteración de la barrera glomerular, sino que además tiene valor pronóstico cuando se interpreta junto con la tasa de filtrado glomerular. Su detección permite identificar nefropatía diabética en fases iniciales, antes de que exista falla renal avanzada."
+    },
+
+    {
+        question: "Una paciente de 38 años acude por disuria intensa, polaquiuria, fiebre de 39 °C y dolor lumbar derecho irradiado hacia el flanco. En el uroanálisis se observa leucocituria marcada, bacteriuria abundante, nitritos positivos y cilindros leucocitarios. ¿Qué interpretación integra mejor estos hallazgos?",
+        options: [
+            "Contaminación vaginal de la muestra sin valor patológico",
+            "Infección urinaria baja limitada a uretra y vejiga",
+            "Compromiso infeccioso del parénquima renal compatible con pielonefritis",
+            "Síndrome nefrótico complicado"
+        ],
+        answer: 2,
+        explanation: "La leucocituria y la bacteriuria indican inflamación e infección del tracto urinario, y los nitritos positivos sugieren bacterias reductoras de nitratos. Sin embargo, el dato más importante aquí son los cilindros leucocitarios, que indican que los leucocitos se organizaron dentro de los túbulos renales, lo cual apunta a compromiso del parénquima renal. Eso hace pensar en pielonefritis más que en una infección urinaria baja."
+    },
+
+    {
+        question: "Un hombre de 47 años llega a emergencia con dolor cólico intenso en flanco izquierdo, inquietud motora, náuseas y episodios de hematuria visible. En el uroanálisis se aprecian eritrocitos con morfología conservada y cristales de oxalato de calcio. No hay proteinuria significativa ni cilindros hemáticos. ¿Cuál es la mejor explicación fisiopatológica del sangrado?",
+        options: [
+            "Daño inflamatorio de la membrana basal glomerular",
+            "Traumatismo mecánico de la vía urinaria por un cálculo",
+            "Aumento de permeabilidad del capilar glomerular por inmunocomplejos",
+            "Necrosis tubular aguda"
+        ],
+        answer: 1,
+        explanation: "La hematuria con eritrocitos de morfología conservada orienta a un origen urológico, no glomerular. En este caso, el cuadro de cólico renal y la presencia de cristales de oxalato sugieren litiasis. El cálculo lesiona mecánicamente el urotelio a su paso por la vía urinaria, lo que produce sangrado con eritrocitos intactos."
+    },
+
+    {
+        question: "Una mujer de 24 años, previamente sana, consulta por poliuria extrema, sed intensa incluso durante la noche y preferencia por agua fría. Niega pérdida de peso, y la glucosa sérica es normal. El uroanálisis muestra densidad urinaria persistentemente baja, sin glucosuria, sin proteinuria y con sedimento anodino. ¿Cuál es el trastorno fisiopatológico más probable?",
+        options: [
+            "Diabetes mellitus con diuresis osmótica",
+            "Síndrome nefrítico",
+            "Alteración del eje de ADH compatible con diabetes insípida",
+            "Pielonefritis subclínica"
+        ],
+        answer: 2,
+        explanation: "La poliuria masiva con densidad urinaria muy baja, ausencia de glucosuria y glucosa sérica normal apunta a una incapacidad para concentrar la orina. Eso ocurre en la diabetes insípida, ya sea por déficit de ADH o resistencia renal a su acción. A diferencia de la diabetes mellitus, aquí no existe diuresis osmótica por glucosa."
+    },
+
+    {
+        question: "Un varón de 54 años con cirrosis hepática consulta porque desde hace días nota ictericia más intensa y orina muy oscura. El uroanálisis muestra bilirrubina positiva y aumento de urobilinógeno urinario. ¿Qué interpretación explica mejor ambos hallazgos en conjunto?",
+        options: [
+            "La bilirrubina no conjugada está siendo excretada libremente por el riñón",
+            "Existe alteración hepática que favorece aumento de bilirrubina conjugada circulante y trastorno del manejo hepatobiliar",
+            "Se trata exclusivamente de hemólisis intravascular",
+            "El hallazgo indica glomerulonefritis rápidamente progresiva"
+        ],
+        answer: 1,
+        explanation: "La bilirrubina detectable en orina es la conjugada, porque es hidrosoluble. Su presencia sugiere alteración hepática o colestásica. Si además aumenta el urobilinógeno, eso puede reflejar un procesamiento hepatobiliar anormal, como ocurre en enfermedades hepáticas. El patrón no se explica solo por hemólisis aislada."
+    },
+
+    {
+        question: "Una paciente de 42 años inicia tratamiento antibiótico por sinusitis y una semana después desarrolla fiebre, exantema cutáneo, malestar general y elevación de creatinina. El uroanálisis muestra leucocituria sin bacteriuria, y en el sedimento se identifican eosinófilos urinarios. ¿Cuál es el diagnóstico más probable?",
+        options: [
+            "Glomerulonefritis postinfecciosa",
+            "Nefritis intersticial aguda inducida por fármacos",
+            "Pielonefritis enfisematosa",
+            "Necrosis papilar diabética"
+        ],
+        answer: 1,
+        explanation: "La tríada de exposición a fármacos, deterioro renal agudo y hallazgos de inflamación urinaria estéril orienta a nefritis intersticial aguda. La presencia de eosinófilos en orina es un dato clásico de este cuadro. La ausencia de bacteriuria ayuda a diferenciarlo de una infección urinaria."
+    },
+
+    {
+        question: "Un paciente de 70 años con insuficiencia renal crónica avanzada presenta densidad urinaria repetidamente cercana a 1.010, independientemente de si bebe mucha o poca agua. Refiere además nicturia y cansancio crónico. ¿Qué significado tiene esa densidad urinaria fija?",
+        options: [
+            "Capacidad renal intacta para conservar agua",
+            "Estado de sobrehidratación aguda",
+            "Pérdida de la capacidad del riñón para concentrar o diluir la orina",
+            "Diabetes mellitus descompensada"
+        ],
+        answer: 2,
+        explanation: "Una densidad urinaria fija alrededor de 1.010 corresponde a isostenuria. Esto indica que el riñón ha perdido su capacidad de modificar adecuadamente la concentración urinaria en respuesta a las necesidades del organismo. Es un hallazgo típico de daño renal crónico y traduce deterioro funcional tubular y medular."
+    },
+
+    {
+        question: "Un hombre de 50 años consulta por edema progresivo, fatiga y disminución de la diuresis. El uroanálisis informa proteinuria de 6 g/día y el sedimento muestra cilindros grasos. En laboratorio se documenta hipoalbuminemia y dislipidemia. ¿Cuál es la explicación más correcta del edema en este paciente?",
+        options: [
+            "Aumento de la presión oncótica plasmática por exceso de albúmina",
+            "Disminución de la presión oncótica plasmática secundaria a pérdida urinaria masiva de proteínas",
+            "Disminución aislada de la presión arterial sistémica",
+            "Hematuria glomerular persistente"
+        ],
+        answer: 1,
+        explanation: "El cuadro corresponde a síndrome nefrótico. La pérdida urinaria masiva de albúmina produce hipoalbuminemia, lo que disminuye la presión oncótica plasmática y favorece la salida de líquido hacia el intersticio, causando edema. Los cilindros grasos y la dislipidemia completan el patrón clásico."
+    },
+
+    {
+        question: "Una mujer de 31 años, embarazada de 32 semanas, consulta por náuseas, malestar y menor tolerancia oral. El uroanálisis revela cetonuria moderada, sin glucosuria ni signos de infección. ¿Cuál es la explicación metabólica más probable de este hallazgo?",
+        options: [
+            "Uso aumentado de grasas como fuente energética ante déficit relativo de aporte calórico",
+            "Obstrucción de la vía biliar con eliminación secundaria de cetonas",
+            "Daño glomerular selectivo para cuerpos cetónicos",
+            "Reabsorción tubular exagerada de glucosa"
+        ],
+        answer: 0,
+        explanation: "Las cetonas aparecen en orina cuando el organismo utiliza grasas como fuente de energía en lugar de glucosa. Esto puede ocurrir en ayuno, vómitos prolongados, embarazo o cetoacidosis diabética. En esta paciente, la ausencia de glucosuria y el contexto clínico sugieren cetosis por ayuno o ingesta insuficiente."
+    },
+
+    {
+        question: "Un paciente de 58 años con hipertrofia prostática benigna refiere chorro urinario débil, sensación de vaciamiento incompleto y episodios repetidos de infección urinaria. En uno de los episodios presenta orina turbia, leucocituria y bacteriuria. ¿Qué factor fisiopatológico favorece más directamente la recurrencia de estas infecciones?",
+        options: [
+            "Disminución de la bilirrubina urinaria",
+            "Estasis urinaria secundaria a obstrucción del tracto urinario",
+            "Microalbuminuria diabética",
+            "Aumento del urobilinógeno intestinal"
+        ],
+        answer: 1,
+        explanation: "La obstrucción urinaria baja favorece el estancamiento de la orina, lo que reduce el lavado mecánico del tracto urinario y facilita la proliferación bacteriana. Por eso la hipertrofia prostática es un factor predisponente importante para infecciones urinarias recurrentes."
+    },
+
+    {
+        question: "Una mujer de 29 años presenta disuria y polaquiuria. En un primer examen de orina aparecen abundantes bacterias, pero también numerosas células epiteliales escamosas. El médico decide repetir la muestra con instrucciones precisas de higiene y recolección de chorro medio. ¿Por qué fue correcta esta decisión?",
+        options: [
+            "Porque las células escamosas sugieren contaminación de la muestra y pueden invalidar la interpretación bacteriológica",
+            "Porque las células escamosas son siempre indicativas de glomerulonefritis",
+            "Porque la presencia de bacterias en orina nunca tiene valor clínico",
+            "Porque las células escamosas indican litiasis renal"
+        ],
+        answer: 0,
+        explanation: "Las células epiteliales escamosas suelen proceder de contaminación externa, especialmente de región genital. Cuando aparecen en abundancia, reducen la confiabilidad del examen, en especial para interpretar bacteriuria. Repetir la muestra correctamente recolectada permite diferenciar infección real de contaminación."
+    },
+
+    {
+        question: "Un varón de 63 años con antecedente de insuficiencia cardiaca presenta edema, ortopnea y disminución del volumen urinario. En el uroanálisis se documenta densidad urinaria elevada y sodio urinario bajo. ¿Qué respuesta renal explica mejor estos hallazgos?",
+        options: [
+            "Pérdida renal inapropiada de sodio y agua",
+            "Conservación renal de sodio y agua por disminución del volumen arterial efectivo",
+            "Incapacidad total del riñón para concentrar orina",
+            "Daño glomerular con proteinuria nefrótica"
+        ],
+        answer: 1,
+        explanation: "En la insuficiencia cardiaca, aunque el cuerpo tenga exceso total de líquido, el riñón percibe disminución del volumen arterial efectivo. Como respuesta, activa mecanismos de retención de sodio y agua. Por eso el sodio urinario baja y la orina puede concentrarse, aumentando la densidad."
+    },
+
+    {
+        question: "Un paciente de 34 años consulta por dolor lumbar unilateral súbito, hematuria y antecedente familiar de litiasis recurrente. El uroanálisis revela cristales hexagonales. ¿Qué alteración metabólica es la más probable?",
+        options: [
+            "Cistinuria",
+            "Hiperuricemia aislada",
+            "Glucosuria renal",
+            "Albuminuria selectiva"
+        ],
+        answer: 0,
+        explanation: "Los cristales hexagonales en orina son clásicos de cistinuria, un trastorno hereditario del transporte tubular de ciertos aminoácidos, incluida la cistina. La cistina precipita con facilidad y favorece la formación de cálculos urinarios recurrentes."
+    },
+
+    {
+        question: "Una mujer de 46 años consulta por cansancio, orina espumosa y edema leve en tobillos. El uroanálisis demuestra proteinuria persistente de 300 mg/día y albuminuria elevada, sin hematuria. ¿Cuál de las siguientes afirmaciones interpreta mejor este hallazgo?",
+        options: [
+            "Es una proteinuria completamente normal y sin relevancia clínica",
+            "Sugiere un proceso de daño renal incipiente que requiere correlación con la función renal",
+            "Confirma infección urinaria baja",
+            "Obliga a pensar exclusivamente en litiasis renal"
+        ],
+        answer: 1,
+        explanation: "Aunque no esté en rango nefrótico, una albuminuria persistentemente elevada no debe considerarse normal. Puede ser la expresión temprana de daño renal, especialmente en pacientes con factores de riesgo metabólicos o vasculares. Su importancia radica en su valor diagnóstico y pronóstico."
+    },
+
+    {
+        question: "Un hombre de 57 años con historia de ayunos prolongados por dieta extrema consulta por debilidad, mareos y pérdida de peso. El uroanálisis muestra cetonuria y densidad urinaria aumentada. No hay glucosuria. ¿Qué combinación fisiopatológica explica mejor estos hallazgos?",
+        options: [
+            "Hiperglucemia severa con pérdida renal de glucosa",
+            "Movilización de grasas por déficit de aporte calórico y concentración urinaria por depleción de volumen",
+            "Síndrome nefrótico con hiperlipidemia",
+            "Nefritis intersticial por fármacos"
+        ],
+        answer: 1,
+        explanation: "En el ayuno prolongado, el organismo utiliza grasa como fuente energética y genera cuerpos cetónicos, que aparecen en la orina. Si además existe disminución de la ingesta hídrica o pérdida de volumen, la orina se concentra y aumenta la densidad urinaria. La ausencia de glucosuria ayuda a diferenciarlo de una descompensación diabética."
+    },
+
+    {
+        question: "Una paciente con anemia hemolítica autoinmune presenta ictericia leve y uroanálisis con aumento de urobilinógeno urinario, pero sin bilirrubina detectable. ¿Cuál es la explicación más adecuada?",
+        options: [
+            "La hemólisis aumenta el catabolismo de hemo y la formación de bilirrubina, favoreciendo mayor producción de urobilinógeno",
+            "La bilirrubina conjugada se excreta masivamente en orina en toda hemólisis",
+            "La hemólisis produce necesariamente proteinuria nefrótica",
+            "La ausencia de bilirrubina urinaria descarta por completo aumento del catabolismo eritrocitario"
+        ],
+        answer: 0,
+        explanation: "En la hemólisis aumenta la degradación de eritrocitos y la producción de bilirrubina. Parte del metabolismo intestinal subsecuente incrementa la formación de urobilinógeno, que puede aumentar en orina. La bilirrubina urinaria, en cambio, suele reflejar bilirrubina conjugada y por eso su ausencia no contradice una hemólisis."
+    },
+
+    {
+        question: "Un varón de 52 años con fiebre y deshidratación por gastroenteritis aguda se realiza un uroanálisis que reporta cilindros hialinos aislados, sin proteinuria ni hematuria. ¿Cómo debe interpretarse este hallazgo?",
+        options: [
+            "Como evidencia definitiva de glomerulonefritis",
+            "Como un hallazgo inespecífico que puede observarse en estados de deshidratación o estrés fisiológico",
+            "Como marcador de infección bacteriana urinaria alta",
+            "Como prueba de síndrome nefrótico"
+        ],
+        answer: 1,
+        explanation: "Los cilindros hialinos son los cilindros más simples y menos específicos. Pueden aparecer en situaciones fisiológicas o transitorias como ejercicio, fiebre o deshidratación, debido a concentración urinaria y precipitación de proteína de Tamm-Horsfall. En ausencia de otros hallazgos patológicos, no indican por sí solos daño renal estructural."
+    },
+
+    {
+        question: "Una mujer de 60 años consulta por pérdida de apetito, prurito y disminución del volumen urinario. Tiene antecedentes de hipertensión mal controlada. El uroanálisis muestra proteinuria leve, densidad fija cercana a 1.010 y sedimento pobre. La creatinina se encuentra notablemente elevada. ¿Qué concepto integra mejor este patrón urinario?",
+        options: [
+            "Infección urinaria bacteriana aguda",
+            "Insuficiencia renal crónica con pérdida de la capacidad de concentración urinaria",
+            "Síndrome nefrótico puro",
+            "Coluria por enfermedad hepatobiliar"
+        ],
+        answer: 1,
+        explanation: "La densidad fija cercana a 1.010 en un paciente con creatinina elevada y clínica crónica sugiere isostenuria, típica de enfermedad renal crónica. En estos pacientes, el riñón pierde capacidad para ajustar la concentración urinaria. El sedimento puede ser poco llamativo, y la proteinuria no siempre es masiva."
+    },
+
+    {
+        question: "Un paciente de 41 años presenta disuria, fiebre y malestar. El urocultivo reporta más de 100,000 UFC/ml de un bacilo Gram negativo, y posteriormente se realiza antibiograma. ¿Por qué esta segunda fase del estudio es tan importante clínicamente?",
+        options: [
+            "Porque reemplaza al examen clínico del paciente",
+            "Porque permite cuantificar la densidad urinaria con mayor precisión",
+            "Porque identifica la sensibilidad bacteriana y orienta el tratamiento antibiótico adecuado",
+            "Porque confirma si existe proteinuria glomerular"
+        ],
+        answer: 2,
+        explanation: "El cultivo positivo confirma el crecimiento bacteriano significativo, pero el antibiograma añade una información decisiva: qué antibióticos son eficaces contra el microorganismo aislado. Esto permite un tratamiento dirigido, disminuye el uso inadecuado de antimicrobianos y mejora el pronóstico clínico."
+    }
+
+],
+advancedClinicalUroanalysis5: [
+
+    {
+        question: "Una mujer de 23 años consulta por edema palpebral matutino, cefalea, malestar general y disminución del volumen urinario desde hace cuatro días. Refiere que dos semanas antes presentó odinofagia y fiebre, por lo que tomó tratamiento sintomático sin evaluación médica. En el examen físico se encuentra hipertensa y con leve edema en miembros inferiores. El uroanálisis muestra hematuria microscópica, proteinuria moderada, eritrocitos dismórficos y cilindros hemáticos. La creatinina sérica está discretamente elevada. ¿Cuál es la explicación más probable del cuadro actual?",
+        options: [
+            "Lesión mecánica del urotelio por litiasis en tránsito",
+            "Daño inflamatorio glomerular posterior a una infección que altera la barrera de filtración",
+            "Infección urinaria baja con extensión secundaria a vejiga",
+            "Síndrome nefrótico puro con pérdida masiva de albúmina"
+        ],
+        answer: 1,
+        explanation: "El cuadro es típico de un síndrome nefrítico agudo, clásicamente posterior a una infección faríngea. La clave está en la hematuria con eritrocitos dismórficos y cilindros hemáticos, que localizan el origen del sangrado en el glomérulo. La proteinuria existe, pero no suele ser masiva como en un síndrome nefrótico. La hipertensión, el edema y la elevación de creatinina se explican por inflamación glomerular, disminución del filtrado y retención de sodio y agua."
+    },
+
+    {
+        question: "Un varón de 66 años con diabetes mellitus tipo 2 e hipertensión arterial de larga data consulta por fatiga, edema maleolar y orina espumosa persistente. El uroanálisis muestra albuminuria persistente en controles sucesivos y proteinuria de 1.2 g/día, sin hematuria. La tasa de filtrado glomerular ha disminuido lentamente en los últimos dos años. ¿Qué afirmación interpreta mejor la importancia clínica del hallazgo urinario?",
+        options: [
+            "La albuminuria solo aparece cuando ya existe falla renal terminal irreversible",
+            "La albuminuria persistente es un marcador de lesión renal temprana y aporta valor pronóstico junto con la tasa de filtrado glomerular",
+            "La ausencia de hematuria descarta enfermedad renal significativa",
+            "La proteinuria subnefrótica tiene utilidad clínica mínima en pacientes diabéticos"
+        ],
+        answer: 1,
+        explanation: "En pacientes con diabetes e hipertensión, la albuminuria persistente es un marcador central de daño renal crónico temprano, especialmente de origen glomerular. No es necesario esperar una proteinuria masiva para considerarla importante. Además, cuando se interpreta junto con la tasa de filtrado glomerular, permite estratificar gravedad, progresión y pronóstico de la enfermedad renal crónica."
+    },
+
+    {
+        question: "Una mujer de 37 años consulta por fiebre alta, escalofríos, dolor lumbar derecho y disuria. Refiere que desde hace dos días presenta malestar general, urgencia urinaria y náuseas. El uroanálisis muestra leucocituria intensa, bacteriuria, nitritos positivos y cilindros leucocitarios. ¿Cuál es la mejor interpretación de este conjunto de hallazgos?",
+        options: [
+            "Contaminación de la muestra con secreciones vaginales",
+            "Infección urinaria baja limitada a cistitis no complicada",
+            "Compromiso del parénquima renal compatible con pielonefritis aguda",
+            "Nefropatía glomerular de inicio brusco"
+        ],
+        answer: 2,
+        explanation: "La combinación de fiebre, dolor lumbar, bacteriuria y leucocituria ya orienta a una infección urinaria alta. Sin embargo, el hallazgo más importante son los cilindros leucocitarios, que indican que los leucocitos se agruparon dentro de los túbulos renales. Eso significa que el proceso inflamatorio está ocurriendo en el riñón, lo cual es muy sugerente de pielonefritis aguda."
+    },
+
+    {
+        question: "Un hombre de 49 años acude a emergencia por dolor cólico intenso en flanco izquierdo que irradia hacia la ingle, acompañado de náuseas y hematuria visible. En el uroanálisis se observan eritrocitos con morfología conservada, sin cilindros hemáticos, y abundantes cristales de oxalato de calcio. ¿Cuál es la fisiopatología más probable del sangrado urinario?",
+        options: [
+            "Paso de eritrocitos a través de una membrana basal glomerular inflamada",
+            "Traumatismo de la mucosa urinaria por un cálculo en tránsito",
+            "Destrucción inmunológica de la barrera de filtración glomerular",
+            "Aumento aislado de la presión oncótica tubular"
+        ],
+        answer: 1,
+        explanation: "El dolor cólico, la irradiación típica y la presencia de cristales de oxalato sugieren litiasis urinaria. La hematuria con eritrocitos de morfología conservada apunta a un origen urológico y no glomerular. El cálculo, al desplazarse, lesiona el urotelio y produce sangrado. La ausencia de cilindros hemáticos también aleja un origen glomerular."
+    },
+
+    {
+        question: "Una paciente de 28 años consulta por poliuria intensa, sed constante incluso durante la noche y episodios repetidos de deshidratación leve. La glucosa sérica es normal y el uroanálisis muestra densidad urinaria persistentemente baja, sin glucosuria ni proteinuria. No hay datos de infección. ¿Cuál es el trastorno fisiopatológico más probable?",
+        options: [
+            "Diabetes mellitus con pérdida osmótica de agua",
+            "Alteración en la secreción o acción de la hormona antidiurética compatible con diabetes insípida",
+            "Síndrome nefrótico incipiente",
+            "Glomerulonefritis rápidamente progresiva"
+        ],
+        answer: 1,
+        explanation: "La poliuria con densidad urinaria persistentemente baja, en ausencia de glucosuria, orienta a una incapacidad para concentrar la orina. Eso es característico de diabetes insípida, ya sea por déficit de ADH o por resistencia renal a su acción. Si el problema fuera diabetes mellitus, esperaríamos glucosuria y diuresis osmótica."
+    },
+
+    {
+        question: "Un paciente de 56 años con antecedentes de alcoholismo crónico presenta ictericia progresiva, astenia y orina intensamente oscura. En el uroanálisis se detecta bilirrubina positiva y aumento de urobilinógeno. ¿Qué interpretación fisiopatológica es la más adecuada?",
+        options: [
+            "Excreción renal de bilirrubina no conjugada por hemólisis aislada",
+            "Trastorno hepatobiliar que eleva bilirrubina conjugada circulante y altera el metabolismo normal de pigmentos biliares",
+            "Presencia de hematuria macroscópica con falsos positivos de bilirrubina",
+            "Proteinuria tubular selectiva secundaria a cirrosis"
+        ],
+        answer: 1,
+        explanation: "La bilirrubina en orina corresponde a la forma conjugada, ya que es hidrosoluble. Su presencia sugiere alteración hepatocelular o colestásica. Si además hay aumento de urobilinógeno, eso refuerza un trastorno del metabolismo hepático de la bilirrubina más que una simple obstrucción completa. No se explica por hemólisis aislada, porque la bilirrubina no conjugada no se excreta en orina."
+    },
+
+    {
+        question: "Una mujer de 44 años comienza tratamiento antibiótico por infección respiratoria y una semana después presenta fiebre, exantema, artralgias y deterioro agudo de la función renal. El uroanálisis muestra leucocituria estéril y eosinófilos en orina. ¿Cuál es el diagnóstico más probable?",
+        options: [
+            "Pielonefritis aguda bacteriana",
+            "Nefritis intersticial aguda inducida por fármacos",
+            "Glomerulonefritis membranosa",
+            "Nefropatía obstructiva"
+        ],
+        answer: 1,
+        explanation: "La asociación entre exposición reciente a fármacos, insuficiencia renal aguda, leucocituria sin bacterias y eosinófilos urinarios orienta a nefritis intersticial aguda. Es un proceso inflamatorio no infeccioso, a menudo de base inmunológica. La presencia de eosinófilos en orina es un dato clásico que ayuda a diferenciarlo de una infección urinaria."
+    },
+
+    {
+        question: "Un varón de 72 años con enfermedad renal crónica refiere nicturia, cansancio y disminución progresiva de la tolerancia al esfuerzo. En uroanálisis seriados se documenta una densidad urinaria fija alrededor de 1.010, independientemente de la ingesta de agua. ¿Qué significa este hallazgo?",
+        options: [
+            "Capacidad renal conservada para concentrar y diluir la orina",
+            "Pérdida de la capacidad tubular de modificar la concentración urinaria, compatible con isostenuria",
+            "Diuresis osmótica por glucosa no detectada",
+            "Retención aguda de agua por exceso de ADH"
+        ],
+        answer: 1,
+        explanation: "Una densidad fija cercana a 1.010 indica isostenuria, es decir, incapacidad del riñón para concentrar o diluir la orina según las necesidades del organismo. Este hallazgo es característico de daño renal crónico avanzado y refleja deterioro funcional tubular y medular."
+    },
+
+    {
+        question: "Una mujer de 34 años consulta por edema generalizado, aumento de peso y orina espumosa. En el uroanálisis se encuentra proteinuria de 7 g/día y cilindros grasos. En los análisis séricos presenta hipoalbuminemia e hiperlipidemia. ¿Cuál es el mecanismo principal que explica la formación del edema?",
+        options: [
+            "Aumento de la presión oncótica plasmática por concentración de albúmina",
+            "Disminución de la presión oncótica plasmática por pérdida urinaria masiva de albúmina",
+            "Sangrado glomerular persistente con fuga de eritrocitos",
+            "Disminución primaria del sodio plasmático sin alteración proteica"
+        ],
+        answer: 1,
+        explanation: "El cuadro es compatible con síndrome nefrótico. La pérdida masiva de proteínas, especialmente albúmina, reduce la presión oncótica plasmática y favorece el paso de líquido desde el intravascular al intersticio, generando edema. Los cilindros grasos aparecen por el manejo tubular de lípidos y son típicos de este síndrome."
+    },
+
+    {
+        question: "Una gestante de 30 semanas consulta por náuseas, vómitos y disminución de la ingesta en los últimos dos días. El uroanálisis revela cetonuria moderada, sin glucosuria ni signos de infección. ¿Cuál es la explicación metabólica más probable?",
+        options: [
+            "Producción de cetonas por utilización preferente de grasas ante déficit de aporte calórico",
+            "Daño glomerular que permite fuga de cuerpos cetónicos",
+            "Conversión bacteriana de glucosa a cetonas dentro de la vía urinaria",
+            "Fracaso tubular para reabsorber cetonas normalmente ausentes en sangre"
+        ],
+        answer: 0,
+        explanation: "Las cetonas aparecen en la orina cuando el organismo recurre al metabolismo de grasas como principal fuente de energía, lo que ocurre en ayuno, vómitos prolongados, embarazo y cetoacidosis diabética. En este caso, la ausencia de glucosuria y el contexto clínico sugieren cetosis por ingesta insuficiente, no una descompensación diabética."
+    },
+
+    {
+        question: "Un hombre de 63 años con hipertrofia prostática benigna presenta chorro urinario débil, vaciamiento incompleto y varios episodios previos de infección urinaria. Actualmente consulta por fiebre, orina turbia y disuria. El uroanálisis muestra bacteriuria y leucocituria. ¿Qué mecanismo favorece de forma más directa la recurrencia infecciosa en este paciente?",
+        options: [
+            "Estasis urinaria secundaria a obstrucción del tracto urinario inferior",
+            "Albuminuria persistente de origen glomerular",
+            "Producción excesiva de urobilinógeno intestinal",
+            "Alcalinización fisiológica de la orina por la edad"
+        ],
+        answer: 0,
+        explanation: "La obstrucción al flujo urinario favorece la retención de orina y disminuye el lavado mecánico del tracto urinario. Esa estasis crea un entorno ideal para proliferación bacteriana y explica la recurrencia de infecciones. Por eso la hipertrofia prostática es un factor predisponente clásico para infección urinaria en varones mayores."
+    },
+
+    {
+        question: "Una paciente de 27 años presenta disuria y polaquiuria. En un examen inicial de orina se reportan bacterias abundantes y gran cantidad de células epiteliales escamosas. Al repetir la muestra mediante técnica adecuada de chorro medio, la bacteriuria desaparece. ¿Qué explica mejor el primer resultado?",
+        options: [
+            "Glomerulonefritis con descamación tubular masiva",
+            "Contaminación de la muestra por flora y células provenientes de genitales externos",
+            "Litiasis con infección transitoria autolimitada",
+            "Hemólisis intravascular con eliminación de detritos celulares"
+        ],
+        answer: 1,
+        explanation: "Las células epiteliales escamosas abundantes suelen indicar contaminación de la muestra, generalmente por mala técnica de recolección. Esa contaminación puede arrastrar bacterias externas y simular una infección urinaria. La repetición correcta con desaparición de la bacteriuria confirma que el primer resultado no representaba una verdadera infección."
+    },
+
+    {
+        question: "Un varón de 68 años con insuficiencia cardiaca congestiva consulta por edema periférico, ortopnea y reducción del volumen urinario. El uroanálisis muestra densidad urinaria aumentada y sodio urinario bajo. ¿Qué mecanismo explica mejor este patrón?",
+        options: [
+            "El riñón percibe disminución del volumen arterial efectivo y activa retención de sodio y agua",
+            "Existe lesión glomerular selectiva que aumenta la pérdida de sodio",
+            "El riñón pierde completamente la capacidad de responder a ADH",
+            "Hay diuresis osmótica por glucosa no detectada en tira reactiva"
+        ],
+        answer: 0,
+        explanation: "En la insuficiencia cardiaca, el volumen total corporal puede estar aumentado, pero el riñón percibe hipoperfusión o disminución del volumen arterial efectivo. Como respuesta, activa mecanismos neurohormonales que retienen sodio y agua. Esto reduce el sodio urinario y aumenta la concentración de la orina, elevando su densidad."
+    },
+
+    {
+        question: "Un joven de 19 años presenta dolor lumbar recurrente, episodios de hematuria y antecedentes familiares de litiasis desde edades tempranas. En el sedimento urinario se identifican cristales hexagonales. ¿Cuál es el trastorno más probable?",
+        options: [
+            "Hiperuricosuria",
+            "Cistinuria",
+            "Nefropatía por IgA",
+            "Hipercalciuria aislada"
+        ],
+        answer: 1,
+        explanation: "Los cristales hexagonales son prácticamente clásicos de cistinuria, un trastorno hereditario del transporte tubular de aminoácidos dibásicos. La cistina es poco soluble y precipita con facilidad, favoreciendo litiasis recurrente desde edades tempranas. El contexto clínico y el antecedente familiar refuerzan el diagnóstico."
+    },
+
+    {
+        question: "Una mujer de 51 años consulta por cansancio, edema leve en tobillos y orina persistentemente espumosa. El uroanálisis documenta albuminuria persistente y proteinuria de 350 mg/día, sin hematuria ni signos infecciosos. ¿Cómo debe interpretarse este hallazgo?",
+        options: [
+            "Como un hallazgo normal sin importancia clínica",
+            "Como evidencia de daño renal incipiente que requiere correlación con factores de riesgo y función renal",
+            "Como un criterio suficiente para diagnosticar litiasis renal",
+            "Como manifestación típica de infección urinaria bacteriana"
+        ],
+        answer: 1,
+        explanation: "Aunque la proteinuria no sea masiva, la albuminuria persistente no debe ser considerada normal. Puede representar una fase temprana de lesión renal, especialmente en pacientes con hipertensión, diabetes u otros factores vasculares. Su hallazgo amerita correlación con la función renal y seguimiento clínico."
+    },
+
+    {
+        question: "Un hombre de 39 años ha realizado ayuno prolongado y ejercicio intenso durante varios días como parte de una competencia deportiva. Consulta por debilidad, mareos y orina concentrada. El uroanálisis muestra cetonuria y presencia aislada de cilindros hialinos, sin proteinuria ni hematuria. ¿Cuál es la interpretación más adecuada?",
+        options: [
+            "Síndrome nefrótico en fase inicial",
+            "Respuesta metabólica al ayuno junto con hallazgos urinarios inespecíficos favorecidos por deshidratación y esfuerzo físico",
+            "Pielonefritis subclínica con compromiso tubular",
+            "Glomerulonefritis rápidamente progresiva"
+        ],
+        answer: 1,
+        explanation: "El ayuno prolongado favorece la producción de cuerpos cetónicos por utilización de grasas como combustible. Además, el ejercicio intenso y la deshidratación pueden ocasionar aparición de cilindros hialinos, que son inespecíficos y no necesariamente patológicos. La ausencia de hematuria, proteinuria o leucocituria apoya esta interpretación funcional y transitoria."
+    },
+
+    {
+        question: "Una paciente con anemia hemolítica presenta ictericia leve. El uroanálisis muestra aumento de urobilinógeno urinario, pero bilirrubina negativa. ¿Cuál es la mejor explicación de este patrón?",
+        options: [
+            "La bilirrubina conjugada siempre está aumentada en toda hemólisis y debería ser positiva en orina",
+            "El aumento del catabolismo eritrocitario incrementa la producción de bilirrubina y de urobilinógeno, pero la bilirrubina no conjugada no se elimina en orina",
+            "El patrón es típico de obstrucción biliar completa",
+            "El hallazgo sugiere proteinuria tubular más que alteración del metabolismo del hemo"
+        ],
+        answer: 1,
+        explanation: "En la hemólisis aumenta la degradación de eritrocitos y con ello la producción de bilirrubina. Sin embargo, gran parte de esa carga inicial corresponde a bilirrubina no conjugada, que no es hidrosoluble y por tanto no se excreta en orina. En cambio, el urobilinógeno urinario puede aumentar por el mayor metabolismo intestinal de la bilirrubina."
+    },
+
+    {
+        question: "Un paciente de 59 años con fiebre alta y gastroenteritis aguda presenta oliguria y signos de deshidratación. El uroanálisis informa densidad urinaria elevada y cilindros hialinos aislados, sin hematuria ni proteinuria significativa. ¿Cómo debe interpretarse el estudio?",
+        options: [
+            "Sugiere glomerulonefritis grave con riesgo de progresión rápida",
+            "Indica un patrón de orina concentrada por depleción de volumen, con cilindros hialinos inespecíficos",
+            "Es compatible con síndrome nefrótico por pérdida masiva de proteínas",
+            "Demuestra pielonefritis aunque no haya leucocitos"
+        ],
+        answer: 1,
+        explanation: "La deshidratación produce concentración de la orina, elevando la densidad urinaria. Los cilindros hialinos pueden aparecer en este contexto por precipitación de proteína de Tamm-Horsfall y no indican por sí solos daño renal estructural. La ausencia de hematuria, proteinuria importante o leucocituria respalda una interpretación funcional y reversible."
+    },
+
+    {
+        question: "Una mujer de 64 años con hipertensión mal controlada presenta prurito, anorexia, fatiga y deterioro progresivo de la función renal. El uroanálisis muestra sedimento poco activo, proteinuria leve y densidad urinaria cercana a 1.010 en varios controles. ¿Qué diagnóstico fisiopatológico integra mejor estos hallazgos?",
+        options: [
+            "Infección urinaria alta recurrente",
+            "Enfermedad renal crónica con pérdida de capacidad de concentración urinaria",
+            "Síndrome nefrótico puro de instauración reciente",
+            "Obstrucción biliar con coluria"
+        ],
+        answer: 1,
+        explanation: "En la enfermedad renal crónica, el sedimento puede ser poco llamativo y la proteinuria no siempre es masiva. La densidad fija alrededor de 1.010 sugiere isostenuria, lo que indica pérdida de la capacidad renal de concentrar o diluir la orina. Sumado al deterioro progresivo de función renal y la clínica urémica, este patrón es muy característico."
+    },
+
+    {
+        question: "Un varón de 46 años presenta fiebre, disuria y dolor suprapúbico. El urocultivo muestra crecimiento de más de 100,000 UFC/ml de Escherichia coli, y el laboratorio realiza posteriormente antibiograma. ¿Por qué esta segunda etapa del estudio es fundamental para el manejo clínico?",
+        options: [
+            "Porque reemplaza la necesidad de correlacionar con síntomas del paciente",
+            "Porque sirve para cuantificar con exactitud la densidad urinaria",
+            "Porque permite identificar la sensibilidad antibiótica del microorganismo aislado y orientar un tratamiento dirigido",
+            "Porque establece si la infección es de origen glomerular o urológico"
+        ],
+        answer: 2,
+        explanation: "El crecimiento significativo en el cultivo confirma infección bacteriana, pero el antibiograma aporta una información decisiva: a qué antibióticos es sensible o resistente el germen. Esto permite escoger un tratamiento más eficaz, evita uso inadecuado de antimicrobianos y disminuye el riesgo de fracaso terapéutico y resistencia bacteriana."
+    }
+
+],
+advancedClinicalUroanalysis6: [
+
+    {
+        question: "Un varón de 21 años consulta por episodios recurrentes de hematuria macroscópica que aparecen uno o dos días después de cuadros de infección respiratoria alta. En esta ocasión refiere orina rojiza, malestar general leve y discreto dolor lumbar, pero no edema importante. En el uroanálisis se observa hematuria microscópica persistente, eritrocitos dismórficos y proteinuria leve. La creatinina sérica es normal. ¿Cuál es la explicación fisiopatológica más probable de este cuadro?",
+        options: [
+            "Lesión traumática intermitente del urotelio por microlitiasis",
+            "Depósito glomerular de inmunocomplejos que genera sangrado de origen glomerular",
+            "Infección urinaria recurrente limitada a vejiga",
+            "Necrosis papilar con descamación periódica"
+        ],
+        answer: 1,
+        explanation: "La clave del caso es la relación temporal entre infección respiratoria y aparición casi inmediata de hematuria, junto con eritrocitos dismórficos y proteinuria leve, lo que orienta a hematuria de origen glomerular. Esto es muy compatible con una nefropatía por IgA, en la que el depósito glomerular de inmunocomplejos produce inflamación local y pérdida de eritrocitos a través de la barrera de filtración. No encaja con una causa urológica, porque ahí esperaríamos eritrocitos morfológicamente conservados y ausencia de rasgos glomerulares."
+    },
+
+    {
+        question: "Una mujer de 58 años con antecedente de artritis reumatoide tratada crónicamente con antiinflamatorios consulta por fatiga, disminución del volumen urinario y edema leve. El uroanálisis muestra proteinuria moderada, sin hematuria significativa, y la creatinina está elevada. En el contexto de una enfermedad inflamatoria crónica, se sospecha amiloidosis secundaria con compromiso renal. ¿Qué estructura alterada explica mejor la proteinuria en esta paciente?",
+        options: [
+            "La membrana de filtración glomerular, por depósito de material que altera su selectividad",
+            "La uretra proximal, por inflamación crónica",
+            "El epitelio de transición vesical, por infiltración proteica",
+            "La pelvis renal, por obstrucción intermitente"
+        ],
+        answer: 0,
+        explanation: "En la amiloidosis renal, el depósito de proteínas anómalas en el glomérulo altera la barrera de filtración, especialmente su integridad y selectividad. Eso favorece el paso de albúmina y otras proteínas al ultrafiltrado, produciendo proteinuria que puede llegar a rango nefrótico. La ausencia de hematuria importante no excluye compromiso renal, porque el daño predominante aquí es de permeabilidad glomerular, no necesariamente inflamatorio o hemorrágico."
+    },
+
+    {
+        question: "Un hombre de 65 años con hiperplasia prostática benigna presenta retención urinaria parcial crónica, chorro débil y nicturia. En los últimos meses ha tenido tres episodios de infección urinaria. Ahora acude por fiebre, disuria, malestar general y dolor lumbar. El uroanálisis muestra leucocituria, bacteriuria, nitritos positivos y abundantes leucocitos en el sedimento. ¿Cuál es el mecanismo principal que favoreció la progresión desde colonización bacteriana a infección recurrente?",
+        options: [
+            "Aumento de la filtración glomerular que concentra bacterias en la orina",
+            "Estasis urinaria por vaciamiento incompleto, que reduce el lavado mecánico de la vía urinaria",
+            "Acidificación excesiva de la orina por la próstata aumentada",
+            "Producción excesiva de albúmina tubular"
+        ],
+        answer: 1,
+        explanation: "La orina, cuando circula y se elimina normalmente, ayuda a arrastrar microorganismos y reduce su permanencia en el tracto urinario. En la obstrucción prostática, el vaciamiento incompleto genera estasis urinaria, que facilita proliferación bacteriana y favorece infecciones recurrentes. Este factor anatómico y funcional es central para entender por qué ciertos pacientes presentan episodios repetidos de infección urinaria."
+    },
+
+    {
+        question: "Una paciente de 29 años con lupus eritematoso sistémico consulta por edema de miembros inferiores, hipertensión y orina espumosa. El uroanálisis muestra hematuria microscópica, eritrocitos dismórficos, proteinuria de 2.8 g/día y cilindros hemáticos. La creatinina se encuentra elevada respecto a controles previos. ¿Cuál es la interpretación más adecuada del patrón urinario observado?",
+        options: [
+            "Compromiso urológico bajo por cistitis hemorrágica",
+            "Lesión glomerular inflamatoria activa con elementos nefríticos y proteinuria significativa",
+            "Síndrome nefrótico puro sin inflamación glomerular",
+            "Contaminación de la muestra por menstruación"
+        ],
+        answer: 1,
+        explanation: "La presencia de eritrocitos dismórficos y cilindros hemáticos indica con bastante fuerza un origen glomerular del sangrado. La proteinuria es importante, pero el patrón no es el de un síndrome nefrótico puro, porque también hay hematuria glomerular, hipertensión y deterioro de función renal. En un paciente con lupus, esta combinación es altamente sugestiva de nefritis lúpica activa, es decir, un proceso inflamatorio glomerular que mezcla características nefríticas y proteinuria relevante."
+    },
+
+    {
+        question: "Un varón de 47 años con alcoholismo crónico y episodios repetidos de ayuno prolongado consulta por debilidad, vómitos y dolor abdominal. El uroanálisis revela cetonuria marcada, densidad urinaria elevada y ausencia de glucosuria. La glucosa sérica está en rango normal. ¿Qué explicación fisiopatológica integra mejor los hallazgos?",
+        options: [
+            "Diabetes mellitus descompensada con saturación tubular de glucosa",
+            "Estado catabólico con uso predominante de grasas y contracción de volumen que concentra la orina",
+            "Falla renal terminal con pérdida total de la capacidad de filtración",
+            "Obstrucción urinaria baja con fermentación vesical"
+        ],
+        answer: 1,
+        explanation: "La cetonuria puede aparecer no solo en cetoacidosis diabética, sino también en estados de ayuno, malnutrición, vómitos prolongados y estrés metabólico. En este paciente, la glucosa normal y la ausencia de glucosuria hacen menos probable una diabetes descompensada. El cuerpo, al no disponer de suficiente glucosa utilizable por el ayuno, recurre a las grasas como sustrato energético, produciendo cetonas; al mismo tiempo, los vómitos y la menor ingesta llevan a depleción de volumen, lo que eleva la densidad urinaria."
+    },
+
+    {
+        question: "Una mujer de 35 años consulta por edema progresivo, aumento de peso y sensación de distensión abdominal. El uroanálisis muestra proteinuria de 8 g/día y cilindros grasos; en sangre presenta hipoalbuminemia e hiperlipidemia. A la evaluación etiológica se sospecha enfermedad de cambios mínimos o glomerulopatía membranosa. ¿Qué mecanismo explica con mayor precisión la aparición de cilindros grasos en este contexto?",
+        options: [
+            "Descamación del urotelio por infección bacteriana",
+            "Paso excesivo de lipoproteínas al filtrado y procesamiento tubular de material graso",
+            "Hemólisis intratubular con liberación de lípidos de membrana",
+            "Producción local de grasa por el epitelio tubular"
+        ],
+        answer: 1,
+        explanation: "En el síndrome nefrótico, el daño glomerular permite el paso de grandes cantidades de proteínas y, secundariamente, alteraciones del manejo lipídico. Parte del material lipoproteico es procesado por el túbulo renal, generando cuerpos grasos ovales y cilindros grasos. Por eso su presencia en el sedimento es muy característica de proteinuria intensa de origen glomerular, especialmente de patrón nefrótico."
+    },
+
+    {
+        question: "Un hombre de 33 años llega a emergencia por dolor súbito e intenso en flanco derecho, con irradiación a la ingle, náuseas y hematuria. El uroanálisis muestra abundantes eritrocitos de morfología normal y cristales de ácido úrico. Tiene antecedente de gota e hiperuricemia. ¿Cuál es la relación fisiopatológica más probable entre la enfermedad de base y el cuadro actual?",
+        options: [
+            "La hiperuricemia favorece precipitación de uratos y formación de cálculos urinarios",
+            "La gota induce hematuria glomerular por inmunocomplejos",
+            "El ácido úrico bloquea directamente la síntesis de ADH",
+            "La hiperuricemia produce bacteriuria estéril"
+        ],
+        answer: 0,
+        explanation: "Los pacientes con hiperuricemia pueden formar cálculos de ácido úrico, especialmente en contextos de alta concentración urinaria y pH ácido. El dolor cólico típico, la hematuria con eritrocitos normales y la presencia de cristales orientan a una litiasis de origen urológico. Aquí no hay datos de daño glomerular, sino lesión mecánica del tracto urinario por el cálculo."
+    },
+
+    {
+        question: "Una paciente de 40 años tratada por infección urinaria con antibióticos presenta persistencia de fiebre, dolor lumbar y deterioro clínico. El nuevo uroanálisis muestra leucocituria, bacteriuria y cilindros leucocitarios. ¿Qué hallazgo del sedimento urinario justifica pensar que el proceso no se limita a una cistitis?",
+        options: [
+            "La presencia de nitritos",
+            "La presencia de cilindros leucocitarios, que sugieren compromiso del parénquima renal",
+            "La existencia de orina turbia",
+            "La densidad urinaria aumentada"
+        ],
+        answer: 1,
+        explanation: "Los nitritos y la bacteriuria apoyan una infección urinaria, pero no distinguen bien entre una infección baja y una alta. Los cilindros leucocitarios, en cambio, se forman dentro de los túbulos renales, por lo que indican que el proceso inflamatorio ha alcanzado el riñón. Ese dato orienta a pielonefritis y explica por qué el cuadro clínico es más severo y persistente."
+    },
+
+    {
+        question: "Un varón de 19 años con antecedente familiar de enfermedad renal consulta por disminución de la audición, hematuria microscópica persistente y episodios ocasionales de hematuria macroscópica. El uroanálisis muestra eritrocitos dismórficos y proteinuria leve. Se sospecha síndrome de Alport. ¿Qué explica mejor la hematuria en esta enfermedad?",
+        options: [
+            "Alteración hereditaria de componentes de la membrana basal glomerular",
+            "Formación de cálculos de cistina desde la infancia",
+            "Infecciones urinarias altas repetidas",
+            "Producción deficiente de urocromo"
+        ],
+        answer: 0,
+        explanation: "El síndrome de Alport es una enfermedad hereditaria relacionada con alteraciones del colágeno tipo IV, componente importante de la membrana basal glomerular. Esa alteración vuelve anormal la barrera de filtración y favorece el paso de eritrocitos a la orina, produciendo hematuria de origen glomerular. La asociación con hipoacusia y antecedente familiar es muy orientadora."
+    },
+
+    {
+        question: "Una mujer de 60 años con diabetes mellitus mal controlada consulta por fiebre, malestar general, dolor lumbar y vómitos. El uroanálisis muestra glucosuria, leucocituria, bacteriuria y nitritos positivos. ¿Por qué la diabetes favorece especialmente este tipo de infecciones urinarias?",
+        options: [
+            "Porque la glucosuria puede favorecer un medio propicio para el crecimiento bacteriano y la diabetes altera mecanismos de defensa",
+            "Porque la diabetes elimina por completo la acidez urinaria fisiológica",
+            "Porque la insulina elevada se excreta en orina y daña el urotelio",
+            "Porque la diabetes siempre produce obstrucción vesical"
+        ],
+        answer: 0,
+        explanation: "La diabetes favorece las infecciones urinarias por varios mecanismos: la glucosuria puede facilitar el crecimiento bacteriano, existe alteración de la respuesta inmune, neuropatía vesical en algunos pacientes y, en general, peor capacidad para controlar infecciones. En este caso, el conjunto de fiebre, dolor lumbar y sedimento infeccioso orienta a una infección urinaria alta, probablemente pielonefritis."
+    },
+
+    {
+        question: "Un paciente de 57 años con cirrosis hepática presenta ictericia, ascitis y orina oscura. El uroanálisis muestra bilirrubina positiva y urobilinógeno aumentado. ¿Por qué la bilirrubina puede aparecer en orina solo en determinadas condiciones?",
+        options: [
+            "Porque solo la bilirrubina conjugada es hidrosoluble y puede filtrarse o eliminarse por el riñón",
+            "Porque toda bilirrubina, conjugada o no, se excreta libremente por el glomérulo",
+            "Porque la bilirrubina aparece en orina únicamente cuando existe hematuria",
+            "Porque el urocromo la transporta activamente al túbulo"
+        ],
+        answer: 0,
+        explanation: "La bilirrubina no conjugada circula unida a albúmina y no es hidrosoluble, por lo que no aparece normalmente en orina. La bilirrubina conjugada, en cambio, sí es soluble en agua y puede detectarse en el uroanálisis cuando aumenta en plasma por alteraciones hepatobiliares. Por eso la presencia de bilirrubina en orina orienta hacia enfermedad hepática o colestásica, no simplemente a hemólisis aislada."
+    },
+
+    {
+        question: "Una mujer de 46 años consulta por poliuria, polidipsia y episodios de mareo. Refiere beber grandes cantidades de agua por sensación constante de boca seca. El uroanálisis muestra densidad urinaria baja persistente y ausencia de glucosuria. Después de evaluación endocrinológica se concluye que padece polidipsia psicógena. ¿Cuál es la mejor explicación del patrón urinario?",
+        options: [
+            "La sobrecarga hídrica diluye la orina y reduce su densidad",
+            "La polidipsia destruye progresivamente el glomérulo",
+            "El exceso de agua aumenta la albuminuria fisiológica",
+            "La ingesta de agua induce cetonuria compensadora"
+        ],
+        answer: 0,
+        explanation: "La densidad urinaria depende de la concentración de solutos en relación con el agua. En la polidipsia psicógena, el consumo excesivo de agua genera orina diluida de manera persistente, con baja densidad. La ausencia de glucosuria ayuda a distinguirla de una poliuria osmótica por diabetes mellitus, y el sedimento suele ser anodino."
+    },
+
+    {
+        question: "Un hombre de 69 años con enfermedad renal crónica e hipertensión presenta cansancio, prurito y nicturia. En uroanálisis repetidos se encuentra densidad urinaria fija cercana a 1.010 y sedimento pobre. ¿Qué indica de forma más precisa esa densidad urinaria repetitiva?",
+        options: [
+            "Que la orina es fisiológicamente ideal en todo momento",
+            "Que existe incapacidad renal para concentrar o diluir la orina de forma apropiada",
+            "Que hay exceso aislado de sodio urinario",
+            "Que la muestra fue recolectada de forma incorrecta"
+        ],
+        answer: 1,
+        explanation: "Una densidad fija alrededor de 1.010 es típica de isostenuria. Esto significa que el riñón ha perdido la capacidad de responder adecuadamente a cambios de hidratación o necesidades de conservación de agua. Es un hallazgo clásico de daño renal avanzado y tiene gran valor para reconocer deterioro funcional tubular y medular, incluso cuando el sedimento no muestra hallazgos llamativos."
+    },
+
+    {
+        question: "Una paciente de 31 años consulta por edema periférico, hipertensión y oliguria después de una semana de diarrea con automedicación antibiótica. El uroanálisis muestra hematuria, proteinuria y cilindros hemáticos. El laboratorio revela anemia hemolítica microangiopática y trombocitopenia. Se sospecha síndrome urémico hemolítico. ¿Cuál es el principal sitio de lesión que explica el patrón urinario?",
+        options: [
+            "El glomérulo renal, por daño microvascular e inflamatorio que altera la filtración",
+            "La vejiga, por cistitis severa",
+            "La pelvis renal, por obstrucción de coágulos",
+            "La uretra distal, por trauma"
+        ],
+        answer: 0,
+        explanation: "El síndrome urémico hemolítico produce daño microvascular renal importante, especialmente en el territorio glomerular. Eso altera la filtración y favorece hematuria, proteinuria y deterioro del filtrado glomerular. La presencia de cilindros hemáticos y otros rasgos nefríticos orienta a un origen intrarrenal, no a sangrado de vías urinarias bajas."
+    },
+
+    {
+        question: "Un hombre de 52 años con antecedente de mieloma múltiple presenta insuficiencia renal progresiva, fatiga y dolor óseo. El uroanálisis detecta proteinuria, pero la tira reactiva para albúmina no es tan intensa como se esperaría para la magnitud total de proteínas. ¿Cuál es la mejor explicación?",
+        options: [
+            "Existe proteinuria por proteínas de bajo peso molecular, como cadenas ligeras, que no siempre se reflejan plenamente en la tira reactiva estándar",
+            "La orina fue diluida por un error de laboratorio",
+            "La proteinuria solo puede ser de origen glomerular albumínico",
+            "El mieloma múltiple produce exclusivamente hematuria, no proteinuria"
+        ],
+        answer: 0,
+        explanation: "La tira reactiva convencional detecta mejor la albúmina que otras proteínas. En el mieloma múltiple puede haber proteinuria por cadenas ligeras monoclonales, que son proteínas de bajo peso molecular y pueden no reflejarse con igual intensidad en la tira. Por eso, un paciente puede tener proteinuria clínicamente relevante con una discordancia aparente entre la cuantificación total y la reacción específica para albúmina."
+    },
+
+    {
+        question: "Una mujer de 27 años consulta por disuria, frecuencia urinaria y dolor suprapúbico, sin fiebre ni dolor lumbar. El uroanálisis muestra esterasa leucocitaria positiva y nitritos positivos. ¿Qué significado tiene que ambos parámetros estén positivos en conjunto?",
+        options: [
+            "Sugieren fuertemente inflamación urinaria con probable infección bacteriana por microorganismos reductores de nitratos",
+            "Confirman de manera específica glomerulonefritis",
+            "Indican contaminación inevitable de la muestra",
+            "Descartan infección urinaria alta o baja"
+        ],
+        answer: 0,
+        explanation: "La esterasa leucocitaria indica presencia de leucocitos, es decir, inflamación en la vía urinaria. Los nitritos positivos sugieren bacterias capaces de reducir nitratos, como varias enterobacterias. Cuando ambos parámetros son positivos, la probabilidad de infección urinaria bacteriana aumenta considerablemente, especialmente si el cuadro clínico acompaña. Sin embargo, estos hallazgos por sí solos no localizan con total precisión si la infección es baja o alta."
+    },
+
+    {
+        question: "Un varón de 62 años con insuficiencia cardiaca descompensada presenta edema, ortopnea y oliguria. El sodio urinario es bajo y la densidad urinaria está elevada. ¿Qué mecanismo fisiológico explica mejor esta respuesta renal?",
+        options: [
+            "El riñón interpreta disminución del volumen arterial efectivo y retiene sodio y agua",
+            "Existe destrucción del intersticio renal que impide toda reabsorción",
+            "La orina se concentra por pérdida selectiva de albúmina al túbulo",
+            "La vejiga hipertrófica induce liberación de ADH"
+        ],
+        answer: 0,
+        explanation: "En la insuficiencia cardiaca, aunque el volumen corporal total esté aumentado, el riñón percibe una perfusión arterial efectiva insuficiente. Esto activa sistemas compensadores como el eje renina-angiotensina-aldosterona y ADH, con retención de sodio y agua. El resultado es sodio urinario bajo y orina más concentrada, lo que eleva la densidad urinaria."
+    },
+
+    {
+        question: "Un paciente de 25 años con historia de fiebre, artralgias y exantema presenta hematuria microscópica, proteinuria y deterioro progresivo de la función renal. El sedimento muestra cilindros hemáticos y eritrocitos dismórficos. En el estudio se documentan anticuerpos antinucleares positivos. ¿Qué interpretación del uroanálisis es la más adecuada?",
+        options: [
+            "Corresponde a una lesión urológica baja con sangrado vesical",
+            "Refleja una glomerulopatía inflamatoria autoinmune",
+            "Se trata de contaminación de la muestra por menstruación",
+            "Es un patrón típico de litiasis por cistina"
+        ],
+        answer: 1,
+        explanation: "El cuadro clínico sistémico más los anticuerpos positivos orientan a una enfermedad autoinmune, y el patrón urinario señala claramente daño glomerular inflamatorio. Los eritrocitos dismórficos y los cilindros hemáticos son claves para localizar la lesión en el glomérulo. Esto no encaja con sangrado urológico, donde esperaríamos eritrocitos intactos y ausencia de cilindros hemáticos."
+    },
+
+    {
+        question: "Una mujer de 48 años con vómitos persistentes, debilidad y escasa ingesta de líquidos presenta oliguria. En el uroanálisis se encuentra densidad urinaria alta y presencia de algunos cilindros hialinos, sin datos de infección ni proteinuria importante. ¿Cómo debe interpretarse el estudio?",
+        options: [
+            "Como un patrón de concentración urinaria por depleción de volumen con cilindros hialinos inespecíficos",
+            "Como evidencia inequívoca de síndrome nefrótico",
+            "Como glomerulonefritis rápidamente progresiva",
+            "Como prueba de obstrucción urinaria completa"
+        ],
+        answer: 0,
+        explanation: "Los vómitos y la escasa ingesta generan depleción de volumen. Como respuesta, el riñón concentra la orina, elevando su densidad. Los cilindros hialinos pueden aparecer en este contexto por precipitación de proteína de Tamm-Horsfall y suelen ser inespecíficos. En ausencia de hematuria, leucocituria o proteinuria significativa, el patrón es mucho más compatible con una respuesta funcional a deshidratación que con una lesión renal estructural grave."
+    },
+
+    {
+        question: "Un varón de 44 años consulta por fiebre, disuria y malestar general. El urocultivo reporta crecimiento de más de 100,000 UFC/ml de Escherichia coli. Días después, el antibiograma muestra resistencia a trimetoprim-sulfametoxazol y sensibilidad a nitrofurantoína y cefalosporinas. ¿Por qué el antibiograma es decisivo en este escenario?",
+        options: [
+            "Porque confirma si la hematuria es glomerular o urológica",
+            "Porque permite dirigir el tratamiento según el perfil real de sensibilidad del microorganismo",
+            "Porque reemplaza por completo la necesidad de evaluar síntomas",
+            "Porque determina el grado de densidad urinaria"
+        ],
+        answer: 1,
+        explanation: "El cultivo demuestra la presencia significativa de bacterias, pero el antibiograma es lo que permite escoger el antibiótico más adecuado según la sensibilidad del germen aislado. Esto es especialmente importante en un contexto de resistencias crecientes, porque evita fallos terapéuticos y uso innecesario de fármacos ineficaces. Es una herramienta clave para tratamiento dirigido y racional."
+    }
+
+],
+advancedClinicalUroanalysis7: [
+
+    {
+        question: "Un varón de 28 años consulta por edema palpebral, hipertensión y orina oscura tres días después de una infección cutánea. El uroanálisis muestra hematuria, eritrocitos dismórficos, cilindros hemáticos y proteinuria leve. La creatinina está elevada. ¿Cuál es el mecanismo principal responsable de la disminución del filtrado glomerular en este cuadro?",
+        options: [
+            "Obstrucción mecánica de la vía urinaria",
+            "Inflamación glomerular con reducción de la superficie de filtración y aumento de presión intracapilar",
+            "Destrucción tubular con pérdida de reabsorción de agua",
+            "Aumento de la presión oncótica plasmática"
+        ],
+        answer: 1,
+        explanation: "En el síndrome nefrítico agudo, el depósito de inmunocomplejos genera inflamación glomerular, lo que reduce la superficie efectiva de filtración y altera la hemodinamia intraglomerular. Esto disminuye el filtrado glomerular, produciendo oliguria, retención de líquidos e hipertensión. Los cilindros hemáticos y eritrocitos dismórficos confirman el origen glomerular."
+    },
+
+    {
+        question: "Una mujer de 62 años con antecedente de nefropatía diabética consulta por aumento progresivo de edema y ascitis. El uroanálisis muestra proteinuria de 9 g/día y cilindros grasos. En laboratorio se encuentra albúmina sérica disminuida y colesterol elevado. ¿Qué mecanismo explica la hiperlipidemia en este contexto?",
+        options: [
+            "Disminución de la absorción intestinal de grasas",
+            "Aumento compensatorio de la síntesis hepática de lipoproteínas por pérdida de proteínas",
+            "Pérdida renal de colesterol exclusivamente",
+            "Inhibición de enzimas lipolíticas"
+        ],
+        answer: 1,
+        explanation: "En el síndrome nefrótico, la pérdida de proteínas plasmáticas estimula al hígado a aumentar la síntesis de proteínas, incluyendo lipoproteínas. Esto genera hiperlipidemia. Es un mecanismo compensatorio, pero contribuye a las alteraciones metabólicas del paciente."
+    },
+
+    {
+        question: "Un paciente de 35 años con deshidratación severa por diarrea presenta oliguria, densidad urinaria elevada y sodio urinario bajo. ¿Qué indica este patrón en términos de estado renal?",
+        options: [
+            "Daño renal intrínseco irreversible",
+            "Respuesta prerrenal con conservación de sodio y agua",
+            "Pérdida tubular de sodio",
+            "Falla glomerular primaria"
+        ],
+        answer: 1,
+        explanation: "Este patrón es típico de un estado prerrenal. El riñón conserva sodio y agua para mantener el volumen intravascular. La densidad urinaria elevada indica concentración de la orina, y el sodio urinario bajo confirma retención renal."
+    },
+
+    {
+        question: "Una mujer de 40 años con fiebre y dolor lumbar presenta leucocituria, bacteriuria y cilindros leucocitarios. ¿Qué diferencia clave permite distinguir este cuadro de una cistitis simple?",
+        options: [
+            "La presencia de leucocitos en orina",
+            "La presencia de bacterias",
+            "La formación de cilindros leucocitarios que indican origen renal",
+            "El pH urinario"
+        ],
+        answer: 2,
+        explanation: "Los cilindros leucocitarios se forman en los túbulos renales, lo que indica compromiso del parénquima renal. Esto distingue una pielonefritis de una infección urinaria baja como la cistitis."
+    },
+
+    {
+        question: "Un paciente con anemia hemolítica presenta aumento de urobilinógeno urinario sin bilirrubina detectable. ¿Qué explica este patrón?",
+        options: [
+            "Excreción renal de bilirrubina no conjugada",
+            "Aumento de producción de bilirrubina con incremento de su metabolismo intestinal",
+            "Falla renal con acumulación de pigmentos",
+            "Obstrucción biliar completa"
+        ],
+        answer: 1,
+        explanation: "En la hemólisis aumenta la degradación de eritrocitos, lo que incrementa la producción de bilirrubina. Parte de esta se convierte en urobilinógeno en el intestino y se excreta en orina. La bilirrubina no conjugada no aparece en orina."
+    },
+
+    {
+        question: "Un paciente con poliuria extrema presenta densidad urinaria baja y sodio urinario variable. Se sospecha diabetes insípida. ¿Qué mecanismo explica la incapacidad de concentrar la orina?",
+        options: [
+            "Daño glomerular",
+            "Deficiencia o resistencia a la ADH que impide la reabsorción de agua en el túbulo colector",
+            "Exceso de glucosa en filtrado",
+            "Obstrucción tubular"
+        ],
+        answer: 1,
+        explanation: "La ADH permite la reabsorción de agua en el túbulo colector. Su ausencia o resistencia genera incapacidad para concentrar la orina, produciendo poliuria con baja densidad urinaria."
+    },
+
+    {
+        question: "Un paciente con síndrome nefrótico presenta edema masivo. ¿Cuál es el mecanismo inicial más importante en la formación del edema?",
+        options: [
+            "Aumento de presión arterial",
+            "Disminución de presión oncótica por pérdida de albúmina",
+            "Retención de potasio",
+            "Aumento de filtración glomerular"
+        ],
+        answer: 1,
+        explanation: "La pérdida de albúmina reduce la presión oncótica plasmática, lo que favorece el paso de líquido al intersticio. Este es el mecanismo inicial del edema en el síndrome nefrótico."
+    },
+
+    {
+        question: "Un paciente presenta hematuria con eritrocitos normales y sin proteinuria. ¿Cuál es el origen más probable?",
+        options: [
+            "Glomerular",
+            "Urológico",
+            "Tubular",
+            "Intersticial"
+        ],
+        answer: 1,
+        explanation: "Los eritrocitos normales indican que no han pasado por el glomérulo dañado. Esto sugiere origen urológico, como litiasis o trauma."
+    },
+
+    {
+        question: "Un paciente con infección urinaria presenta nitritos negativos pero bacteriuria. ¿Cuál es la explicación más probable?",
+        options: [
+            "Error de laboratorio",
+            "Bacterias que no reducen nitratos",
+            "Ausencia de infección",
+            "Glomerulonefritis"
+        ],
+        answer: 1,
+        explanation: "No todas las bacterias producen nitritos. Algunas infecciones pueden ser nitrito-negativas."
+    },
+
+    {
+        question: "Un paciente con insuficiencia renal crónica presenta isostenuria. ¿Qué significa este hallazgo?",
+        options: [
+            "Orina concentrada",
+            "Orina diluida",
+            "Pérdida de capacidad de concentración y dilución",
+            "Aumento de filtración"
+        ],
+        answer: 2,
+        explanation: "La isostenuria indica incapacidad del riñón para modificar la concentración urinaria, típico de daño renal crónico."
+    },
+
+    {
+        question: "Un paciente con deshidratación presenta cilindros hialinos en orina. ¿Cuál es su significado?",
+        options: [
+            "Daño renal grave",
+            "Hallazgo inespecífico",
+            "Infección urinaria",
+            "Síndrome nefrótico"
+        ],
+        answer: 1,
+        explanation: "Los cilindros hialinos pueden aparecer en condiciones normales como deshidratación o ejercicio."
+    },
+
+    {
+        question: "Un paciente con litiasis renal presenta cristales de oxalato. ¿Qué favorece su formación?",
+        options: [
+            "Orina alcalina",
+            "Sobresaturación de calcio y oxalato",
+            "Infección bacteriana",
+            "Disminución de proteínas"
+        ],
+        answer: 1,
+        explanation: "La sobresaturación de solutos favorece la cristalización y formación de cálculos."
+    },
+
+    {
+        question: "Un paciente con cirrosis presenta coluria. ¿Qué la produce?",
+        options: [
+            "Hemoglobina libre",
+            "Bilirrubina conjugada",
+            "Urobilinógeno",
+            "Proteínas"
+        ],
+        answer: 1,
+        explanation: "La bilirrubina conjugada es hidrosoluble y puede aparecer en orina en enfermedades hepáticas."
+    },
+
+    {
+        question: "Un paciente con nefritis intersticial presenta leucocituria sin bacterias. ¿Qué indica?",
+        options: [
+            "Infección",
+            "Inflamación no infecciosa",
+            "Contaminación",
+            "Litiasis"
+        ],
+        answer: 1,
+        explanation: "La leucocituria puede ser inflamatoria sin infección, como en nefritis intersticial."
+    },
+
+    {
+        question: "Un paciente con síndrome nefrítico presenta oliguria. ¿Cuál es el mecanismo?",
+        options: [
+            "Aumento de filtración",
+            "Disminución de filtración glomerular",
+            "Aumento de secreción tubular",
+            "Poliuria osmótica"
+        ],
+        answer: 1,
+        explanation: "La inflamación glomerular reduce el filtrado, causando oliguria."
+    },
+
+    {
+        question: "Un paciente con infección urinaria presenta esterasa leucocitaria positiva. ¿Qué indica?",
+        options: [
+            "Proteínas",
+            "Leucocitos",
+            "Glucosa",
+            "Bilirrubina"
+        ],
+        answer: 1,
+        explanation: "La esterasa leucocitaria indica presencia de leucocitos en orina."
+    },
+
+    {
+        question: "Un paciente con diabetes presenta glucosuria. ¿Qué la causa?",
+        options: [
+            "Daño glomerular",
+            "Saturación tubular",
+            "Obstrucción",
+            "Infección"
+        ],
+        answer: 1,
+        explanation: "La glucosuria ocurre cuando se supera la capacidad de reabsorción tubular."
+    },
+
+    {
+        question: "Un paciente con proteinuria presenta daño en la barrera de filtración. ¿Qué factor es clave?",
+        options: [
+            "Tamaño y carga de proteínas",
+            "pH urinario",
+            "Densidad",
+            "Volumen"
+        ],
+        answer: 0,
+        explanation: "El tamaño y la carga determinan el paso de proteínas por el glomérulo."
+    },
+
+    {
+        question: "Un paciente con urocultivo positivo requiere antibiograma. ¿Por qué?",
+        options: [
+            "Diagnóstico",
+            "Tratamiento dirigido",
+            "Medición de pH",
+            "Evaluación de densidad"
+        ],
+        answer: 1,
+        explanation: "El antibiograma permite elegir el antibiótico adecuado."
+    },
+
+    {
+        question: "Un paciente con acidosis metabólica presenta orina ácida. ¿Qué indica?",
+        options: [
+            "Falla renal",
+            "Respuesta compensatoria",
+            "Infección",
+            "Alcalosis"
+        ],
+        answer: 1,
+        explanation: "El riñón excreta protones para compensar la acidosis."
+    }
+
+],
+advancedClinicalUroanalysis8: [
+
+    {
+        question: "Una mujer de 25 años consulta por edema periorbitario, hipertensión y orina de color oscuro desde hace cuatro días. Refiere que dos semanas antes presentó una faringitis febril que no recibió tratamiento antibiótico. En el uroanálisis se encuentra hematuria microscópica, eritrocitos dismórficos, proteinuria moderada y cilindros hemáticos. La creatinina sérica está discretamente elevada. ¿Cuál es la alteración fisiopatológica más importante que explica la aparición simultánea de hematuria y disminución del filtrado glomerular?",
+        options: [
+            "Lesión mecánica del urotelio con sangrado retrógrado hacia el nefrón",
+            "Inflamación glomerular mediada por inmunocomplejos que altera la barrera de filtración y reduce la superficie efectiva de filtración",
+            "Aumento aislado de la secreción tubular de proteínas y eritrocitos",
+            "Obstrucción ureteral bilateral con paso de eritrocitos intactos a la orina"
+        ],
+        answer: 1,
+        explanation: "Este cuadro corresponde a un síndrome nefrítico agudo, clásicamente posinfeccioso. La lesión principal ocurre en el glomérulo, donde la inflamación mediada por inmunocomplejos altera la membrana de filtración y permite el paso de eritrocitos a la orina. Al mismo tiempo, esa misma inflamación reduce el filtrado glomerular, por lo que aparecen oliguria relativa, retención de líquidos, hipertensión y aumento de creatinina. La presencia de eritrocitos dismórficos y cilindros hemáticos confirma que el origen del sangrado es glomerular y no urológico."
+    },
+
+    {
+        question: "Un varón de 59 años con diabetes mellitus tipo 2 mal controlada y obesidad consulta por edema progresivo, orina persistentemente espumosa y aumento de peso en los últimos dos meses. El uroanálisis muestra proteinuria de 7.2 g/día, sin hematuria significativa, y el sedimento revela cilindros grasos. En sangre presenta hipoalbuminemia e hiperlipidemia. ¿Qué mecanismo explica de forma más completa la aparición de este patrón clínico y urinario?",
+        options: [
+            "Daño glomerular con pérdida masiva de proteínas, descenso de presión oncótica plasmática y respuesta hepática compensatoria con aumento de síntesis de lipoproteínas",
+            "Necrosis tubular aguda con pérdida de reabsorción de glucosa y albúmina",
+            "Infección urinaria crónica con formación secundaria de cilindros lipídicos",
+            "Obstrucción vesical que induce proteinuria nefrótica por aumento retrógrado de presión"
+        ],
+        answer: 0,
+        explanation: "El paciente presenta un síndrome nefrótico. La lesión glomerular permite el paso masivo de proteínas, sobre todo albúmina, al ultrafiltrado. Eso disminuye la presión oncótica plasmática y favorece la salida de líquido al intersticio, generando edema. Como respuesta compensatoria, el hígado aumenta la síntesis de proteínas y lipoproteínas, lo que explica la hiperlipidemia. Los cilindros grasos derivan del procesamiento tubular del exceso de material lipídico filtrado y son muy característicos de este síndrome."
+    },
+
+    {
+        question: "Una mujer de 34 años acude por fiebre alta, escalofríos, náuseas, dolor lumbar izquierdo y disuria. Refiere varios episodios previos de cistitis en el último año. El uroanálisis muestra leucocituria intensa, bacteriuria, nitritos positivos y cilindros leucocitarios. ¿Cuál es la razón por la que estos hallazgos obligan a pensar en un compromiso renal y no solo vesical?",
+        options: [
+            "Porque toda bacteriuria implica necesariamente invasión del parénquima renal",
+            "Porque los cilindros leucocitarios se forman dentro de los túbulos renales y reflejan inflamación intrarrenal",
+            "Porque los nitritos solo se positivizan en presencia de pielonefritis",
+            "Porque la disuria es más frecuente en infección urinaria alta que en baja"
+        ],
+        answer: 1,
+        explanation: "La leucocituria y la bacteriuria pueden aparecer tanto en cistitis como en pielonefritis. Sin embargo, los cilindros leucocitarios son un dato mucho más localizado: se forman dentro del túbulo renal, por lo que indican que el proceso inflamatorio o infeccioso ya comprometió el parénquima renal. Esto, junto con la fiebre alta, dolor lumbar y síntomas sistémicos, hace mucho más probable una pielonefritis aguda."
+    },
+
+    {
+        question: "Un hombre de 46 años llega a emergencia por dolor súbito e intenso en flanco derecho que irradia hacia la región inguinal, acompañado de náuseas, inquietud motora y hematuria macroscópica. El uroanálisis muestra numerosos eritrocitos con morfología conservada, sin proteinuria importante ni cilindros hemáticos, y se identifican cristales de oxalato de calcio. ¿Cuál es la mejor explicación del patrón urinario observado?",
+        options: [
+            "La lesión primaria está en el glomérulo, donde se produce extravasación de eritrocitos",
+            "El cálculo lesiona mecánicamente la vía urinaria, generando sangrado de origen urológico con eritrocitos intactos",
+            "Existe una vasculitis sistémica con daño glomerular selectivo para eritrocitos",
+            "La cristaluria por sí sola produce dismorfismo eritrocitario y cilindros hemáticos"
+        ],
+        answer: 1,
+        explanation: "El cuadro típico de cólico renal y la presencia de cristales de oxalato apuntan a litiasis urinaria. El sangrado es de origen urológico, porque el cálculo traumatiza el urotelio a su paso por el tracto urinario. Por eso los eritrocitos conservan su morfología y no aparecen cilindros hemáticos, que sí serían más propios de un origen glomerular. La ausencia de proteinuria significativa también aleja una lesión primaria del glomérulo."
+    },
+
+    {
+        question: "Una paciente de 22 años consulta por poliuria de varias semanas de evolución, sed intensa incluso durante la noche y preferencia marcada por bebidas frías. La glucemia es normal, el uroanálisis no muestra glucosuria ni proteinuria, y la densidad urinaria permanece muy baja en varias muestras. ¿Cuál es la alteración fisiopatológica más probable?",
+        options: [
+            "Deficiencia o resistencia a la ADH que impide la reabsorción adecuada de agua en el túbulo colector",
+            "Saturación de transportadores de glucosa en el túbulo proximal",
+            "Aumento de presión oncótica plasmática que arrastra agua hacia el filtrado",
+            "Glomerulonefritis con poliuria por pérdida de albúmina"
+        ],
+        answer: 0,
+        explanation: "La combinación de poliuria marcada, densidad urinaria persistentemente baja y ausencia de glucosuria orienta a diabetes insípida, no a diabetes mellitus. El problema es la incapacidad para concentrar la orina, ya sea por déficit de ADH o por resistencia renal a su acción. La ADH actúa principalmente en el túbulo colector, donde favorece la reabsorción de agua; si falla este mecanismo, el paciente pierde grandes volúmenes de orina diluida."
+    },
+
+    {
+        question: "Un varón de 57 años con cirrosis alcohólica consulta por ictericia progresiva, prurito y orina muy oscura. El uroanálisis reporta bilirrubina positiva y aumento de urobilinógeno. ¿Qué interpretación integra mejor ambos hallazgos?",
+        options: [
+            "Existe hemólisis aislada con filtración renal de bilirrubina no conjugada",
+            "Hay alteración hepatocelular o hepatobiliar que aumenta la fracción conjugada circulante y modifica el metabolismo normal de los pigmentos biliares",
+            "El patrón es incompatible con enfermedad hepática y sugiere solo infección urinaria",
+            "La bilirrubina urinaria positiva demuestra obligatoriamente obstrucción biliar completa"
+        ],
+        answer: 1,
+        explanation: "La bilirrubina detectable en orina corresponde a la forma conjugada, porque es hidrosoluble. Su presencia sugiere enfermedad hepatocelular o colestásica. El aumento simultáneo de urobilinógeno puede verse cuando existe alteración del procesamiento hepático de la bilirrubina, como ocurre en hepatopatías. No corresponde a hemólisis aislada, ya que la bilirrubina no conjugada no se filtra ni se elimina normalmente en la orina."
+    },
+
+    {
+        question: "Una mujer de 43 años recibe un antibiótico por sinusitis y una semana después desarrolla fiebre, exantema, artralgias y elevación aguda de creatinina. El uroanálisis muestra leucocituria sin bacteriuria, y en el sedimento se observan eosinófilos urinarios. ¿Cuál es el diagnóstico más probable y por qué el uroanálisis es tan orientador?",
+        options: [
+            "Pielonefritis, porque la leucocituria siempre indica infección bacteriana",
+            "Nefritis intersticial aguda, porque la inflamación renal es no infecciosa y los eosinófilos urinarios son un hallazgo clásico",
+            "Síndrome nefrótico, porque toda leucocituria con creatinina elevada indica daño glomerular",
+            "Litiasis renal, porque los eosinófilos sugieren irritación mecánica del uréter"
+        ],
+        answer: 1,
+        explanation: "El cuadro clínico es muy sugestivo de nefritis intersticial aguda por hipersensibilidad a fármacos. La leucocituria puede aparecer por inflamación renal no infecciosa, y la presencia de eosinófilos urinarios es un dato clásico que refuerza esa sospecha. La ausencia de bacteriuria ayuda a distinguirla de una infección urinaria. Aquí la lesión principal se ubica en el intersticio renal y no en el glomérulo."
+    },
+
+    {
+        question: "Un hombre de 71 años con enfermedad renal crónica avanzada presenta cansancio, prurito, nicturia y anorexia. En varias muestras, la densidad urinaria se mantiene cercana a 1.010, independientemente de la ingesta hídrica. El sedimento es poco activo. ¿Qué significa fisiológicamente esta densidad urinaria fija?",
+        options: [
+            "El riñón conserva perfectamente su capacidad de concentrar y diluir la orina",
+            "Existe pérdida de la capacidad renal para modificar la concentración urinaria, lo que corresponde a isostenuria",
+            "La orina está artificialmente diluida por un error de laboratorio",
+            "Hay una diuresis osmótica persistente por glucosa no detectada"
+        ],
+        answer: 1,
+        explanation: "Una densidad urinaria fija alrededor de 1.010 indica isostenuria. Esto significa que el riñón ya no puede concentrar ni diluir adecuadamente la orina según las necesidades del organismo. Es un hallazgo típico de enfermedad renal crónica avanzada y refleja daño funcional importante, especialmente en la capacidad tubular y medular para manejar agua y solutos."
+    },
+
+    {
+        question: "Una mujer de 30 años consulta por edema generalizado, aumento de peso y distensión abdominal. El uroanálisis muestra proteinuria de 8.5 g/día y cilindros grasos. La albúmina sérica está muy disminuida. ¿Cuál es el mecanismo principal del edema y por qué no basta con atribuirlo solamente a retención renal de sodio?",
+        options: [
+            "La pérdida masiva de albúmina reduce la presión oncótica plasmática, permitiendo el paso de líquido al intersticio; la retención de sodio puede contribuir, pero no explica por sí sola todo el cuadro",
+            "El edema se debe únicamente a obstrucción del retorno venoso renal",
+            "La hematuria microscópica es la principal responsable de la caída del volumen intravascular",
+            "Los cilindros grasos aumentan directamente la permeabilidad capilar sistémica"
+        ],
+        answer: 0,
+        explanation: "En el síndrome nefrótico, la pérdida urinaria masiva de albúmina disminuye la presión oncótica plasmática y facilita el desplazamiento de líquido al intersticio, lo que es un mecanismo central del edema. Es verdad que también puede haber retención renal de sodio y agua, pero la hipoalbuminemia es fundamental para entender la distribución anormal del líquido corporal. Por eso el edema suele ser extenso y no se explica solo por retención hidrosalina."
+    },
+
+    {
+        question: "Una gestante de 31 semanas acude por náuseas, vómitos y escasa tolerancia oral durante 48 horas. El uroanálisis muestra cetonuria moderada, sin glucosuria ni signos de infección. ¿Qué explicación fisiopatológica es la más probable?",
+        options: [
+            "Uso de grasas como fuente de energía por déficit relativo de aporte calórico, con producción de cuerpos cetónicos",
+            "Paso anormal de cetonas a través de una membrana glomerular inflamada",
+            "Producción renal primaria de cetonas en el túbulo proximal",
+            "Conversión bacteriana de glucosa a cetonas dentro de la vejiga"
+        ],
+        answer: 0,
+        explanation: "Cuando la ingesta calórica es insuficiente, el organismo recurre al metabolismo de grasas para producir energía, generando cuerpos cetónicos. Esto puede verse en el ayuno, el embarazo, los vómitos prolongados y la cetoacidosis diabética. En esta paciente, la ausencia de glucosuria hace menos probable una descompensación diabética, por lo que la cetonuria se explica mejor por balance energético negativo."
+    },
+
+    {
+        question: "Un varón de 64 años con hiperplasia prostática benigna presenta chorro débil, vaciamiento incompleto y varios episodios de infección urinaria en el último año. Actualmente consulta por fiebre y disuria. El uroanálisis muestra leucocituria y bacteriuria. ¿Cuál es el factor fisiopatológico que más favorece estas infecciones recurrentes?",
+        options: [
+            "Estasis urinaria secundaria a obstrucción infravesical, que reduce el aclaramiento mecánico de bacterias",
+            "Aumento del urobilinógeno urinario por congestión pélvica",
+            "Microalbuminuria prostática con daño vesical secundario",
+            "Producción insuficiente de urocromo"
+        ],
+        answer: 0,
+        explanation: "La obstrucción urinaria baja causa vaciamiento incompleto de la vejiga. Esa orina residual facilita la proliferación bacteriana, porque disminuye el efecto de lavado mecánico del tracto urinario. Por eso los pacientes con hiperplasia prostática tienen mayor riesgo de infecciones urinarias recurrentes, especialmente si se suman edad avanzada o instrumentación previa."
+    },
+
+    {
+        question: "Una paciente de 28 años presenta disuria y polaquiuria. El primer uroanálisis reporta abundantes bacterias y gran cantidad de células epiteliales escamosas. Al repetir la muestra con adecuada higiene y recolección de chorro medio, desaparece la bacteriuria. ¿Cuál fue la interpretación correcta del primer examen?",
+        options: [
+            "El hallazgo sugería glomerulonefritis de origen infeccioso",
+            "La presencia abundante de células escamosas hacía sospechar contaminación de la muestra",
+            "Toda bacteriuria en una mujer joven confirma infección urinaria verdadera",
+            "La desaparición posterior de bacterias implica tratamiento antibiótico espontáneo"
+        ],
+        answer: 1,
+        explanation: "Las células epiteliales escamosas suelen proceder de contaminación con material genital externo. Cuando aparecen en abundancia, la confiabilidad del examen disminuye, especialmente para interpretar bacteriuria. En este caso, la repetición adecuada de la muestra confirmó que el primer resultado reflejaba contaminación y no una infección urinaria real."
+    },
+
+    {
+        question: "Un hombre de 67 años con insuficiencia cardiaca descompensada presenta edema en miembros inferiores, ortopnea y oliguria. El sodio urinario es bajo y la densidad urinaria está elevada. ¿Qué explica mejor este patrón?",
+        options: [
+            "El riñón percibe disminución del volumen arterial efectivo y activa mecanismos de retención de sodio y agua",
+            "Existe pérdida tubular primaria de sodio con concentración compensadora de la orina",
+            "La proteinuria masiva produce directamente un sodio urinario bajo",
+            "La vejiga neurogénica induce liberación excesiva de ADH sin relación hemodinámica"
+        ],
+        answer: 0,
+        explanation: "En la insuficiencia cardiaca, aunque el volumen corporal total esté aumentado, el riñón percibe una disminución del volumen arterial efectivo por baja perfusión. Como respuesta, activa sistemas hormonales como renina-angiotensina-aldosterona y ADH, reteniendo sodio y agua. Por eso el sodio urinario baja y la orina se concentra, elevando su densidad."
+    },
+
+    {
+        question: "Un joven de 20 años con antecedente familiar de litiasis recurrente presenta dolor lumbar, hematuria y expulsión previa de pequeños cálculos. El sedimento urinario muestra cristales hexagonales. ¿Cuál es el diagnóstico más probable y cuál es la alteración de base?",
+        options: [
+            "Hiperoxaluria, por aumento intestinal de absorción de oxalato",
+            "Cistinuria, por defecto hereditario en el transporte tubular de aminoácidos dibásicos",
+            "Nefropatía por ácido úrico, por hipercatabolismo purínico aislado",
+            "Síndrome de Fanconi, por pérdida generalizada de solutos"
+        ],
+        answer: 1,
+        explanation: "Los cristales hexagonales son clásicos de cistinuria. Esta es una alteración hereditaria del transporte tubular renal y gastrointestinal de ciertos aminoácidos dibásicos, especialmente cistina. La cistina es poco soluble y precipita, favoreciendo la formación de cálculos urinarios recurrentes desde edades tempranas."
+    },
+
+    {
+        question: "Una mujer de 53 años consulta por cansancio, orina espumosa y edema leve. El uroanálisis muestra albuminuria persistente y proteinuria de 400 mg/día, sin hematuria ni signos infecciosos. ¿Por qué este hallazgo no debe considerarse trivial?",
+        options: [
+            "Porque cualquier cantidad de proteínas en orina confirma síndrome nefrótico",
+            "Porque la albuminuria persistente puede indicar daño renal incipiente y tiene valor pronóstico, especialmente si se correlaciona con la función renal",
+            "Porque la ausencia de hematuria obliga a pensar en litiasis oculta",
+            "Porque la proteinuria leve suele ser exclusiva de infección urinaria crónica"
+        ],
+        answer: 1,
+        explanation: "La albuminuria persistente, aunque no esté en rango nefrótico, es un marcador importante de daño renal temprano. Tiene gran relevancia en pacientes con factores de riesgo como diabetes, hipertensión o enfermedad vascular. Además, cuando se correlaciona con la tasa de filtrado glomerular, permite estimar riesgo de progresión de enfermedad renal crónica."
+    },
+
+    {
+        question: "Un hombre de 41 años ha realizado ejercicio extremo y ayuno prolongado en un campamento de entrenamiento. Consulta por debilidad, mareo y dolor muscular. El uroanálisis muestra cetonuria, densidad elevada y algunos cilindros hialinos, sin hematuria ni leucocituria. ¿Cuál es la mejor interpretación?",
+        options: [
+            "Existe glomerulonefritis rápidamente progresiva en fase inicial",
+            "La cetonuria refleja uso de grasas por déficit calórico y los cilindros hialinos son un hallazgo inespecífico favorecido por deshidratación y esfuerzo",
+            "Se trata de pielonefritis con sedimento incompleto",
+            "La densidad elevada demuestra daño glomerular irreversible"
+        ],
+        answer: 1,
+        explanation: "El ayuno prolongado favorece el uso de grasas como fuente energética, lo que genera cuerpos cetónicos y explica la cetonuria. Además, el ejercicio intenso y la deshidratación favorecen la concentración de la orina y la aparición de cilindros hialinos, que son inespecíficos. La ausencia de hematuria, leucocituria o proteinuria significativa aleja una lesión renal estructural importante."
+    },
+
+    {
+        question: "Una paciente con anemia hemolítica autoinmune presenta ictericia leve. El uroanálisis revela aumento de urobilinógeno urinario, pero bilirrubina negativa. ¿Cuál es la explicación correcta?",
+        options: [
+            "En la hemólisis aumenta la producción de bilirrubina, pero la fracción inicial predominante es no conjugada y no se elimina en orina; en cambio, aumenta el urobilinógeno",
+            "La hemólisis siempre produce bilirrubinuria intensa",
+            "La ausencia de bilirrubina urinaria descarta totalmente aumento del catabolismo del hemo",
+            "El patrón indica obstrucción biliar completa"
+        ],
+        answer: 0,
+        explanation: "En la hemólisis se incrementa la degradación de eritrocitos y por tanto la producción de bilirrubina. Sin embargo, esa bilirrubina inicialmente es no conjugada, no hidrosoluble y no aparece en orina. Lo que sí puede aumentar es el urobilinógeno, debido al mayor metabolismo intestinal de la bilirrubina. Por eso este patrón es muy coherente con hemólisis."
+    },
+
+    {
+        question: "Un paciente de 60 años con gastroenteritis severa presenta oliguria, mucosas secas e hipotensión ortostática. El uroanálisis muestra densidad urinaria alta y cilindros hialinos aislados, sin proteinuria importante. ¿Cómo debe interpretarse este estudio?",
+        options: [
+            "Como respuesta renal a depleción de volumen, con orina concentrada y cilindros hialinos inespecíficos",
+            "Como prueba inequívoca de síndrome nefrótico",
+            "Como evidencia de pielonefritis aunque no haya leucocitos",
+            "Como glomerulonefritis por pérdida de eritrocitos no visibles"
+        ],
+        answer: 0,
+        explanation: "La depleción de volumen por pérdidas gastrointestinales lleva al riñón a conservar agua, lo que produce una orina más concentrada y por tanto una densidad elevada. Los cilindros hialinos pueden aparecer en este contexto y no son específicos de daño estructural renal. La ausencia de otros hallazgos importantes apoya una causa funcional, prerrenal y potencialmente reversible."
+    },
+
+    {
+        question: "Un hombre de 55 años con mieloma múltiple presenta deterioro progresivo de la función renal. El uroanálisis reporta proteinuria, pero la tira reactiva para albúmina es menos intensa de lo esperado para la magnitud total de proteínas urinarias. ¿Qué explica esta aparente discrepancia?",
+        options: [
+            "La tira reactiva detecta mejor albúmina que otras proteínas, y en el mieloma puede predominar proteinuria por cadenas ligeras",
+            "La proteinuria del mieloma es siempre falsa y carece de valor clínico",
+            "El mieloma múltiple produce solo hematuria y nunca proteinuria",
+            "La densidad urinaria baja impide toda detección química de proteínas"
+        ],
+        answer: 0,
+        explanation: "La tira reactiva convencional es especialmente sensible para albúmina, pero puede no reflejar igual de bien otras proteínas, como las cadenas ligeras monoclonales del mieloma múltiple. Por eso puede existir una discordancia entre la cuantificación total de proteínas urinarias y la intensidad de la tira reactiva para albúmina. Esto es clínicamente muy importante y debe hacer sospechar proteinurias no albuminúricas."
+    },
+
+    {
+        question: "Una mujer de 29 años consulta por disuria, polaquiuria y dolor suprapúbico. El uroanálisis muestra esterasa leucocitaria positiva y nitritos positivos. ¿Qué significado tiene esta combinación?",
+        options: [
+            "Sugiere inflamación urinaria asociada a probable infección bacteriana por microorganismos reductores de nitratos",
+            "Confirma de forma específica glomerulonefritis",
+            "Descarta completamente compromiso infeccioso del tracto urinario",
+            "Indica contaminación de la muestra sin valor clínico"
+        ],
+        answer: 0,
+        explanation: "La esterasa leucocitaria positiva indica la presencia de leucocitos, lo que sugiere inflamación en el tracto urinario. Los nitritos positivos orientan a bacterias capaces de reducir nitratos, como muchas enterobacterias. En conjunto, ambos hallazgos hacen muy probable una infección urinaria bacteriana, especialmente cuando la clínica acompaña."
+    },
+
+    {
+        question: "Un paciente de 27 años con fiebre, artralgias, exantema malar y deterioro renal presenta hematuria microscópica, proteinuria y cilindros hemáticos. Los eritrocitos en el sedimento son dismórficos. ¿Qué interpretación del uroanálisis es la más adecuada?",
+        options: [
+            "Se trata de un sangrado urológico bajo por irritación vesical",
+            "El patrón corresponde a una glomerulopatía inflamatoria autoinmune",
+            "La muestra está contaminada por células genitales externas",
+            "El cuadro es más compatible con litiasis de repetición"
+        ],
+        answer: 1,
+        explanation: "Los eritrocitos dismórficos y los cilindros hemáticos son hallazgos fuertemente sugestivos de origen glomerular. Si a eso se suma el contexto clínico sistémico compatible con enfermedad autoinmune, la interpretación más lógica es una glomerulopatía inflamatoria, como una nefritis lúpica. No encaja con litiasis ni con un sangrado vesical, donde los eritrocitos suelen conservar su morfología."
+    }
+
+],
+advancedClinicalUroanalysis9: [
+
+    {
+        question: "Un varón de 24 años consulta por edema palpebral, hipertensión y orina color 'coca-cola' desde hace 48 horas. Refiere que diez días antes presentó odinofagia con fiebre, que mejoró sin tratamiento. En el examen físico presenta presión arterial de 155/95 mmHg, edema leve en miembros inferiores y oliguria relativa. El uroanálisis muestra hematuria microscópica con eritrocitos dismórficos, proteinuria moderada y cilindros hemáticos. La creatinina sérica está discretamente elevada. ¿Cuál es la explicación fisiopatológica más probable del deterioro renal en este cuadro?",
+        options: [
+            "Daño tubular aislado con pérdida de capacidad de reabsorción de agua",
+            "Inflamación glomerular con disminución del área de filtración y aumento de permeabilidad para eritrocitos",
+            "Obstrucción uretral aguda con reflujo de eritrocitos hacia el túbulo",
+            "Infección urinaria baja con extensión secundaria al glomérulo"
+        ],
+        answer: 1,
+        explanation: "Este caso corresponde a un síndrome nefrítico agudo, muy probablemente posinfeccioso. La lesión fundamental está en el glomérulo: la inflamación reduce la superficie útil de filtración y altera la barrera glomerular, permitiendo el paso de eritrocitos hacia la orina. Por eso aparecen eritrocitos dismórficos y cilindros hemáticos, hallazgos clásicos de origen glomerular. La disminución del filtrado glomerular explica la oliguria, la retención de sodio y agua, la hipertensión y la elevación de creatinina."
+    },
+
+    {
+        question: "Una mujer de 63 años con diabetes mellitus tipo 2, hipertensión arterial y obesidad consulta por edema progresivo, fatiga y orina persistentemente espumosa. El uroanálisis muestra proteinuria de 6.8 g/día, sin hematuria significativa, y el sedimento urinario revela cilindros grasos. En los análisis de sangre presenta albúmina sérica de 2.1 g/dL y colesterol total elevado. ¿Qué mecanismo explica mejor la presencia simultánea de edema e hiperlipidemia?",
+        options: [
+            "Daño glomerular con pérdida masiva de albúmina, disminución de presión oncótica y aumento compensatorio de síntesis hepática de lipoproteínas",
+            "Destrucción tubular con pérdida renal directa de colesterol",
+            "Obstrucción del tracto urinario inferior con absorción secundaria de lípidos",
+            "Hematuria crónica con activación hepática de síntesis lipídica"
+        ],
+        answer: 0,
+        explanation: "La paciente presenta un síndrome nefrótico. La pérdida masiva de albúmina disminuye la presión oncótica plasmática, favoreciendo la salida de líquido al intersticio y causando edema. Como respuesta compensatoria, el hígado aumenta la síntesis de proteínas y también de lipoproteínas, lo que explica la hiperlipidemia. Los cilindros grasos aparecen por el procesamiento tubular del exceso de material lipídico filtrado y son hallazgos muy característicos de este síndrome."
+    },
+
+    {
+        question: "Un hombre de 41 años consulta por fiebre, escalofríos, náuseas, dolor lumbar derecho y disuria. Refiere antecedente de varias infecciones urinarias en el último año y automedicación frecuente. En el uroanálisis se encuentran leucocituria intensa, bacteriuria abundante, nitritos positivos y cilindros leucocitarios. ¿Qué hallazgo del examen de orina tiene mayor valor para afirmar que el proceso ya comprometió el parénquima renal?",
+        options: [
+            "La bacteriuria abundante",
+            "La positividad para nitritos",
+            "La presencia de cilindros leucocitarios",
+            "La turbidez macroscópica de la orina"
+        ],
+        answer: 2,
+        explanation: "La bacteriuria y los nitritos apoyan fuertemente el diagnóstico de infección urinaria bacteriana, pero no localizan con precisión si el proceso está restringido a la vejiga o si ya alcanzó el riñón. Los cilindros leucocitarios, en cambio, se forman dentro de los túbulos renales, por lo que indican inflamación intrarrenal y orientan a pielonefritis. Ese hallazgo tiene un valor anatómico y fisiopatológico mucho más específico."
+    },
+
+    {
+        question: "Un varón de 50 años acude por dolor lumbar súbito e intenso irradiado a la ingle, acompañado de náuseas, sudoración y hematuria macroscópica. En el uroanálisis se observan eritrocitos con morfología conservada, sin proteinuria importante y con cristales de ácido úrico. Tiene antecedente de gota y episodios previos de litiasis. ¿Cuál es la mejor explicación del patrón urinario?",
+        options: [
+            "Sangrado glomerular secundario a vasculitis por cristales",
+            "Lesión mecánica de la vía urinaria por cálculo, con hematuria de origen urológico",
+            "Necrosis tubular aguda por hiperuricemia aislada",
+            "Proteinuria glomerular selectiva con cristaluria secundaria"
+        ],
+        answer: 1,
+        explanation: "La clínica es clásica de cólico renal. Los eritrocitos conservados sugieren que no atravesaron una barrera glomerular dañada, por lo que el origen del sangrado es urológico. La presencia de cristales de ácido úrico y el antecedente de gota fortalecen el diagnóstico de litiasis urinaria. El cálculo traumatiza la mucosa del tracto urinario y produce hematuria sin necesidad de daño glomerular."
+    },
+
+    {
+        question: "Una paciente de 27 años consulta por poliuria intensa, polidipsia de predominio nocturno y sensación persistente de boca seca. La glucosa en sangre es normal. En varias muestras de orina se documenta densidad urinaria persistentemente baja, sin glucosuria, proteinuria ni sedimento patológico. Tras estudios complementarios se sospecha diabetes insípida central. ¿Qué alteración fisiológica explica mejor este cuadro?",
+        options: [
+            "Déficit de ADH, con incapacidad del túbulo colector para reabsorber agua adecuadamente",
+            "Saturación de transportadores de glucosa en túbulo proximal",
+            "Daño glomerular con paso libre de agua sin solutos",
+            "Disminución de presión oncótica plasmática con diuresis compensatoria"
+        ],
+        answer: 0,
+        explanation: "La diabetes insípida central se caracteriza por déficit de ADH. Sin esta hormona, el túbulo colector no puede reabsorber agua de manera adecuada, lo que produce poliuria de gran volumen y orina muy diluida. La ausencia de glucosuria permite diferenciarla de la diuresis osmótica por diabetes mellitus. El patrón de densidad urinaria baja persistente es una consecuencia directa de la incapacidad para concentrar la orina."
+    },
+
+    {
+        question: "Una mujer de 55 años con cirrosis hepática alcohólica consulta por ictericia, prurito, astenia y oscurecimiento marcado de la orina. El uroanálisis demuestra bilirrubina positiva y aumento de urobilinógeno. ¿Cuál es la interpretación más correcta de estos hallazgos?",
+        options: [
+            "La bilirrubina urinaria corresponde a fracción conjugada, lo que orienta a alteración hepatocelular o colestásica",
+            "La bilirrubina urinaria en este contexto siempre corresponde a hemólisis aislada",
+            "La presencia de urobilinógeno descarta enfermedad hepática",
+            "La bilirrubinuria demuestra necesariamente obstrucción urinaria"
+        ],
+        answer: 0,
+        explanation: "La bilirrubina que aparece en orina es la conjugada, porque es hidrosoluble. Su presencia sugiere enfermedad hepatocelular o colestasis. El aumento de urobilinógeno puede verse en varios trastornos hepáticos por alteración del metabolismo y circulación enterohepática de pigmentos biliares. Este patrón encaja mucho mejor con hepatopatía que con hemólisis aislada."
+    },
+
+    {
+        question: "Una paciente de 39 años inicia tratamiento con un antibiótico por una infección respiratoria y siete días después consulta por fiebre, exantema, artralgias y disminución del volumen urinario. La creatinina ha aumentado de forma aguda. El uroanálisis muestra leucocituria sin bacteriuria, proteinuria leve y eosinófilos urinarios. ¿Cuál es el diagnóstico más probable?",
+        options: [
+            "Pielonefritis aguda complicada",
+            "Nefritis intersticial aguda inducida por fármacos",
+            "Glomerulonefritis rápidamente progresiva",
+            "Litiasis bilateral con infección secundaria"
+        ],
+        answer: 1,
+        explanation: "La asociación entre exposición reciente a fármacos, insuficiencia renal aguda, exantema, fiebre y eosinófilos urinarios es muy sugestiva de nefritis intersticial aguda. La leucocituria no siempre implica infección: también puede aparecer en procesos inflamatorios no infecciosos del intersticio renal. La ausencia de bacteriuria ayuda a diferenciar este cuadro de una infección urinaria."
+    },
+
+    {
+        question: "Un paciente de 74 años con enfermedad renal crónica avanzada consulta por anorexia, prurito, nicturia y astenia progresiva. En varias determinaciones, la densidad urinaria permanece fija alrededor de 1.010 a pesar de variaciones importantes en la ingesta de agua. ¿Qué significa fisiológicamente este hallazgo?",
+        options: [
+            "Que el riñón concentra la orina de manera óptima",
+            "Que existe diuresis osmótica oculta",
+            "Que el riñón ha perdido la capacidad de concentrar y diluir la orina, es decir, presenta isostenuria",
+            "Que la muestra urinaria fue mal recolectada"
+        ],
+        answer: 2,
+        explanation: "La isostenuria implica que el riñón no puede modificar la concentración de la orina en respuesta a cambios en la hidratación. Una densidad fija cercana a 1.010 es muy típica de esta situación y suele aparecer en enfermedad renal crónica avanzada. Refleja deterioro funcional tubular y medular, aunque el sedimento urinario sea poco llamativo."
+    },
+
+    {
+        question: "Una mujer de 33 años consulta por edema generalizado, aumento rápido de peso y distensión abdominal. El uroanálisis reporta proteinuria de 9 g/día y cilindros grasos. En laboratorio se encuentra hipoalbuminemia importante. ¿Cuál es el mecanismo principal que explica el edema en esta paciente?",
+        options: [
+            "Disminución de la presión oncótica plasmática por pérdida masiva de albúmina",
+            "Aumento de la presión oncótica plasmática por hemoconcentración",
+            "Hematuria glomerular con fuga masiva de agua",
+            "Obstrucción linfática causada por cilindros grasos"
+        ],
+        answer: 0,
+        explanation: "En el síndrome nefrótico, la pérdida masiva de albúmina disminuye la presión oncótica plasmática y favorece la salida de líquido del espacio intravascular hacia el intersticio. Ese es el mecanismo central del edema. La retención renal de sodio puede empeorarlo, pero por sí sola no explica la magnitud del cuadro. Los cilindros grasos refuerzan el contexto de proteinuria nefrótica."
+    },
+
+    {
+        question: "Una gestante de 29 semanas consulta por vómitos persistentes, escasa ingesta y debilidad general. El uroanálisis muestra cetonuria moderada, densidad urinaria elevada y ausencia de glucosuria. ¿Qué mecanismo integra mejor estos hallazgos?",
+        options: [
+            "Uso de grasas como fuente energética por déficit calórico, asociado a depleción de volumen que concentra la orina",
+            "Hiperglucemia severa con saturación tubular de glucosa",
+            "Pérdida glomerular directa de cuerpos cetónicos",
+            "Infección urinaria con producción bacteriana de cetonas"
+        ],
+        answer: 0,
+        explanation: "Cuando la ingesta calórica es insuficiente, el cuerpo utiliza grasas como sustrato energético y genera cuerpos cetónicos, que pueden aparecer en la orina. Si además existe vómito persistente y baja ingesta de líquidos, la orina se concentra y la densidad aumenta. La ausencia de glucosuria hace menos probable una cetoacidosis diabética."
+    },
+
+    {
+        question: "Un hombre de 68 años con hiperplasia prostática benigna consulta por chorro urinario débil, vaciamiento incompleto, nicturia y varios episodios de infección urinaria en el último año. Ahora presenta fiebre y disuria. El uroanálisis muestra leucocituria y bacteriuria. ¿Qué factor fisiopatológico explica mejor la recurrencia de estas infecciones?",
+        options: [
+            "Estasis urinaria por obstrucción infravesical",
+            "Aumento de bilirrubina conjugada urinaria",
+            "Proteinuria glomerular selectiva",
+            "Isostenuria secundaria a la edad"
+        ],
+        answer: 0,
+        explanation: "La obstrucción al vaciamiento vesical deja orina residual, lo que disminuye el efecto de lavado mecánico del tracto urinario y crea un ambiente favorable para la proliferación bacteriana. Esa estasis urinaria es uno de los mecanismos más importantes en la recurrencia de infecciones urinarias en varones con hiperplasia prostática."
+    },
+
+    {
+        question: "Una paciente de 30 años presenta disuria y polaquiuria. El primer examen de orina reporta bacterias abundantes y numerosas células epiteliales escamosas. Al repetir la muestra con higiene adecuada y chorro medio, la bacteriuria desaparece. ¿Cuál fue la interpretación correcta del primer resultado?",
+        options: [
+            "Infección urinaria baja completamente tratada de manera espontánea",
+            "Contaminación de la muestra por flora y células de genitales externos",
+            "Glomerulonefritis con descamación epitelial masiva",
+            "Litiasis renal con bacteriuria transitoria"
+        ],
+        answer: 1,
+        explanation: "La abundancia de células epiteliales escamosas orienta a contaminación de la muestra, generalmente por mala técnica de recolección. Esa contaminación puede arrastrar bacterias externas y simular infección urinaria. La desaparición del hallazgo al repetir la muestra correctamente confirma que el primer resultado no representaba una bacteriuria verdadera."
+    },
+
+    {
+        question: "Un paciente de 70 años con insuficiencia cardiaca descompensada presenta edema periférico, disnea de esfuerzo y oliguria. El sodio urinario está bajo y la densidad urinaria alta. ¿Qué mecanismo explica mejor esta respuesta renal?",
+        options: [
+            "El riñón percibe disminución del volumen arterial efectivo y activa retención de sodio y agua",
+            "Existe destrucción tubular con pérdida obligada de sodio",
+            "Hay una proteinuria masiva oculta que concentra la orina",
+            "La vejiga neurogénica induce ADH independientemente del estado hemodinámico"
+        ],
+        answer: 0,
+        explanation: "En la insuficiencia cardiaca, aunque el volumen total corporal esté aumentado, el volumen arterial efectivo que percibe el riñón puede estar disminuido. Esto activa sistemas hormonales que retienen sodio y agua, como renina-angiotensina-aldosterona y ADH. Por eso el sodio urinario baja y la densidad urinaria sube."
+    },
+
+    {
+        question: "Un joven de 21 años con antecedente familiar de litiasis recurrente presenta dolor lumbar intermitente, hematuria y eliminación previa de pequeños cálculos. El sedimento urinario muestra cristales hexagonales. ¿Cuál es el diagnóstico más probable?",
+        options: [
+            "Cistinuria",
+            "Hipercalciuria idiopática",
+            "Nefropatía por uratos",
+            "Síndrome de Fanconi"
+        ],
+        answer: 0,
+        explanation: "Los cristales hexagonales en orina son característicos de cistinuria. Se trata de un defecto hereditario del transporte tubular de aminoácidos dibásicos, especialmente cistina, que es poco soluble y precipita con facilidad, favoreciendo la formación de cálculos urinarios recurrentes desde edades tempranas."
+    },
+
+    {
+        question: "Una mujer de 54 años consulta por cansancio, edema leve y orina espumosa persistente. En varios controles se documenta albuminuria persistente de bajo grado, sin hematuria. ¿Por qué este hallazgo es clínicamente importante?",
+        options: [
+            "Porque solo aparece en insuficiencia renal terminal",
+            "Porque puede reflejar daño renal incipiente y tiene valor pronóstico si se correlaciona con la tasa de filtrado glomerular",
+            "Porque confirma infección urinaria subclínica",
+            "Porque indica de manera específica litiasis renal"
+        ],
+        answer: 1,
+        explanation: "La albuminuria persistente, aunque no esté en rango nefrótico, es un marcador temprano de daño renal, especialmente en pacientes con factores de riesgo metabólicos o vasculares. Además, aporta valor pronóstico cuando se interpreta junto con la tasa de filtrado glomerular, ya que permite identificar progresión de enfermedad renal crónica."
+    },
+
+    {
+        question: "Un hombre de 42 años realiza ejercicio extremo y ayuno prolongado durante varios días. Consulta por debilidad, mareo y disminución del volumen urinario. El uroanálisis muestra cetonuria, densidad urinaria elevada y cilindros hialinos aislados, sin hematuria ni leucocituria. ¿Cuál es la interpretación más adecuada?",
+        options: [
+            "Glomerulonefritis en fase inicial",
+            "Estado catabólico y deshidratación, con hallazgos urinarios funcionales e inespecíficos",
+            "Pielonefritis subclínica",
+            "Síndrome nefrótico en inicio"
+        ],
+        answer: 1,
+        explanation: "El ayuno prolongado favorece el uso de grasas y la producción de cetonas, lo que explica la cetonuria. El ejercicio y la deshidratación concentran la orina, elevando la densidad. Los cilindros hialinos pueden aparecer en estas condiciones y son inespecíficos; por sí solos no indican daño renal estructural."
+    },
+
+    {
+        question: "Una paciente con anemia hemolítica autoinmune presenta ictericia leve. El uroanálisis muestra urobilinógeno elevado y bilirrubina negativa. ¿Cuál es la mejor explicación?",
+        options: [
+            "En la hemólisis aumenta el catabolismo del hemo y la producción de urobilinógeno, pero la bilirrubina predominante es no conjugada y no aparece en orina",
+            "Toda hemólisis produce bilirrubinuria intensa",
+            "La ausencia de bilirrubina urinaria descarta aumento de destrucción eritrocitaria",
+            "El patrón indica obstrucción biliar completa"
+        ],
+        answer: 0,
+        explanation: "En la hemólisis, la degradación aumentada de eritrocitos eleva la producción de bilirrubina. Sin embargo, inicialmente predomina la fracción no conjugada, que no es hidrosoluble y no se elimina por orina. En cambio, el metabolismo intestinal de la bilirrubina aumenta el urobilinógeno, que sí puede elevarse en la orina."
+    },
+
+    {
+        question: "Un paciente de 61 años con vómitos y diarrea intensos presenta hipotensión ortostática, mucosas secas y oliguria. El uroanálisis muestra densidad elevada y cilindros hialinos aislados, sin hematuria ni proteinuria importante. ¿Cómo debe interpretarse el estudio?",
+        options: [
+            "Como respuesta renal a depleción de volumen, con orina concentrada y cilindros hialinos inespecíficos",
+            "Como un síndrome nefrótico incompleto",
+            "Como glomerulonefritis sin manifestaciones hematúricas",
+            "Como pielonefritis con sedimento mínimo"
+        ],
+        answer: 0,
+        explanation: "La pérdida de volumen por diarrea y vómitos lleva al riñón a conservar agua, generando una orina más concentrada y de mayor densidad. Los cilindros hialinos pueden aparecer en este contexto como hallazgo inespecífico relacionado con concentración urinaria y proteína de Tamm-Horsfall. En ausencia de hematuria, leucocituria o proteinuria relevante, el patrón sugiere una causa funcional y reversible."
+    },
+
+    {
+        question: "Un paciente de 56 años con mieloma múltiple presenta insuficiencia renal progresiva. El uroanálisis muestra proteinuria, pero la tira reactiva para albúmina es menos intensa de lo esperado según la cuantificación total de proteínas urinarias. ¿Qué explica esta discrepancia?",
+        options: [
+            "La tira reactiva detecta mejor albúmina que otras proteínas, y en el mieloma puede predominar proteinuria por cadenas ligeras",
+            "La proteinuria del mieloma es siempre falsa",
+            "La densidad urinaria alta impide detectar albúmina",
+            "El mieloma produce solo hematuria, no proteinuria"
+        ],
+        answer: 0,
+        explanation: "La tira reactiva convencional está diseñada principalmente para detectar albúmina. En el mieloma múltiple, sin embargo, puede haber proteinuria importante por cadenas ligeras monoclonales, que no siempre se detectan con igual sensibilidad. Por eso puede haber una discordancia entre la tira para albúmina y la cuantificación total de proteínas."
+    },
+
+    {
+        question: "Una mujer de 28 años consulta por disuria, urgencia miccional y dolor suprapúbico. El uroanálisis muestra esterasa leucocitaria positiva y nitritos positivos. ¿Qué interpretación es la más adecuada?",
+        options: [
+            "Sugiere inflamación urinaria y probable infección bacteriana por microorganismos que reducen nitratos",
+            "Confirma glomerulonefritis autoinmune",
+            "Descarta infección urinaria alta y baja",
+            "Indica contaminación de la muestra sin valor diagnóstico"
+        ],
+        answer: 0,
+        explanation: "La esterasa leucocitaria refleja presencia de leucocitos, es decir, inflamación urinaria. Los nitritos positivos sugieren bacterias reductoras de nitratos, típicamente enterobacterias. La combinación de ambos, junto con síntomas urinarios bajos, hace muy probable una infección urinaria bacteriana."
+    }
+
+],
+advancedClinicalUroanalysis10: [
+
+    {
+        question: "Una mujer de 26 años consulta por edema palpebral, cefalea y orina oscura de tres días de evolución. Refiere que dos semanas antes presentó una infección faríngea con fiebre y dolor al tragar, que mejoró sin tratamiento específico. En el examen físico se encuentra hipertensa, con edema leve en miembros inferiores y diuresis disminuida. El uroanálisis revela hematuria microscópica, eritrocitos dismórficos, proteinuria moderada y cilindros hemáticos. La creatinina sérica está elevada con respecto a un control previo. ¿Qué mecanismo fisiopatológico explica mejor la combinación de hipertensión, edema y hematuria en este cuadro?",
+        options: [
+            "Aumento aislado de la permeabilidad del urotelio vesical con pérdida de eritrocitos",
+            "Inflamación glomerular que reduce el filtrado, favorece retención de sodio y agua y altera la barrera de filtración para eritrocitos",
+            "Obstrucción ureteral bilateral con paso retrógrado de sangre al nefrón",
+            "Infección urinaria baja con respuesta inflamatoria sistémica"
+        ],
+        answer: 1,
+        explanation: "Este cuadro corresponde a un síndrome nefrítico agudo. La lesión central ocurre en el glomérulo: la inflamación disminuye la tasa de filtración, lo que favorece retención de sodio y agua, causando edema e hipertensión. Además, la barrera de filtración se altera y permite el paso de eritrocitos a la orina, lo que explica la hematuria glomerular. Los eritrocitos dismórficos y los cilindros hemáticos son especialmente importantes porque localizan el origen del sangrado en el glomérulo y no en la vía urinaria baja."
+    },
+
+    {
+        question: "Un hombre de 60 años con antecedentes de diabetes mellitus tipo 2 de larga evolución consulta por edema maleolar, cansancio progresivo y orina espumosa persistente. El uroanálisis muestra proteinuria de 5.6 g/día, sin hematuria significativa, y el sedimento revela cilindros grasos. Los análisis séricos demuestran hipoalbuminemia e hiperlipidemia. ¿Cuál es la explicación más completa de la presencia de cilindros grasos en este contexto?",
+        options: [
+            "Destrucción del epitelio vesical con liberación de lípidos al sedimento",
+            "Paso excesivo de lipoproteínas al filtrado por daño glomerular y procesamiento tubular posterior del material lipídico",
+            "Producción primaria de grasa por el túbulo distal en respuesta a la proteinuria",
+            "Hemólisis intratubular con depósito secundario de colesterol"
+        ],
+        answer: 1,
+        explanation: "En el síndrome nefrótico, la lesión glomerular permite el paso anormal de grandes cantidades de proteínas y también altera el manejo de lipoproteínas. Parte de ese material lipídico es captado y procesado por las células tubulares, lo que da lugar a cuerpos grasos ovales y cilindros grasos. Por eso estos cilindros son un hallazgo típico de proteinuria intensa de origen glomerular y ayudan a reforzar el diagnóstico sindrómico."
+    },
+
+    {
+        question: "Una mujer de 39 años acude a emergencia por fiebre alta, náuseas, dolor lumbar izquierdo y disuria. Refiere haber presentado dos episodios de cistitis en los últimos seis meses. En el uroanálisis se observan leucocituria intensa, bacteriuria, nitritos positivos y cilindros leucocitarios. ¿Qué hallazgo permite afirmar con mayor seguridad que el proceso infeccioso ya no está limitado a la vejiga?",
+        options: [
+            "La presencia de nitritos positivos",
+            "La presencia de bacterias abundantes",
+            "La formación de cilindros leucocitarios",
+            "La turbidez macroscópica de la orina"
+        ],
+        answer: 2,
+        explanation: "Los nitritos positivos y la bacteriuria apoyan una infección urinaria bacteriana, pero no localizan con exactitud si el proceso está en vías bajas o altas. Los cilindros leucocitarios son más específicos porque se forman dentro de los túbulos renales. Su presencia implica inflamación en el parénquima renal, lo que orienta a pielonefritis aguda y no a una cistitis simple."
+    },
+
+    {
+        question: "Un varón de 45 años consulta por dolor intenso en flanco derecho, irradiado a la región inguinal, acompañado de náuseas, inquietud y hematuria visible. En el uroanálisis se observan eritrocitos con morfología conservada, sin proteinuria significativa, y abundantes cristales de oxalato de calcio. ¿Cuál es la explicación más probable de la hematuria en este paciente?",
+        options: [
+            "Paso de eritrocitos a través de una membrana basal glomerular inflamada",
+            "Lesión mecánica del urotelio por el paso de un cálculo en la vía urinaria",
+            "Vasculitis renal con cilindros hemáticos incipientes",
+            "Sobrecarga osmótica tubular con rotura capilar secundaria"
+        ],
+        answer: 1,
+        explanation: "La hematuria con eritrocitos intactos orienta a un origen urológico y no glomerular. En este caso, el dolor cólico típico y la cristaluria apoyan la presencia de litiasis urinaria. El cálculo lesiona mecánicamente la mucosa del tracto urinario a medida que avanza, lo que produce sangrado sin necesidad de lesión glomerular. La ausencia de cilindros hemáticos también refuerza este origen."
+    },
+
+    {
+        question: "Una paciente de 24 años refiere poliuria intensa, polidipsia de predominio nocturno y episodios repetidos de deshidratación leve. La glucosa sérica es normal y en múltiples uroanálisis se documenta densidad urinaria persistentemente baja, sin glucosuria, sin proteinuria y con sedimento anodino. ¿Qué alteración fisiológica explica mejor este cuadro?",
+        options: [
+            "Saturación del transporte de glucosa en túbulo proximal",
+            "Deficiencia o resistencia a ADH que impide la adecuada reabsorción de agua en el túbulo colector",
+            "Aumento de la presión oncótica plasmática que arrastra agua al filtrado",
+            "Pérdida masiva de albúmina con diuresis compensatoria"
+        ],
+        answer: 1,
+        explanation: "La poliuria con baja densidad urinaria persistente, en ausencia de glucosuria, es muy sugestiva de diabetes insípida. El problema radica en la incapacidad para concentrar la orina por falta de ADH o resistencia renal a su acción. Como la ADH actúa sobre el túbulo colector aumentando la permeabilidad al agua, su alteración hace que el riñón elimine grandes volúmenes de orina diluida."
+    },
+
+    {
+        question: "Un varón de 58 años con antecedente de cirrosis hepática consulta por ictericia progresiva, prurito y orina muy oscura. El uroanálisis reporta bilirrubina positiva y aumento del urobilinógeno urinario. ¿Cuál es la interpretación más adecuada de este patrón?",
+        options: [
+            "Se trata de hemólisis aislada con filtración renal de bilirrubina no conjugada",
+            "Existe una alteración hepatocelular o hepatobiliar que incrementa la fracción conjugada circulante y modifica el metabolismo normal de los pigmentos biliares",
+            "La presencia de urobilinógeno excluye compromiso hepático",
+            "La bilirrubina urinaria positiva demuestra infección urinaria complicada"
+        ],
+        answer: 1,
+        explanation: "La bilirrubina detectable en orina es la fracción conjugada, ya que es hidrosoluble. Su presencia indica alteración hepatobiliar o colestásica. El aumento del urobilinógeno puede acompañar varias hepatopatías, porque refleja un metabolismo alterado de la bilirrubina. En conjunto, este patrón es compatible con enfermedad hepática y no con hemólisis aislada, donde predomina la bilirrubina no conjugada, que no aparece en orina."
+    },
+
+    {
+        question: "Una mujer de 42 años inicia tratamiento antibiótico por una infección respiratoria y una semana después presenta fiebre, exantema, artralgias y deterioro agudo de la función renal. El uroanálisis muestra leucocituria sin bacteriuria, proteinuria leve y eosinófilos urinarios. ¿Qué diagnóstico explica mejor este cuadro?",
+        options: [
+            "Pielonefritis aguda refractaria",
+            "Nefritis intersticial aguda inducida por fármacos",
+            "Glomerulonefritis membranoproliferativa",
+            "Litiasis ureteral bilateral"
+        ],
+        answer: 1,
+        explanation: "La combinación de exposición reciente a fármacos, insuficiencia renal aguda, fiebre, exantema y eosinófilos urinarios es muy típica de nefritis intersticial aguda. La leucocituria no siempre indica infección; también puede reflejar inflamación estéril del intersticio renal. La ausencia de bacteriuria es un dato clave para diferenciar este proceso de una infección urinaria."
+    },
+
+    {
+        question: "Un hombre de 73 años con enfermedad renal crónica avanzada presenta nicturia, anorexia, prurito y cansancio progresivo. En varios controles, la densidad urinaria permanece fija alrededor de 1.010 sin importar los cambios en la ingesta de agua. ¿Qué significa este hallazgo desde el punto de vista funcional?",
+        options: [
+            "El riñón concentra la orina de manera óptima",
+            "Existe pérdida de la capacidad para concentrar y diluir la orina, compatible con isostenuria",
+            "La orina está falsamente diluida por contaminación",
+            "Hay diuresis osmótica por glucosa no detectada"
+        ],
+        answer: 1,
+        explanation: "La isostenuria implica que el riñón ha perdido la capacidad de adaptar la concentración urinaria a las necesidades del organismo. Una densidad fija cercana a 1.010 sugiere que la orina tiene una concentración parecida a la del filtrado plasmático y que el riñón ya no concentra ni diluye de forma adecuada. Esto es típico de daño renal crónico avanzado."
+    },
+
+    {
+        question: "Una mujer de 35 años consulta por edema generalizado, aumento de peso y distensión abdominal. El uroanálisis muestra proteinuria de 8 g/día y cilindros grasos; en sangre se documenta albúmina sérica muy baja. ¿Cuál es el mecanismo principal del edema en este contexto?",
+        options: [
+            "Disminución de la presión oncótica plasmática por pérdida urinaria masiva de albúmina",
+            "Aumento de la presión oncótica plasmática por hemoconcentración",
+            "Hematuria glomerular con salida pasiva de agua al intersticio",
+            "Obstrucción linfática sistémica secundaria a proteinuria"
+        ],
+        answer: 0,
+        explanation: "En el síndrome nefrótico, la pérdida masiva de albúmina reduce la presión oncótica plasmática. Como consecuencia, el líquido sale del espacio intravascular hacia el intersticio y se genera edema. Aunque la retención renal de sodio y agua también puede contribuir, la hipoalbuminemia es un mecanismo central para entender la formación del edema generalizado."
+    },
+
+    {
+        question: "Una gestante de 30 semanas presenta vómitos persistentes, debilidad y mala tolerancia oral. El uroanálisis muestra cetonuria moderada, densidad urinaria elevada y ausencia de glucosuria. ¿Qué explicación fisiopatológica integra mejor estos hallazgos?",
+        options: [
+            "Déficit relativo de aporte calórico con uso de grasas como fuente energética, asociado a depleción de volumen",
+            "Hiperglucemia grave con saturación tubular de glucosa",
+            "Pérdida glomerular de cetonas por inflamación inmunológica",
+            "Infección urinaria con fermentación bacteriana de glucosa"
+        ],
+        answer: 0,
+        explanation: "Cuando la ingesta calórica es insuficiente, el cuerpo recurre al metabolismo de grasas y genera cuerpos cetónicos, que aparecen en la orina. Si además hay vómitos y deshidratación, la orina se concentra y la densidad aumenta. La ausencia de glucosuria hace menos probable una cetoacidosis diabética."
+    },
+
+    {
+        question: "Un hombre de 66 años con hiperplasia prostática benigna presenta vaciamiento incompleto, chorro urinario débil y varios episodios de infección urinaria en el último año. Acude nuevamente por fiebre y disuria. El uroanálisis reporta leucocituria y bacteriuria. ¿Qué mecanismo favorece con mayor probabilidad la recurrencia de infección urinaria en este paciente?",
+        options: [
+            "Estasis urinaria secundaria a obstrucción infravesical",
+            "Microalbuminuria prostática de origen vascular",
+            "Producción excesiva de urobilinógeno",
+            "Aumento fisiológico del pH urinario por la edad"
+        ],
+        answer: 0,
+        explanation: "La obstrucción al vaciamiento vesical deja un volumen residual de orina, lo que disminuye el efecto de lavado del tracto urinario y favorece la proliferación bacteriana. Esa estasis urinaria es un mecanismo fundamental en la recurrencia de infecciones urinarias en pacientes con hiperplasia prostática."
+    },
+
+    {
+        question: "Una mujer de 29 años consulta por disuria y polaquiuria. El primer examen de orina muestra bacterias abundantes y numerosas células epiteliales escamosas. Al repetir la muestra con técnica adecuada de chorro medio, la bacteriuria desaparece. ¿Cuál fue la interpretación correcta del primer estudio?",
+        options: [
+            "Infección urinaria verdadera resuelta de manera espontánea",
+            "Contaminación de la muestra con flora y células de genitales externos",
+            "Glomerulonefritis con descamación epitelial intensa",
+            "Litiasis renal con bacteriuria intermitente"
+        ],
+        answer: 1,
+        explanation: "Las células epiteliales escamosas abundantes sugieren contaminación de la muestra, generalmente por mala técnica de recolección. Esa contaminación puede arrastrar bacterias externas y simular una infección urinaria. La desaparición de la bacteriuria al repetir correctamente la muestra confirma que el primer resultado no representaba una infección real."
+    },
+
+    {
+        question: "Un paciente de 69 años con insuficiencia cardiaca descompensada presenta edema periférico, ortopnea y oliguria. El sodio urinario está bajo y la densidad urinaria está elevada. ¿Qué mecanismo explica mejor este patrón?",
+        options: [
+            "El riñón percibe disminución del volumen arterial efectivo y activa retención de sodio y agua",
+            "Destrucción tubular con pérdida obligada de sodio",
+            "Proteinuria oculta con hemoconcentración urinaria",
+            "Secreción inapropiada de ADH sin relación con el estado hemodinámico"
+        ],
+        answer: 0,
+        explanation: "En la insuficiencia cardiaca, aunque el volumen total del cuerpo esté elevado, el riñón puede percibir hipoperfusión y disminución del volumen arterial efectivo. Como respuesta, activa sistemas de retención de sodio y agua, como el eje renina-angiotensina-aldosterona y la ADH. Esto explica el sodio urinario bajo y la orina concentrada."
+    },
+
+    {
+        question: "Un joven de 22 años con antecedente familiar de litiasis recurrente presenta dolor lumbar intermitente y hematuria microscópica persistente. En el sedimento urinario se observan cristales hexagonales. ¿Cuál es el diagnóstico más probable?",
+        options: [
+            "Cistinuria",
+            "Hipercalciuria idiopática",
+            "Nefropatía por ácido úrico",
+            "Oxaluria secundaria"
+        ],
+        answer: 0,
+        explanation: "Los cristales hexagonales son clásicos de cistinuria. Esta es una alteración hereditaria del transporte tubular de aminoácidos dibásicos, especialmente cistina, que es poco soluble y tiende a precipitar, favoreciendo la formación de cálculos desde edades tempranas."
+    },
+
+    {
+        question: "Una mujer de 52 años consulta por cansancio, edema leve y orina espumosa persistente. En varios controles se documenta albuminuria persistente de bajo grado, sin hematuria. ¿Por qué este hallazgo tiene importancia clínica aunque no sea masivo?",
+        options: [
+            "Porque toda albuminuria implica síndrome nefrótico establecido",
+            "Porque puede ser un marcador temprano de daño renal y tiene valor pronóstico si se correlaciona con la tasa de filtrado glomerular",
+            "Porque indica litiasis renal subclínica",
+            "Porque confirma infección urinaria crónica"
+        ],
+        answer: 1,
+        explanation: "La albuminuria persistente, incluso en cantidades no nefróticas, es un marcador relevante de lesión renal temprana. Tiene gran importancia en pacientes con factores de riesgo como diabetes o hipertensión y, junto con la tasa de filtrado glomerular, ayuda a estimar riesgo de progresión de enfermedad renal crónica."
+    },
+
+    {
+        question: "Un hombre de 40 años realiza ayuno prolongado y ejercicio extremo durante varios días. Consulta por debilidad, mareo y disminución de la diuresis. El uroanálisis muestra cetonuria, densidad urinaria elevada y cilindros hialinos aislados, sin hematuria ni leucocituria. ¿Cuál es la mejor interpretación?",
+        options: [
+            "Glomerulonefritis en fase inicial",
+            "Estado catabólico y deshidratación con hallazgos urinarios funcionales e inespecíficos",
+            "Pielonefritis subclínica",
+            "Síndrome nefrótico incipiente"
+        ],
+        answer: 1,
+        explanation: "El ayuno prolongado lleva al uso de grasas como fuente energética, generando cetonas. El ejercicio intenso y la deshidratación concentran la orina, elevando la densidad. Los cilindros hialinos pueden aparecer en este contexto como hallazgo inespecífico relacionado con concentración urinaria y proteína de Tamm-Horsfall, sin implicar necesariamente daño renal estructural."
+    },
+
+    {
+        question: "Una paciente con anemia hemolítica autoinmune presenta ictericia leve. El uroanálisis muestra urobilinógeno aumentado y bilirrubina negativa. ¿Cuál es la explicación más correcta?",
+        options: [
+            "En la hemólisis aumenta la producción de bilirrubina, pero la fracción inicial predominante es no conjugada y no aparece en orina; en cambio, aumenta el urobilinógeno",
+            "Toda hemólisis produce bilirrubinuria intensa",
+            "La ausencia de bilirrubina urinaria descarta hemólisis",
+            "El patrón indica obstrucción biliar completa"
+        ],
+        answer: 0,
+        explanation: "En la hemólisis aumenta la degradación de eritrocitos y con ello la producción de bilirrubina. Sin embargo, inicialmente predomina la bilirrubina no conjugada, que no es hidrosoluble y no se elimina por la orina. Lo que sí puede aumentar es el urobilinógeno, debido al mayor metabolismo intestinal de la bilirrubina."
+    },
+
+    {
+        question: "Un paciente de 62 años con vómitos y diarrea intensos presenta hipotensión ortostática, mucosas secas y oliguria. El uroanálisis muestra densidad alta y cilindros hialinos aislados, sin hematuria ni proteinuria significativa. ¿Cómo debe interpretarse el estudio?",
+        options: [
+            "Respuesta renal a depleción de volumen con orina concentrada y cilindros hialinos inespecíficos",
+            "Síndrome nefrótico incompleto",
+            "Glomerulonefritis sin expresión hematúrica",
+            "Pielonefritis con sedimento mínimo"
+        ],
+        answer: 0,
+        explanation: "Las pérdidas gastrointestinales producen depleción de volumen, y el riñón responde conservando agua, lo que concentra la orina y eleva su densidad. Los cilindros hialinos pueden aparecer en este contexto como hallazgo funcional e inespecífico. La ausencia de hematuria, leucocituria o proteinuria relevante aleja una lesión renal estructural importante."
+    },
+
+    {
+        question: "Un paciente de 55 años con mieloma múltiple presenta insuficiencia renal progresiva. El uroanálisis muestra proteinuria, pero la tira reactiva para albúmina es menos intensa de lo esperado según la cuantificación total de proteínas urinarias. ¿Qué explica esta discrepancia?",
+        options: [
+            "La tira reactiva detecta mejor albúmina que otras proteínas, y en el mieloma puede predominar proteinuria por cadenas ligeras",
+            "La proteinuria del mieloma es siempre artefactual",
+            "La densidad alta bloquea completamente la detección de proteínas",
+            "El mieloma produce solo hematuria, no proteinuria"
+        ],
+        answer: 0,
+        explanation: "La tira reactiva convencional está diseñada principalmente para detectar albúmina. En el mieloma múltiple puede haber proteinuria importante por cadenas ligeras monoclonales, que no siempre son detectadas con la misma sensibilidad. Por eso puede existir discordancia entre la tira reactiva y la cuantificación total de proteínas urinarias."
+    },
+
+    {
+        question: "Una mujer de 27 años consulta por disuria, urgencia urinaria y dolor suprapúbico. El uroanálisis muestra esterasa leucocitaria positiva y nitritos positivos. ¿Qué interpretación es la más adecuada?",
+        options: [
+            "Inflamación urinaria con alta probabilidad de infección bacteriana por microorganismos reductores de nitratos",
+            "Glomerulonefritis autoinmune activa",
+            "Ausencia de infección urinaria",
+            "Contaminación de la muestra sin valor diagnóstico"
+        ],
+        answer: 0,
+        explanation: "La esterasa leucocitaria indica presencia de leucocitos y, por tanto, inflamación en el tracto urinario. Los nitritos positivos sugieren bacterias que reducen nitratos, como muchas enterobacterias. En conjunto, ambos hallazgos hacen muy probable una infección urinaria bacteriana, especialmente si la clínica acompaña."
+    }
+
+],
+advancedClinicalUroanalysis11: [
+
+    {
+        question: "Un varón de 32 años consulta por hematuria macroscópica recurrente que aparece pocas horas después de infecciones respiratorias altas. En esta ocasión presenta orina rojiza, sin edema ni hipertensión significativa. El uroanálisis muestra hematuria con eritrocitos dismórficos, proteinuria leve y ausencia de cilindros hemáticos. La función renal es normal. ¿Cuál es la fisiopatología más probable del cuadro?",
+        options: [
+            "Depósito mesangial de inmunocomplejos que genera daño glomerular leve y episódico",
+            "Obstrucción intermitente de la vía urinaria por cálculos",
+            "Inflamación vesical recurrente por infecciones urinarias",
+            "Necrosis tubular aguda secundaria a infección viral"
+        ],
+        answer: 0,
+        explanation: "Este cuadro es típico de nefropatía por IgA. La clave es la hematuria que aparece casi simultáneamente con infecciones respiratorias, lo que indica un mecanismo inmunológico mediado por inmunoglobulina A con depósito mesangial. El daño glomerular es leve, por lo que no siempre hay cilindros hemáticos ni deterioro de la función renal. Los eritrocitos dismórficos confirman el origen glomerular."
+    },
+
+    {
+        question: "Una mujer de 48 años con lupus eritematoso sistémico presenta edema, hipertensión y disminución del volumen urinario. El uroanálisis muestra proteinuria de 3.2 g/día, hematuria con eritrocitos dismórficos y cilindros hemáticos. La creatinina está elevada. ¿Cuál es la característica fisiopatológica que mejor define este cuadro?",
+        options: [
+            "Lesión glomerular inflamatoria que combina características nefríticas y proteinuria significativa",
+            "Infección urinaria complicada con compromiso renal",
+            "Síndrome nefrótico puro sin inflamación",
+            "Obstrucción ureteral bilateral"
+        ],
+        answer: 0,
+        explanation: "La nefritis lúpica puede presentar un patrón mixto: hay inflamación glomerular (síndrome nefrítico) con hematuria y cilindros hemáticos, pero también proteinuria importante. Esto refleja daño inmunológico en el glomérulo con alteración tanto de la barrera de filtración como de la hemodinamia glomerular."
+    },
+
+    {
+        question: "Un paciente de 67 años con insuficiencia cardiaca presenta edema, disnea y oliguria. El sodio urinario es bajo y la densidad urinaria alta. Sin embargo, tras administración de diuréticos, el sodio urinario aumenta. ¿Qué explica este cambio?",
+        options: [
+            "Restablecimiento completo de la función renal",
+            "Bloqueo farmacológico de la reabsorción de sodio que modifica la respuesta renal adaptativa",
+            "Daño tubular irreversible",
+            "Corrección espontánea de la insuficiencia cardiaca"
+        ],
+        answer: 1,
+        explanation: "En insuficiencia cardiaca, el riñón retiene sodio por percepción de bajo volumen efectivo. Los diuréticos bloquean la reabsorción tubular de sodio, lo que aumenta su excreción urinaria independientemente del estado hemodinámico. Esto demuestra que el patrón urinario puede cambiar con intervención farmacológica."
+    },
+
+    {
+        question: "Un varón de 50 años con cirrosis hepática presenta ascitis, ictericia y orina oscura. El uroanálisis muestra bilirrubina positiva y urobilinógeno disminuido. ¿Qué sugiere este patrón?",
+        options: [
+            "Hemólisis intravascular",
+            "Obstrucción biliar significativa que impide el paso de bilirrubina al intestino",
+            "Infección urinaria",
+            "Daño glomerular"
+        ],
+        answer: 1,
+        explanation: "En la obstrucción biliar, la bilirrubina conjugada no llega al intestino, por lo que disminuye la formación de urobilinógeno. Sin embargo, la bilirrubina conjugada se acumula en sangre y aparece en orina. Este patrón es típico de colestasis obstructiva."
+    },
+
+    {
+        question: "Una mujer de 36 años consulta por edema generalizado y orina espumosa. El uroanálisis muestra proteinuria masiva y cilindros grasos. La biopsia renal sugiere enfermedad de cambios mínimos. ¿Qué explica la ausencia de hematuria significativa en este cuadro?",
+        options: [
+            "El daño afecta principalmente la selectividad de la barrera para proteínas sin producir inflamación significativa",
+            "Los eritrocitos no pueden filtrarse en ningún caso",
+            "Existe destrucción completa del glomérulo",
+            "Hay obstrucción tubular que impide el paso de eritrocitos"
+        ],
+        answer: 0,
+        explanation: "En el síndrome nefrótico por cambios mínimos, el daño afecta principalmente la permeabilidad para proteínas (especialmente albúmina), sin inflamación glomerular importante. Por eso no suele haber hematuria significativa, a diferencia de los síndromes nefríticos."
+    },
+
+    {
+        question: "Un paciente de 29 años con fiebre, hipotensión y diarrea severa presenta oliguria. El uroanálisis muestra densidad urinaria alta y sodio urinario bajo. Sin embargo, tras varios días desarrolla sedimento con cilindros granulosos y aumento de creatinina. ¿Qué ocurrió?",
+        options: [
+            "Persistencia de estado prerrenal sin cambios",
+            "Evolución a necrosis tubular aguda por hipoperfusión prolongada",
+            "Recuperación renal completa",
+            "Desarrollo de síndrome nefrótico"
+        ],
+        answer: 1,
+        explanation: "Inicialmente el cuadro es prerrenal, con conservación de sodio y orina concentrada. Si la hipoperfusión persiste, puede evolucionar a necrosis tubular aguda, donde aparece daño estructural renal, cilindros granulosos y aumento progresivo de creatinina."
+    },
+
+    {
+        question: "Un varón de 40 años presenta dolor lumbar, fiebre y escalofríos. El uroanálisis muestra bacteriuria, leucocituria y cilindros leucocitarios. Tras tratamiento antibiótico mejora, pero semanas después persiste proteinuria leve. ¿Qué explica esta persistencia?",
+        options: [
+            "Daño tubular residual postinfeccioso",
+            "Contaminación de la muestra",
+            "Persistencia de infección activa",
+            "Desarrollo de síndrome nefrótico"
+        ],
+        answer: 0,
+        explanation: "Después de una pielonefritis, puede persistir daño tubular leve que genere proteinuria discreta. Esto no implica necesariamente enfermedad glomerular, sino secuelas funcionales del proceso inflamatorio renal."
+    },
+
+    {
+        question: "Una mujer de 45 años con anemia hemolítica presenta orina oscura. El uroanálisis muestra hemoglobinuria sin eritrocitos. ¿Qué mecanismo explica este hallazgo?",
+        options: [
+            "Filtración de hemoglobina libre por destrucción intravascular de eritrocitos",
+            "Paso de eritrocitos intactos al túbulo",
+            "Producción renal de hemoglobina",
+            "Obstrucción urinaria"
+        ],
+        answer: 0,
+        explanation: "En la hemólisis intravascular, la hemoglobina libre circula en plasma y puede filtrarse por el glomérulo, apareciendo en orina sin presencia de eritrocitos. Esto diferencia hemoglobinuria de hematuria."
+    },
+
+    {
+        question: "Un paciente con síndrome nefrótico desarrolla trombosis venosa profunda. ¿Qué mecanismo lo explica mejor?",
+        options: [
+            "Pérdida urinaria de factores anticoagulantes como antitrombina III",
+            "Aumento de eritrocitos en orina",
+            "Disminución de la presión arterial",
+            "Aumento de la filtración glomerular"
+        ],
+        answer: 0,
+        explanation: "En el síndrome nefrótico se pierden proteínas importantes en la orina, incluyendo factores anticoagulantes como la antitrombina III. Esto genera un estado de hipercoagulabilidad que aumenta el riesgo de trombosis."
+    },
+
+    {
+        question: "Un paciente con poliuria y glucosuria presenta densidad urinaria elevada. ¿Qué explica este hallazgo?",
+        options: [
+            "Presencia de glucosa que actúa como soluto osmóticamente activo",
+            "Falla de ADH",
+            "Daño glomerular",
+            "Deshidratación severa"
+        ],
+        answer: 0,
+        explanation: "La glucosa en la orina aumenta la osmolaridad urinaria, elevando la densidad. Esto ocurre en diabetes mellitus cuando se supera el umbral renal de glucosa."
+    },
+
+    {
+        question: "Un paciente con acidosis metabólica presenta orina ácida persistente. ¿Qué indica esto?",
+        options: [
+            "Falla renal para excretar protones",
+            "Respuesta compensatoria adecuada",
+            "Alcalosis metabólica",
+            "Infección urinaria"
+        ],
+        answer: 1,
+        explanation: "En acidosis metabólica, el riñón responde excretando protones y acidificando la orina. Esto es un mecanismo compensador normal."
+    },
+
+    {
+        question: "Un paciente con hematuria glomerular presenta cilindros hemáticos. ¿Qué significa esto?",
+        options: [
+            "Origen vesical del sangrado",
+            "Formación de cilindros en túbulos con eritrocitos provenientes del glomérulo",
+            "Contaminación de la muestra",
+            "Infección urinaria"
+        ],
+        answer: 1,
+        explanation: "Los cilindros hemáticos se forman en los túbulos renales a partir de eritrocitos que provienen del glomérulo. Son altamente específicos de hematuria glomerular."
+    },
+
+    {
+        question: "Un paciente con insuficiencia renal presenta hiperpotasemia. ¿Qué relación tiene con el uroanálisis?",
+        options: [
+            "No tiene relación",
+            "Refleja disminución de excreción renal de potasio",
+            "Aumento de filtración",
+            "Pérdida de sodio"
+        ],
+        answer: 1,
+        explanation: "La hiperpotasemia en insuficiencia renal se debe a la incapacidad del riñón para excretar potasio. Aunque no siempre se refleja directamente en el uroanálisis, es una consecuencia funcional importante."
+    },
+
+    {
+        question: "Un paciente con infección urinaria presenta pH alcalino. ¿Qué bacteria lo explica?",
+        options: [
+            "E. coli",
+            "Proteus",
+            "Staphylococcus",
+            "Enterococcus"
+        ],
+        answer: 1,
+        explanation: "Proteus produce ureasa, que alcaliniza la orina al convertir urea en amoníaco. Esto favorece formación de cálculos de estruvita."
+    },
+
+    {
+        question: "Un paciente con síndrome nefrítico presenta oliguria. ¿Qué mecanismo es clave?",
+        options: [
+            "Aumento de filtración",
+            "Disminución del filtrado glomerular",
+            "Aumento de secreción",
+            "Poliuria osmótica"
+        ],
+        answer: 1,
+        explanation: "La inflamación glomerular reduce el filtrado, lo que causa oliguria."
+    },
+
+    {
+        question: "Un paciente con proteinuria presenta edema. ¿Qué relación existe?",
+        options: [
+            "Directa por disminución de presión oncótica",
+            "No existe relación",
+            "Aumento de presión arterial",
+            "Pérdida de sodio"
+        ],
+        answer: 0,
+        explanation: "La pérdida de proteínas reduce la presión oncótica, favoreciendo edema."
+    },
+
+    {
+        question: "Un paciente con infección urinaria presenta bacteriuria significativa. ¿Cuál es el criterio clásico?",
+        options: [
+            ">10,000 UFC",
+            ">100,000 UFC",
+            ">1,000 UFC",
+            ">500 UFC"
+        ],
+        answer: 1,
+        explanation: "El criterio clásico es ≥100,000 UFC/ml en cultivo."
+    },
+
+    {
+        question: "Un paciente con hematuria presenta eritrocitos dismórficos. ¿Qué indica?",
+        options: [
+            "Origen urológico",
+            "Origen glomerular",
+            "Contaminación",
+            "Infección"
+        ],
+        answer: 1,
+        explanation: "Los eritrocitos dismórficos indican paso por glomérulo dañado."
+    },
+
+    {
+        question: "Un paciente con cetonuria sin glucosuria. ¿Qué indica?",
+        options: [
+            "Ayuno o estrés metabólico",
+            "Diabetes",
+            "Infección",
+            "Glomerulonefritis"
+        ],
+        answer: 0,
+        explanation: "La cetonuria sin glucosuria sugiere uso de grasas por déficit energético."
+    },
+
+    {
+        question: "Un paciente con densidad urinaria alta. ¿Qué significa?",
+        options: [
+            "Orina diluida",
+            "Orina concentrada",
+            "Falla renal",
+            "Infección"
+        ],
+        answer: 1,
+        explanation: "Alta densidad indica orina concentrada."
+    }
+
+],
+advancedClinicalUroanalysis12: [
+
+    {
+        question: "Un varón de 34 años consulta por fatiga progresiva, edema periorbitario matutino y orina oscura. Refiere que hace tres semanas presentó una infección cutánea en miembros inferiores que no fue tratada adecuadamente. Al examen físico presenta hipertensión moderada y edema en miembros inferiores. El uroanálisis muestra hematuria microscópica, eritrocitos dismórficos, proteinuria moderada y cilindros hemáticos. La creatinina está elevada. ¿Cuál es el evento fisiopatológico inicial más relevante en este cuadro?",
+        options: [
+            "Depósito de inmunocomplejos en el glomérulo con activación del complemento e inflamación local",
+            "Obstrucción tubular por proteínas filtradas",
+            "Infección bacteriana ascendente hacia el riñón",
+            "Aumento de presión intravesical con daño retrógrado"
+        ],
+        answer: 0,
+        explanation: "Este cuadro corresponde a una glomerulonefritis postinfecciosa. El evento inicial es el depósito de inmunocomplejos en el glomérulo, lo que activa el sistema del complemento y desencadena inflamación. Esto altera la barrera de filtración, permitiendo el paso de eritrocitos y proteínas, y reduce el filtrado glomerular, generando hipertensión, edema y deterioro renal."
+    },
+
+    {
+        question: "Una mujer de 52 años con antecedente de diabetes mal controlada presenta edema progresivo, ascitis y orina espumosa. El uroanálisis muestra proteinuria de 8.5 g/día, sin hematuria, y cilindros grasos. En sangre presenta albúmina baja y colesterol elevado. A pesar del edema, el volumen plasmático efectivo está reducido. ¿Por qué ocurre esta aparente contradicción?",
+        options: [
+            "El líquido se acumula en el intersticio debido a baja presión oncótica, disminuyendo el volumen intravascular efectivo",
+            "El riñón elimina exceso de agua selectivamente",
+            "La hiperlipidemia desplaza el agua fuera del plasma",
+            "Existe hemorragia interna no detectada"
+        ],
+        answer: 0,
+        explanation: "En el síndrome nefrótico, la pérdida de albúmina reduce la presión oncótica plasmática, lo que permite que el líquido se desplace hacia el intersticio, produciendo edema. Sin embargo, el volumen intravascular efectivo disminuye, lo que activa mecanismos de retención de sodio y agua. Esto explica por qué el paciente puede tener edema generalizado y al mismo tiempo activación de mecanismos de conservación de volumen."
+    },
+
+    {
+        question: "Un varón de 61 años con antecedentes de tabaquismo y pérdida de peso presenta hematuria indolora persistente. El uroanálisis muestra eritrocitos normales, sin proteinuria ni cilindros. La citología urinaria revela células atípicas. ¿Cuál es la localización más probable del origen del sangrado?",
+        options: [
+            "Glomérulo renal",
+            "Túbulos renales",
+            "Tracto urinario bajo (vejiga o uréter)",
+            "Intersticio renal"
+        ],
+        answer: 2,
+        explanation: "La hematuria con eritrocitos normales sugiere origen urológico. La ausencia de proteinuria y cilindros refuerza que no es glomerular. En un paciente con factores de riesgo como tabaquismo y hematuria indolora persistente, se debe sospechar neoplasia del tracto urinario, especialmente vejiga."
+    },
+
+    {
+        question: "Una paciente de 28 años consulta por fiebre, dolor lumbar y náuseas. El uroanálisis muestra leucocituria, bacteriuria y cilindros leucocitarios. Después del tratamiento antibiótico, persiste una disminución leve del filtrado glomerular. ¿Cuál es la causa más probable?",
+        options: [
+            "Daño glomerular irreversible",
+            "Daño tubular residual posterior a infección",
+            "Persistencia de infección activa",
+            "Error en el tratamiento antibiótico"
+        ],
+        answer: 1,
+        explanation: "La pielonefritis puede causar daño tubular, que en algunos casos persiste tras la resolución de la infección. Esto puede producir alteraciones leves en la función renal sin implicar necesariamente daño glomerular significativo."
+    },
+
+    {
+        question: "Un paciente con deshidratación severa presenta oliguria. El uroanálisis muestra densidad urinaria alta, sodio urinario bajo y ausencia de sedimento patológico. ¿Qué ocurriría si la hipoperfusión renal se mantiene?",
+        options: [
+            "Se mantendría el estado prerrenal indefinidamente",
+            "Evolucionaría a necrosis tubular aguda",
+            "Desarrollaría síndrome nefrótico",
+            "Se produciría infección urinaria"
+        ],
+        answer: 1,
+        explanation: "Si la hipoperfusión renal persiste, el daño funcional prerrenal puede evolucionar a daño estructural, como necrosis tubular aguda. Esto implica pérdida de la capacidad de concentración, aumento de creatinina y aparición de cilindros granulosos."
+    },
+
+    {
+        question: "Una mujer con lupus presenta proteinuria y hematuria. ¿Qué hallazgo del sedimento confirma compromiso glomerular?",
+        options: [
+            "Leucocitos",
+            "Cilindros hemáticos",
+            "Cristales",
+            "Bacterias"
+        ],
+        answer: 1,
+        explanation: "Los cilindros hemáticos son altamente específicos de sangrado glomerular, ya que se forman en los túbulos a partir de eritrocitos filtrados."
+    },
+
+    {
+        question: "Un paciente con diabetes presenta glucosuria con glucemia normal. ¿Qué lo explica?",
+        options: [
+            "Daño tubular que impide reabsorción de glucosa",
+            "Error de laboratorio",
+            "Infección urinaria",
+            "Hipoglucemia"
+        ],
+        answer: 0,
+        explanation: "La glucosuria con glucemia normal sugiere alteración tubular, como en síndrome de Fanconi, donde falla la reabsorción de glucosa."
+    },
+
+    {
+        question: "Un paciente con infección por Proteus presenta pH urinario alcalino. ¿Qué complicación es más probable?",
+        options: [
+            "Cálculos de ácido úrico",
+            "Cálculos de estruvita",
+            "Cálculos de oxalato",
+            "Cálculos de cistina"
+        ],
+        answer: 1,
+        explanation: "Proteus produce ureasa, alcalinizando la orina y favoreciendo la formación de cálculos de estruvita."
+    },
+
+    {
+        question: "Un paciente con síndrome nefrótico presenta hipercoagulabilidad. ¿Por qué?",
+        options: [
+            "Pérdida de anticoagulantes en orina",
+            "Aumento de eritrocitos",
+            "Disminución de sodio",
+            "Aumento de ADH"
+        ],
+        answer: 0,
+        explanation: "Se pierden proteínas anticoagulantes como antitrombina III, aumentando el riesgo de trombosis."
+    },
+
+    {
+        question: "Un paciente con hematuria glomerular presenta hipertensión. ¿Por qué?",
+        options: [
+            "Retención de sodio y agua",
+            "Pérdida de proteínas",
+            "Aumento de glucosa",
+            "Infección"
+        ],
+        answer: 0,
+        explanation: "La disminución del filtrado provoca retención de sodio y agua, elevando la presión arterial."
+    },
+
+    {
+        question: "Un paciente con necrosis tubular presenta cilindros granulosos. ¿Qué indican?",
+        options: [
+            "Origen vesical",
+            "Daño tubular",
+            "Infección",
+            "Glomerulonefritis"
+        ],
+        answer: 1,
+        explanation: "Los cilindros granulosos indican daño tubular."
+    },
+
+    {
+        question: "Un paciente con poliuria presenta densidad baja. ¿Qué significa?",
+        options: [
+            "Orina diluida",
+            "Orina concentrada",
+            "Infección",
+            "Hematuria"
+        ],
+        answer: 0,
+        explanation: "Baja densidad indica incapacidad de concentrar la orina."
+    },
+
+    {
+        question: "Un paciente con proteinuria presenta hipoalbuminemia. ¿Qué causa edema?",
+        options: [
+            "Disminución presión oncótica",
+            "Aumento presión arterial",
+            "Aumento glucosa",
+            "Infección"
+        ],
+        answer: 0,
+        explanation: "La baja albúmina reduce presión oncótica y produce edema."
+    },
+
+    {
+        question: "Un paciente con infección urinaria tiene esterasa leucocitaria positiva. ¿Qué indica?",
+        options: [
+            "Leucocitos",
+            "Proteínas",
+            "Glucosa",
+            "Bilirrubina"
+        ],
+        answer: 0,
+        explanation: "Indica presencia de leucocitos."
+    },
+
+    {
+        question: "Un paciente con hematuria presenta eritrocitos dismórficos. ¿Qué indica?",
+        options: [
+            "Origen glomerular",
+            "Origen vesical",
+            "Contaminación",
+            "Infección"
+        ],
+        answer: 0,
+        explanation: "Indica origen glomerular."
+    },
+
+    {
+        question: "Un paciente con urocultivo positivo. ¿Qué define infección significativa?",
+        options: [
+            ">100,000 UFC",
+            ">1,000",
+            ">500",
+            ">10"
+        ],
+        answer: 0,
+        explanation: "≥100,000 UFC/ml es criterio clásico."
+    },
+
+    {
+        question: "Un paciente con cetonuria sin glucosuria. ¿Qué indica?",
+        options: [
+            "Ayuno",
+            "Diabetes",
+            "Infección",
+            "Glomerulonefritis"
+        ],
+        answer: 0,
+        explanation: "Uso de grasas por déficit energético."
+    },
+
+    {
+        question: "Un paciente con bilirrubina en orina. ¿Qué significa?",
+        options: [
+            "Bilirrubina conjugada",
+            "No conjugada",
+            "Hematuria",
+            "Proteínas"
+        ],
+        answer: 0,
+        explanation: "Solo la conjugada es hidrosoluble."
+    },
+
+    {
+        question: "Un paciente con sodio urinario bajo. ¿Qué indica?",
+        options: [
+            "Retención renal",
+            "Pérdida renal",
+            "Infección",
+            "Hematuria"
+        ],
+        answer: 0,
+        explanation: "Indica conservación de sodio."
+    },
+
+    {
+        question: "Un paciente con cilindros leucocitarios. ¿Qué indica?",
+        options: [
+            "Pielonefritis",
+            "Cistitis",
+            "Glomerulonefritis",
+            "Litiasis"
+        ],
+        answer: 0,
+        explanation: "Indican inflamación renal."
+    }
+
+],
+advancedClinicalUroanalysis13: [
+
+    {
+        question: "Una mujer de 27 años consulta por edema palpebral, cefalea, oliguria y orina oscura desde hace cinco días. Refiere que dos semanas antes tuvo una faringitis febril que mejoró sin antibióticos. En el examen físico se encuentra hipertensa, con edema en miembros inferiores y discreto malestar general. El uroanálisis muestra hematuria microscópica, eritrocitos dismórficos, proteinuria moderada y cilindros hemáticos. La creatinina sérica está elevada respecto a controles previos. ¿Cuál es la explicación fisiopatológica más probable del cuadro actual?",
+        options: [
+            "Daño glomerular inmunológico con inflamación que reduce el filtrado y altera la barrera de filtración para eritrocitos y proteínas",
+            "Lesión traumática del urotelio por paso de pequeños cálculos",
+            "Infección urinaria baja con hematuria reactiva",
+            "Obstrucción ureteral bilateral por coágulos"
+        ],
+        answer: 0,
+        explanation: "El cuadro es típico de un síndrome nefrítico agudo, especialmente posinfeccioso. La lesión principal ocurre en el glomérulo: la inflamación inmunológica disminuye la tasa de filtración glomerular, por lo que aparece oliguria, hipertensión y retención de sodio y agua. Además, la barrera de filtración se vuelve anormalmente permeable a eritrocitos y proteínas, lo que explica la hematuria con eritrocitos dismórficos y la proteinuria. Los cilindros hemáticos refuerzan el origen glomerular del problema."
+    },
+
+    {
+        question: "Un varón de 58 años con diabetes mellitus tipo 2 e hipertensión de larga evolución consulta por edema progresivo, fatiga y orina espumosa. El uroanálisis muestra proteinuria de 7 g/día, sin hematuria significativa, y en el sedimento se identifican cilindros grasos. En sangre presenta hipoalbuminemia e hiperlipidemia. ¿Qué mecanismo explica mejor la combinación de edema, cilindros grasos e hiperlipidemia?",
+        options: [
+            "Daño glomerular con pérdida urinaria masiva de proteínas, reducción de presión oncótica plasmática y aumento compensatorio de síntesis hepática de lipoproteínas",
+            "Necrosis tubular aguda con liberación de grasas al túbulo",
+            "Infección urinaria complicada con destrucción de membranas celulares",
+            "Obstrucción urinaria crónica con acumulación retrógrada de lípidos"
+        ],
+        answer: 0,
+        explanation: "El paciente presenta un síndrome nefrótico. La lesión glomerular permite el paso excesivo de albúmina y otras proteínas a la orina, lo que disminuye la presión oncótica plasmática y favorece la salida de líquido al intersticio, produciendo edema. El hígado responde aumentando la síntesis de proteínas y de lipoproteínas, originando hiperlipidemia. Parte del material lipídico filtrado es procesado por las células tubulares, generando cilindros grasos, un hallazgo muy característico de este síndrome."
+    },
+
+    {
+        question: "Una mujer de 35 años consulta por fiebre alta, dolor lumbar derecho, náuseas y disuria intensa. Refiere varios episodios previos de cistitis en los últimos meses. El uroanálisis muestra leucocituria marcada, bacteriuria abundante, nitritos positivos y cilindros leucocitarios. ¿Cuál es el dato más importante para diferenciar este cuadro de una cistitis simple?",
+        options: [
+            "La presencia de nitritos positivos",
+            "La presencia de leucocituria",
+            "La presencia de cilindros leucocitarios",
+            "La presencia de orina turbia"
+        ],
+        answer: 2,
+        explanation: "La leucocituria, la bacteriuria y los nitritos positivos indican infección urinaria bacteriana, pero no necesariamente localizan el sitio exacto. Los cilindros leucocitarios, en cambio, se forman dentro de los túbulos renales, por lo que señalan compromiso del parénquima renal. Esto hace pensar en pielonefritis aguda y no solamente en una infección limitada a vejiga o uretra."
+    },
+
+    {
+        question: "Un varón de 47 años acude por dolor cólico intenso en flanco izquierdo irradiado a la ingle, acompañado de náuseas y hematuria visible. El uroanálisis muestra numerosos eritrocitos con morfología conservada, ausencia de cilindros hemáticos y cristales de oxalato de calcio. ¿Cuál es el mecanismo más probable del sangrado urinario?",
+        options: [
+            "Paso de eritrocitos a través de una barrera glomerular dañada",
+            "Traumatismo del urotelio por un cálculo en tránsito por la vía urinaria",
+            "Ruptura de capilares glomerulares por hipertensión maligna",
+            "Necrosis tubular con extravasación de sangre al túbulo"
+        ],
+        answer: 1,
+        explanation: "La clínica es la de un cólico renal típico, y la cristaluria apoya la presencia de litiasis. Los eritrocitos conservados orientan a un origen urológico, no glomerular, ya que no han sufrido deformación al atravesar el glomérulo. El cálculo traumatiza mecánicamente la mucosa de la vía urinaria y produce hematuria. La ausencia de cilindros hemáticos también aleja un origen glomerular."
+    },
+
+    {
+        question: "Una paciente de 23 años consulta por poliuria extrema, sed intensa y preferencia por beber agua fría incluso durante la noche. La glucosa sérica es normal y el uroanálisis muestra densidad urinaria persistentemente baja, sin glucosuria, sin proteinuria y con sedimento normal. ¿Qué alteración explica mejor estos hallazgos?",
+        options: [
+            "Déficit o resistencia a la ADH que impide la reabsorción de agua en el túbulo colector",
+            "Saturación de los transportadores de glucosa del túbulo proximal",
+            "Daño glomerular selectivo para moléculas pequeñas",
+            "Aumento de la presión oncótica plasmática con diuresis compensadora"
+        ],
+        answer: 0,
+        explanation: "El cuadro es muy sugestivo de diabetes insípida. La clave está en la incapacidad para concentrar la orina, lo que explica la baja densidad urinaria persistente. A diferencia de la diabetes mellitus, no hay glucosuria ni hiperglucemia. El problema fisiológico se encuentra en la acción de la ADH sobre el túbulo colector: si falta la hormona o existe resistencia a ella, el riñón no puede retener agua de forma apropiada."
+    },
+
+    {
+        question: "Un hombre de 56 años con cirrosis hepática consulta por ictericia progresiva, orina oscura y prurito. El uroanálisis revela bilirrubina positiva y aumento de urobilinógeno. ¿Cuál es la interpretación más adecuada de estos hallazgos?",
+        options: [
+            "Hay alteración hepatocelular o hepatobiliar con aumento de bilirrubina conjugada circulante y metabolismo anormal de pigmentos biliares",
+            "Se trata de hemólisis aislada con excreción urinaria de bilirrubina no conjugada",
+            "La presencia de urobilinógeno descarta cualquier enfermedad hepática",
+            "Este patrón es característico de infección urinaria grave"
+        ],
+        answer: 0,
+        explanation: "La bilirrubina que aparece en orina es la conjugada, ya que es hidrosoluble. Su presencia sugiere alteración hepatocelular o colestásica. El urobilinógeno aumentado puede acompañar enfermedades hepáticas por alteración en el procesamiento y circulación de la bilirrubina. Este patrón no corresponde a hemólisis aislada, donde predomina la bilirrubina no conjugada, que no se elimina por la orina."
+    },
+
+    {
+        question: "Una mujer de 41 años inicia un antibiótico por sinusitis y una semana después presenta fiebre, exantema, malestar general y deterioro agudo de la función renal. El uroanálisis muestra leucocituria sin bacteriuria, proteinuria leve y eosinófilos urinarios. ¿Cuál es el diagnóstico más probable?",
+        options: [
+            "Pielonefritis aguda de mala respuesta terapéutica",
+            "Nefritis intersticial aguda inducida por fármacos",
+            "Síndrome nefrótico por lesión podocitaria",
+            "Glomerulonefritis rápidamente progresiva"
+        ],
+        answer: 1,
+        explanation: "La exposición reciente a un fármaco, la insuficiencia renal aguda, el exantema, la fiebre y los eosinófilos urinarios orientan fuertemente a nefritis intersticial aguda. La leucocituria no siempre significa infección; también puede aparecer en procesos inflamatorios no infecciosos del intersticio renal. La ausencia de bacteriuria y el contexto clínico ayudan a diferenciar este cuadro de una pielonefritis."
+    },
+
+    {
+        question: "Un paciente de 72 años con enfermedad renal crónica avanzada presenta prurito, anorexia, fatiga y nicturia. En varios uroanálisis, la densidad urinaria permanece fija alrededor de 1.010 pese a cambios importantes en la ingesta de agua. ¿Qué significa este hallazgo?",
+        options: [
+            "El riñón tiene una excelente capacidad de adaptación al estado hídrico",
+            "Existe pérdida de la capacidad para concentrar o diluir la orina, compatible con isostenuria",
+            "Se trata de una diuresis osmótica no diagnosticada",
+            "La muestra de orina estuvo contaminada repetidamente"
+        ],
+        answer: 1,
+        explanation: "La isostenuria indica que el riñón ya no puede modificar apropiadamente la concentración de la orina. Una densidad fija cercana a 1.010 sugiere que la orina se mantiene con una concentración similar a la del filtrado plasmático, sin capacidad adecuada de concentración o dilución. Es un hallazgo clásico de enfermedad renal crónica avanzada."
+    },
+
+    {
+        question: "Una mujer de 32 años consulta por edema generalizado, aumento de peso y distensión abdominal. El uroanálisis muestra proteinuria de 8.2 g/día, y el sedimento evidencia cilindros grasos. En sangre se documenta hipoalbuminemia. ¿Cuál es el mecanismo principal del edema en esta paciente?",
+        options: [
+            "Disminución de la presión oncótica plasmática por pérdida urinaria masiva de albúmina",
+            "Aumento de la presión oncótica plasmática por hemoconcentración",
+            "Hematuria glomerular con salida de agua al intersticio",
+            "Obstrucción linfática secundaria a hipercolesterolemia"
+        ],
+        answer: 0,
+        explanation: "La pérdida masiva de albúmina en el síndrome nefrótico reduce la presión oncótica plasmática, favoreciendo el desplazamiento de líquido desde el compartimento intravascular hacia el intersticio. Ese es el mecanismo central del edema. La retención renal de sodio y agua puede empeorarlo, pero la hipoalbuminemia es fundamental para comprender su formación."
+    },
+
+    {
+        question: "Una gestante de 30 semanas presenta vómitos persistentes, poca ingesta oral y debilidad general. El uroanálisis muestra cetonuria moderada, densidad urinaria elevada y ausencia de glucosuria. ¿Qué explicación fisiopatológica es la más probable?",
+        options: [
+            "Uso de grasas como fuente de energía por déficit calórico, asociado a contracción de volumen",
+            "Hiperglucemia grave con saturación del túbulo proximal",
+            "Paso anormal de cetonas a través de un glomérulo inflamado",
+            "Conversión bacteriana de glucosa en cetonas dentro de la vejiga"
+        ],
+        answer: 0,
+        explanation: "Cuando el aporte calórico es insuficiente, el organismo utiliza grasas como sustrato energético, generando cuerpos cetónicos que aparecen en la orina. Si además existe deshidratación por vómitos, la orina se concentra y su densidad aumenta. La ausencia de glucosuria hace menos probable una cetoacidosis diabética."
+    },
+
+    {
+        question: "Un hombre de 67 años con hiperplasia prostática benigna presenta vaciamiento incompleto, chorro débil y episodios repetidos de infección urinaria. Actualmente consulta por fiebre y disuria. El uroanálisis muestra bacteriuria y leucocituria. ¿Qué factor fisiopatológico explica mejor la recurrencia de infecciones?",
+        options: [
+            "Estasis urinaria por obstrucción infravesical, que disminuye el aclaramiento mecánico de bacterias",
+            "Producción excesiva de proteínas en la próstata",
+            "Aumento del urobilinógeno urinario por congestión pélvica",
+            "Descenso fisiológico del pH urinario con la edad"
+        ],
+        answer: 0,
+        explanation: "La obstrucción al vaciamiento vesical deja un volumen residual de orina, lo que favorece la proliferación bacteriana al disminuir el efecto de lavado del tracto urinario. Esa estasis urinaria es uno de los mecanismos más importantes para explicar infecciones urinarias recurrentes en pacientes con hiperplasia prostática."
+    },
+
+    {
+        question: "Una mujer de 28 años consulta por disuria y polaquiuria. El primer examen de orina reporta abundantes bacterias y numerosas células epiteliales escamosas. Al repetir la muestra con técnica correcta de chorro medio, la bacteriuria desaparece. ¿Qué interpretación fue la más adecuada del primer examen?",
+        options: [
+            "Infección urinaria verdadera que se resolvió espontáneamente",
+            "Contaminación de la muestra con flora y células de genitales externos",
+            "Glomerulonefritis con intensa descamación epitelial",
+            "Litiasis urinaria con bacteriuria intermitente"
+        ],
+        answer: 1,
+        explanation: "La abundancia de células epiteliales escamosas sugiere contaminación de la muestra, generalmente por mala técnica de recolección. Esa contaminación puede arrastrar bacterias externas y simular una infección. La desaparición de la bacteriuria en la segunda muestra confirma que el primer resultado no representaba una infección urinaria real."
+    },
+
+    {
+        question: "Un paciente de 69 años con insuficiencia cardiaca congestiva presenta edema periférico, ortopnea y oliguria. El sodio urinario es bajo y la densidad urinaria es elevada. ¿Qué mecanismo explica mejor este patrón urinario?",
+        options: [
+            "El riñón percibe disminución del volumen arterial efectivo y activa retención de sodio y agua",
+            "Existe destrucción tubular con pérdida primaria de sodio",
+            "Hay proteinuria masiva no detectada que concentra la orina",
+            "Se trata de un síndrome de secreción inapropiada de ADH aislado"
+        ],
+        answer: 0,
+        explanation: "En la insuficiencia cardiaca, aunque el volumen corporal total pueda estar aumentado, el riñón percibe una perfusión arterial insuficiente. Esto activa mecanismos neurohormonales como el sistema renina-angiotensina-aldosterona y la ADH, que favorecen la reabsorción de sodio y agua. Por eso el sodio urinario disminuye y la orina se concentra."
+    },
+
+    {
+        question: "Un joven de 21 años con antecedente familiar de litiasis recurrente consulta por dolor lumbar intermitente y hematuria microscópica persistente. En el sedimento urinario se observan cristales hexagonales. ¿Cuál es el diagnóstico más probable?",
+        options: [
+            "Cistinuria",
+            "Hipercalciuria idiopática",
+            "Litiasis por ácido úrico",
+            "Oxaluria secundaria"
+        ],
+        answer: 0,
+        explanation: "Los cristales hexagonales son clásicos de cistinuria. Se trata de una alteración hereditaria del transporte tubular de aminoácidos dibásicos, especialmente cistina, que es poco soluble y precipita, favoreciendo la formación de cálculos recurrentes desde edades tempranas."
+    },
+
+    {
+        question: "Una mujer de 51 años consulta por cansancio, edema leve y orina espumosa persistente. En varios controles se documenta albuminuria persistente de bajo grado, sin hematuria. ¿Por qué este hallazgo no debe considerarse banal?",
+        options: [
+            "Porque toda albuminuria significa síndrome nefrótico completo",
+            "Porque puede ser un marcador temprano de daño renal y tiene valor pronóstico al correlacionarse con la tasa de filtrado glomerular",
+            "Porque indica necesariamente litiasis renal oculta",
+            "Porque confirma infección urinaria crónica subclínica"
+        ],
+        answer: 1,
+        explanation: "La albuminuria persistente, aunque no sea masiva, puede representar daño renal incipiente, especialmente en pacientes con diabetes, hipertensión u otros factores de riesgo. Además, aporta valor pronóstico cuando se interpreta junto con la tasa de filtrado glomerular, ayudando a estratificar la progresión de la enfermedad renal crónica."
+    },
+
+    {
+        question: "Un varón de 39 años realiza ayuno prolongado y ejercicio extremo durante varios días. Consulta por debilidad, mareo y disminución de la diuresis. El uroanálisis muestra cetonuria, densidad urinaria elevada y cilindros hialinos aislados, sin hematuria ni leucocituria. ¿Cuál es la interpretación más adecuada?",
+        options: [
+            "Glomerulonefritis en fase inicial",
+            "Estado catabólico y deshidratación con hallazgos urinarios funcionales e inespecíficos",
+            "Pielonefritis subclínica",
+            "Síndrome nefrótico incipiente"
+        ],
+        answer: 1,
+        explanation: "El ayuno prolongado favorece el uso de grasas como fuente energética, lo que genera cetonas. El ejercicio y la deshidratación concentran la orina, elevando su densidad. Los cilindros hialinos pueden aparecer en este contexto como hallazgo inespecífico, relacionado con concentración urinaria y precipitación de proteína de Tamm-Horsfall, sin indicar necesariamente daño renal estructural."
+    },
+
+    {
+        question: "Una paciente con anemia hemolítica autoinmune presenta ictericia leve. El uroanálisis muestra urobilinógeno elevado y bilirrubina negativa. ¿Cuál es la explicación más correcta?",
+        options: [
+            "En la hemólisis aumenta la degradación de eritrocitos, se incrementa la producción de bilirrubina y de urobilinógeno, pero la bilirrubina inicial es no conjugada y no aparece en orina",
+            "Toda hemólisis produce bilirrubina conjugada en orina",
+            "La ausencia de bilirrubina urinaria descarta aumento del catabolismo del hemo",
+            "El patrón corresponde a obstrucción biliar completa"
+        ],
+        answer: 0,
+        explanation: "En la hemólisis, la producción de bilirrubina aumenta por mayor destrucción de eritrocitos. Sin embargo, la fracción inicial predominante es no conjugada, que no es hidrosoluble y por eso no aparece en la orina. En cambio, el metabolismo intestinal de la bilirrubina produce más urobilinógeno, que sí puede aumentar en la orina."
+    },
+
+    {
+        question: "Un paciente de 63 años con vómitos y diarrea intensos presenta hipotensión ortostática, mucosas secas y oliguria. El uroanálisis muestra densidad alta y cilindros hialinos aislados, sin hematuria ni proteinuria importante. ¿Cómo debe interpretarse este estudio?",
+        options: [
+            "Respuesta renal a depleción de volumen con orina concentrada y cilindros hialinos inespecíficos",
+            "Síndrome nefrótico incompleto",
+            "Glomerulonefritis sin expresión hematúrica",
+            "Pielonefritis con sedimento mínimo"
+        ],
+        answer: 0,
+        explanation: "Las pérdidas gastrointestinales producen depleción de volumen y el riñón responde conservando agua, lo que eleva la densidad urinaria. Los cilindros hialinos pueden aparecer en este contexto como hallazgo inespecífico relacionado con la concentración urinaria. La ausencia de hematuria, proteinuria importante o leucocituria aleja una lesión renal estructural importante."
+    },
+
+    {
+        question: "Un hombre de 55 años con mieloma múltiple presenta insuficiencia renal progresiva. El uroanálisis muestra proteinuria, pero la tira reactiva para albúmina es menos intensa de lo esperado según la cuantificación total de proteínas urinarias. ¿Qué explica mejor esta discrepancia?",
+        options: [
+            "La tira reactiva detecta mejor albúmina que otras proteínas, y en el mieloma puede predominar la proteinuria por cadenas ligeras",
+            "La proteinuria del mieloma es siempre un falso positivo",
+            "La densidad urinaria elevada impide detectar proteínas",
+            "El mieloma produce solo hematuria y nunca proteinuria"
+        ],
+        answer: 0,
+        explanation: "La tira reactiva convencional está diseñada principalmente para detectar albúmina. En el mieloma múltiple puede existir proteinuria importante por cadenas ligeras monoclonales, que no siempre son detectadas con la misma sensibilidad. Por eso puede haber una discrepancia entre la cuantificación total de proteínas y el resultado de la tira reactiva para albúmina."
+    },
+
+    {
+        question: "Una mujer de 27 años consulta por disuria, urgencia urinaria y dolor suprapúbico. El uroanálisis muestra esterasa leucocitaria positiva y nitritos positivos. ¿Qué interpretación es la más adecuada?",
+        options: [
+            "Inflamación urinaria con alta probabilidad de infección bacteriana por microorganismos reductores de nitratos",
+            "Glomerulonefritis autoinmune activa",
+            "Ausencia de infección urinaria verdadera",
+            "Contaminación de la muestra sin valor diagnóstico"
+        ],
+        answer: 0,
+        explanation: "La esterasa leucocitaria indica presencia de leucocitos, es decir, inflamación en el tracto urinario. Los nitritos positivos orientan a bacterias que reducen nitratos, como muchas enterobacterias. En conjunto, estos hallazgos hacen muy probable una infección urinaria bacteriana, especialmente si la clínica es compatible."
+    }
+
+],
+advancedClinicalUroanalysis14: [
+
+    {
+        question: "Un varón de 37 años consulta por debilidad, edema leve y disminución progresiva del volumen urinario. Refiere que hace dos semanas presentó diarrea severa autolimitada. Al examen presenta palidez, hipertensión y edema en miembros inferiores. El laboratorio muestra anemia hemolítica microangiopática, trombocitopenia y elevación de creatinina. El uroanálisis evidencia hematuria, proteinuria moderada y cilindros hemáticos. ¿Cuál es el mecanismo fisiopatológico principal del daño renal?",
+        options: [
+            "Depósito de inmunocomplejos en el glomérulo",
+            "Microtrombosis en la circulación glomerular con daño endotelial",
+            "Obstrucción ureteral por coágulos",
+            "Infección renal ascendente"
+        ],
+        answer: 1,
+        explanation: "Este cuadro es compatible con síndrome urémico hemolítico. El daño renal se produce por microtrombosis en los capilares glomerulares, lo que genera isquemia, hemólisis y disfunción renal. La hematuria y los cilindros hemáticos reflejan compromiso glomerular, pero el mecanismo central no es inflamatorio clásico sino microangiopático."
+    },
+
+    {
+        question: "Una mujer de 44 años consulta por debilidad, poliuria y pérdida de peso. Tiene antecedente de diabetes mellitus mal controlada. El uroanálisis muestra glucosuria marcada, cetonuria y densidad urinaria elevada. ¿Qué explica la combinación de alta densidad urinaria a pesar de la poliuria?",
+        options: [
+            "Exceso de ADH",
+            "Presencia de glucosa y cetonas como solutos osmóticamente activos",
+            "Falla glomerular",
+            "Obstrucción urinaria"
+        ],
+        answer: 1,
+        explanation: "En la diabetes descompensada, la glucosa filtrada supera la capacidad de reabsorción tubular, produciendo glucosuria. La glucosa y las cetonas aumentan la osmolaridad urinaria, elevando la densidad. Esto genera diuresis osmótica, lo que explica la poliuria."
+    },
+
+    {
+        question: "Un paciente de 70 años presenta hematuria macroscópica indolora persistente. El uroanálisis muestra eritrocitos normales, sin proteinuria ni cilindros. ¿Cuál es la causa más probable?",
+        options: [
+            "Glomerulonefritis",
+            "Tumor de vejiga",
+            "Síndrome nefrótico",
+            "Nefritis intersticial"
+        ],
+        answer: 1,
+        explanation: "La hematuria indolora con eritrocitos normales sugiere origen urológico. En pacientes mayores, especialmente con factores de riesgo, se debe sospechar neoplasia del tracto urinario, como cáncer de vejiga."
+    },
+
+    {
+        question: "Un paciente con deshidratación prolongada evoluciona de un patrón prerrenal a necrosis tubular aguda. ¿Qué cambio en el uroanálisis esperas encontrar?",
+        options: [
+            "Sodio urinario bajo persistente",
+            "Aumento de sodio urinario y presencia de cilindros granulosos",
+            "Desaparición de la densidad urinaria",
+            "Aumento de proteínas sin cambios en sedimento"
+        ],
+        answer: 1,
+        explanation: "En la fase prerrenal el sodio urinario es bajo. Cuando evoluciona a necrosis tubular, el riñón pierde la capacidad de reabsorber sodio, aumentando su excreción. Los cilindros granulosos son característicos del daño tubular."
+    },
+
+    {
+        question: "Una mujer de 29 años presenta edema, hipertensión y hematuria. El uroanálisis muestra eritrocitos dismórficos y cilindros hemáticos. ¿Cuál es la localización de la lesión?",
+        options: [
+            "Vejiga",
+            "Glomérulo",
+            "Uréter",
+            "Uretra"
+        ],
+        answer: 1,
+        explanation: "Los eritrocitos dismórficos y los cilindros hemáticos son altamente específicos de origen glomerular."
+    },
+
+    {
+        question: "Un paciente con síndrome nefrótico presenta trombosis renal. ¿Qué lo explica?",
+        options: [
+            "Hipoalbuminemia",
+            "Pérdida de anticoagulantes en orina",
+            "Hipertensión",
+            "Hematuria"
+        ],
+        answer: 1,
+        explanation: "La pérdida urinaria de antitrombina III genera un estado de hipercoagulabilidad."
+    },
+
+    {
+        question: "Un paciente con infección urinaria por Proteus presenta cálculos. ¿Por qué?",
+        options: [
+            "Orina ácida",
+            "Producción de ureasa que alcaliniza la orina",
+            "Glucosuria",
+            "Proteinuria"
+        ],
+        answer: 1,
+        explanation: "Proteus produce ureasa, aumentando el pH urinario y favoreciendo cálculos de estruvita."
+    },
+
+    {
+        question: "Un paciente con insuficiencia renal presenta hiperpotasemia. ¿Por qué?",
+        options: [
+            "Aumento de filtración",
+            "Disminución de excreción renal",
+            "Infección",
+            "Hematuria"
+        ],
+        answer: 1,
+        explanation: "El riñón no elimina potasio adecuadamente."
+    },
+
+    {
+        question: "Un paciente con síndrome nefrítico presenta edema. ¿Por qué?",
+        options: [
+            "Retención de sodio",
+            "Pérdida de proteínas",
+            "Hiperglucemia",
+            "Infección"
+        ],
+        answer: 0,
+        explanation: "La disminución del filtrado causa retención de sodio y agua."
+    },
+
+    {
+        question: "Un paciente con hemoglobinuria. ¿Qué lo causa?",
+        options: [
+            "Hematuria",
+            "Hemólisis intravascular",
+            "Infección",
+            "Glomerulonefritis"
+        ],
+        answer: 1,
+        explanation: "La hemoglobina libre pasa al filtrado."
+    },
+
+    {
+        question: "Un paciente con cilindros leucocitarios. ¿Qué indica?",
+        options: [
+            "Cistitis",
+            "Pielonefritis",
+            "Glomerulonefritis",
+            "Litiasis"
+        ],
+        answer: 1,
+        explanation: "Indican inflamación renal."
+    },
+
+    {
+        question: "Un paciente con glucosuria. ¿Qué indica?",
+        options: [
+            "Daño tubular o hiperglucemia",
+            "Infección",
+            "Hematuria",
+            "Hipertensión"
+        ],
+        answer: 0,
+        explanation: "Puede ser por saturación tubular."
+    },
+
+    {
+        question: "Un paciente con orina diluida. ¿Qué indica?",
+        options: [
+            "Alta densidad",
+            "Baja densidad",
+            "Proteinuria",
+            "Hematuria"
+        ],
+        answer: 1,
+        explanation: "Baja densidad indica dilución."
+    },
+
+    {
+        question: "Un paciente con urobilinógeno alto. ¿Qué indica?",
+        options: [
+            "Hemólisis",
+            "Obstrucción",
+            "Infección",
+            "Glomerulonefritis"
+        ],
+        answer: 0,
+        explanation: "Aumenta en hemólisis."
+    },
+
+    {
+        question: "Un paciente con bilirrubina urinaria. ¿Qué indica?",
+        options: [
+            "Conjugada",
+            "No conjugada",
+            "Proteínas",
+            "Glucosa"
+        ],
+        answer: 0,
+        explanation: "Solo conjugada aparece en orina."
+    },
+
+    {
+        question: "Un paciente con sodio urinario bajo. ¿Qué indica?",
+        options: [
+            "Retención",
+            "Pérdida",
+            "Infección",
+            "Hematuria"
+        ],
+        answer: 0,
+        explanation: "Indica conservación de sodio."
+    },
+
+    {
+        question: "Un paciente con proteinuria. ¿Qué estructura está dañada?",
+        options: [
+            "Glomérulo",
+            "Vejiga",
+            "Uréter",
+            "Uretra"
+        ],
+        answer: 0,
+        explanation: "La barrera glomerular está alterada."
+    },
+
+    {
+        question: "Un paciente con hematuria urológica. ¿Cómo son los eritrocitos?",
+        options: [
+            "Dismórficos",
+            "Normales",
+            "Ausentes",
+            "Fragmentados"
+        ],
+        answer: 1,
+        explanation: "No pasan por glomérulo."
+    },
+
+    {
+        question: "Un paciente con densidad alta. ¿Qué indica?",
+        options: [
+            "Concentración",
+            "Dilución",
+            "Infección",
+            "Hematuria"
+        ],
+        answer: 0,
+        explanation: "Orina concentrada."
+    },
+
+    {
+        question: "Un paciente con infección urinaria. ¿Qué hallazgo es clave?",
+        options: [
+            "Nitritos",
+            "Glucosa",
+            "Proteínas",
+            "Bilirrubina"
+        ],
+        answer: 0,
+        explanation: "Indican bacterias reductoras."
+    }
+
+],
+advancedClinicalUroanalysis15: [
+
+    {
+        question: "Una mujer de 31 años consulta por edema palpebral matutino, cefalea, náuseas y disminución del volumen urinario desde hace cuatro días. Refiere que dos semanas antes presentó una infección faríngea con fiebre y odinofagia, que mejoró espontáneamente. En el examen físico presenta presión arterial de 160/100 mmHg, edema leve en miembros inferiores y malestar general. El uroanálisis muestra hematuria microscópica con eritrocitos dismórficos, proteinuria moderada y cilindros hemáticos. La creatinina está discretamente elevada y el complemento sérico disminuido. ¿Cuál es el mecanismo fisiopatológico que mejor explica el cuadro renal actual?",
+        options: [
+            "Depósito de inmunocomplejos en el glomérulo con activación del complemento e inflamación glomerular",
+            "Invasión bacteriana ascendente del intersticio renal con necrosis tubular secundaria",
+            "Obstrucción bilateral de la vía urinaria con aumento retrógrado de la presión intratubular",
+            "Daño tubular tóxico con pérdida selectiva de eritrocitos y proteínas"
+        ],
+        answer: 0,
+        explanation: "La paciente presenta un síndrome nefrítico agudo posinfeccioso. La secuencia temporal tras la faringitis, la hematuria con eritrocitos dismórficos, los cilindros hemáticos, la hipertensión y la elevación de creatinina orientan a inflamación glomerular. El mecanismo principal es el depósito de inmunocomplejos en el glomérulo, con activación del complemento e inflamación local. Esto altera la barrera de filtración, permitiendo el paso de eritrocitos y proteínas, y además disminuye el filtrado glomerular, favoreciendo retención de sodio y agua."
+    },
+
+    {
+        question: "Un varón de 64 años con diabetes mellitus tipo 2 de 18 años de evolución consulta por edema progresivo, sensación de pesadez en piernas y orina persistentemente espumosa. Refiere además disminución del apetito y aumento de peso en el último mes. El uroanálisis muestra proteinuria de 8.1 g/día, sin hematuria relevante, y en el sedimento se observan cilindros grasos. La albúmina sérica está disminuida y el perfil lipídico muestra hipercolesterolemia importante. ¿Cuál es la explicación más completa del mecanismo del edema en este caso?",
+        options: [
+            "El daño glomerular produce pérdida urinaria masiva de albúmina, disminuye la presión oncótica plasmática y favorece salida de líquido al intersticio",
+            "La hematuria glomerular masiva reduce el volumen intravascular y genera edema compensador",
+            "La obstrucción vesical produce retención directa de líquido en el espacio intersticial",
+            "La hipercolesterolemia aumenta la viscosidad plasmática y desplaza agua fuera de los vasos"
+        ],
+        answer: 0,
+        explanation: "El cuadro corresponde a síndrome nefrótico. La lesión glomerular permite el paso excesivo de albúmina a la orina, provocando hipoalbuminemia. Al disminuir la presión oncótica plasmática, el líquido sale con mayor facilidad del intravascular hacia el intersticio, generando edema. A esto puede sumarse retención renal secundaria de sodio y agua, pero el mecanismo central sigue siendo la pérdida de proteínas. Los cilindros grasos e hiperlipidemia refuerzan el patrón nefrótico."
+    },
+
+    {
+        question: "Una mujer de 38 años consulta por fiebre de 39 °C, escalofríos, dolor en flanco derecho, náuseas y disuria de tres días de evolución. Refiere antecedentes de infecciones urinarias recurrentes y litiasis previa. El uroanálisis muestra leucocituria intensa, bacteriuria abundante, nitritos positivos y cilindros leucocitarios. La creatinina es normal. ¿Qué hallazgo del uroanálisis tiene mayor valor anatómico para afirmar que el proceso infeccioso compromete el riñón y no solo la vejiga?",
+        options: [
+            "La bacteriuria abundante",
+            "Los nitritos positivos",
+            "Los cilindros leucocitarios",
+            "La leucocituria intensa"
+        ],
+        answer: 2,
+        explanation: "La bacteriuria, la leucocituria y los nitritos positivos confirman una infección bacteriana del tracto urinario, pero no distinguen de forma precisa entre una infección baja y una alta. Los cilindros leucocitarios, en cambio, se forman dentro de los túbulos renales, por lo que implican inflamación intrarrenal. Ese hallazgo es el que mejor localiza el proceso en el parénquima renal y apoya el diagnóstico de pielonefritis."
+    },
+
+    {
+        question: "Un varón de 46 años acude por dolor cólico intenso en flanco izquierdo irradiado hacia la región inguinal, con náuseas, diaforesis e inquietud marcada. Refiere haber tenido episodios previos similares. El uroanálisis muestra hematuria con eritrocitos de morfología conservada, sin proteinuria importante ni cilindros hemáticos, y cristales de oxalato de calcio. ¿Cuál es la explicación fisiopatológica más probable del sangrado?",
+        options: [
+            "Lesión glomerular inflamatoria con ruptura de la barrera de filtración",
+            "Traumatismo del urotelio por el paso de un cálculo a lo largo de la vía urinaria",
+            "Microangiopatía trombótica con extravasación de eritrocitos al filtrado",
+            "Nefritis intersticial con lesión vascular tubular"
+        ],
+        answer: 1,
+        explanation: "La hematuria con eritrocitos normales orienta a un origen urológico, porque los eritrocitos no han sufrido deformación al atravesar el glomérulo. La clínica típica de cólico renal y la presencia de cristales apoyan litiasis urinaria. El cálculo traumatiza el urotelio a su paso, ocasionando sangrado. La ausencia de cilindros hemáticos y de proteinuria importante aleja un origen glomerular."
+    },
+
+    {
+        question: "Una paciente de 25 años consulta por poliuria severa, polidipsia intensa de predominio nocturno y episodios repetidos de deshidratación leve. Refiere que despierta varias veces por noche para beber agua. La glucosa sérica es normal, el sodio plasmático está discretamente elevado y el uroanálisis muestra densidad urinaria persistentemente baja, sin glucosuria ni proteinuria, con sedimento anodino. ¿Qué alteración fisiológica explica mejor el cuadro?",
+        options: [
+            "Deficiencia o resistencia a la ADH, con incapacidad del túbulo colector para concentrar la orina",
+            "Saturación de los transportadores de glucosa del túbulo proximal",
+            "Pérdida glomerular de agua libre por aumento de permeabilidad capilar",
+            "Aumento de la presión oncótica tubular que impide reabsorción de agua"
+        ],
+        answer: 0,
+        explanation: "La combinación de poliuria, densidad urinaria muy baja y ausencia de glucosuria orienta a diabetes insípida. El defecto está en la acción de la ADH, ya sea por déficit de secreción o por resistencia renal. La ADH permite la reabsorción de agua en el túbulo colector; si falla este mecanismo, el riñón elimina grandes volúmenes de orina diluida. La leve hipernatremia apoya la pérdida de agua libre."
+    },
+
+    {
+        question: "Un hombre de 59 años con hepatopatía crónica consulta por ictericia progresiva, coluria, prurito y fatiga intensa. El uroanálisis muestra bilirrubina positiva y aumento de urobilinógeno urinario. No hay hematuria ni proteinuria. ¿Cuál es la interpretación fisiopatológica más adecuada de estos hallazgos?",
+        options: [
+            "Alteración hepatocelular que incrementa bilirrubina conjugada circulante y modifica el metabolismo normal de pigmentos biliares",
+            "Hemólisis intravascular con excreción renal de bilirrubina no conjugada",
+            "Glomerulonefritis con filtración de pigmentos biliares al túbulo",
+            "Infección urinaria bacteriana que produce bilirrubina en la vejiga"
+        ],
+        answer: 0,
+        explanation: "La bilirrubina detectable en orina es la conjugada, ya que es hidrosoluble. Su presencia indica enfermedad hepatocelular o colestásica. El aumento de urobilinógeno puede verse en varias hepatopatías porque existe alteración del procesamiento y recirculación de pigmentos biliares. Este patrón no se explica por hemólisis aislada, ya que la bilirrubina no conjugada no aparece en la orina."
+    },
+
+    {
+        question: "Una mujer de 43 años inicia tratamiento con un antimicrobiano por una infección respiratoria alta y siete días después consulta por fiebre, rash cutáneo, artralgias y disminución de la diuresis. La creatinina se ha duplicado respecto a su basal. El uroanálisis muestra leucocituria estéril, proteinuria leve y eosinófilos urinarios. ¿Cuál es el diagnóstico más probable?",
+        options: [
+            "Pielonefritis aguda con respuesta parcial al antibiótico",
+            "Nefritis intersticial aguda inducida por fármacos",
+            "Síndrome nefrótico por enfermedad de cambios mínimos",
+            "Glomerulonefritis postinfecciosa"
+        ],
+        answer: 1,
+        explanation: "El antecedente de exposición farmacológica reciente, junto con fiebre, exantema, artralgias, lesión renal aguda y eosinófilos en orina, es muy sugestivo de nefritis intersticial aguda. La leucocituria no siempre implica infección; también puede reflejar inflamación del intersticio renal. La ausencia de bacteriuria ayuda a diferenciarla de pielonefritis."
+    },
+
+    {
+        question: "Un varón de 75 años con enfermedad renal crónica avanzada consulta por anorexia, prurito, astenia y nicturia. En tres controles distintos, la densidad urinaria se mantiene en 1.010 a pesar de que en uno acudió deshidratado y en otro tras ingesta abundante de agua. ¿Qué significa fisiológicamente este hallazgo?",
+        options: [
+            "La orina se está concentrando normalmente",
+            "Existe isostenuria por pérdida de la capacidad renal de concentrar o diluir la orina",
+            "La muestra está afectada por glucosuria no detectada",
+            "Hay un error sistemático del laboratorio en la medición"
+        ],
+        answer: 1,
+        explanation: "La isostenuria se refiere a la incapacidad del riñón para adaptar la concentración urinaria a las necesidades del organismo. Una densidad fija cercana a 1.010 sugiere que el riñón produce una orina con concentración similar a la del filtrado plasmático, sin capacidad efectiva de concentración o dilución. Esto es típico de daño renal crónico avanzado."
+    },
+
+    {
+        question: "Una mujer de 34 años consulta por edema facial, edema en miembros inferiores y orina espumosa desde hace dos semanas. El uroanálisis muestra proteinuria de 9 g/día y el sedimento evidencia cilindros grasos. La albúmina sérica está muy disminuida. ¿Qué consecuencia fisiopatológica adicional es esperable en esta paciente a partir del mismo mecanismo que produce la proteinuria?",
+        options: [
+            "Estado de hipercoagulabilidad por pérdida urinaria de proteínas anticoagulantes",
+            "Hemólisis intravascular por paso de albúmina a la orina",
+            "Acidosis tubular distal por retención de proteínas",
+            "Incapacidad de acidificar la orina por pérdida de urea"
+        ],
+        answer: 0,
+        explanation: "En el síndrome nefrótico no solo se pierden proteínas como la albúmina, sino también otras proteínas plasmáticas importantes, incluidas algunas con función anticoagulante, como la antitrombina III. Esto favorece un estado de hipercoagulabilidad y aumenta el riesgo de trombosis. Por eso, en pacientes con síndrome nefrótico intenso, el riesgo trombótico es clínicamente muy relevante."
+    },
+
+    {
+        question: "Una gestante de 32 semanas presenta vómitos persistentes, debilidad, mareo y escasa tolerancia oral. El uroanálisis reporta cetonuria moderada, densidad urinaria aumentada y ausencia de glucosuria. ¿Qué interpretación es la más adecuada?",
+        options: [
+            "Estado catabólico por déficit de aporte calórico asociado a depleción de volumen",
+            "Diabetes mellitus descompensada con diuresis osmótica",
+            "Glomerulopatía con fuga de cetonas al filtrado",
+            "Infección urinaria con fermentación bacteriana de carbohidratos"
+        ],
+        answer: 0,
+        explanation: "La cetonuria aparece cuando el organismo usa grasas como fuente energética, como en ayuno, vómitos prolongados o ingesta insuficiente. Si a eso se suma deshidratación, la densidad urinaria aumenta porque la orina está más concentrada. La ausencia de glucosuria vuelve mucho menos probable una descompensación diabética."
+    },
+
+    {
+        question: "Un hombre de 68 años con hiperplasia prostática benigna presenta chorro débil, vaciamiento incompleto y episodios repetidos de infección urinaria. Llega con fiebre, polaquiuria y disuria. El uroanálisis muestra leucocituria y bacteriuria. ¿Qué mecanismo explica mejor que este paciente tenga infecciones recurrentes?",
+        options: [
+            "Estasis urinaria por obstrucción al flujo, con disminución del aclaramiento mecánico de bacterias",
+            "Aumento de la bilirrubina conjugada que favorece crecimiento bacteriano",
+            "Proteinuria tubular que alimenta a los microorganismos",
+            "Formación de cilindros hialinos que obstruyen la vejiga"
+        ],
+        answer: 0,
+        explanation: "La obstrucción prostática deja orina residual en la vejiga, disminuyendo el efecto de lavado del tracto urinario. Esa estasis favorece la colonización y proliferación bacteriana, por lo que constituye un factor predisponente importante para infecciones urinarias recurrentes en varones mayores."
+    },
+
+    {
+        question: "Una mujer de 29 años consulta por disuria y urgencia urinaria. En el primer examen de orina aparecen abundantes bacterias y numerosas células epiteliales escamosas. El médico repite la muestra tras explicar higiene adecuada y recolección de chorro medio; el nuevo examen no muestra bacteriuria. ¿Cuál fue la explicación más probable del primer resultado?",
+        options: [
+            "Contaminación de la muestra por flora y células provenientes de genitales externos",
+            "Glomerulonefritis con descamación epitelial extensa",
+            "Litiasis con bacteriuria intermitente autolimitada",
+            "Resolución espontánea de una pielonefritis aguda"
+        ],
+        answer: 0,
+        explanation: "La abundancia de células epiteliales escamosas sugiere que la muestra estaba contaminada, generalmente por mala técnica de recolección. Esa contaminación puede arrastrar bacterias de la región genital externa y simular una infección urinaria. La desaparición del hallazgo al repetir la muestra correctamente confirma esa interpretación."
+    },
+
+    {
+        question: "Un varón de 71 años con insuficiencia cardiaca descompensada consulta por ortopnea, edema periférico y oliguria. El sodio urinario es bajo y la densidad urinaria alta. ¿Qué mecanismo explica mejor esta respuesta renal?",
+        options: [
+            "El riñón percibe reducción del volumen arterial efectivo y activa retención de sodio y agua",
+            "Existe destrucción tubular aguda con pérdida de sodio compensada por ADH",
+            "La orina se concentra por proteinuria nefrótica no reconocida",
+            "Hay una obstrucción ureteral parcial que concentra artificialmente la orina"
+        ],
+        answer: 0,
+        explanation: "En la insuficiencia cardiaca, aunque el volumen corporal total esté aumentado, la perfusión arterial efectiva puede estar reducida. El riñón interpreta esto como hipovolemia y activa mecanismos de conservación de sodio y agua, como el sistema renina-angiotensina-aldosterona y la ADH. Por eso el sodio urinario es bajo y la orina está concentrada."
+    },
+
+    {
+        question: "Un joven de 22 años con historia familiar de litiasis recurrente consulta por dolor lumbar intermitente y hematuria microscópica persistente. El sedimento urinario muestra cristales hexagonales. ¿Qué alteración metabólica de base es la más probable?",
+        options: [
+            "Defecto hereditario en el transporte tubular de aminoácidos dibásicos, especialmente cistina",
+            "Aumento exclusivo de excreción tubular de ácido úrico",
+            "Déficit de ADH con precipitación de cristales",
+            "Pérdida masiva de albúmina con cristalización secundaria"
+        ],
+        answer: 0,
+        explanation: "Los cristales hexagonales son clásicos de cistinuria. Esta es una alteración hereditaria del transporte tubular renal de aminoácidos dibásicos, incluida la cistina. La cistina es poco soluble y precipita con facilidad, favoreciendo litiasis recurrente desde edades tempranas."
+    },
+
+    {
+        question: "Una mujer de 53 años consulta por cansancio, edema leve y orina espumosa. El uroanálisis muestra albuminuria persistente de bajo grado, sin hematuria ni infección. La creatinina todavía es normal. ¿Por qué este hallazgo es clínicamente importante?",
+        options: [
+            "Porque puede ser un marcador temprano de daño renal, incluso antes de que aumente la creatinina",
+            "Porque confirma síndrome nefrótico establecido",
+            "Porque obliga a sospechar litiasis renal oculta",
+            "Porque indica infección urinaria crónica asintomática"
+        ],
+        answer: 0,
+        explanation: "La albuminuria persistente de bajo grado puede ser uno de los primeros marcadores de daño renal, especialmente en pacientes con factores de riesgo como diabetes o hipertensión. Puede aparecer incluso cuando la creatinina aún es normal. Por eso tiene valor diagnóstico y pronóstico, sobre todo si se interpreta junto con la tasa de filtrado glomerular."
+    },
+
+    {
+        question: "Un varón de 40 años participa en una competencia de resistencia con ayuno prolongado e ingesta hídrica insuficiente. Consulta por debilidad, mareos y escasa diuresis. El uroanálisis revela cetonuria, densidad urinaria elevada y algunos cilindros hialinos, sin hematuria ni leucocituria. ¿Cuál es la interpretación más adecuada?",
+        options: [
+            "Estado catabólico y deshidratación, con hallazgos urinarios funcionales e inespecíficos",
+            "Glomerulonefritis rápidamente progresiva en etapa inicial",
+            "Pielonefritis subclínica con sedimento parcial",
+            "Síndrome nefrótico de inicio abrupto"
+        ],
+        answer: 0,
+        explanation: "El ayuno prolongado favorece el uso de grasas como fuente energética, produciendo cetonas. La deshidratación concentra la orina y eleva la densidad urinaria. Los cilindros hialinos pueden aparecer en ejercicio intenso, fiebre o deshidratación y son inespecíficos; por sí solos no indican daño renal estructural importante."
+    },
+
+    {
+        question: "Una paciente con anemia hemolítica autoinmune presenta ictericia leve. El uroanálisis muestra aumento de urobilinógeno urinario pero bilirrubina negativa. ¿Cuál es la explicación más correcta?",
+        options: [
+            "En la hemólisis aumenta la producción de bilirrubina, pero la fracción inicial predominante es no conjugada y no aparece en orina; el urobilinógeno sí puede aumentar",
+            "Toda hemólisis produce bilirrubinuria marcada",
+            "La ausencia de bilirrubina urinaria descarta aumento del catabolismo del hemo",
+            "El patrón es típico de obstrucción biliar completa"
+        ],
+        answer: 0,
+        explanation: "En la hemólisis aumenta la destrucción de eritrocitos y por tanto la producción de bilirrubina. Sin embargo, inicialmente predomina la bilirrubina no conjugada, que no es hidrosoluble y no se elimina por orina. En cambio, el mayor metabolismo intestinal de bilirrubina aumenta el urobilinógeno, que sí puede elevarse en la orina."
+    },
+
+    {
+        question: "Un hombre de 62 años con vómitos y diarrea severos presenta hipotensión ortostática, mucosas secas y oliguria. El uroanálisis muestra densidad urinaria alta y cilindros hialinos aislados, sin hematuria ni proteinuria significativa. ¿Cómo debe interpretarse este patrón?",
+        options: [
+            "Respuesta renal a depleción de volumen, con orina concentrada y cilindros hialinos inespecíficos",
+            "Síndrome nefrótico incompleto con pérdida selectiva de proteínas",
+            "Glomerulonefritis sin manifestaciones hematúricas",
+            "Pielonefritis con sedimento atípico"
+        ],
+        answer: 0,
+        explanation: "Las pérdidas gastrointestinales causan depleción de volumen, y el riñón responde conservando agua, lo que produce una orina más concentrada y aumenta la densidad. Los cilindros hialinos pueden aparecer como hallazgo funcional e inespecífico en este contexto. La ausencia de hematuria, proteinuria importante o leucocituria hace poco probable un daño renal estructural mayor."
+    },
+
+    {
+        question: "Un paciente de 56 años con mieloma múltiple presenta deterioro progresivo de la función renal. El uroanálisis muestra proteinuria total importante, pero la tira reactiva para albúmina es solo débilmente positiva. ¿Qué explica mejor esta discordancia?",
+        options: [
+            "La tira reactiva detecta mejor albúmina que otras proteínas, y en el mieloma puede predominar la excreción de cadenas ligeras monoclonales",
+            "La proteinuria del mieloma siempre es un artefacto",
+            "La densidad urinaria elevada bloquea químicamente la reacción de la tira",
+            "El mieloma produce hematuria, no proteinuria"
+        ],
+        answer: 0,
+        explanation: "La tira reactiva convencional es mucho más sensible para albúmina que para otras proteínas. En el mieloma múltiple puede haber proteinuria importante por cadenas ligeras monoclonales, que no son detectadas con la misma eficiencia. Por eso puede existir una discrepancia entre la cuantificación total de proteínas y la tira para albúmina."
+    },
+
+    {
+        question: "Una mujer de 28 años consulta por disuria, urgencia urinaria y dolor suprapúbico. El uroanálisis muestra esterasa leucocitaria positiva y nitritos positivos. ¿Cuál es la interpretación más adecuada?",
+        options: [
+            "Inflamación urinaria con alta probabilidad de infección bacteriana por microorganismos reductores de nitratos",
+            "Glomerulonefritis autoinmune activa",
+            "Ausencia de infección urinaria real",
+            "Contaminación de la muestra sin valor clínico"
+        ],
+        answer: 0,
+        explanation: "La esterasa leucocitaria indica presencia de leucocitos, es decir, inflamación en el tracto urinario. Los nitritos positivos sugieren bacterias capaces de reducir nitratos, como muchas enterobacterias. En conjunto, estos hallazgos hacen muy probable una infección urinaria bacteriana, sobre todo si la clínica es compatible."
+    }
+
+],
+advancedClinicalUroanalysis16: [
+
+    {
+        question: "Una mujer de 33 años consulta por edema periorbitario, malestar general y orina de color marrón oscuro desde hace cinco días. Refiere que tres semanas antes presentó una infección faríngea febril que resolvió sin antibióticos. En el examen físico tiene presión arterial de 165/100 mmHg, discreto edema en miembros inferiores y oliguria. El uroanálisis revela hematuria microscópica, eritrocitos dismórficos, proteinuria moderada y cilindros hemáticos. La creatinina sérica se encuentra elevada respecto a controles previos. ¿Cuál es el mecanismo fisiopatológico que mejor explica la disminución de la tasa de filtrado glomerular en este cuadro?",
+        options: [
+            "Obstrucción mecánica del túbulo proximal por eritrocitos intactos",
+            "Inflamación glomerular con reducción de la superficie efectiva de filtración y alteración de la barrera capilar",
+            "Necrosis papilar con obstrucción retrógrada del flujo urinario",
+            "Pérdida masiva de albúmina con disminución primaria del flujo plasmático renal"
+        ],
+        answer: 1,
+        explanation: "El cuadro es típico de un síndrome nefrítico agudo, probablemente posinfeccioso. La lesión principal está en el glomérulo: la inflamación reduce la superficie útil de filtración y altera la permeabilidad de la barrera glomerular. Eso explica simultáneamente la caída del filtrado glomerular, la retención de sodio y agua con hipertensión y edema, y el paso de eritrocitos y proteínas a la orina. Los eritrocitos dismórficos y los cilindros hemáticos son claves porque apuntan a origen glomerular y no urológico."
+    },
+
+    {
+        question: "Un varón de 57 años con diabetes mellitus tipo 2 de larga evolución consulta por aumento progresivo de edema, cansancio intenso y ganancia de peso en el último mes. Refiere además que su orina se ve espumosa desde hace varios meses. El uroanálisis muestra proteinuria de 9 g/día, sin hematuria significativa, y el sedimento evidencia cilindros grasos. En sangre presenta hipoalbuminemia marcada, hipercolesterolemia e hipertrigliceridemia. ¿Qué mecanismo explica mejor la alteración lipídica asociada a este cuadro renal?",
+        options: [
+            "El riñón produce lipoproteínas de manera compensatoria en respuesta a la proteinuria",
+            "El hígado aumenta la síntesis de lipoproteínas como respuesta a la pérdida urinaria masiva de proteínas plasmáticas",
+            "La hematuria microscópica crónica estimula la producción de colesterol",
+            "Los cilindros grasos bloquean la excreción urinaria de lípidos y elevan sus niveles séricos"
+        ],
+        answer: 1,
+        explanation: "En el síndrome nefrótico, la pérdida masiva de albúmina y otras proteínas induce una respuesta hepática compensatoria. El hígado incrementa la síntesis de proteínas, pero también de lipoproteínas, lo que genera hiperlipidemia. Esta alteración metabólica acompaña a la hipoalbuminemia y al edema. Los cilindros grasos reflejan el manejo tubular del exceso de material lipídico filtrado y son hallazgos clásicos del síndrome nefrótico."
+    },
+
+    {
+        question: "Una mujer de 41 años consulta por fiebre alta, dolor lumbar bilateral, náuseas, vómitos y disuria de tres días de evolución. Tiene antecedentes de infección urinaria recurrente y un episodio previo de pielonefritis. El uroanálisis muestra bacteriuria abundante, leucocituria intensa, nitritos positivos y cilindros leucocitarios. ¿Qué explica con mayor precisión la presencia de cilindros leucocitarios en esta paciente?",
+        options: [
+            "Formación de conglomerados leucocitarios en la vejiga por infección de vías bajas",
+            "Organización de leucocitos dentro de los túbulos renales, indicando compromiso del parénquima renal",
+            "Descamación del epitelio uretral con atrapamiento de leucocitos en la muestra",
+            "Acumulación de pus en uréteres con posterior fragmentación en el sedimento"
+        ],
+        answer: 1,
+        explanation: "Los cilindros leucocitarios se forman en los túbulos renales a partir de leucocitos incluidos en una matriz de proteína de Tamm-Horsfall. Esto indica que el proceso inflamatorio o infeccioso alcanzó el riñón, y por eso son muy útiles para distinguir pielonefritis de una infección urinaria baja. La fiebre alta, el dolor lumbar y el compromiso sistémico refuerzan este diagnóstico."
+    },
+
+    {
+        question: "Un hombre de 48 años consulta por dolor cólico intenso en flanco derecho que irradia a genitales, asociado a náuseas, sudoración fría y hematuria macroscópica. El uroanálisis revela abundantes eritrocitos con morfología conservada, pH urinario ácido y cristales de ácido úrico. No hay cilindros hemáticos ni proteinuria significativa. ¿Cuál es la explicación fisiopatológica más probable del cuadro?",
+        options: [
+            "Lesión glomerular inflamatoria con hematuria dismórfica y cristaluria secundaria",
+            "Precipitación de ácido úrico con formación de cálculo que traumatiza la vía urinaria y produce hematuria urológica",
+            "Necrosis tubular aguda con liberación de cristales hacia el filtrado",
+            "Nefritis intersticial aguda con paso de eritrocitos desde capilares peritubulares"
+        ],
+        answer: 1,
+        explanation: "El cuadro es compatible con litiasis por ácido úrico. El dolor cólico típico, el pH urinario ácido, los cristales de ácido úrico y la hematuria con eritrocitos intactos orientan claramente a un origen urológico. El cálculo lesiona mecánicamente el urotelio y produce sangrado, por lo que no aparecen hallazgos de daño glomerular como eritrocitos dismórficos o cilindros hemáticos."
+    },
+
+    {
+        question: "Una paciente de 24 años consulta por poliuria de varios litros al día, polidipsia intensa y despertares nocturnos repetidos para beber agua. Niega pérdida de peso y su glucosa en ayunas es normal. En múltiples controles, el uroanálisis muestra densidad urinaria muy baja, sin glucosuria, sin proteinuria y sin sedimento patológico. ¿Qué cambio fisiológico se espera encontrar si el problema es una diabetes insípida nefrogénica y no central?",
+        options: [
+            "Respuesta normal a la administración de ADH exógena",
+            "Falta de respuesta renal a la ADH pese a niveles hormonales adecuados o altos",
+            "Saturación de transportadores de glucosa en túbulo proximal",
+            "Aumento de la albuminuria por alteración del podocito"
+        ],
+        answer: 1,
+        explanation: "En la diabetes insípida nefrogénica, el problema no es la falta de ADH sino la resistencia renal a su acción. Por eso, aunque la hormona esté presente, el túbulo colector no incrementa la reabsorción de agua adecuadamente. El resultado es una poliuria de orina muy diluida. Esto la diferencia de la forma central, donde sí puede haber respuesta a ADH exógena."
+    },
+
+    {
+        question: "Un hombre de 60 años con cirrosis avanzada consulta por coluria, ictericia progresiva y prurito intenso. El uroanálisis muestra bilirrubina positiva, pero el urobilinógeno urinario es muy bajo. ¿Qué situación fisiopatológica explica mejor este patrón?",
+        options: [
+            "Aumento de bilirrubina no conjugada por hemólisis intravascular",
+            "Obstrucción biliar importante que impide la llegada de bilirrubina al intestino y reduce la formación de urobilinógeno",
+            "Infección urinaria que degrada urobilinógeno en la vejiga",
+            "Síndrome nefrótico con pérdida selectiva de pigmentos biliares"
+        ],
+        answer: 1,
+        explanation: "Cuando existe una obstrucción biliar significativa, la bilirrubina conjugada no llega en cantidad suficiente al intestino. Como consecuencia, disminuye la formación de urobilinógeno. Al mismo tiempo, la bilirrubina conjugada aumenta en plasma y, por ser hidrosoluble, aparece en la orina. Por eso la combinación de bilirrubina urinaria positiva con urobilinógeno bajo orienta a colestasis obstructiva."
+    },
+
+    {
+        question: "Una mujer de 46 años consulta por fiebre, rash, artralgias y elevación aguda de creatinina una semana después de iniciar un antiinflamatorio y un antibiótico. El uroanálisis muestra leucocituria, eosinófilos urinarios, proteinuria leve y ausencia de bacteriuria. ¿Qué hallazgo adicional sería más coherente con el diagnóstico sospechado?",
+        options: [
+            "Cilindros hemáticos abundantes y complemento bajo",
+            "Historia de exposición farmacológica reciente con cuadro de hipersensibilidad sistémica",
+            "Cristales hexagonales en el sedimento urinario",
+            "Proteinuria masiva en rango nefrótico como hallazgo central"
+        ],
+        answer: 1,
+        explanation: "El cuadro es muy sugestivo de nefritis intersticial aguda inducida por fármacos. Lo más coherente es la asociación temporal con medicamentos y manifestaciones de hipersensibilidad, como fiebre, rash y artralgias. La leucocituria estéril y los eosinófilos urinarios refuerzan esta sospecha. No es un cuadro típicamente glomerular ni nefrótico."
+    },
+
+    {
+        question: "Un paciente de 73 años con enfermedad renal crónica refiere que, incluso cuando bebe muy poca agua, su orina no se concentra, y cuando toma abundantes líquidos tampoco la diluye de manera notable. En varios controles, la densidad urinaria permanece alrededor de 1.010. ¿Qué estructura funcional está fallando de forma predominante para explicar este comportamiento?",
+        options: [
+            "La capacidad integrada tubular y medular para concentrar y diluir la orina",
+            "La barrera glomerular selectiva para proteínas",
+            "La vejiga como reservorio de presión baja",
+            "La uretra distal como reguladora del flujo urinario"
+        ],
+        answer: 0,
+        explanation: "La isostenuria no se explica por una lesión aislada del glomérulo, sino por la pérdida de la capacidad renal para modificar la concentración urinaria según el estado hídrico. Para concentrar y diluir la orina se necesita función tubular adecuada y un gradiente medular intacto. Cuando estos mecanismos fallan, la densidad urinaria tiende a permanecer fija cerca de 1.010."
+    },
+
+    {
+        question: "Una mujer de 35 años consulta por edema generalizado, ascitis leve y orina espumosa. El uroanálisis muestra proteinuria de 10 g/día y cilindros grasos; en sangre hay hipoalbuminemia severa. Días después desarrolla dolor brusco en flanco y deterioro renal agudo. ¿Qué complicación debe sospecharse especialmente en este contexto?",
+        options: [
+            "Trombosis de vena renal favorecida por estado de hipercoagulabilidad",
+            "Pielonefritis enfisematosa secundaria a cilindros grasos",
+            "Rotura glomerular aguda por hiperfiltración",
+            "Necrosis papilar por pérdida de albúmina"
+        ],
+        answer: 0,
+        explanation: "El síndrome nefrótico severo genera un estado de hipercoagulabilidad, en parte por pérdida urinaria de anticoagulantes naturales como la antitrombina III. Esto aumenta el riesgo de eventos trombóticos, incluida la trombosis de vena renal. El dolor en flanco y el deterioro renal agudo en este contexto obligan a sospechar esa complicación."
+    },
+
+    {
+        question: "Una gestante de 31 semanas presenta vómitos, debilidad, hipotensión leve y disminución de la ingesta desde hace 72 horas. El uroanálisis muestra cetonuria, densidad urinaria elevada y ausencia de glucosuria. ¿Qué combinación fisiopatológica explica mejor este patrón?",
+        options: [
+            "Hiperglucemia grave y saturación tubular de glucosa",
+            "Uso de grasas como sustrato energético por déficit calórico y concentración urinaria por depleción de volumen",
+            "Daño glomerular selectivo para cuerpos cetónicos",
+            "Infección bacteriana urinaria con consumo local de glucosa"
+        ],
+        answer: 1,
+        explanation: "La cetonuria en este contexto se explica por balance energético negativo, que obliga al organismo a usar grasas como fuente de energía. La densidad elevada refleja que la paciente además está deshidratada y la orina está concentrada. La ausencia de glucosuria hace poco probable que se trate de una descompensación diabética."
+    },
+
+    {
+        question: "Un varón de 69 años con hiperplasia prostática benigna consulta por fiebre, malestar, polaquiuria y dolor perineal. Refiere vaciamiento incompleto de la vejiga y varios episodios de infección urinaria en el último año. El uroanálisis muestra bacteriuria y leucocituria. ¿Qué factor anatómico-funcional favorece más directamente la recurrencia infecciosa en este paciente?",
+        options: [
+            "Disminución del efecto de lavado del tracto urinario por retención de orina residual",
+            "Aumento fisiológico del pH urinario por envejecimiento prostático",
+            "Producción prostática de proteínas que nutren bacterias",
+            "Paso de eritrocitos intactos desde capilares vesicales"
+        ],
+        answer: 0,
+        explanation: "El vaciamiento incompleto de la vejiga favorece estasis urinaria. La orina residual disminuye el aclaramiento mecánico de bacterias y permite que los microorganismos permanezcan y proliferen. Este mecanismo es central en la recurrencia de infecciones urinarias en pacientes con obstrucción infravesical por hiperplasia prostática."
+    },
+
+    {
+        question: "Una mujer de 30 años consulta por disuria y polaquiuria. El primer examen de orina reporta bacterias abundantes y numerosas células epiteliales escamosas. El médico decide repetir la muestra con higiene adecuada y recolección de segundo chorro, y el nuevo examen resulta sin bacteriuria. ¿Cuál fue la razón más importante para desconfiar del primer resultado?",
+        options: [
+            "La presencia abundante de células escamosas sugería contaminación de la muestra",
+            "La bacteriuria nunca tiene valor diagnóstico en mujeres jóvenes",
+            "Toda muestra con bacterias requiere centrifugación inmediata para ser válida",
+            "La ausencia de proteinuria invalidaba automáticamente el diagnóstico de infección"
+        ],
+        answer: 0,
+        explanation: "Las células epiteliales escamosas suelen provenir de contaminación con material genital externo. Cuando son abundantes, disminuye la confiabilidad de la muestra, especialmente para interpretar bacteriuria. En este caso, la repetición adecuada confirmó que el hallazgo inicial era por contaminación y no por infección urinaria verdadera."
+    },
+
+    {
+        question: "Un varón de 72 años con insuficiencia cardiaca avanzada presenta edema, ortopnea y oliguria. El sodio urinario es bajo y la densidad urinaria alta. Luego de recibir diuréticos de asa, el sodio urinario aumenta. ¿Cuál es la mejor interpretación de este cambio?",
+        options: [
+            "Los diuréticos bloquearon la reabsorción tubular de sodio y modificaron la respuesta renal adaptativa previa",
+            "La insuficiencia cardiaca se resolvió completamente en pocas horas",
+            "Se demostró que el riñón estaba estructuralmente normal desde el inicio",
+            "La proteinuria nefrótica se corrigió tras el diurético"
+        ],
+        answer: 0,
+        explanation: "Inicialmente, el riñón retenía sodio por percibir bajo volumen arterial efectivo. Los diuréticos de asa bloquean activamente la reabsorción tubular de sodio, por lo que aumenta su excreción urinaria. Esto no significa que el problema hemodinámico de base se haya resuelto por completo, sino que la intervención farmacológica alteró la respuesta renal adaptativa."
+    },
+
+    {
+        question: "Un joven de 23 años con historia familiar de litiasis consulta por dolor lumbar recurrente y hematuria microscópica. El sedimento urinario revela cristales hexagonales. ¿Cuál es la alteración más probable detrás de este cuadro?",
+        options: [
+            "Defecto hereditario en la reabsorción tubular de cistina y otros aminoácidos dibásicos",
+            "Producción excesiva de urobilinógeno intestinal",
+            "Déficit de acidificación urinaria distal con formación de uratos",
+            "Daño glomerular hereditario con pérdida selectiva de aminoácidos"
+        ],
+        answer: 0,
+        explanation: "Los cristales hexagonales son clásicos de cistinuria. Esta enfermedad se debe a un defecto hereditario en el transporte tubular de cistina y otros aminoácidos dibásicos. La cistina es poco soluble y precipita fácilmente, favoreciendo la formación de cálculos urinarios recurrentes."
+    },
+
+    {
+        question: "Una mujer de 54 años presenta cansancio, edema leve y orina espumosa. En controles sucesivos se documenta albuminuria persistente de bajo grado, pero la creatinina sérica es normal. ¿Cuál es la razón principal por la que este hallazgo debe considerarse importante?",
+        options: [
+            "Porque puede ser un marcador temprano de enfermedad renal antes de que la creatinina aumente",
+            "Porque equivale automáticamente a síndrome nefrótico completo",
+            "Porque indica obstrucción urinaria alta con gran sensibilidad",
+            "Porque es específica de infección urinaria crónica"
+        ],
+        answer: 0,
+        explanation: "La albuminuria persistente puede aparecer en fases tempranas de daño renal, incluso cuando la creatinina aún es normal. Por eso tiene gran valor como marcador precoz, especialmente en personas con factores de riesgo como diabetes o hipertensión. Su importancia aumenta cuando se interpreta junto con la tasa de filtrado glomerular."
+    },
+
+    {
+        question: "Un varón de 41 años realiza una travesía de varios días con ayuno prolongado, ejercicio intenso y baja ingesta hídrica. Consulta por debilidad, mareos y escasa diuresis. El uroanálisis muestra cetonuria, densidad alta y cilindros hialinos aislados, sin hematuria ni leucocituria. ¿Qué interpretación es la más adecuada?",
+        options: [
+            "Hallazgos compatibles con estado catabólico y deshidratación, sin evidencia clara de daño renal estructural importante",
+            "Glomerulonefritis rápidamente progresiva en fase inicial",
+            "Pielonefritis subclínica con sedimento incompleto",
+            "Síndrome nefrótico incipiente por ejercicio"
+        ],
+        answer: 0,
+        explanation: "La cetonuria se explica por el uso de grasas como sustrato energético durante el ayuno. La densidad elevada refleja que la orina está concentrada por deshidratación. Los cilindros hialinos pueden aparecer en fiebre, ejercicio o depleción de volumen y son inespecíficos. En ausencia de hematuria, leucocituria o proteinuria significativa, no hay datos claros de daño estructural renal mayor."
+    },
+
+    {
+        question: "Una paciente con anemia hemolítica autoinmune presenta ictericia leve y debilidad. El uroanálisis muestra aumento de urobilinógeno urinario, pero bilirrubina negativa. ¿Cuál es la explicación fisiopatológica correcta?",
+        options: [
+            "La hemólisis aumenta la producción de bilirrubina, pero inicialmente predomina la fracción no conjugada, que no aparece en orina; en cambio aumenta el urobilinógeno",
+            "Toda hemólisis produce bilirrubina conjugada urinaria marcada",
+            "La ausencia de bilirrubina urinaria descarta aumento del catabolismo eritrocitario",
+            "Este patrón es típico de obstrucción biliar completa"
+        ],
+        answer: 0,
+        explanation: "En la hemólisis aumenta la degradación de eritrocitos y la producción de bilirrubina. Sin embargo, al inicio predomina la bilirrubina no conjugada, que no es hidrosoluble y no aparece en orina. El metabolismo intestinal de la bilirrubina aumenta el urobilinógeno, por eso este sí puede elevarse en la orina."
+    },
+
+    {
+        question: "Un varón de 63 años con vómitos y diarrea severos consulta por hipotensión ortostática, oliguria y debilidad. El uroanálisis muestra densidad alta, sodio urinario bajo y cilindros hialinos aislados. Si este estado prerrenal persistiera sin corrección, ¿qué cambio sería más probable en una fase posterior?",
+        options: [
+            "Aumento del sodio urinario y aparición de cilindros granulosos por daño tubular agudo",
+            "Desaparición definitiva de toda proteinuria y de todo sedimento",
+            "Transformación en síndrome nefrótico con cilindros grasos",
+            "Bilirrubinuria con urobilinógeno bajo"
+        ],
+        answer: 0,
+        explanation: "En el estado prerrenal el riñón conserva sodio y concentra la orina. Si la hipoperfusión persiste, puede desarrollarse necrosis tubular aguda. En ese contexto el riñón pierde capacidad de reabsorber sodio, por lo que el sodio urinario aumenta, y aparecen cilindros granulosos, típicos del daño tubular."
+    },
+
+    {
+        question: "Un hombre de 57 años con mieloma múltiple presenta insuficiencia renal progresiva. El uroanálisis muestra proteinuria total importante, pero la tira reactiva para albúmina es solo levemente positiva. ¿Qué explica mejor esta discrepancia?",
+        options: [
+            "La tira reactiva detecta principalmente albúmina, mientras que en el mieloma puede predominar la excreción de cadenas ligeras monoclonales",
+            "La densidad urinaria elevada neutraliza la reacción química de todas las proteínas",
+            "La proteinuria en el mieloma es siempre falsa",
+            "El mieloma produce exclusivamente hematuria microscópica"
+        ],
+        answer: 0,
+        explanation: "La tira reactiva estándar es mucho más sensible para detectar albúmina que otras proteínas. En el mieloma múltiple puede haber gran cantidad de cadenas ligeras monoclonales en la orina, y estas no se detectan con igual eficacia. Por eso puede haber proteinuria total importante con una tira reactiva poco llamativa para albúmina."
+    },
+
+    {
+        question: "Una mujer de 29 años presenta disuria, urgencia urinaria y dolor suprapúbico. El uroanálisis muestra esterasa leucocitaria positiva y nitritos positivos. ¿Cuál es la interpretación más adecuada de esta combinación?",
+        options: [
+            "Alta probabilidad de infección urinaria bacteriana por microorganismos capaces de reducir nitratos",
+            "Glomerulonefritis autoinmune con compromiso tubular",
+            "Ausencia de infección urinaria verdadera",
+            "Contaminación de la muestra sin valor diagnóstico"
+        ],
+        answer: 0,
+        explanation: "La esterasa leucocitaria indica presencia de leucocitos, es decir, inflamación urinaria. Los nitritos positivos sugieren bacterias que reducen nitratos, como muchas enterobacterias. Juntos, estos hallazgos elevan mucho la probabilidad de infección urinaria bacteriana, especialmente cuando la clínica también es compatible."
+    }
+
+],
+
+advancedClinicalUroanalysis17: [
+
+    {
+        question: "Un varón de 36 años consulta por hematuria macroscópica recurrente que aparece 24–48 horas después de episodios de infección respiratoria alta. No presenta edema ni hipertensión. El uroanálisis muestra eritrocitos dismórficos, proteinuria leve y ausencia de cilindros hemáticos. La función renal es normal. ¿Cuál es la fisiopatología más probable de este cuadro?",
+        options: [
+            "Depósito de inmunocomplejos IgA en el mesangio con inflamación leve y episódica",
+            "Lesión urológica traumática con sangrado intermitente",
+            "Necrosis tubular aguda inducida por infecciones virales",
+            "Síndrome nefrótico con hematuria secundaria"
+        ],
+        answer: 0,
+        explanation: "Este patrón es característico de nefropatía por IgA. A diferencia de la glomerulonefritis postestreptocócica, la hematuria ocurre casi simultáneamente con la infección. El depósito mesangial de IgA genera inflamación leve, por lo que la función renal suele mantenerse normal al inicio. La hematuria es glomerular, lo que explica los eritrocitos dismórficos."
+    },
+
+    {
+        question: "Una mujer de 49 años con lupus eritematoso sistémico consulta por edema, hipertensión y disminución del volumen urinario. El uroanálisis muestra proteinuria de 4 g/día, hematuria con eritrocitos dismórficos y cilindros hemáticos. ¿Qué característica distingue este cuadro de un síndrome nefrótico puro?",
+        options: [
+            "La presencia de cilindros grasos",
+            "La coexistencia de inflamación glomerular con hematuria activa",
+            "La ausencia de proteinuria",
+            "La presencia de glucosuria"
+        ],
+        answer: 1,
+        explanation: "La nefritis lúpica puede producir un cuadro mixto: hay proteinuria significativa, pero también hematuria activa y cilindros hemáticos, lo que indica inflamación glomerular. Esto la diferencia del síndrome nefrótico puro, donde predomina la proteinuria sin inflamación significativa."
+    },
+
+    {
+        question: "Un paciente de 68 años con insuficiencia cardiaca descompensada presenta oliguria. El sodio urinario es bajo y la densidad urinaria alta. Tras varios días de hipoperfusión renal, el sodio urinario aumenta y aparecen cilindros granulosos. ¿Qué ocurrió?",
+        options: [
+            "Mejoría del estado hemodinámico",
+            "Evolución de insuficiencia prerrenal a necrosis tubular aguda",
+            "Desarrollo de síndrome nefrótico",
+            "Infección urinaria secundaria"
+        ],
+        answer: 1,
+        explanation: "Inicialmente el riñón conserva sodio (prerrenal). Si la hipoperfusión persiste, se produce daño tubular estructural (necrosis tubular aguda), lo que lleva a pérdida de reabsorción de sodio y aparición de cilindros granulosos."
+    },
+
+    {
+        question: "Un varón de 62 años presenta ictericia, orina oscura y prurito. El uroanálisis muestra bilirrubina positiva y urobilinógeno bajo. ¿Qué diagnóstico es más probable?",
+        options: [
+            "Hemólisis",
+            "Obstrucción biliar",
+            "Síndrome nefrótico",
+            "Infección urinaria"
+        ],
+        answer: 1,
+        explanation: "La obstrucción biliar impide el paso de bilirrubina al intestino, reduciendo urobilinógeno. La bilirrubina conjugada se acumula y aparece en orina."
+    },
+
+    {
+        question: "Una mujer de 34 años presenta proteinuria masiva, edema y cilindros grasos. No hay hematuria. ¿Qué explica la ausencia de eritrocitos en orina?",
+        options: [
+            "No hay filtración glomerular",
+            "El daño afecta selectivamente la permeabilidad a proteínas sin inflamación significativa",
+            "Los eritrocitos no existen en sangre",
+            "Hay obstrucción tubular"
+        ],
+        answer: 1,
+        explanation: "En síndrome nefrótico, el daño es principalmente en podocitos, alterando la permeabilidad a proteínas, sin inflamación glomerular significativa."
+    },
+
+    {
+        question: "Un paciente con diarrea severa presenta oliguria. Inicialmente sodio urinario bajo. Luego aumenta creatinina y sodio urinario. ¿Qué explica esto?",
+        options: [
+            "Recuperación renal",
+            "Evolución a daño tubular",
+            "Infección urinaria",
+            "Síndrome nefrótico"
+        ],
+        answer: 1,
+        explanation: "El paso de prerrenal a necrosis tubular explica el cambio."
+    },
+
+    {
+        question: "Un paciente con anemia hemolítica presenta hemoglobinuria. ¿Qué se observa en sedimento?",
+        options: [
+            "Eritrocitos intactos",
+            "Hemoglobina libre sin eritrocitos",
+            "Cilindros grasos",
+            "Cristales"
+        ],
+        answer: 1,
+        explanation: "La hemólisis libera hemoglobina que se filtra."
+    },
+
+    {
+        question: "Un paciente con infección por Proteus desarrolla litiasis. ¿Por qué?",
+        options: [
+            "Orina ácida",
+            "Orina alcalina por ureasa",
+            "Glucosuria",
+            "Proteinuria"
+        ],
+        answer: 1,
+        explanation: "La ureasa alcaliniza la orina."
+    },
+
+    {
+        question: "Un paciente con síndrome nefrótico tiene trombosis. ¿Por qué?",
+        options: [
+            "Pérdida de anticoagulantes",
+            "Hematuria",
+            "Hipertensión",
+            "Glucosa"
+        ],
+        answer: 0,
+        explanation: "Pérdida de antitrombina III."
+    },
+
+    {
+        question: "Un paciente con poliuria y densidad baja. ¿Diagnóstico?",
+        options: [
+            "Diabetes insípida",
+            "Síndrome nefrótico",
+            "Infección",
+            "Litiasis"
+        ],
+        answer: 0,
+        explanation: "No concentra orina."
+    },
+
+    {
+        question: "Un paciente con hematuria dismórfica. ¿Origen?",
+        options: [
+            "Glomerular",
+            "Vesical",
+            "Uretral",
+            "Prostático"
+        ],
+        answer: 0,
+        explanation: "Paso por glomérulo."
+    },
+
+    {
+        question: "Un paciente con glucosuria sin hiperglucemia. ¿Qué indica?",
+        options: [
+            "Daño tubular",
+            "Diabetes",
+            "Infección",
+            "Hematuria"
+        ],
+        answer: 0,
+        explanation: "Síndrome de Fanconi."
+    },
+
+    {
+        question: "Un paciente con cilindros leucocitarios. ¿Qué indica?",
+        options: [
+            "Pielonefritis",
+            "Cistitis",
+            "Glomerulonefritis",
+            "Litiasis"
+        ],
+        answer: 0,
+        explanation: "Origen renal."
+    },
+
+    {
+        question: "Un paciente con densidad alta. ¿Qué indica?",
+        options: [
+            "Concentración",
+            "Dilución",
+            "Infección",
+            "Proteinuria"
+        ],
+        answer: 0,
+        explanation: "Orina concentrada."
+    },
+
+    {
+        question: "Un paciente con urobilinógeno alto. ¿Qué indica?",
+        options: [
+            "Hemólisis",
+            "Obstrucción",
+            "Infección",
+            "Nefritis"
+        ],
+        answer: 0,
+        explanation: "Aumenta metabolismo de bilirrubina."
+    },
+
+    {
+        question: "Un paciente con bilirrubina urinaria. ¿Qué tipo?",
+        options: [
+            "Conjugada",
+            "No conjugada",
+            "Proteínas",
+            "Glucosa"
+        ],
+        answer: 0,
+        explanation: "Solo conjugada es hidrosoluble."
+    },
+
+    {
+        question: "Un paciente con sodio urinario bajo. ¿Qué indica?",
+        options: [
+            "Retención renal",
+            "Pérdida renal",
+            "Infección",
+            "Hematuria"
+        ],
+        answer: 0,
+        explanation: "Estado prerrenal."
+    },
+
+    {
+        question: "Un paciente con proteinuria. ¿Origen?",
+        options: [
+            "Glomérulo",
+            "Vejiga",
+            "Uretra",
+            "Uréter"
+        ],
+        answer: 0,
+        explanation: "Daño en barrera de filtración."
+    },
+
+    {
+        question: "Un paciente con eritrocitos normales en orina. ¿Origen?",
+        options: [
+            "Urológico",
+            "Glomerular",
+            "Tubular",
+            "Intersticial"
+        ],
+        answer: 0,
+        explanation: "No hay dismorfismo."
+    },
+
+    {
+        question: "Un paciente con nitritos positivos. ¿Qué indica?",
+        options: [
+            "Bacterias reductoras",
+            "Virus",
+            "Proteínas",
+            "Glucosa"
+        ],
+        answer: 0,
+        explanation: "Enterobacterias."
+    }
+
+],
+advancedClinicalUroanalysis18: [
+
+    {
+        question: "Una mujer de 29 años consulta por edema palpebral matutino, cefalea, oliguria y orina de color marrón oscuro desde hace tres días. Refiere que dos semanas antes presentó una infección faríngea con fiebre y odinofagia que resolvió sin antibióticos. En el examen físico tiene presión arterial de 170/105 mmHg, edema en miembros inferiores y malestar general. El uroanálisis revela hematuria microscópica con eritrocitos dismórficos, proteinuria moderada y cilindros hemáticos. La creatinina sérica se encuentra elevada y el complemento C3 disminuido. ¿Cuál es la explicación fisiopatológica más probable del cuadro renal actual?",
+        options: [
+            "Inflamación glomerular mediada por inmunocomplejos con activación del complemento y reducción del filtrado glomerular",
+            "Ascenso bacteriano desde vejiga con necrosis tubular focal",
+            "Lesión intersticial alérgica con leucocituria estéril y hematuria secundaria",
+            "Obstrucción ureteral bilateral con estasis urinaria y sangrado retrógrado"
+        ],
+        answer: 0,
+        explanation: "El cuadro es típico de un síndrome nefrítico agudo posinfeccioso. La secuencia temporal posterior a la infección faríngea, la disminución de C3, la hematuria glomerular y los cilindros hemáticos apuntan a depósito de inmunocomplejos en el glomérulo. Esa inflamación altera la barrera de filtración, permite el paso de eritrocitos y proteínas, y además reduce la tasa de filtrado glomerular, explicando la oliguria, la hipertensión y la elevación de creatinina."
+    },
+
+    {
+        question: "Un varón de 63 años con diabetes mellitus tipo 2 y obesidad consulta por edema progresivo en miembros inferiores, distensión abdominal y orina persistentemente espumosa. Refiere que en los últimos meses ha ganado peso, aunque niega disnea. El uroanálisis muestra proteinuria de 8.7 g/día, sin hematuria significativa, y el sedimento presenta cilindros grasos. Los análisis demuestran albúmina sérica de 2 g/dL, colesterol elevado y creatinina discretamente aumentada. ¿Qué mecanismo explica mejor el edema generalizado en este paciente?",
+        options: [
+            "Disminución de la presión oncótica plasmática por pérdida urinaria masiva de albúmina, con desplazamiento de líquido al intersticio",
+            "Aumento de la presión hidrostática glomerular que empuja agua directamente al intersticio periférico",
+            "Retención aislada de potasio por lesión tubular distal",
+            "Extravasación de sangre por hematuria glomerular mantenida"
+        ],
+        answer: 0,
+        explanation: "Este cuadro es un síndrome nefrótico. La pérdida masiva de albúmina en orina reduce la presión oncótica plasmática, lo que favorece la salida de líquido del espacio intravascular hacia el intersticio y produce edema. Además, puede activarse la retención renal de sodio y agua como respuesta al descenso del volumen arterial efectivo. Los cilindros grasos y la hiperlipidemia apoyan este diagnóstico."
+    },
+
+    {
+        question: "Una mujer de 37 años consulta por fiebre alta, escalofríos, dolor en flanco derecho, vómitos y disuria. Refiere varios episodios de infección urinaria en el último año y automedicación frecuente con antibióticos. El uroanálisis muestra bacteriuria abundante, leucocituria intensa, nitritos positivos y cilindros leucocitarios. La creatinina es normal. ¿Cuál es la interpretación anatómica más correcta de estos hallazgos urinarios?",
+        options: [
+            "El proceso se limita a la vejiga, pero con leucocitos muy abundantes",
+            "Existe inflamación del parénquima renal, ya que los leucocitos se organizaron dentro de los túbulos",
+            "Se trata de contaminación vaginal por mala toma de muestra",
+            "El cuadro sugiere exclusivamente uretritis sin compromiso renal"
+        ],
+        answer: 1,
+        explanation: "Los cilindros leucocitarios son muy importantes porque se forman dentro de los túbulos renales, utilizando como matriz proteína de Tamm-Horsfall. Esto significa que la inflamación no se limita a vías urinarias bajas, sino que ya comprometió el parénquima renal. En combinación con fiebre alta, dolor lumbar y síntomas sistémicos, orientan claramente a pielonefritis."
+    },
+
+    {
+        question: "Un hombre de 45 años consulta por dolor cólico intenso en flanco izquierdo que irradia a la región inguinal, acompañado de náuseas, inquietud y hematuria visible. Refiere que en las últimas semanas ha seguido una dieta hiperproteica con escasa hidratación. El uroanálisis muestra eritrocitos con morfología conservada, pH urinario ácido y abundantes cristales de ácido úrico, sin cilindros hemáticos. ¿Qué mecanismo explica mejor el cuadro clínico y urinario?",
+        options: [
+            "Lesión glomerular aguda con precipitación secundaria de cristales",
+            "Precipitación urinaria de ácido úrico con formación de cálculo que lesiona mecánicamente la vía urinaria",
+            "Necrosis tubular tóxica por exceso de proteínas en dieta",
+            "Nefritis intersticial con eritrocitos conservados por inflamación focal"
+        ],
+        answer: 1,
+        explanation: "La combinación de cólico renal, hematuria con eritrocitos normales, pH ácido y cristales de ácido úrico es muy sugestiva de litiasis por ácido úrico. El cálculo, al avanzar por la vía urinaria, traumatiza el urotelio y produce hematuria de origen urológico. La ausencia de cilindros hemáticos y de eritrocitos dismórficos descarta un origen glomerular."
+    },
+
+    {
+        question: "Una paciente de 22 años consulta por poliuria marcada, polidipsia intensa y varios despertares nocturnos para beber agua. No ha perdido peso y su glucosa sérica es normal. En varios uroanálisis consecutivos se documenta densidad urinaria muy baja, sin glucosuria, sin proteinuria y con sedimento sin alteraciones. Tras estudios complementarios se sospecha diabetes insípida central. ¿Qué hallazgo fisiológico sería más esperable en esta paciente?",
+        options: [
+            "Disminución de la respuesta renal a ADH con niveles plasmáticos elevados de la hormona",
+            "Déficit de secreción de ADH, con mejoría de la concentración urinaria tras administrar desmopresina",
+            "Saturación de transportadores de glucosa en el túbulo proximal",
+            "Pérdida glomerular selectiva de agua libre con albuminuria asociada"
+        ],
+        answer: 1,
+        explanation: "En la diabetes insípida central, el problema es la deficiencia de secreción de ADH. Por ello el riñón no puede concentrar adecuadamente la orina, produciendo grandes volúmenes de orina diluida. Al administrar desmopresina, que reemplaza la acción de la ADH, la orina debería concentrarse mejor. Esto la diferencia de la diabetes insípida nefrogénica, en la cual la respuesta a ADH está alterada a nivel renal."
+    },
+
+    {
+        question: "Un varón de 58 años con antecedente de cirrosis alcohólica consulta por ictericia progresiva, prurito, astenia y coluria. El uroanálisis reporta bilirrubina positiva, urobilinógeno disminuido y ausencia de hematuria. En sangre presenta elevación de bilirrubina directa y fosfatasa alcalina elevada. ¿Qué mecanismo explica mejor este patrón?",
+        options: [
+            "Predominio de hemólisis intravascular con filtración renal de bilirrubina no conjugada",
+            "Colestasis importante con aumento de bilirrubina conjugada circulante y menor llegada de pigmentos al intestino",
+            "Daño glomerular con paso anómalo de pigmentos biliares al túbulo",
+            "Aumento del metabolismo intestinal de bilirrubina con excreción urinaria secundaria"
+        ],
+        answer: 1,
+        explanation: "La bilirrubina urinaria corresponde a la forma conjugada, que es hidrosoluble. Si además el urobilinógeno disminuye, eso sugiere que menos bilirrubina está llegando al intestino, como ocurre en colestasis u obstrucción biliar significativa. La elevación de fosfatasa alcalina y de bilirrubina directa apoya una alteración colestásica más que una hemólisis."
+    },
+
+    {
+        question: "Una mujer de 40 años consulta por fiebre, rash cutáneo, artralgias y disminución de la diuresis una semana después de iniciar un antibiótico y un antiinflamatorio. La creatinina sérica se duplicó respecto a la basal. El uroanálisis muestra leucocituria, eosinófilos urinarios, proteinuria leve y ausencia de bacteriuria. ¿Qué lesión renal es la más probable?",
+        options: [
+            "Glomerulonefritis rápidamente progresiva mediada por anticuerpos anti-MBG",
+            "Nefritis intersticial aguda por hipersensibilidad medicamentosa",
+            "Pielonefritis bacteriana con esterilización parcial previa",
+            "Síndrome nefrótico por enfermedad de cambios mínimos"
+        ],
+        answer: 1,
+        explanation: "El contexto de exposición reciente a fármacos, asociado a fiebre, rash, artralgias y lesión renal aguda, es muy típico de nefritis intersticial aguda. La leucocituria estéril y los eosinófilos urinarios refuerzan el diagnóstico. No se trata de una lesión glomerular dominante, por lo que la proteinuria suele ser leve y no aparecen los hallazgos clásicos de síndrome nefrítico."
+    },
+
+    {
+        question: "Un paciente de 74 años con enfermedad renal crónica avanzada presenta astenia, prurito, nicturia y disminución del apetito. En diferentes momentos, con estados de hidratación muy distintos, la densidad urinaria se mantiene cercana a 1.010. ¿Cuál es la explicación más adecuada de este fenómeno?",
+        options: [
+            "El glomérulo filtra demasiado y por eso la densidad nunca cambia",
+            "Existe isostenuria por pérdida de la capacidad tubular y medular de concentrar o diluir la orina",
+            "La vejiga tiene menor capacidad de almacenamiento, alterando la densidad urinaria",
+            "La urea plasmática elevada se filtra y fija la densidad a ese valor"
+        ],
+        answer: 1,
+        explanation: "La isostenuria refleja pérdida de la capacidad renal de adaptar la concentración urinaria al estado hídrico del paciente. Esto ocurre cuando falla la función tubular y el gradiente medular necesario para concentrar o diluir la orina. Por eso la densidad se mantiene cercana a 1.010 sin importar si el paciente está deshidratado o sobrehidratado."
+    },
+
+    {
+        question: "Una mujer de 34 años consulta por edema generalizado, ascitis leve y orina espumosa. El uroanálisis muestra proteinuria de 10 g/día y cilindros grasos; en sangre presenta hipoalbuminemia severa e hiperlipidemia. Dos semanas después desarrolla dolor súbito en flanco izquierdo y empeoramiento agudo de la función renal. ¿Qué complicación debe sospecharse de manera prioritaria?",
+        options: [
+            "Pielonefritis aguda sobreañadida por inmunosupresión",
+            "Trombosis de vena renal por estado de hipercoagulabilidad asociado al síndrome nefrótico",
+            "Rotura espontánea de un quiste renal",
+            "Obstrucción ureteral por cilindros grasos"
+        ],
+        answer: 1,
+        explanation: "El síndrome nefrótico genera un estado de hipercoagulabilidad por pérdida urinaria de anticoagulantes naturales, como la antitrombina III, y por aumento relativo de factores procoagulantes. La trombosis de la vena renal es una complicación clásica, especialmente cuando existe proteinuria muy intensa. Dolor en flanco y deterioro renal agudo en este contexto obligan a sospecharla."
+    },
+
+    {
+        question: "Una gestante de 30 semanas consulta por vómitos intensos, debilidad, mareos y escasa ingesta en los últimos tres días. El uroanálisis revela cetonuria moderada, densidad urinaria aumentada y ausencia de glucosuria. ¿Qué combinación fisiopatológica explica mejor estos hallazgos?",
+        options: [
+            "Balance energético negativo con utilización de grasas y depleción de volumen con concentración urinaria",
+            "Cetoacidosis diabética con pérdida renal de glucosa y agua",
+            "Glomerulopatía con filtración preferencial de cuerpos cetónicos",
+            "Fermentación bacteriana urinaria de glucosa con cetonuria secundaria"
+        ],
+        answer: 0,
+        explanation: "El cuadro encaja con cetosis por ayuno o ingesta insuficiente, frecuente en estados de vómitos prolongados. El organismo utiliza grasas como fuente de energía y genera cetonas. Además, la depleción de volumen hace que la orina se concentre, elevando la densidad urinaria. La ausencia de glucosuria hace menos probable una descompensación diabética."
+    },
+
+    {
+        question: "Un hombre de 67 años con hiperplasia prostática benigna consulta por fiebre, urgencia miccional, disuria y malestar general. Refiere vaciamiento incompleto crónico y varias infecciones urinarias previas. El uroanálisis muestra bacteriuria y leucocituria. ¿Qué mecanismo fisiopatológico favorece de forma más directa las recurrencias infecciosas en este caso?",
+        options: [
+            "Producción prostática de proteínas que actúan como medio de cultivo",
+            "Estasis urinaria por obstrucción al flujo, que reduce el efecto de lavado del tracto urinario",
+            "Disminución fisiológica de la bilirrubina urinaria con la edad",
+            "Aumento de eritrocitos intactos en vejiga por hipertrofia prostática"
+        ],
+        answer: 1,
+        explanation: "La obstrucción del tracto urinario inferior favorece la permanencia de orina residual en la vejiga. Esa estasis disminuye el aclaramiento mecánico de bacterias y facilita su proliferación, lo que explica la recurrencia de infecciones urinarias en pacientes con hiperplasia prostática."
+    },
+
+    {
+        question: "Una mujer de 28 años consulta por disuria y polaquiuria. El primer uroanálisis reporta abundantes bacterias y numerosas células epiteliales escamosas. Al repetir la muestra con higiene adecuada y toma del segundo chorro miccional, la bacteriuria desaparece. ¿Cuál es la interpretación correcta del primer resultado?",
+        options: [
+            "Infección urinaria que se resolvió espontáneamente en pocas horas",
+            "Contaminación de la muestra por flora y células provenientes de la región genital externa",
+            "Glomerulonefritis con descamación epitelial exagerada",
+            "Litiasis ureteral con bacteriuria intermitente"
+        ],
+        answer: 1,
+        explanation: "La presencia abundante de células epiteliales escamosas sugiere contaminación de la muestra, generalmente por mala técnica de recolección. Esa contaminación puede arrastrar bacterias de la región genital externa y simular una infección urinaria. La desaparición del hallazgo al repetir la muestra correctamente confirma esa interpretación."
+    },
+
+    {
+        question: "Un varón de 70 años con insuficiencia cardiaca avanzada presenta ortopnea, edema periférico y oliguria. El sodio urinario es bajo y la densidad urinaria elevada. Tras administración de diuréticos de asa, el sodio urinario aumenta de manera importante. ¿Qué demuestra este cambio?",
+        options: [
+            "Que el riñón perdió completamente su capacidad de conservar sodio",
+            "Que la reabsorción tubular de sodio fue bloqueada farmacológicamente, modificando la respuesta adaptativa previa",
+            "Que el paciente nunca tuvo insuficiencia cardiaca congestiva",
+            "Que se corrigió una glomerulonefritis oculta"
+        ],
+        answer: 1,
+        explanation: "En la insuficiencia cardiaca, el riñón retiene sodio porque percibe bajo volumen arterial efectivo. Los diuréticos de asa inhiben la reabsorción tubular de sodio, aumentando su excreción urinaria. Esto no significa que el estado hemodinámico de base se haya normalizado por completo, sino que la respuesta adaptativa renal ha sido farmacológicamente modificada."
+    },
+
+    {
+        question: "Un joven de 21 años con antecedentes familiares de litiasis recurrente consulta por dolor lumbar intermitente y varios episodios de hematuria microscópica. El sedimento urinario muestra cristales hexagonales. ¿Qué alteración de base es la más probable?",
+        options: [
+            "Defecto hereditario del transporte tubular de cistina y otros aminoácidos dibásicos",
+            "Aumento intestinal de absorción de bilirrubina y formación de uratos",
+            "Pérdida glomerular de proteínas con cristalización secundaria",
+            "Déficit de ADH con precipitación tubular de aminoácidos"
+        ],
+        answer: 0,
+        explanation: "Los cristales hexagonales son muy característicos de cistinuria. Esta enfermedad se debe a un defecto hereditario del transporte tubular renal de aminoácidos dibásicos, especialmente cistina. La cistina es poco soluble y tiende a precipitar, causando litiasis recurrente."
+    },
+
+    {
+        question: "Una mujer de 55 años presenta cansancio, edema leve y orina espumosa. En controles sucesivos se confirma albuminuria persistente de bajo grado, mientras que la creatinina sérica sigue siendo normal. ¿Por qué este hallazgo es clínicamente relevante?",
+        options: [
+            "Porque la albuminuria puede ser un marcador temprano de daño renal antes de que aumente la creatinina",
+            "Porque equivale automáticamente a un síndrome nefrótico establecido",
+            "Porque confirma infección urinaria asintomática de larga data",
+            "Porque es específica de litiasis renal microscópica"
+        ],
+        answer: 0,
+        explanation: "La albuminuria persistente puede ser una manifestación temprana de daño renal, sobre todo en pacientes con factores de riesgo como diabetes o hipertensión. La creatinina puede permanecer normal durante fases iniciales, de modo que la albuminuria tiene valor pronóstico y diagnóstico precoz cuando se interpreta junto con la tasa de filtrado glomerular."
+    },
+
+    {
+        question: "Un varón de 42 años participa en una competencia de larga resistencia con ayuno prolongado, ejercicio extremo y escasa hidratación. Consulta por debilidad, mareos y oliguria. El uroanálisis muestra cetonuria, densidad urinaria alta y cilindros hialinos aislados, sin leucocituria, hematuria ni proteinuria relevante. ¿Cuál es la interpretación más adecuada?",
+        options: [
+            "Hallazgos funcionales por catabolismo y deshidratación, sin evidencia fuerte de lesión renal estructural importante",
+            "Glomerulonefritis rápidamente progresiva con sedimento todavía incompleto",
+            "Pielonefritis subclínica parcialmente tratada",
+            "Síndrome nefrótico de inicio hiperagudo"
+        ],
+        answer: 0,
+        explanation: "El ayuno favorece la utilización de grasas como sustrato energético, generando cetonas. La baja ingesta hídrica y el esfuerzo físico concentran la orina, aumentando la densidad. Los cilindros hialinos pueden aparecer en este contexto y son inespecíficos. La ausencia de hematuria, leucocituria o proteinuria significativa no sugiere una lesión renal estructural importante."
+    },
+
+    {
+        question: "Una paciente con anemia hemolítica autoinmune presenta ictericia leve y astenia. El uroanálisis muestra aumento de urobilinógeno urinario, pero bilirrubina negativa. ¿Qué mecanismo explica mejor este patrón?",
+        options: [
+            "La hemólisis aumenta la producción de bilirrubina no conjugada, que no aparece en orina, mientras que el urobilinógeno sí puede elevarse",
+            "Toda hemólisis produce bilirrubina conjugada en orina de forma intensa",
+            "La ausencia de bilirrubina urinaria descarta hemólisis como causa de ictericia",
+            "El patrón es típico de colestasis obstructiva completa"
+        ],
+        answer: 0,
+        explanation: "En la hemólisis aumenta la producción de bilirrubina, pero inicialmente predomina la fracción no conjugada, que no es hidrosoluble y no se elimina por la orina. El metabolismo intestinal de esa bilirrubina produce más urobilinógeno, que sí puede elevarse en la orina. Por eso este patrón es compatible con hemólisis."
+    },
+
+    {
+        question: "Un hombre de 64 años con diarrea severa y vómitos presenta hipotensión ortostática, mucosas secas y oliguria. El uroanálisis muestra densidad urinaria elevada, sodio urinario bajo y cilindros hialinos aislados. Si la hipoperfusión persiste y evoluciona a necrosis tubular aguda, ¿qué cambio urinario sería más esperable?",
+        options: [
+            "Persistencia indefinida de sodio urinario bajo sin cambios en el sedimento",
+            "Aumento del sodio urinario con aparición de cilindros granulosos y pérdida de la capacidad de concentración",
+            "Desarrollo de bilirrubinuria con urobilinógeno disminuido",
+            "Proteinuria masiva con cilindros grasos"
+        ],
+        answer: 1,
+        explanation: "En la fase prerrenal el riñón conserva sodio y agua. Si la hipoperfusión persiste, se produce daño tubular estructural y aparece necrosis tubular aguda. Entonces disminuye la capacidad de reabsorber sodio, aumenta el sodio urinario y aparecen cilindros granulosos, que son clásicos del daño tubular."
+    },
+
+    {
+        question: "Un paciente de 58 años con mieloma múltiple presenta deterioro progresivo de la función renal. El uroanálisis muestra proteinuria importante, pero la tira reactiva para albúmina es solo débilmente positiva. ¿Qué explicación es la más correcta?",
+        options: [
+            "La tira reactiva detecta sobre todo albúmina, mientras que en el mieloma puede predominar la excreción urinaria de cadenas ligeras monoclonales",
+            "La proteinuria del mieloma siempre es un falso positivo sin valor clínico",
+            "La densidad urinaria elevada impide toda reacción química de la tira",
+            "El mieloma daña exclusivamente la vejiga y no produce verdadera proteinuria"
+        ],
+        answer: 0,
+        explanation: "La tira reactiva convencional tiene alta sensibilidad para albúmina, pero no detecta con la misma eficacia otras proteínas. En el mieloma múltiple, la proteinuria puede estar compuesta en gran medida por cadenas ligeras monoclonales, que no son captadas igual por la tira. Por eso puede haber discrepancia entre la cuantificación total de proteínas y la positividad para albúmina."
+    },
+
+    {
+        question: "Una mujer de 30 años consulta por disuria, urgencia urinaria y dolor suprapúbico. El uroanálisis muestra esterasa leucocitaria positiva y nitritos positivos, sin cilindros leucocitarios. ¿Cuál es la interpretación más probable?",
+        options: [
+            "Infección urinaria bacteriana probablemente localizada en vías urinarias bajas",
+            "Glomerulonefritis autoinmune con infección sobreañadida",
+            "Nefritis intersticial aguda por fármacos",
+            "Síndrome nefrótico con colonización urinaria incidental"
+        ],
+        answer: 0,
+        explanation: "La esterasa leucocitaria positiva indica presencia de leucocitos y los nitritos positivos sugieren bacterias reductoras de nitratos, como muchas enterobacterias. La ausencia de cilindros leucocitarios hace menos probable compromiso renal alto. Sumado al dolor suprapúbico y la urgencia miccional, el cuadro orienta más a una infección urinaria baja, como cistitis."
+    }
+
+]
+    }
+
+},
+
+
+"Semana 3 casos - Hemostasia": {
+
+    core: {
+
+        clinicalIntegrationHemostasis: [
+
+{
+question: "Un paciente de 65 años con sepsis por bacterias gramnegativas desarrolla un estado procoagulante sistémico con formación difusa de microtrombos. En este contexto, ¿cuál es el mecanismo fisiopatológico inicial más relevante que explica la activación de la coagulación?",
+options: [
+"Disminución de la producción hepática de factores de coagulación",
+"Activación del endotelio con expresión de Factor Tisular",
+"Inhibición de la trombina por trombomodulina",
+"Aumento de la actividad de la antitrombina III"
+],
+answer: 1,
+explanation: "En estados como la sepsis (descrita en la PPT como causa de CID), el endotelio se activa por citocinas (IL-1, FNT) y expresa Factor Tisular, iniciando la vía extrínseca. Esto desencadena la coagulación sistémica. No es un problema inicial de déficit de factores ni de inhibición anticoagulante."
+},
+
+{
+question: "Un paciente presenta sangrado mucocutáneo espontáneo (epistaxis y petequias) inmediatamente después de un trauma leve. ¿Cuál es el defecto hemostático más probable según el patrón descrito?",
+options: [
+"Deficiencia de factores de coagulación de la vía intrínseca",
+"Alteración de la hemostasia primaria (plaquetaria-vascular)",
+"Déficit de fibrinógeno",
+"Alteración de la fibrinólisis secundaria"
+],
+answer: 1,
+explanation: "El patrón superficial, inmediato y mucocutáneo corresponde a trastornos plaquetarios o vasculares (hemostasia primaria). Las deficiencias de factores producen sangrados profundos y tardíos (hematomas, hemartrosis)."
+},
+
+{
+question: "Durante una cirugía, un paciente presenta sangrado persistente. El TP está prolongado, pero el TTPa es normal. ¿Cuál es la alteración más probable?",
+options: [
+"Déficit de factores VIII o IX",
+"Alteración de la vía extrínseca dependiente de factores II, V o X",
+"Disminución de la función plaquetaria",
+"Aumento de la actividad fibrinolítica"
+],
+answer: 1,
+explanation: "El TP evalúa la vía extrínseca. Su prolongación indica alteración en factores como II, V o X (y fibrinógeno). El TTPa normal descarta la vía intrínseca."
+},
+
+{
+question: "Un paciente con enfermedad hepática crónica presenta tendencia hemorrágica. ¿Cuál es el mecanismo principal que explica este hallazgo?",
+options: [
+"Aumento de la síntesis de factores de coagulación",
+"Disminución de la producción hepática de factores de coagulación",
+"Incremento de la agregación plaquetaria",
+"Disminución de la fibrinólisis"
+],
+answer: 1,
+explanation: "La mayoría de factores de coagulación se sintetizan en el hígado. Su disfunción reduce estos factores, produciendo tendencia hemorrágica. Esto está claramente indicado en la PPT."
+},
+
+{
+question: "Un paciente con déficit de vitamina K presenta alteraciones en la coagulación. ¿Qué factores estarán principalmente afectados?",
+options: [
+"I, V, VIII y XIII",
+"II, VII, IX y X",
+"XI, XII y precalicreína",
+"Fibrinógeno y trombina"
+],
+answer: 1,
+explanation: "Los factores II, VII, IX y X dependen de vitamina K para su síntesis hepática. Su deficiencia altera principalmente la vía extrínseca e intrínseca."
+},
+
+{
+question: "Tras una lesión vascular, se produce vasoconstricción inmediata. ¿Cuál de los siguientes mediadores contribuye directamente a este proceso?",
+options: [
+"Óxido nítrico",
+"Prostaciclina",
+"Serotonina plaquetaria",
+"Activador tisular del plasminógeno"
+],
+answer: 2,
+explanation: "La serotonina liberada por plaquetas contribuye a la vasoconstricción. En cambio, el NO y la PGI2 son vasodilatadores y antiagregantes."
+},
+
+{
+question: "Un paciente con hemofilia A presenta hemartrosis recurrentes. ¿Qué característica del sangrado permite diferenciarlo de un trastorno plaquetario?",
+options: [
+"Sangrado inmediato y superficial",
+"Sangrado mucoso espontáneo",
+"Sangrado profundo y tardío tras trauma",
+"Presencia de petequias"
+],
+answer: 2,
+explanation: "Las deficiencias de factores (como VIII en hemofilia A) causan sangrado profundo (articulaciones, músculos) y tardío. Esto contrasta con el sangrado superficial inmediato de trastornos plaquetarios."
+},
+
+{
+question: "Durante la activación plaquetaria, ¿qué evento permite la amplificación local de la coagulación en el sitio de lesión?",
+options: [
+"Inhibición de factores Va y VIIIa",
+"Liberación de vesículas que facilitan la unión de factores de coagulación",
+"Producción de óxido nítrico",
+"Disminución del calcio intracelular"
+],
+answer: 1,
+explanation: "Las plaquetas activadas liberan vesículas y proporcionan una superficie fosfolipídica que permite la unión de factores (Va, VIIIa), acelerando la coagulación local."
+},
+
+{
+question: "Un paciente presenta aumento del TTPa con TP normal. ¿Qué tipo de alteración es más probable?",
+options: [
+"Deficiencia de factores de la vía extrínseca",
+"Alteración de factores VIII, IX o XII",
+"Déficit de fibrinógeno",
+"Alteración del endotelio vascular"
+],
+answer: 1,
+explanation: "El TTPa evalúa la vía intrínseca. Su prolongación indica alteraciones en factores VIII, IX o XII, como se describe en la PPT."
+},
+
+{
+question: "En un paciente con coagulación intravascular diseminada (CID), ¿qué fenómeno explica la coexistencia de trombosis y hemorragia?",
+options: [
+"Aumento exclusivo de la fibrinólisis",
+"Consumo de factores de coagulación y plaquetas",
+"Inhibición completa de la trombina",
+"Disminución de la activación endotelial"
+],
+answer: 1,
+explanation: "En la CID hay activación masiva de la coagulación, formando trombos, pero también consumo de factores y plaquetas, lo que lleva a sangrado."
+},
+
+{
+question: "¿Cuál es el papel principal de la trombina en la hemostasia?",
+options: [
+"Inhibir la activación plaquetaria",
+"Convertir fibrinógeno en fibrina y activar múltiples factores",
+"Disminuir la agregación plaquetaria",
+"Inhibir la fibrinólisis"
+],
+answer: 1,
+explanation: "La trombina es clave: convierte fibrinógeno en fibrina y activa factores V, VIII, XI y XIII, amplificando la cascada."
+},
+
+{
+question: "Un paciente presenta un tiempo de sangría prolongado con recuento plaquetario normal. ¿Cuál es la causa más probable?",
+options: [
+"Déficit de fibrinógeno",
+"Alteración funcional plaquetaria",
+"Deficiencia de factor IX",
+"Déficit de vitamina K"
+],
+answer: 1,
+explanation: "El tiempo de sangría evalúa la función plaquetaria. Puede estar prolongado incluso con número normal de plaquetas si existe disfunción."
+},
+
+{
+question: "Durante la fase vascular de la hemostasia, ¿qué ocurre en el endotelio lesionado?",
+options: [
+"Se mantiene un estado anticoagulante",
+"Se inhibe la expresión de Factor Tisular",
+"Se transforma en un estado procoagulante",
+"Aumenta la producción de prostaciclina"
+],
+answer: 2,
+explanation: "El endotelio lesionado pierde sus propiedades anticoagulantes y se vuelve procoagulante, expresando Factor Tisular y promoviendo la coagulación."
+},
+
+{
+question: "Un paciente presenta aumento del Dímero D. ¿Qué indica este hallazgo?",
+options: [
+"Aumento de la síntesis de fibrinógeno",
+"Activación de la fibrinólisis",
+"Disminución de la coagulación",
+"Alteración de la función plaquetaria"
+],
+answer: 1,
+explanation: "El Dímero D es un producto de degradación de fibrina, indicando que hubo formación y posterior degradación del coágulo (fibrinólisis activa)."
+},
+
+{
+question: "En condiciones normales, el endotelio sano evita la coagulación mediante:",
+options: [
+"Producción de trombina",
+"Liberación de prostaciclina y óxido nítrico",
+"Activación del Factor Tisular",
+"Inhibición de la antitrombina III"
+],
+answer: 1,
+explanation: "El endotelio sano produce PGI2 y NO, que inhiben la agregación plaquetaria y mantienen un estado anticoagulante."
+},
+
+{
+question: "Un paciente presenta déficit de antitrombina III. ¿Cuál es la consecuencia más probable?",
+options: [
+"Tendencia hemorrágica",
+"Tendencia trombótica",
+"Disminución de la fibrina",
+"Inhibición de la trombina"
+],
+answer: 1,
+explanation: "La antitrombina III inhibe factores activados. Su deficiencia favorece la coagulación excesiva y trombosis."
+},
+
+{
+question: "¿Qué evento caracteriza la hemostasia secundaria?",
+options: [
+"Formación del tapón plaquetario",
+"Vasoconstricción inicial",
+"Formación de la red de fibrina",
+"Activación endotelial"
+],
+answer: 2,
+explanation: "La hemostasia secundaria implica la formación de fibrina que estabiliza el tapón plaquetario inicial."
+},
+
+{
+question: "Un paciente presenta sangrado retardado después de una cirugía, con formación de hematomas. ¿Qué alteración es más probable?",
+options: [
+"Defecto plaquetario",
+"Alteración de la coagulación secundaria",
+"Fragilidad vascular",
+"Déficit de serotonina"
+],
+answer: 1,
+explanation: "El sangrado tardío y profundo es característico de alteraciones en factores de coagulación (hemostasia secundaria)."
+},
+
+{
+question: "¿Qué sustancia liberada por el endotelio favorece la fibrinólisis?",
+options: [
+"Factor V",
+"Inhibidor del aTP",
+"Activador tisular del plasminógeno (aTP)",
+"Antitrombina III"
+],
+answer: 2,
+explanation: "El aTP convierte plasminógeno en plasmina, promoviendo la degradación de fibrina (fibrinólisis)."
+},
+
+{
+question: "Durante la activación plaquetaria, ¿qué rol cumple el calcio liberado de los gránulos densos?",
+options: [
+"Inhibe la coagulación",
+"Facilita la unión de factores de coagulación",
+"Disminuye la agregación plaquetaria",
+"Activa la fibrinólisis"
+],
+answer: 1,
+explanation: "El calcio permite la unión de los factores de coagulación a superficies fosfolipídicas, facilitando la cascada."
+}
+
+],
+advancedClinicalHemostasis: [
+
+{
+question: "Un paciente politraumatizado desarrolla hipotermia, acidosis y sangrado difuso en sitios de punción. Los estudios muestran aumento de TP, TTPa y dímero D elevado. ¿Cuál es el mecanismo fisiopatológico predominante?",
+options: [
+"Inhibición selectiva de la vía intrínseca",
+"Activación sistémica de la coagulación con consumo de factores",
+"Déficit aislado de fibrinógeno",
+"Hiperactividad plaquetaria localizada"
+],
+answer: 1,
+explanation: "El cuadro describe coagulación intravascular diseminada (CID), donde hay activación sistémica de la coagulación con consumo de factores y plaquetas, junto con fibrinólisis aumentada (dímero D elevado)."
+},
+
+{
+question: "Un paciente con infección severa presenta activación endotelial. ¿Qué cambio funcional del endotelio explica el inicio de la coagulación en este contexto?",
+options: [
+"Aumento de prostaciclina",
+"Expresión de Factor Tisular",
+"Incremento de óxido nítrico",
+"Liberación de antitrombina III"
+],
+answer: 1,
+explanation: "El endotelio activado por citocinas pierde su función anticoagulante y expresa Factor Tisular, iniciando la vía extrínseca de la coagulación."
+},
+
+{
+question: "Un paciente presenta sangrado persistente tras extracción dental. El tiempo de sangría está prolongado, pero TP y TTPa son normales. ¿Cuál es la alteración más probable?",
+options: [
+"Déficit de factor VIII",
+"Defecto funcional plaquetario",
+"Déficit de fibrinógeno",
+"Alteración de la vía extrínseca"
+],
+answer: 1,
+explanation: "El tiempo de sangría evalúa la hemostasia primaria. Si está prolongado con TP y TTPa normales, indica disfunción plaquetaria."
+},
+
+{
+question: "Un paciente con síndrome antifosfolípido presenta episodios recurrentes de trombosis. ¿Cuál es el mecanismo principal implicado?",
+options: [
+"Aumento de la fibrinólisis",
+"Inhibición de la activación de proteína C",
+"Déficit de factores de coagulación",
+"Disminución del Factor Tisular"
+],
+answer: 1,
+explanation: "Los anticuerpos antifosfolípidos inhiben la activación de la proteína C, favoreciendo un estado procoagulante y trombosis."
+},
+
+{
+question: "Durante la hemostasia primaria, ¿qué evento es esencial para la formación del tapón plaquetario?",
+options: [
+"Conversión de fibrinógeno en fibrina",
+"Adhesión plaquetaria mediada por Factor von Willebrand",
+"Activación de la plasmina",
+"Inhibición de la trombina"
+],
+answer: 1,
+explanation: "El Factor von Willebrand permite la adhesión plaquetaria al subendotelio, paso clave en la formación del tapón plaquetario."
+},
+
+{
+question: "Un paciente presenta prolongación aislada del TTPa. ¿Cuál de las siguientes condiciones explica mejor este hallazgo?",
+options: [
+"Déficit de factor VII",
+"Déficit de factor IX",
+"Déficit de factor V",
+"Déficit de fibrinógeno"
+],
+answer: 1,
+explanation: "El TTPa evalúa la vía intrínseca, donde participan factores como VIII y IX. Su déficit prolonga este tiempo."
+},
+
+{
+question: "En condiciones normales, ¿qué mecanismo evita la propagación excesiva del coágulo más allá del sitio de lesión?",
+options: [
+"Producción de trombina",
+"Liberación de inhibidores como antitrombina III",
+"Activación del Factor Tisular",
+"Aumento de la agregación plaquetaria"
+],
+answer: 1,
+explanation: "Los inhibidores como la antitrombina III limitan la extensión de la coagulación, evitando trombosis excesiva."
+},
+
+{
+question: "Un paciente presenta hematomas profundos tras traumatismos leves. ¿Qué tipo de alteración hemostática es más probable?",
+options: [
+"Trastorno plaquetario",
+"Alteración vascular",
+"Déficit de factores de coagulación",
+"Hiperfibrinólisis primaria"
+],
+answer: 2,
+explanation: "Los hematomas profundos son característicos de trastornos de la coagulación secundaria (factores), no de la hemostasia primaria."
+},
+
+{
+question: "Durante la activación plaquetaria, ¿qué mediador contribuye a la amplificación de la agregación plaquetaria?",
+options: [
+"Óxido nítrico",
+"ADP",
+"Prostaciclina",
+"Antitrombina III"
+],
+answer: 1,
+explanation: "El ADP liberado por plaquetas activa más plaquetas, amplificando la respuesta agregante."
+},
+
+{
+question: "Un paciente con insuficiencia hepática presenta aumento de TP y TTPa. ¿Qué explica este hallazgo?",
+options: [
+"Aumento de la síntesis de factores",
+"Déficit global de factores de coagulación",
+"Aumento de la función plaquetaria",
+"Inhibición de la fibrinólisis"
+],
+answer: 1,
+explanation: "El hígado sintetiza la mayoría de factores, por lo que su falla produce alteración de ambas vías (intrínseca y extrínseca)."
+},
+
+{
+question: "¿Cuál es el efecto principal de la trombina sobre el sistema hemostático?",
+options: [
+"Inhibe la coagulación",
+"Activa múltiples factores y plaquetas",
+"Disminuye la formación de fibrina",
+"Inhibe la agregación plaquetaria"
+],
+answer: 1,
+explanation: "La trombina amplifica la coagulación activando factores V, VIII, XI y XIII, además de promover agregación plaquetaria."
+},
+
+{
+question: "Un paciente presenta aumento del TP con TTPa normal. ¿Qué factor está más probablemente afectado?",
+options: [
+"Factor VIII",
+"Factor IX",
+"Factor VII",
+"Factor XII"
+],
+answer: 2,
+explanation: "El TP evalúa la vía extrínseca, donde el factor VII es clave."
+},
+
+{
+question: "En la fibrinólisis, ¿qué enzima es responsable de degradar la fibrina?",
+options: [
+"Trombina",
+"Plasmina",
+"Factor XIII",
+"Antitrombina III"
+],
+answer: 1,
+explanation: "La plasmina degrada la fibrina en productos como el dímero D."
+},
+
+{
+question: "Un paciente presenta petequias y equimosis con sangrado inmediato tras trauma. ¿Qué diagnóstico es más probable?",
+options: [
+"Hemofilia",
+"Trastorno plaquetario",
+"Déficit de fibrinógeno",
+"Alteración de la vía extrínseca"
+],
+answer: 1,
+explanation: "El patrón superficial inmediato corresponde a trastornos de hemostasia primaria."
+},
+
+{
+question: "¿Cuál es el papel del Factor XIII en la coagulación?",
+options: [
+"Iniciar la coagulación",
+"Convertir fibrinógeno en fibrina",
+"Estabilizar la red de fibrina",
+"Activar plaquetas"
+],
+answer: 2,
+explanation: "El factor XIII estabiliza la fibrina mediante enlaces cruzados, consolidando el coágulo."
+},
+
+{
+question: "Un paciente con CID presenta niveles elevados de dímero D. ¿Qué indica esto?",
+options: [
+"Ausencia de coagulación",
+"Activación de la fibrinólisis secundaria",
+"Déficit de plaquetas",
+"Inhibición de la plasmina"
+],
+answer: 1,
+explanation: "El dímero D indica degradación de fibrina, lo que refleja fibrinólisis activa secundaria a formación de coágulos."
+},
+
+{
+question: "Durante la fase vascular, ¿qué sucede con el óxido nítrico?",
+options: [
+"Aumenta para inhibir la coagulación",
+"Disminuye para permitir vasoconstricción",
+"Activa plaquetas",
+"Estimula fibrinólisis"
+],
+answer: 1,
+explanation: "La ausencia de NO permite vasoconstricción y facilita la hemostasia inicial."
+},
+
+{
+question: "Un paciente presenta déficit de proteína C. ¿Cuál es la consecuencia?",
+options: [
+"Tendencia hemorrágica",
+"Tendencia trombótica",
+"Disminución de fibrina",
+"Alteración de plaquetas"
+],
+answer: 1,
+explanation: "La proteína C es anticoagulante. Su déficit favorece trombosis."
+},
+
+{
+question: "¿Qué factor permite la adhesión plaquetaria al subendotelio lesionado?",
+options: [
+"Factor II",
+"Factor von Willebrand",
+"Factor X",
+"Factor XIII"
+],
+answer: 1,
+explanation: "El FvW actúa como puente entre plaquetas y colágeno subendotelial."
+},
+
+{
+question: "Un paciente presenta sangrado tardío tras cirugía con formación de hematomas. ¿Qué estudio estaría más alterado?",
+options: [
+"Tiempo de sangría",
+"Recuento plaquetario",
+"TTPa o TP",
+"Frotis periférico"
+],
+answer: 2,
+explanation: "El sangrado tardío indica alteración de la coagulación secundaria, evaluada por TP y TTPa."
+}
+
+],
+complexClinicalCasesHemostasis: [
+
+{
+question: "Un varón de 58 años ingresa a emergencia por cuadro de sepsis secundaria a infección abdominal. Durante su evolución desarrolla sangrado en sitios de venopunción, hematuria y equimosis generalizadas. Los estudios muestran: plaquetas disminuidas, TP prolongado, TTPa prolongado y dímero D elevado. El paciente también presenta signos de microtrombosis en órganos. ¿Cuál es el mecanismo fisiopatológico central que explica simultáneamente los fenómenos hemorrágicos y trombóticos en este paciente?",
+options: [
+"Déficit aislado de factores de coagulación dependientes de vitamina K",
+"Activación sistémica de la coagulación con consumo de plaquetas y factores",
+"Aumento primario de la fibrinólisis sin formación de coágulos",
+"Disminución de la producción hepática de fibrinógeno sin activación coagulatoria"
+],
+answer: 1,
+explanation: "El cuadro corresponde a coagulación intravascular diseminada (CID). En este proceso, la activación sistémica de la coagulación genera microtrombos (trombosis) mientras se consumen factores y plaquetas, lo que produce hemorragia. El dímero D elevado indica degradación de fibrina secundaria."
+},
+
+{
+question: "Una mujer de 32 años consulta por epistaxis frecuente, gingivorragia y aparición de petequias sin antecedente traumático. Refiere que el sangrado ocurre inmediatamente después de pequeños golpes. En laboratorio: recuento plaquetario normal, TP normal y TTPa normal, pero tiempo de sangría prolongado. ¿Cuál es la alteración fisiopatológica más probable?",
+options: [
+"Déficit de factores de la coagulación de la vía intrínseca",
+"Defecto en la función plaquetaria que impide la formación del tapón primario",
+"Alteración en la síntesis hepática de factores de coagulación",
+"Exceso de fibrinólisis secundaria"
+],
+answer: 1,
+explanation: "El patrón mucocutáneo inmediato con TP y TTPa normales indica un trastorno de la hemostasia primaria. El tiempo de sangría prolongado confirma disfunción plaquetaria, aunque el número de plaquetas sea normal."
+},
+
+{
+question: "Un paciente de 14 años presenta episodios recurrentes de dolor e inflamación articular después de traumatismos mínimos. En un episodio actual se evidencia hemartrosis de rodilla. Los estudios muestran TTPa prolongado con TP normal y recuento plaquetario normal. ¿Cuál es el defecto más probable y por qué el sangrado es de tipo profundo y tardío?",
+options: [
+"Defecto plaquetario que afecta la adhesión inicial",
+"Déficit de factores de la coagulación que impide la formación de fibrina estable",
+"Alteración vascular que produce fragilidad capilar",
+"Aumento de la fibrinólisis que destruye coágulos rápidamente"
+],
+answer: 1,
+explanation: "El cuadro corresponde a un déficit de factores de la vía intrínseca (como hemofilia). La formación inicial del tapón ocurre, pero al no generarse una red de fibrina estable, el sangrado es profundo y tardío."
+},
+
+{
+question: "Un paciente cirrótico de 60 años presenta sangrado prolongado tras una biopsia hepática. Los estudios revelan TP y TTPa prolongados. ¿Cuál es el mecanismo principal responsable de este hallazgo?",
+options: [
+"Aumento de la degradación de plaquetas",
+"Disminución de la síntesis hepática de múltiples factores de coagulación",
+"Aumento de la actividad de la antitrombina III",
+"Hiperactividad del sistema fibrinolítico sin alteración de factores"
+],
+answer: 1,
+explanation: "El hígado sintetiza la mayoría de factores de coagulación. Su disfunción produce un déficit global que afecta tanto la vía intrínseca como extrínseca, prolongando TP y TTPa."
+},
+
+{
+question: "Un paciente hospitalizado desarrolla trombosis venosa profunda recurrente. Los estudios muestran niveles disminuidos de antitrombina III. ¿Cómo explica este hallazgo la predisposición a la trombosis?",
+options: [
+"Disminuye la activación de factores de coagulación",
+"Aumenta la degradación de fibrina",
+"Disminuye la inhibición de factores activados de la coagulación",
+"Inhibe la agregación plaquetaria"
+],
+answer: 2,
+explanation: "La antitrombina III es un potente inhibidor de factores activados (especialmente trombina y factor Xa). Su déficit permite una coagulación descontrolada y favorece la trombosis."
+},
+
+{
+question: "Una mujer embarazada desarrolla abruptio placentae y posteriormente presenta sangrado difuso y alteraciones en la coagulación. ¿Qué evento desencadena el proceso hemostático patológico en este contexto?",
+options: [
+"Disminución de la producción de fibrinógeno",
+"Activación masiva del Factor Tisular por daño tisular",
+"Inhibición del endotelio vascular",
+"Aumento exclusivo de la fibrinólisis"
+],
+answer: 1,
+explanation: "Las complicaciones obstétricas como el abruptio placentae liberan grandes cantidades de Factor Tisular, activando la coagulación sistémica (CID)."
+},
+
+{
+question: "Un paciente presenta sangrado excesivo tras una cirugía menor. El tiempo de sangría es normal, pero el TTPa está prolongado. ¿Qué explica la diferencia entre el resultado clínico y los estudios?",
+options: [
+"La hemostasia primaria está intacta, pero falla la estabilización del coágulo",
+"La formación de fibrina es normal",
+"La función plaquetaria está alterada",
+"La vasoconstricción está aumentada"
+],
+answer: 0,
+explanation: "El tiempo de sangría normal indica hemostasia primaria intacta. El TTPa prolongado indica alteración en la coagulación secundaria, por lo que el tapón inicial se forma pero no se estabiliza con fibrina."
+},
+
+{
+question: "Un paciente con infección sistémica presenta activación del endotelio. ¿Cuál es el cambio más importante que convierte al endotelio de anticoagulante a procoagulante?",
+options: [
+"Aumento de óxido nítrico",
+"Disminución de trombomodulina",
+"Expresión de Factor Tisular",
+"Aumento de prostaciclina"
+],
+answer: 2,
+explanation: "El cambio clave es la expresión de Factor Tisular, que activa la vía extrínseca. Además, disminuyen factores anticoagulantes como trombomodulina."
+},
+
+{
+question: "Un paciente presenta sangrado tardío después de una extracción dental, con formación de hematoma profundo. ¿Por qué este patrón sugiere alteración de la hemostasia secundaria?",
+options: [
+"Porque el sangrado ocurre inmediatamente",
+"Porque el tapón plaquetario no se forma",
+"Porque la red de fibrina no se estabiliza adecuadamente",
+"Porque existe aumento de plaquetas"
+],
+answer: 2,
+explanation: "El sangrado tardío indica que el tapón inicial se formó, pero no se estabilizó por una red de fibrina adecuada, lo que depende de la coagulación secundaria."
+},
+
+{
+question: "Un paciente presenta elevación de dímero D sin evidencia clínica de sangrado activo. ¿Qué proceso está ocurriendo a nivel molecular?",
+options: [
+"Formación de fibrina sin degradación",
+"Degradación de fibrina previamente formada",
+"Inhibición de la coagulación",
+"Disminución de la actividad de la plasmina"
+],
+answer: 1,
+explanation: "El dímero D es producto de degradación de fibrina, lo que indica que hubo formación de coágulo y posterior fibrinólisis."
+},
+
+{
+question: "Un paciente con déficit de vitamina K presenta alteraciones en la coagulación. ¿Por qué este déficit afecta múltiples factores?",
+options: [
+"Porque la vitamina K activa directamente la trombina",
+"Porque es necesaria para la síntesis hepática de varios factores",
+"Porque inhibe la fibrinólisis",
+"Porque regula la función plaquetaria"
+],
+answer: 1,
+explanation: "La vitamina K es necesaria para la síntesis de factores II, VII, IX y X. Su déficit afecta múltiples vías de la coagulación."
+},
+
+{
+question: "Un paciente presenta aumento del TP con TTPa normal. ¿Por qué este patrón sugiere una alteración específica?",
+options: [
+"Porque afecta la vía intrínseca",
+"Porque afecta la vía extrínseca dependiente de factor VII",
+"Porque afecta la fibrinólisis",
+"Porque afecta la función plaquetaria"
+],
+answer: 1,
+explanation: "El TP evalúa la vía extrínseca, donde el factor VII es clave. Su alteración prolonga este tiempo sin afectar el TTPa."
+},
+
+{
+question: "Durante una respuesta inflamatoria sistémica, ¿qué efecto tienen las citocinas sobre la coagulación?",
+options: [
+"Inhiben completamente la coagulación",
+"Activan el endotelio y favorecen la expresión de Factor Tisular",
+"Disminuyen la agregación plaquetaria",
+"Inhiben la trombina"
+],
+answer: 1,
+explanation: "Citocinas como IL-1 y FNT inducen un estado procoagulante al activar el endotelio y promover la expresión de Factor Tisular."
+},
+
+{
+question: "Un paciente presenta déficit de proteína C. ¿Por qué esto genera trombosis?",
+options: [
+"Porque aumenta la fibrinólisis",
+"Porque no se inhiben los factores Va y VIIIa",
+"Porque disminuye la formación de fibrina",
+"Porque aumenta la función plaquetaria"
+],
+answer: 1,
+explanation: "La proteína C inactiva los factores Va y VIIIa. Su déficit permite que la coagulación continúe sin control."
+},
+
+{
+question: "Un paciente presenta CID secundaria a sepsis. ¿Por qué se observa tanto sangrado como trombosis?",
+options: [
+"Porque solo se activa la fibrinólisis",
+"Porque hay consumo de factores tras activación masiva de coagulación",
+"Porque disminuyen las plaquetas sin activación de coagulación",
+"Porque se inhibe la trombina"
+],
+answer: 1,
+explanation: "La activación masiva genera trombos, pero el consumo de factores y plaquetas produce sangrado."
+},
+
+{
+question: "Un paciente presenta alteración del tiempo de trombina (TT). ¿Qué componente está más directamente afectado?",
+options: [
+"Factores VIII y IX",
+"Fibrinógeno o su conversión en fibrina",
+"Función plaquetaria",
+"Factor VII"
+],
+answer: 1,
+explanation: "El TT evalúa la conversión de fibrinógeno en fibrina. Su alteración indica problemas en este paso."
+},
+
+{
+question: "Un paciente con trauma severo desarrolla hipoxia tisular. ¿Cómo contribuye esto a la activación de la coagulación?",
+options: [
+"Inhibiendo el endotelio",
+"Activando proteasas procoagulantes",
+"Aumentando la fibrinólisis exclusivamente",
+"Disminuyendo la trombina"
+],
+answer: 1,
+explanation: "El trauma y la hipoxia activan proteasas procoagulantes y favorecen estados como la CID."
+},
+
+{
+question: "Un paciente presenta sangrado superficial inmediato tras trauma leve. ¿Qué fase de la hemostasia está comprometida?",
+options: [
+"Fase vascular y plaquetaria",
+"Fase de coagulación",
+"Fase fibrinolítica",
+"Fase hepática"
+],
+answer: 0,
+explanation: "El sangrado inmediato superficial indica alteración en hemostasia primaria (vascular y plaquetaria)."
+},
+
+{
+question: "Un paciente presenta activación excesiva de plasmina. ¿Qué consecuencia se espera?",
+options: [
+"Aumento de formación de fibrina",
+"Degradación excesiva de fibrina y sangrado",
+"Formación de trombos",
+"Inhibición de la fibrinólisis"
+],
+answer: 1,
+explanation: "La plasmina degrada fibrina. Su exceso genera destrucción del coágulo y sangrado."
+},
+
+{
+question: "Un paciente presenta liberación aumentada de TXA2 y disminución de PGI2. ¿Cuál es el efecto neto?",
+options: [
+"Inhibición de la coagulación",
+"Disminución de la agregación plaquetaria",
+"Aumento de la agregación plaquetaria y vasoconstricción",
+"Aumento de la fibrinólisis"
+],
+answer: 2,
+explanation: "El TXA2 favorece agregación plaquetaria y vasoconstricción, mientras que la PGI2 hace lo contrario. Su desequilibrio promueve coagulación."
+}
+
+],
+extendedClinicalCasesHemostasis: [
+
+{
+question: "Un varón de 67 años es hospitalizado por neumonía grave y evoluciona en 48 horas con hipotensión, taquicardia, oliguria y deterioro del sensorio. Durante la evaluación en UCI se observa sangrado en encías, hemorragia persistente en sitios de venopunción y aparición de petequias y equimosis extensas en tronco y extremidades. Los análisis muestran trombocitopenia, TP prolongado, TTPa prolongado y aumento marcado de productos de degradación de fibrina. Al mismo tiempo, el paciente desarrolla insuficiencia renal aguda y datos de hipoperfusión tisular compatibles con microtrombosis. ¿Cuál de las siguientes opciones explica mejor el proceso fisiopatológico global responsable del cuadro?",
+options: [
+"Un defecto aislado de la adhesión plaquetaria con hemostasia secundaria conservada",
+"Una activación sistémica de la coagulación mediada por estímulos procoagulantes con consumo de plaquetas y factores",
+"Una deficiencia congénita de factor VIII que se manifestó por primera vez en la vejez",
+"Una alteración primaria de la pared vascular sin participación de la cascada de coagulación"
+],
+answer: 1,
+explanation: "El cuadro describe de manera clásica una coagulación intravascular diseminada. En este escenario, la activación sistémica de la coagulación genera trombos en la microcirculación, pero al mismo tiempo consume plaquetas y factores de coagulación, por lo que aparecen manifestaciones hemorrágicas. La asociación de sepsis, trombocitopenia, prolongación de TP y TTPa, aumento de productos de degradación de fibrina y disfunción orgánica encaja con ese mecanismo."
+},
+
+{
+question: "Una mujer de 26 años consulta por epistaxis recurrente, gingivorragia al cepillarse y menstruaciones muy abundantes desde la adolescencia. Refiere que cuando se realiza cortes pequeños en la cocina el sangrado comienza de inmediato y tarda mucho en ceder, pero nunca ha presentado hemartrosis ni hematomas profundos espontáneos. En el laboratorio: recuento plaquetario dentro de rango normal, TP normal, TTPa normal y tiempo de sangría prolongado. ¿Cuál es la interpretación más adecuada del patrón clínico y de laboratorio?",
+options: [
+"Existe un trastorno de la hemostasia primaria, probablemente por alteración funcional plaquetaria o de su interacción con el vaso",
+"Existe una alteración típica de la vía intrínseca, por lo que el diagnóstico más probable es hemofilia",
+"Se trata de un defecto exclusivo de la fibrinólisis, porque el coágulo se forma pero se lisa muy rápido",
+"El problema principal es una insuficiencia hepática subclínica con disminución de síntesis de factores"
+],
+answer: 0,
+explanation: "El sangrado mucocutáneo, inmediato, superficial y con tiempo de sangría prolongado apunta a un problema de hemostasia primaria. El recuento plaquetario normal no excluye un trastorno funcional plaquetario. En cambio, las alteraciones de factores de coagulación suelen producir hematomas profundos y hemartrosis, no tanto petequias, epistaxis y gingivorragia."
+},
+
+{
+question: "Un adolescente de 15 años consulta por aumento de volumen doloroso de rodilla derecha tras un traumatismo deportivo menor. Refiere episodios previos de inflamación articular y dolor profundo en muslos luego de golpes poco intensos. El examen muestra hemartrosis. El laboratorio evidencia recuento plaquetario normal, tiempo de sangría normal, TP normal y TTPa prolongado. ¿Qué razonamiento integra mejor el patrón clínico con los estudios realizados?",
+options: [
+"Hay un defecto del tapón plaquetario primario, por eso predominan petequias y sangrado inmediato",
+"Hay una alteración de la hemostasia secundaria, donde el tapón inicial puede formarse pero no se estabiliza con fibrina",
+"Hay una lesión vascular aislada sin participación de factores de coagulación",
+"Hay una activación excesiva de la fibrinólisis con conservación total de la cascada de coagulación"
+],
+answer: 1,
+explanation: "El tiempo de sangría normal y el recuento plaquetario normal indican que la hemostasia primaria está preservada. El TTPa prolongado con TP normal orienta a una alteración de la vía intrínseca. Clínicamente, la presencia de hemartrosis y hematomas profundos es típica de defectos de la coagulación secundaria, donde falla la estabilización del tapón por la red de fibrina."
+},
+
+{
+question: "Un paciente de 59 años con cirrosis avanzada secundaria a hepatopatía crónica se somete a un procedimiento invasivo y presenta sangrado más prolongado de lo esperado. En el control preoperatorio se detectan TP y TTPa prolongados. El médico explica que el hígado participa de manera central en la síntesis de diversas proteínas hemostáticas. ¿Cuál es la mejor explicación del trastorno hemostático de este paciente?",
+options: [
+"El hígado produce principalmente plaquetas, por lo que la alteración esperable es un defecto plaquetario aislado",
+"El hígado sintetiza gran parte de los factores de coagulación, por lo que su falla compromete varias vías de la hemostasia secundaria",
+"El hígado solo remueve fibrina, por lo que su disfunción causa exclusivamente trombosis",
+"El hígado regula únicamente la vasoconstricción, sin participación en la fase sanguínea de la hemostasia"
+],
+answer: 1,
+explanation: "La PPT destaca que muchos factores de coagulación son sintetizados por hepatocitos. Por eso, la enfermedad hepática puede prolongar tanto TP como TTPa y generar tendencia hemorrágica por déficit múltiple de factores. El problema no se limita a una sola vía ni a un defecto vascular aislado."
+},
+
+{
+question: "Una mujer de 34 años, en el puerperio inmediato, desarrolla disnea súbita, hipotensión y pocas horas después comienza con sangrado en heridas quirúrgicas y equimosis difusas. En laboratorio se documentan trombocitopenia, alteración simultánea de TP y TTPa, y elevación de productos de degradación de fibrina. El equipo sospecha una complicación obstétrica que desencadenó una activación masiva de la coagulación. ¿Cuál es el mecanismo inicial más probable?",
+options: [
+"Entrada de grandes cantidades de material con actividad procoagulante y expresión de Factor Tisular, activando la coagulación sistémica",
+"Déficit congénito de factor IX agravado por el embarazo",
+"Inhibición primaria de la agregación plaquetaria por exceso de prostaciclina",
+"Falla exclusiva del sistema fibrinolítico, sin formación previa de fibrina"
+],
+answer: 0,
+explanation: "Las complicaciones obstétricas descritas en la PPT, como embolia de líquido amniótico o abruptio placentae, pueden desencadenar CID por liberación de sustancias procoagulantes y activación de Factor Tisular. Ese disparo inicial genera coagulación intravascular, consumo de factores y sangrado secundario."
+},
+
+{
+question: "Un varón de 44 años presenta un primer episodio de trombosis venosa profunda sin factores de riesgo evidentes. En el estudio posterior se identifica una disminución importante de antitrombina III. El paciente pregunta por qué un problema en una proteína anticoagulante puede causarle trombosis en lugar de hemorragia. ¿Cuál es la mejor respuesta?",
+options: [
+"La antitrombina III estimula la trombina; por eso, si baja, disminuye la coagulación y aumenta el sangrado",
+"La antitrombina III inhibe factores activados de la coagulación; cuando disminuye, la coagulación queda menos frenada y predomina la tendencia trombótica",
+"La antitrombina III destruye plaquetas; su ausencia provoca trombocitopenia severa",
+"La antitrombina III activa la fibrinólisis; si desciende, se pierde exclusivamente la degradación de fibrina"
+],
+answer: 1,
+explanation: "La antitrombina III es una proteína anticoagulante natural. Su función es frenar factores activados, especialmente en la fase de propagación de la coagulación. Si disminuye, el sistema pierde uno de sus principales mecanismos de contención y eso favorece trombosis, no sangrado."
+},
+
+{
+question: "Una mujer de 29 años consulta por dolor y edema en miembro inferior por una trombosis venosa confirmada. Refiere además dos abortos previos y en su estudio se detectan anticuerpos antifosfolípidos. El hematólogo explica que estos anticuerpos generan un estado protrombótico al interferir con mecanismos anticoagulantes fisiológicos. ¿Qué alteración funcional se asocia mejor a este cuadro según los conceptos del tema?",
+options: [
+"Inhibición de la activación de proteína C, favoreciendo persistencia de la actividad procoagulante",
+"Aumento del óxido nítrico y de la prostaciclina, con pérdida del tono vasoconstrictor",
+"Defecto selectivo del factor XIII, con inestabilidad exclusiva del coágulo",
+"Bloqueo de la liberación de ADP plaquetario, con alteración del tapón primario"
+],
+answer: 0,
+explanation: "Dentro de los estados patológicos procoagulantes, el síndrome antifosfolípido se asocia a anticuerpos que favorecen trombosis al interferir con vías anticoagulantes, incluida la activación de proteína C. La consecuencia neta es la pérdida del equilibrio fisiológico hacia un estado protrombótico."
+},
+
+{
+question: "Un paciente de 63 años con adenocarcinoma pancreático desarrolla trombosis migratoria y luego signos de consumo hemostático con sangrado en mucosas. El oncólogo comenta que algunas neoplasias pueden activar de forma marcada el sistema de coagulación. ¿Cuál de las siguientes explicaciones integra mejor este fenómeno?",
+options: [
+"Las neoplasias liberan sustancias con capacidad procoagulante, como mucinas o enzimas, que pueden disparar coagulación intravascular",
+"Las neoplasias solo producen anemia, por lo que no tienen vínculo fisiopatológico directo con la coagulación",
+"La coagulación depende exclusivamente de traumatismos y no puede activarse por tumores",
+"El cáncer disminuye de manera aislada la serotonina plaquetaria sin afectar otros mecanismos"
+],
+answer: 0,
+explanation: "La PPT menciona neoplasias como desencadenantes de CID y otros estados procoagulantes. Algunos tumores, en especial adenocarcinomas, liberan sustancias que activan la coagulación y alteran el equilibrio endotelial-hemostático, pudiendo llevar tanto a trombosis como a consumo de factores."
+},
+
+{
+question: "Un hombre de 71 años llega por hemorragia persistente tras una intervención menor. Sus estudios muestran TP prolongado con TTPa normal. El residente propone que el defecto se localiza en la vía extrínseca. ¿Qué interpretación es la más adecuada en este contexto?",
+options: [
+"El defecto se relaciona con factores evaluados principalmente por TTPa, como VIII, IX o XII",
+"La alteración se localiza en la vía extrínseca, donde el factor VII tiene un papel central",
+"El problema es necesariamente plaquetario porque el TP no explora factores de coagulación",
+"El patrón descrito es típico de fibrinólisis aumentada aislada"
+],
+answer: 1,
+explanation: "El TP evalúa la formación del coágulo dependiente de la vía extrínseca. Cuando está prolongado con TTPa normal, el razonamiento clásico es ubicar la alteración en esa vía, donde el factor VII es un componente clave. Esto contrasta con la vía intrínseca, valorada por el TTPa."
+},
+
+{
+question: "Un paciente de 18 años sufre un corte profundo en el antebrazo. En los primeros minutos se produce una respuesta local que disminuye el flujo sanguíneo incluso antes de que se complete el tapón hemostático. ¿Cuál de las siguientes combinaciones explica mejor esa fase inicial?",
+options: [
+"Vasodilatación mediada por óxido nítrico y prostaciclina para facilitar la llegada de plaquetas",
+"Vasoconstricción favorecida por endotelina, serotonina plaquetaria, TXA2 y ausencia relativa de NO y PGI2",
+"Activación inmediata de plasmina para remodelar el sitio lesionado",
+"Inhibición de la adhesión plaquetaria mediante factor de Von Willebrand"
+],
+answer: 1,
+explanation: "En la fase vascular de la hemostasia, el vaso responde con vasoconstricción. La PPT menciona endotelina, serotonina plaquetaria, TXA2 y la ausencia de mediadores antiagregantes/vasodilatadores como NO y PGI2. Todo esto ayuda a limitar la pérdida sanguínea al inicio."
+},
+
+{
+question: "Una paciente de 37 años es evaluada por sangrado prolongado tras múltiples extracciones dentales. El recuento de plaquetas es normal, pero el tiempo de sangría está prolongado. Su médico enfatiza que el número de plaquetas no siempre predice su capacidad hemostática. ¿Cuál es la conclusión más correcta?",
+options: [
+"Si la cuenta plaquetaria es normal, la hemostasia primaria necesariamente también lo es",
+"Puede existir una alteración funcional plaquetaria aunque el recuento sea normal, y eso prolonga el tiempo de sangría",
+"El tiempo de sangría solo se altera cuando faltan factores II, V y X",
+"Un tiempo de sangría prolongado con plaquetas normales obliga a descartar primero enfermedad hepática"
+],
+answer: 1,
+explanation: "La función plaquetaria y el número de plaquetas son aspectos relacionados pero no equivalentes. Un paciente puede tener cuenta normal y, sin embargo, una alteración funcional de la adhesión, activación o agregación plaquetaria. Eso afecta la hemostasia primaria y prolonga el tiempo de sangría."
+},
+
+{
+question: "Un niño de 12 años con antecedente de sangrado profundo es sometido a estudio de coagulación. El hematólogo explica a la familia que el problema no está en la formación del tapón inicial, sino en la incapacidad de consolidarlo. ¿Qué evento fisiológico es el que falla principalmente en esta situación?",
+options: [
+"La vasoconstricción refleja del vaso lesionado",
+"La formación del tapón plaquetario primario",
+"La estabilización del tapón por una red de fibrina en la hemostasia secundaria",
+"La liberación endotelial de activador tisular del plasminógeno"
+],
+answer: 2,
+explanation: "Cuando el cuadro es de sangrado profundo, hematomas o hemartrosis, el defecto típico está en la coagulación secundaria. Allí, el problema central es que el tapón plaquetario inicial no logra estabilizarse con una red de fibrina adecuada."
+},
+
+{
+question: "Un paciente séptico desarrolla un estado inflamatorio intenso. En la discusión del caso, se menciona que ciertas citocinas convierten al endotelio en una superficie procoagulante. ¿Cuál de los siguientes cambios refleja mejor esa transición funcional?",
+options: [
+"Predominio de trombomodulina y activador tisular del plasminógeno sobre todo estímulo procoagulante",
+"Expresión de Factor Tisular y secreción de componentes que favorecen la coagulación local",
+"Producción masiva de óxido nítrico y prostaciclina para bloquear por completo la adhesión plaquetaria",
+"Destrucción del factor de Von Willebrand almacenado en cuerpos de Weibel-Palade"
+],
+answer: 1,
+explanation: "El endotelio activado por inflamación deja de comportarse como barrera anticoagulante y adquiere un fenotipo procoagulante. La PPT destaca la expresión de Factor Tisular y la secreción de moléculas que favorecen la hemostasia y frenan la fibrinólisis fisiológica."
+},
+
+{
+question: "Una mujer de 42 años presenta un cuadro de sangrado postoperatorio. En el laboratorio se observa prolongación del tiempo de trombina. El especialista señala que ese estudio explora una fase muy concreta del proceso hemostático. ¿Qué es lo que evalúa de manera más directa este tiempo?",
+options: [
+"La adhesión de la plaqueta al subendotelio mediada por factor de Von Willebrand",
+"La función de los factores VIII, IX y XII de la vía intrínseca",
+"La conversión de fibrinógeno en fibrina tras la adición de trombina al plasma",
+"La activación de proteína C dependiente del endotelio"
+],
+answer: 2,
+explanation: "El tiempo de trombina evalúa la etapa en la que la trombina actúa sobre el fibrinógeno para formar fibrina. Por eso se altera cuando existe problema en el fibrinógeno, interferencia por anticoagulantes circulantes o inhibidores que afectan ese paso."
+},
+
+{
+question: "Un paciente de 55 años con trauma craneoencefálico severo es internado en cuidados intensivos. Horas después, presenta deterioro respiratorio, hipotensión, sangrado difuso y parámetros de coagulación alterados. El equipo recuerda que ciertos traumatismos extensos pueden activar la coagulación de manera descontrolada. ¿Qué elemento conceptual explica mejor esta complicación?",
+options: [
+"El trauma solo causa hemorragia mecánica, sin modificar la fisiología hemostática sistémica",
+"El daño tisular extenso puede liberar y exponer sustancias procoagulantes que desencadenan activación difusa de la coagulación",
+"Los traumatismos solo afectan la hemostasia primaria y nunca alteran TP ni TTPa",
+"La principal consecuencia de un trauma severo es la inhibición completa de la trombina"
+],
+answer: 1,
+explanation: "Trauma, shock, hipoxia e injuria tisular extensa son desencadenantes clásicos de activación sistémica de la coagulación. La exposición de material tisular y la amplificación inflamatoria favorecen estados como la CID, en los que coexisten trombosis microvascular y sangrado por consumo."
+},
+
+{
+question: "Un paciente de 48 años presenta sangrado persistente tras una pequeña herida cutánea. El médico decide solicitar una prueba que valore las etapas iniciales de la hemostasia, específicamente la interacción plaqueta-vaso-coágulo. ¿Qué estudio corresponde mejor a ese objetivo?",
+options: [
+"Tiempo de protrombina",
+"Tiempo de tromboplastina parcial activada",
+"Tiempo de sangría",
+"Tiempo de trombina"
+],
+answer: 2,
+explanation: "El tiempo de sangría evalúa las etapas iniciales de la hemostasia y refleja la interacción entre vaso, plaquetas y formación inicial del tapón. No explora de manera principal la cascada de coagulación como sí lo hacen TP o TTPa."
+},
+
+{
+question: "Una paciente con antecedente de trombosis recurrente es estudiada por posible deficiencia de proteína C y proteína S. El residente pregunta por qué estas proteínas son importantes si la coagulación también es necesaria para evitar hemorragias. ¿Cuál es la mejor explicación?",
+options: [
+"Porque la hemostasia normal depende no solo de mecanismos procoagulantes, sino también de frenos fisiológicos que limitan la extensión del coágulo",
+"Porque proteína C y S son factores estructurales del tapón plaquetario primario",
+"Porque proteína C y S son las principales responsables de la vasoconstricción inicial",
+"Porque proteína C y S activan directamente el fibrinógeno para formar fibrina"
+],
+answer: 0,
+explanation: "La hemostasia normal es un equilibrio entre sistemas procoagulantes, anticoagulantes y fibrinolíticos. Las proteínas C y S forman parte de los mecanismos que impiden que la coagulación se extienda más allá del sitio de lesión. Cuando faltan, el balance se inclina hacia trombosis."
+},
+
+{
+question: "Un paciente con infección grave presenta activación intensa del sistema hemostático. El internista explica que las plaquetas no solo forman parte del tapón primario, sino que además participan en la generación localizada de fibrina. ¿Cuál es el mecanismo más importante de esa contribución?",
+options: [
+"Las plaquetas producen todos los factores de coagulación en forma completa",
+"Las plaquetas aportan una superficie fosfolipídica y ligandos que aceleran reacciones clave de la fase fluida de la coagulación",
+"Las plaquetas convierten directamente plasminógeno en plasmina",
+"Las plaquetas sustituyen la función del endotelio sano en la producción de prostaciclina"
+],
+answer: 1,
+explanation: "La PPT resalta que las plaquetas proveen los lípidos necesarios para varias reacciones de la fase fluida y ofrecen una superficie donde se ensamblan complejos de coagulación. Esto acelera y localiza la activación de factores en el sitio de lesión vascular."
+},
+
+{
+question: "Una mujer de 31 años consulta porque, luego de un parto complicado, presentó sangrado anormal y después desarrolló dolor en extremidades por fenómenos trombóticos periféricos. En la discusión académica del caso, el profesor insiste en que el error más común es pensar que hemorragia y trombosis son procesos excluyentes. ¿Qué concepto explica mejor que ambos puedan coexistir?",
+options: [
+"La coagulación y la fibrinólisis jamás ocurren al mismo tiempo",
+"Una activación exagerada de la coagulación puede consumir elementos hemostáticos y, al mismo tiempo, producir trombos",
+"Todo sangrado grave se debe exclusivamente a ausencia total de plaquetas",
+"Todo trombo implica necesariamente TP y TTPa normales"
+],
+answer: 1,
+explanation: "La coexistencia de trombosis y sangrado es una idea central en estados como la CID. Primero hay activación de la coagulación con formación de fibrina y trombos; luego, por consumo de factores y plaquetas, aparece hemorragia. No son fenómenos opuestos en este contexto, sino dos expresiones del mismo desorden."
+},
+
+{
+question: "Un paciente de 64 años es evaluado por un sangrado desproporcionado respecto al trauma sufrido. El equipo decide interpretar el patrón clínico antes de revisar los estudios. Presenta hematuria, sangrado muscular y hematomas profundos que aparecieron horas después del traumatismo, sin petequias ni sangrado gingival llamativo. ¿Cuál es la alteración más probable?",
+options: [
+"Trastorno de hemostasia primaria por defecto vascular-plaquetario",
+"Déficit de coagulación secundaria por alteración de factores",
+"Fragilidad capilar aislada",
+"Defecto exclusivo de vasoconstricción inicial"
+],
+answer: 1,
+explanation: "El sangrado profundo, tardío y en tejidos como músculo o articulaciones es característico de alteraciones de la coagulación secundaria. En cambio, petequias, púrpura, epistaxis y gingivorragia orientan mucho más a un trastorno plaquetario o vascular."
+},
+
+{
+question: "Un paciente de 50 años con sospecha de alteración de la vía intrínseca es sometido a una prueba en la que se añade al plasma una sustancia de superficie negativa antes de agregar tromboplastina parcial. El resultado sale prolongado. ¿Qué estudio corresponde a esta descripción y qué significa fisiológicamente?",
+options: [
+"Tiempo de protrombina; evalúa la vía extrínseca",
+"Tiempo de trombina; evalúa la conversión final de fibrinógeno en fibrina",
+"Tiempo de tromboplastina parcial activada; evalúa la vía intrínseca",
+"Tiempo de sangría; evalúa plaqueta-vaso-coágulo"
+],
+answer: 2,
+explanation: "La descripción corresponde al TTPa. Es la prueba clásica para explorar la vía intrínseca y su prolongación orienta a alteraciones en factores como VIII, IX o XII, entre otros componentes relacionados con esa fase."
+},
+
+{
+question: "Un paciente con sepsis por bacterias gramnegativas presenta deterioro multisistémico. En la sesión clínica se menciona que el sistema de coagulación no depende solo de factores plasmáticos, sino también del estado del endotelio, el patrón del flujo sanguíneo y las células circulantes. ¿Qué idea resume mejor esa visión integrada del problema?",
+options: [
+"La hemostasia es un fenómeno exclusivamente plasmático y aislado de la pared vascular",
+"El sistema de coagulación es un equilibrio dinámico entre mecanismos procoagulantes, anticoagulantes y fibrinolíticos dependiente de múltiples variables biológicas",
+"La coagulación solo se activa si las plaquetas están elevadas por encima de lo normal",
+"El flujo sanguíneo no tiene ninguna influencia sobre la fisiología hemostática"
+],
+answer: 1,
+explanation: "La PPT abre justamente con una visión de sistema: hemostasia y fibrinólisis, moduladas por pared vascular, endotelio, patrón de flujo, células hemáticas y la fase fluida. Comprender esa integración es clave para entender por qué en sepsis, trauma o cáncer puede desorganizarse todo el equilibrio."
+}
+
+],
+ultraComplexClinicalCasesHemostasis: [
+
+{
+question: "Un varón de 62 años es ingresado a UCI por sepsis abdominal severa. Durante las primeras 24 horas desarrolla hipotensión persistente, falla renal progresiva y compromiso respiratorio. En el examen físico aparecen petequias, equimosis y sangrado en sitios de venopunción. El laboratorio muestra: plaquetas 70,000/μL, TP prolongado, TTPa prolongado y dímero D elevado. A pesar del sangrado, se documentan signos de isquemia distal en dedos y empeoramiento de la función renal por probable microtrombosis. Considerando la interacción entre endotelio, factores de coagulación y fibrinólisis, ¿cuál de los siguientes procesos explica mejor la coexistencia de estos hallazgos aparentemente contradictorios?",
+options: [
+"Inhibición global de la coagulación con activación exclusiva de la fibrinólisis",
+"Activación sistémica de la coagulación con consumo de factores y activación secundaria de fibrinólisis",
+"Déficit aislado de plaquetas con preservación completa de la cascada de coagulación",
+"Activación exclusiva del sistema fibrinolítico sin formación previa de fibrina"
+],
+answer: 1,
+explanation: "El caso describe una CID. Primero ocurre activación sistémica de la coagulación (mediada por endotelio activado y factor tisular), generando microtrombos. Esto consume factores y plaquetas, produciendo sangrado. Paralelamente, la fibrinólisis se activa, lo que explica el dímero D elevado."
+},
+
+{
+question: "Una mujer de 35 años con antecedente de lupus eritematoso sistémico consulta por dolor y edema en la pierna izquierda. Se confirma trombosis venosa profunda. Refiere dos abortos espontáneos previos. En laboratorio se detectan anticuerpos antifosfolípidos. El médico explica que estos anticuerpos alteran el equilibrio hemostático. ¿Cuál es el mecanismo más relevante que explica la tendencia trombótica en este caso?",
+options: [
+"Aumento de la actividad del activador tisular del plasminógeno",
+"Inhibición de la activación de proteína C y pérdida de regulación anticoagulante",
+"Deficiencia de factor VII que altera la vía extrínseca",
+"Disminución de la agregación plaquetaria mediada por ADP"
+],
+answer: 1,
+explanation: "Los anticuerpos antifosfolípidos interfieren con mecanismos anticoagulantes, especialmente con la vía de proteína C. Esto elimina un freno importante de la coagulación y favorece trombosis recurrente."
+},
+
+{
+question: "Un paciente de 48 años con cirrosis hepática avanzada presenta sangrado tras una paracentesis. Los estudios muestran prolongación tanto del TP como del TTPa. El residente plantea que el hígado es clave en la fisiología de la coagulación. ¿Cuál de las siguientes afirmaciones explica mejor la alteración global del sistema hemostático en este paciente?",
+options: [
+"El hígado participa exclusivamente en la fibrinólisis, no en la coagulación",
+"La síntesis hepática de múltiples factores de coagulación está comprometida, afectando varias fases de la cascada",
+"El hígado regula solo la función plaquetaria, sin intervenir en factores plasmáticos",
+"La alteración hepática produce únicamente trombosis, no sangrado"
+],
+answer: 1,
+explanation: "La mayoría de factores de coagulación se sintetizan en el hígado. Su disfunción genera un déficit global que afecta tanto la vía intrínseca como extrínseca, produciendo sangrado."
+},
+
+{
+question: "Un adolescente de 16 años consulta por episodios recurrentes de hemartrosis y hematomas musculares tras traumatismos mínimos. En laboratorio: TTPa prolongado, TP normal, recuento plaquetario normal y tiempo de sangría normal. Considerando la secuencia de eventos hemostáticos, ¿por qué el sangrado es profundo y no superficial?",
+options: [
+"Porque la hemostasia primaria está alterada y no se forma el tapón inicial",
+"Porque la vasoconstricción es insuficiente",
+"Porque el tapón inicial se forma, pero no se estabiliza por falta de fibrina",
+"Porque existe exceso de fibrinólisis desde el inicio"
+],
+answer: 2,
+explanation: "La hemostasia primaria está intacta (plaquetas y tiempo de sangría normales). El problema está en la coagulación secundaria, por lo que el tapón inicial no se estabiliza con fibrina, produciendo sangrado profundo y tardío."
+},
+
+{
+question: "Un paciente politraumatizado desarrolla hipotermia, acidosis metabólica y sangrado difuso. Posteriormente presenta prolongación de TP y TTPa, junto con elevación de productos de degradación de fibrina. El equipo identifica un cuadro de activación sistémica de la coagulación. ¿Qué evento fisiopatológico inicial desencadena este proceso?",
+options: [
+"Activación de la fibrinólisis sin participación de coagulación",
+"Exposición y liberación de sustancias procoagulantes tras daño tisular",
+"Déficit primario de plaquetas",
+"Inhibición de la trombina por trombomodulina"
+],
+answer: 1,
+explanation: "El trauma severo libera sustancias procoagulantes y activa el endotelio, iniciando la cascada de coagulación de forma sistémica, lo que puede llevar a CID."
+},
+
+{
+question: "Una mujer de 28 años presenta sangrado gingival, epistaxis y petequias tras una infección viral reciente. El recuento plaquetario es normal, pero el tiempo de sangría está prolongado. TP y TTPa son normales. ¿Qué explicación fisiopatológica integra mejor estos hallazgos?",
+options: [
+"Déficit de factores de coagulación de la vía intrínseca",
+"Alteración funcional de las plaquetas en su adhesión o agregación",
+"Exceso de fibrina por hipercoagulabilidad",
+"Deficiencia de vitamina K"
+],
+answer: 1,
+explanation: "El patrón es típico de un trastorno funcional plaquetario: sangrado mucocutáneo inmediato, tiempo de sangría prolongado y pruebas de coagulación normales."
+},
+
+{
+question: "Un paciente presenta aumento aislado del TP con TTPa normal. El médico explica que esto sugiere alteración en la vía extrínseca. ¿Cuál es el razonamiento fisiológico detrás de esta interpretación?",
+options: [
+"El TP evalúa factores de la vía intrínseca como VIII y IX",
+"El TP evalúa la vía extrínseca donde el factor VII es fundamental",
+"El TTPa evalúa la vía extrínseca y por eso es normal",
+"Ambas pruebas evalúan exactamente los mismos factores"
+],
+answer: 1,
+explanation: "El TP mide la vía extrínseca, principalmente dependiente del factor VII. Su alteración aislada sugiere compromiso de esa vía."
+},
+
+{
+question: "Un paciente con infección severa desarrolla activación endotelial mediada por citocinas. ¿Cuál es el cambio funcional más importante que transforma al endotelio en procoagulante?",
+options: [
+"Aumento de prostaciclina",
+"Aumento de óxido nítrico",
+"Expresión de Factor Tisular",
+"Inhibición de la adhesión plaquetaria"
+],
+answer: 2,
+explanation: "El endotelio activado expresa Factor Tisular, iniciando la vía extrínseca y favoreciendo la coagulación."
+},
+
+{
+question: "Un paciente presenta niveles elevados de dímero D sin sangrado evidente. ¿Qué proceso está ocurriendo?",
+options: [
+"Formación y degradación de fibrina",
+"Inhibición de la coagulación",
+"Disminución de la plasmina",
+"Déficit de factores de coagulación"
+],
+answer: 0,
+explanation: "El dímero D indica que hubo formación de fibrina y posterior degradación por plasmina, reflejando activación de coagulación y fibrinólisis."
+},
+
+{
+question: "Un paciente con deficiencia de proteína C presenta trombosis recurrente. ¿Cuál es la función normal de esta proteína que explica este hallazgo?",
+options: [
+"Activar la trombina",
+"Inhibir factores Va y VIIIa",
+"Convertir fibrinógeno en fibrina",
+"Activar plaquetas"
+],
+answer: 1,
+explanation: "La proteína C inactiva factores Va y VIIIa. Su déficit permite que la coagulación continúe sin regulación."
+},
+
+{
+question: "Un paciente presenta sangrado tardío tras cirugía con formación de hematomas profundos. ¿Qué estudio estaría más alterado?",
+options: [
+"Tiempo de sangría",
+"Recuento plaquetario",
+"TTPa o TP",
+"Frotis sanguíneo"
+],
+answer: 2,
+explanation: "El sangrado tardío profundo indica alteración de la coagulación secundaria, evaluada por TP y TTPa."
+},
+
+{
+question: "Durante la activación plaquetaria, ¿qué mediador amplifica la agregación?",
+options: [
+"Óxido nítrico",
+"ADP",
+"Prostaciclina",
+"Antitrombina III"
+],
+answer: 1,
+explanation: "El ADP liberado por plaquetas activa otras plaquetas, amplificando la respuesta."
+},
+
+{
+question: "Un paciente presenta déficit de vitamina K. ¿Qué consecuencia se espera?",
+options: [
+"Déficit de factores II, VII, IX y X",
+"Aumento de fibrinólisis",
+"Déficit de plaquetas",
+"Inhibición de la trombina"
+],
+answer: 0,
+explanation: "La vitamina K es necesaria para la síntesis de factores II, VII, IX y X."
+},
+
+{
+question: "Un paciente con CID presenta sangrado y trombosis. ¿Por qué ambos ocurren?",
+options: [
+"Porque solo se activa fibrinólisis",
+"Porque hay consumo de factores tras activación masiva de coagulación",
+"Porque disminuyen plaquetas sin coagulación",
+"Porque se inhibe trombina"
+],
+answer: 1,
+explanation: "La activación masiva produce trombos, pero el consumo genera sangrado."
+},
+
+{
+question: "Un paciente presenta prolongación del tiempo de trombina. ¿Qué indica esto?",
+options: [
+"Problema en fibrinógeno o su conversión a fibrina",
+"Problema plaquetario",
+"Defecto vascular",
+"Déficit de factor VII"
+],
+answer: 0,
+explanation: "El TT evalúa la conversión de fibrinógeno en fibrina."
+},
+
+{
+question: "Un paciente con trauma severo desarrolla CID. ¿Qué factor contribuye?",
+options: [
+"Liberación de sustancias procoagulantes",
+"Inhibición de coagulación",
+"Aumento de NO",
+"Disminución de trombina"
+],
+answer: 0,
+explanation: "El trauma libera sustancias procoagulantes que activan la coagulación sistémica."
+},
+
+{
+question: "Un paciente presenta sangrado superficial inmediato. ¿Qué está alterado?",
+options: [
+"Hemostasia primaria",
+"Hemostasia secundaria",
+"Fibrinólisis",
+"Hígado"
+],
+answer: 0,
+explanation: "El sangrado inmediato superficial indica defecto en hemostasia primaria."
+},
+
+{
+question: "Un paciente presenta exceso de plasmina. ¿Qué ocurre?",
+options: [
+"Degradación de fibrina y sangrado",
+"Más coagulación",
+"Más trombina",
+"Inhibición de fibrinólisis"
+],
+answer: 0,
+explanation: "La plasmina degrada fibrina, causando sangrado si está aumentada."
+},
+
+{
+question: "Un paciente tiene aumento de TXA2 y disminución de PGI2. ¿Qué ocurre?",
+options: [
+"Más agregación plaquetaria",
+"Menos coagulación",
+"Más fibrinólisis",
+"Menos vasoconstricción"
+],
+answer: 0,
+explanation: "TXA2 aumenta agregación y PGI2 la inhibe; el balance favorece coagulación."
+},
+
+{
+question: "Un paciente presenta activación endotelial. ¿Qué ocurre?",
+options: [
+"Estado procoagulante",
+"Estado anticoagulante",
+"Inhibición total",
+"Ningún cambio"
+],
+answer: 0,
+explanation: "El endotelio activado se vuelve procoagulante."
+}
+
+],
+masterClinicalCasesHemostasis: [
+
+{
+question: "Un varón de 69 años ingresa por sepsis de origen urinario con hipotensión, taquicardia, piel marmórea y deterioro progresivo de la función renal. En las primeras 18 horas de hospitalización comienza con sangrado en encías, oozing persistente en sitios de venopunción y equimosis extensas en extremidades. El laboratorio muestra trombocitopenia, TP prolongado, TTPa prolongado y elevación marcada del dímero D. A pesar del sangrado visible, el paciente desarrolla signos de hipoperfusión distal y acrocianosis, lo que hace sospechar microtrombosis simultánea. ¿Cuál es la explicación fisiopatológica más completa para este cuadro?",
+options: [
+"Déficit aislado de adhesión plaquetaria con conservación de la coagulación secundaria",
+"Activación sistémica de la coagulación por estímulos inflamatorios y endoteliales, con consumo de plaquetas y factores y fibrinólisis secundaria",
+"Inhibición primaria de la trombina por trombomodulina circulante en exceso",
+"Deficiencia exclusiva de fibrinógeno, sin formación previa de trombos"
+],
+answer: 1,
+explanation: "El cuadro corresponde a una coagulación intravascular diseminada desencadenada por sepsis. El endotelio activado por mediadores inflamatorios adquiere un perfil procoagulante, con participación del Factor Tisular y activación difusa de la coagulación. Eso genera microtrombos en la circulación y, al mismo tiempo, consumo de plaquetas y factores, por lo que aparece hemorragia. El dímero D elevado indica degradación de fibrina ya formada, es decir, fibrinólisis secundaria."
+},
+
+{
+question: "Una mujer de 24 años consulta por epistaxis recurrente, gingivorragia, moretones frecuentes y menstruaciones muy abundantes desde hace varios años. Refiere que ante heridas pequeñas el sangrado comienza de inmediato y tarda mucho en detenerse, pero nunca ha presentado hemartrosis ni hematomas musculares profundos. En el laboratorio se encuentra recuento plaquetario de 230,000/μL, TP normal, TTPa normal y tiempo de sangría prolongado. ¿Qué alteración hemostática explica mejor este patrón clínico?",
+options: [
+"Defecto funcional de la hemostasia primaria, con alteración de la interacción vaso-plaqueta pese a número plaquetario normal",
+"Deficiencia de factores de la vía intrínseca, porque el TTPa puede ser normal en fases iniciales",
+"Alteración primaria del hígado con disminución subclínica de síntesis de factores",
+"Exceso de fibrinólisis, porque el coágulo se destruye antes de que aparezca la fibrina"
+],
+answer: 0,
+explanation: "El patrón es clásicamente mucocutáneo, inmediato y superficial, lo que orienta a trastorno de hemostasia primaria. El tiempo de sangría prolongado apoya este razonamiento. Que la cuenta plaquetaria sea normal no descarta una alteración funcional plaquetaria. En cambio, las alteraciones de coagulación secundaria suelen dar hematomas profundos, hemartrosis y sangrado retardado."
+},
+
+{
+question: "Un adolescente de 17 años consulta por dolor, aumento de volumen y limitación funcional de tobillo derecho tras una torcedura aparentemente leve durante un partido. El paciente refiere que en otras oportunidades presentó inflamación dolorosa de rodilla y muslo luego de traumatismos menores. Sus análisis muestran recuento plaquetario normal, tiempo de sangría normal, TP normal y TTPa prolongado. El profesor pregunta por qué este enfermo sangra en articulaciones y tejidos profundos, pero no presenta petequias. ¿Cuál es la mejor respuesta?",
+options: [
+"Porque el defecto compromete la hemostasia secundaria: el tapón inicial se forma, pero no se estabiliza con una red de fibrina adecuada",
+"Porque tiene una alteración vascular que afecta únicamente vasos de gran calibre",
+"Porque el problema principal es la destrucción acelerada de eritrocitos dentro de la articulación",
+"Porque existe una activación plaquetaria exagerada que consume rápidamente el tapón"
+],
+answer: 0,
+explanation: "El tiempo de sangría y el recuento plaquetario normales sugieren hemostasia primaria conservada. El TTPa prolongado orienta a un defecto de vía intrínseca y, por extensión, de la hemostasia secundaria. En estos casos el tapón plaquetario inicial puede formarse, pero al no consolidarse con fibrina, el sangrado es profundo y tardío, típico de músculos y articulaciones."
+},
+
+{
+question: "Un hombre de 56 años con cirrosis alcohólica descompensada es sometido a un procedimiento invasivo menor y presenta sangrado más intenso y prolongado de lo esperado. Los estudios revelan TP prolongado y TTPa prolongado. Durante la discusión del caso se recuerda que muchos componentes de la cascada de la coagulación se producen en el hígado. ¿Cuál de las siguientes afirmaciones integra mejor el problema hemostático de este paciente?",
+options: [
+"La enfermedad hepática afecta principalmente la vasoconstricción inicial, pero no la coagulación plasmática",
+"El hígado participa en la síntesis de múltiples factores de coagulación, por lo que su falla compromete varias etapas de la hemostasia secundaria",
+"El sangrado se explica solo por menor producción de plaquetas, ya que el hígado no sintetiza proteínas hemostáticas",
+"La enfermedad hepática genera sangrado únicamente si el tiempo de sangría también está alterado"
+],
+answer: 1,
+explanation: "La mayoría de factores de coagulación son sintetizados por hepatocitos. Por eso, en la hepatopatía crónica puede observarse prolongación de TP y TTPa por compromiso de múltiples factores. El trastorno no depende exclusivamente de la cifra de plaquetas ni del tiempo de sangría; es, sobre todo, un problema de la fase plasmática de la hemostasia."
+},
+
+{
+question: "Una mujer de 33 años, en el contexto de una complicación obstétrica grave con abruptio placentae, desarrolla pocas horas después sangrado difuso por heridas quirúrgicas, petequias, hipotensión y deterioro respiratorio. El laboratorio muestra plaquetas disminuidas, TP prolongado, TTPa prolongado y productos de degradación de fibrina elevados. ¿Cuál fue probablemente el evento inicial que disparó este trastorno sistémico?",
+options: [
+"Liberación y exposición masiva de material con actividad procoagulante y expresión de Factor Tisular",
+"Déficit agudo aislado de factor VIII por consumo selectivo de la vía intrínseca",
+"Supresión completa de la fibrinólisis endotelial sin formación previa de coágulos",
+"Inhibición súbita de la serotonina plaquetaria, con falla exclusiva de la fase vascular"
+],
+answer: 0,
+explanation: "Las complicaciones obstétricas son causas clásicas de activación sistémica de la coagulación. En este contexto se liberan sustancias procoagulantes y se potencia la vía mediada por Factor Tisular, iniciando un cuadro compatible con CID. Luego aparecen consumo de factores y plaquetas, y fibrinólisis secundaria."
+},
+
+{
+question: "Un varón de 41 años consulta por edema y dolor en la pantorrilla. Se confirma trombosis venosa profunda. No fuma, no ha estado inmovilizado y no tiene neoplasia conocida. En el estudio posterior se detectan niveles muy bajos de antitrombina III. El paciente pregunta cómo una alteración de 'algo que coagula menos' puede producir trombos. ¿Cuál es la explicación más correcta?",
+options: [
+"La antitrombina III es un procoagulante; cuando desciende, la sangre pierde capacidad de coagular",
+"La antitrombina III inhibe factores activados de la coagulación; su deficiencia elimina un freno fisiológico y favorece trombosis",
+"La antitrombina III destruye fibrina ya formada; su descenso impide reparar el endotelio",
+"La antitrombina III activa directamente el plasminógeno; su falta causa petequias"
+],
+answer: 1,
+explanation: "La antitrombina III forma parte de los sistemas anticoagulantes naturales. Su función es limitar la actividad de factores activados, incluyendo trombina y otras proteasas de la cascada. Cuando disminuye, la coagulación se vuelve menos controlada y aumenta la tendencia a trombosis."
+},
+
+{
+question: "Una mujer de 30 años con antecedentes de dos pérdidas gestacionales consulta por dolor torácico pleurítico y edema unilateral de miembro inferior. Se documenta tromboembolismo venoso y el estudio inmunológico revela anticuerpos antifosfolípidos. Durante la clase se menciona que estos anticuerpos favorecen trombosis al interferir con mecanismos reguladores anticoagulantes. ¿Qué alteración es la más importante en este escenario?",
+options: [
+"Inhibición de la activación de la proteína C, con pérdida del control fisiológico de la coagulación",
+"Bloqueo del factor de Von Willebrand, con defecto de adhesión plaquetaria",
+"Destrucción selectiva de fibrinógeno, con TT muy prolongado y sangrado masivo",
+"Aumento persistente de prostaciclina y óxido nítrico, con estado hemorrágico dominante"
+],
+answer: 0,
+explanation: "En el síndrome antifosfolípido predomina un estado procoagulante. Entre los mecanismos relevantes está la interferencia con vías anticoagulantes como la de proteína C. El resultado final es pérdida de regulación sobre la generación de trombina y mayor riesgo trombótico."
+},
+
+{
+question: "Un paciente de 64 años con adenocarcinoma pancreático presenta episodios repetidos de trombosis venosa en distintos territorios y luego desarrolla sangrado mucoso y alteración de pruebas de coagulación. El profesor pregunta por qué algunos tumores pueden generar tanto trombosis como consumo hemostático. ¿Cuál es la mejor explicación?",
+options: [
+"Las neoplasias liberan sustancias con actividad procoagulante, como mucinas o enzimas, que pueden activar la coagulación sistémica",
+"Los tumores producen únicamente fragilidad vascular; por eso el sangrado es el hallazgo inicial obligado",
+"Las neoplasias no interactúan con la hemostasia, salvo que infiltren médula ósea",
+"El cáncer inhibe de manera exclusiva la vasoconstricción, sin afectar factores de coagulación"
+],
+answer: 0,
+explanation: "Ciertas neoplasias, especialmente algunos adenocarcinomas, pueden liberar sustancias procoagulantes y alterar el equilibrio del sistema hemostático. Esto puede manifestarse primero como trombosis y, si hay activación sistémica intensa, progresar a consumo de factores y plaquetas."
+},
+
+{
+question: "Un hombre de 72 años consulta por sangrado excesivo tras extracción dentaria. En el laboratorio presenta TP prolongado con TTPa normal, plaquetas normales y tiempo de sangría normal. El clínico afirma que el defecto se localiza en la vía extrínseca. ¿Qué razonamiento sostiene mejor esa conclusión?",
+options: [
+"Porque el TP explora la vía extrínseca y su alteración aislada orienta a compromiso de factores como el VII",
+"Porque el TTPa normal descarta por completo toda enfermedad hemorrágica",
+"Porque el tiempo de sangría evalúa la vía extrínseca más que el TP",
+"Porque el TP solo cambia cuando hay fibrinólisis excesiva"
+],
+answer: 0,
+explanation: "El TP evalúa la formación del coágulo a través de la vía extrínseca. Si está prolongado de manera aislada, el razonamiento correcto es ubicar el defecto en esa vía, con especial consideración del factor VII. El tiempo de sangría y las plaquetas normales hacen menos probable un trastorno de hemostasia primaria."
+},
+
+{
+question: "Un joven de 19 años sufre una herida cortante en el antebrazo. El cirujano explica que en los primeros instantes la pérdida sanguínea se reduce por una respuesta vascular refleja y química antes de consolidarse el coágulo. Si se quisiera identificar qué perfil molecular favorece esa fase inicial, ¿cuál sería el más adecuado?",
+options: [
+"Aumento de prostaciclina y óxido nítrico, con disminución de serotonina y TXA2",
+"Predominio de vasoconstricción por endotelina, serotonina plaquetaria y TXA2, con ausencia relativa de NO y PGI2",
+"Activación directa de plasmina por liberación masiva de aTP en la herida",
+"Bloqueo del calcio extracelular para impedir unión de factores a membranas"
+],
+answer: 1,
+explanation: "La fase vascular inicial incluye vasoconstricción mediada por músculo liso y modulada por sustancias como endotelina, serotonina plaquetaria y TXA2. Al mismo tiempo, disminuyen las influencias vasodilatadoras y antiagregantes como NO y PGI2, lo que favorece contención inmediata del sangrado."
+},
+
+{
+question: "Una mujer de 39 años presenta sangrado importante luego de varios procedimientos odontológicos. Su recuento plaquetario es normal, pero el tiempo de sangría está prolongado. El docente insiste en que número y función plaquetaria no son equivalentes. ¿Cuál es la interpretación más precisa?",
+options: [
+"Una cuenta plaquetaria normal excluye por definición un trastorno plaquetario",
+"Puede existir una alteración funcional de la adhesión, activación o agregación plaquetaria aunque el número de plaquetas sea normal",
+"El tiempo de sangría prolongado siempre significa déficit de fibrinógeno",
+"Con plaquetas normales, la única causa de sangrado es la deficiencia de vitamina K"
+],
+answer: 1,
+explanation: "Las plaquetas pueden ser cuantitativamente normales y, aun así, funcionar mal. La hemostasia primaria depende no solo del número sino también de la capacidad de adherirse, activarse, liberar mediadores y agregarse. Por eso un tiempo de sangría prolongado con cifra normal orienta a defecto funcional."
+},
+
+{
+question: "Un niño de 13 años con episodios de sangrado profundo es evaluado en consulta. El hematólogo explica a la familia que el problema no está en iniciar la respuesta hemostática, sino en consolidarla. ¿Qué evento fisiológico es el que falla principalmente?",
+options: [
+"La vasoconstricción inmediata tras lesión vascular",
+"La formación del tapón plaquetario primario por adhesión y activación",
+"La estabilización del tapón mediante una red de fibrina propia de la hemostasia secundaria",
+"La liberación de activador tisular del plasminógeno por el endotelio"
+],
+answer: 2,
+explanation: "En los trastornos de coagulación secundaria, el defecto crucial es la incapacidad de estabilizar el tapón hemostático con fibrina. Esa red es la que transforma una respuesta inicial frágil en un coágulo resistente. Si falla, el sangrado reaparece en forma tardía y profunda."
+},
+
+{
+question: "Un paciente con sepsis bacteriana presenta activación endotelial extensa. Durante la sesión académica se comenta que el endotelio sano normalmente es anticoagulante, pero en ciertas condiciones pasa a ser procoagulante. ¿Qué cambio expresa mejor esa transición?",
+options: [
+"Aumento sostenido de PGI2 y óxido nítrico con inhibición de adhesión plaquetaria",
+"Expresión de Factor Tisular y secreción de moléculas que favorecen la coagulación local",
+"Desaparición de todo factor de Von Willebrand almacenado",
+"Activación exclusiva del sistema fibrinolítico sin tocar la coagulación"
+],
+answer: 1,
+explanation: "El endotelio activado cambia su fenotipo funcional. De una superficie anticoagulante y profibrinolítica pasa a una superficie procoagulante, con expresión de Factor Tisular y producción de mediadores que facilitan la formación de coágulo y frenan su lisis prematura."
+},
+
+{
+question: "Una paciente de 45 años desarrolla sangrado posoperatorio persistente. El tiempo de trombina se encuentra prolongado, mientras que el problema clínico parece concentrarse en la etapa final de formación del coágulo. ¿Qué evalúa de manera más directa esta prueba?",
+options: [
+"La adhesión de plaquetas al subendotelio mediada por factor de Von Willebrand",
+"La conversión de fibrinógeno en fibrina tras agregar trombina al plasma anticoagulado",
+"La integridad de la vía extrínseca dependiente del factor VII",
+"La fase vascular reflejada por la duración de la vasoconstricción local"
+],
+answer: 1,
+explanation: "El tiempo de trombina se centra en el paso final donde la trombina actúa sobre el fibrinógeno para generar fibrina. Por eso se altera cuando hay problemas de fibrinógeno, presencia de anticoagulantes circulantes o interferencias en esa conversión."
+},
+
+{
+question: "Un varón de 58 años sufre traumatismo craneoencefálico severo por accidente automovilístico. Doce horas después desarrolla sangrado difuso, inestabilidad hemodinámica, hipoxemia y pruebas de coagulación alteradas. El intensivista señala que ciertos traumatismos no solo sangran por lesión mecánica, sino que disparan una respuesta hemostática sistémica desorganizada. ¿Cuál es el mecanismo más probable?",
+options: [
+"Liberación de sustancias procoagulantes por daño tisular extenso, con activación difusa de la coagulación",
+"Déficit súbito y selectivo del factor IX por consumo local intracraneal",
+"Inhibición general de plaquetas sin alteración de factores plasmáticos",
+"Aumento exclusivo de prostaciclina endotelial, con sangrado puro sin trombosis"
+],
+answer: 0,
+explanation: "El trauma severo es un desencadenante clásico de activación sistémica de la coagulación. La lesión tisular extensa y la respuesta inflamatoria favorecen exposición de material procoagulante y activación endotelial, capaces de llevar a un cuadro tipo CID con coexistencia de trombosis microvascular y sangrado por consumo."
+},
+
+{
+question: "Un paciente de 50 años consulta por sangrado persistente tras una pequeña incisión cutánea. Se busca una prueba que evalúe específicamente las etapas iniciales de la hemostasia, es decir, la interacción entre pared vascular, plaquetas y formación del tapón primario. ¿Cuál es el estudio más apropiado?",
+options: [
+"Tiempo de protrombina",
+"Tiempo de tromboplastina parcial activada",
+"Tiempo de sangría",
+"Tiempo de trombina"
+],
+answer: 2,
+explanation: "El tiempo de sangría explora las fases iniciales de la hemostasia y refleja la interacción entre vaso, plaquetas y tapón inicial. No estudia de manera principal la cascada de coagulación plasmática, que se valora con TP, TTPa o TT."
+},
+
+{
+question: "Una mujer con antecedentes de trombosis recurrente es estudiada por posible deficiencia de proteína C y proteína S. Durante la revisión del caso, el profesor pregunta por qué estos sistemas anticoagulantes son tan importantes si la coagulación es indispensable para sobrevivir a una lesión. ¿Cuál es la respuesta más correcta?",
+options: [
+"La hemostasia normal exige equilibrio entre mecanismos procoagulantes y mecanismos que limiten la extensión del coágulo",
+"La coagulación solo se controla por la cantidad de plaquetas, por lo que proteína C y S son accesorias",
+"Las proteínas C y S forman la malla de fibrina, por eso su falta causa trombos gigantes",
+"Su única función es iniciar la vasoconstricción, no modular la cascada"
+],
+answer: 0,
+explanation: "La hemostasia fisiológica nunca depende solo de formar coágulos, sino también de limitarlos al sitio de lesión. Proteína C y S participan como frenos naturales del sistema. Si fallan, el coágulo puede propagarse más allá de lo necesario y aparecer trombosis."
+},
+
+{
+question: "Un paciente con sepsis presenta activación plaquetaria importante y el médico señala que las plaquetas no solo sirven para formar el tapón primario, sino que además facilitan la generación localizada de fibrina. ¿Cuál es el mecanismo central de esa contribución?",
+options: [
+"Las plaquetas sintetizan por sí solas todos los factores plasmáticos de coagulación",
+"Las plaquetas aportan una superficie fosfolipídica y ligandos para ensamblar complejos de coagulación y acelerar reacciones de la fase fluida",
+"Las plaquetas inhiben a la antitrombina III para que no interfiera con la fibrina",
+"Las plaquetas sustituyen al endotelio en la liberación de activador tisular del plasminógeno"
+],
+answer: 1,
+explanation: "Las plaquetas activadas proveen una membrana adecuada y elementos de anclaje para varios factores activados, permitiendo que reacciones fundamentales de la fase plasmática ocurran con rapidez y localización en el sitio de lesión. Así conectan hemostasia primaria con secundaria."
+},
+
+{
+question: "Una mujer de 34 años, luego de una complicación obstétrica, presenta sangrado por heridas quirúrgicas y, simultáneamente, dolor distal en extremidades con datos de compromiso microvascular. Un estudiante afirma que hemorragia y trombosis son fenómenos opuestos y que no deberían coexistir. ¿Cuál es la mejor corrección conceptual?",
+options: [
+"En trastornos como la CID, la activación exagerada de la coagulación forma trombos y a la vez consume factores y plaquetas, generando sangrado",
+"Si hay sangrado importante, queda descartada cualquier activación de la coagulación",
+"Las trombosis solo ocurren cuando TP y TTPa son normales",
+"La hemorragia en estos contextos se explica siempre por fibrinólisis primaria sin formación de fibrina"
+],
+answer: 0,
+explanation: "El error del estudiante es pensar en trombosis y hemorragia como procesos incompatibles. En estados de activación sistémica de la coagulación, como la CID, primero se forman trombos y se consume el sistema hemostático; después aparecen manifestaciones hemorrágicas por agotamiento de factores y plaquetas."
+},
+
+{
+question: "Un hombre de 61 años presenta hematuria, hematomas musculares y sangrado tardío tras un procedimiento invasivo. No tiene petequias ni gingivorragia llamativa. Antes de revisar los exámenes, el médico decide interpretar el patrón clínico. ¿Cuál es la alteración más probable?",
+options: [
+"Trastorno de hemostasia primaria con defecto vascular-plaquetario",
+"Alteración de coagulación secundaria por defecto de factores plasmáticos",
+"Fragilidad capilar aislada sin compromiso de coagulación",
+"Defecto exclusivo de liberación de serotonina plaquetaria"
+],
+answer: 1,
+explanation: "El patrón de sangrado profundo y tardío orienta a trastornos de coagulación secundaria. Si predominara hemostasia primaria, esperaríamos petequias, púrpura, epistaxis y sangrado mucoso inmediato. La distribución clínica del sangrado sigue siendo una pista diagnóstica muy valiosa."
+},
+
+{
+question: "Un paciente de 47 años es estudiado por sospecha de alteración de la vía intrínseca. En el laboratorio se añade al plasma una sustancia con carga negativa antes de agregar tromboplastina parcial, y el tiempo resultante está prolongado. ¿Qué estudio se realizó y qué interpreta el clínico a partir de él?",
+options: [
+"Tiempo de protrombina; alteración de la vía extrínseca",
+"Tiempo de tromboplastina parcial activada; alteración de la vía intrínseca",
+"Tiempo de trombina; defecto en la conversión final de fibrinógeno",
+"Tiempo de sangría; defecto en la adhesión plaquetaria"
+],
+answer: 1,
+explanation: "La descripción corresponde al TTPa. Esta prueba explora la vía intrínseca, por lo que su prolongación orienta a alteraciones de factores como VIII, IX o XII, entre otros componentes relacionados con esa parte de la cascada."
+}
+
+],
+ultraIntegratedClinicalCasesHemostasis: [
+
+{
+question: "Un varón de 71 años ingresa por sepsis secundaria a infección pulmonar. En las primeras horas presenta fiebre alta, hipotensión y taquicardia. A las 24 horas comienza con sangrado difuso en mucosas, equimosis extensas y hemorragia persistente en sitios de venopunción. Los análisis muestran plaquetas 60,000/μL, TP prolongado, TTPa prolongado y dímero D elevado. Sin embargo, el paciente desarrolla simultáneamente oliguria progresiva y cianosis distal en dedos. El residente propone que el sangrado excluye un estado trombótico activo. ¿Cuál es el error conceptual en ese razonamiento?",
+options: [
+"Que la fibrinólisis nunca ocurre en pacientes sépticos",
+"Que la coagulación y la fibrinólisis son procesos independientes",
+"Que la activación sistémica de la coagulación puede coexistir con consumo de factores y manifestaciones hemorrágicas",
+"Que la trombosis solo ocurre cuando las pruebas de coagulación son normales"
+],
+answer: 2,
+explanation: "El error es asumir que trombosis y sangrado son excluyentes. En la CID, la activación masiva de la coagulación genera microtrombos, pero también consume plaquetas y factores, produciendo sangrado. Es un fenómeno simultáneo, no opuesto."
+},
+
+{
+question: "Una mujer de 27 años consulta por sangrado gingival, epistaxis frecuente y aparición de petequias luego de una infección viral reciente. Refiere que el sangrado ocurre inmediatamente tras traumatismos leves. En laboratorio: plaquetas 210,000/μL, TP normal, TTPa normal y tiempo de sangría prolongado. El médico explica que el problema no es cuantitativo sino cualitativo. ¿Qué proceso está alterado principalmente?",
+options: [
+"La conversión de fibrinógeno en fibrina",
+"La adhesión, activación o agregación plaquetaria",
+"La activación de la vía extrínseca",
+"La síntesis hepática de factores vitamina K dependientes"
+],
+answer: 1,
+explanation: "El cuadro clínico corresponde a un defecto funcional plaquetario. Aunque el número de plaquetas es normal, su función está alterada, lo que compromete la hemostasia primaria."
+},
+
+{
+question: "Un adolescente de 15 años presenta hemartrosis recurrente y hematomas musculares profundos tras traumatismos mínimos. En laboratorio: TP normal, TTPa prolongado, plaquetas normales. El médico explica que el tapón inicial se forma pero no es estable. ¿Cuál es la falla específica en la secuencia hemostática?",
+options: [
+"La vasoconstricción inicial",
+"La formación del tapón plaquetario",
+"La estabilización del coágulo mediante fibrina",
+"La activación del plasminógeno"
+],
+answer: 2,
+explanation: "El defecto está en la coagulación secundaria. El tapón plaquetario inicial se forma, pero no se estabiliza con fibrina, lo que produce sangrado profundo y tardío."
+},
+
+{
+question: "Un paciente de 63 años con hepatopatía crónica presenta sangrado prolongado tras una biopsia. Sus estudios muestran TP y TTPa prolongados. ¿Cuál es la mejor explicación fisiopatológica?",
+options: [
+"Disminución de la producción de plaquetas",
+"Déficit global de factores de coagulación sintetizados en el hígado",
+"Aumento de fibrinólisis aislada",
+"Alteración exclusiva de la vía extrínseca"
+],
+answer: 1,
+explanation: "El hígado sintetiza la mayoría de factores de coagulación. Su falla afecta múltiples vías, prolongando TP y TTPa."
+},
+
+{
+question: "Un paciente con adenocarcinoma presenta episodios de trombosis migratoria y posteriormente sangrado difuso. ¿Qué mecanismo explica esta evolución?",
+options: [
+"Inhibición de coagulación seguida de activación fibrinolítica",
+"Activación inicial de coagulación por sustancias tumorales con consumo posterior de factores",
+"Déficit aislado de plaquetas",
+"Disminución de prostaciclina"
+],
+answer: 1,
+explanation: "Los tumores pueden liberar sustancias procoagulantes que activan la coagulación. Esto puede evolucionar a consumo de factores y sangrado."
+},
+
+{
+question: "Una paciente con síndrome antifosfolípido presenta trombosis recurrente. ¿Cuál es el mecanismo clave?",
+options: [
+"Aumento de fibrinólisis",
+"Inhibición de proteína C",
+"Déficit de fibrinógeno",
+"Disminución de plaquetas"
+],
+answer: 1,
+explanation: "Los anticuerpos antifosfolípidos interfieren con mecanismos anticoagulantes como la proteína C, favoreciendo trombosis."
+},
+
+{
+question: "Un paciente presenta TP prolongado con TTPa normal. ¿Qué se infiere?",
+options: [
+"Alteración de vía intrínseca",
+"Alteración de vía extrínseca",
+"Defecto plaquetario",
+"Fibrinólisis aumentada"
+],
+answer: 1,
+explanation: "El TP evalúa la vía extrínseca, especialmente el factor VII."
+},
+
+{
+question: "Un paciente con trauma severo desarrolla CID. ¿Qué evento inicial lo explica?",
+options: [
+"Inhibición de trombina",
+"Liberación de sustancias procoagulantes",
+"Déficit de plaquetas",
+"Aumento de NO"
+],
+answer: 1,
+explanation: "El trauma libera sustancias que activan la coagulación sistémica."
+},
+
+{
+question: "Un paciente presenta dímero D elevado. ¿Qué indica?",
+options: [
+"Inhibición de coagulación",
+"Formación y degradación de fibrina",
+"Déficit de factores",
+"Disminución de plasmina"
+],
+answer: 1,
+explanation: "El dímero D indica que hubo formación de fibrina y posterior degradación."
+},
+
+{
+question: "Un paciente presenta déficit de antitrombina III. ¿Qué ocurre?",
+options: [
+"Sangrado",
+"Trombosis",
+"Fibrinólisis",
+"Plaquetopenia"
+],
+answer: 1,
+explanation: "La antitrombina III inhibe la coagulación; su déficit favorece trombosis."
+},
+
+{
+question: "Un paciente presenta sangrado tardío tras cirugía. ¿Qué fase está alterada?",
+options: [
+"Primaria",
+"Secundaria",
+"Vascular",
+"Fibrinolítica"
+],
+answer: 1,
+explanation: "El sangrado tardío indica defecto en coagulación secundaria."
+},
+
+{
+question: "Durante sepsis, el endotelio cambia. ¿Qué ocurre?",
+options: [
+"Se vuelve anticoagulante",
+"Expresa factor tisular",
+"Inhibe coagulación",
+"Solo libera NO"
+],
+answer: 1,
+explanation: "El endotelio activado se vuelve procoagulante."
+},
+
+{
+question: "Un paciente con déficit de vitamina K presenta sangrado. ¿Por qué?",
+options: [
+"No hay plaquetas",
+"No se sintetizan factores II, VII, IX, X",
+"No hay fibrinólisis",
+"No hay trombina"
+],
+answer: 1,
+explanation: "Estos factores dependen de vitamina K."
+},
+
+{
+question: "Un paciente presenta exceso de plasmina. ¿Qué ocurre?",
+options: [
+"Más coagulación",
+"Más fibrina",
+"Degradación de fibrina",
+"Más trombina"
+],
+answer: 2,
+explanation: "La plasmina degrada fibrina."
+},
+
+{
+question: "Un paciente con sangrado mucocutáneo inmediato. ¿Qué falla?",
+options: [
+"Coagulación secundaria",
+"Hemostasia primaria",
+"Fibrinólisis",
+"Hígado"
+],
+answer: 1,
+explanation: "Sangrado inmediato superficial indica hemostasia primaria."
+},
+
+{
+question: "Un paciente presenta TT prolongado. ¿Qué indica?",
+options: [
+"Problema en fibrinógeno",
+"Problema plaquetas",
+"Problema vascular",
+"Problema VII"
+],
+answer: 0,
+explanation: "El TT evalúa fibrinógeno → fibrina."
+},
+
+{
+question: "Un paciente con trauma presenta hipoxia. ¿Qué ocurre?",
+options: [
+"Inhibe coagulación",
+"Activa coagulación",
+"Inhibe plaquetas",
+"Activa fibrinólisis solo"
+],
+answer: 1,
+explanation: "Hipoxia y trauma favorecen coagulación."
+},
+
+{
+question: "Un paciente con aumento TXA2 y ↓ PGI2. ¿Resultado?",
+options: [
+"Menos coagulación",
+"Más coagulación",
+"Más fibrinólisis",
+"Menos agregación"
+],
+answer: 1,
+explanation: "TXA2 favorece agregación, PGI2 la inhibe."
+},
+
+{
+question: "Un paciente presenta sangrado profundo. ¿Causa?",
+options: [
+"Plaquetas",
+"Factores coagulación",
+"Vasos",
+"Fibrinólisis"
+],
+answer: 1,
+explanation: "Sangrado profundo = coagulación secundaria."
+},
+
+{
+question: "Un paciente presenta alteración intrínseca. ¿Qué prueba?",
+options: [
+"TP",
+"TTPa",
+"TT",
+"TS"
+],
+answer: 1,
+explanation: "TTPa evalúa vía intrínseca."
+}
+
+],
+grandRoundsClinicalCasesHemostasis: [
+
+{
+question: "Un varón de 66 años es admitido en UCI por sepsis abdominal secundaria a perforación intestinal. Durante las primeras horas requiere vasopresores por hipotensión refractaria. A las 18 horas de evolución comienza con sangrado continuo en sitios de venopunción, hematuria macroscópica, petequias en tórax y equimosis extensas en miembros inferiores. El laboratorio muestra: plaquetas 48,000/μL, TP prolongado, TTPa prolongado y dímero D muy elevado. A pesar del sangrado evidente, el paciente desarrolla oliguria, acrocianosis y aumento de lactato sérico, lo que sugiere hipoperfusión por compromiso microvascular. El residente más joven sostiene que, dado que el cuadro dominante es hemorrágico, no puede existir formación patológica de trombos. ¿Cuál es la mejor interpretación del proceso fisiopatológico que está ocurriendo?",
+options: [
+"Existe una falla aislada de la hemostasia primaria, por lo que no puede haber activación de la cascada de coagulación",
+"Se ha producido una activación sistémica de la coagulación con formación de microtrombos, consumo de plaquetas y factores, y fibrinólisis secundaria",
+"Se trata de una deficiencia aislada de fibrinógeno, lo que explica tanto el sangrado como la elevación del dímero D",
+"El cuadro corresponde exclusivamente a una hiperactivación del plasminógeno sin formación previa de fibrina"
+],
+answer: 1,
+explanation: "El caso describe una coagulación intravascular diseminada. En este escenario, la inflamación sistémica y la activación endotelial favorecen una respuesta procoagulante con formación difusa de fibrina y microtrombos. Al mismo tiempo, se consumen plaquetas y factores de coagulación, por lo que aparece sangrado. La elevación del dímero D demuestra que hubo fibrina formada y posteriormente degradada. Por eso, trombosis y hemorragia no solo pueden coexistir, sino que forman parte del mismo trastorno fisiopatológico."
+},
+
+{
+question: "Una mujer de 23 años consulta por menorragia intensa desde la adolescencia, epistaxis frecuentes, sangrado gingival al cepillado y aparición de petequias ante traumatismos mínimos. Refiere que cuando se corta cocinando, el sangrado comienza de inmediato y tarda más de lo habitual en detenerse. Niega hemartrosis, dolor muscular profundo o hematomas extensos espontáneos. Los estudios muestran: plaquetas 245,000/μL, TP normal, TTPa normal y tiempo de sangría prolongado. El médico explica que la paciente no tiene un problema de cantidad de plaquetas sino de eficiencia funcional del sistema que inicia la hemostasia. ¿Cuál es la mejor localización fisiopatológica del defecto?",
+options: [
+"La fase vascular-plaquetaria de la hemostasia, con alteración en la adhesión, activación o agregación plaquetaria",
+"La fase de estabilización por fibrina de la hemostasia secundaria, con alteración en factores plasmáticos",
+"La etapa terminal de conversión de fibrinógeno en fibrina, por alteración primaria del tiempo de trombina",
+"El sistema fibrinolítico, con degradación prematura del coágulo ya estabilizado"
+],
+answer: 0,
+explanation: "El patrón de sangrado mucocutáneo, superficial e inmediato orienta a un trastorno de hemostasia primaria. El tiempo de sangría prolongado, con TP y TTPa normales, refuerza ese diagnóstico. La cifra de plaquetas normal no excluye una alteración funcional plaquetaria. En contraste, los defectos de coagulación secundaria suelen producir sangrado profundo, hematomas y hemartrosis."
+},
+
+{
+question: "Un adolescente de 14 años es llevado por su madre por aumento de volumen doloroso de rodilla izquierda luego de una caída de baja intensidad en el colegio. Refiere episodios previos de inflamación articular y dolor en muslos tras golpes menores. El examen físico actual muestra una hemartrosis evidente. Los estudios reportan recuento plaquetario normal, tiempo de sangría normal, TP normal y TTPa prolongado. El pediatra comenta que el paciente sí puede iniciar la hemostasia, pero falla en consolidarla adecuadamente. ¿Qué explicación describe mejor este problema?",
+options: [
+"El paciente no puede formar tapón plaquetario, por eso predomina el sangrado profundo articular",
+"El tapón inicial se forma, pero no se estabiliza mediante una red de fibrina adecuada por alteración de la coagulación secundaria",
+"La lesión se debe a fragilidad vascular generalizada, con integridad normal de la cascada de coagulación",
+"El problema principal es exceso de fibrinólisis, que impide la vasoconstricción inicial"
+],
+answer: 1,
+explanation: "El tiempo de sangría normal y el recuento plaquetario normal indican que la hemostasia primaria está conservada. El TTPa prolongado sugiere compromiso de la vía intrínseca. Clínicamente, la hemartrosis y los hematomas profundos son típicos de defectos de coagulación secundaria, donde falla la estabilización del tapón por fibrina."
+},
+
+{
+question: "Un hombre de 58 años con cirrosis hepática avanzada es sometido a una paracentesis terapéutica. Tras el procedimiento presenta sangrado persistente por el sitio de punción. El laboratorio revela TP prolongado, TTPa prolongado y disminución de varios factores de coagulación. Durante la discusión del caso, un estudiante sostiene que el hígado solo participa en el metabolismo de sustancias tóxicas y no en la coagulación. ¿Cuál es la mejor corrección a esa afirmación?",
+options: [
+"El hígado sintetiza gran parte de los factores de coagulación, por lo que su falla compromete varias vías de la hemostasia secundaria",
+"El hígado tiene un papel menor en coagulación y el sangrado se explica casi exclusivamente por el calibre vascular",
+"El hígado participa solo en la vasoconstricción, no en la producción de proteínas plasmáticas hemostáticas",
+"El hígado sintetiza exclusivamente plaquetas y por eso prolonga el tiempo de sangría"
+],
+answer: 0,
+explanation: "Muchos factores de coagulación son sintetizados por hepatocitos. Cuando hay enfermedad hepática significativa, la capacidad del organismo para sostener la coagulación secundaria disminuye, y esto se refleja en pruebas como TP y TTPa prolongados. Por tanto, el hígado no es un actor periférico, sino central en la fisiología hemostática."
+},
+
+{
+question: "Una mujer de 31 años, pocas horas después de un abruptio placentae, comienza con disnea, sangrado por sitios de venoclisis, equimosis generalizadas y deterioro hemodinámico. El laboratorio muestra trombocitopenia, prolongación de TP y TTPa, y aumento de productos de degradación de fibrina. El ginecólogo explica que en ciertas complicaciones obstétricas se liberan potentes estímulos procoagulantes a la circulación. ¿Cuál es el mecanismo inicial más probable del cuadro actual?",
+options: [
+"Expresión y liberación de material con actividad procoagulante, incluido Factor Tisular, con activación sistémica de la coagulación",
+"Disminución aislada del factor IX, con alteración exclusiva de la vía intrínseca",
+"Inhibición primaria de la función plaquetaria, con integridad total de los factores plasmáticos",
+"Bloqueo repentino de la plasmina, con imposibilidad de degradar fibrina ya formada"
+],
+answer: 0,
+explanation: "Las complicaciones obstétricas pueden desencadenar CID por liberación de sustancias con actividad procoagulante y activación del endotelio/factor tisular. Posteriormente aparece consumo de factores y plaquetas, con sangrado secundario y elevación de productos de degradación de fibrina."
+},
+
+{
+question: "Un varón de 45 años sin antecedentes mayores presenta una trombosis venosa profunda espontánea. En el estudio etiológico se encuentra actividad marcadamente reducida de antitrombina III. El paciente pregunta por qué una deficiencia de una molécula 'anticoagulante' le produce trombosis en lugar de hemorragia. ¿Cuál es la respuesta más adecuada?",
+options: [
+"La antitrombina III activa la formación de fibrina; cuando disminuye, el organismo compensa con trombosis",
+"La antitrombina III inhibe factores activados de la coagulación, por lo que su deficiencia elimina un freno fisiológico importante y favorece la generación de trombos",
+"La antitrombina III solo actúa sobre plaquetas, así que su deficiencia produce trombosis por aumento del tiempo de sangría",
+"La antitrombina III forma parte del sistema fibrinolítico, así que su ausencia impide la vasoconstricción"
+],
+answer: 1,
+explanation: "La antitrombina III es un regulador anticoagulante natural que limita la actividad de trombina y otros factores activados. Si esta inhibición disminuye, la coagulación se vuelve excesiva y mal controlada. Por eso el resultado clínico esperado es trombosis, no sangrado."
+},
+
+{
+question: "Una mujer de 36 años con antecedentes de dos abortos espontáneos consulta por dolor y edema de miembro inferior izquierdo. La ecografía doppler confirma trombosis venosa profunda. En el estudio inmunológico se detectan anticuerpos antifosfolípidos. Durante la revisión académica del caso se explica que estos autoanticuerpos favorecen la trombosis al interferir con mecanismos anticoagulantes fisiológicos. ¿Cuál es el mecanismo más relevante entre las siguientes opciones?",
+options: [
+"Inhibición de la activación de proteína C, favoreciendo persistencia de la actividad procoagulante",
+"Bloqueo del factor XIII, con imposibilidad de estabilizar fibrina",
+"Destrucción de gránulos densos plaquetarios, con disminución de ADP y serotonina",
+"Disminución de la síntesis hepática de vitamina K, con alteración combinada de vías intrínseca y extrínseca"
+],
+answer: 0,
+explanation: "En el síndrome antifosfolípido, el equilibrio fisiológico se desplaza hacia la trombosis por interferencia con vías anticoagulantes, incluida la activación de proteína C. Esto reduce el control sobre la coagulación y favorece eventos trombóticos recurrentes."
+},
+
+{
+question: "Un paciente de 62 años con adenocarcinoma pancreático evoluciona con episodios repetidos de trombosis venosa en distintos territorios. Semanas después presenta sangrado mucoso y alteraciones importantes de las pruebas de coagulación. El oncólogo explica que ciertos tumores sólidos pueden actuar como poderosos activadores del sistema hemostático. ¿Cuál de las siguientes explicaciones integra mejor la evolución clínica de este paciente?",
+options: [
+"Las neoplasias pueden liberar mucinas y otras sustancias procoagulantes, generando un estado inicial trombótico que puede progresar a consumo hemostático",
+"Los tumores solo producen sangrado por invasión de vasos, sin modificar la cascada de coagulación",
+"El cáncer pancreático ocasiona exclusivamente trombocitopenia inmune, sin cambios en factores plasmáticos",
+"La única consecuencia hemostática del cáncer es el aumento de prostaciclina endotelial"
+],
+answer: 0,
+explanation: "Algunas neoplasias, en especial adenocarcinomas, pueden activar de manera importante la coagulación por liberación de sustancias procoagulantes. Esto puede manifestarse primero como trombosis y, si el proceso se generaliza, llevar a consumo de factores y plaquetas con sangrado posterior."
+},
+
+{
+question: "Un hombre de 68 años presenta sangrado excesivo tras una extracción dental. Los estudios muestran TP prolongado con TTPa normal, recuento plaquetario normal y tiempo de sangría normal. El clínico comenta que el defecto probablemente se localiza en la vía extrínseca. ¿Cuál es el razonamiento más correcto para llegar a esa conclusión?",
+options: [
+"Porque el TTPa normal obliga a pensar en un defecto exclusivamente vascular",
+"Porque el TP evalúa la vía extrínseca y, cuando se prolonga de manera aislada, sugiere compromiso de factores como el VII",
+"Porque el tiempo de sangría es la mejor prueba para explorar factor VII",
+"Porque el TP solo se prolonga cuando existe exceso de fibrinólisis"
+],
+answer: 1,
+explanation: "El TP valora la vía extrínseca. Una prolongación aislada de TP, con TTPa normal y hemostasia primaria aparentemente intacta, orienta hacia una alteración localizada en esa vía, donde el factor VII es especialmente importante."
+},
+
+{
+question: "Un joven de 20 años sufre una laceración en el antebrazo. En los minutos iniciales el sangrado disminuye antes de que se consolide completamente el coágulo. El cirujano explica que esta respuesta inmediata depende de una fase vascular con mediadores bien definidos. ¿Cuál de las siguientes combinaciones refleja mejor esa fase?",
+options: [
+"Predominio de prostaciclina y óxido nítrico para mantener flujo libre y prevenir adhesión plaquetaria",
+"Vasoconstricción favorecida por endotelina, serotonina plaquetaria y TXA2, junto con ausencia relativa de NO y PGI2",
+"Activación del activador tisular del plasminógeno para iniciar degradación temprana del coágulo",
+"Bloqueo del calcio plasmático para impedir ensamblaje de complejos de coagulación"
+],
+answer: 1,
+explanation: "La fase vascular incluye vasoconstricción mediada por sustancias como endotelina, serotonina y TXA2. La disminución relativa de mediadores antiagregantes y vasodilatadores, como NO y PGI2, facilita la contención inmediata del sangrado."
+},
+
+{
+question: "Una mujer de 40 años presenta sangrado importante luego de varios procedimientos dentales menores. Su cuenta plaquetaria es normal, pero el tiempo de sangría está prolongado. El hematólogo insiste en que una cifra plaquetaria normal no garantiza una hemostasia primaria normal. ¿Cuál es la mejor interpretación?",
+options: [
+"El número de plaquetas refleja por sí solo su capacidad de adherirse y agregarse",
+"Puede existir una alteración funcional plaquetaria aunque la cantidad de plaquetas sea normal, y eso prolonga el tiempo de sangría",
+"El tiempo de sangría se prolonga solo en ausencia completa de factor VIII",
+"Cuando la cuenta plaquetaria es normal, el único origen posible de sangrado es hepático"
+],
+answer: 1,
+explanation: "La hemostasia primaria depende tanto del número como de la función de las plaquetas. Una persona puede tener una cifra normal y, aun así, una falla en adhesión, activación o agregación que se exprese clínicamente con sangrado mucocutáneo y tiempo de sangría prolongado."
+},
+
+{
+question: "Un niño de 12 años con antecedente de sangrados profundos es llevado a consulta. El médico explica a la familia que el problema no está en iniciar la respuesta hemostática, sino en hacerla resistente y duradera. ¿Qué evento fisiológico está fallando principalmente?",
+options: [
+"La vasoconstricción refleja del vaso lesionado",
+"La formación del tapón plaquetario primario",
+"La estabilización del tapón por una red de fibrina propia de la hemostasia secundaria",
+"La liberación endotelial de óxido nítrico y prostaciclina"
+],
+answer: 2,
+explanation: "En los trastornos de coagulación secundaria, el defecto principal es la incapacidad de consolidar el tapón inicial mediante fibrina. Por eso el sangrado suele ser más profundo y retardado, a diferencia de los trastornos de hemostasia primaria."
+},
+
+{
+question: "Un paciente con sepsis grave desarrolla activación endotelial extensa. El internista recuerda que el endotelio sano normalmente tiene perfil anticoagulante, pero bajo estímulos inflamatorios puede transformarse en una superficie procoagulante. ¿Cuál es el cambio más importante en esa transición?",
+options: [
+"Aumento sostenido de PGI2 y óxido nítrico para impedir el tapón hemostático",
+"Expresión de Factor Tisular y liberación de mediadores que favorecen coagulación local",
+"Destrucción de todos los cuerpos de Weibel-Palade para impedir liberación de factor de Von Willebrand",
+"Activación exclusiva de la fibrinólisis endotelial sin participación de la coagulación"
+],
+answer: 1,
+explanation: "El endotelio activado abandona su perfil anticoagulante y adquiere propiedades procoagulantes. La expresión de Factor Tisular y la producción de mediadores que favorecen la coagulación son elementos fundamentales de ese cambio."
+},
+
+{
+question: "Una paciente de 47 años presenta sangrado posoperatorio persistente. Entre las pruebas solicitadas se encuentra un tiempo de trombina prolongado. El especialista comenta que esta prueba explora una etapa muy específica de la formación del coágulo. ¿Cuál es esa etapa?",
+options: [
+"La adhesión plaquetaria mediada por factor de Von Willebrand",
+"La activación de la vía extrínseca dependiente del factor VII",
+"La conversión de fibrinógeno en fibrina después de añadir trombina al plasma",
+"La inhibición de factores Va y VIIIa por proteína C"
+],
+answer: 2,
+explanation: "El tiempo de trombina se enfoca en el paso final donde la trombina convierte fibrinógeno en fibrina. Si está prolongado, debe pensarse en problemas del fibrinógeno o interferencias que afecten esa reacción."
+},
+
+{
+question: "Un varón de 59 años sufre traumatismo craneoencefálico severo en un accidente de tránsito. Doce horas después presenta sangrado difuso, inestabilidad hemodinámica e hipoxemia. Las pruebas muestran prolongación de TP y TTPa, además de productos de degradación de fibrina elevados. El intensivista explica que algunos traumas extensos desencadenan una alteración sistémica del sistema hemostático más allá del daño mecánico inicial. ¿Cuál es el mecanismo más probable?",
+options: [
+"Inhibición selectiva de la trombina por aumento de trombomodulina",
+"Liberación de sustancias procoagulantes y activación endotelial tras daño tisular extenso, con activación difusa de la coagulación",
+"Déficit agudo aislado del factor IX por secuestro intracerebral",
+"Supresión completa de la hemostasia primaria sin afectar factores plasmáticos"
+],
+answer: 1,
+explanation: "El trauma extenso puede desencadenar activación sistémica de la coagulación por exposición de material tisular y respuesta inflamatoria intensa. Esto puede culminar en un cuadro tipo CID con microtrombosis, consumo de factores y sangrado."
+},
+
+{
+question: "Un paciente de 49 años consulta por sangrado persistente tras una herida superficial. El médico decide solicitar una prueba orientada a valorar las etapas iniciales de la hemostasia, es decir, la interacción entre pared vascular, plaquetas y tapón primario. ¿Cuál es el estudio más útil para ese objetivo?",
+options: [
+"Tiempo de protrombina",
+"Tiempo de tromboplastina parcial activada",
+"Tiempo de sangría",
+"Tiempo de trombina"
+],
+answer: 2,
+explanation: "El tiempo de sangría evalúa las etapas iniciales de la hemostasia y refleja la interacción entre vaso, plaquetas y coágulo primario. Es la prueba clásica para aproximarse a defectos de hemostasia primaria."
+},
+
+{
+question: "Una mujer con antecedentes de trombosis recurrente es estudiada por posible deficiencia de proteína C y proteína S. El profesor pregunta por qué estas proteínas son tan importantes si la coagulación es esencial para detener hemorragias. ¿Cuál es la respuesta más correcta?",
+options: [
+"Porque la hemostasia normal requiere no solo formar coágulos, sino limitar su extensión mediante frenos fisiológicos",
+"Porque proteína C y S son componentes estructurales del tapón plaquetario",
+"Porque proteína C y S inician la vasoconstricción local inmediata",
+"Porque proteína C y S convierten directamente fibrinógeno en fibrina"
+],
+answer: 0,
+explanation: "La coagulación fisiológica necesita equilibrio. No basta con poder formar un coágulo: también es necesario evitar que este se extienda fuera del sitio de lesión. Las proteínas C y S actúan como reguladores anticoagulantes, y su deficiencia favorece trombosis."
+},
+
+{
+question: "Un paciente con sepsis presenta activación plaquetaria intensa y el médico explica que las plaquetas no solo forman el tapón primario, sino que también facilitan la generación localizada de fibrina. ¿Cuál es la contribución más importante de las plaquetas a la fase fluida de la coagulación?",
+options: [
+"Producir de novo todos los factores plasmáticos de coagulación",
+"Aportar una superficie fosfolipídica y ligandos que permiten ensamblar complejos de coagulación y acelerar reacciones locales",
+"Convertir directamente el plasminógeno en plasmina en el sitio de lesión",
+"Sustituir completamente la función anticoagulante del endotelio sano"
+],
+answer: 1,
+explanation: "Las plaquetas activadas ofrecen una superficie fosfolipídica adecuada para que se ensamblen complejos de coagulación. De este modo, aceleran y localizan la generación de fibrina en el sitio de lesión vascular, conectando la hemostasia primaria con la secundaria."
+},
+
+{
+question: "Una mujer de 35 años, luego de una complicación obstétrica grave, presenta simultáneamente hemorragia por heridas quirúrgicas y datos de compromiso microvascular distal. Un interno comenta que si el paciente sangra tanto, entonces no puede estar formando trombos. ¿Cuál es la mejor corrección de ese comentario?",
+options: [
+"En ciertos trastornos, una activación exagerada de la coagulación forma trombos y al mismo tiempo consume los elementos necesarios para mantener la hemostasia",
+"El sangrado abundante siempre descarta procesos trombóticos sistémicos",
+"Los trombos solo aparecen cuando TP y TTPa están completamente normales",
+"La hemorragia de este tipo solo puede deberse a alteración vascular aislada"
+],
+answer: 0,
+explanation: "La coexistencia de sangrado y trombosis es un rasgo central de trastornos como la CID. La formación exagerada de trombos consume factores y plaquetas, de modo que el sistema pierde capacidad de responder a nuevas lesiones y aparece hemorragia."
+},
+
+{
+question: "Un hombre de 63 años presenta hematuria, hematomas musculares y sangrado retardado luego de un procedimiento menor. No presenta petequias ni epistaxis llamativa. Antes de ver los exámenes, el clínico se orienta por el patrón de sangrado. ¿Cuál es la alteración más probable?",
+options: [
+"Trastorno de hemostasia primaria con defecto vascular-plaquetario",
+"Alteración de coagulación secundaria por defecto de factores plasmáticos",
+"Fragilidad capilar aislada",
+"Defecto exclusivo de liberación de ADP desde gránulos densos"
+],
+answer: 1,
+explanation: "El sangrado profundo y retardado orienta a un trastorno de coagulación secundaria. Los defectos de hemostasia primaria suelen manifestarse con sangrado superficial, inmediato y mucocutáneo."
+},
+
+{
+question: "Un paciente de 52 años es estudiado por sospecha de alteración de la vía intrínseca. En el laboratorio se añade al plasma una sustancia de superficie negativa antes de agregar tromboplastina parcial, y el resultado es anormalmente prolongado. ¿Qué estudio se realizó y qué interpreta el médico a partir de él?",
+options: [
+"Tiempo de protrombina; defecto de la vía extrínseca",
+"Tiempo de tromboplastina parcial activada; compromiso de la vía intrínseca",
+"Tiempo de trombina; alteración en fibrinólisis",
+"Tiempo de sangría; defecto de función plaquetaria"
+],
+answer: 1,
+explanation: "La prueba descrita es el TTPa, que se usa para explorar la vía intrínseca. Su prolongación orienta a alteraciones en factores como VIII, IX o XII, entre otros componentes de esa vía."
+}
+
+],
+eliteClinicalCasesHemostasis: [
+
+{
+question: "Un varón de 68 años es internado por sepsis abdominal secundaria a perforación de colon. En menos de 24 horas desarrolla fiebre persistente, hipotensión, taquicardia, oliguria y necesidad de soporte vasopresor. Durante la reanimación se observa sangrado continuo en sitios de venopunción, hemorragia en mucosas, petequias difusas y equimosis extensas en tronco y extremidades. Los análisis muestran trombocitopenia, TP prolongado, TTPa prolongado y aumento importante del dímero D. Sin embargo, al mismo tiempo presenta cianosis distal y deterioro renal progresivo, lo que sugiere compromiso microvascular trombótico. El médico más joven interpreta que el sangrado visible descarta un estado procoagulante activo. ¿Cuál es la explicación correcta del cuadro?",
+options: [
+"Existe una falla aislada de la hemostasia primaria que explica todo el cuadro sin necesidad de activación de la coagulación",
+"Se trata de una activación sistémica de la coagulación con formación de fibrina y microtrombos, consumo de plaquetas y factores, y fibrinólisis secundaria",
+"El problema principal es una deficiencia aislada de fibrinógeno, que por sí sola explica el dímero D elevado",
+"El proceso dominante es la activación exclusiva de plasmina, sin formación previa de coágulos"
+],
+answer: 1,
+explanation: "El cuadro es compatible con coagulación intravascular diseminada. La sepsis activa el endotelio y favorece la expresión de mecanismos procoagulantes, con formación de fibrina y microtrombos. Al mismo tiempo se consumen factores y plaquetas, por lo que aparecen manifestaciones hemorrágicas. El dímero D elevado indica que hubo formación de fibrina y posterior degradación, es decir, fibrinólisis secundaria."
+},
+
+{
+question: "Una mujer de 22 años consulta por menorragia intensa desde la adolescencia, epistaxis frecuentes y gingivorragia al cepillado. Refiere que ante cortes pequeños el sangrado inicia de inmediato y tarda mucho en detenerse, pero nunca ha presentado hemartrosis ni hematomas musculares espontáneos. El laboratorio muestra recuento plaquetario normal, TP normal, TTPa normal y tiempo de sangría prolongado. El hematólogo explica que el defecto está en la fase inicial de la hemostasia y no en la estabilización del coágulo. ¿Cuál es la localización más probable del trastorno?",
+options: [
+"Alteración de la interacción vaso-plaqueta, con defecto funcional de la hemostasia primaria",
+"Alteración de la formación de fibrina en la hemostasia secundaria",
+"Déficit de factores vitamina K dependientes con predominio de la vía extrínseca",
+"Exceso de fibrinólisis por liberación masiva de activador tisular del plasminógeno"
+],
+answer: 0,
+explanation: "El patrón de sangrado mucocutáneo, inmediato y superficial, junto con el tiempo de sangría prolongado y pruebas de coagulación normales, apunta a hemostasia primaria alterada. El número de plaquetas normal no descarta disfunción plaquetaria. Los trastornos de coagulación secundaria suelen causar sangrado profundo y tardío."
+},
+
+{
+question: "Un adolescente de 16 años presenta aumento de volumen doloroso de rodilla derecha luego de un traumatismo deportivo leve. Su madre refiere que en años previos ha presentado episodios similares en rodillas y tobillos, además de hematomas musculares profundos tras golpes poco intensos. Los estudios muestran recuento plaquetario normal, tiempo de sangría normal, TP normal y TTPa prolongado. El médico explica que el problema no está en iniciar el tapón, sino en consolidarlo. ¿Qué evento fisiológico está fallando principalmente?",
+options: [
+"La vasoconstricción inicial del vaso lesionado",
+"La formación del tapón plaquetario primario",
+"La estabilización del tapón mediante una red de fibrina en la hemostasia secundaria",
+"La activación del sistema fibrinolítico para remodelar el coágulo"
+],
+answer: 2,
+explanation: "La hemostasia primaria está conservada, como sugieren el tiempo de sangría y el recuento plaquetario normales. El TTPa prolongado señala alteración de la vía intrínseca y, por extensión, de la coagulación secundaria. Por eso el sangrado es profundo y tardío: el tapón inicial se forma, pero no se estabiliza adecuadamente con fibrina."
+},
+
+{
+question: "Un hombre de 61 años con cirrosis avanzada es sometido a una paracentesis evacuadora. Tras el procedimiento presenta sangrado persistente por el sitio de punción y formación lenta del coágulo. El laboratorio muestra TP prolongado y TTPa prolongado. Durante la discusión clínica, un estudiante afirma que el hígado no tiene un papel importante en la coagulación. ¿Cuál es la mejor corrección a esa afirmación?",
+options: [
+"El hígado solo participa en la producción de plaquetas, por lo que su influencia es indirecta",
+"El hígado sintetiza múltiples factores de coagulación, por lo que su falla compromete varias vías de la hemostasia secundaria",
+"El hígado actúa únicamente sobre la fibrinólisis, pero no sobre la coagulación plasmática",
+"El hígado interviene solo en la fase vascular de la hemostasia"
+],
+answer: 1,
+explanation: "Muchos factores de coagulación son sintetizados en los hepatocitos. Por ello, la enfermedad hepática puede prolongar tanto el TP como el TTPa y generar tendencia hemorrágica por déficit múltiple de factores. No es una función marginal, sino central en la hemostasia secundaria."
+},
+
+{
+question: "Una mujer de 34 años presenta abruptio placentae complicado y pocas horas después desarrolla disnea, hipotensión, sangrado por heridas quirúrgicas y equimosis generalizadas. Los estudios muestran plaquetas disminuidas, TP y TTPa prolongados, y aumento de productos de degradación de fibrina. El equipo sospecha una activación sistémica del sistema hemostático desencadenada por la complicación obstétrica. ¿Cuál fue el evento inicial más importante?",
+options: [
+"Liberación y exposición masiva de material con actividad procoagulante, incluido Factor Tisular",
+"Déficit selectivo de factor IX con compromiso aislado de vía intrínseca",
+"Inhibición aguda de la agregación plaquetaria por aumento de prostaciclina",
+"Bloqueo primario de la plasmina con ausencia de degradación de fibrina"
+],
+answer: 0,
+explanation: "Las complicaciones obstétricas son causas clásicas de CID porque liberan sustancias procoagulantes y favorecen la vía mediada por Factor Tisular. Eso dispara la coagulación sistémica, seguida por consumo de factores y plaquetas y posterior fibrinólisis secundaria."
+},
+
+{
+question: "Un varón de 47 años sin factores de riesgo claros consulta por edema y dolor en pantorrilla, diagnosticándose trombosis venosa profunda. En el estudio posterior se identifican niveles marcadamente disminuidos de antitrombina III. El paciente pregunta por qué una molécula anticoagulante, cuando falta, lo hace formar trombos y no sangrar más. ¿Cuál es la explicación más precisa?",
+options: [
+"La antitrombina III favorece la formación de trombina, por lo que su ausencia reduce la coagulación",
+"La antitrombina III inhibe factores activados de la coagulación; su déficit elimina un freno fisiológico y favorece trombosis",
+"La antitrombina III es necesaria para la adhesión plaquetaria al subendotelio",
+"La antitrombina III activa la fibrinólisis, por lo que su ausencia prolonga el tiempo de sangría"
+],
+answer: 1,
+explanation: "La antitrombina III es un anticoagulante natural. Su función es frenar factores activados, especialmente trombina y Xa. Cuando su actividad disminuye, la coagulación queda menos regulada y aumenta la tendencia a trombosis."
+},
+
+{
+question: "Una mujer de 29 años con antecedente de dos abortos espontáneos consulta por edema doloroso de miembro inferior izquierdo. La ecografía confirma trombosis venosa profunda y el estudio inmunológico revela anticuerpos antifosfolípidos. Durante la clase se recuerda que estos anticuerpos alteran el equilibrio hemostático no por defecto hemorrágico, sino por pérdida de regulación anticoagulante. ¿Cuál es el mecanismo más importante?",
+options: [
+"Inhibición de la activación de proteína C, con persistencia de actividad procoagulante",
+"Destrucción de factor XIII, con incapacidad de estabilizar fibrina",
+"Bloqueo del factor de Von Willebrand con defecto de adhesión plaquetaria",
+"Degradación directa del fibrinógeno con prolongación del tiempo de trombina"
+],
+answer: 0,
+explanation: "En el síndrome antifosfolípido predominan los fenómenos trombóticos. Uno de los mecanismos descritos es la interferencia con vías anticoagulantes, como la activación de proteína C. Al perderse ese freno, la coagulación se vuelve más persistente."
+},
+
+{
+question: "Un paciente de 63 años con adenocarcinoma pancreático presenta episodios de trombosis venosa migratoria. Semanas después desarrolla sangrado mucoso, equimosis y alteraciones de pruebas de coagulación. El oncólogo explica que ciertos tumores pueden inducir primero hipercoagulabilidad y luego consumo hemostático. ¿Qué mecanismo explica mejor esta secuencia?",
+options: [
+"Liberación tumoral de sustancias procoagulantes, como mucinas y enzimas, que activan la coagulación sistémica",
+"Disminución aislada de la serotonina plaquetaria sin afectar factores plasmáticos",
+"Inhibición selectiva del factor VII por el tumor",
+"Exceso de prostaciclina endotelial con defecto puramente hemorrágico"
+],
+answer: 0,
+explanation: "Algunas neoplasias, especialmente adenocarcinomas, pueden liberar sustancias procoagulantes capaces de activar la coagulación. Esto puede manifestarse inicialmente como trombosis y, si se generaliza, progresar a consumo de factores y plaquetas con sangrado."
+},
+
+{
+question: "Un hombre de 70 años presenta hemorragia excesiva tras un procedimiento odontológico. El laboratorio muestra TP prolongado con TTPa normal, tiempo de sangría normal y recuento plaquetario normal. El clínico concluye que el defecto se localiza en la vía extrínseca. ¿Qué razonamiento sustenta mejor esa conclusión?",
+options: [
+"Porque el TP explora la vía extrínseca y una alteración aislada orienta a compromiso de factores como el VII",
+"Porque el tiempo de sangría prolongado siempre acompaña defectos de la vía extrínseca",
+"Porque el TTPa normal excluye por completo toda alteración de coagulación secundaria",
+"Porque la vía extrínseca se evalúa mejor con tiempo de trombina"
+],
+answer: 0,
+explanation: "El TP se usa para valorar la vía extrínseca. Cuando está prolongado de forma aislada, y el TTPa es normal, el defecto se ubica en esa vía, con especial interés en el factor VII. La hemostasia primaria parece estar conservada por la normalidad del tiempo de sangría y del recuento plaquetario."
+},
+
+{
+question: "Un joven de 21 años sufre una laceración en el antebrazo al manipular vidrio. Antes de que el coágulo se consolide completamente, el sangrado disminuye por una respuesta inmediata del vaso lesionado. Si se analizan los mediadores responsables de esta fase, ¿qué perfil es el más compatible con esa respuesta temprana?",
+options: [
+"Predominio de prostaciclina y óxido nítrico, con inhibición de la agregación plaquetaria",
+"Vasoconstricción favorecida por endotelina, serotonina y TXA2, junto con ausencia relativa de NO y PGI2",
+"Activación primaria de plasmina para limitar el tamaño del tapón desde el inicio",
+"Bloqueo del calcio para impedir unión de factores a superficies lipídicas"
+],
+answer: 1,
+explanation: "La fase vascular temprana se caracteriza por vasoconstricción. En ella participan endotelina, serotonina plaquetaria y TXA2, mientras disminuye el predominio de mediadores antiagregantes y vasodilatadores como el óxido nítrico y la prostaciclina."
+},
+
+{
+question: "Una mujer de 37 años presenta sangrado excesivo tras varias extracciones dentales. Aunque su recuento plaquetario es normal, el tiempo de sangría está prolongado. El hematólogo insiste en que una cifra plaquetaria normal no equivale necesariamente a una función plaquetaria normal. ¿Cuál es la interpretación más adecuada?",
+options: [
+"La cantidad de plaquetas refleja de forma completa su capacidad funcional",
+"Puede existir una alteración funcional de adhesión, activación o agregación plaquetaria con recuento normal",
+"El tiempo de sangría solo se prolonga cuando hay déficit de fibrinógeno",
+"Con plaquetas normales, el sangrado siempre se debe a enfermedad hepática"
+],
+answer: 1,
+explanation: "La hemostasia primaria depende tanto del número como de la calidad funcional de las plaquetas. Un recuento normal no descarta defectos en su activación, liberación de mediadores, adhesión o agregación, todos los cuales pueden prolongar el tiempo de sangría."
+},
+
+{
+question: "Un niño de 11 años con antecedentes de hematomas musculares profundos es evaluado por el hematólogo. El médico explica a los padres que el problema no es iniciar la respuesta hemostática, sino hacerla resistente y capaz de soportar la presión del flujo sanguíneo. ¿Qué fase está principalmente comprometida?",
+options: [
+"La fase vascular con vasoconstricción inicial",
+"La hemostasia primaria con formación del tapón plaquetario",
+"La hemostasia secundaria con formación de la red de fibrina estabilizadora",
+"La fibrinólisis encargada de retirar el coágulo en la reparación"
+],
+answer: 2,
+explanation: "Cuando predominan hematomas profundos y sangrado retardado, el problema suele estar en la coagulación secundaria. El defecto es la incapacidad de formar una red de fibrina suficientemente estable para consolidar el tapón inicial."
+},
+
+{
+question: "Un paciente con sepsis grave desarrolla activación endotelial extensa. El internista explica que un endotelio sano es anticoagulante, pero bajo ciertos estímulos pasa a favorecer la coagulación. ¿Cuál es el cambio funcional más importante en esta transición?",
+options: [
+"Aumento predominante de PGI2 y NO para inhibir adhesión plaquetaria",
+"Expresión de Factor Tisular y secreción de mediadores que promueven coagulación local",
+"Desaparición completa del factor de Von Willebrand almacenado",
+"Activación exclusiva de la fibrinólisis sin participación de la coagulación"
+],
+answer: 1,
+explanation: "El endotelio activado por inflamación adopta un fenotipo procoagulante. La expresión de Factor Tisular y la producción de moléculas que favorecen la coagulación local son claves en esta transformación."
+},
+
+{
+question: "Una paciente de 46 años presenta sangrado posoperatorio persistente y en el laboratorio se encuentra un tiempo de trombina prolongado. El especialista explica que esta prueba se enfoca en un paso muy concreto de la hemostasia. ¿Qué proceso evalúa de manera más directa?",
+options: [
+"La adhesión plaquetaria al subendotelio mediada por factor de Von Willebrand",
+"La conversión de fibrinógeno en fibrina tras añadir trombina al plasma",
+"La activación de la vía extrínseca a través del factor VII",
+"La inhibición de factores Va y VIIIa por proteína C"
+],
+answer: 1,
+explanation: "El tiempo de trombina explora la etapa final en la que la trombina actúa sobre el fibrinógeno para generar fibrina. Por ello se altera cuando existe problema del fibrinógeno o interferencias en esa reacción."
+},
+
+{
+question: "Un varón de 57 años sufre traumatismo craneoencefálico severo en un accidente automovilístico. Horas después desarrolla sangrado difuso, hipotensión, hipoxemia y alteración combinada del TP y TTPa, junto con elevación de productos de degradación de fibrina. El intensivista comenta que ciertos traumas activan sistémicamente la coagulación más allá del daño mecánico local. ¿Cuál es el mecanismo más probable?",
+options: [
+"Liberación de sustancias procoagulantes y activación endotelial por daño tisular extenso",
+"Déficit súbito aislado del factor IX por consumo intracerebral",
+"Bloqueo completo de la hemostasia primaria sin afectación de la cascada plasmática",
+"Inhibición general de trombina por aumento excesivo de trombomodulina"
+],
+answer: 0,
+explanation: "El trauma extenso puede activar la coagulación de forma sistémica por exposición de material tisular procoagulante y respuesta inflamatoria intensa. Esto puede llevar a un cuadro similar a CID con microtrombosis, consumo de factores y sangrado."
+},
+
+{
+question: "Un paciente de 50 años consulta por sangrado persistente tras una pequeña herida superficial. El médico decide solicitar una prueba que valore las etapas iniciales de la hemostasia, especialmente la interacción entre pared vascular, plaquetas y formación del tapón primario. ¿Cuál es el estudio más útil?",
+options: [
+"Tiempo de protrombina",
+"Tiempo de tromboplastina parcial activada",
+"Tiempo de sangría",
+"Tiempo de trombina"
+],
+answer: 2,
+explanation: "El tiempo de sangría evalúa las fases iniciales de la hemostasia y orienta a alteraciones de la interacción vaso-plaqueta y del tapón primario. No explora de forma central la cascada de coagulación plasmática."
+},
+
+{
+question: "Una mujer con antecedentes de trombosis recurrente es estudiada por deficiencia de proteína C y proteína S. Durante la clase, el profesor señala que la hemostasia fisiológica no depende solo de formar coágulos, sino también de impedir que se propaguen más allá del sitio de lesión. ¿Cuál es la mejor explicación de la importancia de estas proteínas?",
+options: [
+"Forman parte estructural del tapón plaquetario y por eso su deficiencia causa petequias",
+"Actúan como reguladores anticoagulantes que limitan la extensión del coágulo; su deficiencia favorece trombosis",
+"Inician la vasoconstricción refleja del vaso lesionado",
+"Convierten directamente fibrinógeno en fibrina cuando hay lesión vascular"
+],
+answer: 1,
+explanation: "Las proteínas C y S son anticoagulantes naturales. Su papel es limitar la actividad de factores procoagulantes y evitar que la coagulación se extienda de forma inapropiada. Cuando faltan, el equilibrio se desplaza hacia trombosis."
+},
+
+{
+question: "Un paciente con sepsis presenta activación plaquetaria intensa y el médico comenta que las plaquetas no solo forman el tapón primario, sino que además facilitan la generación localizada de fibrina. ¿Cuál es la contribución más importante de las plaquetas a la fase fluida de la coagulación?",
+options: [
+"Síntesis completa de todos los factores plasmáticos de coagulación",
+"Aporte de superficie fosfolipídica y ligandos para ensamblar complejos de coagulación y acelerar reacciones locales",
+"Conversión directa del plasminógeno en plasmina en el sitio lesionado",
+"Reemplazo de la función anticoagulante del endotelio sano"
+],
+answer: 1,
+explanation: "Las plaquetas activadas proporcionan una superficie fosfolipídica esencial para el ensamblaje de complejos de coagulación. Esto acelera y localiza la generación de fibrina en el sitio de lesión, conectando hemostasia primaria y secundaria."
+},
+
+{
+question: "Una mujer de 33 años, después de una complicación obstétrica, presenta al mismo tiempo hemorragia por heridas quirúrgicas y datos clínicos de compromiso microvascular distal. Un interno afirma que si una paciente sangra tanto, entonces no puede estar formando trombos. ¿Cuál es la mejor corrección a esa idea?",
+options: [
+"En ciertos trastornos, la activación exagerada de la coagulación forma trombos y simultáneamente consume factores y plaquetas, generando sangrado",
+"El sangrado abundante descarta por completo cualquier activación de la coagulación",
+"Las trombosis solo se producen cuando TP y TTPa son normales",
+"La hemorragia de este tipo solo puede deberse a fragilidad vascular aislada"
+],
+answer: 0,
+explanation: "La coexistencia de trombosis y hemorragia es una idea central en la CID. La formación excesiva de trombos consume los elementos hemostáticos y deja al organismo incapaz de responder de forma adecuada a nuevas lesiones, por lo que aparece sangrado."
+},
+
+{
+question: "Un hombre de 60 años presenta hematuria, hematomas musculares y sangrado retardado tras un procedimiento menor. No presenta petequias ni gingivorragia importante. Antes de revisar los análisis, el clínico interpreta el patrón de sangrado como una pista diagnóstica. ¿Cuál es la alteración más probable?",
+options: [
+"Trastorno de hemostasia primaria con defecto vascular-plaquetario",
+"Alteración de coagulación secundaria por defecto de factores plasmáticos",
+"Fragilidad capilar aislada sin compromiso de coagulación",
+"Defecto exclusivo de liberación de ADP por gránulos densos"
+],
+answer: 1,
+explanation: "El sangrado profundo y retardado orienta claramente a coagulación secundaria alterada. Los defectos de hemostasia primaria, en cambio, suelen manifestarse con petequias, sangrado mucoso e inicio inmediato tras el traumatismo."
+},
+
+{
+question: "Un paciente de 53 años es estudiado por sospecha de alteración de la vía intrínseca. En el laboratorio se añade al plasma una sustancia de superficie negativa antes de agregar tromboplastina parcial, y el tiempo resultante está prolongado. ¿Qué estudio se realizó y qué interpreta el médico a partir de él?",
+options: [
+"Tiempo de protrombina; alteración de la vía extrínseca",
+"Tiempo de tromboplastina parcial activada; compromiso de la vía intrínseca",
+"Tiempo de trombina; alteración en la fibrinólisis",
+"Tiempo de sangría; defecto de función plaquetaria"
+],
+answer: 1,
+explanation: "La prueba descrita corresponde al TTPa. Esta se utiliza para explorar la vía intrínseca, por lo que su prolongación orienta a alteraciones en factores como VIII, IX o XII, entre otros componentes relacionados con esa vía."
+}
+
+],
+ultraAdvancedClinicalCasesHemostasis: [
+
+{
+question: "Un varón de 72 años con antecedente de diabetes e hipertensión es admitido por sepsis urinaria complicada. En las primeras 12 horas presenta fiebre, hipotensión y deterioro del estado mental. Posteriormente desarrolla sangrado difuso en mucosas, petequias en tronco y equimosis en extremidades. El laboratorio muestra: plaquetas 55,000/μL, TP prolongado, TTPa prolongado y dímero D elevado. A pesar del sangrado, el paciente presenta necrosis distal en dedos y aumento de creatinina. Un residente propone que el sangrado excluye la presencia de trombosis activa. ¿Cuál es el error fisiopatológico en esa afirmación?",
+options: [
+"Que la fibrinólisis ocurre antes de la coagulación",
+"Que la activación sistémica de la coagulación puede coexistir con consumo de factores y sangrado",
+"Que las plaquetas no participan en la coagulación secundaria",
+"Que el dímero D no refleja formación de fibrina"
+],
+answer: 1,
+explanation: "En la CID, la coagulación se activa de forma masiva generando microtrombos, pero al mismo tiempo se consumen factores y plaquetas, produciendo sangrado. Ambos fenómenos coexisten."
+},
+
+{
+question: "Una mujer de 25 años consulta por sangrado gingival, epistaxis frecuente y aparición de petequias. Refiere que el sangrado ocurre inmediatamente tras traumatismos mínimos. El laboratorio muestra TP normal, TTPa normal, plaquetas normales y tiempo de sangría prolongado. ¿Cuál es el defecto principal?",
+options: [
+"Déficit de fibrina",
+"Alteración funcional plaquetaria",
+"Déficit de factor VII",
+"Exceso de fibrinólisis"
+],
+answer: 1,
+explanation: "El patrón mucocutáneo inmediato con TS prolongado indica defecto en hemostasia primaria (plaquetas)."
+},
+
+{
+question: "Un paciente de 17 años presenta hemartrosis recurrente tras traumatismos leves. Laboratorio: TTPa prolongado, TP normal, plaquetas normales. ¿Por qué el sangrado es profundo?",
+options: [
+"Porque no hay vasoconstricción",
+"Porque falla la estabilización del coágulo con fibrina",
+"Porque hay exceso de plaquetas",
+"Porque hay fibrinólisis temprana"
+],
+answer: 1,
+explanation: "El problema es de coagulación secundaria: el tapón inicial no se estabiliza con fibrina."
+},
+
+{
+question: "Un paciente cirrótico presenta sangrado tras procedimiento. TP y TTPa prolongados. ¿Qué explica esto?",
+options: [
+"Déficit de factores hepáticos",
+"Déficit de plaquetas exclusivamente",
+"Exceso de fibrinólisis",
+"Defecto vascular"
+],
+answer: 0,
+explanation: "El hígado sintetiza la mayoría de factores de coagulación."
+},
+
+{
+question: "Una paciente con síndrome antifosfolípido presenta trombosis recurrente. ¿Por qué?",
+options: [
+"Aumenta fibrinólisis",
+"Inhibe proteína C",
+"Disminuye plaquetas",
+"Reduce trombina"
+],
+answer: 1,
+explanation: "Se pierde regulación anticoagulante."
+},
+
+{
+question: "Paciente con trauma severo desarrolla CID. ¿Evento inicial?",
+options: [
+"Inhibición trombina",
+"Liberación procoagulantes",
+"Déficit plaquetas",
+"Aumento NO"
+],
+answer: 1,
+explanation: "El trauma activa coagulación sistémica."
+},
+
+{
+question: "Paciente con dímero D alto. ¿Significa?",
+options: [
+"Inhibición coagulación",
+"Formación y degradación fibrina",
+"Déficit factores",
+"Plaquetas bajas"
+],
+answer: 1,
+explanation: "Indica fibrinólisis secundaria."
+},
+
+{
+question: "Déficit de antitrombina III causa:",
+options: [
+"Sangrado",
+"Trombosis",
+"Fibrinólisis",
+"Plaquetopenia"
+],
+answer: 1,
+explanation: "Se pierde inhibición de coagulación."
+},
+
+{
+question: "Sangrado tardío tras cirugía indica:",
+options: [
+"Hemostasia primaria",
+"Hemostasia secundaria",
+"Vascular",
+"Fibrinolítica"
+],
+answer: 1,
+explanation: "Es defecto de coagulación."
+},
+
+{
+question: "Endotelio activado en sepsis:",
+options: [
+"Anticoagulante",
+"Procoagulante",
+"Inactivo",
+"Fibrinolítico"
+],
+answer: 1,
+explanation: "Expresa factor tisular."
+},
+
+{
+question: "Déficit vitamina K afecta:",
+options: [
+"Plaquetas",
+"Factores II, VII, IX, X",
+"Fibrinólisis",
+"Endotelio"
+],
+answer: 1,
+explanation: "Dependen de vitamina K."
+},
+
+{
+question: "Exceso de plasmina causa:",
+options: [
+"Más coagulación",
+"Más fibrina",
+"Degradación fibrina",
+"Más trombina"
+],
+answer: 2,
+explanation: "Produce sangrado."
+},
+
+{
+question: "Sangrado inmediato superficial:",
+options: [
+"Primaria",
+"Secundaria",
+"Fibrinolítica",
+"Hepática"
+],
+answer: 0,
+explanation: "Plaquetas/vaso."
+},
+
+{
+question: "TT prolongado indica:",
+options: [
+"Problema fibrinógeno",
+"Plaquetas",
+"Vasos",
+"Factor VII"
+],
+answer: 0,
+explanation: "Evalúa fibrina."
+},
+
+{
+question: "Hipoxia en trauma:",
+options: [
+"Inhibe coagulación",
+"Activa coagulación",
+"Inhibe plaquetas",
+"Fibrinólisis"
+],
+answer: 1,
+explanation: "Favorece CID."
+},
+
+{
+question: "↑ TXA2 ↓ PGI2:",
+options: [
+"Menos coagulación",
+"Más coagulación",
+"Más fibrinólisis",
+"Menos agregación"
+],
+answer: 1,
+explanation: "Favorece agregación."
+},
+
+{
+question: "Sangrado profundo indica:",
+options: [
+"Plaquetas",
+"Factores",
+"Vasos",
+"Fibrinólisis"
+],
+answer: 1,
+explanation: "Coagulación secundaria."
+},
+
+{
+question: "Alteración intrínseca:",
+options: [
+"TP",
+"TTPa",
+"TT",
+"TS"
+],
+answer: 1,
+explanation: "Evalúa vía intrínseca."
+},
+
+{
+question: "Plaquetas aportan:",
+options: [
+"Factores completos",
+"Superficie fosfolipídica",
+"Plasmina",
+"NO"
+],
+answer: 1,
+explanation: "Facilitan coagulación."
+},
+
+{
+question: "Proteína C/S:",
+options: [
+"Procoagulantes",
+"Anticoagulantes",
+"Plaquetas",
+"Fibrina"
+],
+answer: 1,
+explanation: "Regulan coagulación."
+}
+
+],
+extremeClinicalCasesHemostasis: [
+
+{
+question: "Un varón de 74 años es ingresado por sepsis de origen abdominal con shock séptico. Requiere soporte vasopresor y ventilación mecánica. A las 24 horas presenta sangrado en mucosas, equimosis extensas y hemorragia persistente en sitios de venopunción. El laboratorio muestra plaquetas 50,000/μL, TP prolongado, TTPa prolongado y dímero D elevado. Sin embargo, también presenta necrosis distal en dedos y deterioro renal progresivo. Un estudiante afirma que el sangrado excluye la posibilidad de trombosis activa. ¿Cuál es la mejor explicación del fenómeno observado?",
+options: [
+"El sangrado es causado exclusivamente por fibrinólisis primaria sin formación de coágulos",
+"La coagulación sistémica genera microtrombos mientras el consumo de factores produce sangrado simultáneo",
+"La trombosis solo ocurre cuando TP y TTPa son normales",
+"La presencia de sangrado indica ausencia total de activación de la coagulación"
+],
+answer: 1,
+explanation: "En la CID hay activación masiva de la coagulación con formación de microtrombos, pero también consumo de factores y plaquetas, produciendo sangrado. Ambos fenómenos coexisten."
+},
+
+{
+question: "Una mujer de 28 años consulta por epistaxis frecuente, gingivorragia y petequias. El sangrado inicia inmediatamente tras traumatismos mínimos. El laboratorio muestra TP y TTPa normales, plaquetas normales y tiempo de sangría prolongado. ¿Qué proceso está principalmente alterado?",
+options: [
+"Formación de fibrina",
+"Función plaquetaria",
+"Síntesis hepática de factores",
+"Activación de plasmina"
+],
+answer: 1,
+explanation: "El patrón clínico corresponde a hemostasia primaria alterada con disfunción plaquetaria."
+},
+
+{
+question: "Un adolescente presenta hemartrosis recurrente y hematomas profundos. TP normal, TTPa prolongado. ¿Qué falla explica esto?",
+options: [
+"Vasoconstricción",
+"Tapón plaquetario",
+"Estabilización con fibrina",
+"Fibrinólisis"
+],
+answer: 2,
+explanation: "El problema es en coagulación secundaria: falta de fibrina estable."
+},
+
+{
+question: "Un paciente cirrótico presenta sangrado y TP/TTPa prolongados. ¿Por qué?",
+options: [
+"Déficit plaquetario",
+"Déficit factores hepáticos",
+"Exceso fibrinólisis",
+"Defecto vascular"
+],
+answer: 1,
+explanation: "El hígado sintetiza factores de coagulación."
+},
+
+{
+question: "Paciente con síndrome antifosfolípido. ¿Mecanismo?",
+options: [
+"Aumenta fibrinólisis",
+"Inhibe proteína C",
+"Reduce plaquetas",
+"Inhibe trombina"
+],
+answer: 1,
+explanation: "Favorece trombosis al bloquear anticoagulación."
+},
+
+{
+question: "Paciente con trauma severo → CID. ¿Inicio?",
+options: [
+"Inhibición trombina",
+"Liberación procoagulantes",
+"Déficit plaquetas",
+"Aumento NO"
+],
+answer: 1,
+explanation: "Trauma activa coagulación."
+},
+
+{
+question: "Dímero D elevado indica:",
+options: [
+"Inhibición coagulación",
+"Formación + degradación fibrina",
+"Déficit factores",
+"Plaquetas bajas"
+],
+answer: 1,
+explanation: "Indica fibrinólisis secundaria."
+},
+
+{
+question: "Déficit antitrombina III causa:",
+options: [
+"Sangrado",
+"Trombosis",
+"Fibrinólisis",
+"Plaquetopenia"
+],
+answer: 1,
+explanation: "Pierde control anticoagulante."
+},
+
+{
+question: "Sangrado tardío profundo:",
+options: [
+"Primaria",
+"Secundaria",
+"Vascular",
+"Fibrinolítica"
+],
+answer: 1,
+explanation: "Coagulación secundaria."
+},
+
+{
+question: "Endotelio activado:",
+options: [
+"Anticoagulante",
+"Procoagulante",
+"Inactivo",
+"Fibrinolítico"
+],
+answer: 1,
+explanation: "Expresa factor tisular."
+},
+
+{
+question: "Vitamina K:",
+options: [
+"Plaquetas",
+"Factores II, VII, IX, X",
+"Fibrinólisis",
+"Endotelio"
+],
+answer: 1,
+explanation: "Factores dependientes."
+},
+
+{
+question: "Exceso plasmina:",
+options: [
+"Coagulación",
+"Fibrina",
+"Degradación fibrina",
+"Trombina"
+],
+answer: 2,
+explanation: "Produce sangrado."
+},
+
+{
+question: "Sangrado inmediato:",
+options: [
+"Primaria",
+"Secundaria",
+"Fibrinolítica",
+"Hepática"
+],
+answer: 0,
+explanation: "Plaquetas/vaso."
+},
+
+{
+question: "TT prolongado:",
+options: [
+"Fibrinógeno",
+"Plaquetas",
+"Vasos",
+"Factor VII"
+],
+answer: 0,
+explanation: "Evalúa fibrina."
+},
+
+{
+question: "Hipoxia trauma:",
+options: [
+"Inhibe",
+"Activa coagulación",
+"Inhibe plaquetas",
+"Fibrinólisis"
+],
+answer: 1,
+explanation: "Favorece CID."
+},
+
+{
+question: "↑ TXA2 ↓ PGI2:",
+options: [
+"Menos coagulación",
+"Más coagulación",
+"Más fibrinólisis",
+"Menos agregación"
+],
+answer: 1,
+explanation: "Favorece agregación."
+},
+
+{
+question: "Sangrado profundo:",
+options: [
+"Plaquetas",
+"Factores",
+"Vasos",
+"Fibrinólisis"
+],
+answer: 1,
+explanation: "Secundaria."
+},
+
+{
+question: "Vía intrínseca:",
+options: [
+"TP",
+"TTPa",
+"TT",
+"TS"
+],
+answer: 1,
+explanation: "Evalúa intrínseca."
+},
+
+{
+question: "Plaquetas función:",
+options: [
+"Factores",
+"Superficie",
+"Plasmina",
+"NO"
+],
+answer: 1,
+explanation: "Facilitan coagulación."
+},
+
+{
+question: "Proteína C/S:",
+options: [
+"Procoagulantes",
+"Anticoagulantes",
+"Plaquetas",
+"Fibrina"
+],
+answer: 1,
+explanation: "Regulan coagulación."
+}
+
+],
+integratedGrandRoundsHemostasis: [
+
+{
+question: "Un varón de 67 años es admitido en cuidados intensivos por sepsis de origen biliar. Durante las primeras horas requiere líquidos intravenosos y posteriormente soporte vasopresor por hipotensión persistente. Al día siguiente comienza con petequias difusas, hemorragia en encías, sangrado persistente en sitios de catéter venoso y equimosis de rápida aparición en el abdomen y extremidades. Los estudios muestran: plaquetas 52,000/μL, TP prolongado, TTPa prolongado y dímero D marcadamente elevado. Paralelamente, desarrolla oliguria progresiva, deterioro del sensorio y signos de hipoperfusión distal en dedos del pie. Durante la discusión clínica, un alumno sostiene que el sangrado debe obedecer a un defecto primario de plaquetas, porque si el paciente está sangrando no puede estar formando trombos. ¿Cuál es la mejor interpretación fisiopatológica de este cuadro?",
+options: [
+"El paciente tiene una trombocitopatía aislada, y el resto de las alteraciones de laboratorio son secundarias al shock",
+"Existe activación sistémica de la coagulación con formación de microtrombos, consumo de plaquetas y factores, y activación secundaria de fibrinólisis",
+"Se trata de una deficiencia aislada de fibrinógeno, y la hipoperfusión distal es un hallazgo no relacionado",
+"El cuadro se explica por hiperactividad de plasmina sin formación previa de fibrina"
+],
+answer: 1,
+explanation: "El cuadro corresponde a coagulación intravascular diseminada. La sepsis activa el endotelio y favorece un estado procoagulante con formación difusa de fibrina y microtrombos, responsables de la hipoperfusión orgánica. A la vez, se consumen plaquetas y factores de coagulación, lo que causa sangrado. El dímero D elevado confirma que hubo formación y degradación de fibrina. Por tanto, trombosis y hemorragia no se excluyen en este contexto; son dos manifestaciones del mismo proceso."
+},
+
+{
+question: "Una mujer de 24 años consulta por menstruaciones muy abundantes, epistaxis repetidas desde la adolescencia y sangrado gingival frecuente al cepillarse. Refiere que cuando se corta en la cocina, el sangrado comienza de inmediato y suele persistir más de lo esperado, pero nunca ha presentado hemartrosis ni hematomas musculares profundos. En los análisis se observa: recuento plaquetario normal, TP normal, TTPa normal y tiempo de sangría prolongado. Durante el pase de visita, un interno propone que, dado que la paciente sangra mucho, el problema debe estar en la formación de fibrina. ¿Cuál es la mejor razón para rechazar esa hipótesis?",
+options: [
+"Porque los trastornos de fibrina suelen dar exclusivamente trombosis y no hemorragia",
+"Porque el patrón mucocutáneo e inmediato, junto con TP y TTPa normales, orienta a hemostasia primaria alterada y no a coagulación secundaria",
+"Porque la fibrina solo se forma en vasos de gran calibre",
+"Porque las mujeres jóvenes no presentan defectos de coagulación secundaria"
+],
+answer: 1,
+explanation: "El patrón clínico es el dato más importante: sangrado mucoso, superficial e inmediato tras traumatismos leves. Eso es típico de hemostasia primaria. El tiempo de sangría prolongado lo refuerza. En cambio, los defectos de coagulación secundaria tienden a dar sangrado profundo, hematomas, hemartrosis y sangrado retardado. Por eso, aunque la paciente sangre mucho, el sitio fisiopatológico del problema no es la formación de fibrina."
+},
+
+{
+question: "Un adolescente de 15 años consulta por aumento de volumen, calor y dolor intenso de rodilla tras un golpe aparentemente leve jugando fútbol. La madre refiere episodios previos de inflamación articular y hematomas musculares profundos luego de traumatismos menores. El laboratorio muestra: plaquetas normales, tiempo de sangría normal, TP normal y TTPa prolongado. Durante la clase, el profesor pregunta por qué este paciente no presenta petequias ni sangrado gingival prominente, a pesar de tener tendencia hemorrágica importante. ¿Cuál es la mejor explicación?",
+options: [
+"Porque el problema está en la coagulación secundaria, donde falla la estabilización del tapón por fibrina y predominan sangrados profundos",
+"Porque las petequias solo aparecen cuando el TP está alterado",
+"Porque la hemostasia primaria está aumentada y compensa completamente el sangrado superficial",
+"Porque la fibrinólisis está inhibida y eso evita el sangrado mucocutáneo"
+],
+answer: 0,
+explanation: "La hemostasia primaria parece preservada, como muestran las plaquetas y el tiempo de sangría normales. El defecto está en la coagulación secundaria, sugerido por el TTPa prolongado y el patrón de hemartrosis y hematomas profundos. En estos pacientes, el tapón inicial puede formarse, pero no se consolida con una red estable de fibrina, por eso el sangrado es profundo y retardado."
+},
+
+{
+question: "Un hombre de 60 años con cirrosis avanzada secundaria a hepatopatía crónica es sometido a una biopsia de una lesión cutánea y presenta sangrado persistente por más tiempo del esperado. El estudio de laboratorio muestra TP prolongado, TTPa prolongado y disminución de varios factores de coagulación. Un estudiante comenta que el hígado solo es relevante para metabolizar medicamentos y toxinas, pero no para la hemostasia. ¿Cuál es la mejor respuesta a ese comentario?",
+options: [
+"El hígado sintetiza gran parte de los factores de coagulación, por lo que su falla compromete de manera amplia la hemostasia secundaria",
+"El hígado participa únicamente en el conteo de plaquetas y por eso el TP se prolonga",
+"El hígado solo regula el diámetro vascular y no afecta proteínas plasmáticas hemostáticas",
+"El hígado es relevante en fibrinólisis, pero no en coagulación"
+],
+answer: 0,
+explanation: "Muchos factores de coagulación son sintetizados en hepatocitos. Por eso, la enfermedad hepática puede alterar simultáneamente varias fases de la coagulación secundaria y prolongar tanto TP como TTPa. El hígado no es un actor periférico en hemostasia, sino uno de sus órganos centrales."
+},
+
+{
+question: "Una mujer de 32 años presenta abruptio placentae complicado con hipotensión, sangrado posquirúrgico anormal, petequias generalizadas y dificultad respiratoria. Los análisis muestran plaquetas disminuidas, TP prolongado, TTPa prolongado y aumento de productos de degradación de fibrina. Durante la reunión del servicio se señala que ciertas complicaciones obstétricas pueden activar masivamente la coagulación por mecanismos tisulares específicos. ¿Cuál es el evento inicial más importante para entender este cuadro?",
+options: [
+"Liberación o exposición de sustancias con actividad procoagulante, incluyendo activación mediada por Factor Tisular",
+"Déficit agudo y selectivo de factor XII por consumo obstétrico",
+"Inhibición de la agregación plaquetaria por aumento brusco de prostaciclina",
+"Bloqueo completo de la fibrinólisis, causando retención de coágulos normales"
+],
+answer: 0,
+explanation: "Las complicaciones obstétricas como el abruptio placentae pueden liberar material procoagulante y activar de forma intensa la vía asociada al Factor Tisular. Esto dispara coagulación sistémica, consumo de plaquetas y factores, y fibrinólisis secundaria. El resultado clínico es un cuadro compatible con CID."
+},
+
+{
+question: "Un hombre de 44 años, previamente sano, consulta por edema doloroso de pantorrilla derecha y se diagnostica trombosis venosa profunda. En el estudio posterior se encuentran niveles disminuidos de antitrombina III. El paciente pregunta cómo la falta de una molécula anticoagulante puede hacer que coagule de más, en vez de sangrar. ¿Cuál es la explicación fisiológica más correcta?",
+options: [
+"La antitrombina III estimula la generación de trombina y su ausencia genera coagulación ineficaz",
+"La antitrombina III inhibe factores activados de coagulación; al faltar, se pierde un freno fisiológico clave y aumenta la tendencia a trombosis",
+"La antitrombina III actúa solo sobre plaquetas y por eso su déficit modifica el tiempo de sangría",
+"La antitrombina III destruye fibrina normal, y al bajar permite que cualquier sangrado se convierta en trombo"
+],
+answer: 1,
+explanation: "La antitrombina III es un anticoagulante natural que limita la acción de trombina y otros factores activados. Si disminuye, la coagulación queda menos controlada y el sistema se inclina hacia la trombosis. Es un excelente ejemplo de que la hemostasia normal depende también de inhibidores fisiológicos."
+},
+
+{
+question: "Una mujer de 29 años con antecedentes de dos abortos espontáneos consulta por edema y dolor en pierna izquierda. La ecografía confirma trombosis venosa profunda y el perfil inmunológico revela anticuerpos antifosfolípidos. El docente explica que estos anticuerpos no generan el problema por producir sangrado, sino por alterar mecanismos reguladores anticoagulantes. ¿Cuál es el mecanismo mejor sustentado entre las siguientes opciones?",
+options: [
+"Inhibición de la activación de proteína C, favoreciendo la persistencia de actividad procoagulante",
+"Destrucción selectiva de fibrinógeno, con imposibilidad de formar trombos estables",
+"Bloqueo del factor de Von Willebrand, con defecto de adhesión plaquetaria y sangrado predominante",
+"Aumento persistente del activador tisular del plasminógeno, con lisis prematura del coágulo"
+],
+answer: 0,
+explanation: "En el síndrome antifosfolípido predominan fenómenos trombóticos. Uno de los mecanismos relevantes es la interferencia con vías anticoagulantes, incluyendo la activación de proteína C. Al perderse esa modulación, la coagulación se vuelve más sostenida y el riesgo trombótico aumenta."
+},
+
+{
+question: "Un paciente de 65 años con adenocarcinoma pancreático ha presentado trombosis venosas en distintos territorios en los últimos meses. Posteriormente desarrolla equimosis, sangrado gingival y alteraciones de TP y TTPa. En la sesión académica se discute por qué ciertos tumores pueden producir primero trombosis y después manifestaciones hemorrágicas. ¿Cuál es la explicación más completa?",
+options: [
+"Los tumores pueden liberar sustancias procoagulantes, como mucinas o enzimas, que activan la coagulación; si el proceso se generaliza, aparece consumo de factores y plaquetas",
+"Los tumores solo producen anemia, por lo que el sangrado y la trombosis son coincidencias independientes",
+"El cáncer pancreático causa exclusivamente trombocitopenia inmune, sin participación de factores plasmáticos",
+"Las neoplasias solo alteran la vasoconstricción inicial del vaso lesionado"
+],
+answer: 0,
+explanation: "Algunos tumores, sobre todo adenocarcinomas, liberan sustancias con capacidad procoagulante. Esto puede iniciar un estado trombótico y, si el sistema hemostático se activa de manera extensa, terminar en consumo de factores y plaquetas con manifestaciones hemorrágicas."
+},
+
+{
+question: "Un hombre de 71 años presenta sangrado excesivo tras extracción dental. Los estudios muestran TP prolongado, TTPa normal, tiempo de sangría normal y recuento plaquetario normal. El clínico dice que la alteración más probable está en la vía extrínseca. ¿Cuál es el mejor fundamento para esa afirmación?",
+options: [
+"Porque el TP evalúa principalmente la vía extrínseca, y su prolongación aislada orienta a compromiso de factores como el VII",
+"Porque el tiempo de sangría es el mejor estudio para ubicar el defecto en la vía extrínseca",
+"Porque el TTPa normal excluye cualquier problema de coagulación secundaria",
+"Porque la vía extrínseca se altera solo cuando existe trombocitopenia"
+],
+answer: 0,
+explanation: "El TP se usa para evaluar la vía extrínseca. Si está prolongado de manera aislada, con TTPa normal y hemostasia primaria aparentemente conservada, el razonamiento correcto es ubicar la alteración en esa vía, particularmente en factores como el VII."
+},
+
+{
+question: "Un joven de 19 años sufre una herida cortante en el muslo al caer sobre una lámina metálica. Antes de que el coágulo se consolide por completo, el sangrado disminuye por mecanismos inmediatos locales. El cirujano le pregunta al interno qué mediadores justifican mejor esta primera respuesta vascular. ¿Cuál es la mejor respuesta?",
+options: [
+"Prostaciclina y óxido nítrico predominan para mantener el flujo y evitar adhesión plaquetaria",
+"Endotelina, serotonina plaquetaria y TXA2 favorecen vasoconstricción, mientras disminuye la influencia de NO y PGI2",
+"El activador tisular del plasminógeno se libera para degradar tempranamente el tapón y remodelar la lesión",
+"El calcio plasmático disminuye para frenar la coagulación y evitar trombosis local"
+],
+answer: 1,
+explanation: "La fase vascular inicial de la hemostasia se basa en vasoconstricción. En ella participan endotelina, serotonina y TXA2, y se reduce el predominio de mediadores anticoagulantes y vasodilatadores como el óxido nítrico y la prostaciclina."
+},
+
+{
+question: "Una mujer de 38 años presenta sangrado excesivo tras múltiples procedimientos dentales menores. Su recuento plaquetario es normal, pero el tiempo de sangría está prolongado. El hematólogo señala que el conteo normal de plaquetas no descarta un defecto importante de la hemostasia primaria. ¿Qué argumento sostiene mejor esa idea?",
+options: [
+"El número de plaquetas informa solo cantidad, no garantiza integridad de adhesión, activación ni agregación",
+"El tiempo de sangría se prolonga únicamente cuando falta fibrinógeno",
+"Si las plaquetas están normales, el sangrado solo puede explicarse por hígado enfermo",
+"Las plaquetas normales siempre excluyen alteraciones funcionales"
+],
+answer: 0,
+explanation: "La hemostasia primaria depende tanto del número como de la función de las plaquetas. Una persona puede tener una cifra normal y aun así presentar defectos de adhesión, activación, liberación de mediadores o agregación, con sangrado mucocutáneo y tiempo de sangría prolongado."
+},
+
+{
+question: "Un niño de 12 años con antecedentes de sangrado profundo es evaluado por el hematólogo. El médico explica a la familia que el problema no es iniciar la respuesta hemostática, sino transformarla en un coágulo resistente capaz de soportar la presión intravascular. ¿Qué fase está principalmente comprometida?",
+options: [
+"La fase vascular de vasoconstricción inmediata",
+"La hemostasia primaria con formación del tapón plaquetario",
+"La hemostasia secundaria con formación y estabilización de la red de fibrina",
+"La fibrinólisis encargada de remover el coágulo una vez reparado el vaso"
+],
+answer: 2,
+explanation: "Cuando predominan hemartrosis, hematomas profundos o sangrado retardado, el problema suele estar en la coagulación secundaria. En esta fase, el tapón inicial debe consolidarse con fibrina. Si esa red falla, el coágulo es inestable y el sangrado reaparece."
+},
+
+{
+question: "Un paciente con sepsis grave desarrolla activación endotelial difusa. El internista explica que el endotelio sano normalmente mantiene propiedades anticoagulantes, pero que durante la inflamación cambia de perfil. ¿Cuál de los siguientes cambios representa mejor esa transición?",
+options: [
+"Aumento de prostaciclina y óxido nítrico para impedir activación plaquetaria",
+"Expresión de Factor Tisular y secreción de moléculas que favorecen la coagulación y limitan la fibrinólisis local",
+"Desaparición completa del factor de Von Willebrand de los cuerpos de Weibel-Palade",
+"Supresión total de cualquier interacción entre sangre y pared vascular"
+],
+answer: 1,
+explanation: "El endotelio activado por citocinas pierde parte de su perfil anticoagulante y adquiere uno procoagulante. La expresión de Factor Tisular y la producción de mediadores que favorecen coagulación local son claves en esa transformación."
+},
+
+{
+question: "Una paciente de 48 años desarrolla sangrado posoperatorio persistente. Entre los estudios se detecta un tiempo de trombina prolongado. El especialista explica que esta prueba estudia una fase muy específica de la hemostasia y no tanto la adhesión plaquetaria ni la vía extrínseca. ¿Qué proceso está siendo evaluado de forma más directa?",
+options: [
+"La adhesión plaquetaria al subendotelio mediada por factor de Von Willebrand",
+"La conversión de fibrinógeno en fibrina después de añadir trombina al plasma",
+"La activación del factor VII en la vía extrínseca",
+"La inhibición de factores Va y VIIIa por proteína C"
+],
+answer: 1,
+explanation: "El tiempo de trombina se centra en el paso final en el que la trombina convierte fibrinógeno en fibrina. Por ello se altera cuando existe un problema del fibrinógeno o una interferencia en esa reacción."
+},
+
+{
+question: "Un varón de 58 años sufre traumatismo craneoencefálico grave tras accidente automovilístico. Doce horas después desarrolla sangrado difuso, hipotensión, hipoxemia y alteración simultánea de TP y TTPa, con productos de degradación de fibrina elevados. El intensivista explica que ciertos traumas no solo producen sangrado mecánico, sino una alteración sistémica del sistema hemostático. ¿Cuál es el mecanismo más probable?",
+options: [
+"Liberación de sustancias procoagulantes y activación endotelial por daño tisular extenso, con activación difusa de coagulación",
+"Déficit súbito y aislado del factor IX por consumo local intracraneal",
+"Supresión completa de la función plaquetaria sin alteración de factores plasmáticos",
+"Inhibición generalizada de trombina por exceso de trombomodulina circulante"
+],
+answer: 0,
+explanation: "El trauma extenso puede desencadenar activación sistémica de la coagulación por exposición de material tisular y respuesta inflamatoria intensa. Esto puede llevar a un cuadro tipo CID con microtrombosis, consumo de factores y sangrado."
+},
+
+{
+question: "Un paciente de 51 años consulta por sangrado persistente tras una pequeña incisión cutánea. El médico decide pedir una prueba destinada a valorar específicamente las etapas iniciales de la hemostasia, es decir, la interacción entre pared vascular, plaquetas y tapón hemostático inicial. ¿Cuál es el estudio más apropiado?",
+options: [
+"Tiempo de protrombina",
+"Tiempo de tromboplastina parcial activada",
+"Tiempo de sangría",
+"Tiempo de trombina"
+],
+answer: 2,
+explanation: "El tiempo de sangría es la prueba clásica para evaluar las fases iniciales de la hemostasia. Refleja la interacción entre vaso, plaquetas y tapón primario, y orienta a defectos de hemostasia primaria."
+},
+
+{
+question: "Una mujer con antecedentes de trombosis recurrente es estudiada por deficiencia de proteína C y proteína S. Durante la clase, el profesor insiste en que la hemostasia normal no consiste solo en formar coágulos, sino también en limitar su crecimiento al sitio de lesión. ¿Cuál es la mejor forma de entender la importancia de estas proteínas?",
+options: [
+"Forman la estructura central del tapón plaquetario, por lo que su déficit da petequias",
+"Funcionan como anticoagulantes naturales que limitan la extensión del coágulo; su déficit favorece trombosis",
+"Son mediadores principales de la vasoconstricción inicial del vaso dañado",
+"Convierten directamente fibrinógeno en fibrina cuando se activa la coagulación"
+],
+answer: 1,
+explanation: "Las proteínas C y S son parte del sistema anticoagulante fisiológico. Su función es evitar que la coagulación se extienda más allá de lo necesario. Cuando faltan, el sistema se desbalancea hacia la trombosis."
+},
+
+{
+question: "Un paciente con infección sistémica presenta activación plaquetaria intensa. El médico explica que las plaquetas no solo forman el tapón primario, sino que además facilitan la generación localizada de fibrina. ¿Cuál es la contribución más importante de las plaquetas a la fase fluida de la coagulación?",
+options: [
+"Síntesis completa de todos los factores plasmáticos de coagulación",
+"Aporte de una superficie fosfolipídica y ligandos para ensamblar complejos de coagulación y acelerar reacciones locales",
+"Conversión directa de plasminógeno en plasmina en el sitio lesionado",
+"Producción principal de prostaciclina y óxido nítrico para regular el endotelio"
+],
+answer: 1,
+explanation: "Las plaquetas activadas proporcionan una superficie fosfolipídica necesaria para el ensamblaje de complejos de coagulación. Esto acelera y localiza la generación de fibrina en el sitio de lesión, integrando hemostasia primaria con secundaria."
+},
+
+{
+question: "Una mujer de 34 años, tras una complicación obstétrica, presenta al mismo tiempo hemorragia por heridas quirúrgicas y signos de compromiso microvascular distal. Un interno afirma que si está sangrando tanto, no puede estar formando trombos. ¿Cuál es la mejor corrección conceptual?",
+options: [
+"En ciertos trastornos, la activación excesiva de la coagulación forma trombos y simultáneamente consume factores y plaquetas, generando sangrado",
+"El sangrado abundante siempre descarta estados protrombóticos sistémicos",
+"Las trombosis solo aparecen cuando el TP y el TTPa son normales",
+"La hemorragia de este tipo solo puede explicarse por alteración vascular aislada"
+],
+answer: 0,
+explanation: "La coexistencia de trombosis y hemorragia es un concepto central en trastornos como la CID. La coagulación se activa de manera exagerada, se forman trombos y al mismo tiempo se agotan los recursos hemostáticos, lo que favorece sangrado."
+},
+
+{
+question: "Un hombre de 62 años presenta hematuria, hematomas musculares y sangrado tardío tras un procedimiento menor. No tiene petequias ni epistaxis importante. Antes de revisar los estudios, el clínico utiliza el patrón de sangrado como orientación diagnóstica. ¿Cuál es la alteración más probable?",
+options: [
+"Trastorno de hemostasia primaria con defecto vascular-plaquetario",
+"Alteración de coagulación secundaria por defecto de factores plasmáticos",
+"Fragilidad capilar aislada",
+"Defecto exclusivo de liberación de ADP por gránulos densos"
+],
+answer: 1,
+explanation: "El sangrado profundo y tardío es característico de alteraciones de coagulación secundaria. En cambio, la hemostasia primaria alterada produce petequias, sangrado mucoso e inicio inmediato tras el trauma."
+},
+
+{
+question: "Un paciente de 54 años es estudiado por sospecha de alteración de la vía intrínseca. En el laboratorio se añade al plasma una sustancia de superficie negativa antes de agregar tromboplastina parcial, y el tiempo resultante está prolongado. ¿Qué prueba se realizó y qué interpreta el médico a partir de ella?",
+options: [
+"Tiempo de protrombina; alteración de la vía extrínseca",
+"Tiempo de tromboplastina parcial activada; compromiso de la vía intrínseca",
+"Tiempo de trombina; alteración final de fibrinólisis",
+"Tiempo de sangría; defecto de adhesión plaquetaria"
+],
+answer: 1,
+explanation: "La descripción corresponde al TTPa. Esta prueba se utiliza para explorar la vía intrínseca, y su prolongación orienta a alteraciones en factores como VIII, IX o XII, entre otros."
+}
+
+],
+ultimateIntegratedHemostasisCases: [
+
+{
+question: "Un varón de 70 años es admitido por sepsis secundaria a infección intraabdominal. En las primeras 24 horas presenta fiebre persistente, hipotensión refractaria, taquicardia y deterioro progresivo del estado mental. Posteriormente desarrolla sangrado en encías, equimosis generalizadas y hemorragia en sitios de venopunción. El laboratorio revela plaquetas 58,000/μL, TP prolongado, TTPa prolongado y dímero D elevado. Sin embargo, simultáneamente presenta necrosis distal en dedos y deterioro de la función renal por hipoperfusión. Un interno concluye que el cuadro es puramente hemorrágico y descarta trombosis. ¿Cuál es el principal error de razonamiento?",
+options: [
+"Que el dímero D solo se eleva en sangrados",
+"Que la activación sistémica de coagulación puede coexistir con consumo de factores y sangrado",
+"Que la trombosis requiere TP normal",
+"Que la fibrinólisis ocurre antes de la coagulación"
+],
+answer: 1,
+explanation: "En la CID, la coagulación se activa de forma masiva generando microtrombos, pero el consumo de factores y plaquetas produce sangrado. Ambos procesos ocurren simultáneamente."
+},
+
+{
+question: "Una mujer de 26 años consulta por epistaxis frecuente, gingivorragia y aparición de petequias. Refiere que el sangrado ocurre inmediatamente tras traumatismos leves. El laboratorio muestra TP y TTPa normales, con plaquetas normales pero tiempo de sangría prolongado. ¿Qué mecanismo está alterado?",
+options: [
+"Formación de fibrina",
+"Adhesión/activación plaquetaria",
+"Síntesis hepática",
+"Fibrinólisis"
+],
+answer: 1,
+explanation: "Es un defecto de hemostasia primaria, donde la función plaquetaria está alterada."
+},
+
+{
+question: "Un adolescente presenta hemartrosis recurrente y hematomas musculares. TTPa prolongado, TP normal. ¿Qué explica el patrón?",
+options: [
+"Defecto vascular",
+"Déficit plaquetario",
+"Falla en formación de fibrina",
+"Fibrinólisis excesiva"
+],
+answer: 2,
+explanation: "La coagulación secundaria falla → sangrado profundo."
+},
+
+{
+question: "Un paciente con cirrosis presenta sangrado y TP/TTPa prolongados. ¿Por qué?",
+options: [
+"Déficit plaquetas",
+"Déficit factores hepáticos",
+"Exceso fibrinólisis",
+"Defecto vascular"
+],
+answer: 1,
+explanation: "El hígado produce factores de coagulación."
+},
+
+{
+question: "Paciente con anticuerpos antifosfolípidos. ¿Qué ocurre?",
+options: [
+"Sangrado",
+"Trombosis por pérdida anticoagulante",
+"Déficit fibrina",
+"Plaquetopenia"
+],
+answer: 1,
+explanation: "Se inhibe proteína C → trombosis."
+},
+
+{
+question: "Trauma severo → CID. ¿Inicio?",
+options: [
+"Inhibición trombina",
+"Liberación procoagulantes",
+"Déficit plaquetas",
+"NO elevado"
+],
+answer: 1,
+explanation: "Daño tisular activa coagulación."
+},
+
+{
+question: "Dímero D elevado indica:",
+options: [
+"Inhibición coagulación",
+"Formación + degradación fibrina",
+"Déficit factores",
+"Plaquetas bajas"
+],
+answer: 1,
+explanation: "Hay fibrina formada y degradada."
+},
+
+{
+question: "Déficit antitrombina III causa:",
+options: [
+"Sangrado",
+"Trombosis",
+"Fibrinólisis",
+"Plaquetopenia"
+],
+answer: 1,
+explanation: "Pierde control anticoagulante."
+},
+
+{
+question: "Sangrado tardío profundo indica:",
+options: [
+"Primaria",
+"Secundaria",
+"Vascular",
+"Fibrinolítica"
+],
+answer: 1,
+explanation: "Coagulación secundaria."
+},
+
+{
+question: "Endotelio en sepsis:",
+options: [
+"Anticoagulante",
+"Procoagulante",
+"Inactivo",
+"Fibrinolítico"
+],
+answer: 1,
+explanation: "Expresa factor tisular."
+},
+
+{
+question: "Déficit vitamina K afecta:",
+options: [
+"Plaquetas",
+"Factores II, VII, IX, X",
+"Fibrinólisis",
+"Endotelio"
+],
+answer: 1,
+explanation: "Factores dependientes."
+},
+
+{
+question: "Exceso plasmina causa:",
+options: [
+"Coagulación",
+"Fibrina",
+"Degradación fibrina",
+"Trombina"
+],
+answer: 2,
+explanation: "Rompe fibrina → sangrado."
+},
+
+{
+question: "Sangrado inmediato superficial:",
+options: [
+"Primaria",
+"Secundaria",
+"Fibrinolítica",
+"Hepática"
+],
+answer: 0,
+explanation: "Plaquetas/vaso."
+},
+
+{
+question: "TT prolongado indica:",
+options: [
+"Fibrinógeno",
+"Plaquetas",
+"Vasos",
+"Factor VII"
+],
+answer: 0,
+explanation: "Evalúa fibrina."
+},
+
+{
+question: "Hipoxia trauma:",
+options: [
+"Inhibe",
+"Activa coagulación",
+"Inhibe plaquetas",
+"Fibrinólisis"
+],
+answer: 1,
+explanation: "Favorece coagulación."
+},
+
+{
+question: "↑ TXA2 ↓ PGI2:",
+options: [
+"Menos coagulación",
+"Más coagulación",
+"Más fibrinólisis",
+"Menos agregación"
+],
+answer: 1,
+explanation: "Favorece agregación."
+},
+
+{
+question: "Sangrado profundo:",
+options: [
+"Plaquetas",
+"Factores",
+"Vasos",
+"Fibrinólisis"
+],
+answer: 1,
+explanation: "Secundaria."
+},
+
+{
+question: "Vía intrínseca evalúa:",
+options: [
+"TP",
+"TTPa",
+"TT",
+"TS"
+],
+answer: 1,
+explanation: "Evalúa intrínseca."
+},
+
+{
+question: "Plaquetas aportan:",
+options: [
+"Factores",
+"Superficie fosfolipídica",
+"Plasmina",
+"NO"
+],
+answer: 1,
+explanation: "Facilitan coagulación."
+},
+
+{
+question: "Proteína C/S:",
+options: [
+"Procoagulantes",
+"Anticoagulantes",
+"Plaquetas",
+"Fibrina"
+],
+answer: 1,
+explanation: "Regulan coagulación."
+}
+
+],
+hyperIntegratedHemostasisCases: [
+
+{
+question: "Un varón de 68 años es ingresado por sepsis secundaria a peritonitis. Durante las primeras horas presenta hipotensión persistente, taquicardia y deterioro del estado de conciencia. A las 24 horas desarrolla petequias difusas, equimosis extensas y sangrado continuo en sitios de venopunción. Los estudios muestran: plaquetas 45,000/μL, TP prolongado, TTPa prolongado y dímero D elevado. A pesar de estas manifestaciones hemorrágicas, el paciente presenta acrocianosis, oliguria progresiva y aumento del lactato. Un residente afirma que el sangrado indica que el sistema está “hipocoagulando” y que no puede haber formación de trombos. ¿Cuál es la mejor interpretación del fenómeno?",
+options: [
+"El sangrado indica ausencia total de coagulación activa",
+"Existe activación sistémica de la coagulación con formación de microtrombos y consumo de factores, generando sangrado secundario",
+"La fibrinólisis es el único proceso activo en este paciente",
+"El problema es exclusivamente plaquetario"
+],
+answer: 1,
+explanation: "La CID implica activación masiva de la coagulación con formación de microtrombos (responsables de la hipoperfusión), pero al mismo tiempo consumo de factores y plaquetas, generando sangrado. Es un proceso mixto, no exclusivo."
+},
+
+{
+question: "Una mujer de 23 años consulta por sangrado gingival frecuente, epistaxis recurrente y petequias ante mínimos traumatismos. Refiere que el sangrado comienza inmediatamente tras una lesión. El laboratorio muestra TP y TTPa normales, con recuento plaquetario normal pero tiempo de sangría prolongado. ¿Cuál es la explicación más adecuada?",
+options: [
+"Déficit de fibrinógeno",
+"Alteración funcional de la hemostasia primaria",
+"Déficit de factores de la vía extrínseca",
+"Activación excesiva de fibrinólisis"
+],
+answer: 1,
+explanation: "El patrón mucocutáneo inmediato con TS prolongado indica defecto en la función plaquetaria, es decir, hemostasia primaria."
+},
+
+{
+question: "Un adolescente presenta episodios repetidos de hemartrosis y hematomas musculares tras traumatismos leves. El laboratorio muestra TTPa prolongado, TP normal, plaquetas normales. ¿Por qué el sangrado es profundo y no superficial?",
+options: [
+"Porque falla la vasoconstricción",
+"Porque el tapón plaquetario no se forma",
+"Porque el tapón no se estabiliza con fibrina",
+"Porque hay exceso de plaquetas"
+],
+answer: 2,
+explanation: "La coagulación secundaria está alterada, por lo que el tapón inicial no se consolida."
+},
+
+{
+question: "Un paciente con cirrosis presenta sangrado persistente tras procedimiento. TP y TTPa prolongados. ¿Cuál es el mecanismo principal?",
+options: [
+"Déficit de plaquetas",
+"Déficit de factores de coagulación sintetizados en hígado",
+"Exceso de plasmina",
+"Defecto vascular"
+],
+answer: 1,
+explanation: "El hígado produce la mayoría de factores de coagulación."
+},
+
+{
+question: "Una mujer con síndrome antifosfolípido presenta trombosis recurrente. ¿Cuál es el mecanismo principal?",
+options: [
+"Aumento de fibrinólisis",
+"Inhibición de proteína C",
+"Déficit de fibrina",
+"Disminución plaquetaria"
+],
+answer: 1,
+explanation: "Se pierde regulación anticoagulante."
+},
+
+{
+question: "Paciente con trauma severo desarrolla CID. ¿Qué lo desencadena?",
+options: [
+"Inhibición de trombina",
+"Liberación de factores tisulares procoagulantes",
+"Déficit plaquetario",
+"Aumento de NO"
+],
+answer: 1,
+explanation: "El daño tisular activa coagulación."
+},
+
+{
+question: "Paciente con dímero D elevado. ¿Qué significa?",
+options: [
+"Inhibición coagulación",
+"Formación y degradación de fibrina",
+"Déficit factores",
+"Plaquetas bajas"
+],
+answer: 1,
+explanation: "Indica fibrinólisis secundaria."
+},
+
+{
+question: "Déficit de antitrombina III produce:",
+options: [
+"Sangrado",
+"Trombosis",
+"Fibrinólisis",
+"Plaquetopenia"
+],
+answer: 1,
+explanation: "Se pierde inhibición de coagulación."
+},
+
+{
+question: "Paciente con sangrado tardío profundo. ¿Qué está alterado?",
+options: [
+"Primaria",
+"Secundaria",
+"Vascular",
+"Fibrinolítica"
+],
+answer: 1,
+explanation: "Coagulación secundaria."
+},
+
+{
+question: "Endotelio activado en sepsis:",
+options: [
+"Anticoagulante",
+"Procoagulante",
+"Inactivo",
+"Fibrinolítico"
+],
+answer: 1,
+explanation: "Expresa factor tisular."
+},
+
+{
+question: "Déficit vitamina K afecta:",
+options: [
+"Plaquetas",
+"Factores II, VII, IX, X",
+"Fibrinólisis",
+"Endotelio"
+],
+answer: 1,
+explanation: "Factores dependientes."
+},
+
+{
+question: "Exceso plasmina produce:",
+options: [
+"Más coagulación",
+"Más fibrina",
+"Degradación de fibrina",
+"Más trombina"
+],
+answer: 2,
+explanation: "Produce sangrado."
+},
+
+{
+question: "Sangrado inmediato superficial indica:",
+options: [
+"Hemostasia primaria",
+"Secundaria",
+"Fibrinolítica",
+"Hepática"
+],
+answer: 0,
+explanation: "Plaquetas/vaso."
+},
+
+{
+question: "TT prolongado indica:",
+options: [
+"Problema fibrinógeno",
+"Plaquetas",
+"Vasos",
+"Factor VII"
+],
+answer: 0,
+explanation: "Evalúa fibrina."
+},
+
+{
+question: "Hipoxia en trauma:",
+options: [
+"Inhibe coagulación",
+"Activa coagulación",
+"Inhibe plaquetas",
+"Fibrinólisis"
+],
+answer: 1,
+explanation: "Favorece coagulación."
+},
+
+{
+question: "↑ TXA2 ↓ PGI2:",
+options: [
+"Menos coagulación",
+"Más coagulación",
+"Más fibrinólisis",
+"Menos agregación"
+],
+answer: 1,
+explanation: "Favorece agregación."
+},
+
+{
+question: "Sangrado profundo indica:",
+options: [
+"Plaquetas",
+"Factores",
+"Vasos",
+"Fibrinólisis"
+],
+answer: 1,
+explanation: "Secundaria."
+},
+
+{
+question: "Vía intrínseca evalúa:",
+options: [
+"TP",
+"TTPa",
+"TT",
+"TS"
+],
+answer: 1,
+explanation: "Evalúa intrínseca."
+},
+
+{
+question: "Plaquetas aportan:",
+options: [
+"Factores",
+"Superficie fosfolipídica",
+"Plasmina",
+"NO"
+],
+answer: 1,
+explanation: "Facilitan coagulación."
+},
+
+{
+question: "Proteína C/S:",
+options: [
+"Procoagulantes",
+"Anticoagulantes",
+"Plaquetas",
+"Fibrina"
+],
+answer: 1,
+explanation: "Regulan coagulación."
+}
+
+],
+advancedGrandCasesHemostasis: [
+
+{
+question: "Un varón de 73 años es hospitalizado por colangitis severa y evoluciona rápidamente a shock séptico. Requiere expansión con líquidos, vasopresores y monitoreo en UCI. Doce horas después comienza con sangrado en encías, hemorragia persistente por sitios de catéter venoso, petequias en tórax y equimosis extensas en miembros. Los análisis muestran trombocitopenia, TP prolongado, TTPa prolongado y elevación importante de productos de degradación de fibrina. A pesar de ese sangrado difuso, presenta oliguria progresiva, aumento del lactato y cambios isquémicos distales en los dedos del pie. El médico de guardia explica que el error más común es pensar que si un paciente sangra mucho no puede estar al mismo tiempo trombosando. ¿Cuál es la mejor interpretación fisiopatológica de este cuadro?",
+options: [
+"Existe una alteración aislada de la hemostasia primaria, y la falla renal se explica únicamente por hipotensión",
+"Se ha activado de forma sistémica la coagulación con formación de microtrombos, consumo de factores y plaquetas, y fibrinólisis secundaria",
+"El problema central es una deficiencia aislada de fibrinógeno sin formación de fibrina previa",
+"El proceso dominante es una hiperactividad primaria de plasmina sin activación significativa de la coagulación"
+],
+answer: 1,
+explanation: "El caso es típico de coagulación intravascular diseminada. En este trastorno, la sepsis activa el endotelio y favorece mecanismos procoagulantes, con formación difusa de fibrina y microtrombos que comprometen la perfusión tisular. A la vez, se consumen factores y plaquetas, por lo que aparecen sangrados. La elevación de productos de degradación de fibrina confirma que hubo fibrina formada y luego degradada, es decir, fibrinólisis secundaria. Por eso, trombosis y hemorragia coexisten dentro del mismo proceso."
+},
+
+{
+question: "Una mujer de 21 años consulta por menorragia severa desde la adolescencia, epistaxis recurrente, sangrado gingival al cepillado y aparición de petequias tras pequeños golpes. Refiere que al cocinar, incluso una herida superficial comienza a sangrar de inmediato y tarda mucho más de lo esperado en detenerse. Niega hemartrosis, hematomas musculares profundos y sangrado tardío después de extracciones dentales. En el laboratorio: recuento plaquetario normal, TP normal, TTPa normal y tiempo de sangría prolongado. El residente plantea que un sangrado tan marcado debería indicar defecto en la formación de fibrina. ¿Cuál es la mejor respuesta a esa interpretación?",
+options: [
+"Es incorrecta, porque el patrón mucocutáneo inmediato con TP y TTPa normales orienta a un trastorno de hemostasia primaria más que a un defecto de fibrina",
+"Es correcta, porque cualquier hemorragia abundante implica alteración obligatoria de la coagulación secundaria",
+"Es correcta, porque el tiempo de sangría se prolonga sobre todo cuando falla la red de fibrina",
+"Es incorrecta solo porque la edad de la paciente hace improbable cualquier enfermedad de coagulación"
+],
+answer: 0,
+explanation: "La intensidad del sangrado no basta para ubicar el defecto. Lo que orienta mejor es el patrón clínico y el laboratorio. El sangrado mucocutáneo, superficial e inmediato, sumado a TP y TTPa normales y tiempo de sangría prolongado, señala hemostasia primaria alterada. Los defectos de coagulación secundaria suelen manifestarse con hemartrosis, hematomas profundos y sangrado retardado, no tanto con petequias o epistaxis recurrente."
+},
+
+{
+question: "Un adolescente de 16 años consulta por dolor, aumento de volumen y limitación funcional de rodilla izquierda luego de un traumatismo leve durante una clase de educación física. Su madre refiere episodios previos de tumefacción dolorosa en tobillos y hematomas profundos en muslos tras golpes poco intensos. El examen físico sugiere hemartrosis. Los estudios muestran: plaquetas normales, tiempo de sangría normal, TP normal y TTPa prolongado. Un compañero de clase afirma que si las plaquetas son normales, el sangrado no puede deberse a un problema de la hemostasia. ¿Cuál es la mejor explicación para corregir esa idea?",
+options: [
+"Las plaquetas normales excluyen la hemostasia primaria, pero no descartan alteraciones de coagulación secundaria que impiden estabilizar el tapón con fibrina",
+"Las plaquetas normales excluyen cualquier trastorno hemorrágico hereditario",
+"Si el tiempo de sangría es normal, el TTPa deja de tener valor diagnóstico",
+"El sangrado articular solo puede explicarse por lesión vascular local y no por trastornos sistémicos"
+],
+answer: 0,
+explanation: "La hemostasia no depende solo de las plaquetas. En este caso, la hemostasia primaria parece conservada, pero el TTPa prolongado y el patrón clínico de hemartrosis y hematomas profundos orientan a un defecto de coagulación secundaria. El tapón inicial puede formarse, pero no se consolida con una red adecuada de fibrina, por eso el sangrado es profundo y tardío."
+},
+
+{
+question: "Un hombre de 62 años con cirrosis hepática avanzada por hepatopatía alcohólica es sometido a drenaje de ascitis a tensión. Después del procedimiento, persiste el sangrado por el sitio de punción más tiempo del esperado. Los análisis muestran prolongación tanto del TP como del TTPa. En la discusión, un estudiante comenta que el hígado es importante para el metabolismo de fármacos, pero no tanto para la hemostasia. ¿Cuál es la respuesta más correcta del profesor?",
+options: [
+"El hígado sintetiza gran parte de los factores de coagulación, por lo que su falla compromete varias etapas de la hemostasia secundaria",
+"El hígado es irrelevante para la coagulación, pero la cirrosis altera directamente la vasoconstricción",
+"El hígado actúa solo sobre la fibrinólisis y no afecta TP ni TTPa",
+"El sangrado en cirrosis se explica exclusivamente por alteración de plaquetas, no de proteínas plasmáticas"
+],
+answer: 0,
+explanation: "Muchos factores de coagulación son sintetizados en hepatocitos. Por eso, cuando hay insuficiencia hepática importante, puede alterarse de forma global la coagulación secundaria y prolongarse tanto TP como TTPa. El hígado es una pieza central del sistema hemostático, no solo un órgano metabólico general."
+},
+
+{
+question: "Una mujer de 35 años presenta abruptio placentae severo y es llevada a sala de operaciones. Horas después desarrolla sangrado anormal en heridas quirúrgicas, petequias, equimosis extensas, hipotensión y deterioro respiratorio. El laboratorio muestra descenso de plaquetas, TP prolongado, TTPa prolongado y elevación de productos de degradación de fibrina. El obstetra explica que ciertas complicaciones obstétricas pueden desencadenar un estado sistémico de activación de la coagulación. ¿Cuál es el evento inicial más importante que mejor explica ese proceso?",
+options: [
+"Liberación o exposición masiva de sustancias con actividad procoagulante, incluyendo activación mediada por Factor Tisular",
+"Disminución aislada del factor IX por consumo selectivo de la vía intrínseca",
+"Bloqueo abrupto de la agregación plaquetaria por aumento de prostaciclina",
+"Parálisis primaria de la fibrinólisis con imposibilidad de degradar coágulos fisiológicos"
+],
+answer: 0,
+explanation: "Las complicaciones obstétricas pueden liberar poderosos estímulos procoagulantes y activar la vía relacionada con el Factor Tisular. Esto inicia coagulación sistémica, formación de fibrina, consumo de factores y plaquetas y, posteriormente, fibrinólisis secundaria. El cuadro resultante es compatible con CID."
+},
+
+{
+question: "Un varón de 43 años consulta por edema doloroso de la pierna derecha y se diagnostica trombosis venosa profunda. No fuma, no ha estado inmovilizado y no tiene cirugía reciente. En el estudio de trombofilia se detectan niveles bajos de antitrombina III. El paciente pregunta por qué la falta de una sustancia anticoagulante hace que forme trombos en lugar de tener hemorragias. ¿Cuál es la explicación más adecuada?",
+options: [
+"La antitrombina III inhibe factores activados de la coagulación; al disminuir, se pierde un freno fisiológico clave y aumenta la trombosis",
+"La antitrombina III estimula la formación de trombina; su déficit hace la coagulación menos eficiente pero más visible",
+"La antitrombina III es necesaria para la adhesión plaquetaria, por eso su disminución genera trombos venosos",
+"La antitrombina III pertenece al sistema fibrinolítico y su déficit causa aumento del tiempo de sangría"
+],
+answer: 0,
+explanation: "La antitrombina III es un anticoagulante natural que limita la actividad de trombina y otros factores activados. Si disminuye, la coagulación queda menos regulada y el equilibrio se desplaza hacia trombosis. Este caso ilustra que la hemostasia normal requiere también mecanismos inhibitorios, no solo procoagulantes."
+},
+
+{
+question: "Una mujer de 30 años con antecedente de dos pérdidas gestacionales consulta por edema, calor y dolor en la pierna izquierda. La ecografía doppler confirma trombosis venosa profunda. Los estudios inmunológicos revelan anticuerpos antifosfolípidos. Durante la sesión de casos, el docente explica que este síndrome favorece trombosis al interferir con vías anticoagulantes fisiológicas. ¿Cuál es el mecanismo mejor relacionado con este fenómeno?",
+options: [
+"Inhibición de la activación de proteína C, lo que reduce el control fisiológico de la coagulación",
+"Destrucción selectiva de fibrinógeno, lo que obliga al organismo a trombosar para compensar",
+"Bloqueo del factor de Von Willebrand, con sangrado mucoso y trombosis paradójica",
+"Aumento persistente del activador tisular del plasminógeno, con lisis de fibrina defectuosa"
+],
+answer: 0,
+explanation: "En el síndrome antifosfolípido predominan fenómenos protrombóticos. Uno de los mecanismos relevantes es la interferencia con vías anticoagulantes como la activación de proteína C. Al disminuir ese control, se favorece la persistencia de la actividad procoagulante y aumenta el riesgo trombótico."
+},
+
+{
+question: "Un paciente de 64 años con adenocarcinoma pancreático presenta episodios repetidos de trombosis venosa migratoria. Con el tiempo desarrolla además gingivorragia, equimosis y alteración de TP y TTPa. En la discusión clínica se plantea que ciertos tumores pueden producir primero un estado protrombótico y después un cuadro de consumo hemostático. ¿Cuál es la mejor explicación de esa secuencia?",
+options: [
+"Los tumores pueden liberar sustancias procoagulantes como mucinas o enzimas, que activan la coagulación y, si el proceso se generaliza, consumen factores y plaquetas",
+"Las neoplasias solo causan sangrado cuando infiltran médula ósea, por lo que la trombosis es un hallazgo no relacionado",
+"El cáncer produce directamente déficit de vitamina K, lo que explica todas las manifestaciones",
+"Los adenocarcinomas inhiben la función plaquetaria sin afectar el sistema de coagulación plasmática"
+],
+answer: 0,
+explanation: "Algunas neoplasias, en especial adenocarcinomas, pueden inducir un estado procoagulante al liberar sustancias que activan la coagulación. Esto puede manifestarse inicialmente con trombosis. Si la activación se vuelve extensa, se consumen plaquetas y factores, y aparecen manifestaciones hemorrágicas."
+},
+
+{
+question: "Un hombre de 69 años presenta hemorragia desproporcionada luego de una extracción dentaria. En el laboratorio: TP prolongado, TTPa normal, recuento plaquetario normal y tiempo de sangría normal. El clínico dice que la alteración probablemente se localiza en la vía extrínseca. ¿Qué fundamento fisiológico respalda mejor esa conclusión?",
+options: [
+"El TP evalúa la vía extrínseca, por lo que su prolongación aislada orienta a compromiso de factores como el VII",
+"El tiempo de sangría refleja principalmente la vía extrínseca y por eso es el dato decisivo",
+"El TTPa normal demuestra que no existe ningún trastorno de coagulación secundaria",
+"Solo los trastornos vasculares producen TP prolongado con TTPa normal"
+],
+answer: 0,
+explanation: "El TP se utiliza para valorar la vía extrínseca. Cuando está prolongado de forma aislada, y el TTPa permanece normal, el defecto se ubica con mayor probabilidad en esa vía, con énfasis en factores como el VII. La hemostasia primaria parece intacta por la normalidad del tiempo de sangría y del recuento plaquetario."
+},
+
+{
+question: "Un joven de 20 años sufre una herida cortante profunda en el antebrazo al manipular vidrio. Antes de que el coágulo se consolide por completo, el sangrado disminuye por mecanismos locales inmediatos. El cirujano pregunta qué mediadores explican mejor esa primera respuesta hemostática vascular. ¿Cuál es la respuesta correcta?",
+options: [
+"Predominio de óxido nítrico y prostaciclina para mantener la sangre en fase fluida",
+"Participación de endotelina, serotonina plaquetaria y TXA2, junto con reducción relativa de NO y PGI2",
+"Activación inmediata de plasmina para limitar el crecimiento del coágulo",
+"Descenso rápido del calcio extracelular para impedir la unión de factores a membrana"
+],
+answer: 1,
+explanation: "La fase vascular inicial se caracteriza por vasoconstricción. Participan mediadores como endotelina, serotonina y TXA2, mientras disminuye el predominio de mediadores vasodilatadores y antiagregantes como óxido nítrico y prostaciclina. Esa combinación ayuda a reducir la pérdida sanguínea de forma inmediata."
+},
+
+{
+question: "Una mujer de 39 años presenta sangrado excesivo tras repetidos procedimientos odontológicos. Su recuento plaquetario se encuentra dentro del rango normal, pero el tiempo de sangría está prolongado. El hematólogo explica que esto no es una contradicción. ¿Cuál es la mejor interpretación?",
+options: [
+"La cantidad de plaquetas refleja automáticamente su función, por lo que el tiempo de sangría probablemente es un falso positivo",
+"Puede existir una alteración funcional de adhesión, activación o agregación plaquetaria aun con recuento normal",
+"El tiempo de sangría solo se prolonga cuando existe déficit de fibrinógeno",
+"Con plaquetas normales, la única causa posible de sangrado es hepatopatía"
+],
+answer: 1,
+explanation: "La hemostasia primaria depende tanto de la cantidad como de la función plaquetaria. Un paciente puede tener un recuento normal y, aun así, presentar defectos funcionales de adhesión, liberación de mediadores, activación o agregación. Eso explica el tiempo de sangría prolongado y el patrón mucocutáneo de sangrado."
+},
+
+{
+question: "Un niño de 12 años con antecedentes de hematomas musculares profundos y dolor articular recurrente es evaluado por un hematólogo. El especialista explica a la familia que el problema no está en iniciar la respuesta hemostática, sino en volverla lo bastante firme como para resistir la presión intravascular. ¿Qué fase está principalmente comprometida?",
+options: [
+"La fase vascular inicial, donde predomina la vasoconstricción",
+"La hemostasia primaria con formación del tapón plaquetario",
+"La hemostasia secundaria con formación y estabilización de la red de fibrina",
+"La fase final de fibrinólisis encargada de retirar el coágulo"
+],
+answer: 2,
+explanation: "Cuando predominan hemartrosis y hematomas profundos, el defecto suele estar en la coagulación secundaria. El problema principal es la incapacidad de formar una red de fibrina suficientemente estable para consolidar el tapón inicial. Por eso el sangrado tiende a ser profundo y tardío."
+},
+
+{
+question: "Un paciente con sepsis grave desarrolla activación endotelial difusa. El internista explica que el endotelio sano normalmente tiene un perfil anticoagulante y profibrinolítico, pero que durante la inflamación cambia de manera radical. ¿Cuál de las siguientes opciones representa mejor esa transición?",
+options: [
+"Aumento de prostaciclina y óxido nítrico para impedir cualquier interacción con plaquetas",
+"Expresión de Factor Tisular y secreción de mediadores que favorecen coagulación local y limitan fibrinólisis",
+"Eliminación total del factor de Von Willebrand de los cuerpos de Weibel-Palade",
+"Suspensión completa del contacto entre sangre y pared vascular"
+],
+answer: 1,
+explanation: "El endotelio activado pierde parte de su perfil anticoagulante y se vuelve procoagulante. Entre los cambios importantes están la expresión de Factor Tisular y la producción de moléculas que favorecen coagulación local y dificultan la lisis prematura del coágulo. Esa transición es central en sepsis y otros estados inflamatorios."
+},
+
+{
+question: "Una paciente de 47 años presenta sangrado posoperatorio persistente. El laboratorio informa un tiempo de trombina prolongado. El especialista explica que esta prueba no estudia principalmente la adhesión plaquetaria ni la vía extrínseca, sino un paso final específico. ¿Qué proceso está evaluando de forma más directa?",
+options: [
+"La adhesión plaquetaria al subendotelio mediada por factor de Von Willebrand",
+"La conversión de fibrinógeno en fibrina después de añadir trombina al plasma",
+"La activación del factor VII en la vía extrínseca",
+"La inhibición de factores Va y VIIIa por proteína C"
+],
+answer: 1,
+explanation: "El tiempo de trombina evalúa la fase en la que la trombina actúa sobre el fibrinógeno para generar fibrina. Por ello se altera cuando existe problema del fibrinógeno o alguna interferencia que afecte esa reacción final."
+},
+
+{
+question: "Un varón de 57 años sufre traumatismo craneoencefálico grave tras un accidente automovilístico. Horas después presenta sangrado difuso, hipotensión, hipoxemia y alteración combinada de TP y TTPa, junto con elevación de productos de degradación de fibrina. El intensivista señala que el trauma no solo produce hemorragia mecánica, sino que puede desencadenar una alteración sistémica del sistema hemostático. ¿Cuál es el mecanismo más probable?",
+options: [
+"Liberación de sustancias procoagulantes y activación endotelial por daño tisular extenso, con activación difusa de la coagulación",
+"Déficit agudo aislado del factor IX por consumo exclusivo intracraneal",
+"Supresión completa de la función plaquetaria sin afectación de factores plasmáticos",
+"Inhibición generalizada de trombina por exceso brusco de trombomodulina"
+],
+answer: 0,
+explanation: "El trauma extenso puede activar la coagulación sistémica por exposición de material tisular y respuesta inflamatoria intensa. Esto favorece un cuadro similar a CID, con microtrombosis, consumo de factores y sangrado difuso."
+},
+
+{
+question: "Un paciente de 52 años consulta por sangrado persistente tras una pequeña incisión cutánea. El médico solicita una prueba diseñada para valorar especialmente las etapas iniciales de la hemostasia, es decir, la interacción entre pared vascular, plaquetas y tapón primario. ¿Cuál es el estudio más útil para ese objetivo?",
+options: [
+"Tiempo de protrombina",
+"Tiempo de tromboplastina parcial activada",
+"Tiempo de sangría",
+"Tiempo de trombina"
+],
+answer: 2,
+explanation: "El tiempo de sangría es la prueba clásica para evaluar las etapas iniciales de la hemostasia. Refleja la interacción vaso-plaqueta y la formación del tapón primario, por lo que es útil en trastornos de hemostasia primaria."
+},
+
+{
+question: "Una mujer con antecedentes de trombosis venosas recurrentes es estudiada por posible deficiencia de proteína C y proteína S. Durante la clase, el profesor insiste en que la hemostasia fisiológica no consiste solo en formar coágulos, sino también en impedir que se expandan fuera del sitio de lesión. ¿Cuál es la mejor manera de entender el papel de estas proteínas?",
+options: [
+"Son componentes estructurales del tapón plaquetario, por eso su déficit produce petequias",
+"Actúan como anticoagulantes naturales que limitan la extensión del coágulo; su déficit favorece trombosis",
+"Son mediadores vasoconstrictores de la fase vascular",
+"Transforman directamente fibrinógeno en fibrina durante la coagulación"
+],
+answer: 1,
+explanation: "Las proteínas C y S pertenecen a los mecanismos anticoagulantes fisiológicos. Su función es limitar la propagación de la coagulación. Cuando faltan o funcionan mal, el sistema pierde un freno importante y el equilibrio se desplaza hacia trombosis."
+},
+
+{
+question: "Un paciente con infección sistémica presenta activación plaquetaria intensa y el médico explica que las plaquetas no solo sirven para formar el tapón hemostático primario, sino también para facilitar la generación localizada de fibrina. ¿Cuál es la contribución más importante de las plaquetas a la fase fluida de la coagulación?",
+options: [
+"Síntesis completa de todos los factores plasmáticos de coagulación",
+"Aporte de una superficie fosfolipídica y ligandos para ensamblar complejos de coagulación y acelerar reacciones locales",
+"Conversión directa del plasminógeno en plasmina en el sitio lesionado",
+"Producción principal de prostaciclina y óxido nítrico para regular la pared vascular"
+],
+answer: 1,
+explanation: "Las plaquetas activadas aportan una superficie fosfolipídica clave para que se ensamblen complejos de coagulación. Esto acelera y localiza la generación de fibrina en el sitio de lesión, conectando la hemostasia primaria con la secundaria."
+},
+
+{
+question: "Una mujer de 34 años, luego de una complicación obstétrica, presenta al mismo tiempo hemorragia por heridas quirúrgicas y signos clínicos de compromiso microvascular distal. Un interno afirma que si está sangrando tanto, entonces no puede estar formando trombos. ¿Cuál es la mejor corrección conceptual?",
+options: [
+"En ciertos trastornos, la activación excesiva de la coagulación forma trombos y simultáneamente consume factores y plaquetas, generando sangrado",
+"El sangrado abundante siempre excluye un estado protrombótico sistémico",
+"Las trombosis solo aparecen cuando TP y TTPa son normales",
+"La hemorragia de este tipo solo puede deberse a fragilidad vascular aislada"
+],
+answer: 0,
+explanation: "La coexistencia de trombosis y sangrado es un concepto central en trastornos como la CID. La coagulación se activa de manera exagerada, se forman trombos y se consumen los elementos hemostáticos, dejando al organismo con menor capacidad para responder a nuevas lesiones y favoreciendo hemorragia."
+},
+
+{
+question: "Un hombre de 61 años presenta hematuria, hematomas musculares y sangrado retardado tras un procedimiento menor. No tiene petequias ni epistaxis prominente. Antes de revisar estudios, el clínico usa el patrón de sangrado como orientación diagnóstica. ¿Cuál es la alteración más probable?",
+options: [
+"Trastorno de hemostasia primaria con defecto vascular-plaquetario",
+"Alteración de coagulación secundaria por defecto de factores plasmáticos",
+"Fragilidad capilar aislada sin compromiso de coagulación",
+"Defecto exclusivo de liberación de ADP plaquetario"
+],
+answer: 1,
+explanation: "El sangrado profundo y retardado orienta a trastornos de coagulación secundaria. Los defectos de hemostasia primaria suelen producir petequias, epistaxis, gingivorragia y sangrado inmediato mucocutáneo, no tanto hematomas musculares o hematuria tardía."
+},
+
+{
+question: "Un paciente de 55 años es estudiado por sospecha de alteración de la vía intrínseca. En el laboratorio se añade al plasma una sustancia con superficie negativa antes de agregar tromboplastina parcial, y el tiempo resultante aparece prolongado. ¿Qué estudio se realizó y qué concluye el médico a partir de él?",
+options: [
+"Tiempo de protrombina; compromiso de la vía extrínseca",
+"Tiempo de tromboplastina parcial activada; alteración de la vía intrínseca",
+"Tiempo de trombina; defecto primario de fibrinólisis",
+"Tiempo de sangría; trastorno de adhesión plaquetaria"
+],
+answer: 1,
+explanation: "La descripción corresponde al TTPa. Esta prueba se utiliza para explorar la vía intrínseca y su prolongación orienta a alteraciones en factores como VIII, IX o XII, entre otros componentes relacionados con esa fase de la coagulación."
+}
+
+],
+ultraGrandCasesHemostasis: [
+
+{
+question: "Un varón de 65 años es admitido en UCI por sepsis secundaria a neumonía grave. En las primeras horas presenta hipotensión, taquicardia y necesidad de vasopresores. Veinticuatro horas después comienza con sangrado en encías, petequias en tórax, equimosis en extremidades y hemorragia persistente en los sitios de venopunción. Los estudios muestran plaquetas de 54,000/μL, TP prolongado, TTPa prolongado y elevación marcada del dímero D. Al mismo tiempo, desarrolla oliguria, deterioro del sensorio y cambios isquémicos en los dedos de los pies. Durante la discusión, un residente sostiene que el sangrado indica un estado puramente hipocoagulable y que los cambios isquémicos deben ser por el shock solamente. ¿Cuál es la mejor interpretación fisiopatológica del cuadro completo?",
+options: [
+"Existe una trombocitopatía aislada que explica tanto el sangrado como la falla orgánica",
+"Hay activación sistémica de la coagulación con formación de microtrombos, consumo de plaquetas y factores, y fibrinólisis secundaria",
+"El problema central es una deficiencia aislada de fibrinógeno, y el dímero D elevado es un hallazgo inespecífico",
+"Predomina una hiperactividad primaria del plasminógeno sin participación importante de la coagulación"
+],
+answer: 1,
+explanation: "El cuadro es típico de coagulación intravascular diseminada. La sepsis induce activación endotelial y expresión de mecanismos procoagulantes, con formación difusa de fibrina y microtrombos que alteran la perfusión orgánica. Al mismo tiempo, se consumen plaquetas y factores, por lo que aparecen petequias, oozing y hemorragia mucosa. El dímero D elevado indica que hubo formación de fibrina y posterior degradación, es decir, fibrinólisis secundaria. Por eso trombosis y sangrado coexisten."
+},
+
+{
+question: "Una mujer de 27 años consulta por epistaxis recurrentes, menorragia severa y sangrado gingival al cepillado. Refiere que, cuando sufre cortes pequeños, la hemorragia inicia inmediatamente y tarda mucho en cesar, pero nunca ha tenido hemartrosis ni hematomas musculares profundos. En el laboratorio: recuento plaquetario de 230,000/μL, TP normal, TTPa normal y tiempo de sangría prolongado. Un interno propone que, al no haber trombocitopenia, el problema debe estar en los factores de coagulación. ¿Cuál es la mejor forma de refutar ese razonamiento?",
+options: [
+"Porque un recuento plaquetario normal no excluye alteración funcional de la hemostasia primaria",
+"Porque las alteraciones de factores de coagulación siempre prolongan el tiempo de sangría",
+"Porque el sangrado mucoso es exclusivo de la vía extrínseca",
+"Porque la hemostasia secundaria no participa en sangrado clínico real"
+],
+answer: 0,
+explanation: "La cifra de plaquetas normal no garantiza que funcionen bien. La paciente tiene un patrón mucocutáneo e inmediato, típico de hemostasia primaria alterada. El tiempo de sangría prolongado refuerza ese diagnóstico. Los defectos de coagulación secundaria suelen dar sangrado profundo, hemartrosis o hematomas musculares, no tanto epistaxis, petequias o sangrado gingival como manifestación dominante."
+},
+
+{
+question: "Un adolescente de 14 años es traído por dolor intenso y aumento de volumen de rodilla luego de un traumatismo menor jugando básquet. Su madre refiere antecedentes de episodios similares en articulaciones y hematomas profundos en muslos tras golpes leves. El laboratorio muestra recuento plaquetario normal, tiempo de sangría normal, TP normal y TTPa prolongado. El profesor pregunta por qué, si el paciente sangra con facilidad, no presenta petequias ni sangrado gingival marcado. ¿Cuál es la respuesta más adecuada?",
+options: [
+"Porque la alteración se ubica en la hemostasia secundaria y la falla principal es estabilizar el tapón con fibrina, lo que produce sangrado profundo",
+"Porque las petequias solo aparecen cuando el recuento plaquetario es menor de 10,000/μL",
+"Porque la vía intrínseca solo se expresa en articulaciones y músculos",
+"Porque la fibrinólisis está completamente suprimida"
+],
+answer: 0,
+explanation: "El patrón de hemartrosis y hematomas profundos es característico de trastornos de coagulación secundaria. La hemostasia primaria parece preservada, ya que el tiempo de sangría y el número de plaquetas son normales. El problema es que el tapón inicial no logra consolidarse con una red de fibrina adecuada, por eso el sangrado aparece en tejidos profundos y suele ser retardado."
+},
+
+{
+question: "Un hombre de 59 años con cirrosis avanzada es sometido a una toracocentesis. Tras el procedimiento presenta sangrado persistente por el sitio de punción. Sus análisis muestran TP y TTPa prolongados. Durante la visita, un estudiante señala que el hígado influye poco en la coagulación y que la mayor parte del problema debe ser vascular. ¿Cuál es la mejor corrección a esa afirmación?",
+options: [
+"El hígado sintetiza múltiples factores de coagulación, por lo que su falla compromete varias partes de la hemostasia secundaria",
+"El hígado produce principalmente plaquetas, por eso el trastorno dominante es plaquetario",
+"El hígado solo interviene en la fibrinólisis, pero no en la coagulación",
+"El sangrado en hepatopatía se explica exclusivamente por déficit de óxido nítrico"
+],
+answer: 0,
+explanation: "Muchos factores de coagulación son producidos por hepatocitos. Cuando el hígado falla, disminuye la síntesis de varias proteínas esenciales para la coagulación secundaria, lo que se refleja en TP y TTPa prolongados. No es un papel marginal, sino central dentro del sistema hemostático."
+},
+
+{
+question: "Una mujer de 33 años presenta una complicación obstétrica grave con abruptio placentae. Horas después comienza con sangrado por la herida quirúrgica, petequias, equimosis generalizadas, hipotensión y deterioro respiratorio. El laboratorio muestra trombocitopenia, TP prolongado, TTPa prolongado y elevación de productos de degradación de fibrina. En la discusión académica se menciona que algunas complicaciones obstétricas activan la coagulación de manera explosiva. ¿Cuál es el mecanismo inicial más importante?",
+options: [
+"Liberación y exposición masiva de material procoagulante, con activación importante de la vía del Factor Tisular",
+"Disminución selectiva del factor XII por consumo local en útero",
+"Inhibición primaria de la agregación plaquetaria por exceso de prostaciclina",
+"Supresión brusca del activador tisular del plasminógeno"
+],
+answer: 0,
+explanation: "Las complicaciones obstétricas son causas clásicas de CID porque exponen o liberan poderosos estímulos procoagulantes, entre ellos el Factor Tisular. Esto inicia coagulación sistémica, formación de fibrina, consumo de factores y plaquetas y, más tarde, fibrinólisis secundaria. El resultado es la coexistencia de trombosis microvascular y sangrado."
+},
+
+{
+question: "Un varón de 46 años consulta por su primer episodio de trombosis venosa profunda sin cirugía reciente, inmovilización ni cáncer conocido. En el estudio posterior se encuentra actividad muy disminuida de antitrombina III. El paciente pregunta cómo la falta de una molécula anticoagulante puede favorecer trombos en vez de hemorragias. ¿Cuál es la respuesta más correcta?",
+options: [
+"La antitrombina III limita la acción de factores activados; su déficit elimina un freno fisiológico y facilita la coagulación excesiva",
+"La antitrombina III activa las plaquetas, por lo que su déficit impide el sangrado normal",
+"La antitrombina III es necesaria para formar fibrina estable, por lo que su ausencia produce trombos frágiles",
+"La antitrombina III aumenta la liberación de NO endotelial, y su falta reduce el tiempo de sangría"
+],
+answer: 0,
+explanation: "La antitrombina III es un regulador fisiológico de la coagulación. Inhibe trombina y otros factores activados, evitando que la coagulación se extienda de manera inapropiada. Si falta, el sistema pierde control y se desplaza hacia trombosis. Este caso recuerda que la hemostasia normal depende tanto de mecanismos procoagulantes como de frenos anticoagulantes."
+},
+
+{
+question: "Una mujer de 31 años con antecedente de dos abortos espontáneos consulta por edema doloroso en la pantorrilla izquierda. La ecografía confirma trombosis venosa profunda y los estudios detectan anticuerpos antifosfolípidos. El docente remarca que el problema no es hemorrágico, sino un fallo en la regulación anticoagulante. ¿Qué mecanismo es el más importante entre los siguientes?",
+options: [
+"Inhibición de la activación de proteína C, favoreciendo la persistencia de actividad procoagulante",
+"Destrucción del fibrinógeno con formación compensatoria de trombos",
+"Bloqueo del factor XIII, con trombosis por coágulos inestables",
+"Aumento de PGI2 y óxido nítrico, con hiperreactividad paradójica"
+],
+answer: 0,
+explanation: "En el síndrome antifosfolípido predominan fenómenos trombóticos. La interferencia con vías anticoagulantes, incluida la activación de proteína C, reduce los mecanismos fisiológicos que limitan la coagulación. El resultado es una tendencia persistente a trombosis venosa y complicaciones obstétricas."
+},
+
+{
+question: "Un paciente de 63 años con adenocarcinoma pancreático presenta episodios repetidos de trombosis migratoria. Semanas después desarrolla gingivorragia, equimosis y prolongación de TP y TTPa. El oncólogo explica que algunos tumores pueden iniciar un estado protrombótico y luego evolucionar a consumo hemostático. ¿Cuál es la explicación más completa?",
+options: [
+"Los tumores pueden liberar mucinas y otras sustancias procoagulantes que activan la coagulación; si el proceso se generaliza, se consumen factores y plaquetas",
+"Las neoplasias solo generan sangrado por invasión vascular directa, y la trombosis es incidental",
+"El cáncer pancreático provoca siempre déficit de vitamina K secundario",
+"Los adenocarcinomas solo alteran la fase vascular de la hemostasia"
+],
+answer: 0,
+explanation: "Algunos adenocarcinomas liberan sustancias que activan la coagulación. Esto puede manifestarse primero como trombosis. Si la activación se vuelve más extensa, se consumen plaquetas y factores, produciendo un cuadro mixto con alteraciones de laboratorio y sangrado clínico."
+},
+
+{
+question: "Un hombre de 72 años presenta sangrado excesivo luego de una extracción dentaria. Sus análisis muestran TP prolongado, TTPa normal, tiempo de sangría normal y recuento plaquetario normal. Un estudiante afirma que, como el tiempo de sangría es normal, no puede existir un trastorno hemostático real. ¿Cuál es la mejor corrección?",
+options: [
+"Sí puede existir, porque un TP prolongado aislado orienta a una alteración de la vía extrínseca pese a que la hemostasia primaria sea normal",
+"El tiempo de sangría es la prueba más sensible para toda la coagulación, por lo que el TP no aporta nada",
+"El TTPa normal excluye cualquier trastorno hemorrágico",
+"Si las plaquetas son normales, el sangrado debe ser facticio"
+],
+answer: 0,
+explanation: "El tiempo de sangría evalúa hemostasia primaria, no toda la coagulación. Este paciente tiene datos de hemostasia primaria conservada, pero el TP prolongado indica una alteración de la vía extrínseca. Por eso puede existir sangrado clínico importante aunque el tiempo de sangría sea normal."
+},
+
+{
+question: "Un joven de 22 años sufre una herida cortante en el antebrazo con un vidrio. En los primeros minutos, el sangrado disminuye antes de que se forme un coágulo consolidado. El cirujano pregunta qué combinación de mediadores explica mejor esa primera fase de respuesta local. ¿Cuál es la opción más adecuada?",
+options: [
+"Predominio de endotelina, serotonina y TXA2, con menor influencia relativa de NO y PGI2",
+"Predominio de NO y PGI2 para mantener flujo libre y evitar agregación",
+"Activación inmediata de aTP para limitar la extensión del tapón",
+"Incremento de antitrombina III y trombomodulina para frenar la trombina"
+],
+answer: 0,
+explanation: "La fase vascular inicial depende de vasoconstricción. En ella participan endotelina, serotonina y TXA2. En cambio, NO y PGI2 son mediadores anticoagulantes y vasodilatadores del endotelio sano, por lo que su ausencia relativa favorece la contención del sangrado."
+},
+
+{
+question: "Una mujer de 40 años presenta sangrado excesivo tras varias extracciones dentales menores. El recuento plaquetario es normal, pero el tiempo de sangría está prolongado. El hematólogo explica que eso no es una contradicción, sino una pista diagnóstica. ¿Qué interpretación es la mejor?",
+options: [
+"Puede existir un defecto funcional plaquetario con recuento normal, afectando adhesión, activación o agregación",
+"El tiempo de sangría se prolonga solamente en deficiencia de fibrinógeno",
+"Con plaquetas normales, la única posibilidad es un defecto de vía extrínseca",
+"El tiempo de sangría pierde valor si el número de plaquetas es normal"
+],
+answer: 0,
+explanation: "La hemostasia primaria depende no solo de cuántas plaquetas haya, sino de cómo funcionan. Una cifra normal no excluye trombocitopatía. Por eso el tiempo de sangría puede estar prolongado incluso con recuento plaquetario conservado."
+},
+
+{
+question: "Un niño de 13 años con antecedentes de hematomas profundos y dolor articular recurrente es evaluado en consulta. El médico explica que el problema no está en iniciar la hemostasia, sino en hacerla resistente a la fuerza del flujo sanguíneo. ¿Qué fase está fallando principalmente?",
+options: [
+"La fase vascular inicial",
+"La formación del tapón plaquetario primario",
+"La formación y estabilización de la red de fibrina en la hemostasia secundaria",
+"La fase de fibrinólisis reparadora"
+],
+answer: 2,
+explanation: "Cuando predominan hemartrosis y hematomas profundos, el problema suele estar en coagulación secundaria. El tapón inicial puede generarse, pero no se vuelve estable si la red de fibrina no se forma correctamente. Por eso el sangrado reaparece o persiste en tejidos profundos."
+},
+
+{
+question: "Un paciente con sepsis grave desarrolla activación endotelial difusa. El internista explica que un endotelio sano es anticoagulante, pero en inflamación intensa cambia su comportamiento. ¿Cuál de las siguientes opciones representa mejor esa transición funcional?",
+options: [
+"Expresión de Factor Tisular y aumento de mediadores que favorecen coagulación local",
+"Aumento sostenido de PGI2 y NO para reforzar el perfil anticoagulante",
+"Desaparición del factor de Von Willebrand para evitar adhesión plaquetaria",
+"Activación exclusiva de fibrinólisis sin tocar el sistema de coagulación"
+],
+answer: 0,
+explanation: "El endotelio activado pierde parte de su perfil anticoagulante y adopta uno procoagulante. La expresión de Factor Tisular y la secreción de moléculas que favorecen coagulación local son elementos clave. Este cambio es central en sepsis, trauma y otros estados inflamatorios."
+},
+
+{
+question: "Una paciente de 49 años presenta sangrado posoperatorio persistente. El laboratorio reporta tiempo de trombina prolongado. El especialista señala que esta prueba se enfoca en un paso final concreto de la hemostasia. ¿Qué evento está evaluando de manera más directa?",
+options: [
+"La adhesión de plaquetas mediada por factor de Von Willebrand",
+"La conversión de fibrinógeno en fibrina tras añadir trombina al plasma",
+"La activación del factor VII por la vía extrínseca",
+"La inhibición de factores Va y VIIIa por proteína C"
+],
+answer: 1,
+explanation: "El tiempo de trombina examina la etapa final en la que la trombina actúa sobre fibrinógeno para generar fibrina. Por ello se altera cuando existe un problema del fibrinógeno o una interferencia en esta reacción."
+},
+
+{
+question: "Un varón de 56 años sufre traumatismo craneoencefálico grave tras un accidente de tránsito. Diez horas más tarde presenta sangrado difuso, hipotensión, hipoxemia, TP y TTPa prolongados y aumento de productos de degradación de fibrina. El intensivista dice que el trauma no solo causa hemorragia mecánica, sino que puede desencadenar una alteración sistémica del sistema hemostático. ¿Cuál es el mecanismo más probable?",
+options: [
+"Liberación de sustancias procoagulantes y activación endotelial por daño tisular extenso",
+"Déficit selectivo y súbito de factor IX limitado al sistema nervioso central",
+"Bloqueo completo de la función plaquetaria sin alterar factores plasmáticos",
+"Inhibición brusca de trombina por exceso de trombomodulina"
+],
+answer: 0,
+explanation: "El daño tisular extenso y la respuesta inflamatoria del trauma pueden activar la coagulación sistémicamente. Esto favorece formación de fibrina, microtrombosis, consumo de factores y sangrado, generando un cuadro parecido a CID."
+},
+
+{
+question: "Un paciente de 50 años consulta por sangrado persistente tras una pequeña herida cutánea. El médico desea evaluar específicamente la interacción entre vaso, plaquetas y formación del tapón inicial. ¿Cuál es el estudio más apropiado?",
+options: [
+"Tiempo de protrombina",
+"Tiempo de tromboplastina parcial activada",
+"Tiempo de sangría",
+"Tiempo de trombina"
+],
+answer: 2,
+explanation: "El tiempo de sangría es la prueba clásica para estudiar las etapas iniciales de la hemostasia. Refleja cómo interactúan pared vascular y plaquetas en la formación del tapón primario."
+},
+
+{
+question: "Una mujer con antecedentes de trombosis recurrentes es evaluada por posible deficiencia de proteína C y proteína S. Durante la discusión, el profesor enfatiza que la coagulación fisiológica necesita límites para no expandirse fuera del sitio de lesión. ¿Qué afirmación resume mejor el papel de estas proteínas?",
+options: [
+"Son anticoagulantes naturales que limitan la extensión del coágulo; su déficit favorece trombosis",
+"Forman la estructura principal del tapón plaquetario",
+"Son los principales mediadores de vasoconstricción inicial",
+"Convierten directamente fibrinógeno en fibrina"
+],
+answer: 0,
+explanation: "Las proteínas C y S son reguladores anticoagulantes. Su función es limitar la actividad procoagulante y evitar que el coágulo se extienda más allá de lo necesario. Cuando faltan, el equilibrio hemostático se inclina hacia trombosis."
+},
+
+{
+question: "Un paciente con infección sistémica presenta activación plaquetaria intensa. El médico explica que las plaquetas no solo participan en el tapón primario, sino que también facilitan la coagulación secundaria. ¿Cuál es su contribución más importante en la fase fluida de la coagulación?",
+options: [
+"Aportar una superficie fosfolipídica y ligandos que permiten ensamblar complejos de coagulación y acelerar reacciones locales",
+"Sintetizar todos los factores plasmáticos de coagulación",
+"Convertir directamente plasminógeno en plasmina",
+"Producir la mayor parte de PGI2 y NO del sistema vascular"
+],
+answer: 0,
+explanation: "Las plaquetas activadas proporcionan una superficie adecuada para el ensamblaje de varios complejos de coagulación. Esto acelera y localiza la generación de fibrina en el sitio de lesión, integrando hemostasia primaria y secundaria."
+},
+
+{
+question: "Una mujer de 34 años, después de una complicación obstétrica, presenta hemorragia por la herida operatoria y, al mismo tiempo, signos de compromiso microvascular distal. Un interno insiste en que trombosis y hemorragia son fenómenos opuestos y no pueden coexistir. ¿Cuál es la mejor corrección conceptual?",
+options: [
+"En trastornos como la CID, la activación excesiva de la coagulación forma trombos y consume factores y plaquetas, por lo que el sangrado aparece como consecuencia del mismo proceso",
+"El sangrado siempre excluye estados protrombóticos sistémicos",
+"Las trombosis solo aparecen cuando el TP y el TTPa están normales",
+"La hemorragia de este tipo se explica únicamente por lesión vascular local"
+],
+answer: 0,
+explanation: "La coexistencia de trombosis y hemorragia es una idea central en la CID. El proceso no es contradictorio: la coagulación se activa de manera exagerada, se forman trombos y se agotan los recursos hemostáticos. Como resultado, el paciente puede trombosar y sangrar al mismo tiempo."
+},
+
+{
+question: "Un hombre de 60 años presenta hematuria, hematomas musculares y sangrado retardado tras un procedimiento menor. No presenta petequias ni epistaxis marcada. Antes de revisar los exámenes, el clínico usa el patrón clínico del sangrado para orientar el diagnóstico. ¿Cuál es la alteración más probable?",
+options: [
+"Defecto de hemostasia primaria con alteración vascular-plaquetaria",
+"Defecto de coagulación secundaria por alteración de factores plasmáticos",
+"Fragilidad capilar aislada",
+"Defecto de liberación de ADP plaquetario como mecanismo único"
+],
+answer: 1,
+explanation: "El sangrado profundo y retardado, incluyendo hematuria y hematomas musculares, es típico de alteraciones en coagulación secundaria. Los defectos de hemostasia primaria producen sobre todo petequias, epistaxis, gingivorragia y sangrado mucocutáneo inmediato."
+},
+
+{
+question: "Un paciente de 54 años es estudiado por sospecha de alteración de la vía intrínseca. En el laboratorio se agrega al plasma una sustancia con superficie negativa antes de añadir tromboplastina parcial, y el tiempo resultante aparece prolongado. ¿Qué prueba se realizó y qué interpreta el médico a partir de ella?",
+options: [
+"Tiempo de protrombina; defecto en vía extrínseca",
+"Tiempo de tromboplastina parcial activada; alteración de la vía intrínseca",
+"Tiempo de trombina; defecto primario de fibrinólisis",
+"Tiempo de sangría; defecto de función plaquetaria"
+],
+answer: 1,
+explanation: "La descripción corresponde al TTPa. Esta prueba se utiliza para explorar la vía intrínseca, y su prolongación orienta a alteraciones en factores como VIII, IX o XII, entre otros componentes relacionados con esa fase de la coagulación."
+}
+
+],
+eliteExtremeCasesHemostasis: [
+
+{
+question: "Un varón de 69 años es ingresado por sepsis secundaria a infección abdominal complicada. Requiere vasopresores por hipotensión persistente. A las 18 horas desarrolla petequias generalizadas, equimosis extensas y sangrado en mucosas. En paralelo, presenta oliguria, acrocianosis y aumento del lactato sérico. El laboratorio muestra plaquetas 48,000/μL, TP prolongado, TTPa prolongado y dímero D elevado. Un residente concluye que el cuadro es puramente hemorrágico y que la hipoperfusión es secundaria al shock. ¿Cuál es el error principal en esa interpretación?",
+options: [
+"Que el dímero D no refleja formación de fibrina",
+"Que la coagulación sistémica puede generar trombosis microvascular mientras consume factores y produce sangrado",
+"Que la trombosis solo ocurre si TP y TTPa son normales",
+"Que la fibrinólisis precede siempre a la coagulación"
+],
+answer: 1,
+explanation: "El cuadro corresponde a CID. La coagulación se activa sistémicamente formando microtrombos (que explican la hipoperfusión), mientras el consumo de factores y plaquetas produce sangrado. Ambos fenómenos coexisten."
+},
+
+{
+question: "Una mujer de 25 años presenta epistaxis recurrente, gingivorragia y petequias desde la adolescencia. Refiere sangrado inmediato tras traumatismos leves. Laboratorio: plaquetas normales, TP y TTPa normales, tiempo de sangría prolongado. ¿Qué explica mejor el cuadro?",
+options: [
+"Defecto en formación de fibrina",
+"Disfunción plaquetaria",
+"Déficit de factor VII",
+"Exceso de plasmina"
+],
+answer: 1,
+explanation: "Es un trastorno de hemostasia primaria con alteración funcional plaquetaria."
+},
+
+{
+question: "Un adolescente presenta hemartrosis recurrente y hematomas musculares tras traumatismos leves. Laboratorio: TTPa prolongado, TP normal, plaquetas normales. ¿Por qué el sangrado es profundo?",
+options: [
+"Falla de vasoconstricción",
+"Déficit de adhesión plaquetaria",
+"Falta de estabilización con fibrina",
+"Exceso de fibrinólisis"
+],
+answer: 2,
+explanation: "La coagulación secundaria falla, por lo que el tapón no se estabiliza."
+},
+
+{
+question: "Un paciente cirrótico presenta sangrado persistente tras un procedimiento. TP y TTPa prolongados. ¿Cuál es la causa principal?",
+options: [
+"Déficit plaquetario exclusivo",
+"Disminución de factores de coagulación hepáticos",
+"Exceso de NO",
+"Fragilidad vascular"
+],
+answer: 1,
+explanation: "El hígado produce la mayoría de factores de coagulación."
+},
+
+{
+question: "Una mujer con síndrome antifosfolípido presenta trombosis venosa. ¿Cuál es el mecanismo clave?",
+options: [
+"Aumento fibrinólisis",
+"Inhibición proteína C",
+"Déficit fibrinógeno",
+"Disminución plaquetas"
+],
+answer: 1,
+explanation: "Se pierde regulación anticoagulante."
+},
+
+{
+question: "Un paciente con trauma severo desarrolla CID. ¿Qué lo desencadena?",
+options: [
+"Inhibición trombina",
+"Liberación de factor tisular",
+"Déficit plaquetas",
+"Aumento prostaciclina"
+],
+answer: 1,
+explanation: "El daño tisular activa coagulación sistémica."
+},
+
+{
+question: "Un paciente presenta dímero D elevado. ¿Qué significa fisiológicamente?",
+options: [
+"Inhibición coagulación",
+"Formación y degradación de fibrina",
+"Déficit factores",
+"Plaquetopenia"
+],
+answer: 1,
+explanation: "Indica fibrina formada y degradada."
+},
+
+{
+question: "Un paciente con déficit de antitrombina III presenta trombosis. ¿Por qué?",
+options: [
+"Pierde control anticoagulante",
+"Aumenta fibrinólisis",
+"Reduce fibrina",
+"Activa plaquetas"
+],
+answer: 0,
+explanation: "La antitrombina limita coagulación; su déficit favorece trombos."
+},
+
+{
+question: "Un paciente presenta sangrado profundo tardío. ¿Qué sistema está afectado?",
+options: [
+"Hemostasia primaria",
+"Hemostasia secundaria",
+"Fase vascular",
+"Fibrinólisis"
+],
+answer: 1,
+explanation: "Es un problema de coagulación secundaria."
+},
+
+{
+question: "En sepsis, el endotelio cambia su función. ¿Cómo?",
+options: [
+"Se vuelve anticoagulante",
+"Se vuelve procoagulante",
+"Inactivo",
+"Solo fibrinolítico"
+],
+answer: 1,
+explanation: "Expresa factor tisular y promueve coagulación."
+},
+
+{
+question: "Déficit de vitamina K produce:",
+options: [
+"Defecto plaquetario",
+"Déficit factores II, VII, IX, X",
+"Aumento fibrinólisis",
+"Alteración vascular"
+],
+answer: 1,
+explanation: "Factores dependientes de vitamina K."
+},
+
+{
+question: "Un paciente con exceso de plasmina presenta:",
+options: [
+"Más coagulación",
+"Más fibrina",
+"Degradación de fibrina",
+"Aumento trombina"
+],
+answer: 2,
+explanation: "La plasmina degrada fibrina → sangrado."
+},
+
+{
+question: "Sangrado inmediato superficial indica:",
+options: [
+"Hemostasia primaria",
+"Secundaria",
+"Fibrinolítica",
+"Hepática"
+],
+answer: 0,
+explanation: "Problema plaquetario/vascular."
+},
+
+{
+question: "Tiempo de trombina prolongado sugiere:",
+options: [
+"Problema de fibrinógeno",
+"Plaquetas",
+"Vasos",
+"Factor VII"
+],
+answer: 0,
+explanation: "Evalúa conversión fibrina."
+},
+
+{
+question: "Hipoxia en trauma favorece:",
+options: [
+"Inhibición coagulación",
+"Activación coagulación",
+"Inhibición plaquetas",
+"Fibrinólisis"
+],
+answer: 1,
+explanation: "Favorece CID."
+},
+
+{
+question: "Aumento TXA2 y disminución PGI2 causa:",
+options: [
+"Menos coagulación",
+"Más agregación plaquetaria",
+"Más fibrinólisis",
+"Menos adhesión"
+],
+answer: 1,
+explanation: "Favorece coagulación."
+},
+
+{
+question: "Sangrado profundo indica:",
+options: [
+"Plaquetas",
+"Factores",
+"Vasos",
+"Fibrinólisis"
+],
+answer: 1,
+explanation: "Coagulación secundaria."
+},
+
+{
+question: "TTPa evalúa:",
+options: [
+"Vía extrínseca",
+"Vía intrínseca",
+"Fibrinólisis",
+"Plaquetas"
+],
+answer: 1,
+explanation: "Evalúa vía intrínseca."
+},
+
+{
+question: "Plaquetas en coagulación aportan:",
+options: [
+"Factores",
+"Superficie fosfolipídica",
+"Plasmina",
+"NO"
+],
+answer: 1,
+explanation: "Facilitan ensamblaje de coagulación."
+},
+
+{
+question: "Proteína C y S funcionan como:",
+options: [
+"Procoagulantes",
+"Anticoagulantes",
+"Plaquetas",
+"Fibrina"
+],
+answer: 1,
+explanation: "Regulan coagulación."
+}
+
+],
+advancedIntegratedCasesHemostasis: [
+
+{
+question: "Un varón de 71 años es ingresado a UCI por sepsis secundaria a peritonitis perforativa. Requiere vasopresores por hipotensión persistente y durante las siguientes horas desarrolla sangrado en encías, hemorragia continua en sitios de venopunción, petequias difusas y equimosis extensas en tronco y extremidades. Los exámenes muestran plaquetas en 49,000/μL, TP prolongado, TTPa prolongado y dímero D marcadamente elevado. A pesar de la hemorragia visible, el paciente presenta oliguria progresiva, piel marmórea y cianosis distal en varios dedos. Un interno sostiene que el cuadro debe explicarse solo por consumo plaquetario, porque si el paciente está sangrando no puede estar trombosando al mismo tiempo. ¿Cuál es la mejor interpretación del proceso fisiopatológico global que está ocurriendo?",
+options: [
+"Existe un trastorno aislado de hemostasia primaria, y la disfunción renal se explica solo por hipotensión",
+"Se ha activado de manera sistémica la coagulación con formación de fibrina y microtrombos, consumo de factores y plaquetas, y fibrinólisis secundaria",
+"El paciente tiene una deficiencia aislada de fibrinógeno, responsable tanto del dímero D elevado como de la hipoperfusión distal",
+"Predomina una activación primaria de plasmina sin formación relevante de coágulos"
+],
+answer: 1,
+explanation: "El cuadro es compatible con coagulación intravascular diseminada. La sepsis activa el endotelio y favorece un patrón procoagulante con formación difusa de fibrina y microtrombos, que explican la hipoperfusión distal y el deterioro renal. A la vez, se consumen factores y plaquetas, lo que produce hemorragia. El dímero D elevado demuestra que hubo formación de fibrina y posterior degradación, es decir, fibrinólisis secundaria. Por tanto, trombosis y sangrado no se excluyen en este contexto, sino que son dos manifestaciones del mismo trastorno."
+},
+
+{
+question: "Una mujer de 24 años consulta por menorragia severa desde la adolescencia, epistaxis frecuentes y gingivorragia al cepillado. Refiere que cuando se hace cortes pequeños cocinando, el sangrado comienza de inmediato y puede tardar mucho en detenerse. Nunca ha tenido hemartrosis ni hematomas musculares profundos espontáneos. Sus análisis muestran recuento plaquetario normal, TP normal, TTPa normal y tiempo de sangría prolongado. Un estudiante argumenta que, dado que la paciente sangra mucho, el problema debe localizarse en la formación de fibrina. ¿Qué dato del caso refuta mejor esa conclusión?",
+options: [
+"El hecho de que sea una mujer joven",
+"El patrón mucocutáneo e inmediato del sangrado, junto con TP y TTPa normales",
+"La ausencia de anemia severa",
+"El tiempo de sangría prolongado, que indica alteración exclusiva del hígado"
+],
+answer: 1,
+explanation: "La localización fisiopatológica del defecto no depende solo de cuánto sangre el paciente, sino del patrón clínico y de las pruebas. El sangrado mucoso, superficial e inmediato sugiere hemostasia primaria alterada. La normalidad de TP y TTPa hace menos probable un defecto de coagulación secundaria. El tiempo de sangría prolongado refuerza la idea de una alteración en la interacción vaso-plaqueta o en la función plaquetaria."
+},
+
+{
+question: "Un adolescente de 15 años acude por aumento de volumen doloroso de la rodilla derecha después de una caída leve mientras jugaba fútbol. La madre refiere que ha tenido episodios previos de dolor e inflamación articular y varios hematomas profundos en muslos después de traumatismos poco importantes. El laboratorio muestra recuento plaquetario normal, tiempo de sangría normal, TP normal y TTPa prolongado. Durante la discusión del caso, un compañero afirma que si el tiempo de sangría es normal, entonces no existe ninguna alteración hemostática relevante. ¿Cuál es la mejor corrección a esa afirmación?",
+options: [
+"El tiempo de sangría explora sobre todo hemostasia primaria, por lo que puede ser normal en defectos de coagulación secundaria que producen sangrado profundo",
+"El tiempo de sangría solo se prolonga en infecciones bacterianas graves",
+"El tiempo de sangría normal descarta hemorragia clínicamente importante",
+"Si el recuento plaquetario es normal, toda la coagulación es necesariamente normal"
+],
+answer: 0,
+explanation: "El tiempo de sangría sirve para valorar las etapas iniciales de la hemostasia. En este caso, la hemostasia primaria parece conservada, pero la clínica de hemartrosis y hematomas profundos, junto con el TTPa prolongado, orienta a un defecto de coagulación secundaria. El problema es que el tapón inicial no se estabiliza adecuadamente con fibrina."
+},
+
+{
+question: "Un hombre de 63 años con cirrosis descompensada por hepatopatía alcohólica es sometido a una paracentesis terapéutica. Tras el procedimiento persiste el sangrado por el sitio de punción más tiempo del esperado. Los estudios de coagulación muestran prolongación simultánea de TP y TTPa. Durante la discusión académica, un alumno comenta que el hígado tiene un papel secundario en la hemostasia, porque la coagulación depende sobre todo de las plaquetas y de la pared vascular. ¿Cuál es la mejor respuesta a ese comentario?",
+options: [
+"El hígado sintetiza múltiples factores de coagulación, por lo que su falla compromete de manera amplia la hemostasia secundaria",
+"El hígado actúa solo sobre la vasoconstricción y no sobre proteínas hemostáticas plasmáticas",
+"El hígado solo participa en la fibrinólisis, no en TP ni TTPa",
+"El hígado es importante únicamente cuando hay trombocitopenia profunda"
+],
+answer: 0,
+explanation: "Gran parte de los factores de coagulación son sintetizados en hepatocitos. Por eso, en la enfermedad hepática significativa, la coagulación secundaria se altera de forma global y pueden prolongarse tanto el TP como el TTPa. El hígado no es un actor periférico en hemostasia, sino uno de sus órganos centrales."
+},
+
+{
+question: "Una mujer de 34 años presenta un abruptio placentae masivo y es llevada a cirugía de emergencia. Horas después desarrolla sangrado por heridas quirúrgicas, petequias, equimosis generalizadas, hipotensión y dificultad respiratoria. El laboratorio muestra plaquetas bajas, TP prolongado, TTPa prolongado y aumento de productos de degradación de fibrina. El obstetra explica que ciertas complicaciones obstétricas pueden desencadenar una activación explosiva del sistema hemostático. ¿Cuál es el evento inicial más importante que explica este cuadro?",
+options: [
+"Disminución aislada del factor IX por consumo preferente de la vía intrínseca",
+"Liberación o exposición masiva de material procoagulante con activación importante de la vía mediada por Factor Tisular",
+"Inhibición primaria de la adhesión plaquetaria por disminución de factor de Von Willebrand",
+"Bloqueo agudo de la plasmina, con imposibilidad de degradar fibrina ya formada"
+],
+answer: 1,
+explanation: "Las complicaciones obstétricas pueden liberar sustancias con potente actividad procoagulante y activar la vía del Factor Tisular. Eso dispara la coagulación sistémica, lleva a formación difusa de fibrina, consumo de factores y plaquetas y, finalmente, activación de fibrinólisis secundaria. El resultado clínico es compatible con CID."
+},
+
+{
+question: "Un varón de 45 años consulta por edema doloroso en la pantorrilla derecha, sin cirugía reciente, inmovilización ni cáncer conocido. Se diagnostica trombosis venosa profunda y el estudio posterior muestra actividad marcadamente reducida de antitrombina III. El paciente pregunta por qué la falta de una molécula anticoagulante no produce hemorragia, sino trombosis. ¿Cuál es la explicación más adecuada?",
+options: [
+"La antitrombina III participa en la activación de la trombina, por lo que su descenso causa coágulos ineficaces y trombosis compensatoria",
+"La antitrombina III limita factores activados de coagulación; cuando disminuye, se pierde un freno fisiológico y aumenta la formación de trombos",
+"La antitrombina III pertenece principalmente a la fase vascular y por eso su déficit produce trombosis venosa",
+"La antitrombina III es un activador de plaquetas, por lo que su ausencia las vuelve hiperreactivas"
+],
+answer: 1,
+explanation: "La antitrombina III es un anticoagulante natural que frena la actividad de trombina y otros factores activados. Cuando su actividad disminuye, la coagulación queda menos controlada y el sistema se inclina hacia la trombosis. Este caso muestra que la hemostasia normal necesita mecanismos procoagulantes y también sistemas que la limiten."
+},
+
+{
+question: "Una mujer de 30 años con antecedente de dos abortos espontáneos consulta por dolor y edema unilateral de pierna. La ecografía confirma trombosis venosa profunda. En el estudio inmunológico se detectan anticuerpos antifosfolípidos. Durante la sesión clínica, el profesor explica que el problema central no es hemorrágico, sino una falla en la regulación anticoagulante. ¿Cuál es el mecanismo más relevante entre los siguientes?",
+options: [
+"Inhibición de la activación de proteína C, con persistencia de actividad procoagulante",
+"Destrucción selectiva del fibrinógeno, con formación compensatoria de trombos",
+"Bloqueo de la adhesión plaquetaria mediada por factor de Von Willebrand",
+"Aumento sostenido del activador tisular del plasminógeno, con lisis de coágulos defectuosa"
+],
+answer: 0,
+explanation: "En el síndrome antifosfolípido predominan fenómenos trombóticos. Entre los mecanismos implicados está la interferencia con vías anticoagulantes como la activación de proteína C. Al disminuir ese freno, la coagulación se mantiene más activa y el riesgo trombótico aumenta."
+},
+
+{
+question: "Un paciente de 66 años con adenocarcinoma pancreático presenta episodios de trombosis venosa en distintos territorios durante varios meses. Posteriormente desarrolla gingivorragia, equimosis y alteración simultánea de TP y TTPa. El oncólogo explica que algunos tumores sólidos pueden inducir primero un estado protrombótico y luego un cuadro de consumo hemostático. ¿Cuál es la explicación más completa de esta evolución?",
+options: [
+"El tumor libera sustancias procoagulantes, como mucinas o enzimas, que activan la coagulación; si el proceso se generaliza, se consumen factores y plaquetas",
+"El cáncer pancreático solo causa sangrado si infiltra médula ósea, por lo que la trombosis es un fenómeno paralelo sin relación",
+"Las neoplasias producen exclusivamente trombocitopenia inmune, sin afectar el sistema de coagulación plasmática",
+"Los tumores solo modifican el tono vascular, sin activar la coagulación"
+],
+answer: 0,
+explanation: "Algunos adenocarcinomas pueden activar la coagulación por liberación de sustancias procoagulantes. Inicialmente esto puede manifestarse como trombosis recurrente. Si la activación se vuelve extensa, aparecen consumo de factores y plaquetas, alteración de pruebas de coagulación y manifestaciones hemorrágicas."
+},
+
+{
+question: "Un hombre de 70 años presenta hemorragia excesiva tras una extracción dentaria. Los análisis muestran TP prolongado, TTPa normal, tiempo de sangría normal y recuento plaquetario normal. Un estudiante comenta que, al ser normal el tiempo de sangría, el trastorno hemostático debe descartarse. ¿Cuál es la mejor corrección?",
+options: [
+"El tiempo de sangría valora hemostasia primaria, pero un TP prolongado aislado puede señalar una alteración real de la vía extrínseca",
+"El tiempo de sangría normal solo excluye trastornos hereditarios y no adquiridos",
+"El tiempo de sangría es más importante que TP y TTPa para valorar toda la coagulación",
+"Si el recuento plaquetario es normal, el TP prolongado no tiene relevancia clínica"
+],
+answer: 0,
+explanation: "El tiempo de sangría no explora toda la hemostasia, sino sobre todo la fase vascular-plaquetaria. En este caso, la hemostasia primaria parece conservada, pero el TP prolongado indica una alteración en la vía extrínseca. Por tanto, puede existir un trastorno hemorrágico real aun con tiempo de sangría normal."
+},
+
+{
+question: "Un joven de 21 años sufre una herida cortante profunda en la mano al manipular vidrio. En los minutos iniciales el sangrado disminuye antes de que se consolide el coágulo definitivo. El cirujano pregunta cuál es la combinación de mediadores que mejor explica esa primera respuesta local. ¿Cuál es la mejor opción?",
+options: [
+"Predominio de óxido nítrico y prostaciclina para mantener la sangre fluida",
+"Participación de endotelina, serotonina plaquetaria y TXA2, con menor influencia relativa de NO y PGI2",
+"Activación inmediata de plasmina para limitar el crecimiento del coágulo",
+"Aumento de trombomodulina y antitrombina III para frenar la trombina"
+],
+answer: 1,
+explanation: "La fase vascular temprana se caracteriza por vasoconstricción. En ella participan endotelina, serotonina y TXA2. En cambio, óxido nítrico y prostaciclina son mediadores del endotelio sano con perfil antiagregante y vasodilatador, por lo que su ausencia relativa favorece la contención inicial del sangrado."
+},
+
+{
+question: "Una mujer de 38 años presenta sangrado excesivo tras varios procedimientos dentales menores. Aunque el recuento plaquetario está dentro de rango normal, el tiempo de sangría está prolongado. El hematólogo explica que esto no es contradictorio. ¿Qué interpretación es la más adecuada?",
+options: [
+"La cantidad de plaquetas refleja automáticamente su capacidad de adhesión y agregación",
+"Puede existir una alteración funcional plaquetaria pese a un recuento normal, afectando la hemostasia primaria",
+"El tiempo de sangría se prolonga solo cuando existe déficit de fibrinógeno",
+"Con plaquetas normales, el sangrado solo puede explicarse por alteración hepática"
+],
+answer: 1,
+explanation: "La hemostasia primaria depende tanto del número como de la función de las plaquetas. Un paciente puede tener cuenta normal y, aun así, presentar una trombocitopatía que altere adhesión, activación o agregación. Eso prolonga el tiempo de sangría y produce sangrado mucocutáneo."
+},
+
+{
+question: "Un niño de 12 años con antecedentes de hematomas musculares profundos y episodios repetidos de dolor articular es evaluado por el hematólogo. El médico explica a la familia que el problema no es iniciar la respuesta hemostática, sino hacerla lo bastante resistente para soportar la presión del flujo intravascular. ¿Qué fase está principalmente comprometida?",
+options: [
+"La vasoconstricción inicial de la fase vascular",
+"La formación del tapón plaquetario primario",
+"La formación y estabilización de la red de fibrina en la hemostasia secundaria",
+"La fase tardía de fibrinólisis que remueve el coágulo"
+],
+answer: 2,
+explanation: "Los hematomas profundos y la hemartrosis orientan a defectos de coagulación secundaria. El problema principal es que el tapón inicial no se consolida adecuadamente con fibrina. Por eso el sangrado puede ser profundo, tardío y más difícil de contener."
+},
+
+{
+question: "Un paciente con sepsis grave desarrolla activación endotelial difusa. El internista explica que el endotelio sano mantiene un perfil anticoagulante, pero que durante la inflamación intensa cambia de función. ¿Cuál de las siguientes opciones representa mejor esa transición?",
+options: [
+"Aumento sostenido de PGI2 y óxido nítrico para reforzar el perfil anticoagulante",
+"Expresión de Factor Tisular y producción de mediadores que favorecen coagulación local y limitan la lisis prematura del coágulo",
+"Desaparición completa del factor de Von Willebrand de los cuerpos de Weibel-Palade",
+"Bloqueo de toda interacción entre la sangre y la pared vascular"
+],
+answer: 1,
+explanation: "El endotelio activado pierde parte de su perfil anticoagulante y se vuelve procoagulante. La expresión de Factor Tisular y la secreción de moléculas que favorecen la coagulación local son claves en este cambio. Esto es central en sepsis y otros estados inflamatorios."
+},
+
+{
+question: "Una paciente de 50 años presenta sangrado posoperatorio persistente. El laboratorio informa un tiempo de trombina prolongado. El especialista aclara que esta prueba no estudia principalmente la adhesión plaquetaria ni la vía extrínseca, sino un paso final concreto. ¿Qué proceso está evaluando de forma más directa?",
+options: [
+"La adhesión plaquetaria mediada por factor de Von Willebrand",
+"La conversión de fibrinógeno en fibrina luego de añadir trombina al plasma",
+"La activación del factor VII en la vía extrínseca",
+"La inhibición de factores Va y VIIIa por proteína C"
+],
+answer: 1,
+explanation: "El tiempo de trombina se enfoca en la etapa final en la que la trombina actúa sobre el fibrinógeno para formar fibrina. Por ello se altera cuando existe un problema del fibrinógeno o una interferencia en esa reacción."
+},
+
+{
+question: "Un varón de 58 años sufre traumatismo craneoencefálico grave tras un accidente de tránsito. Horas después desarrolla sangrado difuso, hipotensión, hipoxemia, prolongación de TP y TTPa y elevación de productos de degradación de fibrina. El intensivista explica que el trauma no solo produce hemorragia mecánica, sino que también puede desencadenar una alteración sistémica del sistema hemostático. ¿Cuál es el mecanismo más probable?",
+options: [
+"Liberación de sustancias procoagulantes y activación endotelial por daño tisular extenso, con activación difusa de coagulación",
+"Déficit aislado y súbito del factor IX restringido al sistema nervioso central",
+"Supresión completa de la función plaquetaria sin alteración de factores plasmáticos",
+"Inhibición generalizada de trombina por incremento brusco de trombomodulina"
+],
+answer: 0,
+explanation: "El trauma extenso y la respuesta inflamatoria asociada pueden activar la coagulación sistémicamente por exposición de material tisular y estímulos procoagulantes. Esto favorece formación de fibrina, microtrombosis, consumo de factores y sangrado, generando un cuadro similar a CID."
+},
+
+{
+question: "Un paciente de 53 años consulta por sangrado persistente tras una pequeña incisión cutánea. El médico desea valorar específicamente la interacción entre pared vascular, plaquetas y formación del tapón inicial. ¿Cuál es el estudio más apropiado para ese objetivo?",
+options: [
+"Tiempo de protrombina",
+"Tiempo de tromboplastina parcial activada",
+"Tiempo de sangría",
+"Tiempo de trombina"
+],
+answer: 2,
+explanation: "El tiempo de sangría es la prueba clásica para estudiar las etapas iniciales de la hemostasia. Refleja la interacción entre vaso y plaquetas en la formación del tapón primario."
+},
+
+{
+question: "Una mujer con antecedentes de trombosis venosa recurrente es estudiada por posible deficiencia de proteína C y proteína S. Durante la clase, el profesor insiste en que la coagulación fisiológica no consiste solo en formar coágulos, sino también en impedir que se extiendan más allá del sitio de lesión. ¿Cuál es la afirmación que mejor resume el papel de estas proteínas?",
+options: [
+"Son anticoagulantes naturales que limitan la extensión del coágulo; su déficit favorece trombosis",
+"Forman la estructura central del tapón plaquetario, por eso su déficit produce petequias",
+"Son mediadores principales de la vasoconstricción inicial del vaso lesionado",
+"Transforman directamente fibrinógeno en fibrina durante la coagulación"
+],
+answer: 0,
+explanation: "Las proteínas C y S forman parte de los mecanismos anticoagulantes fisiológicos. Su función es impedir que la coagulación se propague en exceso. Cuando faltan, el sistema pierde un freno esencial y el equilibrio se desplaza hacia trombosis."
+},
+
+{
+question: "Un paciente con infección sistémica presenta activación plaquetaria intensa. El médico explica que las plaquetas no solo forman el tapón primario, sino que además facilitan la generación localizada de fibrina. ¿Cuál es la contribución más importante de las plaquetas a la fase fluida de la coagulación?",
+options: [
+"Aportar una superficie fosfolipídica y ligandos para ensamblar complejos de coagulación y acelerar reacciones locales",
+"Sintetizar todos los factores plasmáticos de coagulación",
+"Convertir directamente plasminógeno en plasmina en el sitio de lesión",
+"Producir la mayor parte de prostaciclina y óxido nítrico del sistema vascular"
+],
+answer: 0,
+explanation: "Las plaquetas activadas proporcionan una superficie fosfolipídica esencial para el ensamblaje de complejos de coagulación. Esto acelera y localiza la formación de fibrina en el sitio lesionado, conectando la hemostasia primaria con la secundaria."
+},
+
+{
+question: "Una mujer de 35 años, tras una complicación obstétrica grave, presenta hemorragia por heridas quirúrgicas y, al mismo tiempo, signos clínicos de compromiso microvascular distal. Un interno afirma que trombosis y hemorragia son fenómenos opuestos y que no pueden coexistir. ¿Cuál es la mejor corrección conceptual?",
+options: [
+"En trastornos como la CID, la coagulación se activa de forma exagerada formando trombos y consumiendo factores y plaquetas, lo que termina produciendo también sangrado",
+"El sangrado abundante siempre excluye un estado protrombótico sistémico",
+"Las trombosis solo aparecen cuando TP y TTPa son normales",
+"La hemorragia en este contexto solo puede explicarse por lesión vascular local"
+],
+answer: 0,
+explanation: "La coexistencia de trombosis y hemorragia es una característica central de la CID. Primero se activa la coagulación y se forman trombos; luego se consumen plaquetas y factores, por lo que el paciente sangra. No son fenómenos incompatibles, sino dos expresiones del mismo proceso."
+},
+
+{
+question: "Un hombre de 62 años presenta hematuria, hematomas musculares y sangrado retardado tras un procedimiento menor. No presenta petequias ni epistaxis prominente. Antes de revisar los exámenes, el clínico se orienta por el patrón clínico del sangrado. ¿Cuál es la alteración más probable?",
+options: [
+"Defecto de hemostasia primaria con alteración vascular-plaquetaria",
+"Defecto de coagulación secundaria por alteración de factores plasmáticos",
+"Fragilidad capilar aislada",
+"Defecto exclusivo de liberación de ADP plaquetario"
+],
+answer: 1,
+explanation: "El sangrado profundo y retardado orienta a trastornos de coagulación secundaria. En cambio, los defectos de hemostasia primaria suelen manifestarse con petequias, epistaxis, gingivorragia y sangrado mucocutáneo inmediato."
+},
+
+{
+question: "Un paciente de 55 años es estudiado por sospecha de alteración de la vía intrínseca. En el laboratorio se añade al plasma una sustancia de superficie negativa antes de agregar tromboplastina parcial, y el tiempo resultante aparece prolongado. ¿Qué prueba se realizó y qué interpreta el médico a partir de ella?",
+options: [
+"Tiempo de protrombina; defecto en vía extrínseca",
+"Tiempo de tromboplastina parcial activada; alteración de la vía intrínseca",
+"Tiempo de trombina; defecto primario de fibrinólisis",
+"Tiempo de sangría; trastorno de adhesión plaquetaria"
+],
+answer: 1,
+explanation: "La descripción corresponde al TTPa. Esta prueba explora la vía intrínseca, por lo que su prolongación orienta a alteraciones de factores como VIII, IX o XII, entre otros componentes relacionados con esa rama de la coagulación."
+}
+
+],
+masterLevelClinicalCasesHemostasis: [
+
+{
+question: "Un varón de 72 años es ingresado por sepsis secundaria a una infección abdominal perforativa. Durante las primeras 12 horas desarrolla hipotensión refractaria, taquicardia persistente y deterioro progresivo del sensorio. Luego aparecen petequias difusas, hemorragia en mucosas y sangrado persistente en los sitios de catéter venoso. Los análisis muestran plaquetas de 46,000/μL, TP prolongado, TTPa prolongado y dímero D marcadamente elevado. A pesar del sangrado evidente, el paciente presenta oliguria, livedo distal y frialdad en los dedos de ambos pies. Un interno interpreta que el cuadro corresponde a un defecto hemorrágico puro, sin participación de trombosis. ¿Cuál es la mejor explicación fisiopatológica integral del caso?",
+options: [
+"Existe una alteración exclusiva de la hemostasia primaria, y la hipoperfusión distal se explica únicamente por hipotensión",
+"Se ha producido activación sistémica de la coagulación con formación de fibrina y microtrombos, consumo de factores y plaquetas, y fibrinólisis secundaria",
+"El proceso central es una deficiencia aislada de fibrinógeno, que por sí sola explica el sangrado y la isquemia distal",
+"Predomina una activación primaria de la plasmina que destruye coágulos fisiológicos sin que exista formación previa de fibrina"
+],
+answer: 1,
+explanation: "El cuadro es típico de coagulación intravascular diseminada. La sepsis activa el endotelio y favorece la expresión de mecanismos procoagulantes, con formación difusa de fibrina y microtrombos responsables del compromiso microvascular y la disfunción orgánica. Paralelamente, se consumen factores y plaquetas, lo que causa hemorragia. El dímero D elevado indica que hubo fibrina formada y luego degradada, es decir, fibrinólisis secundaria. Sangrado y trombosis coexisten porque forman parte del mismo proceso."
+},
+
+{
+question: "Una mujer de 22 años consulta por epistaxis frecuentes, gingivorragia y menstruaciones muy abundantes desde la adolescencia. Relata que cualquier cortadura superficial comienza a sangrar inmediatamente y suele tardar mucho más de lo esperado en detenerse. Niega hemartrosis, sangrado muscular profundo o hematomas grandes espontáneos. En laboratorio presenta plaquetas 240,000/μL, TP normal, TTPa normal y tiempo de sangría prolongado. Durante la discusión, un estudiante propone que el problema debe estar en la formación de fibrina porque el sangrado es clínicamente llamativo. ¿Cuál es el argumento más sólido en contra de esa conclusión?",
+options: [
+"El patrón mucocutáneo, superficial e inmediato del sangrado orienta a hemostasia primaria alterada y no a coagulación secundaria",
+"La formación de fibrina nunca participa en hemorragias clínicamente importantes",
+"El TP normal demuestra que todas las fases de la coagulación están intactas",
+"Los defectos de fibrina solo aparecen en pacientes con hepatopatía avanzada"
+],
+answer: 0,
+explanation: "La severidad clínica del sangrado no basta para ubicar el defecto. Lo más orientador es el patrón: mucocutáneo, superficial e inmediato, típico de hemostasia primaria. Además, el tiempo de sangría prolongado con TP y TTPa normales apoya una alteración de la interacción vaso-plaqueta o de la función plaquetaria. Los defectos de coagulación secundaria producen sobre todo sangrado profundo, hemartrosis y hematomas."
+},
+
+{
+question: "Un adolescente de 16 años es llevado a emergencia por aumento de volumen doloroso de la rodilla izquierda luego de un traumatismo leve jugando fútbol. La madre refiere que desde hace años presenta episodios similares en rodillas y tobillos, así como hematomas profundos en muslos tras golpes menores. El laboratorio muestra recuento plaquetario normal, tiempo de sangría normal, TP normal y TTPa prolongado. El profesor pregunta por qué, pese a la clara tendencia hemorrágica, no predominan petequias ni sangrado gingival. ¿Cuál es la mejor explicación?",
+options: [
+"Porque el defecto principal compromete la coagulación secundaria y falla la estabilización del tapón por fibrina, produciendo sangrado profundo",
+"Porque las petequias solo aparecen cuando el TTPa está normal",
+"Porque la hemostasia primaria está hiperactiva y anula por completo el sangrado superficial",
+"Porque la fibrinólisis está totalmente ausente en este tipo de trastornos"
+],
+answer: 0,
+explanation: "El tiempo de sangría y el recuento plaquetario normales indican que la hemostasia primaria está conservada. El TTPa prolongado, junto con hemartrosis y hematomas profundos, orienta a un defecto de coagulación secundaria. El tapón inicial puede formarse, pero no logra consolidarse con una red de fibrina adecuada, por eso el sangrado es profundo y tardío."
+},
+
+{
+question: "Un varón de 61 años con cirrosis avanzada por alcoholismo es sometido a una paracentesis terapéutica. Luego del procedimiento presenta sangrado persistente por el sitio de punción. El laboratorio reporta prolongación simultánea de TP y TTPa. Un estudiante comenta que el hígado puede influir en el metabolismo de fármacos, pero que la coagulación depende principalmente de las plaquetas y del vaso. ¿Cuál es la mejor corrección a esa afirmación?",
+options: [
+"El hígado sintetiza muchos de los factores de coagulación, por lo que su falla altera de forma amplia la hemostasia secundaria",
+"El hígado interviene solo en la vasoconstricción inicial y no modifica la coagulación plasmática",
+"El hígado influye únicamente en la fibrinólisis, pero no en TP ni TTPa",
+"El sangrado en hepatopatía solo ocurre cuando existe trombocitopenia severa"
+],
+answer: 0,
+explanation: "Muchos factores de coagulación son sintetizados por hepatocitos. Por ello, la enfermedad hepática puede comprometer simultáneamente varias fases de la coagulación secundaria y prolongar tanto el TP como el TTPa. El hígado es un órgano central en la fisiología hemostática, no un participante secundario."
+},
+
+{
+question: "Una mujer de 35 años presenta un abruptio placentae masivo y es llevada a cirugía de emergencia. Horas después desarrolla sangrado difuso por la herida operatoria, petequias, equimosis generalizadas, hipotensión y deterioro respiratorio. Los análisis muestran descenso marcado de plaquetas, TP prolongado, TTPa prolongado y aumento de productos de degradación de fibrina. Durante la sesión clínica se resalta que ciertas complicaciones obstétricas activan la coagulación por mecanismos tisulares muy potentes. ¿Cuál es el evento inicial más importante que desencadena este cuadro?",
+options: [
+"Exposición o liberación masiva de material procoagulante con fuerte activación de la vía del Factor Tisular",
+"Consumo aislado de factor XII por activación limitada a la vía intrínseca",
+"Inhibición primaria de la adhesión plaquetaria por disminución aguda del factor de Von Willebrand",
+"Bloqueo súbito de la trombina con incapacidad de formar cualquier fibrina"
+],
+answer: 0,
+explanation: "Las complicaciones obstétricas son desencadenantes clásicos de CID porque liberan potentes estímulos procoagulantes y activan fuertemente la vía mediada por Factor Tisular. El resultado es coagulación sistémica, formación de fibrina, consumo de factores y plaquetas y activación secundaria de fibrinólisis."
+},
+
+{
+question: "Un hombre de 44 años consulta por edema doloroso de la pierna izquierda. Se confirma trombosis venosa profunda sin antecedente de cirugía, inmovilización prolongada ni neoplasia conocida. En el estudio de trombofilia se encuentra actividad muy disminuida de antitrombina III. El paciente pregunta por qué la falta de una proteína anticoagulante favorece trombosis en lugar de generar sangrado fácil. ¿Cuál es la mejor respuesta?",
+options: [
+"La antitrombina III es un freno fisiológico de la coagulación; al disminuir, aumenta la actividad de factores activados y se favorece la trombosis",
+"La antitrombina III participa en la vasoconstricción, y su ausencia estanca el flujo venoso",
+"La antitrombina III bloquea el factor de Von Willebrand, por eso su ausencia aumenta la adhesión plaquetaria",
+"La antitrombina III pertenece al sistema fibrinolítico y su déficit reduce el tiempo de sangría"
+],
+answer: 0,
+explanation: "La antitrombina III es un anticoagulante natural que limita la acción de trombina y otros factores activados. Si esa inhibición disminuye, el sistema pierde control y se desplaza hacia trombosis. Este caso muestra que la hemostasia normal depende del equilibrio entre fuerzas procoagulantes y anticoagulantes."
+},
+
+{
+question: "Una mujer de 29 años con antecedente de dos abortos espontáneos consulta por dolor, edema y aumento de volumen en la pierna derecha. La ecografía confirma trombosis venosa profunda y el estudio inmunológico detecta anticuerpos antifosfolípidos. En la discusión, el docente enfatiza que el trastorno no se explica por tendencia hemorrágica, sino por pérdida de regulación anticoagulante. ¿Cuál es el mecanismo más importante entre las siguientes opciones?",
+options: [
+"Inhibición de la activación de proteína C, con persistencia de actividad procoagulante",
+"Destrucción selectiva del fibrinógeno, lo que estimula trombosis compensatoria",
+"Bloqueo del factor XIII, con formación de trombos frágiles pero frecuentes",
+"Aumento sostenido del activador tisular del plasminógeno, con degradación parcial del coágulo"
+],
+answer: 0,
+explanation: "En el síndrome antifosfolípido predominan fenómenos trombóticos. Uno de los mecanismos relevantes es la interferencia con vías anticoagulantes como la activación de proteína C. Al perderse esa modulación, la coagulación persiste con mayor facilidad y se favorecen trombosis y complicaciones obstétricas."
+},
+
+{
+question: "Un paciente de 67 años con adenocarcinoma pancreático presenta trombosis venosas repetidas en diferentes territorios durante varios meses. Posteriormente desarrolla gingivorragia, equimosis extensas y alteración simultánea de TP y TTPa. El oncólogo explica que algunos tumores pueden inducir primero un estado de hipercoagulabilidad y luego una fase de consumo hemostático. ¿Cuál es la mejor explicación fisiopatológica?",
+options: [
+"El tumor puede liberar mucinas y otras sustancias procoagulantes que activan la coagulación; si el proceso se generaliza, se consumen plaquetas y factores",
+"Las neoplasias solo producen sangrado cuando infiltran médula ósea, y la trombosis es un hallazgo no relacionado",
+"Los adenocarcinomas inducen exclusivamente déficit de vitamina K por malabsorción",
+"El cáncer modifica solo la fase vascular, sin efecto directo sobre el sistema de coagulación"
+],
+answer: 0,
+explanation: "Algunos tumores, especialmente adenocarcinomas, pueden liberar sustancias con actividad procoagulante. Esto puede causar trombosis recurrente y, si la activación se generaliza, consumo de factores y plaquetas, con alteración de pruebas de coagulación y manifestaciones hemorrágicas."
+},
+
+{
+question: "Un varón de 70 años presenta hemorragia excesiva tras una extracción dentaria. Los análisis muestran TP prolongado, TTPa normal, recuento plaquetario normal y tiempo de sangría normal. Un estudiante asegura que, como el tiempo de sangría es normal, no existe un trastorno hemostático verdadero. ¿Cuál es la mejor corrección?",
+options: [
+"El tiempo de sangría evalúa hemostasia primaria; un TP prolongado aislado puede señalar una alteración real de la vía extrínseca",
+"El tiempo de sangría normal descarta todas las enfermedades hemorrágicas hereditarias y adquiridas",
+"El TP no tiene utilidad clínica cuando las plaquetas son normales",
+"El TTPa normal demuestra que toda la coagulación secundaria está intacta"
+],
+answer: 0,
+explanation: "El tiempo de sangría explora las etapas iniciales de la hemostasia, no toda la coagulación. En este caso, la hemostasia primaria parece conservada, pero el TP prolongado orienta a una alteración en la vía extrínseca. Por tanto, sí puede existir un trastorno hemorrágico significativo aun con tiempo de sangría normal."
+},
+
+{
+question: "Un joven de 20 años sufre una herida cortante en el antebrazo al caer sobre un vidrio. Durante los primeros minutos, el sangrado disminuye antes de que se haya formado un coágulo completamente consolidado. El cirujano pregunta qué combinación de mediadores explica mejor esa primera fase de respuesta local. ¿Cuál es la respuesta correcta?",
+options: [
+"Predominio de endotelina, serotonina y TXA2, con disminución relativa de NO y PGI2",
+"Predominio de prostaciclina y óxido nítrico para mantener la sangre en fase fluida",
+"Activación inmediata de aTP para degradar cualquier fibrina inicial",
+"Incremento de proteína C y proteína S para evitar extensión del coágulo"
+],
+answer: 0,
+explanation: "La fase vascular temprana se basa en vasoconstricción. En ella participan endotelina, serotonina y TXA2, mientras disminuye la influencia de mediadores vasodilatadores y antiagregantes como NO y PGI2. Esa combinación reduce la pérdida sanguínea de forma inmediata."
+},
+
+{
+question: "Una mujer de 41 años presenta sangrado excesivo tras varios procedimientos dentales pequeños. El recuento plaquetario es normal, pero el tiempo de sangría está prolongado. El hematólogo insiste en que esto no es contradictorio, sino muy orientador. ¿Cuál es la interpretación más adecuada?",
+options: [
+"Puede existir una alteración funcional plaquetaria con número normal, afectando la hemostasia primaria",
+"El tiempo de sangría solo se prolonga cuando existe deficiencia de fibrinógeno",
+"Las plaquetas normales excluyen por definición cualquier trastorno de hemostasia primaria",
+"El tiempo de sangría prolongado con plaquetas normales obliga primero a descartar vía extrínseca"
+],
+answer: 0,
+explanation: "La hemostasia primaria depende tanto del número como de la función de las plaquetas. Por ello, un paciente puede tener un recuento normal y aun así una alteración funcional de adhesión, activación o agregación. Eso explica el tiempo de sangría prolongado y el patrón de sangrado mucocutáneo."
+},
+
+{
+question: "Un niño de 13 años con antecedentes de hematomas musculares profundos y episodios repetidos de dolor e inflamación articular es evaluado por el hematólogo. El médico explica a la familia que el problema no está en iniciar la respuesta hemostática, sino en hacerla suficientemente firme para resistir la presión del flujo sanguíneo. ¿Qué fase está principalmente alterada?",
+options: [
+"La vasoconstricción inicial de la fase vascular",
+"La formación del tapón plaquetario primario",
+"La formación y estabilización de la red de fibrina en la hemostasia secundaria",
+"La eliminación del coágulo durante la fibrinólisis"
+],
+answer: 2,
+explanation: "Cuando predominan hemartrosis y hematomas profundos, el defecto suele estar en coagulación secundaria. El tapón inicial puede aparecer, pero no se consolida si la fibrina no se forma o estabiliza adecuadamente. Por eso el sangrado es profundo y tardío."
+},
+
+{
+question: "Un paciente con sepsis grave desarrolla activación endotelial difusa. El internista explica que el endotelio sano mantiene propiedades anticoagulantes, pero en inflamación intensa cambia radicalmente su función. ¿Cuál es la mejor descripción de esa transición?",
+options: [
+"Expresión de Factor Tisular y producción de mediadores que favorecen coagulación local y reducen la lisis prematura del coágulo",
+"Aumento sostenido de PGI2 y NO para reforzar el perfil anticoagulante",
+"Desaparición completa del factor de Von Willebrand de los cuerpos de Weibel-Palade",
+"Bloqueo absoluto del contacto entre sangre y pared vascular"
+],
+answer: 0,
+explanation: "El endotelio activado pierde parte de su perfil anticoagulante y se vuelve procoagulante. Expresa Factor Tisular y secreta moléculas que favorecen coagulación local y evitan la lisis prematura. Este cambio es fundamental en sepsis, trauma y otros estados inflamatorios."
+},
+
+{
+question: "Una paciente de 48 años presenta sangrado posoperatorio persistente. El laboratorio informa un tiempo de trombina prolongado. El especialista aclara que esta prueba no estudia principalmente la adhesión plaquetaria ni la vía extrínseca, sino un paso final concreto de la hemostasia. ¿Qué proceso está evaluando de manera más directa?",
+options: [
+"La conversión de fibrinógeno en fibrina tras la adición de trombina al plasma",
+"La adhesión plaquetaria al subendotelio mediada por factor de Von Willebrand",
+"La activación del factor VII en la vía extrínseca",
+"La inhibición de factores Va y VIIIa por proteína C"
+],
+answer: 0,
+explanation: "El tiempo de trombina evalúa la fase en la que la trombina convierte fibrinógeno en fibrina. Por eso se altera cuando existe un problema del fibrinógeno o una interferencia en esa reacción terminal."
+},
+
+{
+question: "Un varón de 57 años sufre traumatismo craneoencefálico grave tras un accidente de tránsito. Horas después desarrolla sangrado difuso, hipotensión, hipoxemia, TP prolongado, TTPa prolongado y elevación de productos de degradación de fibrina. El intensivista afirma que el trauma no solo produce hemorragia mecánica, sino que puede desencadenar una alteración sistémica del sistema hemostático. ¿Cuál es el mecanismo más probable?",
+options: [
+"Liberación de sustancias procoagulantes y activación endotelial por daño tisular extenso, con activación difusa de la coagulación",
+"Déficit aislado y súbito del factor IX restringido al sistema nervioso central",
+"Supresión completa de la función plaquetaria sin alterar factores plasmáticos",
+"Inhibición generalizada de trombina por aumento brusco de trombomodulina"
+],
+answer: 0,
+explanation: "El trauma extenso y la respuesta inflamatoria asociada pueden activar sistémicamente la coagulación por exposición de material tisular y estímulos procoagulantes. Esto favorece formación difusa de fibrina, microtrombosis, consumo de factores y sangrado, produciendo un cuadro tipo CID."
+},
+
+{
+question: "Un paciente de 52 años consulta por sangrado persistente tras una pequeña incisión cutánea. El médico desea evaluar específicamente la interacción entre pared vascular, plaquetas y formación del tapón inicial. ¿Cuál es el estudio más adecuado para ese objetivo?",
+options: [
+"Tiempo de sangría",
+"Tiempo de protrombina",
+"Tiempo de tromboplastina parcial activada",
+"Tiempo de trombina"
+],
+answer: 0,
+explanation: "El tiempo de sangría es la prueba clásica para valorar las etapas iniciales de la hemostasia. Refleja la interacción entre vaso y plaquetas en la formación del tapón primario."
+},
+
+{
+question: "Una mujer con antecedentes de trombosis venosas recurrentes es estudiada por posible deficiencia de proteína C y proteína S. Durante la clase, el profesor insiste en que la coagulación fisiológica no consiste solo en formar coágulos, sino también en impedir que se propaguen más allá del sitio de lesión. ¿Cuál es la afirmación que mejor resume el papel de estas proteínas?",
+options: [
+"Son anticoagulantes naturales que limitan la extensión del coágulo; su déficit favorece trombosis",
+"Son componentes estructurales del tapón plaquetario, por eso su déficit produce petequias",
+"Son mediadores principales de la vasoconstricción inicial",
+"Transforman directamente fibrinógeno en fibrina"
+],
+answer: 0,
+explanation: "Las proteínas C y S forman parte de los mecanismos anticoagulantes fisiológicos. Su función es limitar la expansión de la coagulación. Si faltan, el sistema pierde un freno clave y el equilibrio hemostático se desplaza hacia trombosis."
+},
+
+{
+question: "Un paciente con infección sistémica presenta activación plaquetaria intensa. El médico explica que las plaquetas no solo forman el tapón primario, sino que además facilitan la coagulación secundaria. ¿Cuál es su contribución más importante a la fase fluida de la coagulación?",
+options: [
+"Aportar una superficie fosfolipídica y ligandos que permiten ensamblar complejos de coagulación y acelerar reacciones locales",
+"Sintetizar todos los factores plasmáticos de coagulación",
+"Convertir directamente plasminógeno en plasmina",
+"Producir la mayor parte del óxido nítrico y la prostaciclina del sistema vascular"
+],
+answer: 0,
+explanation: "Las plaquetas activadas proporcionan una superficie fosfolipídica esencial para el ensamblaje de complejos de coagulación. Esto acelera y localiza la generación de fibrina en el sitio de lesión, integrando hemostasia primaria con secundaria."
+},
+
+{
+question: "Una mujer de 34 años, tras una complicación obstétrica grave, presenta hemorragia por la herida operatoria y, al mismo tiempo, signos de compromiso microvascular distal. Un interno afirma que trombosis y hemorragia son fenómenos incompatibles y que no pueden presentarse juntos. ¿Cuál es la mejor corrección conceptual?",
+options: [
+"En trastornos como la CID, la coagulación se activa de forma exagerada formando trombos y consumiendo factores y plaquetas, por lo que también aparece sangrado",
+"El sangrado abundante siempre excluye un estado protrombótico sistémico",
+"Las trombosis solo aparecen cuando TP y TTPa son normales",
+"La hemorragia en este contexto solo puede explicarse por lesión vascular local"
+],
+answer: 0,
+explanation: "La coexistencia de trombosis y hemorragia es una característica central de la CID. La coagulación se activa de forma extensa, se forman trombos y se consumen los recursos hemostáticos. Como consecuencia, el paciente puede trombosar y sangrar simultáneamente."
+},
+
+{
+question: "Un hombre de 61 años presenta hematuria, hematomas musculares y sangrado retardado tras un procedimiento menor. No presenta petequias ni epistaxis importantes. Antes de revisar estudios, el clínico usa el patrón del sangrado como orientación diagnóstica. ¿Cuál es la alteración más probable?",
+options: [
+"Defecto de coagulación secundaria por alteración de factores plasmáticos",
+"Defecto de hemostasia primaria con alteración vascular-plaquetaria",
+"Fragilidad capilar aislada",
+"Defecto exclusivo de liberación de ADP plaquetario"
+],
+answer: 0,
+explanation: "El sangrado profundo y retardado orienta a un defecto de coagulación secundaria. En contraste, la hemostasia primaria alterada produce petequias, epistaxis, gingivorragia y sangrado mucocutáneo inmediato."
+},
+
+{
+question: "Un paciente de 54 años es estudiado por sospecha de alteración de la vía intrínseca. En el laboratorio se añade al plasma una sustancia de superficie negativa antes de agregar tromboplastina parcial, y el tiempo resultante aparece prolongado. ¿Qué prueba se realizó y qué concluye el médico?",
+options: [
+"Tiempo de tromboplastina parcial activada; existe alteración de la vía intrínseca",
+"Tiempo de protrombina; existe defecto de la vía extrínseca",
+"Tiempo de trombina; existe alteración primaria de fibrinólisis",
+"Tiempo de sangría; existe defecto de adhesión plaquetaria"
+],
+answer: 0,
+explanation: "La descripción corresponde al TTPa. Esta prueba explora la vía intrínseca, y su prolongación orienta a alteraciones en factores como VIII, IX o XII, entre otros componentes de esa rama de la coagulación."
+}
+
+],
+ultraDeepClinicalCasesHemostasis: [
+
+{
+question: "Un varón de 68 años es admitido en UCI por sepsis secundaria a infección urinaria complicada. Durante las primeras 24 horas presenta hipotensión refractaria, necesidad de vasopresores y deterioro progresivo del estado mental. Posteriormente desarrolla petequias difusas, equimosis generalizadas y sangrado continuo en sitios de venopunción. El laboratorio revela plaquetas de 42,000/μL, TP prolongado, TTPa prolongado y dímero D elevado. Sin embargo, simultáneamente presenta cianosis distal en dedos, oliguria y elevación del lactato. Un residente interpreta que el cuadro corresponde a un estado puramente hemorrágico. ¿Cuál es el error fundamental en esa interpretación?",
+options: [
+"Que el dímero D solo se eleva en sangrado",
+"Que la activación sistémica de la coagulación puede coexistir con consumo de factores y sangrado",
+"Que la trombosis requiere TP y TTPa normales",
+"Que la fibrinólisis ocurre antes de la coagulación"
+],
+answer: 1,
+explanation: "En la CID, la coagulación se activa de forma masiva generando microtrombos (responsables de la hipoperfusión), pero al mismo tiempo se consumen factores y plaquetas, lo que produce sangrado. Es un proceso simultáneo, no excluyente."
+},
+
+{
+question: "Una mujer de 20 años consulta por epistaxis recurrentes, gingivorragia y menorragia desde la adolescencia. Describe que incluso pequeñas heridas cutáneas comienzan a sangrar inmediatamente. Nunca ha presentado hemartrosis ni hematomas profundos. El laboratorio muestra TP normal, TTPa normal, recuento plaquetario normal y tiempo de sangría prolongado. Un estudiante afirma que la ausencia de alteraciones en TP y TTPa descarta cualquier trastorno hemostático relevante. ¿Cuál es la mejor corrección?",
+options: [
+"El tiempo de sangría evalúa la hemostasia primaria, que puede estar alterada aun con TP y TTPa normales",
+"El TP y TTPa normales excluyen todas las enfermedades hemorrágicas",
+"La hemostasia primaria no produce sangrado clínico significativo",
+"Las plaquetas normales descartan cualquier problema funcional"
+],
+answer: 0,
+explanation: "El TP y TTPa evalúan coagulación secundaria. Un tiempo de sangría prolongado con sangrado mucocutáneo orienta a un defecto de hemostasia primaria, incluso con valores normales en esas pruebas."
+},
+
+{
+question: "Un adolescente presenta hemartrosis recurrente y hematomas musculares tras traumatismos leves. El laboratorio muestra TTPa prolongado con TP normal. El médico explica que el problema no está en formar el tapón inicial, sino en estabilizarlo. ¿Qué evento está fallando principalmente?",
+options: [
+"Adhesión plaquetaria",
+"Activación del endotelio",
+"Formación de fibrina",
+"Fibrinólisis"
+],
+answer: 2,
+explanation: "La coagulación secundaria está alterada, por lo que el tapón inicial no se estabiliza con fibrina."
+},
+
+{
+question: "Un paciente con cirrosis presenta sangrado prolongado tras un procedimiento. Los estudios muestran TP y TTPa prolongados. ¿Cuál es el mecanismo más importante?",
+options: [
+"Déficit de factores de coagulación producidos en hígado",
+"Déficit exclusivo de plaquetas",
+"Aumento de fibrinólisis aislada",
+"Alteración vascular primaria"
+],
+answer: 0,
+explanation: "El hígado sintetiza la mayoría de factores de coagulación."
+},
+
+{
+question: "Una mujer con síndrome antifosfolípido presenta trombosis venosa recurrente. ¿Cuál es el mecanismo fisiopatológico clave?",
+options: [
+"Aumento fibrinólisis",
+"Inhibición de proteína C",
+"Déficit fibrinógeno",
+"Disminución plaquetas"
+],
+answer: 1,
+explanation: "Se pierde regulación anticoagulante, favoreciendo trombosis."
+},
+
+{
+question: "Un paciente con trauma severo desarrolla un cuadro compatible con CID. ¿Qué evento inicial lo desencadena?",
+options: [
+"Inhibición trombina",
+"Liberación de factor tisular",
+"Déficit plaquetas",
+"Aumento NO"
+],
+answer: 1,
+explanation: "El daño tisular libera factores procoagulantes."
+},
+
+{
+question: "Un paciente presenta dímero D elevado en contexto clínico compatible con trombosis. ¿Qué indica esto?",
+options: [
+"Inhibición coagulación",
+"Formación y degradación de fibrina",
+"Déficit factores",
+"Plaquetas bajas"
+],
+answer: 1,
+explanation: "Indica fibrina formada y degradada."
+},
+
+{
+question: "Un paciente con déficit de antitrombina III presenta trombosis. ¿Por qué?",
+options: [
+"Pierde control anticoagulante",
+"Aumenta fibrinólisis",
+"Reduce fibrina",
+"Activa plaquetas"
+],
+answer: 0,
+explanation: "La antitrombina limita coagulación; su déficit favorece trombos."
+},
+
+{
+question: "Un paciente presenta sangrado profundo y tardío tras cirugía menor. ¿Qué sistema está alterado?",
+options: [
+"Hemostasia primaria",
+"Hemostasia secundaria",
+"Vascular",
+"Fibrinolítico"
+],
+answer: 1,
+explanation: "Es un problema de coagulación secundaria."
+},
+
+{
+question: "En sepsis, el endotelio se vuelve:",
+options: [
+"Anticoagulante",
+"Procoagulante",
+"Inactivo",
+"Solo fibrinolítico"
+],
+answer: 1,
+explanation: "Expresa factor tisular."
+},
+
+{
+question: "Déficit de vitamina K afecta:",
+options: [
+"Plaquetas",
+"Factores II, VII, IX, X",
+"Fibrinólisis",
+"Endotelio"
+],
+answer: 1,
+explanation: "Factores dependientes de vitamina K."
+},
+
+{
+question: "Un paciente con exceso de plasmina presenta:",
+options: [
+"Más coagulación",
+"Más fibrina",
+"Degradación fibrina",
+"Más trombina"
+],
+answer: 2,
+explanation: "Produce sangrado."
+},
+
+{
+question: "Sangrado inmediato superficial indica:",
+options: [
+"Hemostasia primaria",
+"Secundaria",
+"Fibrinolítica",
+"Hepática"
+],
+answer: 0,
+explanation: "Problema plaquetario."
+},
+
+{
+question: "Tiempo de trombina prolongado indica:",
+options: [
+"Problema fibrinógeno",
+"Plaquetas",
+"Vasos",
+"Factor VII"
+],
+answer: 0,
+explanation: "Evalúa conversión fibrina."
+},
+
+{
+question: "Hipoxia en trauma favorece:",
+options: [
+"Inhibición coagulación",
+"Activación coagulación",
+"Inhibición plaquetas",
+"Fibrinólisis"
+],
+answer: 1,
+explanation: "Favorece CID."
+},
+
+{
+question: "Aumento TXA2 y disminución PGI2 causa:",
+options: [
+"Menos coagulación",
+"Más agregación plaquetaria",
+"Más fibrinólisis",
+"Menos adhesión"
+],
+answer: 1,
+explanation: "Favorece coagulación."
+},
+
+{
+question: "Sangrado profundo indica:",
+options: [
+"Plaquetas",
+"Factores",
+"Vasos",
+"Fibrinólisis"
+],
+answer: 1,
+explanation: "Coagulación secundaria."
+},
+
+{
+question: "TTPa evalúa:",
+options: [
+"Vía extrínseca",
+"Vía intrínseca",
+"Fibrinólisis",
+"Plaquetas"
+],
+answer: 1,
+explanation: "Evalúa vía intrínseca."
+},
+
+{
+question: "Plaquetas aportan:",
+options: [
+"Factores",
+"Superficie fosfolipídica",
+"Plasmina",
+"NO"
+],
+answer: 1,
+explanation: "Facilitan coagulación."
+},
+
+{
+question: "Proteína C y S son:",
+options: [
+"Procoagulantes",
+"Anticoagulantes",
+"Plaquetas",
+"Fibrina"
+],
+answer: 1,
+explanation: "Regulan coagulación."
+}
+
+],
+ultraExpertClinicalCasesHemostasis: [
+
+{
+question: "Un varón de 66 años es ingresado en UCI por shock séptico secundario a una infección abdominal. En las primeras horas presenta hipotensión persistente, taquicardia y necesidad de vasopresores. A las 24 horas desarrolla petequias generalizadas, equimosis extensas y sangrado continuo en sitios de venopunción. El laboratorio muestra plaquetas 40,000/μL, TP prolongado, TTPa prolongado y dímero D muy elevado. A pesar del sangrado evidente, el paciente presenta oliguria progresiva, piel fría con livedo reticularis y signos de isquemia distal. Un residente concluye que el sangrado indica que el sistema está hipocoagulando y que la isquemia es solo por el shock. ¿Cuál es el error central en su interpretación?",
+options: [
+"Que la formación de fibrina no ocurre cuando el TP está prolongado",
+"Que la activación sistémica de la coagulación puede coexistir con consumo de factores y sangrado",
+"Que el dímero D solo se eleva en hemorragias",
+"Que la trombosis requiere niveles normales de plaquetas"
+],
+answer: 1,
+explanation: "El cuadro es típico de CID. Existe activación masiva de la coagulación con formación de microtrombos (que explican la isquemia), pero al mismo tiempo consumo de factores y plaquetas, lo que produce sangrado. Es un proceso simultáneo, no excluyente."
+},
+
+{
+question: "Una mujer de 23 años consulta por sangrado gingival, epistaxis recurrente y menorragia desde la adolescencia. Refiere que cualquier corte pequeño sangra inmediatamente y tarda en detenerse. No presenta hemartrosis ni hematomas profundos. En laboratorio: TP normal, TTPa normal, plaquetas normales y tiempo de sangría prolongado. Un estudiante afirma que el sangrado clínicamente evidente indica necesariamente alteración en la formación de fibrina. ¿Cuál es la mejor refutación?",
+options: [
+"El patrón mucocutáneo inmediato indica alteración de hemostasia primaria, no de fibrina",
+"El TP normal descarta cualquier trastorno hemorrágico",
+"El TTPa normal indica que la hemostasia primaria está intacta",
+"Las plaquetas normales excluyen alteraciones funcionales"
+],
+answer: 0,
+explanation: "El patrón clínico es clave: sangrado superficial e inmediato → hemostasia primaria. La fibrina (hemostasia secundaria) se asocia más a sangrado profundo y tardío."
+},
+
+{
+question: "Un adolescente de 15 años presenta dolor, aumento de volumen y limitación funcional de la rodilla tras un traumatismo leve. Tiene antecedentes de episodios similares y hematomas musculares. El laboratorio muestra TTPa prolongado, TP normal, plaquetas normales. ¿Qué explica mejor la fisiopatología del sangrado?",
+options: [
+"Falla en la formación del tapón plaquetario",
+"Falla en la estabilización del tapón por fibrina",
+"Defecto en la vasoconstricción inicial",
+"Activación excesiva de fibrinólisis"
+],
+answer: 1,
+explanation: "El problema es de coagulación secundaria: el tapón inicial no se estabiliza con fibrina."
+},
+
+{
+question: "Un paciente con cirrosis avanzada presenta sangrado persistente tras un procedimiento invasivo. TP y TTPa prolongados. ¿Cuál es el mecanismo más importante?",
+options: [
+"Déficit de factores de coagulación sintetizados en hígado",
+"Disminución de la adhesión plaquetaria",
+"Aumento exclusivo de fibrinólisis",
+"Alteración vascular primaria"
+],
+answer: 0,
+explanation: "El hígado produce la mayoría de factores de coagulación."
+},
+
+{
+question: "Una mujer con síndrome antifosfolípido presenta trombosis venosa recurrente. ¿Cuál es el mecanismo clave?",
+options: [
+"Aumento fibrinólisis",
+"Inhibición proteína C",
+"Déficit fibrinógeno",
+"Disminución plaquetas"
+],
+answer: 1,
+explanation: "Se pierde regulación anticoagulante."
+},
+
+{
+question: "Un paciente con trauma severo desarrolla CID. ¿Qué lo desencadena?",
+options: [
+"Inhibición trombina",
+"Liberación de factor tisular",
+"Déficit plaquetas",
+"Aumento prostaciclina"
+],
+answer: 1,
+explanation: "El daño tisular activa coagulación sistémica."
+},
+
+{
+question: "Un paciente con dímero D elevado indica:",
+options: [
+"Inhibición coagulación",
+"Formación y degradación de fibrina",
+"Déficit factores",
+"Plaquetopenia"
+],
+answer: 1,
+explanation: "Indica fibrina formada y degradada."
+},
+
+{
+question: "Déficit de antitrombina III produce:",
+options: [
+"Sangrado",
+"Trombosis",
+"Fibrinólisis",
+"Plaquetopenia"
+],
+answer: 1,
+explanation: "Pierde control anticoagulante."
+},
+
+{
+question: "Sangrado profundo tardío indica:",
+options: [
+"Hemostasia primaria",
+"Hemostasia secundaria",
+"Vascular",
+"Fibrinolítica"
+],
+answer: 1,
+explanation: "Coagulación secundaria."
+},
+
+{
+question: "Endotelio en sepsis se vuelve:",
+options: [
+"Anticoagulante",
+"Procoagulante",
+"Inactivo",
+"Fibrinolítico"
+],
+answer: 1,
+explanation: "Expresa factor tisular."
+},
+
+{
+question: "Déficit vitamina K afecta:",
+options: [
+"Plaquetas",
+"Factores II, VII, IX, X",
+"Fibrinólisis",
+"Endotelio"
+],
+answer: 1,
+explanation: "Factores dependientes."
+},
+
+{
+question: "Exceso plasmina produce:",
+options: [
+"Más coagulación",
+"Más fibrina",
+"Degradación fibrina",
+"Más trombina"
+],
+answer: 2,
+explanation: "Produce sangrado."
+},
+
+{
+question: "Sangrado inmediato superficial indica:",
+options: [
+"Hemostasia primaria",
+"Secundaria",
+"Fibrinolítica",
+"Hepática"
+],
+answer: 0,
+explanation: "Plaquetas."
+},
+
+{
+question: "Tiempo de trombina prolongado indica:",
+options: [
+"Problema fibrinógeno",
+"Plaquetas",
+"Vasos",
+"Factor VII"
+],
+answer: 0,
+explanation: "Evalúa fibrina."
+},
+
+{
+question: "Hipoxia en trauma favorece:",
+options: [
+"Inhibición coagulación",
+"Activación coagulación",
+"Inhibición plaquetas",
+"Fibrinólisis"
+],
+answer: 1,
+explanation: "Favorece CID."
+},
+
+{
+question: "↑ TXA2 ↓ PGI2 causa:",
+options: [
+"Menos coagulación",
+"Más agregación plaquetaria",
+"Más fibrinólisis",
+"Menos adhesión"
+],
+answer: 1,
+explanation: "Favorece coagulación."
+},
+
+{
+question: "Sangrado profundo indica:",
+options: [
+"Plaquetas",
+"Factores",
+"Vasos",
+"Fibrinólisis"
+],
+answer: 1,
+explanation: "Secundaria."
+},
+
+{
+question: "TTPa evalúa:",
+options: [
+"Vía extrínseca",
+"Vía intrínseca",
+"Fibrinólisis",
+"Plaquetas"
+],
+answer: 1,
+explanation: "Intrínseca."
+},
+
+{
+question: "Plaquetas aportan:",
+options: [
+"Factores",
+"Superficie fosfolipídica",
+"Plasmina",
+"NO"
+],
+answer: 1,
+explanation: "Facilitan coagulación."
+},
+
+{
+question: "Proteína C y S son:",
+options: [
+"Procoagulantes",
+"Anticoagulantes",
+"Plaquetas",
+"Fibrina"
+],
+answer: 1,
+explanation: "Regulan coagulación."
+}
+
+],
+ultraReasoningClinicalCases: [
+
+{
+question: "Un varón de 64 años es ingresado a UCI por sepsis abdominal secundaria a perforación intestinal. Durante las primeras horas presenta hipotensión sostenida, taquicardia, oliguria y necesidad de vasopresores. Doce horas después comienza con sangrado persistente por los sitios de venopunción, gingivorragia y aparición de petequias y equimosis extensas en tronco y extremidades. Los estudios muestran plaquetas de 38,000/μL, TP prolongado, TTPa prolongado y dímero D marcadamente elevado. Al mismo tiempo, el paciente desarrolla livedo reticularis, frialdad distal y empeoramiento de la función renal. Un alumno afirma que el cuadro debe explicarse por trombocitopenia severa y que la isquemia distal es solo consecuencia del shock. ¿Cuál es la mejor interpretación fisiopatológica del cuadro completo?",
+options: [
+"Existe un defecto aislado de hemostasia primaria por trombocitopenia, y la falla renal no guarda relación con la coagulación",
+"Existe activación sistémica de la coagulación con formación de fibrina y microtrombos, consumo de factores y plaquetas, y fibrinólisis secundaria",
+"El problema principal es una deficiencia aislada de fibrinógeno, y el dímero D elevado no tiene relevancia diagnóstica",
+"Predomina una hiperactivación primaria del sistema fibrinolítico, sin formación previa significativa de coágulos"
+],
+answer: 1,
+explanation: "El cuadro es típico de coagulación intravascular diseminada. La sepsis induce activación endotelial y un cambio hacia un estado procoagulante, con formación de fibrina y microtrombos que comprometen la perfusión tisular. A la vez, se consumen plaquetas y factores de coagulación, por lo que aparece sangrado. El dímero D elevado confirma que hubo formación y degradación de fibrina. Por tanto, la trombosis microvascular y la hemorragia no son fenómenos opuestos en este caso, sino dos consecuencias del mismo proceso sistémico."
+},
+
+{
+question: "Una mujer de 19 años consulta por menorragia severa, epistaxis recurrente y sangrado gingival al cepillado desde hace varios años. Refiere que cuando se hace heridas pequeñas cocinando o manipulando papel, el sangrado inicia de inmediato y tarda mucho en detenerse. Niega hemartrosis, dolor muscular profundo o grandes hematomas espontáneos. En los exámenes se encuentra recuento plaquetario normal, TP normal, TTPa normal y tiempo de sangría prolongado. Durante la discusión clínica, un interno afirma que un sangrado tan llamativo obliga a pensar en falla de la red de fibrina. ¿Cuál es el dato más fuerte del caso para refutar esa interpretación?",
+options: [
+"El hecho de que el recuento plaquetario sea normal",
+"El patrón mucocutáneo, superficial e inmediato del sangrado, junto con pruebas de coagulación normales",
+"La edad joven de la paciente",
+"La ausencia de anemia grave en el hemograma"
+],
+answer: 1,
+explanation: "El dato más orientador no es la intensidad subjetiva del sangrado, sino su patrón. El sangrado mucocutáneo, inmediato y superficial sugiere un problema de hemostasia primaria. El TP y el TTPa normales hacen menos probable una alteración significativa de la coagulación secundaria. El tiempo de sangría prolongado refuerza la idea de un defecto funcional plaquetario o de la interacción entre plaqueta y vaso."
+},
+
+{
+question: "Un adolescente de 17 años consulta por dolor, calor y aumento de volumen de rodilla izquierda después de un traumatismo menor durante una práctica deportiva. Refiere episodios previos de hemartrosis y hematomas profundos en muslos tras golpes de baja intensidad. En el laboratorio presenta plaquetas normales, tiempo de sangría normal, TP normal y TTPa prolongado. Un compañero de clase dice que, si las plaquetas y el tiempo de sangría están normales, no existe un problema hemostático real. ¿Cuál es la mejor respuesta?",
+options: [
+"La hemostasia primaria puede estar intacta y, aun así, existir un defecto de coagulación secundaria que produzca sangrado profundo",
+"Las plaquetas normales solo excluyen trastornos vasculares, pero no alteraciones fibrinolíticas",
+"El tiempo de sangría normal solo sirve para descartar enfermedades del hígado",
+"Si el TP es normal, la vía intrínseca pierde valor fisiológico"
+],
+answer: 0,
+explanation: "La hemostasia primaria y la secundaria son procesos diferentes. Un paciente puede tener formación inicial adecuada del tapón plaquetario, pero si no logra estabilizarlo con fibrina, presentará hemorragias profundas y tardías. El patrón clínico de hemartrosis y hematomas musculares, junto con el TTPa prolongado, orienta a un defecto de coagulación secundaria."
+},
+
+{
+question: "Un hombre de 58 años con cirrosis hepática avanzada se somete a una paracentesis evacuadora. Tras el procedimiento, el sangrado por el sitio de punción persiste más allá de lo esperado. Los estudios muestran TP prolongado, TTPa prolongado y niveles disminuidos de varios factores de coagulación. Durante el pase de visita, un estudiante comenta que el hígado participa poco en la coagulación y que la mayor parte del problema probablemente es vascular. ¿Cuál es la mejor corrección a esa afirmación?",
+options: [
+"El hígado sintetiza una parte importante de los factores de coagulación, por lo que su falla altera ampliamente la hemostasia secundaria",
+"El hígado participa de forma principal solo en la vasoconstricción, no en proteínas plasmáticas",
+"El hígado influye en la hemostasia solo cuando existe plaquetopenia severa asociada",
+"El hígado regula la fibrinólisis pero no tiene relación con TP ni TTPa"
+],
+answer: 0,
+explanation: "Muchos factores de coagulación se sintetizan en hepatocitos. Por eso, en la enfermedad hepática, la hemostasia secundaria puede alterarse de forma global y manifestarse con prolongación de TP y TTPa. El hígado no cumple un papel menor, sino central en la fisiología de la coagulación."
+},
+
+{
+question: "Una mujer de 33 años presenta un abruptio placentae grave con sangrado obstétrico importante y es llevada a cirugía de emergencia. Horas después desarrolla oozing por la herida operatoria, petequias, equimosis extensas, hipotensión y deterioro respiratorio. En el laboratorio se documentan plaquetas bajas, TP prolongado, TTPa prolongado y productos de degradación de fibrina elevados. El obstetra explica que ciertas complicaciones obstétricas son capaces de activar explosivamente la coagulación. ¿Cuál es el evento inicial más relevante en este proceso?",
+options: [
+"Exposición y liberación masiva de sustancias procoagulantes, con activación importante mediada por Factor Tisular",
+"Consumo aislado del factor XII por activación exclusiva de la vía intrínseca",
+"Inhibición abrupta de la adhesión plaquetaria por caída del factor de Von Willebrand",
+"Bloqueo de la trombina como mecanismo primario del cuadro hemorrágico"
+],
+answer: 0,
+explanation: "Las complicaciones obstétricas descritas pueden desencadenar CID por liberación de material con fuerte actividad procoagulante y activación de la vía del Factor Tisular. A partir de ahí se genera coagulación sistémica, consumo de factores y plaquetas y, finalmente, fibrinólisis secundaria."
+},
+
+{
+question: "Un varón de 42 años consulta por edema doloroso en la pierna derecha y se confirma una trombosis venosa profunda. No tiene antecedente de cirugía, inmovilización ni cáncer conocido. En el estudio se encuentra actividad marcadamente reducida de antitrombina III. El paciente pregunta cómo la falta de una proteína anticoagulante puede hacer que coagule de más en vez de sangrar con facilidad. ¿Cuál es la mejor explicación?",
+options: [
+"La antitrombina III actúa como freno fisiológico de factores activados; cuando disminuye, la coagulación se vuelve menos controlada y favorece trombosis",
+"La antitrombina III estimula la producción de trombina, por eso su déficit genera coágulos anormales",
+"La antitrombina III es una proteína de adhesión plaquetaria, y su disminución incrementa la agregación",
+"La antitrombina III pertenece principalmente a la fibrinólisis, y su déficit reduce la lisis del coágulo"
+],
+answer: 0,
+explanation: "La antitrombina III es un anticoagulante natural que inhibe trombina y otros factores activados. Si disminuye, el sistema pierde un mecanismo regulador esencial y la coagulación tiende a activarse de forma excesiva. Por eso el resultado clínico esperado es trombosis, no hemorragia."
+},
+
+{
+question: "Una mujer de 31 años con antecedente de dos abortos espontáneos consulta por dolor e hinchazón de la pantorrilla izquierda. La ecografía doppler confirma trombosis venosa profunda y en el estudio se detectan anticuerpos antifosfolípidos. Durante la discusión clínica, el profesor explica que el síndrome no se caracteriza por sangrado, sino por pérdida de mecanismos fisiológicos que frenan la coagulación. ¿Cuál es el mecanismo más importante entre los siguientes?",
+options: [
+"Inhibición de la activación de proteína C, favoreciendo la persistencia de la actividad procoagulante",
+"Destrucción directa del fibrinógeno, lo que estimula formación compensatoria de trombos",
+"Bloqueo del factor XIII, generando trombos más frágiles pero frecuentes",
+"Aumento persistente del activador tisular del plasminógeno, con degradación incompleta del coágulo"
+],
+answer: 0,
+explanation: "En el síndrome antifosfolípido predominan fenómenos trombóticos. Uno de los mecanismos relevantes es la interferencia con vías anticoagulantes, incluida la activación de proteína C. La pérdida de ese control fisiológico favorece la persistencia del estado procoagulante."
+},
+
+{
+question: "Un paciente de 65 años con adenocarcinoma pancreático ha presentado episodios repetidos de trombosis venosa migratoria durante los últimos meses. Con el tiempo desarrolla gingivorragia, equimosis extensas y alteraciones de TP y TTPa. El oncólogo explica que algunos tumores pueden iniciar un estado de hipercoagulabilidad y luego evolucionar a consumo hemostático. ¿Cuál es la explicación fisiopatológica más completa?",
+options: [
+"El tumor libera sustancias procoagulantes, como mucinas y enzimas, que activan la coagulación; si el proceso se generaliza, se consumen factores y plaquetas",
+"El tumor produce exclusivamente trombocitopenia inmune, y la trombosis es un hallazgo sin relación",
+"El cáncer pancreático induce únicamente déficit de vitamina K por mala absorción biliar",
+"Los tumores solo alteran la pared vascular, sin afectar el sistema de coagulación plasmática"
+],
+answer: 0,
+explanation: "Algunos adenocarcinomas pueden activar intensamente la coagulación por liberación de sustancias procoagulantes. Esto puede dar lugar primero a trombosis recurrente y, si se vuelve sistémico, a consumo de factores y plaquetas con aparición de manifestaciones hemorrágicas."
+},
+
+{
+question: "Un varón de 71 años presenta sangrado importante tras una extracción dental. Los estudios muestran TP prolongado, TTPa normal, tiempo de sangría normal y recuento plaquetario normal. Un estudiante afirma que, si el tiempo de sangría es normal, no hay ningún trastorno hemostático real. ¿Cuál es la mejor corrección?",
+options: [
+"El tiempo de sangría evalúa principalmente hemostasia primaria; un TP prolongado aislado puede indicar una alteración verdadera de la vía extrínseca",
+"El tiempo de sangría normal excluye enfermedades hemorrágicas adquiridas, pero no hereditarias",
+"El TP no tiene utilidad diagnóstica cuando el recuento plaquetario es normal",
+"El TTPa normal demuestra que no existe ningún problema de coagulación secundaria"
+],
+answer: 0,
+explanation: "El tiempo de sangría no evalúa toda la hemostasia. Puede ser normal en trastornos de coagulación secundaria. En este caso, el TP prolongado orienta a una alteración de la vía extrínseca, aunque la hemostasia primaria parezca conservada."
+},
+
+{
+question: "Un joven de 21 años sufre una laceración profunda en la mano con un fragmento de vidrio. Durante los primeros minutos el sangrado disminuye de manera parcial antes de que exista un coágulo completamente consolidado. El cirujano pregunta qué mediadores explican mejor esta fase inicial. ¿Cuál es la respuesta más adecuada?",
+options: [
+"Predominio de endotelina, serotonina y TXA2, con disminución relativa de NO y PGI2",
+"Predominio de NO y prostaciclina para mantener la sangre fluida mientras se forma el coágulo",
+"Activación inmediata del activador tisular del plasminógeno para remodelar la herida desde el inicio",
+"Incremento de proteína C y proteína S para limitar la extensión del sangrado"
+],
+answer: 0,
+explanation: "La fase vascular temprana de la hemostasia depende de vasoconstricción. En ella participan endotelina, serotonina y TXA2. En cambio, óxido nítrico y prostaciclina son mediadores del endotelio sano con perfil vasodilatador y antiagregante, por lo que su ausencia relativa favorece la respuesta hemostática inicial."
+},
+
+{
+question: "Una mujer de 39 años presenta sangrado excesivo tras varios procedimientos odontológicos menores. El recuento plaquetario está dentro de rango normal, pero el tiempo de sangría está prolongado. El hematólogo afirma que este hallazgo no es contradictorio, sino muy orientador. ¿Cuál es la interpretación más adecuada?",
+options: [
+"Puede existir un defecto funcional plaquetario con número normal, afectando la hemostasia primaria",
+"El tiempo de sangría prolongado solo se observa en deficiencia de fibrinógeno",
+"Las plaquetas normales excluyen cualquier trastorno de adhesión o agregación",
+"El tiempo de sangría prolongado con plaquetas normales obliga a pensar primero en vía extrínseca"
+],
+answer: 0,
+explanation: "La hemostasia primaria depende del número y de la función de las plaquetas. Un recuento normal no excluye alteraciones funcionales de adhesión, activación o agregación. Por eso puede existir sangrado mucocutáneo y tiempo de sangría prolongado con cifra plaquetaria conservada."
+},
+
+{
+question: "Un niño de 12 años con antecedentes de hematomas musculares profundos y dolor articular recurrente es evaluado en consulta. El hematólogo explica a la familia que el problema no está en iniciar la hemostasia, sino en hacerla suficientemente firme como para resistir la presión del flujo sanguíneo. ¿Qué fase está principalmente comprometida?",
+options: [
+"La fase vascular inicial con vasoconstricción refleja",
+"La formación del tapón plaquetario primario",
+"La formación y estabilización de la red de fibrina en la hemostasia secundaria",
+"La eliminación del coágulo en la fase de fibrinólisis"
+],
+answer: 2,
+explanation: "Los hematomas profundos y la hemartrosis orientan a alteraciones de coagulación secundaria. El defecto principal es que el tapón inicial no se consolida adecuadamente con fibrina, por lo que el sangrado reaparece o persiste en tejidos profundos."
+},
+
+{
+question: "Un paciente con sepsis grave desarrolla activación endotelial generalizada. El internista explica que el endotelio sano suele comportarse como anticoagulante, pero durante la inflamación intensa cambia de perfil. ¿Cuál es la mejor descripción de esa transición?",
+options: [
+"Expresión de Factor Tisular y producción de mediadores que favorecen coagulación local y dificultan la lisis prematura del coágulo",
+"Aumento sostenido de NO y prostaciclina para reforzar el perfil anticoagulante",
+"Desaparición completa del factor de Von Willebrand almacenado",
+"Bloqueo del contacto entre la sangre y la pared vascular"
+],
+answer: 0,
+explanation: "El endotelio activado pierde parte de su perfil anticoagulante y pasa a uno procoagulante. La expresión de Factor Tisular y la producción de mediadores que facilitan coagulación local son fundamentales en este cambio fisiopatológico."
+},
+
+{
+question: "Una paciente de 50 años presenta sangrado posoperatorio persistente. El laboratorio informa tiempo de trombina prolongado. El especialista aclara que esta prueba se enfoca en un paso final concreto de la hemostasia. ¿Qué proceso está evaluando de manera más directa?",
+options: [
+"La conversión de fibrinógeno en fibrina tras agregar trombina al plasma",
+"La adhesión plaquetaria mediada por factor de Von Willebrand",
+"La activación del factor VII en la vía extrínseca",
+"La inhibición de factores Va y VIIIa por proteína C"
+],
+answer: 0,
+explanation: "El tiempo de trombina se centra en la etapa en la que la trombina convierte fibrinógeno en fibrina. Por eso se altera cuando existe problema del fibrinógeno o alguna interferencia en esa reacción final."
+},
+
+{
+question: "Un varón de 56 años sufre traumatismo craneoencefálico grave tras un accidente de tránsito. Horas después desarrolla sangrado difuso, hipotensión, hipoxemia, TP prolongado, TTPa prolongado y productos de degradación de fibrina elevados. El intensivista señala que el trauma no solo produce sangrado mecánico, sino que puede desencadenar una alteración sistémica del sistema hemostático. ¿Cuál es el mecanismo más probable?",
+options: [
+"Liberación de sustancias procoagulantes y activación endotelial por daño tisular extenso, con activación difusa de la coagulación",
+"Déficit selectivo y súbito del factor IX restringido al sistema nervioso central",
+"Supresión completa de la función plaquetaria sin alterar factores plasmáticos",
+"Inhibición generalizada de trombina por incremento brusco de trombomodulina"
+],
+answer: 0,
+explanation: "El trauma severo y la respuesta inflamatoria asociada pueden activar sistémicamente la coagulación por exposición de material tisular procoagulante. Esto favorece formación difusa de fibrina, microtrombosis, consumo de factores y sangrado."
+},
+
+{
+question: "Un paciente de 53 años consulta por sangrado persistente tras una pequeña incisión cutánea. El médico desea evaluar específicamente la interacción entre pared vascular, plaquetas y formación del tapón inicial. ¿Cuál es el estudio más apropiado?",
+options: [
+"Tiempo de sangría",
+"Tiempo de protrombina",
+"Tiempo de tromboplastina parcial activada",
+"Tiempo de trombina"
+],
+answer: 0,
+explanation: "El tiempo de sangría es la prueba clásica para valorar las etapas iniciales de la hemostasia. Refleja la interacción entre vaso y plaquetas durante la formación del tapón primario."
+},
+
+{
+question: "Una mujer con antecedentes de trombosis venosas recurrentes es estudiada por posible deficiencia de proteína C y proteína S. Durante la clase, el profesor insiste en que la coagulación fisiológica no consiste solo en formar coágulos, sino también en impedir que se propaguen más allá del sitio de lesión. ¿Cuál es la afirmación que mejor resume el papel de estas proteínas?",
+options: [
+"Son anticoagulantes naturales que limitan la extensión del coágulo y cuyo déficit favorece trombosis",
+"Son componentes estructurales del tapón plaquetario, por eso su déficit produce petequias",
+"Son mediadores principales de la vasoconstricción inicial",
+"Transforman directamente fibrinógeno en fibrina"
+],
+answer: 0,
+explanation: "Las proteínas C y S forman parte de los mecanismos anticoagulantes fisiológicos. Su función es limitar la propagación de la coagulación. Cuando faltan, el sistema pierde un freno esencial y se favorece la trombosis."
+},
+
+{
+question: "Un paciente con infección sistémica presenta intensa activación plaquetaria. El médico explica que las plaquetas no solo forman el tapón inicial, sino que también facilitan la coagulación secundaria. ¿Cuál es su contribución más importante a la fase fluida de la coagulación?",
+options: [
+"Aportar una superficie fosfolipídica y ligandos que permiten ensamblar complejos de coagulación y acelerar reacciones locales",
+"Sintetizar todos los factores plasmáticos de coagulación",
+"Convertir directamente plasminógeno en plasmina",
+"Producir la mayor parte del óxido nítrico y la prostaciclina del sistema vascular"
+],
+answer: 0,
+explanation: "Las plaquetas activadas proporcionan una superficie fosfolipídica esencial para el ensamblaje de complejos de coagulación. Esto acelera y localiza la formación de fibrina en el sitio lesionado, integrando hemostasia primaria y secundaria."
+},
+
+{
+question: "Una mujer de 35 años, después de una complicación obstétrica grave, presenta hemorragia por la herida operatoria y signos de compromiso microvascular distal. Un interno insiste en que trombosis y hemorragia son fenómenos incompatibles. ¿Cuál es la mejor corrección conceptual?",
+options: [
+"En trastornos como la CID, la coagulación se activa de forma exagerada formando trombos y consumiendo factores y plaquetas, por lo que también aparece sangrado",
+"El sangrado abundante siempre excluye estados protrombóticos sistémicos",
+"Las trombosis solo aparecen cuando TP y TTPa son normales",
+"La hemorragia en este contexto solo puede deberse a lesión vascular local"
+],
+answer: 0,
+explanation: "La coexistencia de trombosis y hemorragia es una característica central de la CID. La coagulación se activa de forma extensa, se forman trombos y se consumen los recursos hemostáticos. Por eso el paciente puede trombosar y sangrar al mismo tiempo."
+},
+
+{
+question: "Un hombre de 60 años presenta hematuria, hematomas musculares y sangrado retardado tras un procedimiento menor. No presenta petequias ni epistaxis prominente. Antes de revisar estudios, el clínico usa el patrón del sangrado para orientar el diagnóstico. ¿Cuál es la alteración más probable?",
+options: [
+"Defecto de coagulación secundaria por alteración de factores plasmáticos",
+"Defecto de hemostasia primaria con alteración vascular-plaquetaria",
+"Fragilidad capilar aislada",
+"Defecto exclusivo de liberación de ADP plaquetario"
+],
+answer: 0,
+explanation: "El sangrado profundo y tardío orienta a un defecto de coagulación secundaria. Los trastornos de hemostasia primaria producen más bien petequias, gingivorragia, epistaxis y sangrado mucocutáneo inmediato."
+},
+
+{
+question: "Un paciente de 55 años es estudiado por sospecha de alteración de la vía intrínseca. En el laboratorio se añade al plasma una sustancia de superficie negativa antes de agregar tromboplastina parcial, y el tiempo resultante aparece prolongado. ¿Qué prueba se realizó y qué concluye el médico a partir de ella?",
+options: [
+"Tiempo de tromboplastina parcial activada; existe alteración de la vía intrínseca",
+"Tiempo de protrombina; existe defecto de la vía extrínseca",
+"Tiempo de trombina; existe alteración primaria de fibrinólisis",
+"Tiempo de sangría; existe defecto de adhesión plaquetaria"
+],
+answer: 0,
+explanation: "La descripción corresponde al TTPa. Esta prueba se utiliza para evaluar la vía intrínseca, por lo que su prolongación orienta a alteraciones en factores como VIII, IX o XII, entre otros componentes de esa rama de la coagulación."
+}
+
+]
+
 
     }
 
