@@ -82,7 +82,7 @@ function renderBooks(course) {
 
     const grid = document.getElementById("book-grid");
 
-    Object.keys(database.questions[course] || {}).forEach(book => {
+    Object.keys(database[course] || {}).forEach(book => {
 
         const card = document.createElement("div");
         card.className = "glass-card";
@@ -98,7 +98,6 @@ function renderBooks(course) {
 
     });
 }
-
 /* ===================== */
 /* ===== CHAPTERS ===== */
 /* ===================== */
@@ -106,7 +105,7 @@ function renderBooks(course) {
 function renderChapters(course, book) {
 
     const app = document.getElementById("app");
-    const chapters = database.questions[course][book];
+    const chapters = database[course][book];
 
     app.innerHTML = `
         <button class="back-btn" onclick="renderBooks('${course}')">← Volver</button>
@@ -121,7 +120,6 @@ function renderChapters(course, book) {
         const card = document.createElement("div");
         card.className = "glass-card";
 
-        // normalize text to detect "Parte"
         const normalized = item.trim().toLowerCase();
         const isPart = normalized.startsWith("parte");
 
@@ -139,7 +137,6 @@ function renderChapters(course, book) {
         grid.appendChild(card);
 
     });
-
 }
 /* ===================== */
 /* ===== PARTS ===== */
